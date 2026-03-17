@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Robert E. Gross",
+    "source_node_type": "person",
+    "target_node": "W. Hardy Hendren III",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1955,
+    "end_year": 1960,
+    "temporal_range": "1955-1960",
+    "evidence_citation": "ACS_Archive_Hendren_Obituary",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "ACS Bulletin May 2022 Vol 107 No 5, 'In Memoriam: Dr. W. Hardy Hendren III'; facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2022/may-2022-volume-107-number-5/in-memoriam-dr-w-hardy-hendren-iii/",
+    "confidence": "high",
+    "notes": "W. Hardy Hendren III (1926-2022) graduated from Harvard Medical School (1952), served as intern and assistant resident at MGH, then was senior surgical resident at Boston Children's Hospital under Robert E. Gross (1955-1956). He returned as chief surgical resident at MGH under Churchill (1958) and chief surgical resident at Children's (1959-1960). After completing 8 years of training, Churchill appointed him founding chief of pediatric surgery at MGH (1960). Gross is the primary training mentor for this edge because: (a) Gross directed his pediatric surgical training, (b) Hendren later succeeded Gross's position at Children's, and (c) Hendren was named the first Robert E. Gross Professor of Surgery at Harvard. This extends the chain Halsted→Homans→Gross→Hendren to 4 generations, paralleling the existing Gross→Folkman and Gross→Koop chains. TARGET MODULE: 08_subspecialties"
+  },
+  {
+    "source_node": "W. Hardy Hendren III",
+    "source_node_type": "person",
+    "target_node": "Boston Children's Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1982,
+    "end_year": 1998,
+    "temporal_range": "1982-1998",
+    "evidence_citation": "ACS_Archive_Hendren_Obituary",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "ACS Bulletin May 2022 Vol 107 No 5, 'In Memoriam: Dr. W. Hardy Hendren III'",
+    "confidence": "high",
+    "notes": "In 1982, Hendren was named to the post once held by his mentor Robert Gross: Chief of Surgery at Boston Children's Hospital. He held this position for 16 years, continuing to train surgeons who became chiefs at other institutions. He was the first Robert E. Gross Professor of Surgery at Harvard Medical School. This creates a bidirectional circuit with the existing Ladd→Boston Children's (institutional_founder) edge: Ladd founded the department, trained Gross, who trained Hendren, who returned as chief. The Children's Hospital node goes from degree 1 to degree 2. Hendren also founded the Department of Pediatric Surgery at MGH (1960-1982, under Churchill's appointment) but this is not included as a separate edge to avoid creating an MGH pediatric surgery node distinct from the existing MGH Department of Surgery node. TARGET MODULE: 08_subspecialties"
+  }
+]

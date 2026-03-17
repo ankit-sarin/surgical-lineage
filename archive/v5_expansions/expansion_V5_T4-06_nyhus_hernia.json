@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Henry Harkins",
+    "source_node_type": "person",
+    "target_node": "Lloyd M. Nyhus",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1947,
+    "end_year": 1956,
+    "temporal_range": "1947-1956",
+    "evidence_citation": "DOI: 10.1007/s10029-009-0522-1",
+    "evidence_type": "DOI",
+    "evidence_locator": "https://doi.org/10.1007/s10029-009-0522-1",
+    "confidence": "high",
+    "notes": "Lloyd Milton Nyhus (1923-2008) earned his MD from the Medical College of Alabama (1947) and completed surgical training at the University of Washington under his mentor Henry Harkins, finishing in 1956. He remained on the UW faculty until being recruited to the University of Illinois in 1967. Nyhus co-authored his first hernia publication with Harkins (Nyhus LM, Stevenson JK, Harkins HN, 'Preperitoneal herniorrhaphy,' West J Surg 1959), establishing the preperitoneal approach that bears his name (Nyhus classification). Harkins is already in the graph with Hopkins→Harkins (direct_training) and Harkins→UW (institutional_founder). This edge extends the chain: Hopkins→Harkins→Nyhus→Illinois. Citation is DeBord JR, 'Lloyd Milton Nyhus, MD,' Hernia 2009;13:405-6. PMID upgrade candidate: verify if this DOI has an associated PMID in PubMed. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "Lloyd M. Nyhus",
+    "source_node_type": "person",
+    "target_node": "University of Illinois College of Medicine Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_succession",
+    "start_year": 1967,
+    "end_year": 1989,
+    "temporal_range": "1967-1989",
+    "evidence_citation": "DOI: 10.1007/s10029-009-0522-1",
+    "evidence_type": "DOI",
+    "evidence_locator": "https://doi.org/10.1007/s10029-009-0522-1",
+    "confidence": "high",
+    "notes": "Nyhus was recruited to succeed Warren Cole (already in graph; Cole→Jonasson training edge exists) as Warren H. Cole Professor and Head of the Department of Surgery at the University of Illinois College of Medicine at Chicago in 1967. He held the position for 22 years until 1989, training nearly 300 surgeons. He was named to the Warren H. Cole Chair, explicitly linking his institutional role to Cole's legacy. Nyhus authored the definitive hernia textbook (Hernia, co-authored with Harkins, later with Condon), Mastery of Surgery, and Surgery of the Stomach and Duodenum. He served as chairman of the American Board of Surgery, president of the International Society of Surgery, president of the Society of University Surgeons, and first vice-president of both the ACS and ASA. University of Illinois is a new institutional node, connecting through the implicit Cole lineage. Citation same as training edge. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

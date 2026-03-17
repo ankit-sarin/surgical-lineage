@@ -1,0 +1,17 @@
+[
+  {
+    "source_node": "John Hunter",
+    "source_node_type": "person",
+    "target_node": "Philip Syng Physick",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1788,
+    "end_year": 1791,
+    "temporal_range": "1788-1791",
+    "evidence_citation": "PMID: 22770963",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22770963/",
+    "confidence": "high",
+    "notes": "Philip Syng Physick (1768-1837) traveled to London in 1788 to study under John Hunter at St. George's Hospital, where he learned anatomy from cadaver dissection. On January 1, 1790, Hunter appointed Physick house surgeon — the first American to hold that position at St. George's. Physick received the diploma of the Royal College of Surgeons in 1790 and dedicated his Edinburgh MD thesis on apoplexy to Hunter (1792). Hunter offered Physick a partnership, but Physick returned to Philadelphia in 1792 and was appointed first professor of surgery at the University of Pennsylvania in 1805. Sheldon (JACS 2012) titles Physick explicitly as Hunter's favorite American trainee. This bridge edge merges the Hunter/Cline island (Component 9, 2 nodes in 14_global_military) into the main component via Physick's existing edges in 13_pre_halsted, extending the graph's temporal depth from 1777 (Hunter-Cline) through the entire pre-Halsted American trunk (Physick 1805, Gross 1828, ASA 1880) to the Halstedian era. TARGET MODULE: 13_pre_halsted.json"
+  }
+]

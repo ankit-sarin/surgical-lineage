@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "UCSF Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "William Silen",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1949,
+    "end_year": 1955,
+    "temporal_range": "c. 1949-1955",
+    "evidence_citation": "HMS_Archive_Silen",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Harvard Medical School DICP Faculty Profile; dicp.hms.harvard.edu/awards-and-recognitions/excellence-mentoring-awards/william-silen; Boston Globe obituary Sept 25 2022",
+    "confidence": "high",
+    "notes": "William Silen (1927-2022) graduated from UCSF Medical School (1949) and trained in surgery at UCSF. CORRECTION: The expansion target T2-09 incorrectly stated Silen trained at Hopkins under Blalock. All verified sources (Harvard DICP profile, BIDMC history, obituaries) confirm he trained at UCSF. Exact residency years approximated as c. 1949-1955. This creates a second outgoing training edge for the UCSF Department of Surgery (alongside the existing Dunphy node), extending the West Coast academic surgery network. PMID upgrade candidate: search for Silen tribute in Annals of Surgery or JACS post-2022. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "William Silen",
+    "source_node_type": "person",
+    "target_node": "Beth Israel Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1966,
+    "end_year": 1994,
+    "temporal_range": "1966-1994",
+    "evidence_citation": "BIDMC_Archive_Silen",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Beth Israel Deaconess Medical Center Historical Timeline; bidmc.org/about/history",
+    "confidence": "high",
+    "notes": "Silen was chief of surgery at Beth Israel Hospital (BIH) and the Johnson and Johnson Professor of Surgery at Harvard Medical School from 1966 to 1994, a 28-year tenure that built BIH into a major Harvard surgical training program. He edited Cope's Early Diagnosis of the Acute Abdomen for generations and published landmark work on stress ulcer pathogenesis. After stepping down as chair, he became the first Dean for Faculty Development and Diversity at Harvard Medical School. Edge typed as institutional_founder rather than governance_leadership because Silen effectively created the modern BIH surgical program as a nationally recognized training center. Creates a new institutional node (Beth Israel Hospital Department of Surgery) in the Harvard ecosystem alongside the existing Brigham and MGH nodes. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

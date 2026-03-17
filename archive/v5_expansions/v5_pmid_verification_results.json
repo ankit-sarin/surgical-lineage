@@ -1,0 +1,360 @@
+[
+  {
+    "pmid": "9465770",
+    "status": "PASS",
+    "first_author": "Modlin",
+    "journal": "World J Surg",
+    "year": "1998",
+    "title": "Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted.",
+    "surname_match": "Kocher, Cushing, Halsted",
+    "all_authors": [
+      "Modlin"
+    ],
+    "mesh_persons": [
+      "Kocher",
+      "Cushing",
+      "Halsted"
+    ]
+  },
+  {
+    "pmid": "10359266",
+    "status": "FAIL",
+    "first_author": "Stelnicki",
+    "journal": "Plast Reconstr Surg",
+    "year": "1999",
+    "title": "Vilray P. Blair, his surgical descendants, and their roles in plastic surgical development.",
+    "surname_match": "NONE",
+    "all_authors": [
+      "Stelnicki",
+      "Young",
+      "Francel",
+      "Randall"
+    ],
+    "mesh_persons": [
+      "Blair"
+    ]
+  },
+  {
+    "pmid": "12296669",
+    "status": "PASS",
+    "first_author": "Keller",
+    "journal": "J Neurosurg",
+    "year": "2002",
+    "title": "California's Cushing connection: Harvey Cushing trained California's first neurosurgeons.",
+    "surname_match": "Naffziger, Cushing, California",
+    "all_authors": [
+      "Keller"
+    ],
+    "mesh_persons": [
+      "Naffziger",
+      "Rand",
+      "Towne"
+    ]
+  },
+  {
+    "pmid": "12717368",
+    "status": "PASS",
+    "first_author": "Najarian",
+    "journal": "Surgery",
+    "year": "2003",
+    "title": "Richard L. Varco, MD, PhD: the compleat academic surgeon.",
+    "surname_match": "Varco, Najarian",
+    "all_authors": [
+      "Najarian"
+    ],
+    "mesh_persons": [
+      "Varco"
+    ]
+  },
+  {
+    "pmid": "12946817",
+    "status": "PASS",
+    "first_author": "Lewis",
+    "journal": "Am J Surg",
+    "year": "2003",
+    "title": "A biography of Robert Milton Zollinger, M.D.",
+    "surname_match": "Zollinger",
+    "all_authors": [
+      "Lewis",
+      "Van Brimmer"
+    ],
+    "mesh_persons": [
+      "Zollinger"
+    ]
+  },
+  {
+    "pmid": "12946818",
+    "status": "PASS",
+    "first_author": "Zollinger",
+    "journal": "Am J Surg",
+    "year": "2003",
+    "title": "A history of the Ohio State University Department of Surgery.",
+    "surname_match": "Zollinger, Ohio State",
+    "all_authors": [
+      "Zollinger",
+      "Ellison"
+    ],
+    "mesh_persons": [
+      "Zollinger"
+    ]
+  },
+  {
+    "pmid": "14606488",
+    "status": "PASS",
+    "first_author": "Barker",
+    "journal": "Proc Am Philos Soc",
+    "year": "2003",
+    "title": "Introduction to the symposium in honor of Jonathan E. Rhoads.",
+    "surname_match": "Rhoads, Barker",
+    "all_authors": [
+      "Barker"
+    ],
+    "mesh_persons": [
+      "Rhoads"
+    ]
+  },
+  {
+    "pmid": "14703738",
+    "status": "PASS",
+    "first_author": "Chitwood",
+    "journal": "Ann Surg",
+    "year": "2003",
+    "title": "The Sabiston heritage: excellence in surgical education.",
+    "surname_match": "Sabiston",
+    "all_authors": [
+      "Chitwood"
+    ],
+    "mesh_persons": [
+      "Sabiston"
+    ]
+  },
+  {
+    "pmid": "18286472",
+    "status": "PASS",
+    "first_author": "Singer",
+    "journal": "J Surg Oncol",
+    "year": "2008",
+    "title": "A tribute to Murray F. Brennan, MD.",
+    "surname_match": "Brennan",
+    "all_authors": [
+      "Singer"
+    ],
+    "mesh_persons": [
+      "Brennan"
+    ]
+  },
+  {
+    "pmid": "18294269",
+    "status": "FAIL",
+    "first_author": "Perera",
+    "journal": "Colorectal Dis",
+    "year": "2008",
+    "title": "Sexual and urinary dysfunction following rectal dissection compared with segmental colectomy.",
+    "surname_match": "NONE",
+    "all_authors": [
+      "Perera",
+      "Deen",
+      "Wijesuriya",
+      "Kumarage",
+      "De Zylva",
+      "Ariyaratne"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "22136854",
+    "status": "PASS",
+    "first_author": "Thompson",
+    "journal": "Surgery",
+    "year": "2011",
+    "title": "The founding of the American Association of Endocrine Surgeons: the time was right.",
+    "surname_match": "Thompson",
+    "all_authors": [
+      "Thompson"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "22248679",
+    "status": "PASS",
+    "first_author": "Beaty",
+    "journal": "J Thorac Cardiovasc Surg",
+    "year": "2012",
+    "title": "Historical perspectives of The American Association for Thoracic Surgery: Alfred Blalock (1899-1964).",
+    "surname_match": "Blalock, Conte",
+    "all_authors": [
+      "Beaty",
+      "George",
+      "Conte"
+    ],
+    "mesh_persons": [
+      "Blalock"
+    ]
+  },
+  {
+    "pmid": "22770963",
+    "status": "PASS",
+    "first_author": "Sheldon",
+    "journal": "J Am Coll Surg",
+    "year": "2012",
+    "title": "To the shade of John Hunter: Philip Syng Physick of Philadelphia, \"the father of American Surgery\"-Hunter's favorite American trainee.",
+    "surname_match": "Hunter, Physick",
+    "all_authors": [
+      "Sheldon"
+    ],
+    "mesh_persons": [
+      "Hunter",
+      "Physick"
+    ]
+  },
+  {
+    "pmid": "25135240",
+    "status": "FAIL",
+    "first_author": "D'Amico",
+    "journal": "J Thorac Cardiovasc Surg",
+    "year": "2015",
+    "title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009).",
+    "surname_match": "NONE",
+    "all_authors": [
+      "D'Amico"
+    ],
+    "mesh_persons": [
+      "Sabiston"
+    ]
+  },
+  {
+    "pmid": "25135241",
+    "status": "PASS",
+    "first_author": "DeAnda",
+    "journal": "J Thorac Cardiovasc Surg",
+    "year": "2015",
+    "title": "Historical perspectives of The American Association for Thoracic Surgery: Keith Reemtsma (1925-2000).",
+    "surname_match": "Reemtsma, DeAnda",
+    "all_authors": [
+      "DeAnda",
+      "Balsam"
+    ],
+    "mesh_persons": [
+      "Reemtsma"
+    ]
+  },
+  {
+    "pmid": "26811046",
+    "status": "PASS",
+    "first_author": "Woo",
+    "journal": "Semin Thorac Cardiovasc Surg",
+    "year": "2015",
+    "title": "One Hundred Years of History at Stanford University: Thoracic and Cardiovascular Surgery.",
+    "surname_match": "Stanford, Woo",
+    "all_authors": [
+      "Woo",
+      "Reitz"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "31944281",
+    "status": "PASS",
+    "first_author": "Printz",
+    "journal": "Cancer",
+    "year": "2020",
+    "title": "First person profile: Sir Murray Brennan, MD: A legendary surgical oncologist, Dr. Brennan's research on soft tissue sarcomas and his willingness to mentor others have left a mark on the field.",
+    "surname_match": "Brennan, Printz",
+    "all_authors": [
+      "Printz"
+    ],
+    "mesh_persons": [
+      "Brennan"
+    ]
+  },
+  {
+    "pmid": "32106907",
+    "status": "PASS",
+    "first_author": "Abeshouse",
+    "journal": "Am Surg",
+    "year": "2020",
+    "title": "Mark M. Ravitch: A Staple in Surgical History and Innovation.",
+    "surname_match": "Ravitch",
+    "all_authors": [
+      "Abeshouse",
+      "Goldstein",
+      "Phillips"
+    ],
+    "mesh_persons": [
+      "Ravitch"
+    ]
+  },
+  {
+    "pmid": "33421312",
+    "status": "FAIL",
+    "first_author": "Choi",
+    "journal": "Acta Ophthalmol",
+    "year": "2021",
+    "title": "Clinical outcomes of combined pars plana vitrectomy and scleral fixation of the intraocular lens with a suspension bridge method in eyes with aphakia or insufficient capsular support.",
+    "surname_match": "NONE",
+    "all_authors": [
+      "Choi",
+      "Kwon",
+      "Byeon",
+      "Song"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "37439820",
+    "status": "PASS",
+    "first_author": "Eriksson",
+    "journal": "Surg Endosc",
+    "year": "2023",
+    "title": "Chevalier Jackson: father of endoscopic surgery, and champion of women in medicine, social justice, and public health.",
+    "surname_match": "Jackson",
+    "all_authors": [
+      "Eriksson",
+      "Jobe",
+      "Ayazi"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "37601473",
+    "status": "FAIL",
+    "first_author": "Bharani",
+    "journal": "Ann Surg Open",
+    "year": "2023",
+    "title": "Beauty Borne out of Chaos: Molding a Surgical Subspecialty Through the World Wars.",
+    "surname_match": "NONE",
+    "all_authors": [
+      "Bharani",
+      "Yeo"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "37746597",
+    "status": "PASS",
+    "first_author": "Merrill",
+    "journal": "Ann Surg Open",
+    "year": "2023",
+    "title": "Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD, A Surgeon Nonpareil.",
+    "surname_match": "Scott",
+    "all_authors": [
+      "Merrill",
+      "Geevarghese"
+    ],
+    "mesh_persons": []
+  },
+  {
+    "pmid": "39257568",
+    "status": "PASS",
+    "first_author": "Knechtle",
+    "journal": "Front Transplant",
+    "year": "2024",
+    "title": "R. Randal Bollinger, M.D., Ph.D., Master Surgeon.",
+    "surname_match": "Bollinger",
+    "all_authors": [
+      "Knechtle",
+      "Kirk"
+    ],
+    "mesh_persons": []
+  }
+]

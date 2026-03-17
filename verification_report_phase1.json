@@ -1,0 +1,905 @@
+{
+  "run_date": "2026-03-17",
+  "pmids_checked": 137,
+  "pmids_passed": 135,
+  "pmids_failed": 2,
+  "dois_checked": 8,
+  "dois_passed": 7,
+  "dois_failed": 1,
+  "edge_summary": {
+    "pmid_edges_verified": 201,
+    "pmid_edges_failed": 2,
+    "doi_edges_verified": 9,
+    "doi_edges_failed": 1,
+    "total_stamped": 213,
+    "archive_edges_skipped": 172
+  },
+  "failures": [
+    {
+      "doi": "10.1007/s00268-022-06710-1",
+      "modules": [
+        "02_general_surgery_spread.json"
+      ],
+      "edges": [
+        "Haile T. Debas → UCSF Department of Surgery"
+      ],
+      "error": "HTTP 404"
+    },
+    {
+      "pmid": "19763730",
+      "modules": [
+        "06_orthopedics.json"
+      ],
+      "edges": [
+        "Virgil Gibney → American Orthopaedic Association"
+      ],
+      "error": "No PubmedArticle returned"
+    },
+    {
+      "pmid": "15354259",
+      "modules": [
+        "14_global_military.json"
+      ],
+      "edges": [
+        "Theodor Billroth → Vienna General Hospital Second Surgical Clinic"
+      ],
+      "error": "No PubmedArticle returned"
+    }
+  ],
+  "verified_pmid_map": {
+    "10359266": {
+      "status": "verified",
+      "title": "Vilray P. Blair, his surgical descendants, and their roles in plastic surgical development.",
+      "journal": "Plast Reconstr Surg",
+      "year": "1999"
+    },
+    "10389176": {
+      "status": "verified",
+      "title": "Ionic mechanisms underlying TRH-induced prolactin secretion in rat lactotrophs.",
+      "journal": "Ross Fiziol Zh Im I M Sechenova",
+      "year": "1999"
+    },
+    "10452656": {
+      "status": "verified",
+      "title": "Pneumocystis carinii pneumonia mimicking Wegener's granulomatosis.",
+      "journal": "Clin Infect Dis",
+      "year": "1999"
+    },
+    "10456202": {
+      "status": "verified",
+      "title": "Renal tubular acidosis.",
+      "journal": "Ann Clin Biochem",
+      "year": "1999"
+    },
+    "10457723": {
+      "status": "verified",
+      "title": "Malpractice claims and the quest for perfection.",
+      "journal": "Minn Med",
+      "year": "1999"
+    },
+    "10493481": {
+      "status": "verified",
+      "title": "Detrimental effects of standard medical therapy in congenital diaphragmatic hernia.",
+      "journal": "Ann Surg",
+      "year": "1999"
+    },
+    "10527140": {
+      "status": "verified",
+      "title": "Because \"it is necessary to affix right ideas to words\". Thomas Paine, The Age of Reason, 1794.",
+      "journal": "J Neurosurg Anesthesiol",
+      "year": "1999"
+    },
+    "10562635": {
+      "status": "verified",
+      "title": "Role of the spleen in the exaggerated polycythemic response to hypoxia in chronic mountain sickness in rats.",
+      "journal": "J Appl Physiol (1985)",
+      "year": "1999"
+    },
+    "10818976": {
+      "status": "verified",
+      "title": "The history of the Campbell Clinic.",
+      "journal": "Clin Orthop Relat Res",
+      "year": "2000"
+    },
+    "10871146": {
+      "status": "verified",
+      "title": "Effects of ultrasound and stretch on knee ligament extensibility.",
+      "journal": "J Orthop Sports Phys Ther",
+      "year": "2000"
+    },
+    "10926590": {
+      "status": "verified",
+      "title": "My cuban experience.",
+      "journal": "BMJ",
+      "year": "2000"
+    },
+    "11153604": {
+      "status": "verified",
+      "title": "Lung cancer in young females.",
+      "journal": "Eur Respir J",
+      "year": "2000"
+    },
+    "11452297": {
+      "status": "verified",
+      "title": "Aerodynamics. Insects can halve wind-turbine power.",
+      "journal": "Nature",
+      "year": "2001"
+    },
+    "11469062": {
+      "status": "verified",
+      "title": "Pediatric neuroanesthesia. Arteriovenous malformations.",
+      "journal": "Anesthesiol Clin North Am",
+      "year": "2001"
+    },
+    "11845877": {
+      "status": "verified",
+      "title": "Myocardial protection by PJ34, a novel potent poly (ADP-ribose) synthetase inhibitor.",
+      "journal": "Ann Thorac Surg",
+      "year": "2002"
+    },
+    "11930218": {
+      "status": "verified",
+      "title": "[Modification of membrane lipid of human umbilical vein endothelia cells after direct lipopolysaccharide injury].",
+      "journal": "Sheng Li Xue Bao",
+      "year": "2001"
+    },
+    "11986019": {
+      "status": "verified",
+      "title": "American Hepato-Pancreato-Biliary Association: who are we and where are we going?",
+      "journal": "J Gastrointest Surg",
+      "year": "2002"
+    },
+    "12150380": {
+      "status": "verified",
+      "title": "Validity and reliability of the reflux symptom index (RSI).",
+      "journal": "J Voice",
+      "year": "2002"
+    },
+    "12192325": {
+      "status": "verified",
+      "title": "Prospective screening for blunt cerebrovascular injuries: analysis of diagnostic modalities and outcomes.",
+      "journal": "Ann Surg",
+      "year": "2002"
+    },
+    "12296669": {
+      "status": "verified",
+      "title": "California's Cushing connection: Harvey Cushing trained California's first neurosurgeons.",
+      "journal": "J Neurosurg",
+      "year": "2002"
+    },
+    "12544287": {
+      "status": "verified",
+      "title": "Hugh Hampton Young: father of American urology.",
+      "journal": "J Urol",
+      "year": "2003"
+    },
+    "12563656": {
+      "status": "verified",
+      "title": "Sterling Bunnell, MD: the founding father.",
+      "journal": "J Hand Surg Am",
+      "year": "2003"
+    },
+    "12717368": {
+      "status": "verified",
+      "title": "Richard L. Varco, MD, PhD: the compleat academic surgeon.",
+      "journal": "Surgery",
+      "year": "2003"
+    },
+    "12946817": {
+      "status": "verified",
+      "title": "A biography of Robert Milton Zollinger, M.D.",
+      "journal": "Am J Surg",
+      "year": "2003"
+    },
+    "12946818": {
+      "status": "verified",
+      "title": "A history of the Ohio State University Department of Surgery.",
+      "journal": "Am J Surg",
+      "year": "2003"
+    },
+    "13032549": {
+      "status": "verified",
+      "title": "The hazards of pregnancy in women with heart disease.",
+      "journal": "Br Med J",
+      "year": "1953"
+    },
+    "14530774": {
+      "status": "verified",
+      "title": "Drotrecogin alfa (activated) administration: too many subgroups.",
+      "journal": "Crit Care Med",
+      "year": "2003"
+    },
+    "14606488": {
+      "status": "verified",
+      "title": "Introduction to the symposium in honor of Jonathan E. Rhoads.",
+      "journal": "Proc Am Philos Soc",
+      "year": "2003"
+    },
+    "14703738": {
+      "status": "verified",
+      "title": "The Sabiston heritage: excellence in surgical education.",
+      "journal": "Ann Surg",
+      "year": "2003"
+    },
+    "14905833": {
+      "status": "verified",
+      "title": "[Tumors of the breast and hormone therapy].",
+      "journal": "Concours Med",
+      "year": "1952"
+    },
+    "15007469": {
+      "status": "verified",
+      "title": "[Preliminary experience of 16-layer three-dimensional computed tomography in diagnosis and treatment of arteriovenous malformations].",
+      "journal": "Shanghai Kou Qiang Yi Xue",
+      "year": "2004"
+    },
+    "15043226": {
+      "status": "verified",
+      "title": "Pioneering contributions of Peter Safar to intensive care and the founding of the Society of Critical Care Medicine.",
+      "journal": "Crit Care Med",
+      "year": "2004"
+    },
+    "15263901": {
+      "status": "verified",
+      "title": "Bdellovibrio as therapeutic agents: a predatory renaissance?",
+      "journal": "Nat Rev Microbiol",
+      "year": "2004"
+    },
+    "15523385": {
+      "status": "verified",
+      "title": "Edward D. Churchill and the \"rectangular\" surgical residency.",
+      "journal": "Surgery",
+      "year": "2004"
+    },
+    "15631913": {
+      "status": "verified",
+      "title": "The first successful organ transplants in man.",
+      "journal": "J Am Coll Surg",
+      "year": "2005"
+    },
+    "16544065": {
+      "status": "verified",
+      "title": "George Berci: past, present, and future.",
+      "journal": "Surg Endosc",
+      "year": "2006"
+    },
+    "16632995": {
+      "status": "verified",
+      "title": "The Southern Surgical Association History of Medicine Scholarship presentation: Dr. Charles Drew, a surgical pioneer.",
+      "journal": "Ann Surg",
+      "year": "2006"
+    },
+    "16730164": {
+      "status": "verified",
+      "title": "Therapeutic options: Addressing the current dilemma.",
+      "journal": "Eur Neuropsychopharmacol",
+      "year": "2006"
+    },
+    "16809223": {
+      "status": "verified",
+      "title": "Samuel D. Gross: the nestor of American surgery.",
+      "journal": "J Invest Surg",
+      "year": "2006"
+    },
+    "17120942": {
+      "status": "verified",
+      "title": "The Surgical Infection Prevention and Surgical Care Improvement Projects: promises and pitfalls.",
+      "journal": "Am Surg",
+      "year": "2006"
+    },
+    "17275843": {
+      "status": "verified",
+      "title": "In memoriam: a tribute to dr. Owen H. Wangensteen, the greatest teacher of surgery during the 20th century (1898-1981).",
+      "journal": "J Surg Res",
+      "year": "2007"
+    },
+    "17416546": {
+      "status": "verified",
+      "title": "Shopping for plastids.",
+      "journal": "Trends Plant Sci",
+      "year": "2007"
+    },
+    "17437775": {
+      "status": "verified",
+      "title": "The discovery of the cavernous nerves and development of nerve sparing radical retropubic prostatectomy.",
+      "journal": "J Urol",
+      "year": "2007"
+    },
+    "17473177": {
+      "status": "verified",
+      "title": "Transmitted Resistance: An Overview and Its Potential Relevance to the Management of HIV-Infected Persons in Resource-Limited Settings.",
+      "journal": "J Int Assoc Physicians AIDS Care (Chic)",
+      "year": "2007"
+    },
+    "18196369": {
+      "status": "verified",
+      "title": "Arthroplasty of the elbow : Willis C. Campbell MD (1880-1941). The 2nd president of the AAOS 1933.",
+      "journal": "Clin Orthop Relat Res",
+      "year": "2008"
+    },
+    "18286472": {
+      "status": "verified",
+      "title": "A tribute to Murray F. Brennan, MD.",
+      "journal": "J Surg Oncol",
+      "year": "2008"
+    },
+    "1830346": {
+      "status": "verified",
+      "title": "Laparoscopic nephrectomy: initial case report.",
+      "journal": "J Urol",
+      "year": "1991"
+    },
+    "18344917": {
+      "status": "verified",
+      "title": "[Atherosclerosis inflammation and rheumatic diseases].",
+      "journal": "Acta Reumatol Port",
+      "year": "2008"
+    },
+    "18412001": {
+      "status": "verified",
+      "title": "The ancient art of leadership.",
+      "journal": "Nurs Manag (Harrow)",
+      "year": "2008"
+    },
+    "18481473": {
+      "status": "verified",
+      "title": "Edward E. Cornwell III, MD, FACS, FCCM.",
+      "journal": "J Natl Med Assoc",
+      "year": "2008"
+    },
+    "18650631": {
+      "status": "verified",
+      "title": "Total number of resected lymph nodes predicts survival in esophageal cancer.",
+      "journal": "Ann Surg",
+      "year": "2008"
+    },
+    "18693427": {
+      "status": "verified",
+      "title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "journal": "Sheng Wu Yi Xue Gong Cheng Xue Za Zhi",
+      "year": "2008"
+    },
+    "19048348": {
+      "status": "verified",
+      "title": "The Hospital for the Ruptured and Crippled renamed the Hospital for Special Surgery 1940; the war years 1941-1945.",
+      "journal": "HSS J",
+      "year": "2009"
+    },
+    "19099052": {
+      "status": "verified",
+      "title": "Women surgeons--still in a male-dominated world.",
+      "journal": "Yale J Biol Med",
+      "year": "2008"
+    },
+    "1919711": {
+      "status": "verified",
+      "title": "Origins of Wilder Penfield's surgical technique. The role of the \"Cushing ritual\" and influences from the European experience.",
+      "journal": "J Neurosurg",
+      "year": "1991"
+    },
+    "19522575": {
+      "status": "verified",
+      "title": "The history of neurosurgery in Memphis: the Semmes-Murphey Clinic and the Department of Neurosurgery at the University of Tennessee College of Medicine.",
+      "journal": "J Neurosurg",
+      "year": "2010"
+    },
+    "19685166": {
+      "status": "verified",
+      "title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
+      "journal": "Mol Biol Rep",
+      "year": "2010"
+    },
+    "20305736": {
+      "status": "verified",
+      "title": "Biomarkers of Psychological Stress in Health Disparities Research.",
+      "journal": "Open Biomark J",
+      "year": "2008"
+    },
+    "20436531": {
+      "status": "verified",
+      "title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
+      "journal": "Can J Ophthalmol",
+      "year": "2010"
+    },
+    "20852975": {
+      "status": "verified",
+      "title": "Biographical sketch: Sir John Charnley MD, 1911-1982.",
+      "journal": "Clin Orthop Relat Res",
+      "year": "2010"
+    },
+    "21173278": {
+      "status": "verified",
+      "title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2011"
+    },
+    "21820677": {
+      "status": "verified",
+      "title": "Historical perspectives of The American Association for Thoracic Surgery: Evarts A. Graham (1883-1957).",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "2011"
+    },
+    "21856431": {
+      "status": "verified",
+      "title": "The future of fMRI in cognitive neuroscience.",
+      "journal": "Neuroimage",
+      "year": "2012"
+    },
+    "22136854": {
+      "status": "verified",
+      "title": "The founding of the American Association of Endocrine Surgeons: the time was right.",
+      "journal": "Surgery",
+      "year": "2011"
+    },
+    "22248679": {
+      "status": "verified",
+      "title": "Historical perspectives of The American Association for Thoracic Surgery: Alfred Blalock (1899-1964).",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "2012"
+    },
+    "22770963": {
+      "status": "verified",
+      "title": "To the shade of John Hunter: Philip Syng Physick of Philadelphia, \"the father of American Surgery\"-Hunter's favorite American trainee.",
+      "journal": "J Am Coll Surg",
+      "year": "2012"
+    },
+    "23225838": {
+      "status": "verified",
+      "title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
+      "journal": "Eye Sci",
+      "year": "2012"
+    },
+    "23997672": {
+      "status": "verified",
+      "title": "The american board of colon and rectal surgery: past, present, and future.",
+      "journal": "Clin Colon Rectal Surg",
+      "year": "2012"
+    },
+    "24002773": {
+      "status": "verified",
+      "title": "Clinical significance of incidental pulmonary nodules in esophageal cancer patients.",
+      "journal": "J Gastrointest Surg",
+      "year": "2014"
+    },
+    "24317546": {
+      "status": "verified",
+      "title": "Why fundamentals of endoscopic surgery (FES)?",
+      "journal": "Surg Endosc",
+      "year": "2014"
+    },
+    "2446522": {
+      "status": "verified",
+      "title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "journal": "Anasth Intensivther Notfallmed",
+      "year": "1987"
+    },
+    "2446524": {
+      "status": "verified",
+      "title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "journal": "Anal Biochem",
+      "year": "1987"
+    },
+    "24502913": {
+      "status": "verified",
+      "title": "The American College of Surgeons publications: a brief history.",
+      "journal": "J Am Coll Surg",
+      "year": "2014"
+    },
+    "24753609": {
+      "status": "verified",
+      "title": "An outer membrane channel protein of Mycobacterium tuberculosis with exotoxin activity.",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2014"
+    },
+    "2504092": {
+      "status": "verified",
+      "title": "Long-term mechanical ventilation in pediatric respiratory failure: medical and ethical considerations.",
+      "journal": "Am Rev Respir Dis",
+      "year": "1989"
+    },
+    "25135240": {
+      "status": "verified",
+      "title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009).",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "2015"
+    },
+    "25135241": {
+      "status": "verified",
+      "title": "Historical perspectives of The American Association for Thoracic Surgery: Keith Reemtsma (1925-2000).",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "2015"
+    },
+    "25281376": {
+      "status": "verified",
+      "title": "Positive regulation of botulinum neurotoxin gene expression by CodY in Clostridium botulinum ATCC 3502.",
+      "journal": "Appl Environ Microbiol",
+      "year": "2014"
+    },
+    "25442801": {
+      "status": "verified",
+      "title": "CT density distribution analysis in patients with cystic fibrosis: correlation with pulmonary function and radiologic scores.",
+      "journal": "Acad Radiol",
+      "year": "2015"
+    },
+    "26645476": {
+      "status": "verified",
+      "title": "The global burden of major infectious complications following prostate biopsy.",
+      "journal": "Epidemiol Infect",
+      "year": "2016"
+    },
+    "2679173": {
+      "status": "verified",
+      "title": "Dr. Hayes Martin: surgeon, leader, teacher, and founder of our society.",
+      "journal": "Am J Surg",
+      "year": "1989"
+    },
+    "26811046": {
+      "status": "verified",
+      "title": "One Hundred Years of History at Stanford University: Thoracic and Cardiovascular Surgery.",
+      "journal": "Semin Thorac Cardiovasc Surg",
+      "year": "2015"
+    },
+    "2682975": {
+      "status": "verified",
+      "title": "[Amebiasis. Surgical treatment in 1989].",
+      "journal": "Rev Gastroenterol Mex",
+      "year": "1989"
+    },
+    "27549999": {
+      "status": "verified",
+      "title": "The History and Founding Organizations of the American Board of Ophthalmology.",
+      "journal": "Ophthalmology",
+      "year": "2016"
+    },
+    "27550008": {
+      "status": "verified",
+      "title": "Creation of the American Board of Ophthalmology: The Role of the American Ophthalmological Society.",
+      "journal": "Ophthalmology",
+      "year": "2016"
+    },
+    "2774706": {
+      "status": "verified",
+      "title": "The skill, science, and soul of the surgeon.",
+      "journal": "Ann Surg",
+      "year": "1989"
+    },
+    "28461793": {
+      "status": "verified",
+      "title": "Nina Braunwald: A Female Pioneer in Cardiac Surgery.",
+      "journal": "Tex Heart Inst J",
+      "year": "2017"
+    },
+    "28471761": {
+      "status": "verified",
+      "title": "American Exceptionalism and the American Surgical Association: The Rise of Surgery in the United States.",
+      "journal": "Ann Surg",
+      "year": "2018"
+    },
+    "28489324": {
+      "status": "verified",
+      "title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
+      "journal": "Catheter Cardiovasc Interv",
+      "year": "2017"
+    },
+    "28791702": {
+      "status": "verified",
+      "title": "Developmental neurotoxicity of the organophosphorus insecticide chlorpyrifos: from clinical findings to preclinical models and potential mechanisms.",
+      "journal": "J Neurochem",
+      "year": "2017"
+    },
+    "28795858": {
+      "status": "verified",
+      "title": "The History of Enhanced Recovery After Surgery and the ERAS Society.",
+      "journal": "J Laparoendosc Adv Surg Tech A",
+      "year": "2017"
+    },
+    "28918957": {
+      "status": "verified",
+      "title": "Introduction to the 2017 Founders' Lecture of the Association for Academic Surgery.",
+      "journal": "J Surg Res",
+      "year": "2017"
+    },
+    "29189382": {
+      "status": "verified",
+      "title": "John L. Cameron: A Historical Perspective.",
+      "journal": "Ann Surg",
+      "year": "2018"
+    },
+    "29336762": {
+      "status": "verified",
+      "title": "R A Cowley, the \"Golden Hour,\" the \"Momentary Pause,\" and the \"Third Space\".",
+      "journal": "Am Surg",
+      "year": "2017"
+    },
+    "29681553": {
+      "status": "verified",
+      "title": "The Radicalization of Breast Cancer Surgery: Joseph Colt Bloodgood's Role in William Stewart Halsted's Legacy.",
+      "journal": "Bull Hist Med",
+      "year": "2018"
+    },
+    "29766096": {
+      "status": "verified",
+      "title": "Specialization in acute care surgery in low-income and middle-income countries.",
+      "journal": "Trauma Surg Acute Care Open",
+      "year": "2017"
+    },
+    "3015495": {
+      "status": "verified",
+      "title": "Restriction enzyme polymorphisms in V kappa and J kappa genes of inbred and wild mice.",
+      "journal": "Curr Top Microbiol Immunol",
+      "year": "1986"
+    },
+    "31003229": {
+      "status": "verified",
+      "title": "Optimal Muscle Selection for OnabotulinumtoxinA Injections in Poststroke Lower-Limb Spasticity: A Randomized Trial.",
+      "journal": "Am J Phys Med Rehabil",
+      "year": "2019"
+    },
+    "31659590": {
+      "status": "verified",
+      "title": "Human Serum Albumin, a Suitable Candidate to Stabilize Freeze-Dried IgG in Combination with Trehalose: Central Composite Design.",
+      "journal": "AAPS PharmSciTech",
+      "year": "2019"
+    },
+    "31944281": {
+      "status": "verified",
+      "title": "First person profile: Sir Murray Brennan, MD: A legendary surgical oncologist, Dr. Brennan's research on soft tissue sarcomas and his willingness to mentor others have left a mark on the field.",
+      "journal": "Cancer",
+      "year": "2020"
+    },
+    "31944636": {
+      "status": "verified",
+      "title": "Necessity is the mother of invention: William Stewart Halsted’s addiction and its influence on the development of residency training in North America.",
+      "journal": "Can J Surg",
+      "year": "2020"
+    },
+    "32106907": {
+      "status": "verified",
+      "title": "Mark M. Ravitch: A Staple in Surgical History and Innovation.",
+      "journal": "Am Surg",
+      "year": "2020"
+    },
+    "32193716": {
+      "status": "verified",
+      "title": "Special Article Celebrating SSO 80th Anniversary: William Stewart MacComb-The Father of the Society of Surgical Oncology (SSO) and a Pioneering Surgical Oncologist.",
+      "journal": "Ann Surg Oncol",
+      "year": "2020"
+    },
+    "32808916": {
+      "status": "verified",
+      "title": "Edward D. Churchill (1895-1972): An Innovative Surgeon, His Work, and His Contribution to Parathyroid Surgery.",
+      "journal": "Surg Innov",
+      "year": "2021"
+    },
+    "33065539": {
+      "status": "verified",
+      "title": "Continuous improvement in patient safety and quality in neurological surgery: the American Board of Neurological Surgery in the past, present, and future.",
+      "journal": "J Neurosurg",
+      "year": "2021"
+    },
+    "3421751": {
+      "status": "verified",
+      "title": "Education of a surgical chairman.",
+      "journal": "Ann Surg",
+      "year": "1988"
+    },
+    "34388715": {
+      "status": "verified",
+      "title": "The birth of experimental neurosurgery: Wilder Penfield at Montreal's Royal Victoria Hospital, 1928-1934.",
+      "journal": "J Neurosurg",
+      "year": "2022"
+    },
+    "34462877": {
+      "status": "verified",
+      "title": "Correction to: Elevated ad libitum alcohol consumption following continuous theta burst stimulation to the left-dorsolateral prefrontal cortex is partially mediated by changes in craving.",
+      "journal": "Cogn Affect Behav Neurosci",
+      "year": "2021"
+    },
+    "34645295": {
+      "status": "verified",
+      "title": "Joseph Murray: Pioneering Plastic Surgeon and Father of the First Organ Transplant.",
+      "journal": "Am Surg",
+      "year": "2023"
+    },
+    "34991349": {
+      "status": "verified",
+      "title": "A Short History of Bernard Fisher's Contributions to Randomized Clinical Trials.",
+      "journal": "Clin Trials",
+      "year": "2022"
+    },
+    "35001182": {
+      "status": "verified",
+      "title": "Lateral chest wall perforator flaps in partial breast reconstruction.",
+      "journal": "J Egypt Natl Canc Inst",
+      "year": "2022"
+    },
+    "3524368": {
+      "status": "verified",
+      "title": "Differential structure and distribution of the high molecular weight brain microtubule-associated proteins, MAP-1 and MAP-2.",
+      "journal": "Ann N Y Acad Sci",
+      "year": "1986"
+    },
+    "35430661": {
+      "status": "verified",
+      "title": "2022 SSO Presidential Address: What is a Surgical Oncologist? Evolution of Surgical Oncology and the Society of Surgical Oncology in an Era of Hyperspecialization.",
+      "journal": "Ann Surg Oncol",
+      "year": "2022"
+    },
+    "356789": {
+      "status": "verified",
+      "title": "Presidential address. Alfred Blalock.",
+      "journal": "Ann Surg",
+      "year": "1978"
+    },
+    "35731977": {
+      "status": "verified",
+      "title": "Legacy of Dr. Victor Fazio, Master of Pouch Surgery.",
+      "journal": "Dis Colon Rectum",
+      "year": "2022"
+    },
+    "36320443": {
+      "status": "verified",
+      "title": "Professor Leslie H. Blumgart-Pioneering Hepatopancreaticobiliary Surgeon: a Tribute.",
+      "journal": "Indian J Surg",
+      "year": "2022"
+    },
+    "36565264": {
+      "status": "verified",
+      "title": "Ernest Amory Codman and the End Result Idea in Surgical Quality.",
+      "journal": "Am Surg",
+      "year": "2023"
+    },
+    "373268": {
+      "status": "verified",
+      "title": "Joseph Marshall Flint and the whole-time system at Yale. The Samuel Clark Harvey Lecture in the History of Medicine March 21, 1977. Medical Historical Library. Yale University School of Medicine.",
+      "journal": "Yale J Biol Med",
+      "year": "1978"
+    },
+    "37439820": {
+      "status": "verified",
+      "title": "Chevalier Jackson: father of endoscopic surgery, and champion of women in medicine, social justice, and public health.",
+      "journal": "Surg Endosc",
+      "year": "2023"
+    },
+    "37601473": {
+      "status": "verified",
+      "title": "Beauty Borne out of Chaos: Molding a Surgical Subspecialty Through the World Wars.",
+      "journal": "Ann Surg Open",
+      "year": "2023"
+    },
+    "37746597": {
+      "status": "verified",
+      "title": "Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD, A Surgeon Nonpareil.",
+      "journal": "Ann Surg Open",
+      "year": "2023"
+    },
+    "37941365": {
+      "status": "verified",
+      "title": "Dr. Allen Oldfather Whipple (1881-1963): Namesake of the pancreaticoduodenectomy.",
+      "journal": "J Med Biogr",
+      "year": "2025"
+    },
+    "3800732": {
+      "status": "verified",
+      "title": "Internal sclerectomy for glaucoma filtering surgery with an automated trephine.",
+      "journal": "Arch Ophthalmol",
+      "year": "1987"
+    },
+    "39177806": {
+      "status": "verified",
+      "title": "The Dartmouth Atlas of Health Care - bringing health care analyses to health systems, policymakers, and the public.",
+      "journal": "Res Health Serv Reg",
+      "year": "2022"
+    },
+    "39257568": {
+      "status": "verified",
+      "title": "R. Randal Bollinger, M.D., Ph.D., Master Surgeon.",
+      "journal": "Front Transplant",
+      "year": "2024"
+    },
+    "4707443": {
+      "status": "verified",
+      "title": "The surgical technique of total hip arthroplasty, modified from Charnley, as done at the Mayo Clinic.",
+      "journal": "Orthop Clin North Am",
+      "year": "1973"
+    },
+    "4885802": {
+      "status": "verified",
+      "title": "Periodic psychoses in the light of biological rhythm research.",
+      "journal": "Int Rev Neurobiol",
+      "year": "1968"
+    },
+    "6013681": {
+      "status": "verified",
+      "title": "[Problems posed by the treatment of offenders in a military environment].",
+      "journal": "Ann Med Leg Criminol Police Sci Toxicol",
+      "year": "1966"
+    },
+    "6996621": {
+      "status": "verified",
+      "title": "The Founding Fathers and centennial history of the Philadelphia Academy of Surgery.",
+      "journal": "Ann Surg",
+      "year": "1980"
+    },
+    "7965131": {
+      "status": "verified",
+      "title": "Archival correspondence regarding the origin of the Harvey Cushing Society: the American Association of Neurological Surgeons.",
+      "journal": "J Neurosurg",
+      "year": "1994"
+    },
+    "8311630": {
+      "status": "verified",
+      "title": "Chevalier Jackson: the father of American bronchoesophagoscopy.",
+      "journal": "Ann Thorac Surg",
+      "year": "1994"
+    },
+    "9122554": {
+      "status": "verified",
+      "title": "First-night-effects on generalized anxiety disorder (GAD)-based insomnia: laboratory versus home sleep recordings.",
+      "journal": "Sleep",
+      "year": "1996"
+    },
+    "9465770": {
+      "status": "verified",
+      "title": "Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted.",
+      "journal": "World J Surg",
+      "year": "1998"
+    },
+    "9486580": {
+      "status": "verified",
+      "title": "Pathologic classification of prostate carcinoma: the impact of margin status.",
+      "journal": "Cancer",
+      "year": "1998"
+    },
+    "9742911": {
+      "status": "verified",
+      "title": "The American Surgical Association: past, present, and future.",
+      "journal": "Ann Surg",
+      "year": "1998"
+    }
+  },
+  "verified_doi_map": {
+    "10.1007/BF02553389": {
+      "status": "verified",
+      "title": "Ruppert Beach Turnbull, Jr. 1913-1981",
+      "journal": "Diseases of the Colon &amp; Rectum",
+      "year": "1983"
+    },
+    "10.1007/bf02586849": {
+      "status": "verified",
+      "title": "St. Mark's Hospital surgical training program",
+      "journal": "Diseases of the Colon &amp; Rectum",
+      "year": "1980"
+    },
+    "10.1007/s00268-021-06302-1": {
+      "status": "verified",
+      "title": "Inspirational Women in Surgery: Olga Jonasson, the Legacy of the First Female Chair of an Academic Department of Surgery",
+      "journal": "World j. surg.",
+      "year": "2022"
+    },
+    "10.1007/s10029-009-0522-1": {
+      "status": "verified",
+      "title": "Lloyd Milton Nyhus, MD",
+      "journal": "Hernia",
+      "year": "2009"
+    },
+    "10.1016/j.jpedsurg.2008.01.016": {
+      "status": "verified",
+      "title": "Judah M. Folkman, MD, 1933-2008",
+      "journal": "Journal of Pediatric Surgery",
+      "year": "2008"
+    },
+    "10.1097/00000658-196909010-00001": {
+      "status": "verified",
+      "title": "Presidential Address",
+      "journal": "Annals of Surgery",
+      "year": "1969"
+    },
+    "10.1097/00000658-197809000-00001": {
+      "status": "verified",
+      "title": "Presidential Address Alfred Blalock",
+      "journal": "Annals of Surgery",
+      "year": "1978"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Kenneth L. Mattox",
+    "source_node_type": "person",
+    "target_node": "Ben Taub General Hospital Trauma Center",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1973,
+    "end_year": 2020,
+    "temporal_range": "1973-2020",
+    "evidence_citation": "BCM_Archive_Mattox",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Baylor College of Medicine Department of Surgery Faculty Profile; bcm.edu/people-search/kenneth-mattox-26215",
+    "confidence": "high",
+    "notes": "Kenneth L. Mattox (b. 1938) served as chief of staff and surgeon-in-chief at Ben Taub General Hospital from 1973 to 2020, a 47-year tenure. He developed the internationally renowned Ben Taub Hospital Emergency Center and Trauma Center, building it into one of the busiest and highest-performing Level I trauma centers in the United States. He is Distinguished Service Professor in the Michael E. DeBakey Department of Surgery at Baylor College of Medicine. He authored over 600 articles and is co-editor of both the Mattox Trauma textbook (8th edition) and Sabiston's Textbook of Surgery. The DeBakey→Mattox training edge exists in Session 1 file (T2-01). This edge adds his institutional founding contribution. Ben Taub is a new institutional node representing the Houston public hospital trauma system. PMID upgrade candidate: search for Mattox tribute or profile in J Trauma or Am Surg. TARGET MODULE: 09_trauma_acute_infection"
+  },
+  {
+    "source_node": "Kenneth L. Mattox",
+    "source_node_type": "person",
+    "target_node": "American Association for the Surgery of Trauma",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1992,
+    "end_year": 1993,
+    "temporal_range": "c. 1992-1993",
+    "evidence_citation": "BCM_Archive_Mattox",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Baylor College of Medicine Department of Surgery Faculty Profile; bcm.edu/people-search/kenneth-mattox-26215; multiple corroborating sources including ACS, AMA records",
+    "confidence": "high",
+    "notes": "Mattox is past president of the American Association for the Surgery of Trauma (AAST). Exact presidential term approximated as c. 1992-1993 based on career timeline; to be verified. He also served on the ACS Board of Governors, was ACS Second Vice-President-Elect, and received the 2013 AMA Benjamin Rush Award for Citizenship. This edge connects the DeBakey→Mattox→AAST chain, linking the Baylor cardiothoracic trunk to the trauma governance backbone. AAST is already in the graph with 4 edges. TARGET MODULE: 09_trauma_acute_infection"
+  }
+]

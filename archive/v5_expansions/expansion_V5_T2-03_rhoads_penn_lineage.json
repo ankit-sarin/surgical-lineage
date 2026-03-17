@@ -1,0 +1,62 @@
+[
+  {
+    "source_node": "I.S. Ravdin",
+    "source_node_type": "person",
+    "target_node": "Jonathan E. Rhoads",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1934,
+    "end_year": 1939,
+    "temporal_range": "1934-1939",
+    "evidence_citation": "PMID: 14606488",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14606488/",
+    "confidence": "high",
+    "notes": "Jonathan Evans Rhoads (1907-2002) completed his surgical residency at the Hospital of the University of Pennsylvania from 1934 to 1939 under I.S. Ravdin. Though Eldridge Eliason was nominally the department chairman, Barker (Proc Am Philos Soc 2003, PMID 14606488; Ann Surg 2002, PMC1422501) states explicitly that 'Dr. Rhoads' real mentor was I. S. Ravdin, who had a service totally independent of Eliason's that was staffed by his own residents.' Ravdin's confidence in Rhoads was so great that he selected Rhoads as his own surgeon when he developed acute cholecystitis. When Ravdin left for Burma in WWII, the 36-year-old Rhoads was left in charge of the entire surgical service — with a skeleton crew that included the young C. Everett Koop. Rhoads received his MD from Johns Hopkins (1932) and his ScD from Penn (1940). TARGET MODULE: 02_general_surgery_spread.json"
+  },
+  {
+    "source_node": "Jonathan E. Rhoads",
+    "source_node_type": "person",
+    "target_node": "University of Pennsylvania Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1959,
+    "end_year": 1972,
+    "temporal_range": "1959-1972",
+    "evidence_citation": "PMID: 14606488",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14606488/",
+    "confidence": "high",
+    "notes": "Rhoads succeeded Ravdin as John Rhea Barton Professor and Chairman of Surgery at Penn in 1959 and served until 1972. During these 12 years, he simultaneously served as president of the ACS (1971-1972), ASA (1972-1973), and American Cancer Society, as editor of the Annals of Surgery and the journal Cancer, and as chairman of the National Cancer Advisory Board. From his chairmanship, 62 surgical graduates achieved faculty positions at 34 medical schools with 11 becoming department chairs. This creates a Ravdin-Rhoads succession at Penn paralleling the Hart-Sabiston-Anderson chain at Duke and the Halsted-Young succession at Hopkins. The Penn surgical trunk now extends: Physick (1805) - Ravdin (1945) - Rhoads (1959). TARGET MODULE: 02_general_surgery_spread.json"
+  },
+  {
+    "source_node": "Jonathan E. Rhoads",
+    "source_node_type": "person",
+    "target_node": "Clyde F. Barker",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1963,
+    "end_year": 1969,
+    "temporal_range": "c.1963-c.1969",
+    "evidence_citation": "PMID: 14606488",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14606488/",
+    "confidence": "high",
+    "notes": "Clyde F. Barker trained as a surgical resident at the Hospital of the University of Pennsylvania during the Rhoads chairmanship (c.1963-1969). Barker subsequently became the Donald Guthrie Professor of Surgery at Penn and authored the definitive obituaries of Rhoads in the Annals of Surgery (PMC1422501), Proceedings of the American Philosophical Society (PMID 14606488), and Surgery (2003). The PMC article 'Heroes and Friends' by Edward M. Copeland III (PMID not confirmed, PMC1421048) describes entering the Penn residency in 1963 and training alongside Barker under Rhoads. Barker later became Penn surgery chair, creating a 3-generation succession: Ravdin-Rhoads-Barker. Exact residency dates approximated from the Copeland memoir timeline. TARGET MODULE: 02_general_surgery_spread.json"
+  },
+  {
+    "source_node": "Jonathan E. Rhoads",
+    "source_node_type": "person",
+    "target_node": "American Surgical Association",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1972,
+    "end_year": 1973,
+    "temporal_range": "1972-1973",
+    "evidence_citation": "UPenn_Archive_Rhoads",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://archives.upenn.edu/exhibits/penn-people/biography/jonathan-evans-rhoads/; https://snaccooperative.org/ark:/99166/w6h13v9b",
+    "confidence": "high",
+    "notes": "Rhoads served as president of the American Surgical Association (1972-1973), in addition to the American College of Surgeons (1971-1972), and the American Cancer Society. Barker (Ann Surg 2002) and the UPenn Archives biography confirm simultaneous presidencies of ACS and ASA. This edge connects the Rhoads node to the ASA governance hub already well-established in module 12 (founded by Gross in 1880). The Ravdin-Rhoads-ASA pathway is a second Philadelphia route to the ASA, independent of the Gross-ASA founding edge in 13_pre_halsted. TARGET MODULE: 12_governance_societies.json"
+  }
+]

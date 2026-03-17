@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Columbia University Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "Keith Reemtsma",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1949,
+    "end_year": 1957,
+    "temporal_range": "1949-1957",
+    "evidence_citation": "PMID: 25135241",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135241/",
+    "confidence": "high",
+    "notes": "Keith Reemtsma (1925-2000) earned his MD from the University of Pennsylvania (1949), then completed his surgical internship and residency at Columbia-Presbyterian Medical Center (1949-1957) under George Humphreys, with an interruption for Korean War service as a Navy surgeon (1951-1954). He was chief resident at Columbia and earned a doctorate in medical science there (1958). He then moved to Tulane University (1958-1966), recruited by Oscar Creech Jr. (a DeBakey trainee, already in graph from Session 1 T2-01), where he performed the pioneering chimpanzee-to-human kidney xenotransplants (1963-1964). Citation is DeAnda A, Balsam LB, 'Historical perspectives of The American Association for Thoracic Surgery: Keith Reemtsma (1925-2000),' J Thorac Cardiovasc Surg 2015;149(3):762-4. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "Keith Reemtsma",
+    "source_node_type": "person",
+    "target_node": "Columbia University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1971,
+    "end_year": 1994,
+    "temporal_range": "1971-1994",
+    "evidence_citation": "PMID: 25135241",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135241/",
+    "confidence": "high",
+    "notes": "Reemtsma was appointed chairman of the Department of Surgery at Columbia University College of Physicians and Surgeons in 1971, a position he held for 23 years until 1994. He had previously served as chair at the University of Utah (1966-1971), where he assembled the team that produced the first artificial heart. At Columbia, he transformed the department from a focus on radical excision toward transplantation, reconstruction, and repair. He established the Columbia heart transplant program with Eric Rose and recruited Mark Hardy to build the kidney transplant and dialysis service. He also founded the International Center for Health Outcomes and Innovation Research. This creates a bidirectional circuit with the training edge above (trained at Columbia, returned as chair), paralleling the Cameron-Hopkins circuit already in the graph. Citation same as training edge. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

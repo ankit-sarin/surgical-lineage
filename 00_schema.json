@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Surgical Lineage Edge - V2 Governance Expansion",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "source_node": {
+        "type": "string"
+      },
+      "source_node_type": {
+        "enum": [
+          "person",
+          "institution",
+          "society"
+        ]
+      },
+      "target_node": {
+        "type": "string"
+      },
+      "target_node_type": {
+        "enum": [
+          "person",
+          "institution",
+          "society"
+        ]
+      },
+      "edge_type": {
+        "enum": [
+          "direct_training",
+          "observational_study",
+          "institutional_founder",
+          "institutional_succession",
+          "society_founder",
+          "governance_leadership",
+          "programmatic_accreditation"
+        ]
+      },
+      "start_year": {
+        "type": "integer"
+      },
+      "end_year": {
+        "type": "integer"
+      },
+      "temporal_range": {
+        "type": "string"
+      },
+      "evidence_citation": {
+        "type": "string"
+      },
+      "evidence_type": {
+        "enum": [
+          "PMID",
+          "DOI",
+          "institutional_archive"
+        ]
+      },
+      "evidence_locator": {
+        "type": "string"
+      },
+      "confidence": {
+        "enum": [
+          "high",
+          "moderate",
+          "low"
+        ]
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "source_node",
+      "source_node_type",
+      "target_node",
+      "target_node_type",
+      "edge_type",
+      "start_year",
+      "end_year",
+      "temporal_range",
+      "evidence_citation",
+      "evidence_type",
+      "evidence_locator",
+      "confidence"
+    ]
+  }
+}

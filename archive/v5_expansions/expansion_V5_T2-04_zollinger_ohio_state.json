@@ -1,0 +1,47 @@
+[
+  {
+    "source_node": "Elliott Cutler",
+    "source_node_type": "person",
+    "target_node": "Robert M. Zollinger",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1929,
+    "end_year": 1932,
+    "temporal_range": "c. 1929-1932",
+    "evidence_citation": "PMID: 12946817",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12946817/",
+    "confidence": "high",
+    "notes": "Robert Milton Zollinger (1903-1992) earned his MD from Ohio State (1927), interned at Peter Bent Brigham Hospital (1928), then completed his surgical residency under Elliott Cutler at Western Reserve University (c. 1929-1932). Cutler returned to Brigham as Moseley Professor of Surgery in 1932; Zollinger subsequently held faculty positions before returning to Ohio State as chair in 1947. This edge extends the Halsted-Cushing-Cutler chain to a 4th generation. Citation is Lewis L, Van Brimmer B, 'A biography of Robert Milton Zollinger, M.D.,' Am J Surg 2003;186(3):205-7. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "Robert M. Zollinger",
+    "source_node_type": "person",
+    "target_node": "Ohio State University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1947,
+    "end_year": 1974,
+    "temporal_range": "1947-1974",
+    "evidence_citation": "PMID: 12946818",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12946818/",
+    "confidence": "high",
+    "notes": "Zollinger returned to his alma mater as professor and chair of surgery in 1947, transforming Ohio State from a modest Midwestern program into a nationally recognized surgical training center over a 27-year tenure. He co-discovered the Zollinger-Ellison syndrome with Edwin Ellison (1955), whom he recruited to Ohio State. The endowed Robert M. Zollinger Chair of Surgery was later established in his honor. His successor as chair was Larry C. Carey (1975). Citation is Zollinger RM Sr, Ellison EC, 'A history of the Ohio State University Department of Surgery,' Am J Surg 2003;186(3):208-10. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "Robert M. Zollinger",
+    "source_node_type": "person",
+    "target_node": "American Surgical Association",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1965,
+    "end_year": 1966,
+    "temporal_range": "1965-1966",
+    "evidence_citation": "PMID: 12946817",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12946817/",
+    "confidence": "high",
+    "notes": "Zollinger was president of the American Surgical Association in 1965, one of three major surgical governance roles he held (also ACS president 1961-62 and ABS chairman 1963). He is one of the rare triple-crown holders in American surgery. ACS presidency edge is a candidate for future addition. Citation is Lewis L, Van Brimmer B, 'A biography of Robert Milton Zollinger, M.D.,' Am J Surg 2003;186(3):205-7. TARGET MODULE: 12_governance_societies"
+  }
+]

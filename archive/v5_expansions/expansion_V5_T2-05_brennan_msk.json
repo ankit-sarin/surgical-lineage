@@ -1,0 +1,62 @@
+[
+  {
+    "source_node": "Peter Bent Brigham Hospital Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "Murray F. Brennan",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1970,
+    "end_year": 1975,
+    "temporal_range": "1970-1975",
+    "evidence_citation": "PMID: 31944281",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944281/",
+    "confidence": "high",
+    "notes": "Murray Frederick Brennan (b. 1940, New Zealand) received his MB ChB from the University of Otago (1964), then won a Fulbright Scholarship as a clinical research fellow in surgery at Harvard Medical School and completed a second surgical residency at the Peter Bent Brigham Hospital (c.1970-1975). Printz (Cancer 2020, PMID 31944281) confirms the Brigham training. During this period Francis D. Moore was surgeon-in-chief at the Brigham (until 1976), and Steven Rosenberg was a fellow resident who later recruited Brennan to the NCI. This edge connects Brennan to the Moore/Brigham trunk already in the graph (Moore->Brigham Department, Murray->Brigham Transplant), creating a pathway from the Harvard/Brigham institutional lineage to MSK surgical oncology. TARGET MODULE: 02_general_surgery_spread.json"
+  },
+  {
+    "source_node": "Murray F. Brennan",
+    "source_node_type": "person",
+    "target_node": "Memorial Sloan Kettering Cancer Center",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1985,
+    "end_year": 2006,
+    "temporal_range": "1985-2006",
+    "evidence_citation": "PMID: 31944281",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944281/",
+    "confidence": "high",
+    "notes": "Brennan served as Chairman of the Department of Surgery at Memorial Sloan Kettering Cancer Center from 1985 to 2006 (21 years), transforming it into the preeminent surgical oncology training program in the world. During his tenure he trained over 350 surgical oncology fellows, many of whom became leaders at institutions across the US and internationally. He joined MSK in 1981 as chief of the gastric and mixed tumor service after 6 years at the NCI. He also held the Benno C. Schmidt Chair in Clinical Oncology and subsequently served as VP of International Programs (2010-2018) and Senior VP (2018-present). Authored over 1,100 publications. Created the world's largest sarcoma database (10,000+ patients). Printz (Cancer 2020, PMID 31944281) and multiple ACS profiles confirm the tenure. TARGET MODULE: 07_oncology_trials.json"
+  },
+  {
+    "source_node": "Murray F. Brennan",
+    "source_node_type": "person",
+    "target_node": "Society of Surgical Oncology",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1997,
+    "end_year": 1998,
+    "temporal_range": "c.1997-c.1998",
+    "evidence_citation": "PMID: 18286472",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18286472/",
+    "confidence": "moderate",
+    "notes": "Brennan served as president of the Society of Surgical Oncology. The J Surg Oncol tribute issue (2008, PMID 18286472) and the ACS profile confirm this presidency. The SSO is already in the graph via Memorial Hospital->SSO (institutional_founder in 07_oncology_trials) and SSO->ABS (programmatic_accreditation). Exact presidency years approximated; the ACS and MSK India profiles list SSO presidency without specifying dates. Confidence moderate due to estimated dates. This edge creates a second pathway from MSK to the SSO governance backbone: the existing Memorial Hospital->SSO founding edge is now paralleled by Brennan->SSO presidential leadership. TARGET MODULE: 07_oncology_trials.json"
+  },
+  {
+    "source_node": "Murray F. Brennan",
+    "source_node_type": "person",
+    "target_node": "American Surgical Association",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 2000,
+    "end_year": 2001,
+    "temporal_range": "c.2000-c.2001",
+    "evidence_citation": "MSK_Archive_Brennan",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://www.mskcc.org/cancer-care/doctors/murray-brennan; https://www.facs.org/for-medical-professionals/education/programs/academy-of-master-surgeon-educators/programs-and-scholarship/fireside-chats/murray-f-brennan/",
+    "confidence": "moderate",
+    "notes": "Brennan served as president of the American Surgical Association. The ACS profile and MSK India page list ASA presidency among his leadership positions. Exact years approximated. The ASA presidency connects Brennan to the ASA governance hub alongside Gross (founder), Sabiston, Rhoads, and other major figures. Brennan's ASA presidency makes him the highest-profile surgical oncologist to lead the ASA, reinforcing the growing integration of oncologic surgery into mainstream academic surgery governance by the turn of the millennium. TARGET MODULE: 12_governance_societies.json"
+  }
+]

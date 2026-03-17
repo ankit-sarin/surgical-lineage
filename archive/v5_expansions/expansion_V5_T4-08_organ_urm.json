@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Claude H. Organ Jr.",
+    "source_node_type": "person",
+    "target_node": "American College of Surgeons",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 2003,
+    "end_year": 2004,
+    "temporal_range": "2003-2004",
+    "evidence_citation": "ACS_Archive_Organ_Presidency",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "ACS Past Presidents list (facs.org/about-acs/acs-history/presidents-executive-directors-and-presidential-addresses); JAMA Surgery (Archives of Surgery) Nov 2005 Vol 140 No 11 tribute issue",
+    "confidence": "high",
+    "notes": "Claude H. Organ Jr. (1926-2005) served as the 84th president of the American College of Surgeons (2003-2004), the second African American to hold this position after LaSalle D. Leffall Jr. (1995, already in graph). Organ earned his MD from Creighton University (1952), completed residency at Creighton, and became the first African American to chair a surgery department at a predominantly white medical school (Creighton, 1971-1982). He later established the UCSF East Bay Surgery Residency Program (1989-2003) and served as editor-in-chief of Archives of Surgery (1989-2004). He co-founded the Society of Black Academic Surgeons (1989) and authored 'A Century of Black Surgeons: The U.S.A. Experience.' He also served as chairman of the American Board of Surgery. This edge extends the URM governance chain: Leffall→ACS (1995) is already in the graph; Organ→ACS (2003) adds the second data point. Organ is a new node connecting to the ACS governance hub. PMID upgrade candidate: search for PMID of JAMA Surgery Nov 2005 tribute articles. TARGET MODULE: 12_governance_societies"
+  },
+  {
+    "source_node": "Claude H. Organ Jr.",
+    "source_node_type": "person",
+    "target_node": "Creighton University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1971,
+    "end_year": 1982,
+    "temporal_range": "1971-1982",
+    "evidence_citation": "ACS_Archive_Organ_Presidency",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "ACS Past Presidents list; NLM Opening Doors exhibit (nlm.nih.gov/exhibition/opening-doors/bio_Claude_Organ.html); Southwestern Surgical Congress Organ Memorial Lectureship page",
+    "confidence": "high",
+    "notes": "Organ was appointed chair of surgery at Creighton University in 1971, becoming the first African American to chair a surgery department at a predominantly white medical school in the United States. He held this position for 11 years (1971-1982), developing the surgical residency program before moving to the University of Oklahoma (1982-1988) and then UCSF East Bay (1989-2003). Creighton University Department of Surgery is a new institutional node. Organ trained entirely within the Creighton system (MD 1952, residency, MS in Surgery 1957), so no training edge to an existing graph node is available — he is connected to the main trunk solely through the ACS governance hub. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

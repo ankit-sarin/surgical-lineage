@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Owen Wangensteen",
+    "source_node_type": "person",
+    "target_node": "Richard L. Varco",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1938,
+    "end_year": 1943,
+    "temporal_range": "1938-1943",
+    "evidence_citation": "PMID: 12717368",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12717368/",
+    "confidence": "high",
+    "notes": "Richard Lynn Varco (1912-2004) earned his MB/MD (1937) and PhD in Surgery (1944) at the University of Minnesota. He served as research fellow in the Department of Surgery (1938-1940), fellow in Physiology (1940-1942), and senior resident (1942-1943) under Wangensteen's chairmanship. He rose to Professor (1950) and Regents' Professor (1974). Varco co-pioneered open-heart surgery as a member of the team that performed the world's first open-heart repair under direct vision (with F. John Lewis, Sept 2, 1952) and was central to the cross-circulation operations with C. Walton Lillehei (1954). He also performed the first organ transplant at Minnesota (kidney, 1963) and co-invented the implantable drug infusion pump with Henry Buchwald (1969). Citation is Najarian JS, 'Richard L. Varco, MD, PhD: the compleat academic surgeon,' Surgery 2003;133(4):451-2. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "Owen Wangensteen",
+    "source_node_type": "person",
+    "target_node": "Henry Buchwald",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1960,
+    "end_year": 1966,
+    "temporal_range": "1960-1966",
+    "evidence_citation": "UMN_Archive_Buchwald_Wangensteen",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "University of Minnesota Department of Surgery Faculty Records; med.umn.edu/bio/henry-buchwald",
+    "confidence": "high",
+    "notes": "Henry Buchwald (b. 1932, Vienna) earned his MD at Columbia P&S (1957), interned at Columbia-Presbyterian, then entered the University of Minnesota surgical residency in 1960 under Wangensteen's chairmanship, earning an MS (Biochemistry) and PhD (Surgery) by 1966. Wangensteen is explicitly identified as Buchwald's mentor by the UMN Department of Surgery. Buchwald became the first Owen H. and Sarah Davidson Wangensteen Chair in Experimental Surgery. He pioneered partial ileal bypass for hyperlipidemia, led the NIH-funded POSCH trial proving cholesterol lowering reduces heart disease, co-founded metabolic/bariatric surgery as a discipline, and co-invented the implantable infusion pump with Varco. His day-to-day clinical mentor was Richard Varco, but Wangensteen was the formal departmental chair and training program director. PMID upgrade candidate: PMID 17275843 (Edlich, Wangensteen tribute, J Surg Res 2007) likely names Buchwald in full text but could not be verified from abstract alone. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "John L. Cameron",
+    "source_node_type": "person",
+    "target_node": "Keith D. Lillemoe",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1978,
+    "end_year": 1985,
+    "temporal_range": "1978-1985",
+    "evidence_citation": "SUS_Archive_Lillemoe",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://www.susweb.org/2021/01/29/sus-lifetime-achievement-award-winner-keith-lillemoe-md/",
+    "confidence": "high",
+    "notes": "Keith D. Lillemoe (MD Johns Hopkins 1978) served his entire surgical training at The Johns Hopkins Hospital (1978-1985) under John L. Cameron, who became Hopkins surgery chair in 1984. The SUS Lifetime Achievement Award profile (2021) states that Cameron was named chair when Lillemoe was a 4th-year resident, and that 'even now, four decades after finishing his residency, Dr. Cameron is still his mentor.' Cameron recruited Lillemoe and Charles Yeo as the first wave of faculty to build the Hopkins pancreatic surgery program, growing from 20 to 200 Whipple procedures per year. Lillemoe served as associate program director (1993-2003) and vice-chairman (1997-2003) before leaving Hopkins. The AHPBA profile and ACS Fireside Chat confirm the training relationship. CORRECTION to expansion target T3-06: The target listed 'Cameron→Lillemoe→Kirk' as a Hopkins succession, but Lillemoe went to Indiana (2003) then MGH (2011), not back to Hopkins. Kirk is at Duke. The actual Hopkins succession post-Cameron is Freischlag (already in graph). TARGET MODULE: 02_general_surgery_spread.json"
+  },
+  {
+    "source_node": "Keith D. Lillemoe",
+    "source_node_type": "person",
+    "target_node": "Massachusetts General Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 2011,
+    "end_year": 2026,
+    "temporal_range": "2011-Present",
+    "evidence_citation": "MGH_Archive_Lillemoe",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://advances.massgeneral.org/contributors/contributor.aspx?id=1416",
+    "confidence": "high",
+    "notes": "In May 2011, Lillemoe was appointed Surgeon-in-Chief and Chief of the Department of Surgery at Massachusetts General Hospital and the W. Gerald Austen Professor of Surgery at Harvard Medical School. He also serves as Editor-in-Chief of the Annals of Surgery. The MGH Department of Surgery profile and ACS Fireside Chat confirm the appointment. This edge connects the Hopkins training lineage to the MGH institutional trunk: the chain Halsted→Hopkins→Cameron→Lillemoe→MGH creates a rare cross-institutional circuit where a Hopkins-trained surgeon leads the independent Harvard/MGH trunk. The MGH node already has edges from Richardson→Churchill and Churchill→MGH (WWII). Lillemoe's appointment parallels the Blalock→Sabiston→Duke pattern where a Hopkins trainee leads a peer institution. He was also elected ASA president, is a Senior Director of the ABS, and elected to the National Academy of Medicine (2018). TARGET MODULE: 02_general_surgery_spread.json"
+  }
+]

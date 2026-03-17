@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Alfred Blalock",
+    "source_node_type": "person",
+    "target_node": "H. William Scott Jr.",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1946,
+    "end_year": 1952,
+    "temporal_range": "1946-1952",
+    "evidence_citation": "PMID: 37746597",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37746597/",
+    "confidence": "high",
+    "notes": "H. William Scott Jr. (1916-1998) graduated from Harvard Medical School (1941), completed surgical residency at Peter Bent Brigham Hospital and Boston Children's Hospital, held the Harvey Cushing Fellowship in Neurosurgery at Brigham (1945), then served as assistant resident and chief resident under Alfred Blalock at Johns Hopkins (1946-1947). He remained on the Hopkins faculty as instructor through associate professor (1946-1952) before being recruited to Vanderbilt. Blalock directly recommended Scott for the Vanderbilt chairmanship, telling him 'he could not turn down the opportunity and that he wanted me to go and do everything I could to turn Vanderbilt into a Hopkins.' Scott was president of ASA, ACS, Southern Surgical Association, Halsted Society, and multiple other societies. Citation is Merrill WH, Geevarghese SK, 'Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD,' Ann Surg Open 2023;4(3):e312. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "H. William Scott Jr.",
+    "source_node_type": "person",
+    "target_node": "Vanderbilt University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_succession",
+    "start_year": 1952,
+    "end_year": 1982,
+    "temporal_range": "1952-1982",
+    "evidence_citation": "PMID: 37746597",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37746597/",
+    "confidence": "high",
+    "notes": "Scott succeeded Barney Brooks as chair of surgery at Vanderbilt in 1952, at age 36 the youngest surgery chair in the country. He held the position for 30 years until 1982, establishing a surgical research facility, creating specialty divisions (urology, orthopedics, neurosurgery), and training many academic surgeons. The H. William Scott Jr. Society was founded in 1972 by his former residents. His successor was John Sawyers (interim 1982-1983, then permanent). John Cameron was initially recruited from Hopkins but chose to remain in Baltimore. This creates the chain Halsted→Brooks→Vanderbilt→Scott (via Blalock), showing how two separate Halsted trainees (Brooks and Blalock) converged on the same institution across generations. Citation same as training edge. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

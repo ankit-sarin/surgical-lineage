@@ -1,0 +1,17 @@
+[
+  {
+    "source_node": "Massachusetts General Hospital Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "Frederick Coller",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1912,
+    "end_year": 1917,
+    "temporal_range": "1912-c. 1917",
+    "evidence_citation": "ACS_Archive_Coller_Training",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "ACS Past Highlights: Frederick A. Coller (facs.org/about-acs/archives/past-highlights/collerhighlight); Ann Surg 1961;154(Suppl 6):18-24 (PMC1466805); Adie GC, 'Frederick A. Coller—Surgeon'",
+    "confidence": "high",
+    "notes": "Frederick Amasa Coller (1887-1964) graduated from Harvard Medical School (1912) and was appointed intern on the west surgical service at Massachusetts General Hospital. He was the first surgical resident appointed at MGH, chosen by unanimous vote of all attending surgeons. He served in WWI in France as a member of the Harvard Medical Unit led by Harvey Cushing, taking over one of the surgical services of the American Ambulance Service. After the war he joined the University of Michigan in 1920. Coller was already in the graph with two outgoing edges (→Michigan Dept of Surgery as institutional_founder, →Jonasson via Warren Cole) but had NO incoming training edge, making him an orphaned source node. This edge connects Michigan to the Harvard/MGH cluster through the chain MGH→Coller→Michigan→Jonasson→Ohio State, creating a 4-node institutional corridor from Boston to the Midwest. PMID upgrade candidate: PMID 14257360 (Ann R Coll Surg Engl 1965 obituary) or full text of Ann Surg 1961 supplement (PMC1466805) should confirm MGH training. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

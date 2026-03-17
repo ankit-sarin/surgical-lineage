@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Bernhard von Langenbeck",
+    "source_node_type": "person",
+    "target_node": "Theodor Kocher",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1865,
+    "end_year": 1866,
+    "temporal_range": "1865-1866",
+    "evidence_citation": "PMID: 9465770",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9465770/",
+    "confidence": "high",
+    "notes": "Emil Theodor Kocher (1841-1917) studied under Langenbeck in Berlin during his post-doctoral study trip (1865-1866), along with visits to Billroth in Vienna and surgeons in London and Paris. Langenbeck and Billroth both recommended Kocher for the chair at Bern, which he assumed in 1872. He held this position for 45 years until his death. Kocher won the 1909 Nobel Prize in Physiology or Medicine for his work on the thyroid gland — the first surgeon to receive the Nobel Prize. He performed over 7,000 thyroidectomies, reducing mortality from 13% to 0.18%. This edge extends the European depth layer: Langenbeck→Kocher creates a parallel to the existing Langenbeck→Billroth→Halsted chain. Citation is Liebermann-Meffert D, 'Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted,' World J Surg 2000;24(1):2-9. TARGET MODULE: 14_global_military"
+  },
+  {
+    "source_node": "Theodor Kocher",
+    "source_node_type": "person",
+    "target_node": "Harvey Cushing",
+    "target_node_type": "person",
+    "edge_type": "observational_study",
+    "start_year": 1900,
+    "end_year": 1901,
+    "temporal_range": "1900-1901",
+    "evidence_citation": "PMID: 9465770",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9465770/",
+    "confidence": "high",
+    "notes": "Harvey Cushing visited Kocher's clinic in Bern during his European Wanderjahr (1900-1901), conducting experimental research on intracranial pressure that led to the Cushing-Kocher theory. This is one of the most documented observational visits in surgical history. Cushing was already a Halsted trainee at Hopkins (existing edge in graph). This creates a second pathway to Cushing: Langenbeck→Kocher→Cushing (observational) alongside the existing Halsted→Cushing (direct_training), forming a triangulated European-American bridge. Citation same as training edge. TARGET MODULE: 14_global_military"
+  }
+]

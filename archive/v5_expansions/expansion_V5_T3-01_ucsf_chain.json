@@ -1,0 +1,17 @@
+[
+  {
+    "source_node": "Harvey Cushing",
+    "source_node_type": "person",
+    "target_node": "Howard Naffziger",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1912,
+    "end_year": 1918,
+    "temporal_range": "1912-1918",
+    "evidence_citation": "PMID: 12296669",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12296669/",
+    "confidence": "high",
+    "notes": "Howard Christian Naffziger (1884-1961) earned his MD from UC (1909), interned at UCSF, then went to Johns Hopkins in 1912 as assistant resident surgeon under Halsted's program, where he came under the direct mentorship of Harvey Cushing. He became one of Cushing's junior residents alongside Walter Dandy. In 1918, Naffziger served in France with Cushing as part of the Allied Expeditionary Force (WWI). Naffziger was already in the graph with two outgoing edges (→UCSF Dept of Surgery as institutional_founder, →ABNS as society_founder) but had no incoming training edge, making him a disconnected source node in the training lineage. This edge completes the chain: Halsted→Cushing→Naffziger→UCSF, connecting the West Coast surgical establishment to the Hopkins trunk through 3 training generations. The other edges proposed in the T3-01 expansion target (Naffziger→UCSF, Dunphy→UCSF, Debas→ASA) already exist in the graph and are not duplicated here. Citation is Keller TM, 'California's Cushing connection: Harvey Cushing trained California's first neurosurgeons,' Neurosurgery 2002;51(3):785-90. TARGET MODULE: 03_neurosurgery"
+  }
+]

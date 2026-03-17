@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Robert E. Gross",
+    "source_node_type": "person",
+    "target_node": "Judah Folkman",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1953,
+    "end_year": 1957,
+    "temporal_range": "1953-1957",
+    "evidence_citation": "PMID: 18294269",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18294269/",
+    "confidence": "moderate",
+    "notes": "Moses Judah Folkman (1933-2008) worked in the surgical laboratory of Robert E. Gross, then surgeon-in-chief at Children's Hospital Boston, during his Harvard Medical School years (1953-1957). The J Pediatr Surg obituary (2008, PMID 18294269) states Folkman 'entered the Harvard Medical School where he began working in the surgical laboratory of Dr Robert E. Gross' and the Harvard CHSI confirms this. During this time Folkman co-invented the first implantable heart pacemaker. His formal surgical residency was at MGH (1957-1965, interrupted by Navy service 1960-1962), followed by 6 months of pediatric surgery training under C. Everett Koop at CHOP. Confidence moderate because the Gross-Folkman relationship was a medical school laboratory mentorship rather than a formal surgical residency, though the intellectual mentorship was pivotal — Folkman returned to lead the same institution Gross had built. The existing Gross→Koop edge was a formal residency, so this is a different type of training relationship. TARGET MODULE: 08_subspecialties.json"
+  },
+  {
+    "source_node": "Judah Folkman",
+    "source_node_type": "person",
+    "target_node": "Boston Children's Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1967,
+    "end_year": 1981,
+    "temporal_range": "1967-1981",
+    "evidence_citation": "PMID: 18294269",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18294269/",
+    "confidence": "high",
+    "notes": "Folkman was appointed surgeon-in-chief of Children's Hospital Boston in 1967 at age 34, becoming the youngest full professor in Harvard Medical School history the following year (Julia Dyckman Andrus Professor of Pediatric Surgery, 1968). He served as surgeon-in-chief for 14 years until stepping down in 1981 to devote full time to angiogenesis research. The Boston Children's Hospital history page confirms the succession: Ladd (founder) -> Gross -> Folkman. This creates the chain Ladd→Gross→Folkman at Boston Children's, paralleling the Sabiston→Anderson→Duke pattern. Folkman's 1971 NEJM paper proposing that tumor growth is angiogenesis-dependent founded an entirely new field of biology and led to FDA-approved antiangiogenic cancer drugs (bevacizumab/Avastin and others) — one of surgery's most significant contributions to cancer biology. Over 1,000 labs worldwide now pursue angiogenesis research. TARGET MODULE: 08_subspecialties.json"
+  }
+]

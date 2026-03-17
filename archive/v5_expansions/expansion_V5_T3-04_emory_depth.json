@@ -1,0 +1,17 @@
+[
+  {
+    "source_node": "Harvey Cushing",
+    "source_node_type": "person",
+    "target_node": "Daniel Elkin",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1920,
+    "end_year": 1923,
+    "temporal_range": "c. 1920-1923",
+    "evidence_citation": "Emory_Archive_Elkin_FindingAid",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Emory University Woodruff Library, Daniel C. Elkin Papers 1904-1984 (findingaids.library.emory.edu/documents/HS-MSS003); ACS Bulletin Nov 2021, 'Dan Elkin and Al Blalock: Present at the Creation'",
+    "confidence": "high",
+    "notes": "Daniel Collier Elkin (1893-1958) graduated from Emory University School of Medicine (1920), then served three years as intern and resident in surgery at Peter Bent Brigham Hospital in Boston under Harvey Cushing. The Emory archival finding aid states: 'Elkin served three years as an intern and resident in surgery at the Peter Bent Brigham Hospital in Boston, where he worked with Dr. Harvey W. Cushing, a pioneer of brain surgery who is often referred to as the father of modern neurosurgery. Cushing was an influential figure who shaped Elkin's interest in teaching and research.' Elkin returned to Atlanta and was appointed first chair of surgery at Emory in 1930 (existing edge in graph). He was a pioneer in vascular surgery (62 aortic aneurysm repairs by 1934, Rudolph Matas Award 1940) and served as president of ASA, ACS (1956-57), Southern Surgical Association, and multiple other societies. He co-authored the history of vascular surgery in WWII with DeBakey. This edge connects the orphaned Emory chain to the Hopkins trunk: Halsted→Cushing→Elkin→Emory. Cushing's out-degree increases (now: Cutler, Naffziger, Elkin). PMID upgrade candidate: search for Elkin obituary in Ann Surg or Surgery c. 1959. TARGET MODULE: 02_general_surgery_spread"
+  }
+]

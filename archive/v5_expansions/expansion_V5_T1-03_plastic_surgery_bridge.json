@@ -1,0 +1,47 @@
+[
+  {
+    "source_node": "American Board of Plastic Surgery",
+    "source_node_type": "society",
+    "target_node": "American Board of Medical Specialties",
+    "target_node_type": "society",
+    "edge_type": "programmatic_accreditation",
+    "start_year": 1941,
+    "end_year": 2026,
+    "temporal_range": "1941-Present",
+    "evidence_citation": "ABMS_Archive_MemberBoards",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://www.abms.org/board/american-board-of-plastic-surgery/",
+    "confidence": "high",
+    "notes": "The American Board of Plastic Surgery was organized in 1937 by Vilray Blair at an AAPS meeting and held its first meeting in 1938, originally as a subsidiary of the American Board of Surgery. ABPS received independent specialty board status from ABMS in 1941 and remains 1 of 24 ABMS member boards. The ABMS website confirms ABPS membership. This edge follows the identical pattern of existing board-ABMS edges (ABS-ABMS, ABOS-ABMS, ABNS-ABMS, ABCRS-ABMS). BRIDGE EDGE: Merges the plastic surgery island (Component 1, 8 nodes: Blair, Gillies, McIndoe, Millard, ABPS, WashU Plastic, Queen's Hospital, U Miami Plastic) into the main component via the ABMS governance backbone. Components: 9 to 8. TARGET MODULE: 08_subspecialties.json"
+  },
+  {
+    "source_node": "Vilray Blair",
+    "source_node_type": "person",
+    "target_node": "James Barrett Brown",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1920,
+    "end_year": 1930,
+    "temporal_range": "c.1920-c.1930",
+    "evidence_citation": "PMID: 37601473",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37601473/",
+    "confidence": "high",
+    "notes": "James Barrett Brown (1899-1971) trained under Vilray Blair at Washington University beginning in the 1920s and was regarded as Blair's most important trainee. Bharani and Yeo (Ann Surg Open 2023, PMID 37601473) describe Brown as 'a disciple of Blair' who took over leadership in wartime plastic surgery during WWII. Brown succeeded Blair as chief of the WashU Division of Plastic and Reconstructive Surgery (1955-1968). Together, Blair and Brown published the first reproducible cleft lip repair technique (1929), developed the split-thickness skin grafting technique still in use today, and provided the clinical foundation for ABPS board standards. Brown served as U.S. Army Chief Consultant in Plastic Surgery during WWII and established multiple plastic surgery centers in Europe. Stelnicki et al (Plast Reconstr Surg 1999, PMID 10359266) survey Blair's surgical descendants comprehensively. This edge extends the WashU plastic surgery lineage to a second generation. TARGET MODULE: 08_subspecialties.json"
+  },
+  {
+    "source_node": "James Barrett Brown",
+    "source_node_type": "person",
+    "target_node": "Washington University Division of Plastic Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1955,
+    "end_year": 1968,
+    "temporal_range": "1955-1968",
+    "evidence_citation": "PMID: 10359266",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10359266/",
+    "confidence": "high",
+    "notes": "Brown succeeded his mentor Blair as chief of the WashU Division of Plastic and Reconstructive Surgery in 1955 and served until 1968. The WashU Division of Plastic Surgery history page confirms this succession. Stelnicki et al (Plast Reconstr Surg 1999, PMID 10359266) document Blair's descendants including Brown's leadership at WashU. This creates a bidirectional circuit: Blair founded the WashU plastic surgery division, trained Brown there, and Brown then led the same division — a pattern seen at Jefferson (Gross), Duke (Anderson), and Cincinnati (Altemeier) elsewhere in the graph. TARGET MODULE: 08_subspecialties.json"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "source_node": "Emile Holman",
+    "source_node_type": "person",
+    "target_node": "Stanford University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1925,
+    "end_year": 1955,
+    "temporal_range": "1925-1955",
+    "evidence_citation": "PMID: 26811046",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26811046/",
+    "confidence": "high",
+    "notes": "CITATION UPGRADE: Replaces Stanford_Archive_Holman. Woo YJ, Reitz BA, 'One Hundred Years of History at Stanford University: Thoracic and Cardiovascular Surgery,' Semin Thorac Cardiovasc Surg 2015;27(4):388-97. Documents Holman as first chairman of the Department of Surgery at Stanford (1926-1955), educated at Stanford and Johns Hopkins, trained by Halsted and later Cushing. He performed extracardiac and closed heart procedures and served as the 33rd AATS president. Original expansion target T3-02 proposed adding Holman→successor chain but the post-Holman general surgery succession (Roy Cohn, James Mark) lacks PMID-documented training relationships. The Shumway cardiac surgery chain is already well-represented in the graph. Target downgraded to citation upgrade only. TARGET MODULE: 02_general_surgery_spread (REPLACES existing edge)"
+  }
+]

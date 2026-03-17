@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "Alfred Blalock",
+    "source_node_type": "person",
+    "target_node": "Mark M. Ravitch",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1934,
+    "end_year": 1943,
+    "temporal_range": "1934-1943",
+    "evidence_citation": "PMID: 32106907",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32106907/",
+    "confidence": "high",
+    "notes": "Mark Mitchell Ravitch (1910-1989) earned his MD from Johns Hopkins (1934) and completed his surgical training there under Alfred Blalock, finishing as chief resident in 1943. Their personal and professional relationship lasted throughout Blalock's lifetime. After Army service in WWII (56th General Hospital, France), Ravitch returned to Hopkins as professor of surgery (1946). He held positions at Columbia P&S / Mount Sinai (1952-1955), returned to Hopkins (1956), spent time at University of Chicago (1966-1969), then moved to University of Pittsburgh / Montefiore Hospital (1969-1989). Ravitch introduced modern surgical stapling to the United States after observing Soviet stapling instruments in Kiev (1958), developing them with Felicien Steichen for commercial use by 1967. He also pioneered the Ravitch procedure for pectus excavatum and non-operative management of intussusception. He authored 453 papers, 101 book chapters, and 22 books, including 'A Century of Surgery' (history of the ASA). Citation is Abeshouse M, Goldstein S, Phillips B, 'Mark M. Ravitch: A Staple in Surgical History and Innovation,' Am Surg 2020;86(2):e89-e91. TARGET MODULE: 02_general_surgery_spread"
+  },
+  {
+    "source_node": "Mark M. Ravitch",
+    "source_node_type": "person",
+    "target_node": "American Surgical Association",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1983,
+    "end_year": 1984,
+    "temporal_range": "1983-1984",
+    "evidence_citation": "PMID: 32106907",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32106907/",
+    "confidence": "high",
+    "notes": "Ravitch served as president of the American Surgical Association in 1983-1984. He was also the official historian of the ASA and authored its definitive two-volume history, 'A Century of Surgery 1880-1980' (Lippincott, 1981). This makes him both a governance leader and the scholarly chronicler of the organization. Citation same as training edge. TARGET MODULE: 12_governance_societies"
+  }
+]
