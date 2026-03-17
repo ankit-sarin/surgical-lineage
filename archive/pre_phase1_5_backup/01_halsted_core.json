@@ -11,8 +11,8 @@
     "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 1 of 23 edge tokens found in article] Halsted established the first formal surgical residency training program in the United States, cementing the institutional root of modern surgical education."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987] Halsted established the first formal surgical residency training program in the United States, cementing the institutional root of modern surgical education."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -26,8 +26,8 @@
     "evidence_citation": "PMID: 26645476",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26645476/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Epidemiol Infect 2016 | MISMATCH: 0 of 20 edge tokens found in article] Finney served as Halsted's first resident and primary deputy, serving as the critical bridge to the next generation of American general surgeons."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Epidemiol Infect 2016] Finney served as Halsted's first resident and primary deputy, serving as the critical bridge to the next generation of American general surgeons."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -42,7 +42,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29681553/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Bull Hist Med 2018 | content_match] Bloodgood trained under Halsted and institutionalized surgical pathology as a mandatory core competency within surgical training."
+    "notes": "[Verified 2026-03-17 | Bull Hist Med 2018] Bloodgood trained under Halsted and institutionalized surgical pathology as a mandatory core competency within surgical training."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -57,7 +57,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | weak_match: matched \"under\"; missed william stewart halsted, william, genitourinary] Young trained as an assistant surgeon under Halsted before being appointed to head the genitourinary dispensary in 1897."
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987] Young trained as an assistant surgeon under Halsted before being appointed to head the genitourinary dispensary in 1897."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -71,8 +71,8 @@
     "evidence_citation": "PMID: 28489324",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28489324/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Catheter Cardiovasc Interv 2017 | MISMATCH: 0 of 14 edge tokens found in article] Cushing served as Halsted's resident and later established the Hunterian Laboratory."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Catheter Cardiovasc Interv 2017] Cushing served as Halsted's resident and later established the Hunterian Laboratory."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -87,7 +87,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10871146/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Orthop Sports Phys Ther 2000 | weak_match: matched \"before\", \"under\"; missed william stewart halsted, surgical, influenced] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach."
+    "notes": "[Verified 2026-03-17 | J Orthop Sports Phys Ther 2000] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -101,8 +101,8 @@
     "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 0 of 17 edge tokens found in article] Heuer served as Halsted's chief resident and later became chairman of surgery at Cornell/New York Hospital."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987] Heuer served as Halsted's chief resident and later became chairman of surgery at Cornell/New York Hospital."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -116,8 +116,8 @@
     "evidence_citation": "PMID: 13032549",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/13032549/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Br Med J 1953 | MISMATCH: 0 of 16 edge tokens found in article] Brooks trained at Hopkins under Halsted before moving to Washington University and eventually Vanderbilt."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Br Med J 1953] Brooks trained at Hopkins under Halsted before moving to Washington University and eventually Vanderbilt."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -146,8 +146,8 @@
     "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 0 of 15 edge tokens found in article] Reid served as Halsted's resident and was a key adopter of his meticulous tissue handling techniques."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987] Reid served as Halsted's resident and was a key adopter of his meticulous tissue handling techniques."
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",
@@ -176,8 +176,8 @@
     "evidence_citation": "PMID: 4885802",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4885802/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Int Rev Neurobiol 1968 | MISMATCH: 0 of 13 edge tokens found in article] Holman was Halsted's final chief resident before Halsted's death in 1922."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Int Rev Neurobiol 1968] Holman was Halsted's final chief resident before Halsted's death in 1922."
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",
@@ -207,7 +207,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944636/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Can J Surg 2020 | content_match] Blalock trained directly under the Halstedian system at Hopkins before returning as Chief of Surgery to perform the first blue baby operation."
+    "notes": "[Verified 2026-03-17 | Can J Surg 2020] Blalock trained directly under the Halstedian system at Hopkins before returning as Chief of Surgery to perform the first blue baby operation."
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",

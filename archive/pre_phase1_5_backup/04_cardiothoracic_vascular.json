@@ -11,8 +11,8 @@
     "evidence_citation": "PMID: 10871146",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10871146/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | J Orthop Sports Phys Ther 2000 | MISMATCH: 0 of 20 edge tokens found in article] Homans established one of the first dedicated clinics for peripheral vascular disease, formally separating it from general surgical wards.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Orthop Sports Phys Ther 2000] Homans established one of the first dedicated clinics for peripheral vascular disease, formally separating it from general surgical wards.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -27,8 +27,8 @@
     "evidence_citation": "PMID: 21173278",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/21173278/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2011 | MISMATCH: 0 of 17 edge tokens found in article] Meyer organized the founding meeting of the AATS, establishing the oldest cardiothoracic society in the world.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2011] Meyer organized the founding meeting of the AATS, establishing the oldest cardiothoracic society in the world.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -44,7 +44,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/21820677/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2011 | content_match] Graham served as the 10th president of the AATS, tightly coupling thoracic surgical governance to the ABS and ACS networks he also led.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2011] Graham served as the 10th president of the AATS, tightly coupling thoracic surgical governance to the ABS and ACS networks he also led.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -59,8 +59,8 @@
     "evidence_citation": "PMID: 2446522",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446522/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987 | MISMATCH: 1 of 21 edge tokens found in article] Graham established one of the first dedicated thoracic surgical services, pioneering early pulmonary resections and the first successful pneumonectomy for cancer.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987] Graham established one of the first dedicated thoracic surgical services, pioneering early pulmonary resections and the first successful pneumonectomy for cancer.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -107,8 +107,8 @@
     "evidence_citation": "PMID: 15263901",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15263901/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Nat Rev Microbiol 2004 | MISMATCH: 0 of 17 edge tokens found in article] Ochsner served as a primary founder and the first President of the SVS, officially establishing the society at the 1946 San Francisco meeting.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Nat Rev Microbiol 2004] Ochsner served as a primary founder and the first President of the SVS, officially establishing the society at the 1946 San Francisco meeting.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -139,8 +139,8 @@
     "evidence_citation": "PMID: 14905833",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14905833/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Concours Med 1952 | MISMATCH: 0 of 17 edge tokens found in article] Voorhees developed the first synthetic (Vinyon 'N') arterial prosthesis while training as a surgical resident under Blakemore at Columbia.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Concours Med 1952] Voorhees developed the first synthetic (Vinyon 'N') arterial prosthesis while training as a surgical resident under Blakemore at Columbia.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -155,8 +155,8 @@
     "evidence_citation": "PMID: 18693427",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18693427/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008 | MISMATCH: 0 of 13 edge tokens found in article] DeBakey established and scaled the modern cardiovascular department at Baylor.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008] DeBakey established and scaled the modern cardiovascular department at Baylor.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -171,8 +171,8 @@
     "evidence_citation": "PMID: 3800732",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3800732/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Arch Ophthalmol 1987 | MISMATCH: 0 of 18 edge tokens found in article] Crawford trained directly under DeBakey at Baylor, subsequently becoming the preeminent authority on thoracoabdominal aortic aneurysm repair.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Arch Ophthalmol 1987] Crawford trained directly under DeBakey at Baylor, subsequently becoming the preeminent authority on thoracoabdominal aortic aneurysm repair.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -188,7 +188,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16730164/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Eur Neuropsychopharmacol 2006 | weak_match: matched \"establishing\"; missed owen wangensteen, norman, cardiac] Shumway trained under Wangensteen, establishing the foundational research for cardiac transplantation.",
+    "notes": "[Verified 2026-03-17 | Eur Neuropsychopharmacol 2006] Shumway trained under Wangensteen, establishing the foundational research for cardiac transplantation.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -204,7 +204,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28461793/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Tex Heart Inst J 2017 | content_match] Sabharwal N, Dev H, Smail H, McGiffin DC, Saxena P. 'Nina Braunwald: A Female Pioneer in Cardiac Surgery.' Tex Heart Inst J. 2017 Apr 1;44(2):96-100. PMC5408644. Documents that Braunwald 'underwent training in cardiac surgery in 1958 under supervision of Andrew Morrow, director of the Clinic of Surgery at the National Heart Institute (NIH).' Morrow offered a two-year fellowship that extended into a decade-long mentorship. Under Morrow, Braunwald performed the first successful human mitral valve replacement (March 11, 1960) using a prosthesis she designed (the Braunwald-Morrow valve). She became Deputy Chief of the Clinic of Surgery (1965-1968). Andrew Morrow (1924-1982) was chief of cardiac surgery at NIH/NHLBI. This is the second direct_training edge involving a woman. It connects Braunwald's governance-only AATS edge to the cardiothoracic training lineage.",
+    "notes": "[Verified 2026-03-17 | Tex Heart Inst J 2017] Sabharwal N, Dev H, Smail H, McGiffin DC, Saxena P. 'Nina Braunwald: A Female Pioneer in Cardiac Surgery.' Tex Heart Inst J. 2017 Apr 1;44(2):96-100. PMC5408644. Documents that Braunwald 'underwent training in cardiac surgery in 1958 under supervision of Andrew Morrow, director of the Clinic of Surgery at the National Heart Institute (NIH).' Morrow offered a two-year fellowship that extended into a decade-long mentorship. Under Morrow, Braunwald performed the first successful human mitral valve replacement (March 11, 1960) using a prosthesis she designed (the Braunwald-Morrow valve). She became Deputy Chief of the Clinic of Surgery (1965-1968). Andrew Morrow (1924-1982) was chief of cardiac surgery at NIH/NHLBI. This is the second direct_training edge involving a woman. It connects Braunwald's governance-only AATS edge to the cardiothoracic training lineage.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -236,7 +236,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28461793/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Tex Heart Inst J 2017 | content_match] Braunwald was the first woman certified by the American Board of Thoracic Surgery (1963) and the first woman elected to the American Association for Thoracic Surgery. NYU MD, general surgery at Bellevue and Georgetown, cardiac surgery training under Andrew Morrow at NIH. In 1960 at age 32, she led the team that performed the first successful human mitral valve replacement using a prosthesis she designed and fabricated. She later founded the cardiac surgery program at UCSD (1968) and held appointments at Harvard/Brigham and Women's Hospital and Boston Children's Hospital (1972-1992). The Thoracic Surgery Foundation's Nina Starr Braunwald Research Grant continues to support women in academic cardiac surgery.",
+    "notes": "[Verified 2026-03-17 | Tex Heart Inst J 2017] Braunwald was the first woman certified by the American Board of Thoracic Surgery (1963) and the first woman elected to the American Association for Thoracic Surgery. NYU MD, general surgery at Bellevue and Georgetown, cardiac surgery training under Andrew Morrow at NIH. In 1960 at age 32, she led the team that performed the first successful human mitral valve replacement using a prosthesis she designed and fabricated. She later founded the cardiac surgery program at UCSD (1968) and held appointments at Harvard/Brigham and Women's Hospital and Boston Children's Hospital (1972-1992). The Thoracic Surgery Foundation's Nina Starr Braunwald Research Grant continues to support women in academic cardiac surgery.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -267,8 +267,8 @@
     "evidence_citation": "PMID: 21173278",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/21173278/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2011 | MISMATCH: 0 of 20 edge tokens found in article] The STS was founded in part as a complement to the AATS, and the two societies maintain shared governance of cardiothoracic training standards and journal publications.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2011] The STS was founded in part as a complement to the AATS, and the two societies maintain shared governance of cardiothoracic training standards and journal publications.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -315,8 +315,8 @@
     "evidence_citation": "PMID: 10456202",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10456202/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Ann Clin Biochem 1999 | MISMATCH: 0 of 17 edge tokens found in article] Stinson EB. 'Pioneering heart transplantation: Norman E. Shumway.' Transplant Proc. 1999 Feb-Mar;31(1-2):51-3. Documents Shumway as chairman of the Department of Cardiovascular Surgery at Stanford University (1974-1993). Shumway (1923-2006) trained under Wangensteen at Minnesota (already in graph), pioneered hypothermic cardiac arrest, performed the first adult heart transplant in the US (1968), and directed the Stanford heart transplant program (already in graph as institutional_founder). This edge connects the existing Stanford Heart Transplant Program node to the Stanford Department of Surgery node — two currently isolated Stanford institutional nodes are now bridged through Shumway's governance of both. Stanford Department of Surgery goes from degree 1 (Holman, 1925) to degree 2, gaining its first post-1925 edge.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Ann Clin Biochem 1999] Stinson EB. 'Pioneering heart transplantation: Norman E. Shumway.' Transplant Proc. 1999 Feb-Mar;31(1-2):51-3. Documents Shumway as chairman of the Department of Cardiovascular Surgery at Stanford University (1974-1993). Shumway (1923-2006) trained under Wangensteen at Minnesota (already in graph), pioneered hypothermic cardiac arrest, performed the first adult heart transplant in the US (1968), and directed the Stanford heart transplant program (already in graph as institutional_founder). This edge connects the existing Stanford Heart Transplant Program node to the Stanford Department of Surgery node — two currently isolated Stanford institutional nodes are now bridged through Shumway's governance of both. Stanford Department of Surgery goes from degree 1 (Holman, 1925) to degree 2, gaining its first post-1925 edge.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -348,7 +348,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] Sabiston served as 65th president of the AATS; four of his trainees (Ebert, Cox, Crawford Jr, Spray) subsequently became AATS presidents, extending the Halsted-Blalock lineage through cardiothoracic governance.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] Sabiston served as 65th president of the AATS; four of his trainees (Ebert, Cox, Crawford Jr, Spray) subsequently became AATS presidents, extending the Halsted-Blalock lineage through cardiothoracic governance.",
     "module": "04_cardiothoracic_vascular"
   },
   {

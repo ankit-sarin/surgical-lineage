@@ -80,6 +80,16 @@ Consolidated from 50 source files (01–54) created across two build phases. V3 
 
 Failures flagged with `[VERIFY_FAILED]` stamps in edge notes and downgraded to `confidence: low` for manual review.
 
+**Phase 1.5 completed:** 2026-03-17
+
+| Metric | Count |
+|--------|-------|
+| Content matches | 97 |
+| Weak matches (flagged) | 51 |
+| Mismatches (flagged) | 60 |
+
+Mismatches downgraded to `confidence: low` and stamped with `MISMATCH` in edge notes. Weak matches stamped with `weak_match` and matched/missed tokens for manual review. Full details in `verification_report_phase1_5.json`.
+
 ## Changelog
 
 - **2026-03-17** — V5 expansion: merged 25 expansion files (two planning sessions) adding 65 new edges and 1 citation upgrade (Holman→Stanford PMID upgrade), bringing the graph to 385 edges and 319 nodes across 14 modules (1 pre-existing cross-module duplicate removed: Cushing→Elkin in 03_neurosurgery superseded by richer version in 02_general_surgery_spread). New structural features: Sabiston training tree (8 trainees including Wolfe, Bollinger, Cox, Spray, Chitwood, Anderson, Jones), Blalock training tree (Haller, Hanlon, Jude, Muller, Ravitch, Scott, Longmire), DeBakey training tree (Crawford, Noon, Mattox, Morris, Garrett, Creech), Wangensteen training tree (Lillehei, Lewis, Merendino, Najarian, Varco, Buchwald, Shumway, Mason), plastic surgery bridge (Blair→Brown→Barrett→ABPS), Hunter/Physick pre-Halsted bridge, Kocher Nobel lineage, Rhoads/Penn lineage, Zollinger/Ohio State lineage, Reemtsma/Columbia lineage, Folkman angiogenesis, Brennan/MSK, Silen/Beth Israel, UCSF chain, Stanford chain, Vanderbilt depth, Emory depth, Michigan succession, Hopkins modern succession, Mattox/Ben Taub trauma, Nyhus hernia, Organ/URM, Hendren/MGH, 5 component bridges (small islands batch). Connected components reduced from 6 to 3. PMID verification: 18/23 passed, 3 soft passes (subjects in article body), 2 PMIDs corrected: 18294269 (wrong article; Folkman obituary has no PMID, upgraded to DOI 10.1016/j.jpedsurg.2008.01.016), 33421312 (wrong article; St. Mark's training program article has no PMID, upgraded to DOI 10.1007/bf02586849). PMID 37601473 confirmed correct (Ann Surg Open, not Plast Reconstr Surg). DOI 10.1007/s10029-009-0522-1 verified (no associated PMID). Validated: zero duplicates, full schema compliance.

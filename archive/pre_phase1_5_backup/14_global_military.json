@@ -26,8 +26,8 @@
     "evidence_citation": "PMID: 20436531",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20436531/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Can J Ophthalmol 2010 | MISMATCH: 0 of 19 edge tokens found in article] Langenbeck developed the German system of residency training at Charité, heavily influencing the later Halstedian model."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Can J Ophthalmol 2010] Langenbeck developed the German system of residency training at Charité, heavily influencing the later Halstedian model."
   },
   {
     "source_node": "Bernhard von Langenbeck",
@@ -41,8 +41,8 @@
     "evidence_citation": "PMID: 20436531",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20436531/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Can J Ophthalmol 2010 | MISMATCH: 0 of 19 edge tokens found in article] Billroth served as Langenbeck's assistant at Charité, internalizing the German academic surgical system before his move to Zurich and Vienna."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Can J Ophthalmol 2010] Billroth served as Langenbeck's assistant at Charité, internalizing the German academic surgical system before his move to Zurich and Vienna."
   },
   {
     "source_node": "Theodor Billroth",
@@ -71,8 +71,8 @@
     "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 1 of 26 edge tokens found in article] Halsted spent two years traversing European surgical clinics, highly influenced by Billroth's scientific approach and Langenbeck's residency structure before returning to design the Hopkins system."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987] Halsted spent two years traversing European surgical clinics, highly influenced by Billroth's scientific approach and Langenbeck's residency structure before returning to design the Hopkins system."
   },
   {
     "source_node": "Edward Churchill",
@@ -101,8 +101,8 @@
     "evidence_citation": "PMID: 18693427",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18693427/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008 | MISMATCH: 0 of 23 edge tokens found in article] Working in the Surgeon General's Office during WWII, DeBakey helped conceptualize the MASH units and the VA medical center system to manage the flow of combat casualties."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008] Working in the Surgeon General's Office during WWII, DeBakey helped conceptualize the MASH units and the VA medical center system to manage the flow of combat casualties."
   },
   {
     "source_node": "Sterling Bunnell",
@@ -117,7 +117,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12563656/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Hand Surg Am 2003 | content_match] Sterling Bunnell (1882-1957), a San Francisco general surgeon, was designated a special civilian consultant to the US Secretary of War at the request of Surgeon General Norman T. Kirk, an orthopedic surgeon. Between November 1944 and February 1947, Bunnell established and visited nine regional hand surgery centers at US Army general hospitals across the United States, organizing surgical treatment protocols and teaching standardized hand injury care. He shut down his private practice for two years to accomplish this. Simultaneously, he completed his seminal textbook 'Surgery of the Hand' (JB Lippincott, 1944), which became the authoritative reference for nearly 30 years. Bunnell's key insight was that hand surgery required a multidisciplinary approach — correlating orthopedics, plastic surgery, and neurosurgery — rather than fragmented care by separate specialists. The army hand centers institutionalized this principle. This military-to-civilian specialty creation pattern parallels the trauma lineage (Scudder→ACS COT, already in graph) and the MASH system (already in graph). The surgeons who directed these centers became the founding nucleus of the ASSH."
+    "notes": "[Verified 2026-03-17 | J Hand Surg Am 2003] Sterling Bunnell (1882-1957), a San Francisco general surgeon, was designated a special civilian consultant to the US Secretary of War at the request of Surgeon General Norman T. Kirk, an orthopedic surgeon. Between November 1944 and February 1947, Bunnell established and visited nine regional hand surgery centers at US Army general hospitals across the United States, organizing surgical treatment protocols and teaching standardized hand injury care. He shut down his private practice for two years to accomplish this. Simultaneously, he completed his seminal textbook 'Surgery of the Hand' (JB Lippincott, 1944), which became the authoritative reference for nearly 30 years. Bunnell's key insight was that hand surgery required a multidisciplinary approach — correlating orthopedics, plastic surgery, and neurosurgery — rather than fragmented care by separate specialists. The army hand centers institutionalized this principle. This military-to-civilian specialty creation pattern parallels the trauma lineage (Scudder→ACS COT, already in graph) and the MASH system (already in graph). The surgeons who directed these centers became the founding nucleus of the ASSH."
   },
   {
     "source_node": "Norman Rich",
@@ -162,7 +162,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9465770/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Emil Theodor Kocher (1841-1917) studied under Langenbeck in Berlin during his post-doctoral study trip (1865-1866), along with visits to Billroth in Vienna and surgeons in London and Paris. Langenbeck and Billroth both recommended Kocher for the chair at Bern, which he assumed in 1872. He held this position for 45 years until his death. Kocher won the 1909 Nobel Prize in Physiology or Medicine for his work on the thyroid gland — the first surgeon to receive the Nobel Prize. He performed over 7,000 thyroidectomies, reducing mortality from 13% to 0.18%. This edge extends the European depth layer: Langenbeck→Kocher creates a parallel to the existing Langenbeck→Billroth→Halsted chain. Citation is Liebermann-Meffert D, 'Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted,' World J Surg 2000;24(1):2-9.",
+    "notes": "[Verified 2026-03-17 | World J Surg 1998] Emil Theodor Kocher (1841-1917) studied under Langenbeck in Berlin during his post-doctoral study trip (1865-1866), along with visits to Billroth in Vienna and surgeons in London and Paris. Langenbeck and Billroth both recommended Kocher for the chair at Bern, which he assumed in 1872. He held this position for 45 years until his death. Kocher won the 1909 Nobel Prize in Physiology or Medicine for his work on the thyroid gland — the first surgeon to receive the Nobel Prize. He performed over 7,000 thyroidectomies, reducing mortality from 13% to 0.18%. This edge extends the European depth layer: Langenbeck→Kocher creates a parallel to the existing Langenbeck→Billroth→Halsted chain. Citation is Liebermann-Meffert D, 'Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted,' World J Surg 2000;24(1):2-9.",
     "module": "14_global_military"
   },
   {
@@ -178,7 +178,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9465770/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Harvey Cushing visited Kocher's clinic in Bern during his European Wanderjahr (1900-1901), conducting experimental research on intracranial pressure that led to the Cushing-Kocher theory. This is one of the most documented observational visits in surgical history. Cushing was already a Halsted trainee at Hopkins (existing edge in graph). This creates a second pathway to Cushing: Langenbeck→Kocher→Cushing (observational) alongside the existing Halsted→Cushing (direct_training), forming a triangulated European-American bridge. Citation same as training edge.",
+    "notes": "[Verified 2026-03-17 | World J Surg 1998] Harvey Cushing visited Kocher's clinic in Bern during his European Wanderjahr (1900-1901), conducting experimental research on intracranial pressure that led to the Cushing-Kocher theory. This is one of the most documented observational visits in surgical history. Cushing was already a Halsted trainee at Hopkins (existing edge in graph). This creates a second pathway to Cushing: Langenbeck→Kocher→Cushing (observational) alongside the existing Halsted→Cushing (direct_training), forming a triangulated European-American bridge. Citation same as training edge.",
     "module": "14_global_military"
   }
 ]

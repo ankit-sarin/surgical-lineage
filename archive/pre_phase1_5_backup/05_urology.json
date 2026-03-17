@@ -28,7 +28,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12544287/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Urol 2003 | content_match] Young served as AUA president in 1909 and founded the Journal of Urology in 1917, serving as its first editor-in-chief until his death in 1945. The AUA absorbed the Journal in 1921 and it became the official AUA scientific publication. The AUA eventually headquartered at Young's Baltimore estate, physically and symbolically fusing the independent Guiteras-New York origin with the Halstedian Hopkins trunk. Young is universally regarded as the Father of Modern American Urology.",
+    "notes": "[Verified 2026-03-17 | J Urol 2003] Young served as AUA president in 1909 and founded the Journal of Urology in 1917, serving as its first editor-in-chief until his death in 1945. The AUA absorbed the Journal in 1921 and it became the official AUA scientific publication. The AUA eventually headquartered at Young's Baltimore estate, physically and symbolically fusing the independent Guiteras-New York origin with the Halstedian Hopkins trunk. Young is universally regarded as the Father of Modern American Urology.",
     "module": "05_urology"
   },
   {
@@ -44,7 +44,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25442801/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Acad Radiol 2015 | weak_match: matched \"young\"; missed first, dedicated, founded] Young founded the Brady Urological Institute at Hopkins, establishing the first dedicated, modern residency model for urology.",
+    "notes": "[Verified 2026-03-17 | Acad Radiol 2015] Young founded the Brady Urological Institute at Hopkins, establishing the first dedicated, modern residency model for urology.",
     "module": "05_urology"
   },
   {
@@ -92,7 +92,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17437775/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Urol 2007 | weak_match: matched \"walsh\", \"patrick\", \"prostate\"; missed reserve, chairman, brady urological institute] Walsh served as Chairman of the Brady Urological Institute from 1974 to 2004, transforming it from a declining program into the world's leading prostate cancer center. Case Western Reserve MD 1964, Peter Bent Brigham general surgery residency, UCLA urology residency — NOT Hopkins-trained; recruited externally. On April 26, 1982, he performed the first purposeful nerve-sparing radical prostatectomy, revolutionizing prostate cancer treatment. By 2002, prostate cancer deaths had declined 33%. He trained 62 residents who carried the technique worldwide and edited Campbell's Urology for 25 years (renamed Campbell-Walsh Urology in 2012). His directorship bridges the Hugh Hampton Young founding era (1915) to the modern era of the Brady.",
+    "notes": "[Verified 2026-03-17 | J Urol 2007] Walsh served as Chairman of the Brady Urological Institute from 1974 to 2004, transforming it from a declining program into the world's leading prostate cancer center. Case Western Reserve MD 1964, Peter Bent Brigham general surgery residency, UCLA urology residency — NOT Hopkins-trained; recruited externally. On April 26, 1982, he performed the first purposeful nerve-sparing radical prostatectomy, revolutionizing prostate cancer treatment. By 2002, prostate cancer deaths had declined 33%. He trained 62 residents who carried the technique worldwide and edited Campbell's Urology for 25 years (renamed Campbell-Walsh Urology in 2012). His directorship bridges the Hugh Hampton Young founding era (1915) to the modern era of the Brady.",
     "module": "05_urology"
   },
   {
@@ -124,7 +124,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/1830346/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Urol 1991 | content_match] Clayman RV, Kavoussi LR, Soper NJ, et al. 'Laparoscopic nephrectomy: initial case report.' J Urol. 1991 Aug;146(2):278-82. Clayman joined Washington University in 1984 as faculty in the Division of Urologic Surgery, rising to Professor of Urology and Radiology and Director of the Midwest Stone Institute. On June 25, 1990, he and his team performed the world's first laparoscopic nephrectomy on an 85-year-old woman with a 3cm renal mass — the most transformative single procedure in urologic surgery since Walsh's nerve-sparing prostatectomy. He trained at UC San Diego (MD) and University of Minnesota (urology residency), where he was exposed to endourology by Arthur Smith. His WashU program became the global training epicenter for minimally invasive urologic surgery. This creates a completely independent endourology trunk parallel to the Brady/Hopkins lineage, based at WashU (which already has nodes for the Graham/cardiothoracic and Blair/plastic surgery lineages).",
+    "notes": "[Verified 2026-03-17 | J Urol 1991] Clayman RV, Kavoussi LR, Soper NJ, et al. 'Laparoscopic nephrectomy: initial case report.' J Urol. 1991 Aug;146(2):278-82. Clayman joined Washington University in 1984 as faculty in the Division of Urologic Surgery, rising to Professor of Urology and Radiology and Director of the Midwest Stone Institute. On June 25, 1990, he and his team performed the world's first laparoscopic nephrectomy on an 85-year-old woman with a 3cm renal mass — the most transformative single procedure in urologic surgery since Walsh's nerve-sparing prostatectomy. He trained at UC San Diego (MD) and University of Minnesota (urology residency), where he was exposed to endourology by Arthur Smith. His WashU program became the global training epicenter for minimally invasive urologic surgery. This creates a completely independent endourology trunk parallel to the Brady/Hopkins lineage, based at WashU (which already has nodes for the Graham/cardiothoracic and Blair/plastic surgery lineages).",
     "module": "05_urology"
   },
   {

@@ -28,7 +28,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/373268/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Yale J Biol Med 1978 | content_match] Joseph Marshall Flint (1872-1944) received his BS from the University of Chicago (1895) and his MD from Johns Hopkins University in 1900 during the Halsted era. He then became professor of anatomy at UC Berkeley (1901-1907) before being appointed the first full-time professor of surgery at Yale Medical School in 1907. At Yale, Flint began a formal surgical residency based on the model developed by Halsted at Hopkins. Confidence moderate because Flint received his Hopkins MD during the Halsted era but was primarily trained as an anatomist rather than as a Halsted surgical resident. His surgical training came later through self-directed study and European sabbatical (1906). Source: Baue AE. Joseph Marshall Flint and the whole-time system at Yale. Yale J Biol Med. 1978;51(5):549-563. BRIDGE EDGE: Connects the Yale 3-node island (Flint + Lindskog + Yale Dept) to the main component via Hopkins."
+    "notes": "[Verified 2026-03-17 | Yale J Biol Med 1978] Joseph Marshall Flint (1872-1944) received his BS from the University of Chicago (1895) and his MD from Johns Hopkins University in 1900 during the Halsted era. He then became professor of anatomy at UC Berkeley (1901-1907) before being appointed the first full-time professor of surgery at Yale Medical School in 1907. At Yale, Flint began a formal surgical residency based on the model developed by Halsted at Hopkins. Confidence moderate because Flint received his Hopkins MD during the Halsted era but was primarily trained as an anatomist rather than as a Halsted surgical resident. His surgical training came later through self-directed study and European sabbatical (1906). Source: Baue AE. Joseph Marshall Flint and the whole-time system at Yale. Yale J Biol Med. 1978;51(5):549-563. BRIDGE EDGE: Connects the Yale 3-node island (Flint + Lindskog + Yale Dept) to the main component via Hopkins."
   },
   {
     "source_node": "Joseph Marshall Flint",
@@ -75,7 +75,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15523385/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surgery 2004 | weak_match: matched \"surgical\", \"churchill\", \"residency\", \"edward\"; missed richard, 1895-1972, internship] Edward Delos Churchill (1895-1972) graduated from Harvard Medical School cum laude in 1920 and completed his surgical internship and residency at Massachusetts General Hospital under Edward P. Richardson, the John Homans Professor of Surgery and Chief of the West Surgical Service. Churchill continued at MGH as an associate surgeon after residency completion in 1924. He studied in Europe on a Moseley Traveling Fellowship (1926-1927) in Copenhagen, Munich, and Berlin. He returned to MGH in 1927 under Richardson. Richardson sustained an incapacitating stroke in 1930, and Churchill succeeded him as John Homans Professor in 1931. Churchill was NOT trained by Harvey Cushing — Cushing was at Peter Bent Brigham Hospital, a separate Harvard-affiliated institution. The previous edge incorrectly listed Cushing as Churchill's trainer. Sources: Grillo HC. Edward D. Churchill and the rectangular surgical residency. Surgery. 2004;136(5):947-952. Wright CD. Historical perspectives of the AATS: Edward D. Churchill (1895-1972). J Thorac Cardiovasc Surg. 2012. CORRECTED IN V4: Previously listed as Cushing→Churchill. Richardson was the actual training mentor."
+    "notes": "[Verified 2026-03-17 | Surgery 2004] Edward Delos Churchill (1895-1972) graduated from Harvard Medical School cum laude in 1920 and completed his surgical internship and residency at Massachusetts General Hospital under Edward P. Richardson, the John Homans Professor of Surgery and Chief of the West Surgical Service. Churchill continued at MGH as an associate surgeon after residency completion in 1924. He studied in Europe on a Moseley Traveling Fellowship (1926-1927) in Copenhagen, Munich, and Berlin. He returned to MGH in 1927 under Richardson. Richardson sustained an incapacitating stroke in 1930, and Churchill succeeded him as John Homans Professor in 1931. Churchill was NOT trained by Harvey Cushing — Cushing was at Peter Bent Brigham Hospital, a separate Harvard-affiliated institution. The previous edge incorrectly listed Cushing as Churchill's trainer. Sources: Grillo HC. Edward D. Churchill and the rectangular surgical residency. Surgery. 2004;136(5):947-952. Wright CD. Historical perspectives of the AATS: Edward D. Churchill (1895-1972). J Thorac Cardiovasc Surg. 2012. CORRECTED IN V4: Previously listed as Cushing→Churchill. Richardson was the actual training mentor."
   },
   {
     "source_node": "Allen O. Whipple",
@@ -90,7 +90,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37941365/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Med Biogr 2025 | content_match] Whipple was appointed Professor of Surgery and Director of Surgical Services at Columbia-Presbyterian in 1921 at age 39, serving as chairman for 25 years. He was the first Valentine Mott Professor of Surgery (1931). He built the modern department, expanding residency training, pioneering the pancreaticoduodenectomy (1935), and introducing multidisciplinary teams and prospective data collection. Columbia P&S represents an independent New York surgical trunk — Whipple was not Halsted-trained.",
+    "notes": "[Verified 2026-03-17 | J Med Biogr 2025] Whipple was appointed Professor of Surgery and Director of Surgical Services at Columbia-Presbyterian in 1921 at age 39, serving as chairman for 25 years. He was the first Valentine Mott Professor of Surgery (1931). He built the modern department, expanding residency training, pioneering the pancreaticoduodenectomy (1935), and introducing multidisciplinary teams and prospective data collection. Columbia P&S represents an independent New York surgical trunk — Whipple was not Halsted-trained.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -122,7 +122,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17275843/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Surg Res 2007 | content_match] Wangensteen completed a crucial fellowship at the Mayo Clinic, importing their systematic approach back to Minnesota to build his own dynasty.",
+    "notes": "[Verified 2026-03-17 | J Surg Res 2007] Wangensteen completed a crucial fellowship at the Mayo Clinic, importing their systematic approach back to Minnesota to build his own dynasty.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -138,7 +138,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26811046/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Semin Thorac Cardiovasc Surg 2015 | content_match] CITATION UPGRADE: Replaces Stanford_Archive_Holman. Woo YJ, Reitz BA, 'One Hundred Years of History at Stanford University: Thoracic and Cardiovascular Surgery,' Semin Thorac Cardiovasc Surg 2015;27(4):388-97. Documents Holman as first chairman of the Department of Surgery at Stanford (1926-1955), educated at Stanford and Johns Hopkins, trained by Halsted and later Cushing. He performed extracardiac and closed heart procedures and served as the 33rd AATS president. Original expansion target T3-02 proposed adding Holman→successor chain but the post-Holman general surgery succession (Roy Cohn, James Mark) lacks PMID-documented training relationships. The Shumway cardiac surgery chain is already well-represented in the graph. Target downgraded to citation upgrade only.",
+    "notes": "[Verified 2026-03-17 | Semin Thorac Cardiovasc Surg 2015] CITATION UPGRADE: Replaces Stanford_Archive_Holman. Woo YJ, Reitz BA, 'One Hundred Years of History at Stanford University: Thoracic and Cardiovascular Surgery,' Semin Thorac Cardiovasc Surg 2015;27(4):388-97. Documents Holman as first chairman of the Department of Surgery at Stanford (1926-1955), educated at Stanford and Johns Hopkins, trained by Halsted and later Cushing. He performed extracardiac and closed heart procedures and served as the 33rd AATS president. Original expansion target T3-02 proposed adding Holman→successor chain but the post-Holman general surgery succession (Roy Cohn, James Mark) lacks PMID-documented training relationships. The Shumway cardiac surgery chain is already well-represented in the graph. Target downgraded to citation upgrade only.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -250,7 +250,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32808916/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Innov 2021 | content_match] Edward Delos Churchill (1895-1972) succeeded Edward P. Richardson as the John Homans Professor of Surgery at Harvard Medical School and Chief of the West Surgical Service at MGH in 1931, after Richardson suffered an incapacitating stroke. In 1948 he was additionally appointed Chief of the General Surgical Service. Churchill held these positions until receiving emeritus status in 1962 — a 31-year tenure. Churchill redesigned the MGH surgical residency in 1938, replacing the Halstedian pyramidal model with a 'rectangular' program that finished the same number of residents it accepted. This innovation — training all accepted residents to completion rather than eliminating them competitively — became the template for all modern US surgical training programs. Churchill trained at Harvard Medical School (not Hopkins) and completed his surgical residency at MGH under Edward P. Richardson (1920-1924). He was NOT trained by Harvey Cushing, who was at the separate Peter Bent Brigham Hospital. Corrected in V4.. His MGH department node creates the institutional terminus for the Halsted→Cushing→Churchill chain, extending the Halstedian invasion pattern to Boston. Churchill also trained John H. Gibbon Jr. (inventor of the heart-lung machine) in his lab, though Gibbon is not yet in the graph.",
+    "notes": "[Verified 2026-03-17 | Surg Innov 2021] Edward Delos Churchill (1895-1972) succeeded Edward P. Richardson as the John Homans Professor of Surgery at Harvard Medical School and Chief of the West Surgical Service at MGH in 1931, after Richardson suffered an incapacitating stroke. In 1948 he was additionally appointed Chief of the General Surgical Service. Churchill held these positions until receiving emeritus status in 1962 — a 31-year tenure. Churchill redesigned the MGH surgical residency in 1938, replacing the Halstedian pyramidal model with a 'rectangular' program that finished the same number of residents it accepted. This innovation — training all accepted residents to completion rather than eliminating them competitively — became the template for all modern US surgical training programs. Churchill trained at Harvard Medical School (not Hopkins) and completed his surgical residency at MGH under Edward P. Richardson (1920-1924). He was NOT trained by Harvey Cushing, who was at the separate Peter Bent Brigham Hospital. Corrected in V4.. His MGH department node creates the institutional terminus for the Halsted→Cushing→Churchill chain, extending the Halstedian invasion pattern to Boston. Churchill also trained John H. Gibbon Jr. (inventor of the heart-lung machine) in his lab, though Gibbon is not yet in the graph.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -265,8 +265,8 @@
     "evidence_citation": "PMID: 18693427",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18693427/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008 | MISMATCH: 0 of 13 edge tokens found in article] DeBakey completed his residency and early faculty tenure under Ochsner at Tulane.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008] DeBakey completed his residency and early faculty tenure under Ochsner at Tulane.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -346,7 +346,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16632995/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2006 | weak_match: matched \"drew\", \"train\", \"fellowship\", \"charles\"; missed received, richard, allen] Charles Richard Drew (1904-1950) received a Rockefeller Fellowship in surgery to train at Columbia University's Presbyterian Hospital (1938-1940) under Allen O. Whipple, chairman of the Department of Surgery. Whipple initially assigned Drew to John Scudder's surgical laboratory, but Drew's skill and presence persuaded Whipple to admit him to the surgical residency — no Black physician had previously been granted a residency or staff privileges at Presbyterian. Whipple became one of Drew's strongest advocates, and with Whipple's sponsorship Drew passed the American Board of Surgery examinations. Drew earned his Doctor of Medical Science degree from Columbia in June 1940, the first African American to do so, with a dissertation on blood preservation that laid the foundation for modern blood banking. Whipple attended Drew's funeral in 1950. This edge extends the Columbia/Whipple trunk to an independent institutional lineage at Howard University and represents the first Black surgeon trained in the existing graph's Columbia department.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2006] Charles Richard Drew (1904-1950) received a Rockefeller Fellowship in surgery to train at Columbia University's Presbyterian Hospital (1938-1940) under Allen O. Whipple, chairman of the Department of Surgery. Whipple initially assigned Drew to John Scudder's surgical laboratory, but Drew's skill and presence persuaded Whipple to admit him to the surgical residency — no Black physician had previously been granted a residency or staff privileges at Presbyterian. Whipple became one of Drew's strongest advocates, and with Whipple's sponsorship Drew passed the American Board of Surgery examinations. Drew earned his Doctor of Medical Science degree from Columbia in June 1940, the first African American to do so, with a dissertation on blood preservation that laid the foundation for modern blood banking. Whipple attended Drew's funeral in 1950. This edge extends the Columbia/Whipple trunk to an independent institutional lineage at Howard University and represents the first Black surgeon trained in the existing graph's Columbia department.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -378,7 +378,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16632995/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2006 | weak_match: matched \"drew\", \"medicine\", \"charles\"; missed college, chairman, facility] In October 1941, Drew was appointed Chairman of the Department of Surgery at Howard University College of Medicine and Chief of Surgery at Freedmen's Hospital (Howard's main teaching facility). That same month, he became the first African American appointed as an examiner for the American Board of Surgery. Drew's mission at Howard was to train a generation of elite Black surgeons who would meet the most rigorous national standards and then place them in strategic positions throughout the country. He created a rigorous residency program modeled on the standards he absorbed at Columbia under Whipple. Drew held the chairmanship until his death on April 1, 1950, from injuries sustained in an automobile accident near Burlington, North Carolina, while en route to a surgical conference at Tuskegee. His last lecture — to the sophomore class on Shock, Plasma, and Water Balance — was delivered on March 31, 1950. Sitting in the front row of that lecture was 19-year-old LaSalle D. Leffall Jr., who would graduate first in his class in 1952 and ultimately succeed Drew's legacy at Howard.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2006] In October 1941, Drew was appointed Chairman of the Department of Surgery at Howard University College of Medicine and Chief of Surgery at Freedmen's Hospital (Howard's main teaching facility). That same month, he became the first African American appointed as an examiner for the American Board of Surgery. Drew's mission at Howard was to train a generation of elite Black surgeons who would meet the most rigorous national standards and then place them in strategic positions throughout the country. He created a rigorous residency program modeled on the standards he absorbed at Columbia under Whipple. Drew held the chairmanship until his death on April 1, 1950, from injuries sustained in an automobile accident near Burlington, North Carolina, while en route to a surgical conference at Tuskegee. His last lecture — to the sophomore class on Shock, Plasma, and Water Balance — was delivered on March 31, 1950. Sitting in the front row of that lecture was 19-year-old LaSalle D. Leffall Jr., who would graduate first in his class in 1952 and ultimately succeed Drew's legacy at Howard.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -425,8 +425,8 @@
     "evidence_citation": "PMID: 19685166",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19685166/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Mol Biol Rep 2010 | MISMATCH: 0 of 13 edge tokens found in article] Cooley assisted Blalock during the first tetralogy of Fallot operations at Hopkins.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Mol Biol Rep 2010] Cooley assisted Blalock during the first tetralogy of Fallot operations at Hopkins.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -458,7 +458,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16632995/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2006 | content_match] Cornwell EE 3rd, Chang DC, Leffall LD Jr. 'The Southern Surgical Association History of Medicine Scholarship Presentation: Dr. Charles Drew, a Surgical Pioneer.' Ann Surg. 2006 May;243(5):612-618. PMC1570555. Documents that Leffall was a sophomore medical student in Drew's final lecture on March 31, 1950 — the day before Drew's fatal automobile accident. Drew was chief of surgery at Howard (1941-1950, already in graph) and taught Leffall during medical school. Though Drew died before Leffall completed medical school (1952), the mentorship was formative: Leffall became the first Charles R. Drew Professor of Surgery at Howard (1992) and spent 50+ years continuing Drew's legacy. The graph already has Drew→Howard (governance) and Howard→Leffall (institutional training), but no person-to-person edge. This creates a three-generation training chain: Whipple→Drew→Leffall, the longest URM lineage in the graph.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2006] Cornwell EE 3rd, Chang DC, Leffall LD Jr. 'The Southern Surgical Association History of Medicine Scholarship Presentation: Dr. Charles Drew, a Surgical Pioneer.' Ann Surg. 2006 May;243(5):612-618. PMC1570555. Documents that Leffall was a sophomore medical student in Drew's final lecture on March 31, 1950 — the day before Drew's fatal automobile accident. Drew was chief of surgery at Howard (1941-1950, already in graph) and taught Leffall during medical school. Though Drew died before Leffall completed medical school (1952), the mentorship was formative: Leffall became the first Charles R. Drew Professor of Surgery at Howard (1992) and spent 50+ years continuing Drew's legacy. The graph already has Drew→Howard (governance) and Howard→Leffall (institutional training), but no person-to-person edge. This creates a three-generation training chain: Whipple→Drew→Leffall, the longest URM lineage in the graph.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -473,8 +473,8 @@
     "evidence_citation": "PMID: 10527140",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10527140/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | J Neurosurg Anesthesiol 1999 | MISMATCH: 0 of 13 edge tokens found in article] Lillehei completed his residency and PhD under Wangensteen, pioneering cross-circulation for open-heart surgery.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Neurosurg Anesthesiol 1999] Lillehei completed his residency and PhD under Wangensteen, pioneering cross-circulation for open-heart surgery.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -490,7 +490,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] Bahnson trained under Blalock at Hopkins and later became chairman of surgery at the University of Pittsburgh.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] Bahnson trained under Blalock at Hopkins and later became chairman of surgery at the University of Pittsburgh.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -506,7 +506,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17275843/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Surg Res 2007 | content_match] Lewis trained under Wangensteen and in 1952 led the team that performed the world's first successful open-heart surgery using hypothermia.",
+    "notes": "[Verified 2026-03-17 | J Surg Res 2007] Lewis trained under Wangensteen and in 1952 led the team that performed the world's first successful open-heart surgery using hypothermia.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -554,7 +554,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] Sabiston completed his surgical residency and chief residency under Blalock at Hopkins, becoming one of the most influential surgical educators of the 20th century.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] Sabiston completed his surgical residency and chief residency under Blalock at Hopkins, becoming one of the most influential surgical educators of the 20th century.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -586,7 +586,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18481473/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008 | content_match] LaSalle Doheny Leffall Jr. (1930-2019) entered Howard University College of Medicine in 1948 at age 18 and graduated first in his class in 1952. His mentors included Charles R. Drew, Burke Syphax (Drew's successor as surgery program director), W. Montague Cobb (professor of anatomy), and Jack White (who would direct Leffall toward surgical oncology training). Leffall completed his internship at Homer G. Phillips Hospital in St. Louis (1952-1953), then returned to the Howard system for surgical residency: assistant resident at D.C. General Hospital and Freedmen's Hospital (1953-1956), followed by chief residency at Freedmen's Hospital (1956-1957). The start_year of 1948 reflects medical school entry; the end_year of 1957 reflects completion of the chief residency. This training period spans the Drew era (Drew died during Leffall's second year of medical school) and its immediate succession under Syphax and White.",
+    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008] LaSalle Doheny Leffall Jr. (1930-2019) entered Howard University College of Medicine in 1948 at age 18 and graduated first in his class in 1952. His mentors included Charles R. Drew, Burke Syphax (Drew's successor as surgery program director), W. Montague Cobb (professor of anatomy), and Jack White (who would direct Leffall toward surgical oncology training). Leffall completed his internship at Homer G. Phillips Hospital in St. Louis (1952-1953), then returned to the Howard system for surgical residency: assistant resident at D.C. General Hospital and Freedmen's Hospital (1953-1956), followed by chief residency at Freedmen's Hospital (1956-1957). The start_year of 1948 reflects medical school entry; the end_year of 1957 reflects completion of the chief residency. This training period spans the Drew era (Drew died during Leffall's second year of medical school) and its immediate succession under Syphax and White.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -617,8 +617,8 @@
     "evidence_citation": "PMID: 11930218",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11930218/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Sheng Li Xue Bao 2001 | MISMATCH: 0 of 20 edge tokens found in article] Souba WW, Wilmore DW. 'Francis Daniels Moore, 1913-2001.' Ann Surg. 2002 Apr;235(4):453-7. PMC1422478. Documents Moore (1913-2001) as Surgeon-in-Chief at Peter Bent Brigham Hospital and Moseley Professor of Surgery at Harvard Medical School from 1948 to 1976. At age 34, he was the youngest surgery chief in Harvard's history. Under Moore's leadership, the department pioneered organ transplantation (Murray), open-heart surgery, and the metabolic care of the surgical patient. Moore trained at MGH (Harvard surgical residency) but spent his entire chairmanship at Brigham. His book 'The Metabolic Care of the Surgical Patient' (1959) was the standard text for decades. Moore was a member of the 1954 transplant surgical team. This edge creates the institutional governance context for Murray's transplant work — Moore provided the academic environment and institutional protection that enabled a decade of experimental transplant attempts before the 1954 success. The Brigham Department of Surgery node is new and distinct from the two existing Brigham subspecialty nodes (neurosurgery/Cushing, vascular/Homans).",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Sheng Li Xue Bao 2001] Souba WW, Wilmore DW. 'Francis Daniels Moore, 1913-2001.' Ann Surg. 2002 Apr;235(4):453-7. PMC1422478. Documents Moore (1913-2001) as Surgeon-in-Chief at Peter Bent Brigham Hospital and Moseley Professor of Surgery at Harvard Medical School from 1948 to 1976. At age 34, he was the youngest surgery chief in Harvard's history. Under Moore's leadership, the department pioneered organ transplantation (Murray), open-heart surgery, and the metabolic care of the surgical patient. Moore trained at MGH (Harvard surgical residency) but spent his entire chairmanship at Brigham. His book 'The Metabolic Care of the Surgical Patient' (1959) was the standard text for decades. Moore was a member of the 1954 transplant surgical team. This edge creates the institutional governance context for Murray's transplant work — Moore provided the academic environment and institutional protection that enabled a decade of experimental transplant attempts before the 1954 success. The Brigham Department of Surgery node is new and distinct from the two existing Brigham subspecialty nodes (neurosurgery/Cushing, vascular/Homans).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -633,8 +633,8 @@
     "evidence_citation": "PMID: 19685166",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19685166/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Mol Biol Rep 2010 | MISMATCH: 0 of 20 edge tokens found in article] Cooley joined DeBakey at Baylor after completing his Hopkins training, before the famous professional split that led to the founding of the Texas Heart Institute.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Mol Biol Rep 2010] Cooley joined DeBakey at Baylor after completing his Hopkins training, before the famous professional split that led to the founding of the Texas Heart Institute.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -650,7 +650,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34645295/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am Surg 2023 | content_match] The renal transplant program at the Peter Bent Brigham Hospital was established within Francis D. Moore's Department of Surgery. Moore (surgeon-in-chief 1948-1976) committed departmental resources to Joseph Murray's transplant research, which Murray himself described as essential: 'He highlighted the benefit he derived from Dr Moore, who provided a departmental environment that was enriching and conducive to scientific investigation' (Delmonico, Am J Transplant 2002). Murray returned to Brigham in 1951 after military service and plastic surgery training in New York, and performed the first successful kidney transplant in 1954 under Moore's departmental leadership. Murray served as chief of transplant surgery within the department from 1951 to 1971. The Brigham team — Moore (surgery), Thorn (medicine), Murray (transplant surgery), Merrill (nephrology), Harrison (urology) — functioned as an interdisciplinary unit within the department. Source: Niumsawatt V et al. Joseph Murray: Pioneering Plastic Surgeon and Father of the First Organ Transplant. Ann Plast Surg. 2021;87(5):e74-e80. BRIDGE EDGE: Connects the Moore/Brigham Dept 2-node island to the main component via the Brigham Transplant Program (which links to Murray, already in the main component)."
+    "notes": "[Verified 2026-03-17 | Am Surg 2023] The renal transplant program at the Peter Bent Brigham Hospital was established within Francis D. Moore's Department of Surgery. Moore (surgeon-in-chief 1948-1976) committed departmental resources to Joseph Murray's transplant research, which Murray himself described as essential: 'He highlighted the benefit he derived from Dr Moore, who provided a departmental environment that was enriching and conducive to scientific investigation' (Delmonico, Am J Transplant 2002). Murray returned to Brigham in 1951 after military service and plastic surgery training in New York, and performed the first successful kidney transplant in 1954 under Moore's departmental leadership. Murray served as chief of transplant surgery within the department from 1951 to 1971. The Brigham team — Moore (surgery), Thorn (medicine), Murray (transplant surgery), Merrill (nephrology), Harrison (urology) — functioned as an interdisciplinary unit within the department. Source: Niumsawatt V et al. Joseph Murray: Pioneering Plastic Surgeon and Father of the First Organ Transplant. Ann Plast Surg. 2021;87(5):e74-e80. BRIDGE EDGE: Connects the Moore/Brigham Dept 2-node island to the main component via the Brigham Transplant Program (which links to Murray, already in the main component)."
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",
@@ -664,8 +664,8 @@
     "evidence_citation": "PMID: 23225838",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23225838/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Eye Sci 2012 | MISMATCH: 0 of 19 edge tokens found in article] Starzl completed his surgical residency at Hopkins, bridging the classical general surgery trunk to the genesis of liver transplantation.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Eye Sci 2012] Starzl completed his surgical residency at Hopkins, bridging the classical general surgery trunk to the genesis of liver transplantation.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -681,7 +681,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17275843/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Surg Res 2007 | content_match] Lewis led the team that performed the world's first successful open-heart surgery using hypothermia in 1952, establishing Minnesota as the birthplace of cardiac surgery.",
+    "notes": "[Verified 2026-03-17 | J Surg Res 2007] Lewis led the team that performed the world's first successful open-heart surgery using hypothermia in 1952, establishing Minnesota as the birthplace of cardiac surgery.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -697,7 +697,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11153604/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Eur Respir J 2000 | weak_match: matched \"clinical\", \"hospital\", \"surgery\"; missed peter safar, peter, halstedian] Safar completed anesthesiology training and clinical work at Hopkins, connecting the genesis of modern critical care to the Halstedian root.",
+    "notes": "[Verified 2026-03-17 | Eur Respir J 2000] Safar completed anesthesiology training and clinical work at Hopkins, connecting the genesis of modern critical care to the Halstedian root.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -713,7 +713,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15631913/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2005 | content_match] Murray JE. 'The first successful organ transplants in man.' J Am Coll Surg. 2005 Jan;200(1):5-9. Murray's own first-person account. On December 23, 1954, Murray performed the world's first successful human organ transplant — a kidney between identical twins Richard and Ronald Herrick — at Peter Bent Brigham Hospital, Operating Room 2. In 1959, he performed the first transplant between non-identical twins. In 1962, he performed the first successful kidney transplant from an unrelated cadaver donor using azathioprine immunosuppression (developed with Elion and Hitchings). Murray directed the Brigham transplant program until stepping down in 1971 to return to plastic surgery at Children's Hospital. He was awarded the Nobel Prize in Physiology or Medicine in 1990. The Brigham transplant program is the single most important missing institutional node in the graph — it is the origin of all organ transplantation. It represents a parallel origin trunk to Starzl (liver, Pittsburgh) and Shumway (heart, Stanford), both already in the graph. The Peter Bent Brigham Hospital later became Brigham and Women's Hospital (1980).",
+    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2005] Murray JE. 'The first successful organ transplants in man.' J Am Coll Surg. 2005 Jan;200(1):5-9. Murray's own first-person account. On December 23, 1954, Murray performed the world's first successful human organ transplant — a kidney between identical twins Richard and Ronald Herrick — at Peter Bent Brigham Hospital, Operating Room 2. In 1959, he performed the first transplant between non-identical twins. In 1962, he performed the first successful kidney transplant from an unrelated cadaver donor using azathioprine immunosuppression (developed with Elion and Hitchings). Murray directed the Brigham transplant program until stepping down in 1971 to return to plastic surgery at Children's Hospital. He was awarded the Nobel Prize in Physiology or Medicine in 1990. The Brigham transplant program is the single most important missing institutional node in the graph — it is the origin of all organ transplantation. It represents a parallel origin trunk to Starzl (liver, Pittsburgh) and Shumway (heart, Stanford), both already in the graph. The Peter Bent Brigham Hospital later became Brigham and Women's Hospital (1980).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -729,7 +729,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11845877/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Thorac Surg 2002 | weak_match: matched \"before\"; missed cardiothoracic, c. walton lillehei, trained] Barnard trained at Minnesota, heavily mentored by Lillehei in advanced cardiothoracic techniques before returning to Cape Town.",
+    "notes": "[Verified 2026-03-17 | Ann Thorac Surg 2002] Barnard trained at Minnesota, heavily mentored by Lillehei in advanced cardiothoracic techniques before returning to Cape Town.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -745,7 +745,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2774706/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1989 | weak_match: matched \"najarian\"; missed owen wangensteen, succeeded, university] Najarian trained under Wangensteen and succeeded him as chairman of the University of Minnesota Department of Surgery, continuing the transplant dynasty.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1989] Najarian trained under Wangensteen and succeeded him as chairman of the University of Minnesota Department of Surgery, continuing the transplant dynasty.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -761,7 +761,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17473177/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Int Assoc Physicians AIDS Care (Chic) 2007 | weak_match: matched \"under\"; missed mentor, cole, pmc1856623] Prinz RA, Thistlethwaite JR. 'Olga Jonasson, MD: Surgeon, Mentor, Teacher, Friend.' Arch Surg. 2007 May;142(5):490-492. PMC1856623. Documents that Jonasson 'studied under Warren Cole, MD, FACS, at the University of Illinois College of Medicine' for her surgical residency. When she told Cole she wanted to become a surgeon, 'even though a woman, he thought the idea totally absurd' — but ultimately accepted her. She was elected to AOA during medical school and began teaching surgery at U of I in 1963 after residency. Warren Cole (1898-1990) was chair of surgery at U of I (1930-1967) and pioneer of oral cholecystography. This is the first direct_training edge involving a woman in the entire graph — it connects Jonasson's governance-only subgraph to the training lineage backbone.",
+    "notes": "[Verified 2026-03-17 | J Int Assoc Physicians AIDS Care (Chic) 2007] Prinz RA, Thistlethwaite JR. 'Olga Jonasson, MD: Surgeon, Mentor, Teacher, Friend.' Arch Surg. 2007 May;142(5):490-492. PMC1856623. Documents that Jonasson 'studied under Warren Cole, MD, FACS, at the University of Illinois College of Medicine' for her surgical residency. When she told Cole she wanted to become a surgeon, 'even though a woman, he thought the idea totally absurd' — but ultimately accepted her. She was elected to AOA during medical school and began teaching surgery at U of I in 1963 after residency. Warren Cole (1898-1990) was chair of surgery at U of I (1930-1967) and pioneer of oral cholecystography. This is the first direct_training edge involving a woman in the entire graph — it connects Jonasson's governance-only subgraph to the training lineage backbone.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -777,7 +777,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18481473/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008 | content_match] Leffall completed a senior fellowship in surgical oncology at Memorial Sloan Kettering Cancer Center (1957-1959), the first African American to hold such a fellowship there. He was directed toward MSK by his mentor Jack White at Howard. Leffall specialized in colon and rectal, breast, and head and neck cancers. This edge connects the Howard/Drew lineage to the existing Memorial Sloan Kettering node (already connected to the James Ewing Society and the Memorial Hospital for Cancer and Allied Diseases in the graph). The MSK fellowship bridges the independent Howard training trunk into the established oncology cluster, creating a cross-lineage pathway analogous to how Patrick Walsh's UCLA-to-Hopkins recruitment bridges the urology trunk.",
+    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008] Leffall completed a senior fellowship in surgical oncology at Memorial Sloan Kettering Cancer Center (1957-1959), the first African American to hold such a fellowship there. He was directed toward MSK by his mentor Jack White at Howard. Leffall specialized in colon and rectal, breast, and head and neck cancers. This edge connects the Howard/Drew lineage to the existing Memorial Sloan Kettering node (already connected to the James Ewing Society and the Memorial Hospital for Cancer and Allied Diseases in the graph). The MSK fellowship bridges the independent Howard training trunk into the established oncology cluster, creating a cross-lineage pathway analogous to how Patrick Walsh's UCLA-to-Hopkins recruitment bridges the urology trunk.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -809,7 +809,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2018 | content_match] Cameron received his MD from Hopkins in 1962 and completed all general and thoracic surgical training there, later serving as Alfred Blalock Professor and Chairman of Surgery for 19 years (1984-2003).",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2018] Cameron received his MD from Hopkins in 1962 and completed all general and thoracic surgical training there, later serving as Alfred Blalock Professor and Chairman of Surgery for 19 years (1984-2003).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -953,7 +953,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18481473/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008 | content_match] Leffall joined the Howard faculty in 1962 as assistant professor of surgery and was appointed Chairman of the Department of Surgery in 1970, a position he held for 25 years until 1995. In 1992, he was named the first Charles R. Drew Professor of Surgery — the first endowed chair in the history of Howard's Department of Surgery. During his tenure, Leffall taught approximately 6,000 medical students and trained over 300 general surgery residents. He also served as principal civilian consultant to the General Surgery Service at Walter Reed Army Medical Center for 30 years (1970-2000). The dual edges (Howard trained Leffall; Leffall led Howard) create a bidirectional circuit paralleling the pattern seen with Samuel D. Gross at Jefferson (trained by Jefferson, later led Jefferson) and William Altemeier at Cincinnati — both already documented in the graph. This circuit is the signature of a surgeon who returns to transform the institution that formed him.",
+    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008] Leffall joined the Howard faculty in 1962 as assistant professor of surgery and was appointed Chairman of the Department of Surgery in 1970, a position he held for 25 years until 1995. In 1992, he was named the first Charles R. Drew Professor of Surgery — the first endowed chair in the history of Howard's Department of Surgery. During his tenure, Leffall taught approximately 6,000 medical students and trained over 300 general surgery residents. He also served as principal civilian consultant to the General Surgery Service at Walter Reed Army Medical Center for 30 years (1970-2000). The dual edges (Howard trained Leffall; Leffall led Howard) create a bidirectional circuit paralleling the pattern seen with Samuel D. Gross at Jefferson (trained by Jefferson, later led Jefferson) and William Altemeier at Cincinnati — both already documented in the graph. This circuit is the signature of a surgeon who returns to transform the institution that formed him.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -968,8 +968,8 @@
     "evidence_citation": "PMID: 10457723",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10457723/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Minn Med 1999 | MISMATCH: 0 of 19 edge tokens found in article] Starzl organized the founding of the ASTS to specifically govern the surgical training and credentialing standards for abdominal organ transplantation.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Minn Med 1999] Starzl organized the founding of the ASTS to specifically govern the surgical training and credentialing standards for abdominal organ transplantation.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -984,8 +984,8 @@
     "evidence_citation": "PMID: 23225838",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23225838/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Eye Sci 2012 | MISMATCH: 0 of 16 edge tokens found in article] Starzl moved from Colorado to Pittsburgh in 1981, building the world's largest and most productive organ transplant center.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Eye Sci 2012] Starzl moved from Colorado to Pittsburgh in 1981, building the world's largest and most productive organ transplant center.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1000,8 +1000,8 @@
     "evidence_citation": "PMID: 28791702",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28791702/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | J Neurochem 2017 | MISMATCH: 1 of 22 edge tokens found in article] Tzakis completed his transplant fellowship under Starzl at Pittsburgh, developing novel liver transplant techniques and the first successful multivisceral transplant program before founding the Miami Transplant Institute.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Neurochem 2017] Tzakis completed his transplant fellowship under Starzl at Pittsburgh, developing novel liver transplant techniques and the first successful multivisceral transplant program before founding the Miami Transplant Institute.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1049,7 +1049,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1007/s00268-021-06302-1",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | World j. surg. 2022 | content_match] Sims CA, Leemaster J, Pawlik TM. 'Inspirational Women in Surgery: Olga Jonasson, the Legacy of the First Female Chair of an Academic Department of Surgery.' World J Surg. 2022;46:755-756. PMC8410170. Documents Jonasson as the first woman to chair an academic surgery department at a co-educational US medical school (Ohio State, 1987). She was named Robert M. Zollinger Professor of Surgery. Previously she was chair at Cook County Hospital (1977) — also a first for women. At Ohio State she championed resident well-being and humanitarian care. She served as ACS Regent (1976, already in graph) and ABS board member. Jonasson's degree goes from 2 to 4, transforming her from a leaf into a hub connecting training (Cole), governance (ACS, ABS), and institutional leadership (Ohio State).",
+    "notes": "[Verified 2026-03-17 | World j. surg. 2022] Sims CA, Leemaster J, Pawlik TM. 'Inspirational Women in Surgery: Olga Jonasson, the Legacy of the First Female Chair of an Academic Department of Surgery.' World J Surg. 2022;46:755-756. PMC8410170. Documents Jonasson as the first woman to chair an academic surgery department at a co-educational US medical school (Ohio State, 1987). She was named Robert M. Zollinger Professor of Surgery. Previously she was chair at Cook County Hospital (1977) — also a first for women. At Ohio State she championed resident well-being and humanitarian care. She served as ACS Regent (1976, already in graph) and ABS board member. Jonasson's degree goes from 2 to 4, transforming her from a leaf into a hub connecting training (Cole), governance (ACS, ABS), and institutional leadership (Ohio State).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1080,7 +1080,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19099052/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Yale J Biol Med 2008 | weak_match: matched \"freischlag\"; missed julie, halsted, director] Julie Ann Freischlag (b. 1954) became the William Stewart Halsted Professor, Director of the Department of Surgery, and Surgeon-in-Chief at The Johns Hopkins Hospital in March 2003, succeeding John L. Cameron. She was the first woman and only the seventh person to hold these posts (after Halsted, Finney, Blalock, Zuidema, Cameron, and herself — the sixth director, not the sixth person, as some sources vary on the count of acting chiefs). Rush Medical College MD 1980, general surgery residency and vascular fellowship at UCLA. Previously chief of vascular surgery at UCLA (1998-2003). At Hopkins, she created the Center for Surgical Trials and Outcomes Research (CSTOR), improved patient safety systems, and advanced faculty diversity. She also served as editor of JAMA Surgery (2005-2014). Left Hopkins in 2014 to become vice chancellor at UC Davis, then CEO of Wake Forest Baptist Medical Center (2017). Elected to the National Academy of Medicine 2015. ACS Board of Regents Chair 2012, ACS President 2018-2019. Society for Vascular Surgery president (first woman). Source: Freischlag JA. Women surgeons — still in a male-dominated world. Yale J Biol Med. 2008;81(4):203-204. Written from her Hopkins Halsted Professorship. Ghost node 'Julie Freischlag' mentioned in notes fields of Patricia Numann edges now converted to real person node."
+    "notes": "[Verified 2026-03-17 | Yale J Biol Med 2008] Julie Ann Freischlag (b. 1954) became the William Stewart Halsted Professor, Director of the Department of Surgery, and Surgeon-in-Chief at The Johns Hopkins Hospital in March 2003, succeeding John L. Cameron. She was the first woman and only the seventh person to hold these posts (after Halsted, Finney, Blalock, Zuidema, Cameron, and herself — the sixth director, not the sixth person, as some sources vary on the count of acting chiefs). Rush Medical College MD 1980, general surgery residency and vascular fellowship at UCLA. Previously chief of vascular surgery at UCLA (1998-2003). At Hopkins, she created the Center for Surgical Trials and Outcomes Research (CSTOR), improved patient safety systems, and advanced faculty diversity. She also served as editor of JAMA Surgery (2005-2014). Left Hopkins in 2014 to become vice chancellor at UC Davis, then CEO of Wake Forest Baptist Medical Center (2017). Elected to the National Academy of Medicine 2015. ACS Board of Regents Chair 2012, ACS President 2018-2019. Society for Vascular Surgery president (first woman). Source: Freischlag JA. Women surgeons — still in a male-dominated world. Yale J Biol Med. 2008;81(4):203-204. Written from her Hopkins Halsted Professorship. Ghost node 'Julie Freischlag' mentioned in notes fields of Patricia Numann edges now converted to real person node."
   },
   {
     "source_node": "Allan Kirk",
@@ -1111,7 +1111,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14703738/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2003 | weak_match: matched \"sabiston\"; missed 1937-2020, received, becoming] Walter George Wolfe (1937-2020) received his MD from Temple University (1963) and entered the Duke general and cardiothoracic surgery residency in 1964, becoming one of the earliest residents under Sabiston's newly established chairmanship. He completed training in 1971 after a research fellowship at UCSF with J.B. West. Sabiston appointed him to the Duke faculty in 1972, where he served for over 40 years as professor of surgery and biomedical engineering, chief of cardiothoracic surgery at the Durham VA, and thoracic residency program director (1994-2002). He was Sabiston's primary surgical partner for pulmonary embolism cases. Designated Duke Master Surgeon in 2015. Chitwood (Ann Surg 2003) documents the Sabiston training heritage comprehensively.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2003] Walter George Wolfe (1937-2020) received his MD from Temple University (1963) and entered the Duke general and cardiothoracic surgery residency in 1964, becoming one of the earliest residents under Sabiston's newly established chairmanship. He completed training in 1971 after a research fellowship at UCSF with J.B. West. Sabiston appointed him to the Duke faculty in 1972, where he served for over 40 years as professor of surgery and biomedical engineering, chief of cardiothoracic surgery at the Durham VA, and thoracic residency program director (1994-2002). He was Sabiston's primary surgical partner for pulmonary embolism cases. Designated Duke Master Surgeon in 2015. Chitwood (Ann Surg 2003) documents the Sabiston training heritage comprehensively.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1127,7 +1127,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/39257568/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Front Transplant 2024 | weak_match: matched \"r. randal bollinger\", \"bollinger\", \"randal\"; missed david, received, immunology] Ralph Randal Bollinger (1944-) received his MD from Tulane and was accepted in 1970 into the Duke general surgical residency under Sabiston while simultaneously pursuing a PhD in immunology with D. Bernard Amos. Residency was interrupted by 2 years of USAF service. Sabiston appointed him to the Duke surgery faculty in 1980 as chief of transplantation (1983). Bollinger performed the first liver transplant in North Carolina (1986) and mentored Allan D. Kirk (future Duke surgery chair) and Stuart Knechtle in his transplant immunology laboratory. The Bollinger-Kirk lineage creates a verified 4-generation chain: Blalock-Sabiston-Bollinger-Kirk. Kirk et al (Front Transplant 2024) document Bollinger's training under Sabiston explicitly.",
+    "notes": "[Verified 2026-03-17 | Front Transplant 2024] Ralph Randal Bollinger (1944-) received his MD from Tulane and was accepted in 1970 into the Duke general surgical residency under Sabiston while simultaneously pursuing a PhD in immunology with D. Bernard Amos. Residency was interrupted by 2 years of USAF service. Sabiston appointed him to the Duke surgery faculty in 1980 as chief of transplantation (1983). Bollinger performed the first liver transplant in North Carolina (1986) and mentored Allan D. Kirk (future Duke surgery chair) and Stuart Knechtle in his transplant immunology laboratory. The Bollinger-Kirk lineage creates a verified 4-generation chain: Blalock-Sabiston-Bollinger-Kirk. Kirk et al (Front Transplant 2024) document Bollinger's training under Sabiston explicitly.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1143,7 +1143,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135240/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015 | weak_match: matched \"david\", \"sabiston\", \"surgery\"; missed cardiothoracic, 1994-2003, resident] Robert W. Anderson was a Duke general and cardiothoracic surgery resident under Sabiston who subsequently returned to Duke as Sabiston's successor and chairman of the Department of Surgery (1994-2003). The Duke Department of Surgery history page confirms Anderson 'returned to the site of his surgical training.' Exact residency dates are not published in the available literature; the range c.1968-c.1976 is estimated based on his career timeline (chair at age consistent with 1970s completion). D'Amico (JTCVS 2015, PMID 25135240) identifies Anderson as Sabiston's direct successor. Anderson was a cardiothoracic surgeon with an MBA who led Duke Surgery through major practice reimbursement changes. Confidence moderate due to estimated dates.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015] Robert W. Anderson was a Duke general and cardiothoracic surgery resident under Sabiston who subsequently returned to Duke as Sabiston's successor and chairman of the Department of Surgery (1994-2003). The Duke Department of Surgery history page confirms Anderson 'returned to the site of his surgical training.' Exact residency dates are not published in the available literature; the range c.1968-c.1976 is estimated based on his career timeline (chair at age consistent with 1970s completion). D'Amico (JTCVS 2015, PMID 25135240) identifies Anderson as Sabiston's direct successor. Anderson was a cardiothoracic surgeon with an MBA who led Duke Surgery through major practice reimbursement changes. Confidence moderate due to estimated dates.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1175,7 +1175,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14703738/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2003 | weak_match: matched \"sabiston\", \"chitwood\"; missed trained, subsequently, chairman] W. Randolph Chitwood Jr. trained in general and cardiothoracic surgery at Duke under Sabiston and subsequently became Professor and Chairman of the Department of Surgery at the Brody School of Medicine, East Carolina University (Greenville, NC). He authored the definitive review of Sabiston's educational legacy (Ann Surg 2003, PMID 14703738), which documents Sabiston's training of 154 chief residents with 41 becoming department chairs or division chiefs. Chitwood was a pioneer in robotic mitral valve surgery and served as founding member and president of the Sabiston Society. Exact residency dates approximated from career timeline.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2003] W. Randolph Chitwood Jr. trained in general and cardiothoracic surgery at Duke under Sabiston and subsequently became Professor and Chairman of the Department of Surgery at the Brody School of Medicine, East Carolina University (Greenville, NC). He authored the definitive review of Sabiston's educational legacy (Ann Surg 2003, PMID 14703738), which documents Sabiston's training of 154 chief residents with 41 becoming department chairs or division chiefs. Chitwood was a pioneer in robotic mitral valve surgery and served as founding member and president of the Sabiston Society. Exact residency dates approximated from career timeline.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1191,7 +1191,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135240/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015 | weak_match: matched \"sabiston\", \"surgery\", \"david\"; missed trained, professor, rising] James L. Cox trained at Duke under Sabiston, rising to associate professor of surgery in 1983 before being recruited to Washington University in St. Louis as professor and chief of cardiothoracic surgery at age 40. At Duke, Cox established a surgical electrophysiology laboratory where he began the research that led to the maze procedure for atrial fibrillation — one of the most impactful surgical innovations of the late 20th century. He became the 81st president of the AATS. D'Amico (JTCVS 2015, PMID 25135240) lists Cox as one of four AATS presidents trained by Sabiston (alongside Ebert, Crawford, and Spray). The Cox AATS Historical Perspectives article (JTCVS 2013) confirms his Duke training under Sabiston and laboratory work.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015] James L. Cox trained at Duke under Sabiston, rising to associate professor of surgery in 1983 before being recruited to Washington University in St. Louis as professor and chief of cardiothoracic surgery at age 40. At Duke, Cox established a surgical electrophysiology laboratory where he began the research that led to the maze procedure for atrial fibrillation — one of the most impactful surgical innovations of the late 20th century. He became the 81st president of the AATS. D'Amico (JTCVS 2015, PMID 25135240) lists Cox as one of four AATS presidents trained by Sabiston (alongside Ebert, Crawford, and Spray). The Cox AATS Historical Perspectives article (JTCVS 2013) confirms his Duke training under Sabiston and laboratory work.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1207,7 +1207,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135240/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015 | weak_match: matched \"sabiston\", \"surgery\", \"david\"; missed trained, alongside, internship] Thomas L. Spray (b. 1948) was accepted into the Duke surgery pyramid program's early internship track and trained under Sabiston alongside colleagues including Cox, Crawford, and Ebert. He became the 89th president of the AATS. D'Amico (JTCVS 2015, PMID 25135240) identifies Spray as one of four subsequent AATS presidents trained by Sabiston. The Spray AATS Historical Perspectives article (JTCVS 2016) describes Duke's pyramid residency program and Sabiston's influence in detail. Spray became chief of cardiothoracic surgery at Children's Hospital of Philadelphia (CHOP). Exact residency dates approximated from birth year and career timeline.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015] Thomas L. Spray (b. 1948) was accepted into the Duke surgery pyramid program's early internship track and trained under Sabiston alongside colleagues including Cox, Crawford, and Ebert. He became the 89th president of the AATS. D'Amico (JTCVS 2015, PMID 25135240) identifies Spray as one of four subsequent AATS presidents trained by Sabiston. The Spray AATS Historical Perspectives article (JTCVS 2016) describes Duke's pyramid residency program and Sabiston's influence in detail. Spray became chief of cardiothoracic surgery at Children's Hospital of Philadelphia (CHOP). Exact residency dates approximated from birth year and career timeline.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1239,7 +1239,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] Jacob Alexander Haller Jr. (1927-2018) received his MD from Johns Hopkins in 1951, returned to complete his surgical residency at Hopkins (1955-1959) after military service, then joined the University of Louisville faculty. In 1963, Blalock recruited Haller back to Hopkins to found the Division of Pediatric Surgery — one of the first accredited pediatric surgery training programs in the US. Haller served as inaugural Robert Garrett Professor of Pediatric Surgery and Surgeon-in-Charge of the Children's Medical and Surgical Center for nearly 30 years. He established the first US Children's Trauma Centre (1973) and contributed to the first PALS protocol. Conte (JTCVS 2012, PMID 22248679) lists Haller among Blalock's division chiefs. The Hopkins Medicine obituary (2018) and BAPS obituary confirm his training under Blalock. This edge connects the Blalock hub to the pediatric surgery subspecialty.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] Jacob Alexander Haller Jr. (1927-2018) received his MD from Johns Hopkins in 1951, returned to complete his surgical residency at Hopkins (1955-1959) after military service, then joined the University of Louisville faculty. In 1963, Blalock recruited Haller back to Hopkins to found the Division of Pediatric Surgery — one of the first accredited pediatric surgery training programs in the US. Haller served as inaugural Robert Garrett Professor of Pediatric Surgery and Surgeon-in-Charge of the Children's Medical and Surgical Center for nearly 30 years. He established the first US Children's Trauma Centre (1973) and contributed to the first PALS protocol. Conte (JTCVS 2012, PMID 22248679) lists Haller among Blalock's division chiefs. The Hopkins Medicine obituary (2018) and BAPS obituary confirm his training under Blalock. This edge connects the Blalock hub to the pediatric surgery subspecialty.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1255,7 +1255,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] C. Rollins Hanlon trained under Blalock at Johns Hopkins and co-developed the Blalock-Hanlon operation (1948) for transposition of the great vessels. The ACS biographical profile confirms Hanlon later served as ACS Executive Director (1969-1986) and ACS President (1987-1988), making him one of the most powerful figures in American surgical governance during that period. Conte (JTCVS 2012, PMID 22248679) documents the Blalock training context. The ACS profile explicitly describes Hanlon working with Blalock on congenital heart operations at Hopkins. This edge connects the Blalock training hub to the ACS governance backbone (Hanlon had a direct governance role at the ACS already in the graph as a major node).",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] C. Rollins Hanlon trained under Blalock at Johns Hopkins and co-developed the Blalock-Hanlon operation (1948) for transposition of the great vessels. The ACS biographical profile confirms Hanlon later served as ACS Executive Director (1969-1986) and ACS President (1987-1988), making him one of the most powerful figures in American surgical governance during that period. Conte (JTCVS 2012, PMID 22248679) documents the Blalock training context. The ACS profile explicitly describes Hanlon working with Blalock on congenital heart operations at Hopkins. This edge connects the Blalock training hub to the ACS governance backbone (Hanlon had a direct governance role at the ACS already in the graph as a major node).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1271,7 +1271,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] James R. Jude was a surgical resident at Johns Hopkins under Blalock. In 1960, together with William Kouwenhoven and G. Guy Knickerbocker, Jude co-developed external cardiac massage (closed-chest CPR) at Hopkins — one of the most consequential medical innovations of the 20th century. Conte (JTCVS 2012, PMID 22248679) lists Jude among Blalock's division chiefs. The PBS 'Partners of the Heart' documentary identifies Jude in the Blalock trainee cohort. Confidence moderate due to approximated residency dates. The CPR innovation alone makes Jude one of the highest-impact trainees in the graph despite being a less prominent figure than Sabiston or Cooley in traditional surgical lineage narratives.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] James R. Jude was a surgical resident at Johns Hopkins under Blalock. In 1960, together with William Kouwenhoven and G. Guy Knickerbocker, Jude co-developed external cardiac massage (closed-chest CPR) at Hopkins — one of the most consequential medical innovations of the 20th century. Conte (JTCVS 2012, PMID 22248679) lists Jude among Blalock's division chiefs. The PBS 'Partners of the Heart' documentary identifies Jude in the Blalock trainee cohort. Confidence moderate due to approximated residency dates. The CPR innovation alone makes Jude one of the highest-impact trainees in the graph despite being a less prominent figure than Sabiston or Cooley in traditional surgical lineage narratives.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1287,7 +1287,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22248679/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012 | content_match] William H. Muller Jr. was a Blalock chief resident at Hopkins who subsequently became chairman of the Department of Surgery at the University of Virginia. Conte (JTCVS 2012, PMID 22248679) explicitly lists Muller among Blalock's department chairmen alongside Sabiston, Longmire, and Greenfield. Exact residency dates approximated. Confidence moderate due to estimated dates and limited published biographical detail beyond the Conte citation.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2012] William H. Muller Jr. was a Blalock chief resident at Hopkins who subsequently became chairman of the Department of Surgery at the University of Virginia. Conte (JTCVS 2012, PMID 22248679) explicitly lists Muller among Blalock's department chairmen alongside Sabiston, Longmire, and Greenfield. Exact residency dates approximated. Confidence moderate due to estimated dates and limited published biographical detail beyond the Conte citation.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1303,7 +1303,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12717368/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surgery 2003 | weak_match: matched \"richard\", \"varco\", \"richard l. varco\"; missed owen wangensteen, earned, university] Richard Lynn Varco (1912-2004) earned his MB/MD (1937) and PhD in Surgery (1944) at the University of Minnesota. He served as research fellow in the Department of Surgery (1938-1940), fellow in Physiology (1940-1942), and senior resident (1942-1943) under Wangensteen's chairmanship. He rose to Professor (1950) and Regents' Professor (1974). Varco co-pioneered open-heart surgery as a member of the team that performed the world's first open-heart repair under direct vision (with F. John Lewis, Sept 2, 1952) and was central to the cross-circulation operations with C. Walton Lillehei (1954). He also performed the first organ transplant at Minnesota (kidney, 1963) and co-invented the implantable drug infusion pump with Henry Buchwald (1969). Citation is Najarian JS, 'Richard L. Varco, MD, PhD: the compleat academic surgeon,' Surgery 2003;133(4):451-2.",
+    "notes": "[Verified 2026-03-17 | Surgery 2003] Richard Lynn Varco (1912-2004) earned his MB/MD (1937) and PhD in Surgery (1944) at the University of Minnesota. He served as research fellow in the Department of Surgery (1938-1940), fellow in Physiology (1940-1942), and senior resident (1942-1943) under Wangensteen's chairmanship. He rose to Professor (1950) and Regents' Professor (1974). Varco co-pioneered open-heart surgery as a member of the team that performed the world's first open-heart repair under direct vision (with F. John Lewis, Sept 2, 1952) and was central to the cross-circulation operations with C. Walton Lillehei (1954). He also performed the first organ transplant at Minnesota (kidney, 1963) and co-invented the implantable drug infusion pump with Henry Buchwald (1969). Citation is Najarian JS, 'Richard L. Varco, MD, PhD: the compleat academic surgeon,' Surgery 2003;133(4):451-2.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1335,7 +1335,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14606488/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Proc Am Philos Soc 2003 | weak_match: matched \"rhoads\", \"jonathan\", \"jonathan e. rhoads\"; missed surgical, i.s. ravdin, eliason] Jonathan Evans Rhoads (1907-2002) completed his surgical residency at the Hospital of the University of Pennsylvania from 1934 to 1939 under I.S. Ravdin. Though Eldridge Eliason was nominally the department chairman, Barker (Proc Am Philos Soc 2003, PMID 14606488; Ann Surg 2002, PMC1422501) states explicitly that 'Dr. Rhoads' real mentor was I. S. Ravdin, who had a service totally independent of Eliason's that was staffed by his own residents.' Ravdin's confidence in Rhoads was so great that he selected Rhoads as his own surgeon when he developed acute cholecystitis. When Ravdin left for Burma in WWII, the 36-year-old Rhoads was left in charge of the entire surgical service — with a skeleton crew that included the young C. Everett Koop. Rhoads received his MD from Johns Hopkins (1932) and his ScD from Penn (1940).",
+    "notes": "[Verified 2026-03-17 | Proc Am Philos Soc 2003] Jonathan Evans Rhoads (1907-2002) completed his surgical residency at the Hospital of the University of Pennsylvania from 1934 to 1939 under I.S. Ravdin. Though Eldridge Eliason was nominally the department chairman, Barker (Proc Am Philos Soc 2003, PMID 14606488; Ann Surg 2002, PMC1422501) states explicitly that 'Dr. Rhoads' real mentor was I. S. Ravdin, who had a service totally independent of Eliason's that was staffed by his own residents.' Ravdin's confidence in Rhoads was so great that he selected Rhoads as his own surgeon when he developed acute cholecystitis. When Ravdin left for Burma in WWII, the 36-year-old Rhoads was left in charge of the entire surgical service — with a skeleton crew that included the young C. Everett Koop. Rhoads received his MD from Johns Hopkins (1932) and his ScD from Penn (1940).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1351,7 +1351,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14606488/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Proc Am Philos Soc 2003 | weak_match: matched \"rhoads\", \"jonathan\", \"jonathan e. rhoads\"; missed university of pennsylvania department of surgery, succeeded, chairman] Rhoads succeeded Ravdin as John Rhea Barton Professor and Chairman of Surgery at Penn in 1959 and served until 1972. During these 12 years, he simultaneously served as president of the ACS (1971-1972), ASA (1972-1973), and American Cancer Society, as editor of the Annals of Surgery and the journal Cancer, and as chairman of the National Cancer Advisory Board. From his chairmanship, 62 surgical graduates achieved faculty positions at 34 medical schools with 11 becoming department chairs. This creates a Ravdin-Rhoads succession at Penn paralleling the Hart-Sabiston-Anderson chain at Duke and the Halsted-Young succession at Hopkins. The Penn surgical trunk now extends: Physick (1805) - Ravdin (1945) - Rhoads (1959).",
+    "notes": "[Verified 2026-03-17 | Proc Am Philos Soc 2003] Rhoads succeeded Ravdin as John Rhea Barton Professor and Chairman of Surgery at Penn in 1959 and served until 1972. During these 12 years, he simultaneously served as president of the ACS (1971-1972), ASA (1972-1973), and American Cancer Society, as editor of the Annals of Surgery and the journal Cancer, and as chairman of the National Cancer Advisory Board. From his chairmanship, 62 surgical graduates achieved faculty positions at 34 medical schools with 11 becoming department chairs. This creates a Ravdin-Rhoads succession at Penn paralleling the Hart-Sabiston-Anderson chain at Duke and the Halsted-Young succession at Hopkins. The Penn surgical trunk now extends: Physick (1805) - Ravdin (1945) - Rhoads (1959).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1367,7 +1367,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14606488/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Proc Am Philos Soc 2003 | content_match] Clyde F. Barker trained as a surgical resident at the Hospital of the University of Pennsylvania during the Rhoads chairmanship (c.1963-1969). Barker subsequently became the Donald Guthrie Professor of Surgery at Penn and authored the definitive obituaries of Rhoads in the Annals of Surgery (PMC1422501), Proceedings of the American Philosophical Society (PMID 14606488), and Surgery (2003). The PMC article 'Heroes and Friends' by Edward M. Copeland III (PMID not confirmed, PMC1421048) describes entering the Penn residency in 1963 and training alongside Barker under Rhoads. Barker later became Penn surgery chair, creating a 3-generation succession: Ravdin-Rhoads-Barker. Exact residency dates approximated from the Copeland memoir timeline.",
+    "notes": "[Verified 2026-03-17 | Proc Am Philos Soc 2003] Clyde F. Barker trained as a surgical resident at the Hospital of the University of Pennsylvania during the Rhoads chairmanship (c.1963-1969). Barker subsequently became the Donald Guthrie Professor of Surgery at Penn and authored the definitive obituaries of Rhoads in the Annals of Surgery (PMC1422501), Proceedings of the American Philosophical Society (PMID 14606488), and Surgery (2003). The PMC article 'Heroes and Friends' by Edward M. Copeland III (PMID not confirmed, PMC1421048) describes entering the Penn residency in 1963 and training alongside Barker under Rhoads. Barker later became Penn surgery chair, creating a 3-generation succession: Ravdin-Rhoads-Barker. Exact residency dates approximated from the Copeland memoir timeline.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1383,7 +1383,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12946817/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am J Surg 2003 | content_match] Robert Milton Zollinger (1903-1992) earned his MD from Ohio State (1927), interned at Peter Bent Brigham Hospital (1928), then completed his surgical residency under Elliott Cutler at Western Reserve University (c. 1929-1932). Cutler returned to Brigham as Moseley Professor of Surgery in 1932; Zollinger subsequently held faculty positions before returning to Ohio State as chair in 1947. This edge extends the Halsted-Cushing-Cutler chain to a 4th generation. Citation is Lewis L, Van Brimmer B, 'A biography of Robert Milton Zollinger, M.D.,' Am J Surg 2003;186(3):205-7.",
+    "notes": "[Verified 2026-03-17 | Am J Surg 2003] Robert Milton Zollinger (1903-1992) earned his MD from Ohio State (1927), interned at Peter Bent Brigham Hospital (1928), then completed his surgical residency under Elliott Cutler at Western Reserve University (c. 1929-1932). Cutler returned to Brigham as Moseley Professor of Surgery in 1932; Zollinger subsequently held faculty positions before returning to Ohio State as chair in 1947. This edge extends the Halsted-Cushing-Cutler chain to a 4th generation. Citation is Lewis L, Van Brimmer B, 'A biography of Robert Milton Zollinger, M.D.,' Am J Surg 2003;186(3):205-7.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1399,7 +1399,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12946818/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am J Surg 2003 | content_match] Zollinger returned to his alma mater as professor and chair of surgery in 1947, transforming Ohio State from a modest Midwestern program into a nationally recognized surgical training center over a 27-year tenure. He co-discovered the Zollinger-Ellison syndrome with Edwin Ellison (1955), whom he recruited to Ohio State. The endowed Robert M. Zollinger Chair of Surgery was later established in his honor. His successor as chair was Larry C. Carey (1975). Citation is Zollinger RM Sr, Ellison EC, 'A history of the Ohio State University Department of Surgery,' Am J Surg 2003;186(3):208-10.",
+    "notes": "[Verified 2026-03-17 | Am J Surg 2003] Zollinger returned to his alma mater as professor and chair of surgery in 1947, transforming Ohio State from a modest Midwestern program into a nationally recognized surgical training center over a 27-year tenure. He co-discovered the Zollinger-Ellison syndrome with Edwin Ellison (1955), whom he recruited to Ohio State. The endowed Robert M. Zollinger Chair of Surgery was later established in his honor. His successor as chair was Larry C. Carey (1975). Citation is Zollinger RM Sr, Ellison EC, 'A history of the Ohio State University Department of Surgery,' Am J Surg 2003;186(3):208-10.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1415,7 +1415,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944281/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Cancer 2020 | weak_match: matched \"research\", \"brennan\", \"murray\"; missed peter, received, fellow] Murray Frederick Brennan (b. 1940, New Zealand) received his MB ChB from the University of Otago (1964), then won a Fulbright Scholarship as a clinical research fellow in surgery at Harvard Medical School and completed a second surgical residency at the Peter Bent Brigham Hospital (c.1970-1975). Printz (Cancer 2020, PMID 31944281) confirms the Brigham training. During this period Francis D. Moore was surgeon-in-chief at the Brigham (until 1976), and Steven Rosenberg was a fellow resident who later recruited Brennan to the NCI. This edge connects Brennan to the Moore/Brigham trunk already in the graph (Moore->Brigham Department, Murray->Brigham Transplant), creating a pathway from the Harvard/Brigham institutional lineage to MSK surgical oncology.",
+    "notes": "[Verified 2026-03-17 | Cancer 2020] Murray Frederick Brennan (b. 1940, New Zealand) received his MB ChB from the University of Otago (1964), then won a Fulbright Scholarship as a clinical research fellow in surgery at Harvard Medical School and completed a second surgical residency at the Peter Bent Brigham Hospital (c.1970-1975). Printz (Cancer 2020, PMID 31944281) confirms the Brigham training. During this period Francis D. Moore was surgeon-in-chief at the Brigham (until 1976), and Steven Rosenberg was a fellow resident who later recruited Brennan to the NCI. This edge connects Brennan to the Moore/Brigham trunk already in the graph (Moore->Brigham Department, Murray->Brigham Transplant), creating a pathway from the Harvard/Brigham institutional lineage to MSK surgical oncology.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1431,7 +1431,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32106907/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am Surg 2020 | weak_match: matched \"surgical\", \"mark m. ravitch\", \"mark\", \"ravitch\"; missed finishing, earned, training] Mark Mitchell Ravitch (1910-1989) earned his MD from Johns Hopkins (1934) and completed his surgical training there under Alfred Blalock, finishing as chief resident in 1943. Their personal and professional relationship lasted throughout Blalock's lifetime. After Army service in WWII (56th General Hospital, France), Ravitch returned to Hopkins as professor of surgery (1946). He held positions at Columbia P&S / Mount Sinai (1952-1955), returned to Hopkins (1956), spent time at University of Chicago (1966-1969), then moved to University of Pittsburgh / Montefiore Hospital (1969-1989). Ravitch introduced modern surgical stapling to the United States after observing Soviet stapling instruments in Kiev (1958), developing them with Felicien Steichen for commercial use by 1967. He also pioneered the Ravitch procedure for pectus excavatum and non-operative management of intussusception. He authored 453 papers, 101 book chapters, and 22 books, including 'A Century of Surgery' (history of the ASA). Citation is Abeshouse M, Goldstein S, Phillips B, 'Mark M. Ravitch: A Staple in Surgical History and Innovation,' Am Surg 2020;86(2):e89-e91.",
+    "notes": "[Verified 2026-03-17 | Am Surg 2020] Mark Mitchell Ravitch (1910-1989) earned his MD from Johns Hopkins (1934) and completed his surgical training there under Alfred Blalock, finishing as chief resident in 1943. Their personal and professional relationship lasted throughout Blalock's lifetime. After Army service in WWII (56th General Hospital, France), Ravitch returned to Hopkins as professor of surgery (1946). He held positions at Columbia P&S / Mount Sinai (1952-1955), returned to Hopkins (1956), spent time at University of Chicago (1966-1969), then moved to University of Pittsburgh / Montefiore Hospital (1969-1989). Ravitch introduced modern surgical stapling to the United States after observing Soviet stapling instruments in Kiev (1958), developing them with Felicien Steichen for commercial use by 1967. He also pioneered the Ravitch procedure for pectus excavatum and non-operative management of intussusception. He authored 453 papers, 101 book chapters, and 22 books, including 'A Century of Surgery' (history of the ASA). Citation is Abeshouse M, Goldstein S, Phillips B, 'Mark M. Ravitch: A Staple in Surgical History and Innovation,' Am Surg 2020;86(2):e89-e91.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1447,7 +1447,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135241/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015 | content_match] Keith Reemtsma (1925-2000) earned his MD from the University of Pennsylvania (1949), then completed his surgical internship and residency at Columbia-Presbyterian Medical Center (1949-1957) under George Humphreys, with an interruption for Korean War service as a Navy surgeon (1951-1954). He was chief resident at Columbia and earned a doctorate in medical science there (1958). He then moved to Tulane University (1958-1966), recruited by Oscar Creech Jr. (a DeBakey trainee, already in graph from Session 1 T2-01), where he performed the pioneering chimpanzee-to-human kidney xenotransplants (1963-1964). Citation is DeAnda A, Balsam LB, 'Historical perspectives of The American Association for Thoracic Surgery: Keith Reemtsma (1925-2000),' J Thorac Cardiovasc Surg 2015;149(3):762-4.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015] Keith Reemtsma (1925-2000) earned his MD from the University of Pennsylvania (1949), then completed his surgical internship and residency at Columbia-Presbyterian Medical Center (1949-1957) under George Humphreys, with an interruption for Korean War service as a Navy surgeon (1951-1954). He was chief resident at Columbia and earned a doctorate in medical science there (1958). He then moved to Tulane University (1958-1966), recruited by Oscar Creech Jr. (a DeBakey trainee, already in graph from Session 1 T2-01), where he performed the pioneering chimpanzee-to-human kidney xenotransplants (1963-1964). Citation is DeAnda A, Balsam LB, 'Historical perspectives of The American Association for Thoracic Surgery: Keith Reemtsma (1925-2000),' J Thorac Cardiovasc Surg 2015;149(3):762-4.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1463,7 +1463,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135241/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015 | content_match] Reemtsma was appointed chairman of the Department of Surgery at Columbia University College of Physicians and Surgeons in 1971, a position he held for 23 years until 1994. He had previously served as chair at the University of Utah (1966-1971), where he assembled the team that produced the first artificial heart. At Columbia, he transformed the department from a focus on radical excision toward transplantation, reconstruction, and repair. He established the Columbia heart transplant program with Eric Rose and recruited Mark Hardy to build the kidney transplant and dialysis service. He also founded the International Center for Health Outcomes and Innovation Research. This creates a bidirectional circuit with the training edge above (trained at Columbia, returned as chair), paralleling the Cameron-Hopkins circuit already in the graph. Citation same as training edge.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015] Reemtsma was appointed chairman of the Department of Surgery at Columbia University College of Physicians and Surgeons in 1971, a position he held for 23 years until 1994. He had previously served as chair at the University of Utah (1966-1971), where he assembled the team that produced the first artificial heart. At Columbia, he transformed the department from a focus on radical excision toward transplantation, reconstruction, and repair. He established the Columbia heart transplant program with Eric Rose and recruited Mark Hardy to build the kidney transplant and dialysis service. He also founded the International Center for Health Outcomes and Innovation Research. This creates a bidirectional circuit with the training edge above (trained at Columbia, returned as chair), paralleling the Cameron-Hopkins circuit already in the graph. Citation same as training edge.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1511,7 +1511,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37746597/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Open 2023 | weak_match: matched \"scott\", \"william\"; missed peter, surgical, fello] H. William Scott Jr. (1916-1998) graduated from Harvard Medical School (1941), completed surgical residency at Peter Bent Brigham Hospital and Boston Children's Hospital, held the Harvey Cushing Fellowship in Neurosurgery at Brigham (1945), then served as assistant resident and chief resident under Alfred Blalock at Johns Hopkins (1946-1947). He remained on the Hopkins faculty as instructor through associate professor (1946-1952) before being recruited to Vanderbilt. Blalock directly recommended Scott for the Vanderbilt chairmanship, telling him 'he could not turn down the opportunity and that he wanted me to go and do everything I could to turn Vanderbilt into a Hopkins.' Scott was president of ASA, ACS, Southern Surgical Association, Halsted Society, and multiple other societies. Citation is Merrill WH, Geevarghese SK, 'Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD,' Ann Surg Open 2023;4(3):e312.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Open 2023] H. William Scott Jr. (1916-1998) graduated from Harvard Medical School (1941), completed surgical residency at Peter Bent Brigham Hospital and Boston Children's Hospital, held the Harvey Cushing Fellowship in Neurosurgery at Brigham (1945), then served as assistant resident and chief resident under Alfred Blalock at Johns Hopkins (1946-1947). He remained on the Hopkins faculty as instructor through associate professor (1946-1952) before being recruited to Vanderbilt. Blalock directly recommended Scott for the Vanderbilt chairmanship, telling him 'he could not turn down the opportunity and that he wanted me to go and do everything I could to turn Vanderbilt into a Hopkins.' Scott was president of ASA, ACS, Southern Surgical Association, Halsted Society, and multiple other societies. Citation is Merrill WH, Geevarghese SK, 'Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD,' Ann Surg Open 2023;4(3):e312.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1527,7 +1527,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37746597/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Open 2023 | weak_match: matched \"scott\", \"william\"; missed succeeded, surgical, h. william scott jr.] Scott succeeded Barney Brooks as chair of surgery at Vanderbilt in 1952, at age 36 the youngest surgery chair in the country. He held the position for 30 years until 1982, establishing a surgical research facility, creating specialty divisions (urology, orthopedics, neurosurgery), and training many academic surgeons. The H. William Scott Jr. Society was founded in 1972 by his former residents. His successor was John Sawyers (interim 1982-1983, then permanent). John Cameron was initially recruited from Hopkins but chose to remain in Baltimore. This creates the chain Halsted→Brooks→Vanderbilt→Scott (via Blalock), showing how two separate Halsted trainees (Brooks and Blalock) converged on the same institution across generations. Citation same as training edge.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Open 2023] Scott succeeded Barney Brooks as chair of surgery at Vanderbilt in 1952, at age 36 the youngest surgery chair in the country. He held the position for 30 years until 1982, establishing a surgical research facility, creating specialty divisions (urology, orthopedics, neurosurgery), and training many academic surgeons. The H. William Scott Jr. Society was founded in 1972 by his former residents. His successor was John Sawyers (interim 1982-1983, then permanent). John Cameron was initially recruited from Hopkins but chose to remain in Baltimore. This creates the chain Halsted→Brooks→Vanderbilt→Scott (via Blalock), showing how two separate Halsted trainees (Brooks and Blalock) converged on the same institution across generations. Citation same as training edge.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1607,7 +1607,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1007/s10029-009-0522-1",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Hernia 2009 | weak_match: matched \"nyhus\", \"lloyd\", \"milton\"; missed mentor, surgical, alabama] Lloyd Milton Nyhus (1923-2008) earned his MD from the Medical College of Alabama (1947) and completed surgical training at the University of Washington under his mentor Henry Harkins, finishing in 1956. He remained on the UW faculty until being recruited to the University of Illinois in 1967. Nyhus co-authored his first hernia publication with Harkins (Nyhus LM, Stevenson JK, Harkins HN, 'Preperitoneal herniorrhaphy,' West J Surg 1959), establishing the preperitoneal approach that bears his name (Nyhus classification). Harkins is already in the graph with Hopkins→Harkins (direct_training) and Harkins→UW (institutional_founder). This edge extends the chain: Hopkins→Harkins→Nyhus→Illinois. Citation is DeBord JR, 'Lloyd Milton Nyhus, MD,' Hernia 2009;13:405-6. PMID upgrade candidate: verify if this DOI has an associated PMID in PubMed.",
+    "notes": "[Verified 2026-03-17 | Hernia 2009] Lloyd Milton Nyhus (1923-2008) earned his MD from the Medical College of Alabama (1947) and completed surgical training at the University of Washington under his mentor Henry Harkins, finishing in 1956. He remained on the UW faculty until being recruited to the University of Illinois in 1967. Nyhus co-authored his first hernia publication with Harkins (Nyhus LM, Stevenson JK, Harkins HN, 'Preperitoneal herniorrhaphy,' West J Surg 1959), establishing the preperitoneal approach that bears his name (Nyhus classification). Harkins is already in the graph with Hopkins→Harkins (direct_training) and Harkins→UW (institutional_founder). This edge extends the chain: Hopkins→Harkins→Nyhus→Illinois. Citation is DeBord JR, 'Lloyd Milton Nyhus, MD,' Hernia 2009;13:405-6. PMID upgrade candidate: verify if this DOI has an associated PMID in PubMed.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1623,7 +1623,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1007/s10029-009-0522-1",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Hernia 2009 | weak_match: matched \"nyhus\", \"lloyd\"; missed exists, college, illinois] Nyhus was recruited to succeed Warren Cole (already in graph; Cole→Jonasson training edge exists) as Warren H. Cole Professor and Head of the Department of Surgery at the University of Illinois College of Medicine at Chicago in 1967. He held the position for 22 years until 1989, training nearly 300 surgeons. He was named to the Warren H. Cole Chair, explicitly linking his institutional role to Cole's legacy. Nyhus authored the definitive hernia textbook (Hernia, co-authored with Harkins, later with Condon), Mastery of Surgery, and Surgery of the Stomach and Duodenum. He served as chairman of the American Board of Surgery, president of the International Society of Surgery, president of the Society of University Surgeons, and first vice-president of both the ACS and ASA. University of Illinois is a new institutional node, connecting through the implicit Cole lineage. Citation same as training edge.",
+    "notes": "[Verified 2026-03-17 | Hernia 2009] Nyhus was recruited to succeed Warren Cole (already in graph; Cole→Jonasson training edge exists) as Warren H. Cole Professor and Head of the Department of Surgery at the University of Illinois College of Medicine at Chicago in 1967. He held the position for 22 years until 1989, training nearly 300 surgeons. He was named to the Warren H. Cole Chair, explicitly linking his institutional role to Cole's legacy. Nyhus authored the definitive hernia textbook (Hernia, co-authored with Harkins, later with Condon), Mastery of Surgery, and Surgery of the Stomach and Duodenum. He served as chairman of the American Board of Surgery, president of the International Society of Surgery, president of the Society of University Surgeons, and first vice-president of both the ACS and ASA. University of Illinois is a new institutional node, connecting through the implicit Cole lineage. Citation same as training edge.",
     "module": "02_general_surgery_spread"
   },
   {

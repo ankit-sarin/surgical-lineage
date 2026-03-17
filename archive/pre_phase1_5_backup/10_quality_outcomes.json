@@ -12,7 +12,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/36565264/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am Surg 2023 | content_match] Codman leveraged his End Result principles to help establish the ACS Hospital Standardization Program, the precursor to the Joint Commission."
+    "notes": "[Verified 2026-03-17 | Am Surg 2023] Codman leveraged his End Result principles to help establish the ACS Hospital Standardization Program, the precursor to the Joint Commission."
   },
   {
     "source_node": "Ernest Codman",
@@ -27,7 +27,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/36565264/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am Surg 2023 | content_match] Codman instituted the End Result System to systematically track patient outcomes, serving as the intellectual genesis for all modern surgical quality improvement."
+    "notes": "[Verified 2026-03-17 | Am Surg 2023] Codman instituted the End Result System to systematically track patient outcomes, serving as the intellectual genesis for all modern surgical quality improvement."
   },
   {
     "source_node": "John Wennberg",
@@ -42,7 +42,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/39177806/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Res Health Serv Reg 2022 | content_match] Wennberg established the institute to formalize the study of surgical practice variation, fundamentally shifting outcomes science toward population-level epidemiology."
+    "notes": "[Verified 2026-03-17 | Res Health Serv Reg 2022] Wennberg established the institute to formalize the study of surgical practice variation, fundamentally shifting outcomes science toward population-level epidemiology."
   },
   {
     "source_node": "Shukri Khuri",
@@ -56,8 +56,8 @@
     "evidence_citation": "PMID: 9486580",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9486580/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Cancer 1998 | MISMATCH: 0 of 21 edge tokens found in article] Khuri led the development and validation of the VA NSQIP, demonstrating that systematic risk-adjusted outcomes measurement could tangibly reduce surgical mortality."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Cancer 1998] Khuri led the development and validation of the VA NSQIP, demonstrating that systematic risk-adjusted outcomes measurement could tangibly reduce surgical mortality."
   },
   {
     "source_node": "David Flum",
@@ -87,7 +87,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9122554/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Sleep 1996 | weak_match: matched \"based\", \"group\"; missed study, traditional, founded] Kehlet founded the study group based on his pioneering research into multimodal surgical rehabilitation, challenging traditional perioperative dogma."
+    "notes": "[Verified 2026-03-17 | Sleep 1996] Kehlet founded the study group based on his pioneering research into multimodal surgical rehabilitation, challenging traditional perioperative dogma."
   },
   {
     "source_node": "VA National Surgical Quality Improvement Program",
@@ -101,8 +101,8 @@
     "evidence_citation": "PMID: 18650631",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18650631/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2008 | MISMATCH: 1 of 22 edge tokens found in article] The methodology developed within the VA system was successfully transitioned and scaled into the private sector under the governance of the American College of Surgeons."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2008] The methodology developed within the VA system was successfully transitioned and scaled into the private sector under the governance of the American College of Surgeons."
   },
   {
     "source_node": "American College of Surgeons",
@@ -252,7 +252,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28795858/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Laparoendosc Adv Surg Tech A 2017 | content_match] Ljungqvist co-founded and formalized the ERAS Society, accelerating the global implementation and auditing of enhanced recovery protocols."
+    "notes": "[Verified 2026-03-17 | J Laparoendosc Adv Surg Tech A 2017] Ljungqvist co-founded and formalized the ERAS Society, accelerating the global implementation and auditing of enhanced recovery protocols."
   },
   {
     "source_node": "ERAS Study Group",
@@ -267,7 +267,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28795858/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Laparoendosc Adv Surg Tech A 2017 | content_match] The informal academic study group evolved into a formal global governance body with strict auditing and accreditation protocols."
+    "notes": "[Verified 2026-03-17 | J Laparoendosc Adv Surg Tech A 2017] The informal academic study group evolved into a formal global governance body with strict auditing and accreditation protocols."
   },
   {
     "source_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
@@ -282,7 +282,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24317546/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2014 | content_match] The Fundamentals of Endoscopic Surgery (FES) program was created by SAGES as the flexible endoscopy equivalent of the Fundamentals of Laparoscopic Surgery (FLS) program. FES is a comprehensive educational and assessment tool designed to teach and evaluate the fundamental knowledge, clinical judgment, and technical skills required in the performance of basic gastrointestinal flexible endoscopy. FES uses a virtual reality simulator (GI Bronch Mentor or GI Express) for the manual skills assessment, unlike FLS which uses a physical box trainer. The FES program was developed in collaboration with the ABS, ASCRS, ASMBS, and SSAT. SAGES launched FES publicly in 2014 and it was subsequently mandated by the ABS as part of the ABS Flexible Endoscopy Curriculum. Source: Marks JM et al. Why fundamentals of endoscopic surgery (FES)? Surg Endosc. 2014;28(3):701-703. This edge parallels the SAGES→FLS (2004) edge already in the graph."
+    "notes": "[Verified 2026-03-17 | Surg Endosc 2014] The Fundamentals of Endoscopic Surgery (FES) program was created by SAGES as the flexible endoscopy equivalent of the Fundamentals of Laparoscopic Surgery (FLS) program. FES is a comprehensive educational and assessment tool designed to teach and evaluate the fundamental knowledge, clinical judgment, and technical skills required in the performance of basic gastrointestinal flexible endoscopy. FES uses a virtual reality simulator (GI Bronch Mentor or GI Express) for the manual skills assessment, unlike FLS which uses a physical box trainer. The FES program was developed in collaboration with the ABS, ASCRS, ASMBS, and SSAT. SAGES launched FES publicly in 2014 and it was subsequently mandated by the ABS as part of the ABS Flexible Endoscopy Curriculum. Source: Marks JM et al. Why fundamentals of endoscopic surgery (FES)? Surg Endosc. 2014;28(3):701-703. This edge parallels the SAGES→FLS (2004) edge already in the graph."
   },
   {
     "source_node": "ERAS Society",

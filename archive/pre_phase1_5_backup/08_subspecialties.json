@@ -44,7 +44,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/27550008/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ophthalmology 2016 | content_match] The American Ophthalmological Society (AOS) was founded on June 7, 1864, by 18 physicians including Henry Drury Noyes, Daniel Bennett St. John Roosa, and Edward Delafield, who served as its first president. The AOS is the oldest specialty medical society in the United States (the New York Ophthalmological Society, founded March 7, 1864, preceded it by three months but remained a local organization). The AOS was founded at a meeting in Noyes' office at which seven New York City ophthalmologists and one from Boston convened, initially to establish a respectable ophthalmology journal in response to a dubious publication by a German immigrant. They decided a society would be more effective than a journal. Delafield, then age 70 and president of the College of Physicians and Surgeons, was elected chairman. The AOS had only 19 members at its founding. It played a leading role in establishing the American Board of Ophthalmology in 1916. Admission requires nomination by current members and submission of a scholarly thesis. End_year of 1875 reflects Delafield's death.",
+    "notes": "[Verified 2026-03-17 | Ophthalmology 2016] The American Ophthalmological Society (AOS) was founded on June 7, 1864, by 18 physicians including Henry Drury Noyes, Daniel Bennett St. John Roosa, and Edward Delafield, who served as its first president. The AOS is the oldest specialty medical society in the United States (the New York Ophthalmological Society, founded March 7, 1864, preceded it by three months but remained a local organization). The AOS was founded at a meeting in Noyes' office at which seven New York City ophthalmologists and one from Boston convened, initially to establish a respectable ophthalmology journal in response to a dubious publication by a German immigrant. They decided a society would be more effective than a journal. Delafield, then age 70 and president of the College of Physicians and Surgeons, was elected chairman. The AOS had only 19 members at its founding. It played a leading role in establishing the American Board of Ophthalmology in 1916. Admission requires nomination by current members and submission of a scholarly thesis. End_year of 1875 reflects Delafield's death.",
     "module": "08_subspecialties"
   },
   {
@@ -59,8 +59,8 @@
     "evidence_citation": "PMID: 10926590",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10926590/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | BMJ 2000 | MISMATCH: 0 of 17 edge tokens found in article] Mathews was appointed the first Professor of Proctology, establishing the first formal academic department for the specialty in the US.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | BMJ 2000] Mathews was appointed the first Professor of Proctology, establishing the first formal academic department for the specialty in the US.",
     "module": "08_subspecialties"
   },
   {
@@ -75,8 +75,8 @@
     "evidence_citation": "PMID: 10926590",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10926590/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | BMJ 2000 | MISMATCH: 0 of 13 edge tokens found in article] Mathews served as the first president and primary founder of the American Proctologic Society.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | BMJ 2000] Mathews served as the first president and primary founder of the American Proctologic Society.",
     "module": "08_subspecialties"
   },
   {
@@ -124,7 +124,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10359266/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Plast Reconstr Surg 1999 | content_match] During WWI, Blair served as commander of the U.S. Army corps of head and neck surgeons. He traveled to other parts of Europe where he learned new concepts from Harold Gillies (already in graph) and Sir William Kelsey Fry. This wartime collaboration is the transatlantic bridge between the British plastic surgery trunk (Gillies → McIndoe, Gillies → Millard → Miami) and the American trunk (Blair → WashU → ABPS). Both men independently shaped the specialty in their respective countries, but the WWI encounter cross-pollinated techniques.",
+    "notes": "[Verified 2026-03-17 | Plast Reconstr Surg 1999] During WWI, Blair served as commander of the U.S. Army corps of head and neck surgeons. He traveled to other parts of Europe where he learned new concepts from Harold Gillies (already in graph) and Sir William Kelsey Fry. This wartime collaboration is the transatlantic bridge between the British plastic surgery trunk (Gillies → McIndoe, Gillies → Millard → Miami) and the American trunk (Blair → WashU → ABPS). Both men independently shaped the specialty in their respective countries, but the WWI encounter cross-pollinated techniques.",
     "module": "08_subspecialties"
   },
   {
@@ -140,7 +140,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/8311630/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Thorac Surg 1994 | content_match] Chevalier Quixote Jackson (1865-1958), the 'father of American bronchoesophagoscopy,' founded the American Broncho-Esophagological Association (ABEA) in 1917. Jackson developed the instruments and techniques for safe peroral endoscopy — laryngoscopy, bronchoscopy, and esophagoscopy — and trained most of the next generation of endoscopists at clinics in Pittsburgh and Philadelphia. He held the professorship of laryngology at Jefferson Medical College (an existing graph node) from 1916 to 1930, and was additionally Professor of Bronchoesophagology at Jefferson (1924-1930), with parallel appointments at the University of Pennsylvania and Temple University. His 1915 textbook 'Peroral Endoscopy and Laryngeal Surgery' and his 1944 'Diseases of the Air and Food Passages' were definitive works. Jackson's position at Jefferson creates an implicit connection to the existing pre-Halsted Philadelphia trunk (Gross→Jefferson), making Jefferson a multi-specialty convergence node for surgery and ENT. The ABEA continues to meet annually under the auspices of COSM (Combined Otolaryngology Spring Meeting).",
+    "notes": "[Verified 2026-03-17 | Ann Thorac Surg 1994] Chevalier Quixote Jackson (1865-1958), the 'father of American bronchoesophagoscopy,' founded the American Broncho-Esophagological Association (ABEA) in 1917. Jackson developed the instruments and techniques for safe peroral endoscopy — laryngoscopy, bronchoscopy, and esophagoscopy — and trained most of the next generation of endoscopists at clinics in Pittsburgh and Philadelphia. He held the professorship of laryngology at Jefferson Medical College (an existing graph node) from 1916 to 1930, and was additionally Professor of Bronchoesophagology at Jefferson (1924-1930), with parallel appointments at the University of Pennsylvania and Temple University. His 1915 textbook 'Peroral Endoscopy and Laryngeal Surgery' and his 1944 'Diseases of the Air and Food Passages' were definitive works. Jackson's position at Jefferson creates an implicit connection to the existing pre-Halsted Philadelphia trunk (Gross→Jefferson), making Jefferson a multi-specialty convergence node for surgery and ENT. The ABEA continues to meet annually under the auspices of COSM (Combined Otolaryngology Spring Meeting).",
     "module": "08_subspecialties"
   },
   {
@@ -155,8 +155,8 @@
     "evidence_citation": "PMID: 12150380",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12150380/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | J Voice 2002 | MISMATCH: 0 of 12 edge tokens found in article] Buie established the Section of Proctology at the Mayo Clinic, formalizing the institutional subspecialty.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Voice 2002] Buie established the Section of Proctology at the Mayo Clinic, formalizing the institutional subspecialty.",
     "module": "08_subspecialties"
   },
   {
@@ -188,7 +188,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10359266/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Plast Reconstr Surg 1999 | content_match] Blair was the first chief of the Division of Plastic and Reconstructive Surgery at Washington University, serving from 1925 to 1955. St. Louis Medical College MD 1893 (the school merged with WashU in 1891), with further study at St. Bartholomew's Hospital in London. He built one of the largest plastic surgery centers in the country, training James Barrett Brown and Bradford Cannon among others. Blair was a WashU faculty member from 1894 and a contemporary of Evarts Graham (surgery chairman from 1919) — the two were colleagues in the same department for decades.",
+    "notes": "[Verified 2026-03-17 | Plast Reconstr Surg 1999] Blair was the first chief of the Division of Plastic and Reconstructive Surgery at Washington University, serving from 1925 to 1955. St. Louis Medical College MD 1893 (the school merged with WashU in 1891), with further study at St. Bartholomew's Hospital in London. He built one of the largest plastic surgery centers in the country, training James Barrett Brown and Bradford Cannon among others. Blair was a WashU faculty member from 1894 and a contemporary of Evarts Graham (surgery chairman from 1919) — the two were colleagues in the same department for decades.",
     "module": "08_subspecialties"
   },
   {
@@ -219,8 +219,8 @@
     "evidence_citation": "PMID: 21856431",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/21856431/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Neuroimage 2012 | MISMATCH: 0 of 13 edge tokens found in article] McIndoe, Gillies' cousin, was directly trained by him before leading the WWII Guinea Pig Club at East Grinstead.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Neuroimage 2012] McIndoe, Gillies' cousin, was directly trained by him before leading the WWII Guinea Pig Club at East Grinstead.",
     "module": "08_subspecialties"
   },
   {
@@ -236,7 +236,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23997672/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Clin Colon Rectal Surg 2012 | content_match] In 1934, representatives of the American Proctologic Society sought approval of the American Board of Proctology from the Council on Medical Education and Hospitals and the Advisory Board for Medical Specialists. The American Board of Proctology was incorporated on August 13, 1935, becoming the sixth board to be organized and the tenth to be incorporated. Renamed to American Board of Colon and Rectal Surgery in 1961. Source: Whitlow CB. The American Board of Colon and Rectal Surgery: Past, Present, and Future. Clin Colon Rectal Surg. 2012;25(3):139-143."
+    "notes": "[Verified 2026-03-17 | Clin Colon Rectal Surg 2012] In 1934, representatives of the American Proctologic Society sought approval of the American Board of Proctology from the Council on Medical Education and Hospitals and the Advisory Board for Medical Specialists. The American Board of Proctology was incorporated on August 13, 1935, becoming the sixth board to be organized and the tenth to be incorporated. Renamed to American Board of Colon and Rectal Surgery in 1961. Source: Whitlow CB. The American Board of Colon and Rectal Surgery: Past, Present, and Future. Clin Colon Rectal Surg. 2012;25(3):139-143."
   },
   {
     "source_node": "William E. Ladd",
@@ -251,7 +251,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10493481/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1999 | weak_match: matched \"served\"; missed succeeded, robert e. gross, william e. ladd] Gross served as Ladd's chief resident and eventually succeeded him as Surgeon-in-Chief.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1999] Gross served as Ladd's chief resident and eventually succeeded him as Surgeon-in-Chief.",
     "module": "08_subspecialties"
   },
   {
@@ -267,7 +267,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2679173/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am J Surg 1989 | content_match] Hayes Martin (1892-1977), considered the 'father of modern head and neck tumor surgery,' was appointed Chief of the Head and Neck Service at Memorial Hospital for Cancer and Allied Diseases in 1934. He had interned at Memorial in 1922-1923 and returned after training at Bellevue's second surgical service. Martin developed the 'Commando operation' for advanced oral cancers, popularized fine-needle aspiration biopsy for solid tumors (first report in Annals of Surgery), and published the landmark papers 'Cancer of the Head and Neck' (JAMA, 1948) and 'Neck Dissection' (Cancer, 1951). He trained a generation of head and neck surgeons at Memorial, including Edgar Frazell (his successor) and Elliot Strong. Martin retired from active practice in 1957 but continued seeing patients until his death. This edge connects to the existing Memorial Hospital node (degree 3), which also links to Allen O. Whipple (governance_leadership) and the James Ewing Society (institutional_succession), creating a multi-specialty convergence at Memorial spanning general surgery, surgical oncology, and head and neck surgery.",
+    "notes": "[Verified 2026-03-17 | Am J Surg 1989] Hayes Martin (1892-1977), considered the 'father of modern head and neck tumor surgery,' was appointed Chief of the Head and Neck Service at Memorial Hospital for Cancer and Allied Diseases in 1934. He had interned at Memorial in 1922-1923 and returned after training at Bellevue's second surgical service. Martin developed the 'Commando operation' for advanced oral cancers, popularized fine-needle aspiration biopsy for solid tumors (first report in Annals of Surgery), and published the landmark papers 'Cancer of the Head and Neck' (JAMA, 1948) and 'Neck Dissection' (Cancer, 1951). He trained a generation of head and neck surgeons at Memorial, including Edgar Frazell (his successor) and Elliot Strong. Martin retired from active practice in 1957 but continued seeing patients until his death. This edge connects to the existing Memorial Hospital node (degree 3), which also links to Allen O. Whipple (governance_leadership) and the James Ewing Society (institutional_succession), creating a multi-specialty convergence at Memorial spanning general surgery, surgical oncology, and head and neck surgery.",
     "module": "08_subspecialties"
   },
   {
@@ -330,8 +330,8 @@
     "evidence_citation": "PMID: 6013681",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/6013681/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Ann Med Leg Criminol Police Sci Toxicol 1966 | MISMATCH: 0 of 16 edge tokens found in article] Mason trained under Wangensteen, carrying the aggressive, physiologically-driven Minnesota surgical culture into his pioneering bariatric work at Iowa.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Ann Med Leg Criminol Police Sci Toxicol 1966] Mason trained under Wangensteen, carrying the aggressive, physiologically-driven Minnesota surgical culture into his pioneering bariatric work at Iowa.",
     "module": "08_subspecialties"
   },
   {
@@ -346,8 +346,8 @@
     "evidence_citation": "PMID: 18412001",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18412001/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Nurs Manag (Harrow) 2008 | MISMATCH: 0 of 14 edge tokens found in article] Koop completed a highly concentrated fellowship under Gross before moving to Philadelphia.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Nurs Manag (Harrow) 2008] Koop completed a highly concentrated fellowship under Gross before moving to Philadelphia.",
     "module": "08_subspecialties"
   },
   {
@@ -363,7 +363,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12563656/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Hand Surg Am 2003 | content_match] On January 20, 1946, Bunnell and 34 hand surgeons — drawn almost exclusively from the US Army hand centers he had established — met in Chicago immediately preceding the annual meeting of the American Academy of Orthopaedic Surgeons to found the American Society for Surgery of the Hand (ASSH). Bunnell served as its first president (1946-1947). The 35 founding members included 14 general surgeons, 13 plastic surgeons, and 8 orthopedic surgeons, making the ASSH the only major surgical society to formally span three parent specialties from its inception. The society remained small for its first 25 years (no more than 11 new members admitted in any year), then expanded rapidly starting in 1971. In 1975, the ASSH founded the Journal of Hand Surgery. By 2016, the membership composition had shifted to 78% orthopedic surgeons, 16% plastic surgeons, and 5% general surgeons. The ASSH is the oldest medical specialty society devoted exclusively to the hand. End_year of 1957 reflects Bunnell's death; the society continues to the present.",
+    "notes": "[Verified 2026-03-17 | J Hand Surg Am 2003] On January 20, 1946, Bunnell and 34 hand surgeons — drawn almost exclusively from the US Army hand centers he had established — met in Chicago immediately preceding the annual meeting of the American Academy of Orthopaedic Surgeons to found the American Society for Surgery of the Hand (ASSH). Bunnell served as its first president (1946-1947). The 35 founding members included 14 general surgeons, 13 plastic surgeons, and 8 orthopedic surgeons, making the ASSH the only major surgical society to formally span three parent specialties from its inception. The society remained small for its first 25 years (no more than 11 new members admitted in any year), then expanded rapidly starting in 1971. In 1975, the ASSH founded the Journal of Hand Surgery. By 2016, the membership composition had shifted to 78% orthopedic surgeons, 16% plastic surgeons, and 5% general surgeons. The ASSH is the oldest medical specialty society devoted exclusively to the hand. End_year of 1957 reflects Bunnell's death; the society continues to the present.",
     "module": "08_subspecialties"
   },
   {
@@ -379,7 +379,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35001182/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Egypt Natl Canc Inst 2022 | weak_match: matched \"surgery\"; missed program, founded, everett] Koop founded the surgical program at CHOP, establishing it as the second major pillar of pediatric surgery.",
+    "notes": "[Verified 2026-03-17 | J Egypt Natl Canc Inst 2022] Koop founded the surgical program at CHOP, establishing it as the second major pillar of pediatric surgery.",
     "module": "08_subspecialties"
   },
   {
@@ -394,8 +394,8 @@
     "evidence_citation": "PMID: 11452297",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11452297/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Nature 2001 | MISMATCH: 0 of 15 edge tokens found in article] Millard sought out Gillies in England for specialized training, heavily influencing his later cleft lip innovations.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Nature 2001] Millard sought out Gillies in England for specialized training, heavily influencing his later cleft lip innovations.",
     "module": "08_subspecialties"
   },
   {
@@ -427,7 +427,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23997672/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Clin Colon Rectal Surg 2012 | content_match] The Advisory Board for Medical Specialties (now ABMS) and the Council on Medical Education and Hospitals granted the American Board of Proctology approval as a primary board on June 15, 1949, becoming the eighteenth specialty board approved. ABCRS is currently one of 24 ABMS member boards. Initially certified under the ABS through a Central Certifying Committee in Proctology (1940); gained primary board independence in 1949. In 1980 ABCRS required passage of the ABS qualifying exam, and in 1989 required full ABS certification — making every board-certified colorectal surgeon also ABS-certified."
+    "notes": "[Verified 2026-03-17 | Clin Colon Rectal Surg 2012] The Advisory Board for Medical Specialties (now ABMS) and the Council on Medical Education and Hospitals granted the American Board of Proctology approval as a primary board on June 15, 1949, becoming the eighteenth specialty board approved. ABCRS is currently one of 24 ABMS member boards. Initially certified under the ABS through a Central Certifying Committee in Proctology (1940); gained primary board independence in 1949. In 1980 ABCRS required passage of the ABS qualifying exam, and in 1989 required full ABS certification — making every board-certified colorectal surgeon also ABS-certified."
   },
   {
     "source_node": "Rupert B. Turnbull",
@@ -442,7 +442,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1007/BF02553389",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Diseases of the Colon &amp; Rectum 1983 | weak_match: matched \"beach\", \"turnbull\", \"1913-1981\"; missed colonic, inherited, patients] Rupert Beach Turnbull Jr. (1913-1981) completed surgical training at the Cleveland Clinic under Tom Jones and inherited the colonic and rectal surgery patients after Jones's death. He developed the no-touch isolation technique for colon cancer, pioneered enterostomal therapy, and built the Department of Colon and Rectal Surgery into a world-leading program. Head of department until mandatory retirement in 1976. The Rupert B. Turnbull Surgical Society was founded in 1976 by his former trainees. Source: Corman ML (ed.), Turnbull obituary, Dis Colon Rectum 26(6):416-423, 1983. Written by Victor W. Fazio. PMID not confirmed for this obituary; DOI verified."
+    "notes": "[Verified 2026-03-17 | Diseases of the Colon &amp; Rectum 1983] Rupert Beach Turnbull Jr. (1913-1981) completed surgical training at the Cleveland Clinic under Tom Jones and inherited the colonic and rectal surgery patients after Jones's death. He developed the no-touch isolation technique for colon cancer, pioneered enterostomal therapy, and built the Department of Colon and Rectal Surgery into a world-leading program. Head of department until mandatory retirement in 1976. The Rupert B. Turnbull Surgical Society was founded in 1976 by his former trainees. Source: Corman ML (ed.), Turnbull obituary, Dis Colon Rectum 26(6):416-423, 1983. Written by Victor W. Fazio. PMID not confirmed for this obituary; DOI verified."
   },
   {
     "source_node": "Hayes Martin",
@@ -457,7 +457,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2679173/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am J Surg 1989 | content_match] Martin founded the Society of Head and Neck Surgeons (SHNS) in 1954, the first professional society devoted to head and neck cancer surgery. The membership was initially dominated by general surgeons and surgical oncologists. A parallel society, the American Society for Head and Neck Surgery (ASHNS), was established in 1958 by otolaryngologists John Conley and George Sisson. The two societies coexisted — sometimes with considerable rivalry — for 44 years before merging in 1998. The SHNS/ASHNS split mirrors the generational society pattern seen elsewhere in the graph (SNS vs. Harvey Cushing Society vs. CNS in neurosurgery; AAST vs. EAST in trauma), though in this case the split was by specialty background (general surgery vs. otolaryngology) rather than seniority. End_year of 1977 reflects Martin's death; the SHNS continued until the 1998 merger.",
+    "notes": "[Verified 2026-03-17 | Am J Surg 1989] Martin founded the Society of Head and Neck Surgeons (SHNS) in 1954, the first professional society devoted to head and neck cancer surgery. The membership was initially dominated by general surgeons and surgical oncologists. A parallel society, the American Society for Head and Neck Surgery (ASHNS), was established in 1958 by otolaryngologists John Conley and George Sisson. The two societies coexisted — sometimes with considerable rivalry — for 44 years before merging in 1998. The SHNS/ASHNS split mirrors the generational society pattern seen elsewhere in the graph (SNS vs. Harvey Cushing Society vs. CNS in neurosurgery; AAST vs. EAST in trauma), though in this case the split was by specialty background (general surgery vs. otolaryngology) rather than seniority. End_year of 1977 reflects Martin's death; the SHNS continued until the 1998 merger.",
     "module": "08_subspecialties"
   },
   {
@@ -503,8 +503,8 @@
     "evidence_citation": "PMID: 6013681",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/6013681/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Ann Med Leg Criminol Police Sci Toxicol 1966 | MISMATCH: 0 of 20 edge tokens found in article] Mason established the first dedicated bariatric program, pioneering the gastric bypass and shifting the field away from high-complication intestinal bypasses.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Ann Med Leg Criminol Police Sci Toxicol 1966] Mason established the first dedicated bariatric program, pioneering the gastric bypass and shifting the field away from high-complication intestinal bypasses.",
     "module": "08_subspecialties"
   },
   {
@@ -519,8 +519,8 @@
     "evidence_citation": "PMID: 11469062",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11469062/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anesthesiol Clin North Am 2001 | MISMATCH: 0 of 21 edge tokens found in article] Bismuth established one of the first dedicated hepatobiliary units, pioneering complex liver resections and formalizing the European HPB training model.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anesthesiol Clin North Am 2001] Bismuth established one of the first dedicated hepatobiliary units, pioneering complex liver resections and formalizing the European HPB training model.",
     "module": "08_subspecialties"
   },
   {
@@ -568,7 +568,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35731977/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Dis Colon Rectum 2022 | weak_match: matched \"victor\", \"surgery\", \"fazio\"; missed rupert b. turnbull, rectal, clinic] Victor Warren Fazio (1940-2015) came to Cleveland Clinic in 1973 as a fellow in Colon and Rectal Surgery under Rupert Turnbull, after completing a hepatobiliary fellowship at the Lahey Clinic in Boston. Born in Sydney, Australia; FRACS 1971; served with the Australian Surgical Team in Vietnam 1971. Within one year of arrival he was selected to lead the department. Source: Church JM. Legacy of Dr. Victor Fazio, Master of Pouch Surgery. Dis Colon Rectum. 2022;65(S1):S1-S4. Also confirmed by Case Western Reserve Encyclopedia of Cleveland History and RACS obituary."
+    "notes": "[Verified 2026-03-17 | Dis Colon Rectum 2022] Victor Warren Fazio (1940-2015) came to Cleveland Clinic in 1973 as a fellow in Colon and Rectal Surgery under Rupert Turnbull, after completing a hepatobiliary fellowship at the Lahey Clinic in Boston. Born in Sydney, Australia; FRACS 1971; served with the Australian Surgical Team in Vietnam 1971. Within one year of arrival he was selected to lead the department. Source: Church JM. Legacy of Dr. Victor Fazio, Master of Pouch Surgery. Dis Colon Rectum. 2022;65(S1):S1-S4. Also confirmed by Case Western Reserve Encyclopedia of Cleveland History and RACS obituary."
   },
   {
     "source_node": "Victor W. Fazio",
@@ -583,7 +583,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35731977/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Dis Colon Rectum 2022 | weak_match: matched \"fazio\", \"victor\", \"surgery\"; missed youngest, succeeded, years] Fazio succeeded Turnbull as chairman of the Department of Colorectal Surgery in 1975 at age 35, one of the youngest department chiefs in Cleveland Clinic history. Served 33 years as chairman, expanding the department from 4 colorectal surgeons to a staff performing 5,000+ surgeries annually. Named chairman of the Digestive Disease Institute in 2008. The department maintained preeminence in surgery for Crohn's disease and performed more operations for ulcerative colitis than any other institution worldwide. Fazio trained generations of colorectal surgeons, including Feza Remzi, James Church, Tracy Hull, Jeff Milsom, and David Jagelman. Appointed to the Rupert B. Turnbull Chair in Colorectal Surgery in 1996. Also served as president of the American Board of Colon and Rectal Surgery."
+    "notes": "[Verified 2026-03-17 | Dis Colon Rectum 2022] Fazio succeeded Turnbull as chairman of the Department of Colorectal Surgery in 1975 at age 35, one of the youngest department chiefs in Cleveland Clinic history. Served 33 years as chairman, expanding the department from 4 colorectal surgeons to a staff performing 5,000+ surgeries annually. Named chairman of the Digestive Disease Institute in 2008. The department maintained preeminence in surgery for Crohn's disease and performed more operations for ulcerative colitis than any other institution worldwide. Fazio trained generations of colorectal surgeons, including Feza Remzi, James Church, Tracy Hull, Jeff Milsom, and David Jagelman. Appointed to the Rupert B. Turnbull Chair in Colorectal Surgery in 1996. Also served as president of the American Board of Colon and Rectal Surgery."
   },
   {
     "source_node": "Norman Thompson",
@@ -614,7 +614,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31659590/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | AAPS PharmSciTech 2019 | weak_match: matched \"for\"; missed field, rapidly, society] Mason organized the founding of the ASBS to establish rigorous clinical standards for the rapidly expanding field of weight-loss surgery.",
+    "notes": "[Verified 2026-03-17 | AAPS PharmSciTech 2019] Mason organized the founding of the ASBS to establish rigorous clinical standards for the rapidly expanding field of weight-loss surgery.",
     "module": "08_subspecialties"
   },
   {
@@ -646,7 +646,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/36320443/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Indian J Surg 2022 | content_match] Leslie Harold Blumgart (1931-2022) became Enid A. Haupt Professor of Surgery at Memorial Sloan Kettering Cancer Center in 1991, was appointed Chief and Director of the Programme on Hepato-Biliary Diseases in 1995, and held the position until his retirement. The Leslie H. Blumgart Chair in Surgery was established at MSK. During his 31 years at MSKCC, he built one of the world's great HPB clinical and academic programs, trained a generation of surgical oncologists and HPB surgeons, and authored over 750 peer-reviewed papers. Source: Bhattacharya K, Bhattacharya N, De U. Professor Leslie H. Blumgart—Pioneering Hepatopancreaticobiliary Surgeon: a Tribute. Indian J Surg. 2023;85:950-952. BRIDGE EDGE: Connects the HPB 6-node island (Blumgart + Bismuth + IHPBA + AHPBA + MSK HPB Service + Paul Brousse) to the main component via MSK Cancer Center."
+    "notes": "[Verified 2026-03-17 | Indian J Surg 2022] Leslie Harold Blumgart (1931-2022) became Enid A. Haupt Professor of Surgery at Memorial Sloan Kettering Cancer Center in 1991, was appointed Chief and Director of the Programme on Hepato-Biliary Diseases in 1995, and held the position until his retirement. The Leslie H. Blumgart Chair in Surgery was established at MSK. During his 31 years at MSKCC, he built one of the world's great HPB clinical and academic programs, trained a generation of surgical oncologists and HPB surgeons, and authored over 750 peer-reviewed papers. Source: Bhattacharya K, Bhattacharya N, De U. Professor Leslie H. Blumgart—Pioneering Hepatopancreaticobiliary Surgeon: a Tribute. Indian J Surg. 2023;85:950-952. BRIDGE EDGE: Connects the HPB 6-node island (Blumgart + Bismuth + IHPBA + AHPBA + MSK HPB Service + Paul Brousse) to the main component via MSK Cancer Center."
   },
   {
     "source_node": "Henri Bismuth",
@@ -677,7 +677,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11986019/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2002 | content_match] Pitt HA. 'American Hepato-Pancreato-Biliary Association: who are we and where are we going?' J Gastrointest Surg. 2002 May-Jun;6(3):299-305. Documents the AHPBA inauguration on November 12, 1994 in Chicago, Illinois, as the Americas chapter of the IHPBA following the first IHPBA World Congress in Boston in May 1994. By 2002, AHPBA had 500+ dues-paying members, 90% North American, 80% fellowship-trained. The AHPBA follows the established graph pattern of international societies spawning regional chapters (paralleling the IHPBA itself being founded from the merger of IBA and WAHPBS in 1994). The existing Bismuth→IHPBA edge (1994) captures the parent society founding; this edge documents the immediate American offspring. AHPBA connects the HPB cluster (Blumgart/MSK, Bismuth/IHPBA) to the broader American surgical society network.",
+    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2002] Pitt HA. 'American Hepato-Pancreato-Biliary Association: who are we and where are we going?' J Gastrointest Surg. 2002 May-Jun;6(3):299-305. Documents the AHPBA inauguration on November 12, 1994 in Chicago, Illinois, as the Americas chapter of the IHPBA following the first IHPBA World Congress in Boston in May 1994. By 2002, AHPBA had 500+ dues-paying members, 90% North American, 80% fellowship-trained. The AHPBA follows the established graph pattern of international societies spawning regional chapters (paralleling the IHPBA itself being founded from the merger of IBA and WAHPBS in 1994). The existing Bismuth→IHPBA edge (1994) captures the parent society founding; this edge documents the immediate American offspring. AHPBA connects the HPB cluster (Blumgart/MSK, Bismuth/IHPBA) to the broader American surgical society network.",
     "module": "08_subspecialties"
   },
   {
@@ -788,7 +788,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37601473/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Open 2023 | content_match] James Barrett Brown (1899-1971) trained under Vilray Blair at Washington University beginning in the 1920s and was regarded as Blair's most important trainee. Bharani and Yeo (Ann Surg Open 2023, PMID 37601473) describe Brown as 'a disciple of Blair' who took over leadership in wartime plastic surgery during WWII. Brown succeeded Blair as chief of the WashU Division of Plastic and Reconstructive Surgery (1955-1968). Together, Blair and Brown published the first reproducible cleft lip repair technique (1929), developed the split-thickness skin grafting technique still in use today, and provided the clinical foundation for ABPS board standards. Brown served as U.S. Army Chief Consultant in Plastic Surgery during WWII and established multiple plastic surgery centers in Europe. Stelnicki et al (Plast Reconstr Surg 1999, PMID 10359266) survey Blair's surgical descendants comprehensively. This edge extends the WashU plastic surgery lineage to a second generation.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Open 2023] James Barrett Brown (1899-1971) trained under Vilray Blair at Washington University beginning in the 1920s and was regarded as Blair's most important trainee. Bharani and Yeo (Ann Surg Open 2023, PMID 37601473) describe Brown as 'a disciple of Blair' who took over leadership in wartime plastic surgery during WWII. Brown succeeded Blair as chief of the WashU Division of Plastic and Reconstructive Surgery (1955-1968). Together, Blair and Brown published the first reproducible cleft lip repair technique (1929), developed the split-thickness skin grafting technique still in use today, and provided the clinical foundation for ABPS board standards. Brown served as U.S. Army Chief Consultant in Plastic Surgery during WWII and established multiple plastic surgery centers in Europe. Stelnicki et al (Plast Reconstr Surg 1999, PMID 10359266) survey Blair's surgical descendants comprehensively. This edge extends the WashU plastic surgery lineage to a second generation.",
     "module": "08_subspecialties"
   },
   {
@@ -804,7 +804,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10359266/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Plast Reconstr Surg 1999 | content_match] Brown succeeded his mentor Blair as chief of the WashU Division of Plastic and Reconstructive Surgery in 1955 and served until 1968. The WashU Division of Plastic Surgery history page confirms this succession. Stelnicki et al (Plast Reconstr Surg 1999, PMID 10359266) document Blair's descendants including Brown's leadership at WashU. This creates a bidirectional circuit: Blair founded the WashU plastic surgery division, trained Brown there, and Brown then led the same division — a pattern seen at Jefferson (Gross), Duke (Anderson), and Cincinnati (Altemeier) elsewhere in the graph.",
+    "notes": "[Verified 2026-03-17 | Plast Reconstr Surg 1999] Brown succeeded his mentor Blair as chief of the WashU Division of Plastic and Reconstructive Surgery in 1955 and served until 1968. The WashU Division of Plastic Surgery history page confirms this succession. Stelnicki et al (Plast Reconstr Surg 1999, PMID 10359266) document Blair's descendants including Brown's leadership at WashU. This creates a bidirectional circuit: Blair founded the WashU plastic surgery division, trained Brown there, and Brown then led the same division — a pattern seen at Jefferson (Gross), Duke (Anderson), and Cincinnati (Altemeier) elsewhere in the graph.",
     "module": "08_subspecialties"
   },
   {
@@ -820,7 +820,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37439820/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2023 | content_match] Chevalier Quixote Jackson (1865-1958) enrolled at Jefferson Medical College in 1884 and received his MD in 1886. He later returned to Jefferson as Professor of Laryngology (1916-1924) and Professor of Bronchoesophagology and department head (1924-1930). Eriksson et al (Surg Endosc 2023, PMID 37439820) and the Jefferson Libraries archives confirm his MD and professorial appointments. Jackson was a founding member and inaugural governor of the American College of Surgeons, the father of endoscopic surgery, and a pioneer in public health advocacy (Federal Caustic Poison Act of 1927). BRIDGE EDGE: Merges the Jackson/ABEA island (Component 6, 2 nodes) into the main component via the Jefferson Medical College node in 13_pre_halsted. Components: 8 to 7 (accounting for T1-03 bridge already reducing to 8).",
+    "notes": "[Verified 2026-03-17 | Surg Endosc 2023] Chevalier Quixote Jackson (1865-1958) enrolled at Jefferson Medical College in 1884 and received his MD in 1886. He later returned to Jefferson as Professor of Laryngology (1916-1924) and Professor of Bronchoesophagology and department head (1924-1930). Eriksson et al (Surg Endosc 2023, PMID 37439820) and the Jefferson Libraries archives confirm his MD and professorial appointments. Jackson was a founding member and inaugural governor of the American College of Surgeons, the father of endoscopic surgery, and a pioneer in public health advocacy (Federal Caustic Poison Act of 1927). BRIDGE EDGE: Merges the Jackson/ABEA island (Component 6, 2 nodes) into the main component via the Jefferson Medical College node in 13_pre_halsted. Components: 8 to 7 (accounting for T1-03 bridge already reducing to 8).",
     "module": "08_subspecialties"
   },
   {
@@ -835,8 +835,8 @@
     "evidence_citation": "PMID: 22136854",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22136854/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Surgery 2011 | MISMATCH: 1 of 21 edge tokens found in article] Norman Winslow Thompson spent his entire academic career at the University of Michigan, where he trained and rose to become the Henry King Ransom Professor of Surgery. He established the Division of Endocrine Surgery in 1979 (the first of its kind in the US), created the first comprehensive endocrine surgery fellowship in 1984, and co-founded the AAES in 1979 (serving as inaugural president, 1980). Thompson (Surgery 2011, PMID 22136854) authored the account of the AAES founding. The ASA memorial confirms his entire career was at Michigan. Exact residency dates approximated. Confidence moderate due to estimated training dates; the institutional relationship itself is unambiguous. BRIDGE EDGE: Merges the AAES/Thompson island (Component 8, 2 nodes) into the main component via the University of Michigan node (Coller's department in 02_general_surgery_spread).",
+    "confidence": "moderate",
+    "notes": "[Verified 2026-03-17 | Surgery 2011] Norman Winslow Thompson spent his entire academic career at the University of Michigan, where he trained and rose to become the Henry King Ransom Professor of Surgery. He established the Division of Endocrine Surgery in 1979 (the first of its kind in the US), created the first comprehensive endocrine surgery fellowship in 1984, and co-founded the AAES in 1979 (serving as inaugural president, 1980). Thompson (Surgery 2011, PMID 22136854) authored the account of the AAES founding. The ASA memorial confirms his entire career was at Michigan. Exact residency dates approximated. Confidence moderate due to estimated training dates; the institutional relationship itself is unambiguous. BRIDGE EDGE: Merges the AAES/Thompson island (Component 8, 2 nodes) into the main component via the University of Michigan node (Coller's department in 02_general_surgery_spread).",
     "module": "08_subspecialties"
   },
   {
@@ -852,7 +852,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1007/bf02586849",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Diseases of the Colon &amp; Rectum 1980 | weak_match: matched \"mark's\", \"hospital\"; missed tripartite, st. mark's hospital for fistula and other diseases of the rectum, rectal] St. Mark's Hospital and the ASCRS have maintained a formal institutional relationship through the Tripartite Colorectal Meeting, a rotating international conference jointly organized by the ASCRS, St. Mark's (via the Association of Coloproctology of Great Britain and Ireland, ACPGBI), and the Colorectal Surgical Society of Australia and New Zealand. The first Tripartite meeting was held in 1993. The St. Mark's Hospital Surgical Training Program (Dis Colon Rectum 1980, DOI 10.1007/bf02586849) documents the institutional training relationship. PMID 33421312 was incorrect (ophthalmology article); corrected to DOI during V5 PMID verification. St. Mark's surgeons have been regular visiting professors at ASCRS and vice versa, and the institutions share fellowship exchange programs. This is an observational_study edge representing sustained institutional knowledge exchange rather than a formal accreditation or governance relationship. Confidence moderate because the relationship is bilateral and collegial rather than hierarchical. BRIDGE EDGE: Merges the Salmon/St. Mark's island (Component 5, 2 nodes) into the main component via the ASCRS node in 08_subspecialties.",
+    "notes": "[Verified 2026-03-17 | Diseases of the Colon &amp; Rectum 1980] St. Mark's Hospital and the ASCRS have maintained a formal institutional relationship through the Tripartite Colorectal Meeting, a rotating international conference jointly organized by the ASCRS, St. Mark's (via the Association of Coloproctology of Great Britain and Ireland, ACPGBI), and the Colorectal Surgical Society of Australia and New Zealand. The first Tripartite meeting was held in 1993. The St. Mark's Hospital Surgical Training Program (Dis Colon Rectum 1980, DOI 10.1007/bf02586849) documents the institutional training relationship. PMID 33421312 was incorrect (ophthalmology article); corrected to DOI during V5 PMID verification. St. Mark's surgeons have been regular visiting professors at ASCRS and vice versa, and the institutions share fellowship exchange programs. This is an observational_study edge representing sustained institutional knowledge exchange rather than a formal accreditation or governance relationship. Confidence moderate because the relationship is bilateral and collegial rather than hierarchical. BRIDGE EDGE: Merges the Salmon/St. Mark's island (Component 5, 2 nodes) into the main component via the ASCRS node in 08_subspecialties.",
     "module": "08_subspecialties"
   },
   {
@@ -868,7 +868,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1016/j.jpedsurg.2008.01.016",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Journal of Pediatric Surgery 2008 | weak_match: matched \"folkman\", \"1933-2008\", \"judah\"; missed surgical, moses, 1953-1957] Moses Judah Folkman (1933-2008) worked in the surgical laboratory of Robert E. Gross, then surgeon-in-chief at Children's Hospital Boston, during his Harvard Medical School years (1953-1957). The J Pediatr Surg obituary (Judah M. Folkman, MD, 1933-2008; J Pediatr Surg 2008, DOI 10.1016/j.jpedsurg.2008.01.016) states Folkman 'entered the Harvard Medical School where he began working in the surgical laboratory of Dr Robert E. Gross' and the Harvard CHSI confirms this. During this time Folkman co-invented the first implantable heart pacemaker. His formal surgical residency was at MGH (1957-1965, interrupted by Navy service 1960-1962), followed by 6 months of pediatric surgery training under C. Everett Koop at CHOP. Confidence moderate because the Gross-Folkman relationship was a medical school laboratory mentorship rather than a formal surgical residency, though the intellectual mentorship was pivotal — Folkman returned to lead the same institution Gross had built. The existing Gross→Koop edge was a formal residency, so this is a different type of training relationship.",
+    "notes": "[Verified 2026-03-17 | Journal of Pediatric Surgery 2008] Moses Judah Folkman (1933-2008) worked in the surgical laboratory of Robert E. Gross, then surgeon-in-chief at Children's Hospital Boston, during his Harvard Medical School years (1953-1957). The J Pediatr Surg obituary (Judah M. Folkman, MD, 1933-2008; J Pediatr Surg 2008, DOI 10.1016/j.jpedsurg.2008.01.016) states Folkman 'entered the Harvard Medical School where he began working in the surgical laboratory of Dr Robert E. Gross' and the Harvard CHSI confirms this. During this time Folkman co-invented the first implantable heart pacemaker. His formal surgical residency was at MGH (1957-1965, interrupted by Navy service 1960-1962), followed by 6 months of pediatric surgery training under C. Everett Koop at CHOP. Confidence moderate because the Gross-Folkman relationship was a medical school laboratory mentorship rather than a formal surgical residency, though the intellectual mentorship was pivotal — Folkman returned to lead the same institution Gross had built. The existing Gross→Koop edge was a formal residency, so this is a different type of training relationship.",
     "module": "08_subspecialties"
   },
   {
@@ -884,7 +884,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1016/j.jpedsurg.2008.01.016",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Journal of Pediatric Surgery 2008 | weak_match: matched \"folkman\", \"judah\"; missed becoming, professor, youngest] Folkman was appointed surgeon-in-chief of Children's Hospital Boston in 1967 at age 34, becoming the youngest full professor in Harvard Medical School history the following year (Julia Dyckman Andrus Professor of Pediatric Surgery, 1968). He served as surgeon-in-chief for 14 years until stepping down in 1981 to devote full time to angiogenesis research. The Boston Children's Hospital history page confirms the succession: Ladd (founder) -> Gross -> Folkman. This creates the chain Ladd→Gross→Folkman at Boston Children's, paralleling the Sabiston→Anderson→Duke pattern. Folkman's 1971 NEJM paper proposing that tumor growth is angiogenesis-dependent founded an entirely new field of biology and led to FDA-approved antiangiogenic cancer drugs (bevacizumab/Avastin and others) — one of surgery's most significant contributions to cancer biology. Over 1,000 labs worldwide now pursue angiogenesis research.",
+    "notes": "[Verified 2026-03-17 | Journal of Pediatric Surgery 2008] Folkman was appointed surgeon-in-chief of Children's Hospital Boston in 1967 at age 34, becoming the youngest full professor in Harvard Medical School history the following year (Julia Dyckman Andrus Professor of Pediatric Surgery, 1968). He served as surgeon-in-chief for 14 years until stepping down in 1981 to devote full time to angiogenesis research. The Boston Children's Hospital history page confirms the succession: Ladd (founder) -> Gross -> Folkman. This creates the chain Ladd→Gross→Folkman at Boston Children's, paralleling the Sabiston→Anderson→Duke pattern. Folkman's 1971 NEJM paper proposing that tumor growth is angiogenesis-dependent founded an entirely new field of biology and led to FDA-approved antiangiogenic cancer drugs (bevacizumab/Avastin and others) — one of surgery's most significant contributions to cancer biology. Over 1,000 labs worldwide now pursue angiogenesis research.",
     "module": "08_subspecialties"
   },
   {

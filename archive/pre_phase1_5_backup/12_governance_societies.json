@@ -28,7 +28,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24502913/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2014 | weak_match: matched \"college\", \"surgeons\", \"american\", \"american college of surgeons\"; missed franklin h. martin, congress, founded] Martin founded the ACS as an outgrowth of the Clinical Congress to establish rigorous, standardized requirements for surgical fellowship prior to the creation of specialty boards. Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2014] Martin founded the ACS as an outgrowth of the Clinical Congress to establish rigorous, standardized requirements for surgical fellowship prior to the creation of specialty boards. Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -76,7 +76,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/27549999/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ophthalmology 2016 | content_match] The American Board of Ophthalmology (ABO, originally the American Board for Ophthalmic Examinations) was founded in 1916 by three organizations: the American Ophthalmological Society, the Section on Ophthalmology of the American Medical Association, and the American Academy of Ophthalmology and Otolaryngology. It was the first specialty certifying board in the United States. The AOS is credited here as the primary society_founder because its 1913 Committee on Post-graduate Education initiated the standardization movement. The impetus was that 51% of ophthalmologists inducted into military service in World War I were found unqualified to practice their specialty. Representatives from the three founding organizations oversaw ABO certification programs from 1916 until 1982, when ABO became fully autonomous. This edge documents the prototype for the society-to-board spawning pattern that the graph tracks across surgery (ACS/ASA→ABS 1937), orthopedics (AOA→ABOS 1934), neurosurgery (Cushing Society→ABNS 1940), and urology (AUA→ABU 1935). The ABO predates all of them. End_year of 1982 reflects ABO gaining full organizational autonomy.",
+    "notes": "[Verified 2026-03-17 | Ophthalmology 2016] The American Board of Ophthalmology (ABO, originally the American Board for Ophthalmic Examinations) was founded in 1916 by three organizations: the American Ophthalmological Society, the Section on Ophthalmology of the American Medical Association, and the American Academy of Ophthalmology and Otolaryngology. It was the first specialty certifying board in the United States. The AOS is credited here as the primary society_founder because its 1913 Committee on Post-graduate Education initiated the standardization movement. The impetus was that 51% of ophthalmologists inducted into military service in World War I were found unqualified to practice their specialty. Representatives from the three founding organizations oversaw ABO certification programs from 1916 until 1982, when ABO became fully autonomous. This edge documents the prototype for the society-to-board spawning pattern that the graph tracks across surgery (ACS/ASA→ABS 1937), orthopedics (AOA→ABOS 1934), neurosurgery (Cushing Society→ABNS 1940), and urology (AUA→ABU 1935). The ABO predates all of them. End_year of 1982 reflects ABO gaining full organizational autonomy.",
     "module": "12_governance_societies"
   },
   {
@@ -156,7 +156,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9742911/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1998 | weak_match: matched \"surgical\", \"american\", \"association\", \"american surgical association\"; missed address, institutional, parent] Edward Archibald's 1935 ASA presidential address was spearheaded by Evarts Graham to form the American Board of Surgery within two years, making the ASA a direct institutional parent of the ABS. Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1998] Edward Archibald's 1935 ASA presidential address was spearheaded by Evarts Graham to form the American Board of Surgery within two years, making the ASA a direct institutional parent of the ABS. Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -171,8 +171,8 @@
     "evidence_citation": "PMID: 2446522",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446522/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987 | MISMATCH: 0 of 16 edge tokens found in article] Graham served as the principal architect and first chair of the American Board of Surgery, establishing formal national certification.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987] Graham served as the principal architect and first chair of the American Board of Surgery, establishing formal national certification.",
     "module": "12_governance_societies"
   },
   {
@@ -187,8 +187,8 @@
     "evidence_citation": "PMID: 2446522",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446522/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987 | MISMATCH: 0 of 15 edge tokens found in article] Whipple was a founding member and key proponent of standardizing surgical training requirements through the Board.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987] Whipple was a founding member and key proponent of standardizing surgical training requirements through the Board.",
     "module": "12_governance_societies"
   },
   {
@@ -203,8 +203,8 @@
     "evidence_citation": "PMID: 2446522",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446522/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987 | MISMATCH: 0 of 17 edge tokens found in article] The ACS was the primary institutional catalyst in founding the ABS, formally transferring fellowship credentialing to an independent specialty board.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Anasth Intensivther Notfallmed 1987] The ACS was the primary institutional catalyst in founding the ABS, formally transferring fellowship credentialing to an independent specialty board.",
     "module": "12_governance_societies"
   },
   {
@@ -267,7 +267,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37941365/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Med Biogr 2025 | content_match] Whipple served as ASA president in 1939, connecting the independent Columbia surgical trunk to the oldest American surgical society. He used this platform to advocate for surgical education reform and standardization of operative techniques.",
+    "notes": "[Verified 2026-03-17 | J Med Biogr 2025] Whipple served as ASA president in 1939, connecting the independent Columbia surgical trunk to the oldest American surgical society. He used this platform to advocate for surgical education reform and standardization of operative techniques.",
     "module": "12_governance_societies"
   },
   {
@@ -283,7 +283,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/21820677/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2011 | content_match] Graham served as President of the ACS, tightly coupling the pioneering thoracic surgery nodes in St. Louis with the primary national governance trunk.",
+    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2011] Graham served as President of the ACS, tightly coupling the pioneering thoracic surgery nodes in St. Louis with the primary national governance trunk.",
     "module": "12_governance_societies"
   },
   {
@@ -299,7 +299,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32193716/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2020 | content_match] Five Memorial Hospital surgeons led by William MacComb founded the James Ewing Society as the hospital's surgical alumni organization, establishing the institutional root of organized surgical oncology.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2020] Five Memorial Hospital surgeons led by William MacComb founded the James Ewing Society as the hospital's surgical alumni organization, establishing the institutional root of organized surgical oncology.",
     "module": "12_governance_societies"
   },
   {
@@ -331,7 +331,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9742911/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1998 | content_match] Coller served as ASA president in 1943, joining the graph's existing ASA governance network (Whipple 1939, Wangensteen 1968, Sabiston, Bahnson, Najarian, Cameron). He also served as ACS president in 1949 and as the first Chairman of the RRC for Surgery in 1954, establishing the formal accreditation structure for surgical residency programs. Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1998] Coller served as ASA president in 1943, joining the graph's existing ASA governance network (Whipple 1939, Wangensteen 1968, Sabiston, Bahnson, Najarian, Cameron). He also served as ACS president in 1949 and as the first Chairman of the RRC for Surgery in 1954, establishing the formal accreditation structure for surgical residency programs. Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -378,8 +378,8 @@
     "evidence_citation": "PMID: 24753609",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24753609/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2014 | MISMATCH: 0 of 22 edge tokens found in article] Fisher was a Fellow of the ACS and recipient of its Jacobson Innovation Award, embedding the NSABP clinical trials framework within the broader surgical governance structure.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2014] Fisher was a Fellow of the ACS and recipient of its Jacobson Innovation Award, embedding the NSABP clinical trials framework within the broader surgical governance structure.",
     "module": "12_governance_societies"
   },
   {
@@ -411,7 +411,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2018 | weak_match: matched \"surgery\", \"resident\"; missed received, 1928-2020, trained] George D. Zuidema (1928-2020) received his MD from Johns Hopkins in 1953, trained at Massachusetts General Hospital (chief resident 1959), then joined the University of Michigan faculty. In 1964, at age 36, he was appointed surgeon-in-chief of Johns Hopkins Hospital and professor/director of surgery, succeeding Alfred Blalock. He held the Warfield M. Firor Professorship. His appointment initially caused controversy among Blalock's proteges, but he transformed the department by establishing separate departments for neurosurgery, orthopaedics, otolaryngology, urology, and general surgery with subspecialty divisions. He recruited Donlin Long (neurosurgery), Patrick Walsh (urology), and Bruce Reitz (cardiac surgery). John L. Cameron succeeded him in 1984. Zuidema then returned to the University of Michigan as vice provost for medical affairs (1984-1994). Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2018] George D. Zuidema (1928-2020) received his MD from Johns Hopkins in 1953, trained at Massachusetts General Hospital (chief resident 1959), then joined the University of Michigan faculty. In 1964, at age 36, he was appointed surgeon-in-chief of Johns Hopkins Hospital and professor/director of surgery, succeeding Alfred Blalock. He held the Warfield M. Firor Professorship. His appointment initially caused controversy among Blalock's proteges, but he transformed the department by establishing separate departments for neurosurgery, orthopaedics, otolaryngology, urology, and general surgery with subspecialty divisions. He recruited Donlin Long (neurosurgery), Patrick Walsh (urology), and Bruce Reitz (cardiac surgery). John L. Cameron succeeded him in 1984. Zuidema then returned to the University of Michigan as vice provost for medical affairs (1984-1994). Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -427,7 +427,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28918957/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Surg Res 2017 | content_match] The Association for Academic Surgery was founded in 1966 with 33 members. Zuidema was the founding member and first president (1968). The AAS mission was to offer young academic surgeons an inclusive forum for discussion about surgical research and professional growth, with active membership lasting 12 years after first academic appointment. Now over 4,000 members. The AAS represents the second wave of academic pipeline societies: the SUS (1938) required Halstedian-tradition training and faculty appointment for surgeons under 45; the AAS (1966) broadened access further to all young surgical academics. Together they form the academic pipeline: AAS (junior) → SUS (mid-career) → ASA/ACS (senior). Zuidema founded AAS while simultaneously serving as Hopkins surgeon-in-chief, making this society a product of the Hopkins institutional culture.",
+    "notes": "[Verified 2026-03-17 | J Surg Res 2017] The Association for Academic Surgery was founded in 1966 with 33 members. Zuidema was the founding member and first president (1968). The AAS mission was to offer young academic surgeons an inclusive forum for discussion about surgical research and professional growth, with active membership lasting 12 years after first academic appointment. Now over 4,000 members. The AAS represents the second wave of academic pipeline societies: the SUS (1938) required Halstedian-tradition training and faculty appointment for surgeons under 45; the AAS (1966) broadened access further to all young surgical academics. Together they form the academic pipeline: AAS (junior) → SUS (mid-career) → ASA/ACS (senior). Zuidema founded AAS while simultaneously serving as Hopkins surgeon-in-chief, making this society a product of the Hopkins institutional culture.",
     "module": "12_governance_societies"
   },
   {
@@ -443,7 +443,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1097/00000658-196909010-00001",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Annals of Surgery 1969 | content_match] Wangensteen served as ASA president, his presidential address 'We Cannot Escape History' directly catalyzed the SOSSUS study of surgical education.",
+    "notes": "[Verified 2026-03-17 | Annals of Surgery 1969] Wangensteen served as ASA president, his presidential address 'We Cannot Escape History' directly catalyzed the SOSSUS study of surgical education.",
     "module": "12_governance_societies"
   },
   {
@@ -458,8 +458,8 @@
     "evidence_citation": "PMID: 18693427",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18693427/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008 | MISMATCH: 0 of 17 edge tokens found in article] DeBakey served as ACS president, connecting the Tulane/Baylor cardiovascular lineage to the primary national surgical governance body.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008] DeBakey served as ACS president, connecting the Tulane/Baylor cardiovascular lineage to the primary national surgical governance body.",
     "module": "12_governance_societies"
   },
   {
@@ -475,7 +475,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32193716/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2020 | content_match] The James Ewing Society was renamed and reorganized as the Society of Surgical Oncology in 1975, expanding from a Memorial Hospital alumni group to represent all surgical oncologists nationally.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2020] The James Ewing Society was renamed and reorganized as the Society of Surgical Oncology in 1975, expanding from a Memorial Hospital alumni group to represent all surgical oncologists nationally.",
     "module": "12_governance_societies"
   },
   {
@@ -490,8 +490,8 @@
     "evidence_citation": "PMID: 34462877",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34462877/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Cogn Affect Behav Neurosci 2021 | MISMATCH: 0 of 19 edge tokens found in article] Jonasson was the first woman to serve on the ACS Board of Regents (1976), the first woman chief of surgery at a major hospital (Cook County, 1977), and the first woman to chair an academic surgery department at a coeducational medical school (Ohio State, 1987, as Robert M. Zollinger Professor). She trained under Warren Cole at University of Illinois College of Medicine with a transplantation fellowship under Paul Russell at MGH. She performed the first kidney transplant in Illinois (1969) and later served on the American Board of Surgery and ACGME. Her 1993 ACS lecture 'Recapturing the Joy of Surgery' presciently identified surgeon burnout as an epidemic.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Cogn Affect Behav Neurosci 2021] Jonasson was the first woman to serve on the ACS Board of Regents (1976), the first woman chief of surgery at a major hospital (Cook County, 1977), and the first woman to chair an academic surgery department at a coeducational medical school (Ohio State, 1987, as Robert M. Zollinger Professor). She trained under Warren Cole at University of Illinois College of Medicine with a transplantation fellowship under Paul Russell at MGH. She performed the first kidney transplant in Illinois (1969) and later served on the American Board of Surgery and ACGME. Her 1993 ACS lecture 'Recapturing the Joy of Surgery' presciently identified surgeon burnout as an epidemic.",
     "module": "12_governance_societies"
   },
   {
@@ -507,7 +507,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1097/00000658-197809000-00001",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Annals of Surgery 1978 | content_match] Sabiston served as ASA president; his presidential address honored Alfred Blalock, directly linking the Halsted-Blalock lineage to the oldest surgical society in the US.",
+    "notes": "[Verified 2026-03-17 | Annals of Surgery 1978] Sabiston served as ASA president; his presidential address honored Alfred Blalock, directly linking the Halsted-Blalock lineage to the oldest surgical society in the US.",
     "module": "12_governance_societies"
   },
   {
@@ -522,8 +522,8 @@
     "evidence_citation": "PMID: 17416546",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17416546/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Trends Plant Sci 2007 | MISMATCH: 0 of 17 edge tokens found in article] Jonasson served as a director on the American Board of Surgery and as a representative to the American Board of Medical Specialties, among the first women to hold these positions. She also served on the ACGME and the Residency Review Committee for Surgery. She was the 37th woman certified by the ABS (1965).",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Trends Plant Sci 2007] Jonasson served as a director on the American Board of Surgery and as a representative to the American Board of Medical Specialties, among the first women to hold these positions. She also served on the ACGME and the Residency Review Committee for Surgery. She was the 37th woman certified by the ABS (1965).",
     "module": "12_governance_societies"
   },
   {
@@ -587,7 +587,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2018 | content_match] Cameron served as Chairman of Surgery at Hopkins for 19 years, performing more Whipple resections than any surgeon in history and serving as president of 14 surgical societies including the ACS.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2018] Cameron served as Chairman of Surgery at Hopkins for 19 years, performing more Whipple resections than any surgeon in history and serving as president of 14 surgical societies including the ACS.",
     "module": "12_governance_societies"
   },
   {
@@ -603,7 +603,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/356789/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1978 | weak_match: matched \"sabiston\", \"president\"; missed blalock/hopkins, surgical, college] Sabiston served as president of the ACS, reinforcing the governance connection between the Blalock/Hopkins surgical lineage and the primary national credentialing body. Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1978] Sabiston served as president of the ACS, reinforcing the governance connection between the Blalock/Hopkins surgical lineage and the primary national credentialing body. Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -619,7 +619,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3421751/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1988 | weak_match: matched \"surgical\", \"bahnson\"; missed association, governance, henry bahnson] Bahnson served as ASA president, extending the Blalock/Hopkins/Pittsburgh lineage into ASA governance.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1988] Bahnson served as ASA president, extending the Blalock/Hopkins/Pittsburgh lineage into ASA governance.",
     "module": "12_governance_societies"
   },
   {
@@ -635,7 +635,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2774706/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 1989 | weak_match: matched \"najarian\"; missed association, president, american surgical association] Najarian served as ASA president, connecting the Wangensteen/Minnesota transplant lineage to the oldest US surgical society.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1989] Najarian served as ASA president, connecting the Wangensteen/Minnesota transplant lineage to the oldest US surgical society.",
     "module": "12_governance_societies"
   },
   {
@@ -715,7 +715,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2018 | content_match] Cameron served as ASA president, directly extending the Halsted-Blalock-Hopkins lineage into 21st-century ASA governance. Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2018] Cameron served as ASA president, directly extending the Halsted-Blalock-Hopkins lineage into 21st-century ASA governance. Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -731,7 +731,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12192325/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2002 | weak_match: matched \"published\"; missed address, surgical, haile t. debas] Debas HT. 'Surgery: A Noble Profession in a Changing World.' Ann Surg. 2002 Sep;236(3):263-269. PMC1422579. Published ASA presidential address for the 2001-2002 term. Debas discusses surgery as a profession, declining interest among medical students, and the growing importance of global health. This edge connects Debas to the ASA governance hub — the same high-degree node where Wangensteen, Sabiston, Bahnson, Najarian, and Cameron already have governance edges. Debas was also ACS president (Northern California chapter) and ASA president, creating a West Coast→ASA governance bridge paralleling the existing East Coast dominance.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2002] Debas HT. 'Surgery: A Noble Profession in a Changing World.' Ann Surg. 2002 Sep;236(3):263-269. PMC1422579. Published ASA presidential address for the 2001-2002 term. Debas discusses surgery as a profession, declining interest among medical students, and the growing importance of global health. This edge connects Debas to the ASA governance hub — the same high-degree node where Wangensteen, Sabiston, Bahnson, Najarian, and Cameron already have governance edges. Debas was also ACS president (Northern California chapter) and ASA president, creating a West Coast→ASA governance bridge paralleling the existing East Coast dominance.",
     "module": "12_governance_societies"
   },
   {
@@ -762,7 +762,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2018 | content_match] Cameron served as ACS president, directly extending the Halsted → Blalock → Hopkins surgical lineage into 21st-century governance. Citation upgraded to PMID in V4.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2018] Cameron served as ACS president, directly extending the Halsted → Blalock → Hopkins surgical lineage into 21st-century governance. Citation upgraded to PMID in V4.",
     "module": "12_governance_societies"
   },
   {
@@ -777,8 +777,8 @@
     "evidence_citation": "PMID: 31003229",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31003229/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Am J Phys Med Rehabil 2019 | MISMATCH: 0 of 16 edge tokens found in article] Ponsky JL. 'Jeffrey L. Ponsky, MD, FACS.' VideoGIE. 2019 May;4(5):189-191. PMC6494182. Documents Ponsky as 'Director and Chairman of the American Board of Surgery.' He also served as SAGES president (already in graph as society_founder) and Vice President of the American Surgical Association. Ponsky trained at Case Western Reserve (medical school 1971, residency at University Hospitals Cleveland 1971-1976) and invented PEG (percutaneous endoscopic gastrostomy) in 1979 with Michael Gauderer. This edge is the single most important structural bridge between the MIS module and the graph backbone. ABS connects to ABMS (programmatic_accreditation, already in graph) and through it to the entire accreditation apparatus. Ponsky's ABS chairmanship means the co-inventor of PEG and co-founder of SAGES reached the top of the certification hierarchy for all general surgery. Ponsky goes from degree 1 to degree 2.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Am J Phys Med Rehabil 2019] Ponsky JL. 'Jeffrey L. Ponsky, MD, FACS.' VideoGIE. 2019 May;4(5):189-191. PMC6494182. Documents Ponsky as 'Director and Chairman of the American Board of Surgery.' He also served as SAGES president (already in graph as society_founder) and Vice President of the American Surgical Association. Ponsky trained at Case Western Reserve (medical school 1971, residency at University Hospitals Cleveland 1971-1976) and invented PEG (percutaneous endoscopic gastrostomy) in 1979 with Michael Gauderer. This edge is the single most important structural bridge between the MIS module and the graph backbone. ABS connects to ABMS (programmatic_accreditation, already in graph) and through it to the entire accreditation apparatus. Ponsky's ABS chairmanship means the co-inventor of PEG and co-founder of SAGES reached the top of the certification hierarchy for all general surgery. Ponsky goes from degree 1 to degree 2.",
     "module": "12_governance_societies"
   },
   {
@@ -857,7 +857,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12946817/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am J Surg 2003 | content_match] Zollinger was president of the American Surgical Association in 1965, one of three major surgical governance roles he held (also ACS president 1961-62 and ABS chairman 1963). He is one of the rare triple-crown holders in American surgery. ACS presidency edge is a candidate for future addition. Citation is Lewis L, Van Brimmer B, 'A biography of Robert Milton Zollinger, M.D.,' Am J Surg 2003;186(3):205-7.",
+    "notes": "[Verified 2026-03-17 | Am J Surg 2003] Zollinger was president of the American Surgical Association in 1965, one of three major surgical governance roles he held (also ACS president 1961-62 and ABS chairman 1963). He is one of the rare triple-crown holders in American surgery. ACS presidency edge is a candidate for future addition. Citation is Lewis L, Van Brimmer B, 'A biography of Robert Milton Zollinger, M.D.,' Am J Surg 2003;186(3):205-7.",
     "module": "12_governance_societies"
   },
   {
@@ -889,7 +889,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32106907/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am Surg 2020 | content_match] Ravitch served as president of the American Surgical Association in 1983-1984. He was also the official historian of the ASA and authored its definitive two-volume history, 'A Century of Surgery 1880-1980' (Lippincott, 1981). This makes him both a governance leader and the scholarly chronicler of the organization. Citation same as training edge.",
+    "notes": "[Verified 2026-03-17 | Am Surg 2020] Ravitch served as president of the American Surgical Association in 1983-1984. He was also the official historian of the ASA and authored its definitive two-volume history, 'A Century of Surgery 1880-1980' (Lippincott, 1981). This makes him both a governance leader and the scholarly chronicler of the organization. Citation same as training edge.",
     "module": "12_governance_societies"
   },
   {

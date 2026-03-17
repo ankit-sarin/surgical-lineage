@@ -1,0 +1,1459 @@
+{
+  "run_date": "2026-03-17",
+  "edges_checked": 208,
+  "content_match": 97,
+  "weak_match": 51,
+  "mismatch": 60,
+  "skipped_failed": 3,
+  "skipped_already_stamped": 0,
+  "skipped_no_corpus": 0,
+  "weak_matches": [
+    {
+      "pmid": "2446524",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> Hugh Hampton Young",
+      "score": 0.059,
+      "matched_tokens": [
+        "under"
+      ],
+      "missed_tokens": [
+        "william stewart halsted",
+        "william",
+        "genitourinary"
+      ],
+      "article_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate."
+    },
+    {
+      "pmid": "10871146",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> John Homans",
+      "score": 0.095,
+      "matched_tokens": [
+        "before",
+        "under"
+      ],
+      "missed_tokens": [
+        "william stewart halsted",
+        "surgical",
+        "influenced"
+      ],
+      "article_title": "Effects of ultrasound and stretch on knee ligament extensibility."
+    },
+    {
+      "pmid": "15523385",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Edward P. Richardson -> Edward Churchill",
+      "score": 0.19,
+      "matched_tokens": [
+        "surgical",
+        "churchill",
+        "residency",
+        "edward"
+      ],
+      "missed_tokens": [
+        "richard",
+        "1895-1972",
+        "internship"
+      ],
+      "article_title": "Edward D. Churchill and the \"rectangular\" surgical residency."
+    },
+    {
+      "pmid": "16632995",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Allen O. Whipple -> Charles R. Drew",
+      "score": 0.19,
+      "matched_tokens": [
+        "drew",
+        "train",
+        "fellowship",
+        "charles"
+      ],
+      "missed_tokens": [
+        "received",
+        "richard",
+        "allen"
+      ],
+      "article_title": "The Southern Surgical Association History of Medicine Scholarship presentation: Dr. Charles Drew, a surgical pioneer."
+    },
+    {
+      "pmid": "16632995",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Charles R. Drew -> Howard University Department of Surgery",
+      "score": 0.158,
+      "matched_tokens": [
+        "drew",
+        "medicine",
+        "charles"
+      ],
+      "missed_tokens": [
+        "college",
+        "chairman",
+        "facility"
+      ],
+      "article_title": "The Southern Surgical Association History of Medicine Scholarship presentation: Dr. Charles Drew, a surgical pioneer."
+    },
+    {
+      "pmid": "11153604",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Johns Hopkins Hospital Department of Surgery -> Peter Safar",
+      "score": 0.167,
+      "matched_tokens": [
+        "clinical",
+        "hospital",
+        "surgery"
+      ],
+      "missed_tokens": [
+        "peter safar",
+        "peter",
+        "halstedian"
+      ],
+      "article_title": "Lung cancer in young females."
+    },
+    {
+      "pmid": "11845877",
+      "module": "02_general_surgery_spread.json",
+      "edge": "C. Walton Lillehei -> Christiaan Barnard",
+      "score": 0.067,
+      "matched_tokens": [
+        "before"
+      ],
+      "missed_tokens": [
+        "cardiothoracic",
+        "c. walton lillehei",
+        "trained"
+      ],
+      "article_title": "Myocardial protection by PJ34, a novel potent poly (ADP-ribose) synthetase inhibitor."
+    },
+    {
+      "pmid": "2774706",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Owen Wangensteen -> John Najarian",
+      "score": 0.059,
+      "matched_tokens": [
+        "najarian"
+      ],
+      "missed_tokens": [
+        "owen wangensteen",
+        "succeeded",
+        "university"
+      ],
+      "article_title": "The skill, science, and soul of the surgeon."
+    },
+    {
+      "pmid": "17473177",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Warren Cole -> Olga Jonasson",
+      "score": 0.059,
+      "matched_tokens": [
+        "under"
+      ],
+      "missed_tokens": [
+        "mentor",
+        "cole",
+        "pmc1856623"
+      ],
+      "article_title": "Transmitted Resistance: An Overview and Its Potential Relevance to the Management of HIV-Infected Persons in Resource-Limited Settings."
+    },
+    {
+      "pmid": "19099052",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Julie Ann Freischlag -> Johns Hopkins Hospital Department of Surgery",
+      "score": 0.053,
+      "matched_tokens": [
+        "freischlag"
+      ],
+      "missed_tokens": [
+        "julie",
+        "halsted",
+        "director"
+      ],
+      "article_title": "Women surgeons--still in a male-dominated world."
+    },
+    {
+      "pmid": "14703738",
+      "module": "02_general_surgery_spread.json",
+      "edge": "David Sabiston -> Walter G. Wolfe",
+      "score": 0.05,
+      "matched_tokens": [
+        "sabiston"
+      ],
+      "missed_tokens": [
+        "1937-2020",
+        "received",
+        "becoming"
+      ],
+      "article_title": "The Sabiston heritage: excellence in surgical education."
+    },
+    {
+      "pmid": "39257568",
+      "module": "02_general_surgery_spread.json",
+      "edge": "David Sabiston -> R. Randal Bollinger",
+      "score": 0.167,
+      "matched_tokens": [
+        "r. randal bollinger",
+        "bollinger",
+        "randal"
+      ],
+      "missed_tokens": [
+        "david",
+        "received",
+        "immunology"
+      ],
+      "article_title": "R. Randal Bollinger, M.D., Ph.D., Master Surgeon."
+    },
+    {
+      "pmid": "25135240",
+      "module": "02_general_surgery_spread.json",
+      "edge": "David Sabiston -> Robert W. Anderson",
+      "score": 0.167,
+      "matched_tokens": [
+        "david",
+        "sabiston",
+        "surgery"
+      ],
+      "missed_tokens": [
+        "cardiothoracic",
+        "1994-2003",
+        "resident"
+      ],
+      "article_title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009)."
+    },
+    {
+      "pmid": "14703738",
+      "module": "02_general_surgery_spread.json",
+      "edge": "David Sabiston -> W. Randolph Chitwood Jr.",
+      "score": 0.105,
+      "matched_tokens": [
+        "sabiston",
+        "chitwood"
+      ],
+      "missed_tokens": [
+        "trained",
+        "subsequently",
+        "chairman"
+      ],
+      "article_title": "The Sabiston heritage: excellence in surgical education."
+    },
+    {
+      "pmid": "25135240",
+      "module": "02_general_surgery_spread.json",
+      "edge": "David Sabiston -> James L. Cox",
+      "score": 0.15,
+      "matched_tokens": [
+        "sabiston",
+        "surgery",
+        "david"
+      ],
+      "missed_tokens": [
+        "trained",
+        "professor",
+        "rising"
+      ],
+      "article_title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009)."
+    },
+    {
+      "pmid": "25135240",
+      "module": "02_general_surgery_spread.json",
+      "edge": "David Sabiston -> Thomas L. Spray",
+      "score": 0.143,
+      "matched_tokens": [
+        "sabiston",
+        "surgery",
+        "david"
+      ],
+      "missed_tokens": [
+        "trained",
+        "alongside",
+        "internship"
+      ],
+      "article_title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009)."
+    },
+    {
+      "pmid": "12717368",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Owen Wangensteen -> Richard L. Varco",
+      "score": 0.167,
+      "matched_tokens": [
+        "richard",
+        "varco",
+        "richard l. varco"
+      ],
+      "missed_tokens": [
+        "owen wangensteen",
+        "earned",
+        "university"
+      ],
+      "article_title": "Richard L. Varco, MD, PhD: the compleat academic surgeon."
+    },
+    {
+      "pmid": "14606488",
+      "module": "02_general_surgery_spread.json",
+      "edge": "I.S. Ravdin -> Jonathan E. Rhoads",
+      "score": 0.158,
+      "matched_tokens": [
+        "rhoads",
+        "jonathan",
+        "jonathan e. rhoads"
+      ],
+      "missed_tokens": [
+        "surgical",
+        "i.s. ravdin",
+        "eliason"
+      ],
+      "article_title": "Introduction to the symposium in honor of Jonathan E. Rhoads."
+    },
+    {
+      "pmid": "14606488",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Jonathan E. Rhoads -> University of Pennsylvania Department of Surgery",
+      "score": 0.143,
+      "matched_tokens": [
+        "rhoads",
+        "jonathan",
+        "jonathan e. rhoads"
+      ],
+      "missed_tokens": [
+        "university of pennsylvania department of surgery",
+        "succeeded",
+        "chairman"
+      ],
+      "article_title": "Introduction to the symposium in honor of Jonathan E. Rhoads."
+    },
+    {
+      "pmid": "31944281",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Peter Bent Brigham Hospital Department of Surgery -> Murray F. Brennan",
+      "score": 0.136,
+      "matched_tokens": [
+        "research",
+        "brennan",
+        "murray"
+      ],
+      "missed_tokens": [
+        "peter",
+        "received",
+        "fellow"
+      ],
+      "article_title": "First person profile: Sir Murray Brennan, MD: A legendary surgical oncologist, Dr. Brennan's research on soft tissue sarcomas and his willingness to mentor others have left a mark on the field."
+    },
+    {
+      "pmid": "32106907",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Alfred Blalock -> Mark M. Ravitch",
+      "score": 0.182,
+      "matched_tokens": [
+        "surgical",
+        "mark m. ravitch",
+        "mark",
+        "ravitch"
+      ],
+      "missed_tokens": [
+        "finishing",
+        "earned",
+        "training"
+      ],
+      "article_title": "Mark M. Ravitch: A Staple in Surgical History and Innovation."
+    },
+    {
+      "pmid": "37746597",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Alfred Blalock -> H. William Scott Jr.",
+      "score": 0.091,
+      "matched_tokens": [
+        "scott",
+        "william"
+      ],
+      "missed_tokens": [
+        "peter",
+        "surgical",
+        "fello"
+      ],
+      "article_title": "Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD, A Surgeon Nonpareil."
+    },
+    {
+      "pmid": "37746597",
+      "module": "02_general_surgery_spread.json",
+      "edge": "H. William Scott Jr. -> Vanderbilt University Department of Surgery",
+      "score": 0.105,
+      "matched_tokens": [
+        "scott",
+        "william"
+      ],
+      "missed_tokens": [
+        "succeeded",
+        "surgical",
+        "h. william scott jr."
+      ],
+      "article_title": "Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD, A Surgeon Nonpareil."
+    },
+    {
+      "doi": "10.1007/s10029-009-0522-1",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Henry Harkins -> Lloyd M. Nyhus",
+      "score": 0.15,
+      "matched_tokens": [
+        "nyhus",
+        "lloyd",
+        "milton"
+      ],
+      "missed_tokens": [
+        "mentor",
+        "surgical",
+        "alabama"
+      ],
+      "article_title": "Lloyd Milton Nyhus, MD"
+    },
+    {
+      "doi": "10.1007/s10029-009-0522-1",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Lloyd M. Nyhus -> University of Illinois College of Medicine Department of Surgery",
+      "score": 0.1,
+      "matched_tokens": [
+        "nyhus",
+        "lloyd"
+      ],
+      "missed_tokens": [
+        "exists",
+        "college",
+        "illinois"
+      ],
+      "article_title": "Lloyd Milton Nyhus, MD"
+    },
+    {
+      "pmid": "15007469",
+      "module": "03_neurosurgery.json",
+      "edge": "Harvey Cushing -> Walter Dandy",
+      "score": 0.077,
+      "matched_tokens": [
+        "before"
+      ],
+      "missed_tokens": [
+        "harvey cushing",
+        "dandy",
+        "hunterian"
+      ],
+      "article_title": "[Preliminary experience of 16-layer three-dimensional computed tomography in diagnosis and treatment of arteriovenous malformations]."
+    },
+    {
+      "pmid": "16730164",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Owen Wangensteen -> Norman Shumway",
+      "score": 0.077,
+      "matched_tokens": [
+        "establishing"
+      ],
+      "missed_tokens": [
+        "owen wangensteen",
+        "norman",
+        "cardiac"
+      ],
+      "article_title": "Therapeutic options: Addressing the current dilemma."
+    },
+    {
+      "pmid": "25442801",
+      "module": "05_urology.json",
+      "edge": "Hugh Hampton Young -> Brady Urological Institute",
+      "score": 0.059,
+      "matched_tokens": [
+        "young"
+      ],
+      "missed_tokens": [
+        "first",
+        "dedicated",
+        "founded"
+      ],
+      "article_title": "CT density distribution analysis in patients with cystic fibrosis: correlation with pulmonary function and radiologic scores."
+    },
+    {
+      "pmid": "17437775",
+      "module": "05_urology.json",
+      "edge": "Patrick Walsh -> Brady Urological Institute",
+      "score": 0.158,
+      "matched_tokens": [
+        "walsh",
+        "patrick",
+        "prostate"
+      ],
+      "missed_tokens": [
+        "reserve",
+        "chairman",
+        "brady urological institute"
+      ],
+      "article_title": "The discovery of the cavernous nerves and development of nerve sparing radical retropubic prostatectomy."
+    },
+    {
+      "pmid": "2504092",
+      "module": "06_orthopedics.json",
+      "edge": "James Knight -> Hospital for the Ruptured and Crippled",
+      "score": 0.143,
+      "matched_tokens": [
+        "the",
+        "and",
+        "for"
+      ],
+      "missed_tokens": [
+        "parallel",
+        "founded",
+        "trunk"
+      ],
+      "article_title": "Long-term mechanical ventilation in pediatric respiratory failure: medical and ethical considerations."
+    },
+    {
+      "pmid": "3524368",
+      "module": "07_oncology_trials.json",
+      "edge": "Mayo Clinic Department of Surgery -> R. Lee Clark",
+      "score": 0.067,
+      "matched_tokens": [
+        "lee"
+      ],
+      "missed_tokens": [
+        "mayo clinic department of surgery",
+        "clark",
+        "surgical"
+      ],
+      "article_title": "Differential structure and distribution of the high molecular weight brain microtubule-associated proteins, MAP-1 and MAP-2."
+    },
+    {
+      "pmid": "31944281",
+      "module": "07_oncology_trials.json",
+      "edge": "Murray F. Brennan -> Memorial Sloan Kettering Cancer Center",
+      "score": 0.15,
+      "matched_tokens": [
+        "surgical",
+        "brennan",
+        "murray"
+      ],
+      "missed_tokens": [
+        "preeminent",
+        "chairman",
+        "center"
+      ],
+      "article_title": "First person profile: Sir Murray Brennan, MD: A legendary surgical oncologist, Dr. Brennan's research on soft tissue sarcomas and his willingness to mentor others have left a mark on the field."
+    },
+    {
+      "pmid": "10493481",
+      "module": "08_subspecialties.json",
+      "edge": "William E. Ladd -> Robert E. Gross",
+      "score": 0.077,
+      "matched_tokens": [
+        "served"
+      ],
+      "missed_tokens": [
+        "succeeded",
+        "robert e. gross",
+        "william e. ladd"
+      ],
+      "article_title": "Detrimental effects of standard medical therapy in congenital diaphragmatic hernia."
+    },
+    {
+      "pmid": "35001182",
+      "module": "08_subspecialties.json",
+      "edge": "C. Everett Koop -> Children's Hospital of Philadelphia Department of Pediatric Surgery",
+      "score": 0.059,
+      "matched_tokens": [
+        "surgery"
+      ],
+      "missed_tokens": [
+        "program",
+        "founded",
+        "everett"
+      ],
+      "article_title": "Lateral chest wall perforator flaps in partial breast reconstruction."
+    },
+    {
+      "doi": "10.1007/BF02553389",
+      "module": "08_subspecialties.json",
+      "edge": "Rupert B. Turnbull -> Cleveland Clinic Department of Colorectal Surgery",
+      "score": 0.125,
+      "matched_tokens": [
+        "beach",
+        "turnbull",
+        "1913-1981"
+      ],
+      "missed_tokens": [
+        "colonic",
+        "inherited",
+        "patients"
+      ],
+      "article_title": "Ruppert Beach Turnbull, Jr. 1913-1981"
+    },
+    {
+      "pmid": "35731977",
+      "module": "08_subspecialties.json",
+      "edge": "Rupert B. Turnbull -> Victor W. Fazio",
+      "score": 0.143,
+      "matched_tokens": [
+        "victor",
+        "surgery",
+        "fazio"
+      ],
+      "missed_tokens": [
+        "rupert b. turnbull",
+        "rectal",
+        "clinic"
+      ],
+      "article_title": "Legacy of Dr. Victor Fazio, Master of Pouch Surgery."
+    },
+    {
+      "pmid": "35731977",
+      "module": "08_subspecialties.json",
+      "edge": "Victor W. Fazio -> Cleveland Clinic Department of Colorectal Surgery",
+      "score": 0.167,
+      "matched_tokens": [
+        "fazio",
+        "victor",
+        "surgery"
+      ],
+      "missed_tokens": [
+        "youngest",
+        "succeeded",
+        "years"
+      ],
+      "article_title": "Legacy of Dr. Victor Fazio, Master of Pouch Surgery."
+    },
+    {
+      "pmid": "31659590",
+      "module": "08_subspecialties.json",
+      "edge": "Edward Mason -> American Society for Bariatric Surgery",
+      "score": 0.053,
+      "matched_tokens": [
+        "for"
+      ],
+      "missed_tokens": [
+        "field",
+        "rapidly",
+        "society"
+      ],
+      "article_title": "Human Serum Albumin, a Suitable Candidate to Stabilize Freeze-Dried IgG in Combination with Trehalose: Central Composite Design."
+    },
+    {
+      "doi": "10.1007/bf02586849",
+      "module": "08_subspecialties.json",
+      "edge": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum -> American Society of Colon and Rectal Surgeons",
+      "score": 0.067,
+      "matched_tokens": [
+        "mark's",
+        "hospital"
+      ],
+      "missed_tokens": [
+        "tripartite",
+        "st. mark's hospital for fistula and other diseases of the rectum",
+        "rectal"
+      ],
+      "article_title": "St. Mark's Hospital surgical training program"
+    },
+    {
+      "doi": "10.1016/j.jpedsurg.2008.01.016",
+      "module": "08_subspecialties.json",
+      "edge": "Robert E. Gross -> Judah Folkman",
+      "score": 0.143,
+      "matched_tokens": [
+        "folkman",
+        "1933-2008",
+        "judah"
+      ],
+      "missed_tokens": [
+        "surgical",
+        "moses",
+        "1953-1957"
+      ],
+      "article_title": "Judah M. Folkman, MD, 1933-2008"
+    },
+    {
+      "doi": "10.1016/j.jpedsurg.2008.01.016",
+      "module": "08_subspecialties.json",
+      "edge": "Judah Folkman -> Boston Children's Hospital Department of Surgery",
+      "score": 0.091,
+      "matched_tokens": [
+        "folkman",
+        "judah"
+      ],
+      "missed_tokens": [
+        "becoming",
+        "professor",
+        "youngest"
+      ],
+      "article_title": "Judah M. Folkman, MD, 1933-2008"
+    },
+    {
+      "pmid": "11153604",
+      "module": "09_trauma_acute_infection.json",
+      "edge": "Peter Safar -> Baltimore City Hospital Intensive Care Unit",
+      "score": 0.05,
+      "matched_tokens": [
+        "hospital"
+      ],
+      "missed_tokens": [
+        "peter",
+        "established",
+        "science"
+      ],
+      "article_title": "Lung cancer in young females."
+    },
+    {
+      "pmid": "9122554",
+      "module": "10_quality_outcomes.json",
+      "edge": "Henrik Kehlet -> ERAS Study Group",
+      "score": 0.111,
+      "matched_tokens": [
+        "based",
+        "group"
+      ],
+      "missed_tokens": [
+        "study",
+        "traditional",
+        "founded"
+      ],
+      "article_title": "First-night-effects on generalized anxiety disorder (GAD)-based insomnia: laboratory versus home sleep recordings."
+    },
+    {
+      "pmid": "24002773",
+      "module": "11_mis_robotic.json",
+      "edge": "George Berci -> Society of American Gastrointestinal and Endoscopic Surgeons",
+      "score": 0.05,
+      "matched_tokens": [
+        "and"
+      ],
+      "missed_tokens": [
+        "endoscopic",
+        "george berci",
+        "sages"
+      ],
+      "article_title": "Clinical significance of incidental pulmonary nodules in esophageal cancer patients."
+    },
+    {
+      "pmid": "24502913",
+      "module": "12_governance_societies.json",
+      "edge": "Franklin H. Martin -> American College of Surgeons",
+      "score": 0.174,
+      "matched_tokens": [
+        "college",
+        "surgeons",
+        "american",
+        "american college of surgeons"
+      ],
+      "missed_tokens": [
+        "franklin h. martin",
+        "congress",
+        "founded"
+      ],
+      "article_title": "The American College of Surgeons publications: a brief history."
+    },
+    {
+      "pmid": "9742911",
+      "module": "12_governance_societies.json",
+      "edge": "American Surgical Association -> American Board of Surgery",
+      "score": 0.19,
+      "matched_tokens": [
+        "surgical",
+        "american",
+        "association",
+        "american surgical association"
+      ],
+      "missed_tokens": [
+        "address",
+        "institutional",
+        "parent"
+      ],
+      "article_title": "The American Surgical Association: past, present, and future."
+    },
+    {
+      "pmid": "29189382",
+      "module": "12_governance_societies.json",
+      "edge": "George Zuidema -> Johns Hopkins Hospital Department of Surgery",
+      "score": 0.1,
+      "matched_tokens": [
+        "surgery",
+        "resident"
+      ],
+      "missed_tokens": [
+        "received",
+        "1928-2020",
+        "trained"
+      ],
+      "article_title": "John L. Cameron: A Historical Perspective."
+    },
+    {
+      "pmid": "356789",
+      "module": "12_governance_societies.json",
+      "edge": "David Sabiston -> American College of Surgeons",
+      "score": 0.095,
+      "matched_tokens": [
+        "sabiston",
+        "president"
+      ],
+      "missed_tokens": [
+        "blalock/hopkins",
+        "surgical",
+        "college"
+      ],
+      "article_title": "Presidential address. Alfred Blalock."
+    },
+    {
+      "pmid": "3421751",
+      "module": "12_governance_societies.json",
+      "edge": "Henry Bahnson -> American Surgical Association",
+      "score": 0.154,
+      "matched_tokens": [
+        "surgical",
+        "bahnson"
+      ],
+      "missed_tokens": [
+        "association",
+        "governance",
+        "henry bahnson"
+      ],
+      "article_title": "Education of a surgical chairman."
+    },
+    {
+      "pmid": "2774706",
+      "module": "12_governance_societies.json",
+      "edge": "John Najarian -> American Surgical Association",
+      "score": 0.067,
+      "matched_tokens": [
+        "najarian"
+      ],
+      "missed_tokens": [
+        "association",
+        "president",
+        "american surgical association"
+      ],
+      "article_title": "The skill, science, and soul of the surgeon."
+    },
+    {
+      "pmid": "12192325",
+      "module": "12_governance_societies.json",
+      "edge": "Haile T. Debas -> American Surgical Association",
+      "score": 0.053,
+      "matched_tokens": [
+        "published"
+      ],
+      "missed_tokens": [
+        "address",
+        "surgical",
+        "haile t. debas"
+      ],
+      "article_title": "Prospective screening for blunt cerebrovascular injuries: analysis of diagnostic modalities and outcomes."
+    }
+  ],
+  "mismatches": [
+    {
+      "pmid": "2446524",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> Johns Hopkins Hospital Department of Surgery",
+      "score": 0.043,
+      "article_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "matched_tokens": [
+        "formal"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "26645476",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> John Finney",
+      "score": 0.0,
+      "article_title": "The global burden of major infectious complications following prostate biopsy.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "28489324",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> Harvey Cushing",
+      "score": 0.0,
+      "article_title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446524",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> George Heuer",
+      "score": 0.0,
+      "article_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "13032549",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> Barney Brooks",
+      "score": 0.0,
+      "article_title": "The hazards of pregnancy in women with heart disease.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446524",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> Mont Reid",
+      "score": 0.0,
+      "article_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "4885802",
+      "module": "01_halsted_core.json",
+      "edge": "William Stewart Halsted -> Emile Holman",
+      "score": 0.0,
+      "article_title": "Periodic psychoses in the light of biological rhythm research.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18693427",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Alton Ochsner -> Michael DeBakey",
+      "score": 0.0,
+      "article_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "19685166",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Alfred Blalock -> Denton Cooley",
+      "score": 0.0,
+      "article_title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10527140",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Owen Wangensteen -> C. Walton Lillehei",
+      "score": 0.0,
+      "article_title": "Because \"it is necessary to affix right ideas to words\". Thomas Paine, The Age of Reason, 1794.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "11930218",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Francis D. Moore -> Peter Bent Brigham Hospital Department of Surgery",
+      "score": 0.0,
+      "article_title": "[Modification of membrane lipid of human umbilical vein endothelia cells after direct lipopolysaccharide injury].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "19685166",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Michael DeBakey -> Denton Cooley",
+      "score": 0.0,
+      "article_title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "23225838",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Johns Hopkins Hospital Department of Surgery -> Thomas Starzl",
+      "score": 0.0,
+      "article_title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10457723",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Thomas Starzl -> American Society of Transplant Surgeons",
+      "score": 0.0,
+      "article_title": "Malpractice claims and the quest for perfection.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "23225838",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Thomas Starzl -> University of Pittsburgh Transplant Program",
+      "score": 0.0,
+      "article_title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "28791702",
+      "module": "02_general_surgery_spread.json",
+      "edge": "Thomas Starzl -> Andreas Tzakis",
+      "score": 0.045,
+      "article_title": "Developmental neurotoxicity of the organophosphorus insecticide chlorpyrifos: from clinical findings to preclinical models and potential mechanisms.",
+      "matched_tokens": [
+        "developing"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "28489324",
+      "module": "03_neurosurgery.json",
+      "edge": "Harvey Cushing -> Peter Bent Brigham Hospital Neurosurgical Program",
+      "score": 0.0,
+      "article_title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18344917",
+      "module": "03_neurosurgery.json",
+      "edge": "Harvey Cushing -> Percival Bailey",
+      "score": 0.0,
+      "article_title": "[Atherosclerosis inflammation and rheumatic diseases].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "20305736",
+      "module": "03_neurosurgery.json",
+      "edge": "Walter Dandy -> Johns Hopkins Neurosurgical Intensive Care Unit",
+      "score": 0.0,
+      "article_title": "Biomarkers of Psychological Stress in Health Disparities Research.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10871146",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "John Homans -> Peter Bent Brigham Peripheral Vascular Clinic",
+      "score": 0.0,
+      "article_title": "Effects of ultrasound and stretch on knee ligament extensibility.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "21173278",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Willy Meyer -> American Association for Thoracic Surgery",
+      "score": 0.0,
+      "article_title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446522",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Evarts A. Graham -> Washington University Chest Service",
+      "score": 0.048,
+      "article_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "matched_tokens": [
+        "pulmonary"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "15263901",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Alton Ochsner -> Society for Vascular Surgery",
+      "score": 0.0,
+      "article_title": "Bdellovibrio as therapeutic agents: a predatory renaissance?",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "14905833",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Arthur Blakemore -> Arthur Voorhees",
+      "score": 0.0,
+      "article_title": "[Tumors of the breast and hormone therapy].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18693427",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Michael DeBakey -> Baylor College of Medicine Cardiovascular Surgery",
+      "score": 0.0,
+      "article_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "3800732",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Michael DeBakey -> E. Stanley Crawford",
+      "score": 0.0,
+      "article_title": "Internal sclerectomy for glaucoma filtering surgery with an automated trephine.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "21173278",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "American Association for Thoracic Surgery -> Society of Thoracic Surgeons",
+      "score": 0.0,
+      "article_title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10456202",
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Norman Shumway -> Stanford University Department of Surgery",
+      "score": 0.0,
+      "article_title": "Renal tubular acidosis.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "24753609",
+      "module": "07_oncology_trials.json",
+      "edge": "Bernard Fisher -> National Surgical Adjuvant Breast and Bowel Project",
+      "score": 0.04,
+      "article_title": "An outer membrane channel protein of Mycobacterium tuberculosis with exotoxin activity.",
+      "matched_tokens": [
+        "and"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10452656",
+      "module": "07_oncology_trials.json",
+      "edge": "American College of Surgeons -> American College of Surgeons Oncology Group",
+      "score": 0.0,
+      "article_title": "Pneumocystis carinii pneumonia mimicking Wegener's granulomatosis.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "25281376",
+      "module": "07_oncology_trials.json",
+      "edge": "Gynecologic Oncology Group -> NRG Oncology",
+      "score": 0.0,
+      "article_title": "Positive regulation of botulinum neurotoxin gene expression by CodY in Clostridium botulinum ATCC 3502.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "25281376",
+      "module": "07_oncology_trials.json",
+      "edge": "National Surgical Adjuvant Breast and Bowel Project -> NRG Oncology",
+      "score": 0.04,
+      "article_title": "Positive regulation of botulinum neurotoxin gene expression by CodY in Clostridium botulinum ATCC 3502.",
+      "matched_tokens": [
+        "and"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10926590",
+      "module": "08_subspecialties.json",
+      "edge": "Joseph McDowell Mathews -> Kentucky School of Medicine Department of Proctology",
+      "score": 0.0,
+      "article_title": "My cuban experience.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10926590",
+      "module": "08_subspecialties.json",
+      "edge": "Joseph McDowell Mathews -> American Proctologic Society",
+      "score": 0.0,
+      "article_title": "My cuban experience.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "12150380",
+      "module": "08_subspecialties.json",
+      "edge": "Louis A. Buie -> Mayo Clinic Section of Proctology",
+      "score": 0.0,
+      "article_title": "Validity and reliability of the reflux symptom index (RSI).",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "21856431",
+      "module": "08_subspecialties.json",
+      "edge": "Harold Gillies -> Archibald McIndoe",
+      "score": 0.0,
+      "article_title": "The future of fMRI in cognitive neuroscience.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "6013681",
+      "module": "08_subspecialties.json",
+      "edge": "Owen Wangensteen -> Edward Mason",
+      "score": 0.0,
+      "article_title": "[Problems posed by the treatment of offenders in a military environment].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18412001",
+      "module": "08_subspecialties.json",
+      "edge": "Robert E. Gross -> C. Everett Koop",
+      "score": 0.0,
+      "article_title": "The ancient art of leadership.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "11452297",
+      "module": "08_subspecialties.json",
+      "edge": "Harold Gillies -> D. Ralph Millard",
+      "score": 0.0,
+      "article_title": "Aerodynamics. Insects can halve wind-turbine power.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "6013681",
+      "module": "08_subspecialties.json",
+      "edge": "Edward Mason -> University of Iowa Bariatric Surgery Program",
+      "score": 0.0,
+      "article_title": "[Problems posed by the treatment of offenders in a military environment].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "11469062",
+      "module": "08_subspecialties.json",
+      "edge": "Henri Bismuth -> Paul Brousse Hospital Hepatobiliary Center",
+      "score": 0.0,
+      "article_title": "Pediatric neuroanesthesia. Arteriovenous malformations.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "22136854",
+      "module": "08_subspecialties.json",
+      "edge": "University of Michigan Department of Surgery -> Norman Thompson",
+      "score": 0.048,
+      "article_title": "The founding of the American Association of Endocrine Surgeons: the time was right.",
+      "matched_tokens": [
+        "thompson"
+      ],
+      "prior_confidence": "moderate",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "14530774",
+      "module": "09_trauma_acute_infection.json",
+      "edge": "C. William Schwab -> Penn Trauma and Surgical Critical Care Fellowship",
+      "score": 0.0,
+      "article_title": "Drotrecogin alfa (activated) administration: too many subgroups.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "9486580",
+      "module": "10_quality_outcomes.json",
+      "edge": "Shukri Khuri -> VA National Surgical Quality Improvement Program",
+      "score": 0.0,
+      "article_title": "Pathologic classification of prostate carcinoma: the impact of margin status.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18650631",
+      "module": "10_quality_outcomes.json",
+      "edge": "VA National Surgical Quality Improvement Program -> ACS National Surgical Quality Improvement Program",
+      "score": 0.045,
+      "article_title": "Total number of resected lymph nodes predicts survival in esophageal cancer.",
+      "matched_tokens": [
+        "surgical"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "10562635",
+      "module": "11_mis_robotic.json",
+      "edge": "Philippe Mouret -> Francois Dubois",
+      "score": 0.0,
+      "article_title": "Role of the spleen in the exaggerated polycythemic response to hypoxia in chronic mountain sickness in rats.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2682975",
+      "module": "11_mis_robotic.json",
+      "edge": "Francois Dubois -> Eddie Joe Reddick",
+      "score": 0.0,
+      "article_title": "[Amebiasis. Surgical treatment in 1989].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "24002773",
+      "module": "11_mis_robotic.json",
+      "edge": "Eddie Joe Reddick -> Society of American Gastrointestinal and Endoscopic Surgeons",
+      "score": 0.04,
+      "article_title": "Clinical significance of incidental pulmonary nodules in esophageal cancer patients.",
+      "matched_tokens": [
+        "and"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446522",
+      "module": "12_governance_societies.json",
+      "edge": "Evarts A. Graham -> American Board of Surgery",
+      "score": 0.0,
+      "article_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446522",
+      "module": "12_governance_societies.json",
+      "edge": "Allen O. Whipple -> American Board of Surgery",
+      "score": 0.0,
+      "article_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446522",
+      "module": "12_governance_societies.json",
+      "edge": "American College of Surgeons -> American Board of Surgery",
+      "score": 0.0,
+      "article_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "24753609",
+      "module": "12_governance_societies.json",
+      "edge": "Bernard Fisher -> American College of Surgeons",
+      "score": 0.0,
+      "article_title": "An outer membrane channel protein of Mycobacterium tuberculosis with exotoxin activity.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18693427",
+      "module": "12_governance_societies.json",
+      "edge": "Michael DeBakey -> American College of Surgeons",
+      "score": 0.0,
+      "article_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "34462877",
+      "module": "12_governance_societies.json",
+      "edge": "Olga Jonasson -> American College of Surgeons",
+      "score": 0.0,
+      "article_title": "Correction to: Elevated ad libitum alcohol consumption following continuous theta burst stimulation to the left-dorsolateral prefrontal cortex is partially mediated by changes in craving.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "17416546",
+      "module": "12_governance_societies.json",
+      "edge": "Olga Jonasson -> American Board of Surgery",
+      "score": 0.0,
+      "article_title": "Shopping for plastids.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "31003229",
+      "module": "12_governance_societies.json",
+      "edge": "Jeffrey Ponsky -> American Board of Surgery",
+      "score": 0.0,
+      "article_title": "Optimal Muscle Selection for OnabotulinumtoxinA Injections in Poststroke Lower-Limb Spasticity: A Randomized Trial.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "20436531",
+      "module": "14_global_military.json",
+      "edge": "Bernhard von Langenbeck -> Charité Berlin Department of Surgery",
+      "score": 0.0,
+      "article_title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "20436531",
+      "module": "14_global_military.json",
+      "edge": "Bernhard von Langenbeck -> Theodor Billroth",
+      "score": 0.0,
+      "article_title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "2446524",
+      "module": "14_global_military.json",
+      "edge": "Theodor Billroth -> William Stewart Halsted",
+      "score": 0.038,
+      "article_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "matched_tokens": [
+        "highly"
+      ],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    },
+    {
+      "pmid": "18693427",
+      "module": "14_global_military.json",
+      "edge": "Michael DeBakey -> Mobile Army Surgical Hospital (MASH) System",
+      "score": 0.0,
+      "article_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "matched_tokens": [],
+      "prior_confidence": "high",
+      "recommendation": "Manual review -- PMID/DOI may be incorrect"
+    }
+  ]
+}

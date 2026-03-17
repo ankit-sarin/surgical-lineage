@@ -12,7 +12,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16544065/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2006 | content_match] Morgenstern L. 'George Berci: past, present, and future.' Surg Endosc. 2006 May;20 Suppl 2:S493-4. Written by Leon Morgenstern, the Chair of Surgery at Cedars-Sinai who recruited Berci in 1967. Documents Berci's 'contributions to the art and science of endoscopy and laparoscopy' over 'nearly half a century.' Berci (1921-2024) was born in Szeged, Hungary, graduated University of Szeged 1950, fled during Hungarian Revolution 1956 on a Rockefeller Fellowship to Melbourne. In Australia he developed the first miniature endoscopic camera (1962). Recruited to Cedars-Sinai 1967 as visiting scholar, became director of the multidisciplinary surgical endoscopy unit ~1970, and remained active until his death at age 103. The program he founded was the first multidisciplinary surgical endoscopy division in the US. Berci goes from degree 1 (SAGES founder) to degree 2. This creates a West Coast institutional anchor for the MIS module — previously all US MIS nodes were Midwest/South (Ponsky/Cleveland, Reddick/Nashville).",
+    "notes": "[Verified 2026-03-17 | Surg Endosc 2006] Morgenstern L. 'George Berci: past, present, and future.' Surg Endosc. 2006 May;20 Suppl 2:S493-4. Written by Leon Morgenstern, the Chair of Surgery at Cedars-Sinai who recruited Berci in 1967. Documents Berci's 'contributions to the art and science of endoscopy and laparoscopy' over 'nearly half a century.' Berci (1921-2024) was born in Szeged, Hungary, graduated University of Szeged 1950, fled during Hungarian Revolution 1956 on a Rockefeller Fellowship to Melbourne. In Australia he developed the first miniature endoscopic camera (1962). Recruited to Cedars-Sinai 1967 as visiting scholar, became director of the multidisciplinary surgical endoscopy unit ~1970, and remained active until his death at age 103. The program he founded was the first multidisciplinary surgical endoscopy division in the US. Berci goes from degree 1 (SAGES founder) to degree 2. This creates a West Coast institutional anchor for the MIS module — previously all US MIS nodes were Midwest/South (Ponsky/Cleveland, Reddick/Nashville).",
     "module": "11_mis_robotic"
   },
   {
@@ -28,7 +28,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24002773/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2014 | weak_match: matched \"and\"; missed endoscopic, george berci, sages] Berci co-founded SAGES to champion the integration of endoscopy and minimally invasive techniques into general surgery.",
+    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2014] Berci co-founded SAGES to champion the integration of endoscopy and minimally invasive techniques into general surgery.",
     "module": "11_mis_robotic"
   },
   {
@@ -75,8 +75,8 @@
     "evidence_citation": "PMID: 10562635",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10562635/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | J Appl Physiol (1985) 1999 | MISMATCH: 0 of 16 edge tokens found in article] Dubois adopted and modified the laparoscopic cholecystectomy technique after observing Mouret's initial breakthrough.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Appl Physiol (1985) 1999] Dubois adopted and modified the laparoscopic cholecystectomy technique after observing Mouret's initial breakthrough.",
     "module": "11_mis_robotic"
   },
   {
@@ -91,8 +91,8 @@
     "evidence_citation": "PMID: 2682975",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2682975/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Rev Gastroenterol Mex 1989 | MISMATCH: 0 of 15 edge tokens found in article] Reddick traveled to Paris to observe Dubois, subsequently performing early laparoscopic cholecystectomies in the US.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Rev Gastroenterol Mex 1989] Reddick traveled to Paris to observe Dubois, subsequently performing early laparoscopic cholecystectomies in the US.",
     "module": "11_mis_robotic"
   },
   {
@@ -107,8 +107,8 @@
     "evidence_citation": "PMID: 24002773",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24002773/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2014 | MISMATCH: 1 of 25 edge tokens found in article] Reddick's introduction of laparoscopic cholecystectomy to the US was disseminated through SAGES meetings and training infrastructure, making SAGES the governance vehicle for the MIS revolution.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2014] Reddick's introduction of laparoscopic cholecystectomy to the US was disseminated through SAGES meetings and training infrastructure, making SAGES the governance vehicle for the MIS revolution.",
     "module": "11_mis_robotic"
   },
   {

@@ -12,7 +12,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3524368/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann N Y Acad Sci 1986 | weak_match: matched \"lee\"; missed mayo clinic department of surgery, clark, surgical] Clark completed his surgical fellowship at Mayo, representing the shift to institutional training.",
+    "notes": "[Verified 2026-03-17 | Ann N Y Acad Sci 1986] Clark completed his surgical fellowship at Mayo, representing the shift to institutional training.",
     "module": "07_oncology_trials"
   },
   {
@@ -28,7 +28,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32193716/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2020 | content_match] Balch CM. 'Special Article Celebrating SSO 80th Anniversary: William Stewart MacComb — The Father of the Society of Surgical Oncology (SSO) and a Pioneering Surgical Oncologist.' Ann Surg Oncol. 2021 Sep;28(9):4794-4804. Documents that five Memorial Hospital surgeons led by William MacComb founded the James Ewing Society on June 10, 1940 at the Hotel Lexington in New York as an alumni organization for Memorial Hospital's Surgery Department. The society was renamed SSO in 1975. MacComb was elected first president (1940-1942) and served three terms. While start_year is 1940 (not 1990s), this edge is critical because it connects the existing MSK institutional node (Memorial Hospital for Cancer and Allied Diseases, already in graph) to the existing SSO society node, which currently has only one edge (James Ewing Society→SSO succession, 1975). This fills a structural gap by documenting the founding origin, and the MSK→SSO chain connects the oncology institutional trunk to the surgical oncology governance network.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2020] Balch CM. 'Special Article Celebrating SSO 80th Anniversary: William Stewart MacComb — The Father of the Society of Surgical Oncology (SSO) and a Pioneering Surgical Oncologist.' Ann Surg Oncol. 2021 Sep;28(9):4794-4804. Documents that five Memorial Hospital surgeons led by William MacComb founded the James Ewing Society on June 10, 1940 at the Hotel Lexington in New York as an alumni organization for Memorial Hospital's Surgery Department. The society was renamed SSO in 1975. MacComb was elected first president (1940-1942) and served three terms. While start_year is 1940 (not 1990s), this edge is critical because it connects the existing MSK institutional node (Memorial Hospital for Cancer and Allied Diseases, already in graph) to the existing SSO society node, which currently has only one edge (James Ewing Society→SSO succession, 1975). This fills a structural gap by documenting the founding origin, and the MSK→SSO chain connects the oncology institutional trunk to the surgical oncology governance network.",
     "module": "07_oncology_trials"
   },
   {
@@ -60,7 +60,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34991349/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Clin Trials 2022 | content_match] Fisher completed a surgical research fellowship under Ravdin at the University of Pennsylvania in 1950. Ravdin later personally recruited Fisher in 1957 to join the NIH Cancer Chemotherapy meeting that became the NSABP. Fisher described Ravdin as his mentor: 'Since Dr. Ravdin was an army general who had operated on President Eisenhower, when he commanded me to attend the meeting, I did so.' This edge connects the Penn institutional trunk to the existing NSABP/clinical trials lineage in the graph.",
+    "notes": "[Verified 2026-03-17 | Clin Trials 2022] Fisher completed a surgical research fellowship under Ravdin at the University of Pennsylvania in 1950. Ravdin later personally recruited Fisher in 1957 to join the NIH Cancer Chemotherapy meeting that became the NSABP. Fisher described Ravdin as his mentor: 'Since Dr. Ravdin was an army general who had operated on President Eisenhower, when he commanded me to attend the meeting, I did so.' This edge connects the Penn institutional trunk to the existing NSABP/clinical trials lineage in the graph.",
     "module": "07_oncology_trials"
   },
   {
@@ -107,8 +107,8 @@
     "evidence_citation": "PMID: 24753609",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24753609/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2014 | MISMATCH: 1 of 25 edge tokens found in article] Fisher established the NSABP, driving the clinical trial framework that dismantled the Halstedian radical mastectomy in favor of breast conservation and systemic therapy.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Proc Natl Acad Sci U S A 2014] Fisher established the NSABP, driving the clinical trial framework that dismantled the Halstedian radical mastectomy in favor of breast conservation and systemic therapy.",
     "module": "07_oncology_trials"
   },
   {
@@ -187,8 +187,8 @@
     "evidence_citation": "PMID: 10452656",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10452656/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Clin Infect Dis 1999 | MISMATCH: 0 of 20 edge tokens found in article] The ACS founded ACOSOG to specifically evaluate the surgical management of solid tumors through prospective, multi-institutional clinical trials.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Clin Infect Dis 1999] The ACS founded ACOSOG to specifically evaluate the surgical management of solid tumors through prospective, multi-institutional clinical trials.",
     "module": "07_oncology_trials"
   },
   {
@@ -204,7 +204,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35430661/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2022 | content_match] Tyler D. '2022 SSO Presidential Address: What is a Surgical Oncologist? Evolution of Surgical Oncology and the Society of Surgical Oncology in an Era of Hyperspecialization.' Ann Surg Oncol. 2022;29(7):4005-13. PMC9013271. Documents the SSO's multi-decade campaign for board certification in surgical oncology: the SSO created the Surgical Oncology Advisory Council (SOAC) with the ABS in 1998, which became the pathway to the ABS Certificate in Complex General Surgical Oncology (CGSO) approved by ABMS in 2011. First board-certified surgical oncologists were certified in 2015. The 1998 SOAC establishment is the discrete founding event — SSO and ABS formalized their accreditation relationship to create a subspecialty certification pathway. This parallels the FLS→ABS (2009) edge pattern where a society's program becomes mandatory for ABS certification. It also strengthens the SSO node (currently degree 1, only the James Ewing Society succession edge) and connects it to the ABS governance hub.",
+    "notes": "[Verified 2026-03-17 | Ann Surg Oncol 2022] Tyler D. '2022 SSO Presidential Address: What is a Surgical Oncologist? Evolution of Surgical Oncology and the Society of Surgical Oncology in an Era of Hyperspecialization.' Ann Surg Oncol. 2022;29(7):4005-13. PMC9013271. Documents the SSO's multi-decade campaign for board certification in surgical oncology: the SSO created the Surgical Oncology Advisory Council (SOAC) with the ABS in 1998, which became the pathway to the ABS Certificate in Complex General Surgical Oncology (CGSO) approved by ABMS in 2011. First board-certified surgical oncologists were certified in 2015. The 1998 SOAC establishment is the discrete founding event — SSO and ABS formalized their accreditation relationship to create a subspecialty certification pathway. This parallels the FLS→ABS (2009) edge pattern where a society's program becomes mandatory for ABS certification. It also strengthens the SSO node (currently degree 1, only the James Ewing Society succession edge) and connects it to the ABS governance hub.",
     "module": "07_oncology_trials"
   },
   {
@@ -235,8 +235,8 @@
     "evidence_citation": "PMID: 25281376",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25281376/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Appl Environ Microbiol 2014 | MISMATCH: 0 of 19 edge tokens found in article] In 2012, the GOG merged with the National Surgical Adjuvant Breast and Bowel Project (NSABP, already in graph) and the Radiation Therapy Oncology Group (RTOG) to form NRG Oncology, a new NCTN cooperative group. The acronym NRG derives from the names of the three parental groups. All federal research activities consolidated under NRG Oncology in March 2014. Philip DiSaia (GOG), Norman Wolmark (NSABP), and Walter Curran (RTOG) served as founding co-chairs.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Appl Environ Microbiol 2014] In 2012, the GOG merged with the National Surgical Adjuvant Breast and Bowel Project (NSABP, already in graph) and the Radiation Therapy Oncology Group (RTOG) to form NRG Oncology, a new NCTN cooperative group. The acronym NRG derives from the names of the three parental groups. All federal research activities consolidated under NRG Oncology in March 2014. Philip DiSaia (GOG), Norman Wolmark (NSABP), and Walter Curran (RTOG) served as founding co-chairs.",
     "module": "07_oncology_trials"
   },
   {
@@ -251,8 +251,8 @@
     "evidence_citation": "PMID: 25281376",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25281376/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Appl Environ Microbiol 2014 | MISMATCH: 1 of 25 edge tokens found in article] The NSABP, founded by Bernard Fisher (already in graph), merged into NRG Oncology alongside GOG and RTOG. Norman Wolmark, who trained alongside Fisher at the University of Pittsburgh and succeeded him as NSABP chairman, became one of three NRG Oncology principal investigators. This edge connects the existing NSABP/Fisher clinical trials lineage to the gynecologic oncology trunk through the shared NRG Oncology institutional node.",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Appl Environ Microbiol 2014] The NSABP, founded by Bernard Fisher (already in graph), merged into NRG Oncology alongside GOG and RTOG. Norman Wolmark, who trained alongside Fisher at the University of Pittsburgh and succeeded him as NSABP chairman, became one of three NRG Oncology principal investigators. This edge connects the existing NSABP/Fisher clinical trials lineage to the gynecologic oncology trunk through the shared NRG Oncology institutional node.",
     "module": "07_oncology_trials"
   },
   {
@@ -300,7 +300,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944281/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Cancer 2020 | weak_match: matched \"surgical\", \"brennan\", \"murray\"; missed preeminent, chairman, center] Brennan served as Chairman of the Department of Surgery at Memorial Sloan Kettering Cancer Center from 1985 to 2006 (21 years), transforming it into the preeminent surgical oncology training program in the world. During his tenure he trained over 350 surgical oncology fellows, many of whom became leaders at institutions across the US and internationally. He joined MSK in 1981 as chief of the gastric and mixed tumor service after 6 years at the NCI. He also held the Benno C. Schmidt Chair in Clinical Oncology and subsequently served as VP of International Programs (2010-2018) and Senior VP (2018-present). Authored over 1,100 publications. Created the world's largest sarcoma database (10,000+ patients). Printz (Cancer 2020, PMID 31944281) and multiple ACS profiles confirm the tenure.",
+    "notes": "[Verified 2026-03-17 | Cancer 2020] Brennan served as Chairman of the Department of Surgery at Memorial Sloan Kettering Cancer Center from 1985 to 2006 (21 years), transforming it into the preeminent surgical oncology training program in the world. During his tenure he trained over 350 surgical oncology fellows, many of whom became leaders at institutions across the US and internationally. He joined MSK in 1981 as chief of the gastric and mixed tumor service after 6 years at the NCI. He also held the Benno C. Schmidt Chair in Clinical Oncology and subsequently served as VP of International Programs (2010-2018) and Senior VP (2018-present). Authored over 1,100 publications. Created the world's largest sarcoma database (10,000+ patients). Printz (Cancer 2020, PMID 31944281) and multiple ACS profiles confirm the tenure.",
     "module": "07_oncology_trials"
   },
   {
@@ -316,7 +316,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18286472/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | J Surg Oncol 2008 | content_match] Brennan served as president of the Society of Surgical Oncology. The J Surg Oncol tribute issue (2008, PMID 18286472) and the ACS profile confirm this presidency. The SSO is already in the graph via Memorial Hospital->SSO (institutional_founder in 07_oncology_trials) and SSO->ABS (programmatic_accreditation). Exact presidency years approximated; the ACS and MSK India profiles list SSO presidency without specifying dates. Confidence moderate due to estimated dates. This edge creates a second pathway from MSK to the SSO governance backbone: the existing Memorial Hospital->SSO founding edge is now paralleled by Brennan->SSO presidential leadership.",
+    "notes": "[Verified 2026-03-17 | J Surg Oncol 2008] Brennan served as president of the Society of Surgical Oncology. The J Surg Oncol tribute issue (2008, PMID 18286472) and the ACS profile confirm this presidency. The SSO is already in the graph via Memorial Hospital->SSO (institutional_founder in 07_oncology_trials) and SSO->ABS (programmatic_accreditation). Exact presidency years approximated; the ACS and MSK India profiles list SSO presidency without specifying dates. Confidence moderate due to estimated dates. This edge creates a second pathway from MSK to the SSO governance backbone: the existing Memorial Hospital->SSO founding edge is now paralleled by Brennan->SSO presidential leadership.",
     "module": "07_oncology_trials"
   }
 ]

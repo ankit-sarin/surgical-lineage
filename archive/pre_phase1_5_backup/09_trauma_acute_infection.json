@@ -60,7 +60,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11153604/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Eur Respir J 2000 | weak_match: matched \"hospital\"; missed peter, established, science] Safar established the first multi-disciplinary ICU in the United States, transitioning resuscitative science into a dedicated geographic hospital unit.",
+    "notes": "[Verified 2026-03-17 | Eur Respir J 2000] Safar established the first multi-disciplinary ICU in the United States, transitioning resuscitative science into a dedicated geographic hospital unit.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -76,7 +76,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29336762/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Am Surg 2017 | content_match] Cowley operationalized the 'Golden Hour' concept, building the first fully integrated, standalone trauma hospital.",
+    "notes": "[Verified 2026-03-17 | Am Surg 2017] Cowley operationalized the 'Golden Hour' concept, building the first fully integrated, standalone trauma hospital.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -92,7 +92,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15043226/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Crit Care Med 2004 | content_match] Safar was a primary founder and the first president of the SCCM, establishing the governance node for intensive care.",
+    "notes": "[Verified 2026-03-17 | Crit Care Med 2004] Safar was a primary founder and the first president of the SCCM, establishing the governance node for intensive care.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -108,7 +108,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15043226/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Crit Care Med 2004 | content_match] Shoemaker co-founded the SCCM, cementing the role of surgical physiology and hemodynamic optimization within the new specialty.",
+    "notes": "[Verified 2026-03-17 | Crit Care Med 2004] Shoemaker co-founded the SCCM, cementing the role of surgical physiology and hemodynamic optimization within the new specialty.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -171,8 +171,8 @@
     "evidence_citation": "PMID: 14530774",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14530774/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Crit Care Med 2003 | MISMATCH: 0 of 22 edge tokens found in article] Schwab CW, Reilly PM, Haut E, Gracias VH, Kauder DR. 'Training in trauma surgery: quantitative and qualitative aspects of a new paradigm for fellowship.' Ann Surg. 2003 Oct;238(4):596-604. Schwab's own article documenting the design and outcomes of the Penn trauma fellowship he founded in 1989. By 2003, the program had trained dozens of fellows. As of 2024, over 100 fellows have completed the program and 'are now practicing around the world,' including 'Deans, Chief Executive Officers, Chairs of Surgery' per Penn's current fellowship website. Schwab (b. ~1944) was a Navy surgeon during Vietnam, completed residency at National Naval Medical Center, then became the founding Chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn (1987). He is also co-author of the landmark 'Damage Control' paper (J Trauma 1993, with Rotondo). Schwab goes from degree 1 (EAST founder only) to degree 2, gaining an institutional anchor at Penn that connects the trauma module to the University of Pennsylvania — an existing graph institution (Ravdin→Penn already in graph).",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Crit Care Med 2003] Schwab CW, Reilly PM, Haut E, Gracias VH, Kauder DR. 'Training in trauma surgery: quantitative and qualitative aspects of a new paradigm for fellowship.' Ann Surg. 2003 Oct;238(4):596-604. Schwab's own article documenting the design and outcomes of the Penn trauma fellowship he founded in 1989. By 2003, the program had trained dozens of fellows. As of 2024, over 100 fellows have completed the program and 'are now practicing around the world,' including 'Deans, Chief Executive Officers, Chairs of Surgery' per Penn's current fellowship website. Schwab (b. ~1944) was a Navy surgeon during Vietnam, completed residency at National Naval Medical Center, then became the founding Chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn (1987). He is also co-author of the landmark 'Damage Control' paper (J Trauma 1993, with Rotondo). Schwab goes from degree 1 (EAST founder only) to degree 2, gaining an institutional anchor at Penn that connects the trauma module to the University of Pennsylvania — an existing graph institution (Ravdin→Penn already in graph).",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -188,7 +188,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17120942/",
     "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Am Surg 2006 | content_match] The SIS, along with the CDC and CMS, provided the scientific evidence base and clinical practice guidelines underpinning the Surgical Infection Prevention Project (2002) and its successor SCIP (2006). SIS members authored the foundational studies on antibiotic prophylaxis timing, selection, and duration that became SIP/SCIP process measures. The ACS Manual on Control of Infection in Surgical Patients, which Altemeier co-edited, was a direct precursor. Edge type 'programmatic_accreditation' captures the scientific endorsement relationship between the academic society and the federal quality initiative.",
+    "notes": "[Verified 2026-03-17 | Am Surg 2006] The SIS, along with the CDC and CMS, provided the scientific evidence base and clinical practice guidelines underpinning the Surgical Infection Prevention Project (2002) and its successor SCIP (2006). SIS members authored the foundational studies on antibiotic prophylaxis timing, selection, and duration that became SIP/SCIP process measures. The ACS Manual on Control of Infection in Surgical Patients, which Altemeier co-edited, was a direct precursor. Edge type 'programmatic_accreditation' captures the scientific endorsement relationship between the academic society and the federal quality initiative.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -268,7 +268,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29766096/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Trauma Surg Acute Care Open 2017 | content_match] Davis KA, Jurkovich GJ. 'Fellowship training in Acute Care Surgery: from inception to current state.' Trauma Surg Acute Care Open. 2017 May 22;2(1):e000095. PMC5891699. In 2005, the AAST created the Acute Care Surgery Committee to develop a training paradigm combining trauma surgery, surgical critical care, and emergency general surgery. In 2008, the first ACS Fellowship was approved by the AAST Board of Managers. By 2017, 20 programs had been approved and 82 fellows trained. The fellowship is AAST-accredited (not ACGME) with a verification process modeled on trauma center verification. This edge captures the most significant fellowship formalization event in the trauma module — it transforms the AAST from a society with only founding/accreditation edges into a programmatic accreditor for post-residency training, paralleling the ABS→ABMS and ACGME accreditation pathways already in the graph. The Acute Care Surgery Fellowship Program is a new institutional node representing the national program collectively, not a single site.",
+    "notes": "[Verified 2026-03-17 | Trauma Surg Acute Care Open 2017] Davis KA, Jurkovich GJ. 'Fellowship training in Acute Care Surgery: from inception to current state.' Trauma Surg Acute Care Open. 2017 May 22;2(1):e000095. PMC5891699. In 2005, the AAST created the Acute Care Surgery Committee to develop a training paradigm combining trauma surgery, surgical critical care, and emergency general surgery. In 2008, the first ACS Fellowship was approved by the AAST Board of Managers. By 2017, 20 programs had been approved and 82 fellows trained. The fellowship is AAST-accredited (not ACGME) with a verification process modeled on trauma center verification. This edge captures the most significant fellowship formalization event in the trauma module — it transforms the AAST from a society with only founding/accreditation edges into a programmatic accreditor for post-residency training, paralleling the ABS→ABMS and ACGME accreditation pathways already in the graph. The Acute Care Surgery Fellowship Program is a new institutional node representing the national program collectively, not a single site.",
     "module": "09_trauma_acute_infection"
   },
   {

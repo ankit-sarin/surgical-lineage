@@ -12,7 +12,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19522575/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Neurosurg 2010 | content_match] Semmes received his medical degree from Johns Hopkins in 1910, where he trained under Cushing. Semmes was a classmate of Walter Dandy (already in graph). He returned to Memphis in 1912 to become the city's first neurosurgeon and first Professor of Neurosurgery at the University of Tennessee (1932). He co-founded the Semmes-Murphey Clinic, which became the training ground for the next generation of Southern neurosurgeons."
+    "notes": "[Verified 2026-03-17 | J Neurosurg 2010] Semmes received his medical degree from Johns Hopkins in 1910, where he trained under Cushing. Semmes was a classmate of Walter Dandy (already in graph). He returned to Memphis in 1912 to become the city's first neurosurgeon and first Professor of Neurosurgery at the University of Tennessee (1932). He co-founded the Semmes-Murphey Clinic, which became the training ground for the next generation of Southern neurosurgeons."
   },
   {
     "source_node": "Harvey Cushing",
@@ -27,7 +27,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15007469/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Shanghai Kou Qiang Yi Xue 2004 | weak_match: matched \"before\"; missed harvey cushing, dandy, hunterian] Dandy worked in the Hunterian Laboratory under Cushing before Cushing's departure."
+    "notes": "[Verified 2026-03-17 | Shanghai Kou Qiang Yi Xue 2004] Dandy worked in the Hunterian Laboratory under Cushing before Cushing's departure."
   },
   {
     "source_node": "Harvey Cushing",
@@ -41,8 +41,8 @@
     "evidence_citation": "PMID: 28489324",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28489324/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Catheter Cardiovasc Interv 2017 | MISMATCH: 0 of 14 edge tokens found in article] Cushing established the first dedicated neurosurgical service at Brigham."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Catheter Cardiovasc Interv 2017] Cushing established the first dedicated neurosurgical service at Brigham."
   },
   {
     "source_node": "Harvey Cushing",
@@ -57,7 +57,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/1919711/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Neurosurg 1991 | content_match] Penfield graduated from Johns Hopkins Medical School in 1918 and interned under Cushing at Peter Bent Brigham Hospital. Cushing offered him a residency, but Penfield returned to Oxford for the final year of his Rhodes Scholarship. The Cushing surgical ritual — stemming from Halsted's painstaking operative methods — played a paramount role in the origins of Penfield's own surgical technique. Penfield later practiced at Columbia Presbyterian before moving to Montreal in 1928."
+    "notes": "[Verified 2026-03-17 | J Neurosurg 1991] Penfield graduated from Johns Hopkins Medical School in 1918 and interned under Cushing at Peter Bent Brigham Hospital. Cushing offered him a residency, but Penfield returned to Oxford for the final year of his Rhodes Scholarship. The Cushing surgical ritual — stemming from Halsted's painstaking operative methods — played a paramount role in the origins of Penfield's own surgical technique. Penfield later practiced at Columbia Presbyterian before moving to Montreal in 1928."
   },
   {
     "source_node": "Harvey Cushing",
@@ -71,8 +71,8 @@
     "evidence_citation": "PMID: 18344917",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18344917/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Acta Reumatol Port 2008 | MISMATCH: 0 of 12 edge tokens found in article] Bailey trained under Cushing at Brigham, co-developing tumor classification."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Acta Reumatol Port 2008] Bailey trained under Cushing at Brigham, co-developing tumor classification."
   },
   {
     "source_node": "Harvey Cushing",
@@ -101,8 +101,8 @@
     "evidence_citation": "PMID: 20305736",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20305736/",
-    "confidence": "low",
-    "notes": "[Verified 2026-03-17 | Open Biomark J 2008 | MISMATCH: 0 of 13 edge tokens found in article] Dandy established the first dedicated neurosurgical intensive care unit."
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Open Biomark J 2008] Dandy established the first dedicated neurosurgical intensive care unit."
   },
   {
     "source_node": "Howard Naffziger",
@@ -132,7 +132,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/7965131/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Neurosurg 1994 | content_match] The Harvey Cushing Society was organized on October 10, 1931, at the Hotel Raleigh in Washington DC. The first formal meeting was held May 6, 1932 in Boston with 23 charter members, mostly Cushing trainees and younger neurosurgeons. R. Glen Spurling and William P. Van Wagenen were the primary organizers; Cushing hosted the Boston meeting and endorsed the effort. William P. Van Wagenen was elected first president. The society addressed the lack of a venue for younger neurosurgeons excluded from the senior Society of Neurological Surgeons."
+    "notes": "[Verified 2026-03-17 | J Neurosurg 1994] The Harvey Cushing Society was organized on October 10, 1931, at the Hotel Raleigh in Washington DC. The first formal meeting was held May 6, 1932 in Boston with 23 charter members, mostly Cushing trainees and younger neurosurgeons. R. Glen Spurling and William P. Van Wagenen were the primary organizers; Cushing hosted the Boston meeting and endorsed the effort. William P. Van Wagenen was elected first president. The society addressed the lack of a venue for younger neurosurgeons excluded from the senior Society of Neurological Surgeons."
   },
   {
     "source_node": "Wilder Penfield",
@@ -147,7 +147,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34388715/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Neurosurg 2022 | content_match] Penfield founded the Montreal Neurological Institute at McGill University in 1934 with a $1.2 million Rockefeller Foundation grant, serving as its first director until 1960. The MNI was the world's first institute dedicated to integrating neuroscience research with clinical neurosurgery. Penfield mapped the cortical homunculus through intraoperative electrical stimulation of awake patients and developed the Montreal procedure for surgical treatment of epilepsy. The MNI attracted trainees from Hopkins (Dandy's residents) and UCSF (Naffziger's residents), becoming a convergence node for the Halstedian neurosurgical lineage."
+    "notes": "[Verified 2026-03-17 | J Neurosurg 2022] Penfield founded the Montreal Neurological Institute at McGill University in 1934 with a $1.2 million Rockefeller Foundation grant, serving as its first director until 1960. The MNI was the world's first institute dedicated to integrating neuroscience research with clinical neurosurgery. Penfield mapped the cortical homunculus through intraoperative electrical stimulation of awake patients and developed the Montreal procedure for surgical treatment of epilepsy. The MNI attracted trainees from Hopkins (Dandy's residents) and UCSF (Naffziger's residents), becoming a convergence node for the Halstedian neurosurgical lineage."
   },
   {
     "source_node": "Howard Naffziger",
@@ -162,7 +162,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/33065539/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Neurosurg 2021 | content_match] Naffziger was elected first chairman of the ABNS at its preliminary meeting on November 19, 1939 at the Palmer House in Chicago. The board was officially incorporated in 1940 as the 13th member board of the ABMS. Alfred Adson served as vice-chairman and R. Glen Spurling as secretary-treasurer. The ABNS codified the formal certification of neurosurgeons, requiring dedicated residency training distinct from general surgery."
+    "notes": "[Verified 2026-03-17 | J Neurosurg 2021] Naffziger was elected first chairman of the ABNS at its preliminary meeting on November 19, 1939 at the Palmer House in Chicago. The board was officially incorporated in 1940 as the 13th member board of the ABMS. Alfred Adson served as vice-chairman and R. Glen Spurling as secretary-treasurer. The ABNS codified the formal certification of neurosurgeons, requiring dedicated residency training distinct from general surgery."
   },
   {
     "source_node": "Percival Bailey",
@@ -222,7 +222,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12296669/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Neurosurg 2002 | content_match] Howard Christian Naffziger (1884-1961) earned his MD from UC (1909), interned at UCSF, then went to Johns Hopkins in 1912 as assistant resident surgeon under Halsted's program, where he came under the direct mentorship of Harvey Cushing. He became one of Cushing's junior residents alongside Walter Dandy. In 1918, Naffziger served in France with Cushing as part of the Allied Expeditionary Force (WWI). Naffziger was already in the graph with two outgoing edges (→UCSF Dept of Surgery as institutional_founder, →ABNS as society_founder) but had no incoming training edge, making him a disconnected source node in the training lineage. This edge completes the chain: Halsted→Cushing→Naffziger→UCSF, connecting the West Coast surgical establishment to the Hopkins trunk through 3 training generations. The other edges proposed in the T3-01 expansion target (Naffziger→UCSF, Dunphy→UCSF, Debas→ASA) already exist in the graph and are not duplicated here. Citation is Keller TM, 'California's Cushing connection: Harvey Cushing trained California's first neurosurgeons,' Neurosurgery 2002;51(3):785-90.",
+    "notes": "[Verified 2026-03-17 | J Neurosurg 2002] Howard Christian Naffziger (1884-1961) earned his MD from UC (1909), interned at UCSF, then went to Johns Hopkins in 1912 as assistant resident surgeon under Halsted's program, where he came under the direct mentorship of Harvey Cushing. He became one of Cushing's junior residents alongside Walter Dandy. In 1918, Naffziger served in France with Cushing as part of the Allied Expeditionary Force (WWI). Naffziger was already in the graph with two outgoing edges (→UCSF Dept of Surgery as institutional_founder, →ABNS as society_founder) but had no incoming training edge, making him a disconnected source node in the training lineage. This edge completes the chain: Halsted→Cushing→Naffziger→UCSF, connecting the West Coast surgical establishment to the Hopkins trunk through 3 training generations. The other edges proposed in the T3-01 expansion target (Naffziger→UCSF, Dunphy→UCSF, Debas→ASA) already exist in the graph and are not duplicated here. Citation is Keller TM, 'California's Cushing connection: Harvey Cushing trained California's first neurosurgeons,' Neurosurgery 2002;51(3):785-90.",
     "module": "03_neurosurgery"
   }
 ]
