@@ -1,0 +1,38 @@
+[
+  {
+    "module": "02_general_surgery_spread.json",
+    "source_node": "David Sabiston",
+    "target_node": "Walter G. Wolfe",
+    "edge_type": "direct_training",
+    "temporal_range": "1964-1971",
+    "old_citation": "PMID: 14703738",
+    "reason": "Manual review — relationship unverifiable; no PubMed source found"
+  },
+  {
+    "module": "02_general_surgery_spread.json",
+    "source_node": "David Sabiston",
+    "target_node": "Robert W. Anderson",
+    "edge_type": "direct_training",
+    "temporal_range": "c.1968-c.1976",
+    "old_citation": "PMID: 25135240",
+    "reason": "Manual review — relationship unverifiable; no PubMed source found"
+  },
+  {
+    "module": "02_general_surgery_spread.json",
+    "source_node": "David Sabiston",
+    "target_node": "Thomas L. Spray",
+    "edge_type": "direct_training",
+    "temporal_range": "c.1976-c.1984",
+    "old_citation": "PMID: 25135240",
+    "reason": "Manual review — relationship unverifiable; no PubMed source found"
+  },
+  {
+    "module": "12_governance_societies.json",
+    "source_node": "John Najarian",
+    "target_node": "American Surgical Association",
+    "edge_type": "governance_leadership",
+    "temporal_range": "1988-1989",
+    "old_citation": "PMID: 2774706",
+    "reason": "Manual review — relationship unverifiable; no PubMed source found"
+  }
+]

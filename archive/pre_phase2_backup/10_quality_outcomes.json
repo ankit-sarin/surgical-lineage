@@ -53,11 +53,11 @@
     "start_year": 1991,
     "end_year": 2001,
     "temporal_range": "1991-2001",
-    "evidence_citation": "PMID: 19874939",
+    "evidence_citation": "PMID: 9486580",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19874939/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 9486580 -> PMID: 19874939 on 2026-03-17] [Verified 2026-03-17 | Am J Surg 2009 | content_match] Khuri led the development and validation of the VA NSQIP, demonstrating that systematic risk-adjusted outcomes measurement could tangibly reduce surgical mortality."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9486580/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Cancer 1998 | MISMATCH: 0 of 21 edge tokens found in article] Khuri led the development and validation of the VA NSQIP, demonstrating that systematic risk-adjusted outcomes measurement could tangibly reduce surgical mortality."
   },
   {
     "source_node": "David Flum",
@@ -83,11 +83,11 @@
     "start_year": 2001,
     "end_year": 2010,
     "temporal_range": "2001-2010",
-    "evidence_citation": "Historical_Archive_Group",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 9122554 to institutional_archive on 2026-03-17 — no PubMed source found] Kehlet founded the study group based on his pioneering research into multimodal surgical rehabilitation, challenging traditional perioperative dogma."
+    "evidence_citation": "PMID: 9122554",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9122554/",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | Sleep 1996 | weak_match: matched \"based\", \"group\"; missed study, traditional, founded] Kehlet founded the study group based on his pioneering research into multimodal surgical rehabilitation, challenging traditional perioperative dogma."
   },
   {
     "source_node": "VA National Surgical Quality Improvement Program",
@@ -98,11 +98,11 @@
     "start_year": 2004,
     "end_year": 2026,
     "temporal_range": "2004-Present",
-    "evidence_citation": "ACS_Archive",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "ACS National Surgical Quality Improvement Program Historical Records",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 18650631 to institutional_archive on 2026-03-17 — no PubMed source found] The methodology developed within the VA system was successfully transitioned and scaled into the private sector under the governance of the American College of Surgeons."
+    "evidence_citation": "PMID: 18650631",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18650631/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Ann Surg 2008 | MISMATCH: 1 of 22 edge tokens found in article] The methodology developed within the VA system was successfully transitioned and scaled into the private sector under the governance of the American College of Surgeons."
   },
   {
     "source_node": "American College of Surgeons",

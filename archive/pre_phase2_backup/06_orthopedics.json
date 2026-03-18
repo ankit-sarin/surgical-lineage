@@ -8,11 +8,11 @@
     "start_year": 1863,
     "end_year": 1887,
     "temporal_range": "1863-1887",
-    "evidence_citation": "PMID: 16272913",
+    "evidence_citation": "PMID: 2504092",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16272913/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2504092/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2504092 -> PMID: 16272913 on 2026-03-17] [Verified 2026-03-17 | Orthop Nurs 2005 | content_match] Knight founded the institution (now Hospital for Special Surgery) specifically for orthopedic rehabilitation, establishing a parallel trunk to general surgery.",
+    "notes": "[Verified 2026-03-17 | Am Rev Respir Dis 1989 | weak_match: matched \"the\", \"and\", \"for\"; missed parallel, founded, trunk] Knight founded the institution (now Hospital for Special Surgery) specifically for orthopedic rehabilitation, establishing a parallel trunk to general surgery.",
     "module": "06_orthopedics"
   },
   {

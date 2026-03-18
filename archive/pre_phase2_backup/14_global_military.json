@@ -23,11 +23,11 @@
     "start_year": 1847,
     "end_year": 1882,
     "temporal_range": "1847-1882",
-    "evidence_citation": "PMID: 25044221",
+    "evidence_citation": "PMID: 20436531",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25044221/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 20436531 -> PMID: 25044221 on 2026-03-17] [Verified 2026-03-17 | Clin Anat 2014 | content_match] Langenbeck developed the German system of residency training at Charité, heavily influencing the later Halstedian model."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20436531/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Can J Ophthalmol 2010 | MISMATCH: 0 of 19 edge tokens found in article] Langenbeck developed the German system of residency training at Charité, heavily influencing the later Halstedian model."
   },
   {
     "source_node": "Bernhard von Langenbeck",
@@ -38,11 +38,11 @@
     "start_year": 1853,
     "end_year": 1860,
     "temporal_range": "1853-1860",
-    "evidence_citation": "PMID: 20340032",
+    "evidence_citation": "PMID: 20436531",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20340032/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 20436531 -> PMID: 20340032 on 2026-03-17] [Verified 2026-03-17 | Langenbecks Arch Surg 2010 | content_match] Billroth served as Langenbeck's assistant at Charité, internalizing the German academic surgical system before his move to Zurich and Vienna."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20436531/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Can J Ophthalmol 2010 | MISMATCH: 0 of 19 edge tokens found in article] Billroth served as Langenbeck's assistant at Charité, internalizing the German academic surgical system before his move to Zurich and Vienna."
   },
   {
     "source_node": "Theodor Billroth",
@@ -68,11 +68,11 @@
     "start_year": 1878,
     "end_year": 1880,
     "temporal_range": "1878-1880",
-    "evidence_citation": "PMID: 23035261",
+    "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23035261/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2446524 -> PMID: 23035261 on 2026-03-17] [Verified 2026-03-17 | Aktuelle Urol 2012 | content_match] Halsted spent two years traversing European surgical clinics, highly influenced by Billroth's scientific approach and Langenbeck's residency structure before returning to design the Hopkins system."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 1 of 26 edge tokens found in article] Halsted spent two years traversing European surgical clinics, highly influenced by Billroth's scientific approach and Langenbeck's residency structure before returning to design the Hopkins system."
   },
   {
     "source_node": "Edward Churchill",
@@ -98,11 +98,11 @@
     "start_year": 1943,
     "end_year": 1945,
     "temporal_range": "1943-1945",
-    "evidence_citation": "DOI: 10.2106/00004623-195941020-00027",
-    "evidence_type": "DOI",
-    "evidence_locator": "https://doi.org/10.2106/00004623-195941020-00027",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 18693427 -> DOI: 10.2106/00004623-195941020-00027 on 2026-03-17] [Verified 2026-03-17 | The Journal of Bone &amp; Joint Surgery 1959 | content_match] Working in the Surgeon General's Office during WWII, DeBakey helped conceptualize the MASH units and the VA medical center system to manage the flow of combat casualties."
+    "evidence_citation": "PMID: 18693427",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18693427/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Sheng Wu Yi Xue Gong Cheng Xue Za Zhi 2008 | MISMATCH: 0 of 23 edge tokens found in article] Working in the Surgeon General's Office during WWII, DeBakey helped conceptualize the MASH units and the VA medical center system to manage the flow of combat casualties."
   },
   {
     "source_node": "Sterling Bunnell",

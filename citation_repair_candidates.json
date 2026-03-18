@@ -89,7 +89,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->John Finney",
@@ -102,7 +102,7 @@
       "current_id_type": "PMID",
       "current_title": "The global burden of major infectious complications following prostate biopsy.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -142,7 +142,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->Harvey Cushing",
@@ -155,7 +155,7 @@
       "current_id_type": "PMID",
       "current_title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -215,7 +215,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 3"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->George Heuer",
@@ -228,7 +228,7 @@
       "current_id_type": "PMID",
       "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -287,7 +287,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->Barney Brooks",
@@ -300,7 +300,7 @@
       "current_id_type": "PMID",
       "current_title": "The hazards of pregnancy in women with heart disease.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -338,7 +338,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->Mont Reid",
@@ -351,7 +351,7 @@
       "current_id_type": "PMID",
       "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -372,7 +372,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->Emile Holman",
@@ -385,7 +385,7 @@
       "current_id_type": "PMID",
       "current_title": "Periodic psychoses in the light of biological rhythm research.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -406,7 +406,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::Alton Ochsner->Michael DeBakey",
@@ -419,7 +419,7 @@
       "current_id_type": "PMID",
       "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -456,7 +456,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "02_general_surgery_spread::Alfred Blalock->Denton Cooley",
@@ -469,7 +469,7 @@
       "current_id_type": "PMID",
       "current_title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -490,7 +490,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::Owen Wangensteen->C. Walton Lillehei",
@@ -503,7 +503,7 @@
       "current_id_type": "PMID",
       "current_title": "Because \"it is necessary to affix right ideas to words\". Thomas Paine, The Age of Reason, 1794.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -561,7 +561,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::Francis D. Moore->Peter Bent Brigham Hospital Department of Surgery",
@@ -574,7 +574,7 @@
       "current_id_type": "PMID",
       "current_title": "[Modification of membrane lipid of human umbilical vein endothelia cells after direct lipopolysaccharide injury].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -616,7 +616,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::Michael DeBakey->Denton Cooley",
@@ -629,7 +629,7 @@
       "current_id_type": "PMID",
       "current_title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -688,7 +688,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::Johns Hopkins Hospital Department of Surgery->Thomas Starzl",
@@ -701,7 +701,7 @@
       "current_id_type": "PMID",
       "current_title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -723,7 +723,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::Thomas Starzl->American Society of Transplant Surgeons",
@@ -736,7 +736,7 @@
       "current_id_type": "PMID",
       "current_title": "Malpractice claims and the quest for perfection.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -794,7 +794,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::Thomas Starzl->University of Pittsburgh Transplant Program",
@@ -807,7 +807,7 @@
       "current_id_type": "PMID",
       "current_title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -864,7 +864,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 3"
     },
     {
       "edge_id": "02_general_surgery_spread::Thomas Starzl->Andreas Tzakis",
@@ -880,7 +880,7 @@
       "phase1_5_score": 0.045,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "03_neurosurgery::Harvey Cushing->Peter Bent Brigham Hospital Neurosurgical Program",
@@ -893,7 +893,7 @@
       "current_id_type": "PMID",
       "current_title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -954,7 +954,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 3"
     },
     {
       "edge_id": "03_neurosurgery::Harvey Cushing->Percival Bailey",
@@ -967,7 +967,7 @@
       "current_id_type": "PMID",
       "current_title": "[Atherosclerosis inflammation and rheumatic diseases].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1024,7 +1024,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 3"
     },
     {
       "edge_id": "03_neurosurgery::Walter Dandy->Johns Hopkins Neurosurgical Intensive Care Unit",
@@ -1037,7 +1037,7 @@
       "current_id_type": "PMID",
       "current_title": "Biomarkers of Psychological Stress in Health Disparities Research.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1092,7 +1092,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::John Homans->Peter Bent Brigham Peripheral Vascular Clinic",
@@ -1105,7 +1105,7 @@
       "current_id_type": "PMID",
       "current_title": "Effects of ultrasound and stretch on knee ligament extensibility.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1139,7 +1139,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Willy Meyer->American Association for Thoracic Surgery",
@@ -1152,7 +1152,7 @@
       "current_id_type": "PMID",
       "current_title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1171,7 +1171,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Evarts A. Graham->Washington University Chest Service",
@@ -1209,7 +1209,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Alton Ochsner->Society for Vascular Surgery",
@@ -1222,7 +1222,7 @@
       "current_id_type": "PMID",
       "current_title": "Bdellovibrio as therapeutic agents: a predatory renaissance?",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1244,7 +1244,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Arthur Blakemore->Arthur Voorhees",
@@ -1257,7 +1257,7 @@
       "current_id_type": "PMID",
       "current_title": "[Tumors of the breast and hormone therapy].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1277,7 +1277,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Michael DeBakey->Baylor College of Medicine Cardiovascular Surgery",
@@ -1290,7 +1290,7 @@
       "current_id_type": "PMID",
       "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1345,7 +1345,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Michael DeBakey->E. Stanley Crawford",
@@ -1358,7 +1358,7 @@
       "current_id_type": "PMID",
       "current_title": "Internal sclerectomy for glaucoma filtering surgery with an automated trephine.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1417,7 +1417,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::American Association for Thoracic Surgery->Society of Thoracic Surgeons",
@@ -1430,10 +1430,10 @@
       "current_id_type": "PMID",
       "current_title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [],
       "queries_tried": 0,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Norman Shumway->Stanford University Department of Surgery",
@@ -1446,7 +1446,7 @@
       "current_id_type": "PMID",
       "current_title": "Renal tubular acidosis.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 3"
     },
     {
       "edge_id": "07_oncology_trials::Bernard Fisher->National Surgical Adjuvant Breast and Bowel Project",
@@ -1572,7 +1572,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "07_oncology_trials::American College of Surgeons->American College of Surgeons Oncology Group",
@@ -1585,7 +1585,7 @@
       "current_id_type": "PMID",
       "current_title": "Pneumocystis carinii pneumonia mimicking Wegener's granulomatosis.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1642,7 +1642,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "07_oncology_trials::Gynecologic Oncology Group->NRG Oncology",
@@ -1655,7 +1655,7 @@
       "current_id_type": "PMID",
       "current_title": "Positive regulation of botulinum neurotoxin gene expression by CodY in Clostridium botulinum ATCC 3502.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1677,7 +1677,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "07_oncology_trials::National Surgical Adjuvant Breast and Bowel Project->NRG Oncology",
@@ -1693,7 +1693,7 @@
       "phase1_5_score": 0.04,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "08_subspecialties::Joseph McDowell Mathews->Kentucky School of Medicine Department of Proctology",
@@ -1706,7 +1706,7 @@
       "current_id_type": "PMID",
       "current_title": "My cuban experience.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1727,7 +1727,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "08_subspecialties::Joseph McDowell Mathews->American Proctologic Society",
@@ -1740,10 +1740,10 @@
       "current_id_type": "PMID",
       "current_title": "My cuban experience.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [],
       "queries_tried": 2,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "08_subspecialties::Louis A. Buie->Mayo Clinic Section of Proctology",
@@ -1756,7 +1756,7 @@
       "current_id_type": "PMID",
       "current_title": "Validity and reliability of the reflux symptom index (RSI).",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1776,7 +1776,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "08_subspecialties::Harold Gillies->Archibald McIndoe",
@@ -1789,7 +1789,7 @@
       "current_id_type": "PMID",
       "current_title": "The future of fMRI in cognitive neuroscience.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1846,7 +1846,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 3"
     },
     {
       "edge_id": "08_subspecialties::Owen Wangensteen->Edward Mason",
@@ -1859,7 +1859,7 @@
       "current_id_type": "PMID",
       "current_title": "[Problems posed by the treatment of offenders in a military environment].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1912,7 +1912,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "08_subspecialties::Robert E. Gross->C. Everett Koop",
@@ -1925,7 +1925,7 @@
       "current_id_type": "PMID",
       "current_title": "The ancient art of leadership.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -1945,7 +1945,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "08_subspecialties::Harold Gillies->D. Ralph Millard",
@@ -1958,7 +1958,7 @@
       "current_id_type": "PMID",
       "current_title": "Aerodynamics. Insects can halve wind-turbine power.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2010,7 +2010,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "08_subspecialties::Edward Mason->University of Iowa Bariatric Surgery Program",
@@ -2023,7 +2023,7 @@
       "current_id_type": "PMID",
       "current_title": "[Problems posed by the treatment of offenders in a military environment].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2044,7 +2044,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "08_subspecialties::Henri Bismuth->Paul Brousse Hospital Hepatobiliary Center",
@@ -2057,7 +2057,7 @@
       "current_id_type": "PMID",
       "current_title": "Pediatric neuroanesthesia. Arteriovenous malformations.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2097,7 +2097,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "08_subspecialties::University of Michigan Department of Surgery->Norman Thompson",
@@ -2113,7 +2113,7 @@
       "phase1_5_score": 0.048,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "09_trauma_acute_infection::C. William Schwab->Penn Trauma and Surgical Critical Care Fellowship",
@@ -2126,10 +2126,10 @@
       "current_id_type": "PMID",
       "current_title": "Drotrecogin alfa (activated) administration: too many subgroups.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "10_quality_outcomes::Shukri Khuri->VA National Surgical Quality Improvement Program",
@@ -2142,7 +2142,7 @@
       "current_id_type": "PMID",
       "current_title": "Pathologic classification of prostate carcinoma: the impact of margin status.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2209,7 +2209,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "10_quality_outcomes::VA National Surgical Quality Improvement Program->ACS National Surgical Quality Improvement Program",
@@ -2276,7 +2276,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "11_mis_robotic::Philippe Mouret->Francois Dubois",
@@ -2289,7 +2289,7 @@
       "current_id_type": "PMID",
       "current_title": "Role of the spleen in the exaggerated polycythemic response to hypoxia in chronic mountain sickness in rats.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2346,7 +2346,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "11_mis_robotic::Francois Dubois->Eddie Joe Reddick",
@@ -2359,7 +2359,7 @@
       "current_id_type": "PMID",
       "current_title": "[Amebiasis. Surgical treatment in 1989].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2379,7 +2379,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "11_mis_robotic::Eddie Joe Reddick->Society of American Gastrointestinal and Endoscopic Surgeons",
@@ -2413,7 +2413,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "12_governance_societies::Evarts A. Graham->American Board of Surgery",
@@ -2426,10 +2426,10 @@
       "current_id_type": "PMID",
       "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "12_governance_societies::Allen O. Whipple->American Board of Surgery",
@@ -2442,7 +2442,7 @@
       "current_id_type": "PMID",
       "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2500,7 +2500,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "12_governance_societies::American College of Surgeons->American Board of Surgery",
@@ -2513,10 +2513,10 @@
       "current_id_type": "PMID",
       "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [],
       "queries_tried": 0,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "12_governance_societies::Bernard Fisher->American College of Surgeons",
@@ -2529,7 +2529,7 @@
       "current_id_type": "PMID",
       "current_title": "An outer membrane channel protein of Mycobacterium tuberculosis with exotoxin activity.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2549,7 +2549,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "12_governance_societies::Michael DeBakey->American College of Surgeons",
@@ -2562,7 +2562,7 @@
       "current_id_type": "PMID",
       "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2620,7 +2620,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "12_governance_societies::Olga Jonasson->American College of Surgeons",
@@ -2633,7 +2633,7 @@
       "current_id_type": "PMID",
       "current_title": "Correction to: Elevated ad libitum alcohol consumption following continuous theta burst stimulation to the left-dorsolateral prefrontal cortex is partially mediated by changes in craving.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2653,7 +2653,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "12_governance_societies::Olga Jonasson->American Board of Surgery",
@@ -2666,7 +2666,7 @@
       "current_id_type": "PMID",
       "current_title": "Shopping for plastids.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2687,7 +2687,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "12_governance_societies::Jeffrey Ponsky->American Board of Surgery",
@@ -2700,10 +2700,10 @@
       "current_id_type": "PMID",
       "current_title": "Optimal Muscle Selection for OnabotulinumtoxinA Injections in Poststroke Lower-Limb Spasticity: A Randomized Trial.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [],
       "queries_tried": 2,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "14_global_military::Bernhard von Langenbeck->Charité Berlin Department of Surgery",
@@ -2716,7 +2716,7 @@
       "current_id_type": "PMID",
       "current_title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2771,7 +2771,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "14_global_military::Bernhard von Langenbeck->Theodor Billroth",
@@ -2784,7 +2784,7 @@
       "current_id_type": "PMID",
       "current_title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2840,7 +2840,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "14_global_military::Theodor Billroth->William Stewart Halsted",
@@ -2895,7 +2895,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "14_global_military::Michael DeBakey->Mobile Army Surgical Hospital (MASH) System",
@@ -2908,7 +2908,7 @@
       "current_id_type": "PMID",
       "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
       "phase1_5_status": "MISMATCH",
-      "phase1_5_score": 0.0,
+      "phase1_5_score": 0,
       "candidates": [
         {
           "rank": 1,
@@ -2948,7 +2948,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->Hugh Hampton Young",
@@ -3020,7 +3020,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "01_halsted_core::William Stewart Halsted->John Homans",
@@ -3074,7 +3074,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::Edward P. Richardson->Edward Churchill",
@@ -3090,7 +3090,7 @@
       "phase1_5_score": 0.19,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::Allen O. Whipple->Charles R. Drew",
@@ -3106,7 +3106,7 @@
       "phase1_5_score": 0.19,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Charles R. Drew->Howard University Department of Surgery",
@@ -3122,7 +3122,7 @@
       "phase1_5_score": 0.158,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Johns Hopkins Hospital Department of Surgery->Peter Safar",
@@ -3157,7 +3157,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::C. Walton Lillehei->Christiaan Barnard",
@@ -3210,7 +3210,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "02_general_surgery_spread::Owen Wangensteen->John Najarian",
@@ -3284,7 +3284,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::Warren Cole->Olga Jonasson",
@@ -3300,7 +3300,7 @@
       "phase1_5_score": 0.059,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::Julie Ann Freischlag->Johns Hopkins Hospital Department of Surgery",
@@ -3316,7 +3316,7 @@
       "phase1_5_score": 0.053,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::David Sabiston->Walter G. Wolfe",
@@ -3332,7 +3332,7 @@
       "phase1_5_score": 0.05,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "DELETE"
     },
     {
       "edge_id": "02_general_surgery_spread::David Sabiston->R. Randal Bollinger",
@@ -3348,7 +3348,7 @@
       "phase1_5_score": 0.167,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::David Sabiston->Robert W. Anderson",
@@ -3364,7 +3364,7 @@
       "phase1_5_score": 0.167,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "DELETE"
     },
     {
       "edge_id": "02_general_surgery_spread::David Sabiston->W. Randolph Chitwood Jr.",
@@ -3380,7 +3380,7 @@
       "phase1_5_score": 0.105,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::David Sabiston->James L. Cox",
@@ -3396,7 +3396,7 @@
       "phase1_5_score": 0.15,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::David Sabiston->Thomas L. Spray",
@@ -3412,7 +3412,7 @@
       "phase1_5_score": 0.143,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "DELETE"
     },
     {
       "edge_id": "02_general_surgery_spread::Owen Wangensteen->Richard L. Varco",
@@ -3449,7 +3449,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "02_general_surgery_spread::I.S. Ravdin->Jonathan E. Rhoads",
@@ -3465,7 +3465,7 @@
       "phase1_5_score": 0.158,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Jonathan E. Rhoads->University of Pennsylvania Department of Surgery",
@@ -3498,7 +3498,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Peter Bent Brigham Hospital Department of Surgery->Murray F. Brennan",
@@ -3531,7 +3531,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Alfred Blalock->Mark M. Ravitch",
@@ -3581,7 +3581,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Alfred Blalock->H. William Scott Jr.",
@@ -3614,7 +3614,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::H. William Scott Jr.->Vanderbilt University Department of Surgery",
@@ -3646,7 +3646,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Henry Harkins->Lloyd M. Nyhus",
@@ -3678,7 +3678,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "02_general_surgery_spread::Lloyd M. Nyhus->University of Illinois College of Medicine Department of Surgery",
@@ -3710,7 +3710,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "03_neurosurgery::Harvey Cushing->Walter Dandy",
@@ -3783,7 +3783,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "04_cardiothoracic_vascular::Owen Wangensteen->Norman Shumway",
@@ -3818,7 +3818,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "05_urology::Hugh Hampton Young->Brady Urological Institute",
@@ -3899,7 +3899,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "05_urology::Patrick Walsh->Brady Urological Institute",
@@ -3963,7 +3963,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "06_orthopedics::James Knight->Hospital for the Ruptured and Crippled",
@@ -4051,7 +4051,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "07_oncology_trials::Mayo Clinic Department of Surgery->R. Lee Clark",
@@ -4083,7 +4083,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "07_oncology_trials::Murray F. Brennan->Memorial Sloan Kettering Cancer Center",
@@ -4133,7 +4133,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "08_subspecialties::William E. Ladd->Robert E. Gross",
@@ -4195,7 +4195,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "08_subspecialties::C. Everett Koop->Children's Hospital of Philadelphia Department of Pediatric Surgery",
@@ -4246,7 +4246,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "08_subspecialties::Rupert B. Turnbull->Cleveland Clinic Department of Colorectal Surgery",
@@ -4304,7 +4304,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "08_subspecialties::Rupert B. Turnbull->Victor W. Fazio",
@@ -4355,7 +4355,7 @@
         }
       ],
       "queries_tried": 3,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "08_subspecialties::Victor W. Fazio->Cleveland Clinic Department of Colorectal Surgery",
@@ -4403,7 +4403,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "08_subspecialties::Edward Mason->American Society for Bariatric Surgery",
@@ -4454,7 +4454,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "08_subspecialties::St. Mark's Hospital for Fistula and Other Diseases of the Rectum->American Society of Colon and Rectal Surgeons",
@@ -4470,7 +4470,7 @@
       "phase1_5_score": 0.067,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "08_subspecialties::Robert E. Gross->Judah Folkman",
@@ -4504,7 +4504,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "08_subspecialties::Judah Folkman->Boston Children's Hospital Department of Surgery",
@@ -4548,7 +4548,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "09_trauma_acute_infection::Peter Safar->Baltimore City Hospital Intensive Care Unit",
@@ -4580,7 +4580,7 @@
         }
       ],
       "queries_tried": 4,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "10_quality_outcomes::Henrik Kehlet->ERAS Study Group",
@@ -4596,7 +4596,7 @@
       "phase1_5_score": 0.111,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     },
     {
       "edge_id": "11_mis_robotic::George Berci->Society of American Gastrointestinal and Endoscopic Surgeons",
@@ -4646,7 +4646,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "12_governance_societies::Franklin H. Martin->American College of Surgeons",
@@ -4698,7 +4698,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 1"
     },
     {
       "edge_id": "12_governance_societies::American Surgical Association->American Board of Surgery",
@@ -4714,7 +4714,7 @@
       "phase1_5_score": 0.19,
       "candidates": [],
       "queries_tried": 0,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "12_governance_societies::George Zuidema->Johns Hopkins Hospital Department of Surgery",
@@ -4765,7 +4765,7 @@
         }
       ],
       "queries_tried": 1,
-      "action": ""
+      "action": "ACCEPT 2"
     },
     {
       "edge_id": "12_governance_societies::David Sabiston->American College of Surgeons",
@@ -4781,7 +4781,7 @@
       "phase1_5_score": 0.095,
       "candidates": [],
       "queries_tried": 1,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "12_governance_societies::Henry Bahnson->American Surgical Association",
@@ -4813,7 +4813,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "KEEP"
     },
     {
       "edge_id": "12_governance_societies::John Najarian->American Surgical Association",
@@ -4859,7 +4859,7 @@
         }
       ],
       "queries_tried": 2,
-      "action": ""
+      "action": "DELETE"
     },
     {
       "edge_id": "12_governance_societies::Haile T. Debas->American Surgical Association",
@@ -4875,7 +4875,7 @@
       "phase1_5_score": 0.053,
       "candidates": [],
       "queries_tried": 3,
-      "action": ""
+      "action": "ARCHIVE"
     }
   ]
 }

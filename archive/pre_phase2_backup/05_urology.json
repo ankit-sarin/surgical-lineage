@@ -40,11 +40,11 @@
     "start_year": 1915,
     "end_year": 1942,
     "temporal_range": "1915-1942",
-    "evidence_citation": "PMID: 39038727",
+    "evidence_citation": "PMID: 25442801",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/39038727/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25442801/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 25442801 -> PMID: 39038727 on 2026-03-17] [Verified 2026-03-17 | Urology 2024 | content_match] Young founded the Brady Urological Institute at Hopkins, establishing the first dedicated, modern residency model for urology.",
+    "notes": "[Verified 2026-03-17 | Acad Radiol 2015 | weak_match: matched \"young\"; missed first, dedicated, founded] Young founded the Brady Urological Institute at Hopkins, establishing the first dedicated, modern residency model for urology.",
     "module": "05_urology"
   },
   {
@@ -92,7 +92,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17437775/",
     "confidence": "high",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] Walsh served as Chairman of the Brady Urological Institute from 1974 to 2004, transforming it from a declining program into the world's leading prostate cancer center. Case Western Reserve MD 1964, Peter Bent Brigham general surgery residency, UCLA urology residency — NOT Hopkins-trained; recruited externally. On April 26, 1982, he performed the first purposeful nerve-sparing radical prostatectomy, revolutionizing prostate cancer treatment. By 2002, prostate cancer deaths had declined 33%. He trained 62 residents who carried the technique worldwide and edited Campbell's Urology for 25 years (renamed Campbell-Walsh Urology in 2012). His directorship bridges the Hugh Hampton Young founding era (1915) to the modern era of the Brady.",
+    "notes": "[Verified 2026-03-17 | J Urol 2007 | weak_match: matched \"walsh\", \"patrick\", \"prostate\"; missed reserve, chairman, brady urological institute] Walsh served as Chairman of the Brady Urological Institute from 1974 to 2004, transforming it from a declining program into the world's leading prostate cancer center. Case Western Reserve MD 1964, Peter Bent Brigham general surgery residency, UCLA urology residency — NOT Hopkins-trained; recruited externally. On April 26, 1982, he performed the first purposeful nerve-sparing radical prostatectomy, revolutionizing prostate cancer treatment. By 2002, prostate cancer deaths had declined 33%. He trained 62 residents who carried the technique worldwide and edited Campbell's Urology for 25 years (renamed Campbell-Walsh Urology in 2012). His directorship bridges the Hugh Hampton Young founding era (1915) to the modern era of the Brady.",
     "module": "05_urology"
   },
   {

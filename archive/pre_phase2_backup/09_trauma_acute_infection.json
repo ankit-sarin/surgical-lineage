@@ -56,11 +56,11 @@
     "start_year": 1958,
     "end_year": 1961,
     "temporal_range": "1958-1961",
-    "evidence_citation": "DOI: 10.1111/j.1365-2044.1961.tb13827.x",
-    "evidence_type": "DOI",
-    "evidence_locator": "https://doi.org/10.1111/j.1365-2044.1961.tb13827.x",
+    "evidence_citation": "PMID: 11153604",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11153604/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 11153604 -> DOI: 10.1111/j.1365-2044.1961.tb13827.x on 2026-03-17] [Verified 2026-03-17 | Anaesthesia 1961 | content_match] Safar established the first multi-disciplinary ICU in the United States, transitioning resuscitative science into a dedicated geographic hospital unit.",
+    "notes": "[Verified 2026-03-17 | Eur Respir J 2000 | weak_match: matched \"hospital\"; missed peter, established, science] Safar established the first multi-disciplinary ICU in the United States, transitioning resuscitative science into a dedicated geographic hospital unit.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -168,11 +168,11 @@
     "start_year": 1989,
     "end_year": 2020,
     "temporal_range": "1989-2020",
-    "evidence_citation": "Penn_Archive_Schwab",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Penn Trauma and Surgical Critical Care Fellowship Historical Records",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 14530774 to institutional_archive on 2026-03-17 — no PubMed source found] Schwab CW, Reilly PM, Haut E, Gracias VH, Kauder DR. 'Training in trauma surgery: quantitative and qualitative aspects of a new paradigm for fellowship.' Ann Surg. 2003 Oct;238(4):596-604. Schwab's own article documenting the design and outcomes of the Penn trauma fellowship he founded in 1989. By 2003, the program had trained dozens of fellows. As of 2024, over 100 fellows have completed the program and 'are now practicing around the world,' including 'Deans, Chief Executive Officers, Chairs of Surgery' per Penn's current fellowship website. Schwab (b. ~1944) was a Navy surgeon during Vietnam, completed residency at National Naval Medical Center, then became the founding Chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn (1987). He is also co-author of the landmark 'Damage Control' paper (J Trauma 1993, with Rotondo). Schwab goes from degree 1 (EAST founder only) to degree 2, gaining an institutional anchor at Penn that connects the trauma module to the University of Pennsylvania — an existing graph institution (Ravdin→Penn already in graph).",
+    "evidence_citation": "PMID: 14530774",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14530774/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Crit Care Med 2003 | MISMATCH: 0 of 22 edge tokens found in article] Schwab CW, Reilly PM, Haut E, Gracias VH, Kauder DR. 'Training in trauma surgery: quantitative and qualitative aspects of a new paradigm for fellowship.' Ann Surg. 2003 Oct;238(4):596-604. Schwab's own article documenting the design and outcomes of the Penn trauma fellowship he founded in 1989. By 2003, the program had trained dozens of fellows. As of 2024, over 100 fellows have completed the program and 'are now practicing around the world,' including 'Deans, Chief Executive Officers, Chairs of Surgery' per Penn's current fellowship website. Schwab (b. ~1944) was a Navy surgeon during Vietnam, completed residency at National Naval Medical Center, then became the founding Chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn (1987). He is also co-author of the landmark 'Damage Control' paper (J Trauma 1993, with Rotondo). Schwab goes from degree 1 (EAST founder only) to degree 2, gaining an institutional anchor at Penn that connects the trauma module to the University of Pennsylvania — an existing graph institution (Ravdin→Penn already in graph).",
     "module": "09_trauma_acute_infection"
   },
   {

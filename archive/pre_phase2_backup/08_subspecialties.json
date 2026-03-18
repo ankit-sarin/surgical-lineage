@@ -56,11 +56,11 @@
     "start_year": 1899,
     "end_year": 1910,
     "temporal_range": "1899-1910",
-    "evidence_citation": "PMID: 34747915",
+    "evidence_citation": "PMID: 10926590",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34747915/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 10926590 -> PMID: 34747915 on 2026-03-17] [Verified 2026-03-17 | Dis Colon Rectum 2021 | content_match] Mathews was appointed the first Professor of Proctology, establishing the first formal academic department for the specialty in the US.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10926590/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | BMJ 2000 | MISMATCH: 0 of 17 edge tokens found in article] Mathews was appointed the first Professor of Proctology, establishing the first formal academic department for the specialty in the US.",
     "module": "08_subspecialties"
   },
   {
@@ -72,11 +72,11 @@
     "start_year": 1899,
     "end_year": 1899,
     "temporal_range": "1899",
-    "evidence_citation": "Historical_Archive_Society",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 10926590 to institutional_archive on 2026-03-17 — no PubMed source found] Mathews served as the first president and primary founder of the American Proctologic Society.",
+    "evidence_citation": "PMID: 10926590",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10926590/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | BMJ 2000 | MISMATCH: 0 of 13 edge tokens found in article] Mathews served as the first president and primary founder of the American Proctologic Society.",
     "module": "08_subspecialties"
   },
   {
@@ -152,11 +152,11 @@
     "start_year": 1924,
     "end_year": 1952,
     "temporal_range": "1924-1952",
-    "evidence_citation": "PMID: 38441192",
+    "evidence_citation": "PMID: 12150380",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/38441192/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 12150380 -> PMID: 38441192 on 2026-03-17] [Verified 2026-03-17 | Dis Colon Rectum 2024 | content_match] Buie established the Section of Proctology at the Mayo Clinic, formalizing the institutional subspecialty.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12150380/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | J Voice 2002 | MISMATCH: 0 of 12 edge tokens found in article] Buie established the Section of Proctology at the Mayo Clinic, formalizing the institutional subspecialty.",
     "module": "08_subspecialties"
   },
   {
@@ -216,11 +216,11 @@
     "start_year": 1930,
     "end_year": 1932,
     "temporal_range": "1930-1932",
-    "evidence_citation": "PMID: 39504428",
+    "evidence_citation": "PMID: 21856431",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/39504428/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 21856431 -> PMID: 39504428 on 2026-03-17] [Verified 2026-03-17 | J Craniofac Surg 2025 | content_match] McIndoe, Gillies' cousin, was directly trained by him before leading the WWII Guinea Pig Club at East Grinstead.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/21856431/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Neuroimage 2012 | MISMATCH: 0 of 13 edge tokens found in article] McIndoe, Gillies' cousin, was directly trained by him before leading the WWII Guinea Pig Club at East Grinstead.",
     "module": "08_subspecialties"
   },
   {
@@ -247,11 +247,11 @@
     "start_year": 1934,
     "end_year": 1938,
     "temporal_range": "1934-1938",
-    "evidence_citation": "PMID: 31759657",
+    "evidence_citation": "PMID: 10493481",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31759657/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10493481/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 10493481 -> PMID: 31759657 on 2026-03-17] [Verified 2026-03-17 | J Pediatr Surg 2020 | content_match] Gross served as Ladd's chief resident and eventually succeeded him as Surgeon-in-Chief.",
+    "notes": "[Verified 2026-03-17 | Ann Surg 1999 | weak_match: matched \"served\"; missed succeeded, robert e. gross, william e. ladd] Gross served as Ladd's chief resident and eventually succeeded him as Surgeon-in-Chief.",
     "module": "08_subspecialties"
   },
   {
@@ -327,11 +327,11 @@
     "start_year": 1945,
     "end_year": 1953,
     "temporal_range": "1945-1953",
-    "evidence_citation": "Minnesota_Archive_Mason",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Minnesota Department of Surgery Historical Records",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 6013681 to institutional_archive on 2026-03-17 — no PubMed source found] Mason trained under Wangensteen, carrying the aggressive, physiologically-driven Minnesota surgical culture into his pioneering bariatric work at Iowa.",
+    "evidence_citation": "PMID: 6013681",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/6013681/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Ann Med Leg Criminol Police Sci Toxicol 1966 | MISMATCH: 0 of 16 edge tokens found in article] Mason trained under Wangensteen, carrying the aggressive, physiologically-driven Minnesota surgical culture into his pioneering bariatric work at Iowa.",
     "module": "08_subspecialties"
   },
   {
@@ -343,11 +343,11 @@
     "start_year": 1946,
     "end_year": 1947,
     "temporal_range": "1946-1947",
-    "evidence_citation": "Historical_Archive_Koop",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 18412001 to institutional_archive on 2026-03-17 — no PubMed source found] Koop completed a highly concentrated fellowship under Gross before moving to Philadelphia.",
+    "evidence_citation": "PMID: 18412001",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18412001/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Nurs Manag (Harrow) 2008 | MISMATCH: 0 of 14 edge tokens found in article] Koop completed a highly concentrated fellowship under Gross before moving to Philadelphia.",
     "module": "08_subspecialties"
   },
   {
@@ -375,11 +375,11 @@
     "start_year": 1948,
     "end_year": 1981,
     "temporal_range": "1948-1981",
-    "evidence_citation": "PMID: 31711741",
+    "evidence_citation": "PMID: 35001182",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31711741/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35001182/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 35001182 -> PMID: 31711741 on 2026-03-17] [Verified 2026-03-17 | J Pediatr Surg 2020 | content_match] Koop founded the surgical program at CHOP, establishing it as the second major pillar of pediatric surgery.",
+    "notes": "[Verified 2026-03-17 | J Egypt Natl Canc Inst 2022 | weak_match: matched \"surgery\"; missed program, founded, everett] Koop founded the surgical program at CHOP, establishing it as the second major pillar of pediatric surgery.",
     "module": "08_subspecialties"
   },
   {
@@ -391,11 +391,11 @@
     "start_year": 1948,
     "end_year": 1949,
     "temporal_range": "1948-1949",
-    "evidence_citation": "PMID: 24835875",
+    "evidence_citation": "PMID: 11452297",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24835875/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 11452297 -> PMID: 24835875 on 2026-03-17] [Verified 2026-03-17 | Ann Plast Surg 2014 | content_match] Millard sought out Gillies in England for specialized training, heavily influencing his later cleft lip innovations.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11452297/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Nature 2001 | MISMATCH: 0 of 15 edge tokens found in article] Millard sought out Gillies in England for specialized training, heavily influencing his later cleft lip innovations.",
     "module": "08_subspecialties"
   },
   {
@@ -438,11 +438,11 @@
     "start_year": 1953,
     "end_year": 1976,
     "temporal_range": "1953-1976",
-    "evidence_citation": "PMID: 41568721",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/41568721/",
+    "evidence_citation": "DOI: 10.1007/BF02553389",
+    "evidence_type": "DOI",
+    "evidence_locator": "https://doi.org/10.1007/BF02553389",
     "confidence": "high",
-    "notes": "[Phase2 replaced DOI: 10.1007/BF02553389 -> PMID: 41568721 on 2026-03-17] [Verified 2026-03-17 | Dis Colon Rectum 2026 | content_match] Rupert Beach Turnbull Jr. (1913-1981) completed surgical training at the Cleveland Clinic under Tom Jones and inherited the colonic and rectal surgery patients after Jones's death. He developed the no-touch isolation technique for colon cancer, pioneered enterostomal therapy, and built the Department of Colon and Rectal Surgery into a world-leading program. Head of department until mandatory retirement in 1976. The Rupert B. Turnbull Surgical Society was founded in 1976 by his former trainees. Source: Corman ML (ed.), Turnbull obituary, Dis Colon Rectum 26(6):416-423, 1983. Written by Victor W. Fazio. PMID not confirmed for this obituary; DOI verified."
+    "notes": "[Verified 2026-03-17 | Diseases of the Colon &amp; Rectum 1983 | weak_match: matched \"beach\", \"turnbull\", \"1913-1981\"; missed colonic, inherited, patients] Rupert Beach Turnbull Jr. (1913-1981) completed surgical training at the Cleveland Clinic under Tom Jones and inherited the colonic and rectal surgery patients after Jones's death. He developed the no-touch isolation technique for colon cancer, pioneered enterostomal therapy, and built the Department of Colon and Rectal Surgery into a world-leading program. Head of department until mandatory retirement in 1976. The Rupert B. Turnbull Surgical Society was founded in 1976 by his former trainees. Source: Corman ML (ed.), Turnbull obituary, Dis Colon Rectum 26(6):416-423, 1983. Written by Victor W. Fazio. PMID not confirmed for this obituary; DOI verified."
   },
   {
     "source_node": "Hayes Martin",
@@ -500,11 +500,11 @@
     "start_year": 1966,
     "end_year": 1990,
     "temporal_range": "1966-1990",
-    "evidence_citation": "of_Archive_Mason",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "University of Iowa Bariatric Surgery Program Historical Records",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 6013681 to institutional_archive on 2026-03-17 — no PubMed source found] Mason established the first dedicated bariatric program, pioneering the gastric bypass and shifting the field away from high-complication intestinal bypasses.",
+    "evidence_citation": "PMID: 6013681",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/6013681/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Ann Med Leg Criminol Police Sci Toxicol 1966 | MISMATCH: 0 of 20 edge tokens found in article] Mason established the first dedicated bariatric program, pioneering the gastric bypass and shifting the field away from high-complication intestinal bypasses.",
     "module": "08_subspecialties"
   },
   {
@@ -516,11 +516,11 @@
     "start_year": 1969,
     "end_year": 1993,
     "temporal_range": "1969-1993",
-    "evidence_citation": "PMID: 1772528",
+    "evidence_citation": "PMID: 11469062",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/1772528/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 11469062 -> PMID: 1772528 on 2026-03-17] [Verified 2026-03-17 | Rev Fr Transfus Hemobiol 1991 | content_match] Bismuth established one of the first dedicated hepatobiliary units, pioneering complex liver resections and formalizing the European HPB training model.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11469062/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Anesthesiol Clin North Am 2001 | MISMATCH: 0 of 21 edge tokens found in article] Bismuth established one of the first dedicated hepatobiliary units, pioneering complex liver resections and formalizing the European HPB training model.",
     "module": "08_subspecialties"
   },
   {
@@ -568,7 +568,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35731977/",
     "confidence": "high",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] Victor Warren Fazio (1940-2015) came to Cleveland Clinic in 1973 as a fellow in Colon and Rectal Surgery under Rupert Turnbull, after completing a hepatobiliary fellowship at the Lahey Clinic in Boston. Born in Sydney, Australia; FRACS 1971; served with the Australian Surgical Team in Vietnam 1971. Within one year of arrival he was selected to lead the department. Source: Church JM. Legacy of Dr. Victor Fazio, Master of Pouch Surgery. Dis Colon Rectum. 2022;65(S1):S1-S4. Also confirmed by Case Western Reserve Encyclopedia of Cleveland History and RACS obituary."
+    "notes": "[Verified 2026-03-17 | Dis Colon Rectum 2022 | weak_match: matched \"victor\", \"surgery\", \"fazio\"; missed rupert b. turnbull, rectal, clinic] Victor Warren Fazio (1940-2015) came to Cleveland Clinic in 1973 as a fellow in Colon and Rectal Surgery under Rupert Turnbull, after completing a hepatobiliary fellowship at the Lahey Clinic in Boston. Born in Sydney, Australia; FRACS 1971; served with the Australian Surgical Team in Vietnam 1971. Within one year of arrival he was selected to lead the department. Source: Church JM. Legacy of Dr. Victor Fazio, Master of Pouch Surgery. Dis Colon Rectum. 2022;65(S1):S1-S4. Also confirmed by Case Western Reserve Encyclopedia of Cleveland History and RACS obituary."
   },
   {
     "source_node": "Victor W. Fazio",
@@ -583,7 +583,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35731977/",
     "confidence": "high",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] Fazio succeeded Turnbull as chairman of the Department of Colorectal Surgery in 1975 at age 35, one of the youngest department chiefs in Cleveland Clinic history. Served 33 years as chairman, expanding the department from 4 colorectal surgeons to a staff performing 5,000+ surgeries annually. Named chairman of the Digestive Disease Institute in 2008. The department maintained preeminence in surgery for Crohn's disease and performed more operations for ulcerative colitis than any other institution worldwide. Fazio trained generations of colorectal surgeons, including Feza Remzi, James Church, Tracy Hull, Jeff Milsom, and David Jagelman. Appointed to the Rupert B. Turnbull Chair in Colorectal Surgery in 1996. Also served as president of the American Board of Colon and Rectal Surgery."
+    "notes": "[Verified 2026-03-17 | Dis Colon Rectum 2022 | weak_match: matched \"fazio\", \"victor\", \"surgery\"; missed youngest, succeeded, years] Fazio succeeded Turnbull as chairman of the Department of Colorectal Surgery in 1975 at age 35, one of the youngest department chiefs in Cleveland Clinic history. Served 33 years as chairman, expanding the department from 4 colorectal surgeons to a staff performing 5,000+ surgeries annually. Named chairman of the Digestive Disease Institute in 2008. The department maintained preeminence in surgery for Crohn's disease and performed more operations for ulcerative colitis than any other institution worldwide. Fazio trained generations of colorectal surgeons, including Feza Remzi, James Church, Tracy Hull, Jeff Milsom, and David Jagelman. Appointed to the Rupert B. Turnbull Chair in Colorectal Surgery in 1996. Also served as president of the American Board of Colon and Rectal Surgery."
   },
   {
     "source_node": "Norman Thompson",
@@ -610,11 +610,11 @@
     "start_year": 1983,
     "end_year": 1984,
     "temporal_range": "1983-1984",
-    "evidence_citation": "Historical_Archive_Surgery",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 31659590 to institutional_archive on 2026-03-17 — no PubMed source found] Mason organized the founding of the ASBS to establish rigorous clinical standards for the rapidly expanding field of weight-loss surgery.",
+    "evidence_citation": "PMID: 31659590",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31659590/",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | AAPS PharmSciTech 2019 | weak_match: matched \"for\"; missed field, rapidly, society] Mason organized the founding of the ASBS to establish rigorous clinical standards for the rapidly expanding field of weight-loss surgery.",
     "module": "08_subspecialties"
   },
   {
@@ -835,8 +835,8 @@
     "evidence_citation": "PMID: 22136854",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22136854/",
-    "confidence": "high",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] Norman Winslow Thompson spent his entire academic career at the University of Michigan, where he trained and rose to become the Henry King Ransom Professor of Surgery. He established the Division of Endocrine Surgery in 1979 (the first of its kind in the US), created the first comprehensive endocrine surgery fellowship in 1984, and co-founded the AAES in 1979 (serving as inaugural president, 1980). Thompson (Surgery 2011, PMID 22136854) authored the account of the AAES founding. The ASA memorial confirms his entire career was at Michigan. Exact residency dates approximated. Confidence moderate due to estimated training dates; the institutional relationship itself is unambiguous. BRIDGE EDGE: Merges the AAES/Thompson island (Component 8, 2 nodes) into the main component via the University of Michigan node (Coller's department in 02_general_surgery_spread).",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Surgery 2011 | MISMATCH: 1 of 21 edge tokens found in article] Norman Winslow Thompson spent his entire academic career at the University of Michigan, where he trained and rose to become the Henry King Ransom Professor of Surgery. He established the Division of Endocrine Surgery in 1979 (the first of its kind in the US), created the first comprehensive endocrine surgery fellowship in 1984, and co-founded the AAES in 1979 (serving as inaugural president, 1980). Thompson (Surgery 2011, PMID 22136854) authored the account of the AAES founding. The ASA memorial confirms his entire career was at Michigan. Exact residency dates approximated. Confidence moderate due to estimated training dates; the institutional relationship itself is unambiguous. BRIDGE EDGE: Merges the AAES/Thompson island (Component 8, 2 nodes) into the main component via the University of Michigan node (Coller's department in 02_general_surgery_spread).",
     "module": "08_subspecialties"
   },
   {
@@ -852,7 +852,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1007/bf02586849",
     "confidence": "moderate",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] St. Mark's Hospital and the ASCRS have maintained a formal institutional relationship through the Tripartite Colorectal Meeting, a rotating international conference jointly organized by the ASCRS, St. Mark's (via the Association of Coloproctology of Great Britain and Ireland, ACPGBI), and the Colorectal Surgical Society of Australia and New Zealand. The first Tripartite meeting was held in 1993. The St. Mark's Hospital Surgical Training Program (Dis Colon Rectum 1980, DOI 10.1007/bf02586849) documents the institutional training relationship. PMID 33421312 was incorrect (ophthalmology article); corrected to DOI during V5 PMID verification. St. Mark's surgeons have been regular visiting professors at ASCRS and vice versa, and the institutions share fellowship exchange programs. This is an observational_study edge representing sustained institutional knowledge exchange rather than a formal accreditation or governance relationship. Confidence moderate because the relationship is bilateral and collegial rather than hierarchical. BRIDGE EDGE: Merges the Salmon/St. Mark's island (Component 5, 2 nodes) into the main component via the ASCRS node in 08_subspecialties.",
+    "notes": "[Verified 2026-03-17 | Diseases of the Colon &amp; Rectum 1980 | weak_match: matched \"mark's\", \"hospital\"; missed tripartite, st. mark's hospital for fistula and other diseases of the rectum, rectal] St. Mark's Hospital and the ASCRS have maintained a formal institutional relationship through the Tripartite Colorectal Meeting, a rotating international conference jointly organized by the ASCRS, St. Mark's (via the Association of Coloproctology of Great Britain and Ireland, ACPGBI), and the Colorectal Surgical Society of Australia and New Zealand. The first Tripartite meeting was held in 1993. The St. Mark's Hospital Surgical Training Program (Dis Colon Rectum 1980, DOI 10.1007/bf02586849) documents the institutional training relationship. PMID 33421312 was incorrect (ophthalmology article); corrected to DOI during V5 PMID verification. St. Mark's surgeons have been regular visiting professors at ASCRS and vice versa, and the institutions share fellowship exchange programs. This is an observational_study edge representing sustained institutional knowledge exchange rather than a formal accreditation or governance relationship. Confidence moderate because the relationship is bilateral and collegial rather than hierarchical. BRIDGE EDGE: Merges the Salmon/St. Mark's island (Component 5, 2 nodes) into the main component via the ASCRS node in 08_subspecialties.",
     "module": "08_subspecialties"
   },
   {
@@ -868,7 +868,7 @@
     "evidence_type": "DOI",
     "evidence_locator": "https://doi.org/10.1016/j.jpedsurg.2008.01.016",
     "confidence": "moderate",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] Moses Judah Folkman (1933-2008) worked in the surgical laboratory of Robert E. Gross, then surgeon-in-chief at Children's Hospital Boston, during his Harvard Medical School years (1953-1957). The J Pediatr Surg obituary (Judah M. Folkman, MD, 1933-2008; J Pediatr Surg 2008, DOI 10.1016/j.jpedsurg.2008.01.016) states Folkman 'entered the Harvard Medical School where he began working in the surgical laboratory of Dr Robert E. Gross' and the Harvard CHSI confirms this. During this time Folkman co-invented the first implantable heart pacemaker. His formal surgical residency was at MGH (1957-1965, interrupted by Navy service 1960-1962), followed by 6 months of pediatric surgery training under C. Everett Koop at CHOP. Confidence moderate because the Gross-Folkman relationship was a medical school laboratory mentorship rather than a formal surgical residency, though the intellectual mentorship was pivotal — Folkman returned to lead the same institution Gross had built. The existing Gross→Koop edge was a formal residency, so this is a different type of training relationship.",
+    "notes": "[Verified 2026-03-17 | Journal of Pediatric Surgery 2008 | weak_match: matched \"folkman\", \"1933-2008\", \"judah\"; missed surgical, moses, 1953-1957] Moses Judah Folkman (1933-2008) worked in the surgical laboratory of Robert E. Gross, then surgeon-in-chief at Children's Hospital Boston, during his Harvard Medical School years (1953-1957). The J Pediatr Surg obituary (Judah M. Folkman, MD, 1933-2008; J Pediatr Surg 2008, DOI 10.1016/j.jpedsurg.2008.01.016) states Folkman 'entered the Harvard Medical School where he began working in the surgical laboratory of Dr Robert E. Gross' and the Harvard CHSI confirms this. During this time Folkman co-invented the first implantable heart pacemaker. His formal surgical residency was at MGH (1957-1965, interrupted by Navy service 1960-1962), followed by 6 months of pediatric surgery training under C. Everett Koop at CHOP. Confidence moderate because the Gross-Folkman relationship was a medical school laboratory mentorship rather than a formal surgical residency, though the intellectual mentorship was pivotal — Folkman returned to lead the same institution Gross had built. The existing Gross→Koop edge was a formal residency, so this is a different type of training relationship.",
     "module": "08_subspecialties"
   },
   {
@@ -880,11 +880,11 @@
     "start_year": 1967,
     "end_year": 1981,
     "temporal_range": "1967-1981",
-    "evidence_citation": "PMID: 28207107",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28207107/",
+    "evidence_citation": "DOI: 10.1016/j.jpedsurg.2008.01.016",
+    "evidence_type": "DOI",
+    "evidence_locator": "https://doi.org/10.1016/j.jpedsurg.2008.01.016",
     "confidence": "high",
-    "notes": "[Phase2 replaced DOI: 10.1016/j.jpedsurg.2008.01.016 -> PMID: 28207107 on 2026-03-17] [Verified 2026-03-17 | Int J Biol Markers 2008 | content_match] Folkman was appointed surgeon-in-chief of Children's Hospital Boston in 1967 at age 34, becoming the youngest full professor in Harvard Medical School history the following year (Julia Dyckman Andrus Professor of Pediatric Surgery, 1968). He served as surgeon-in-chief for 14 years until stepping down in 1981 to devote full time to angiogenesis research. The Boston Children's Hospital history page confirms the succession: Ladd (founder) -> Gross -> Folkman. This creates the chain Ladd→Gross→Folkman at Boston Children's, paralleling the Sabiston→Anderson→Duke pattern. Folkman's 1971 NEJM paper proposing that tumor growth is angiogenesis-dependent founded an entirely new field of biology and led to FDA-approved antiangiogenic cancer drugs (bevacizumab/Avastin and others) — one of surgery's most significant contributions to cancer biology. Over 1,000 labs worldwide now pursue angiogenesis research.",
+    "notes": "[Verified 2026-03-17 | Journal of Pediatric Surgery 2008 | weak_match: matched \"folkman\", \"judah\"; missed becoming, professor, youngest] Folkman was appointed surgeon-in-chief of Children's Hospital Boston in 1967 at age 34, becoming the youngest full professor in Harvard Medical School history the following year (Julia Dyckman Andrus Professor of Pediatric Surgery, 1968). He served as surgeon-in-chief for 14 years until stepping down in 1981 to devote full time to angiogenesis research. The Boston Children's Hospital history page confirms the succession: Ladd (founder) -> Gross -> Folkman. This creates the chain Ladd→Gross→Folkman at Boston Children's, paralleling the Sabiston→Anderson→Duke pattern. Folkman's 1971 NEJM paper proposing that tumor growth is angiogenesis-dependent founded an entirely new field of biology and led to FDA-approved antiangiogenic cancer drugs (bevacizumab/Avastin and others) — one of surgery's most significant contributions to cancer biology. Over 1,000 labs worldwide now pursue angiogenesis research.",
     "module": "08_subspecialties"
   },
   {

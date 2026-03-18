@@ -24,11 +24,11 @@
     "start_year": 1981,
     "end_year": 1981,
     "temporal_range": "1981",
-    "evidence_citation": "PMID: 16544065",
+    "evidence_citation": "PMID: 24002773",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16544065/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24002773/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 24002773 -> PMID: 16544065 on 2026-03-17] [Verified 2026-03-17 | Surg Endosc 2006 | content_match] Berci co-founded SAGES to champion the integration of endoscopy and minimally invasive techniques into general surgery.",
+    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2014 | weak_match: matched \"and\"; missed endoscopic, george berci, sages] Berci co-founded SAGES to champion the integration of endoscopy and minimally invasive techniques into general surgery.",
     "module": "11_mis_robotic"
   },
   {
@@ -72,11 +72,11 @@
     "start_year": 1987,
     "end_year": 1988,
     "temporal_range": "1987-1988",
-    "evidence_citation": "PMID: 10444020",
+    "evidence_citation": "PMID: 10562635",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10444020/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 10562635 -> PMID: 10444020 on 2026-03-17] [Verified 2026-03-17 | JSLS 1999 | content_match] Dubois adopted and modified the laparoscopic cholecystectomy technique after observing Mouret's initial breakthrough.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10562635/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | J Appl Physiol (1985) 1999 | MISMATCH: 0 of 16 edge tokens found in article] Dubois adopted and modified the laparoscopic cholecystectomy technique after observing Mouret's initial breakthrough.",
     "module": "11_mis_robotic"
   },
   {
@@ -88,11 +88,11 @@
     "start_year": 1988,
     "end_year": 1989,
     "temporal_range": "1988-1989",
-    "evidence_citation": "PMID: 10444020",
+    "evidence_citation": "PMID: 2682975",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10444020/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2682975 -> PMID: 10444020 on 2026-03-17] [Verified 2026-03-17 | JSLS 1999 | content_match] Reddick traveled to Paris to observe Dubois, subsequently performing early laparoscopic cholecystectomies in the US.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2682975/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Rev Gastroenterol Mex 1989 | MISMATCH: 0 of 15 edge tokens found in article] Reddick traveled to Paris to observe Dubois, subsequently performing early laparoscopic cholecystectomies in the US.",
     "module": "11_mis_robotic"
   },
   {
@@ -104,11 +104,11 @@
     "start_year": 1989,
     "end_year": 2000,
     "temporal_range": "1989-2000",
-    "evidence_citation": "PMID: 18945707",
+    "evidence_citation": "PMID: 24002773",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18945707/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 24002773 -> PMID: 18945707 on 2026-03-17] [Verified 2026-03-17 | Surg Innov 2008 | content_match] Reddick's introduction of laparoscopic cholecystectomy to the US was disseminated through SAGES meetings and training infrastructure, making SAGES the governance vehicle for the MIS revolution.",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24002773/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | J Gastrointest Surg 2014 | MISMATCH: 1 of 25 edge tokens found in article] Reddick's introduction of laparoscopic cholecystectomy to the US was disseminated through SAGES meetings and training infrastructure, making SAGES the governance vehicle for the MIS revolution.",
     "module": "11_mis_robotic"
   },
   {

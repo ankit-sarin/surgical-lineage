@@ -8,11 +8,11 @@
     "start_year": 1889,
     "end_year": 1922,
     "temporal_range": "1889-1922",
-    "evidence_citation": "PMID: 32481787",
+    "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32481787/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2446524 -> PMID: 32481787 on 2026-03-17] [Verified 2026-03-17 | R I Med J (2013) 2020 | content_match] Halsted established the first formal surgical residency training program in the United States, cementing the institutional root of modern surgical education."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 1 of 23 edge tokens found in article] Halsted established the first formal surgical residency training program in the United States, cementing the institutional root of modern surgical education."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -23,11 +23,11 @@
     "start_year": 1889,
     "end_year": 1899,
     "temporal_range": "1889-1899",
-    "evidence_citation": "PMID: 29189382",
+    "evidence_citation": "PMID: 26645476",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 26645476 -> PMID: 29189382 on 2026-03-17] [Verified 2026-03-17 | Ann Surg 2018 | content_match] Finney served as Halsted's first resident and primary deputy, serving as the critical bridge to the next generation of American general surgeons."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26645476/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Epidemiol Infect 2016 | MISMATCH: 0 of 20 edge tokens found in article] Finney served as Halsted's first resident and primary deputy, serving as the critical bridge to the next generation of American general surgeons."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -53,11 +53,11 @@
     "start_year": 1895,
     "end_year": 1898,
     "temporal_range": "1895-1898",
-    "evidence_citation": "PMID: 23035261",
+    "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23035261/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2446524 -> PMID: 23035261 on 2026-03-17] [Verified 2026-03-17 | Aktuelle Urol 2012 | content_match] Young trained as an assistant surgeon under Halsted before being appointed to head the genitourinary dispensary in 1897."
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | weak_match: matched \"under\"; missed william stewart halsted, william, genitourinary] Young trained as an assistant surgeon under Halsted before being appointed to head the genitourinary dispensary in 1897."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -68,11 +68,11 @@
     "start_year": 1896,
     "end_year": 1912,
     "temporal_range": "1896-1912",
-    "evidence_citation": "PMID: 29099433",
+    "evidence_citation": "PMID: 28489324",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29099433/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 28489324 -> PMID: 29099433 on 2026-03-17] [Verified 2026-03-17 | Anesth Analg 2018 | content_match] Cushing served as Halsted's resident and later established the Hunterian Laboratory."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28489324/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Catheter Cardiovasc Interv 2017 | MISMATCH: 0 of 14 edge tokens found in article] Cushing served as Halsted's resident and later established the Hunterian Laboratory."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -83,11 +83,11 @@
     "start_year": 1903,
     "end_year": 1904,
     "temporal_range": "1903-1904",
-    "evidence_citation": "Historical_Archive_Homans",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Brigham Department of Surgery Historical Records",
-    "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 — no PubMed source found] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach."
+    "evidence_citation": "PMID: 10871146",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10871146/",
+    "confidence": "high",
+    "notes": "[Verified 2026-03-17 | J Orthop Sports Phys Ther 2000 | weak_match: matched \"before\", \"under\"; missed william stewart halsted, surgical, influenced] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -98,11 +98,11 @@
     "start_year": 1907,
     "end_year": 1914,
     "temporal_range": "1907-1914",
-    "evidence_citation": "PMID: 22365877",
+    "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22365877/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2446524 -> PMID: 22365877 on 2026-03-17] [Verified 2026-03-17 | J Surg Educ 2012 | content_match] Heuer served as Halsted's chief resident and later became chairman of surgery at Cornell/New York Hospital."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 0 of 17 edge tokens found in article] Heuer served as Halsted's chief resident and later became chairman of surgery at Cornell/New York Hospital."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -113,11 +113,11 @@
     "start_year": 1911,
     "end_year": 1914,
     "temporal_range": "1911-1914",
-    "evidence_citation": "PMID: 10617047",
+    "evidence_citation": "PMID: 13032549",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10617047/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 13032549 -> PMID: 10617047 on 2026-03-17] [Verified 2026-03-17 | Ann Thorac Surg 1999 | content_match] Brooks trained at Hopkins under Halsted before moving to Washington University and eventually Vanderbilt."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/13032549/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Br Med J 1953 | MISMATCH: 0 of 16 edge tokens found in article] Brooks trained at Hopkins under Halsted before moving to Washington University and eventually Vanderbilt."
   },
   {
     "source_node": "William Stewart Halsted",
@@ -143,11 +143,11 @@
     "start_year": 1914,
     "end_year": 1918,
     "temporal_range": "1914-1918",
-    "evidence_citation": "PMID: 27400656",
+    "evidence_citation": "PMID: 2446524",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/27400656/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 2446524 -> PMID: 27400656 on 2026-03-17] [Verified 2026-03-17 | J Surg Educ 2016 | content_match] Reid served as Halsted's resident and was a key adopter of his meticulous tissue handling techniques."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/2446524/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Anal Biochem 1987 | MISMATCH: 0 of 15 edge tokens found in article] Reid served as Halsted's resident and was a key adopter of his meticulous tissue handling techniques."
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",
@@ -173,11 +173,11 @@
     "start_year": 1919,
     "end_year": 1923,
     "temporal_range": "1919-1923",
-    "evidence_citation": "PMID: 27400656",
+    "evidence_citation": "PMID: 4885802",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/27400656/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 4885802 -> PMID: 27400656 on 2026-03-17] [Verified 2026-03-17 | J Surg Educ 2016 | content_match] Holman was Halsted's final chief resident before Halsted's death in 1922."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4885802/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Int Rev Neurobiol 1968 | MISMATCH: 0 of 13 edge tokens found in article] Holman was Halsted's final chief resident before Halsted's death in 1922."
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",

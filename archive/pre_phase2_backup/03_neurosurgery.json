@@ -23,11 +23,11 @@
     "start_year": 1910,
     "end_year": 1912,
     "temporal_range": "1910-1912",
-    "evidence_citation": "PMID: 40212222",
+    "evidence_citation": "PMID: 15007469",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/40212222/",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15007469/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 15007469 -> PMID: 40212222 on 2026-03-17] [Verified 2026-03-17 | Ann Med Surg (Lond) 2025 | content_match] Dandy worked in the Hunterian Laboratory under Cushing before Cushing's departure."
+    "notes": "[Verified 2026-03-17 | Shanghai Kou Qiang Yi Xue 2004 | weak_match: matched \"before\"; missed harvey cushing, dandy, hunterian] Dandy worked in the Hunterian Laboratory under Cushing before Cushing's departure."
   },
   {
     "source_node": "Harvey Cushing",
@@ -38,11 +38,11 @@
     "start_year": 1912,
     "end_year": 1932,
     "temporal_range": "1912-1932",
-    "evidence_citation": "PMID: 32823265",
+    "evidence_citation": "PMID: 28489324",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32823265/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 28489324 -> PMID: 32823265 on 2026-03-17] [Verified 2026-03-17 | J Neurosurg 2021 | content_match] Cushing established the first dedicated neurosurgical service at Brigham."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28489324/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Catheter Cardiovasc Interv 2017 | MISMATCH: 0 of 14 edge tokens found in article] Cushing established the first dedicated neurosurgical service at Brigham."
   },
   {
     "source_node": "Harvey Cushing",
@@ -68,11 +68,11 @@
     "start_year": 1919,
     "end_year": 1928,
     "temporal_range": "1919-1928",
-    "evidence_citation": "PMID: 36461823",
+    "evidence_citation": "PMID: 18344917",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/36461823/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 18344917 -> PMID: 36461823 on 2026-03-17] [Verified 2026-03-17 | J Neurosurg 2023 | content_match] Bailey trained under Cushing at Brigham, co-developing tumor classification."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18344917/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Acta Reumatol Port 2008 | MISMATCH: 0 of 12 edge tokens found in article] Bailey trained under Cushing at Brigham, co-developing tumor classification."
   },
   {
     "source_node": "Harvey Cushing",
@@ -98,11 +98,11 @@
     "start_year": 1926,
     "end_year": 1946,
     "temporal_range": "1926-1946",
-    "evidence_citation": "PMID: 40609741",
+    "evidence_citation": "PMID: 20305736",
     "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/40609741/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 20305736 -> PMID: 40609741 on 2026-03-17] [Verified 2026-03-17 | Neurocirugia (Engl Ed) 2025 | content_match] Dandy established the first dedicated neurosurgical intensive care unit."
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20305736/",
+    "confidence": "low",
+    "notes": "[Verified 2026-03-17 | Open Biomark J 2008 | MISMATCH: 0 of 13 edge tokens found in article] Dandy established the first dedicated neurosurgical intensive care unit."
   },
   {
     "source_node": "Howard Naffziger",
