@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Citation Repair Adjudicator — Phase 1.75</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ds-primary: #0A5E56;
+  --ds-primary-mid: #3D8B82;
+  --ds-primary-light: #DFF0ED;
+  --ds-dark: #2C2C2C;
+  --ds-accent: #B85D3A;
+  --ds-accent-light: #F2E0D6;
+  --ds-surface: #DFEBE9;
+  --ds-bg: #EEF5F4;
+  --ds-text: #2C2C2C;
+  --ds-text-muted: #6B6B6B;
+  --ds-border: #C5CDD6;
+  --ds-font-heading: 'Fraunces', Georgia, serif;
+  --ds-font-body: 'IBM Plex Sans', Calibri, sans-serif;
+  --ds-font-mono: 'IBM Plex Mono', 'JetBrains Mono', Consolas, monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--ds-font-body);
+  background: var(--ds-bg);
+  color: var(--ds-text);
+  line-height: 1.6;
+}
+
+/* ── Header ── */
+.header {
+  background: var(--ds-primary);
+  color: #fff;
+  padding: 28px 40px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.header h1 {
+  font-family: var(--ds-font-heading);
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.header-sub {
+  font-size: 13px;
+  color: var(--ds-surface);
+  margin-top: 4px;
+  font-weight: 400;
+}
+.header-controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-controls .stat-chip {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.header-controls .stat-chip .num {
+  font-weight: 700;
+  font-family: var(--ds-font-mono);
+}
+
+/* ── Toolbar ── */
+.toolbar {
+  background: #fff;
+  border-bottom: 1px solid var(--ds-border);
+  padding: 10px 40px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 106px;
+  z-index: 99;
+}
+.toolbar label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ds-text-muted);
+}
+.toolbar select, .toolbar input[type="text"] {
+  font-family: var(--ds-font-body);
+  font-size: 13px;
+  padding: 5px 10px;
+  border: 1px solid var(--ds-border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ds-text);
+}
+.toolbar input[type="text"] { width: 200px; }
+
+.btn {
+  font-family: var(--ds-font-body);
+  font-weight: 600;
+  font-size: 13px;
+  padding: 7px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn:active { transform: scale(0.97); }
+.btn-primary { background: var(--ds-primary); color: #fff; }
+.btn-primary:hover { background: var(--ds-primary-mid); }
+.btn-accent { background: var(--ds-accent); color: #fff; }
+.btn-accent:hover { background: #a04e2f; }
+.btn-outline {
+  background: transparent;
+  color: var(--ds-primary);
+  border: 1.5px solid var(--ds-primary);
+}
+.btn-outline:hover { background: var(--ds-primary-light); }
+.btn-sm { padding: 4px 12px; font-size: 12px; }
+
+.spacer { flex: 1; }
+.progress-text {
+  font-family: var(--ds-font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ds-primary);
+}
+
+/* ── Load screen ── */
+.load-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 20px;
+}
+.load-screen h2 {
+  font-family: var(--ds-font-heading);
+  font-weight: 600;
+  color: var(--ds-primary);
+  font-size: 22px;
+}
+.load-screen p {
+  color: var(--ds-text-muted);
+  font-size: 14px;
+  max-width: 480px;
+  text-align: center;
+}
+.file-drop {
+  width: 400px;
+  height: 160px;
+  border: 2px dashed var(--ds-border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  background: #fff;
+}
+.file-drop:hover, .file-drop.dragover {
+  border-color: var(--ds-primary);
+  background: var(--ds-primary-light);
+}
+.file-drop span { font-size: 14px; color: var(--ds-text-muted); }
+.file-drop .icon { font-size: 32px; opacity: 0.4; }
+
+/* ── Cards ── */
+.cards-container { padding: 20px 40px 120px; }
+
+.edge-card {
+  background: #fff;
+  border: 1px solid var(--ds-border);
+  border-radius: 10px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
+.edge-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+.edge-card.decided { border-left: 4px solid var(--ds-primary-mid); }
+.edge-card.decided .card-status { background: var(--ds-primary-light); color: var(--ds-primary); }
+.edge-card.mismatch .card-badge { background: var(--ds-accent-light); color: var(--ds-accent); }
+.edge-card.weak .card-badge { background: #FFF3E0; color: #E65100; }
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 20px 10px;
+  flex-wrap: wrap;
+}
+.card-num {
+  font-family: var(--ds-font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ds-text-muted);
+  min-width: 32px;
+}
+.card-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.card-edge-name {
+  font-family: var(--ds-font-heading);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--ds-dark);
+  letter-spacing: -0.01em;
+}
+.card-edge-name .arrow { color: var(--ds-accent); margin: 0 6px; }
+.card-meta {
+  font-size: 12px;
+  color: var(--ds-text-muted);
+  margin-left: auto;
+}
+.card-status {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 12px;
+  background: transparent;
+}
+
+/* Current citation (the bad one) */
+.card-current {
+  margin: 0 20px;
+  padding: 10px 14px;
+  background: #FFF5F5;
+  border: 1px solid #FFCDD2;
+  border-radius: 8px;
+  font-size: 13px;
+}
+.card-current .label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #C62828;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 3px;
+}
+.card-current .id-tag {
+  font-family: var(--ds-font-mono);
+  font-weight: 500;
+  color: #C62828;
+}
+.card-current .title-text {
+  color: var(--ds-dark);
+  font-style: italic;
+}
+.card-current .score-tag {
+  font-family: var(--ds-font-mono);
+  font-size: 12px;
+  color: #C62828;
+  font-weight: 500;
+}
+
+/* Candidates */
+.card-candidates {
+  padding: 10px 20px 14px;
+}
+.candidate-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: background 0.12s;
+  border: 1.5px solid transparent;
+}
+.candidate-row:hover { background: var(--ds-primary-light); }
+.candidate-row.selected {
+  background: var(--ds-primary-light);
+  border-color: var(--ds-primary);
+}
+.candidate-row input[type="radio"] {
+  margin-top: 3px;
+  accent-color: var(--ds-primary);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.cand-rank {
+  font-family: var(--ds-font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ds-primary);
+  background: var(--ds-surface);
+  border-radius: 4px;
+  padding: 1px 6px;
+  flex-shrink: 0;
+}
+.cand-info { flex: 1; min-width: 0; }
+.cand-id {
+  font-family: var(--ds-font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ds-primary);
+}
+.cand-title {
+  font-size: 13px;
+  color: var(--ds-dark);
+  line-height: 1.4;
+}
+.cand-journal {
+  font-size: 12px;
+  color: var(--ds-text-muted);
+}
+.cand-score {
+  font-family: var(--ds-font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ds-primary);
+  flex-shrink: 0;
+  padding: 2px 8px;
+  background: var(--ds-surface);
+  border-radius: 6px;
+}
+
+/* Action row for KEEP/ARCHIVE/DELETE */
+.action-row {
+  display: flex;
+  gap: 6px;
+  padding: 0 20px 14px;
+  flex-wrap: wrap;
+}
+.action-btn {
+  font-family: var(--ds-font-body);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1.5px solid var(--ds-border);
+  background: #fff;
+  color: var(--ds-text);
+  transition: all 0.12s;
+}
+.action-btn:hover { border-color: var(--ds-primary); color: var(--ds-primary); }
+.action-btn.selected-keep { background: var(--ds-primary-light); border-color: var(--ds-primary); color: var(--ds-primary); }
+.action-btn.selected-archive { background: #FFF8E1; border-color: #F9A825; color: #F57F17; }
+.action-btn.selected-delete { background: #FFEBEE; border-color: #EF5350; color: #C62828; }
+
+.no-candidates-msg {
+  padding: 8px 14px;
+  margin: 0 20px 10px;
+  background: #FFF8E1;
+  border: 1px solid #FFE082;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #F57F17;
+}
+
+/* ── Footer bar ── */
+.footer-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid var(--ds-border);
+  padding: 12px 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 100;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
+}
+.footer-bar .progress-bar-bg {
+  flex: 1;
+  height: 8px;
+  background: var(--ds-surface);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.footer-bar .progress-bar-fill {
+  height: 100%;
+  background: var(--ds-primary);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .header, .toolbar, .cards-container, .footer-bar { padding-left: 16px; padding-right: 16px; }
+  .toolbar { top: 90px; }
+  .card-top { flex-direction: column; align-items: flex-start; }
+  .card-meta { margin-left: 0; }
+}
+
+/* ── Hidden ── */
+.hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<!-- ── Load screen ── -->
+<div id="loadScreen" class="load-screen">
+  <h2>Citation Repair Adjudicator</h2>
+  <p>Load <code>citation_repair_candidates.json</code> to begin reviewing 111 flagged edges. Select an action for each, then export the adjudicated JSON for Phase 2.</p>
+  <div class="file-drop" id="fileDrop">
+    <div class="icon">&#128196;</div>
+    <span>Drop <strong>citation_repair_candidates.json</strong> here</span>
+    <span style="font-size:12px; color:#999;">or click to browse</span>
+  </div>
+  <input type="file" id="fileInput" accept=".json" style="display:none;">
+  <p style="font-size:12px; color:var(--ds-text-muted); margin-top:8px;">Ankit Sarin, MD &middot; digitalsurgeon.dev</p>
+</div>
+
+<!-- ── Main app (hidden until file loaded) ── -->
+<div id="mainApp" class="hidden">
+  <div class="header">
+    <h1>Citation Repair Adjudicator</h1>
+    <div class="header-sub">Phase 1.75 &middot; Surgical Lineage Atlas</div>
+    <div class="header-controls" id="statsBar"></div>
+  </div>
+
+  <div class="toolbar" id="toolbar">
+    <label>Filter:</label>
+    <select id="filterStatus">
+      <option value="all">All edges</option>
+      <option value="MISMATCH">Mismatch only</option>
+      <option value="WEAK_MATCH">Weak match only</option>
+      <option value="undecided">Undecided</option>
+      <option value="decided">Decided</option>
+    </select>
+    <select id="filterModule">
+      <option value="all">All modules</option>
+    </select>
+    <label>Search:</label>
+    <input type="text" id="searchBox" placeholder="Person, institution, PMID...">
+    <div class="spacer"></div>
+    <span class="progress-text" id="progressText">0 / 111</span>
+    <button class="btn btn-outline btn-sm" onclick="bulkKeepWeak()">KEEP all weak</button>
+    <button class="btn btn-outline btn-sm" onclick="bulkArchiveNoCand()">ARCHIVE no-cand</button>
+    <button class="btn btn-accent" onclick="exportJSON()">Export JSON</button>
+  </div>
+
+  <div class="cards-container" id="cardsContainer"></div>
+
+  <div class="footer-bar">
+    <span class="progress-text" id="footerProgress">0 / 111 decided</span>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill" id="progressFill" style="width:0%"></div>
+    </div>
+    <button class="btn btn-accent" onclick="exportJSON()">Export JSON</button>
+  </div>
+</div>
+
+<script>
+// ── State ──
+let DATA = null;
+let decisions = {}; // edge_id -> action string
+
+// ── File loading ──
+const fileDrop = document.getElementById('fileDrop');
+const fileInput = document.getElementById('fileInput');
+
+fileDrop.addEventListener('click', () => fileInput.click());
+fileDrop.addEventListener('dragover', e => { e.preventDefault(); fileDrop.classList.add('dragover'); });
+fileDrop.addEventListener('dragleave', () => fileDrop.classList.remove('dragover'));
+fileDrop.addEventListener('drop', e => {
+  e.preventDefault();
+  fileDrop.classList.remove('dragover');
+  if (e.dataTransfer.files.length) handleFile(e.dataTransfer.files[0]);
+});
+fileInput.addEventListener('change', e => { if (e.target.files.length) handleFile(e.target.files[0]); });
+
+function handleFile(file) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      DATA = JSON.parse(e.target.result);
+      if (!DATA.edges || !Array.isArray(DATA.edges)) throw new Error('Missing edges array');
+      initApp();
+    } catch (err) {
+      alert('Invalid JSON: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ── Init ──
+function initApp() {
+  document.getElementById('loadScreen').classList.add('hidden');
+  document.getElementById('mainApp').classList.remove('hidden');
+
+  // Pre-populate decisions from any existing action values
+  DATA.edges.forEach(e => {
+    if (e.action) decisions[e.edge_id] = e.action;
+  });
+
+  // Populate module filter
+  const modules = [...new Set(DATA.edges.map(e => e.module))].sort();
+  const sel = document.getElementById('filterModule');
+  modules.forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m;
+    opt.textContent = m.replace('.json', '');
+    sel.appendChild(opt);
+  });
+
+  // Stats bar
+  updateStats();
+
+  // Render
+  renderCards();
+
+  // Filter listeners
+  document.getElementById('filterStatus').addEventListener('change', renderCards);
+  document.getElementById('filterModule').addEventListener('change', renderCards);
+  document.getElementById('searchBox').addEventListener('input', renderCards);
+}
+
+function updateStats() {
+  const total = DATA.edges.length;
+  const mm = DATA.edges.filter(e => e.phase1_5_status === 'MISMATCH').length;
+  const wm = DATA.edges.filter(e => e.phase1_5_status === 'WEAK_MATCH').length;
+  const withCand = DATA.edges.filter(e => e.candidates.length > 0).length;
+  const decided = Object.keys(decisions).length;
+
+  document.getElementById('statsBar').innerHTML = `
+    <span class="stat-chip">Total: <span class="num">${total}</span></span>
+    <span class="stat-chip">Mismatch: <span class="num">${mm}</span></span>
+    <span class="stat-chip">Weak: <span class="num">${wm}</span></span>
+    <span class="stat-chip">With candidates: <span class="num">${withCand}</span></span>
+    <span class="stat-chip">Decided: <span class="num">${decided}</span></span>
+  `;
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = DATA.edges.length;
+  const decided = Object.keys(decisions).length;
+  const pct = total > 0 ? (decided / total * 100) : 0;
+  document.getElementById('progressText').textContent = `${decided} / ${total}`;
+  document.getElementById('footerProgress').textContent = `${decided} / ${total} decided`;
+  document.getElementById('progressFill').style.width = pct + '%';
+}
+
+// ── Rendering ──
+function getFilteredEdges() {
+  const status = document.getElementById('filterStatus').value;
+  const mod = document.getElementById('filterModule').value;
+  const search = document.getElementById('searchBox').value.toLowerCase().trim();
+
+  return DATA.edges.filter(e => {
+    if (status === 'MISMATCH' && e.phase1_5_status !== 'MISMATCH') return false;
+    if (status === 'WEAK_MATCH' && e.phase1_5_status !== 'WEAK_MATCH') return false;
+    if (status === 'undecided' && decisions[e.edge_id]) return false;
+    if (status === 'decided' && !decisions[e.edge_id]) return false;
+    if (mod !== 'all' && e.module !== mod) return false;
+    if (search) {
+      const haystack = `${e.source_node} ${e.target_node} ${e.module} ${e.current_id} ${e.current_title} ${e.edge_id}`.toLowerCase();
+      if (!haystack.includes(search)) return false;
+    }
+    return true;
+  });
+}
+
+function renderCards() {
+  const container = document.getElementById('cardsContainer');
+  const edges = getFilteredEdges();
+
+  // Use DocumentFragment for performance
+  const frag = document.createDocumentFragment();
+
+  edges.forEach((edge, idx) => {
+    const globalIdx = DATA.edges.indexOf(edge);
+    const card = document.createElement('div');
+    const isMM = edge.phase1_5_status === 'MISMATCH';
+    const isDecided = !!decisions[edge.edge_id];
+    card.className = `edge-card ${isMM ? 'mismatch' : 'weak'}${isDecided ? ' decided' : ''}`;
+    card.id = `card-${globalIdx}`;
+
+    const decision = decisions[edge.edge_id] || '';
+
+    let candidatesHTML = '';
+    if (edge.candidates.length > 0) {
+      edge.candidates.forEach(c => {
+        const isSelected = decision === `ACCEPT ${c.rank}`;
+        const pubmedLink = c.type === 'PMID'
+          ? `https://pubmed.ncbi.nlm.nih.gov/${c.id}/`
+          : (c.type === 'DOI' ? `https://doi.org/${c.id}` : '#');
+        candidatesHTML += `
+          <div class="candidate-row${isSelected ? ' selected' : ''}" onclick="selectCandidate('${esc(edge.edge_id)}', ${c.rank}, this)">
+            <input type="radio" name="cand-${globalIdx}" ${isSelected ? 'checked' : ''} />
+            <span class="cand-rank">#${c.rank}</span>
+            <div class="cand-info">
+              <span class="cand-id"><a href="${pubmedLink}" target="_blank" onclick="event.stopPropagation()">${c.type} ${c.id}</a></span>
+              <div class="cand-title">${escHtml(c.title)}</div>
+              <div class="cand-journal">${escHtml(c.journal)} ${c.year}</div>
+            </div>
+            <span class="cand-score">${c.score.toFixed(3)}</span>
+          </div>`;
+      });
+    } else {
+      candidatesHTML = `<div class="no-candidates-msg">No replacement candidates found (${edge.queries_tried || 0} queries tried). Consider ARCHIVE or DELETE.</div>`;
+    }
+
+    const statusLabel = decision
+      ? `<span class="card-status">${escHtml(decision)}</span>`
+      : '';
+
+    card.innerHTML = `
+      <div class="card-top">
+        <span class="card-num">#${globalIdx + 1}</span>
+        <span class="card-badge">${edge.phase1_5_status === 'MISMATCH' ? 'MISMATCH' : 'WEAK'}</span>
+        <span class="card-edge-name">${escHtml(edge.source_node)}<span class="arrow">&rarr;</span>${escHtml(edge.target_node)}</span>
+        <span class="card-meta">${escHtml(edge.module.replace('.json',''))} &middot; ${escHtml(edge.edge_type)} &middot; ${escHtml(edge.temporal_range)}</span>
+        ${statusLabel}
+      </div>
+      <div class="card-current">
+        <div class="label">Current citation (${edge.phase1_5_status})</div>
+        <span class="id-tag">${escHtml(edge.current_id_type)} ${escHtml(edge.current_id)}</span>
+        &mdash; <span class="title-text">${escHtml(edge.current_title)}</span>
+        <span class="score-tag">&nbsp;score: ${edge.phase1_5_score.toFixed(3)}</span>
+      </div>
+      <div class="card-candidates">${candidatesHTML}</div>
+      <div class="action-row">
+        <button class="action-btn${decision === 'KEEP' ? ' selected-keep' : ''}" onclick="setAction('${esc(edge.edge_id)}', 'KEEP', ${globalIdx})">KEEP</button>
+        <button class="action-btn${decision === 'ARCHIVE' ? ' selected-archive' : ''}" onclick="setAction('${esc(edge.edge_id)}', 'ARCHIVE', ${globalIdx})">ARCHIVE</button>
+        <button class="action-btn${decision === 'DELETE' ? ' selected-delete' : ''}" onclick="setAction('${esc(edge.edge_id)}', 'DELETE', ${globalIdx})">DELETE</button>
+      </div>`;
+
+    frag.appendChild(card);
+  });
+
+  container.innerHTML = '';
+  container.appendChild(frag);
+}
+
+// ── Actions ──
+function selectCandidate(edgeId, rank, rowEl) {
+  decisions[edgeId] = `ACCEPT ${rank}`;
+  // Update radio visually
+  const card = rowEl.closest('.edge-card');
+  card.querySelectorAll('.candidate-row').forEach(r => r.classList.remove('selected'));
+  rowEl.classList.add('selected');
+  rowEl.querySelector('input[type="radio"]').checked = true;
+  // Clear action button selections
+  card.querySelectorAll('.action-btn').forEach(b => {
+    b.classList.remove('selected-keep', 'selected-archive', 'selected-delete');
+  });
+  // Mark decided
+  card.classList.add('decided');
+  // Add status label
+  updateCardStatus(card, `ACCEPT ${rank}`);
+  updateStats();
+}
+
+function setAction(edgeId, action, globalIdx) {
+  // Toggle off if already selected
+  if (decisions[edgeId] === action) {
+    delete decisions[edgeId];
+    const card = document.getElementById(`card-${globalIdx}`);
+    if (card) {
+      card.classList.remove('decided');
+      card.querySelectorAll('.action-btn').forEach(b => {
+        b.classList.remove('selected-keep', 'selected-archive', 'selected-delete');
+      });
+      card.querySelectorAll('.candidate-row').forEach(r => {
+        r.classList.remove('selected');
+        r.querySelector('input[type="radio"]').checked = false;
+      });
+      updateCardStatus(card, '');
+    }
+    updateStats();
+    return;
+  }
+
+  decisions[edgeId] = action;
+  const card = document.getElementById(`card-${globalIdx}`);
+  if (card) {
+    card.classList.add('decided');
+    // Clear candidate selections
+    card.querySelectorAll('.candidate-row').forEach(r => {
+      r.classList.remove('selected');
+      r.querySelector('input[type="radio"]').checked = false;
+    });
+    // Update button states
+    card.querySelectorAll('.action-btn').forEach(b => {
+      b.classList.remove('selected-keep', 'selected-archive', 'selected-delete');
+    });
+    const btnClass = action === 'KEEP' ? 'selected-keep' : action === 'ARCHIVE' ? 'selected-archive' : 'selected-delete';
+    const btns = card.querySelectorAll('.action-btn');
+    btns.forEach(b => { if (b.textContent === action) b.classList.add(btnClass); });
+    updateCardStatus(card, action);
+  }
+  updateStats();
+}
+
+function updateCardStatus(card, text) {
+  let label = card.querySelector('.card-status');
+  if (text) {
+    if (!label) {
+      label = document.createElement('span');
+      label.className = 'card-status';
+      card.querySelector('.card-top').appendChild(label);
+    }
+    label.textContent = text;
+  } else if (label) {
+    label.remove();
+  }
+}
+
+// ── Bulk actions ──
+function bulkKeepWeak() {
+  if (!confirm('Set KEEP for all undecided WEAK_MATCH edges?')) return;
+  DATA.edges.forEach(e => {
+    if (e.phase1_5_status === 'WEAK_MATCH' && !decisions[e.edge_id]) {
+      decisions[e.edge_id] = 'KEEP';
+    }
+  });
+  renderCards();
+  updateStats();
+}
+
+function bulkArchiveNoCand() {
+  if (!confirm('Set ARCHIVE for all undecided edges with no candidates?')) return;
+  DATA.edges.forEach(e => {
+    if (!decisions[e.edge_id] && e.candidates.length === 0) {
+      decisions[e.edge_id] = 'ARCHIVE';
+    }
+  });
+  renderCards();
+  updateStats();
+}
+
+// ── Export ──
+function exportJSON() {
+  const undecided = DATA.edges.filter(e => !decisions[e.edge_id]).length;
+  if (undecided > 0) {
+    if (!confirm(`${undecided} edge(s) still undecided. Export anyway?`)) return;
+  }
+
+  // Deep clone to avoid mutating loaded data
+  const output = JSON.parse(JSON.stringify(DATA));
+  output.edges.forEach(e => {
+    e.action = decisions[e.edge_id] || '';
+  });
+
+  // Preserve exact field order by reconstructing each edge
+  output.edges = output.edges.map(e => ({
+    edge_id: e.edge_id,
+    module: e.module,
+    source_node: e.source_node,
+    target_node: e.target_node,
+    edge_type: e.edge_type,
+    temporal_range: e.temporal_range,
+    current_id: e.current_id,
+    current_id_type: e.current_id_type,
+    current_title: e.current_title,
+    phase1_5_status: e.phase1_5_status,
+    phase1_5_score: e.phase1_5_score,
+    candidates: e.candidates.map(c => ({
+      rank: c.rank,
+      type: c.type,
+      id: c.id,
+      title: c.title,
+      journal: c.journal,
+      year: c.year,
+      score: c.score,
+      matched_tokens: c.matched_tokens
+    })),
+    queries_tried: e.queries_tried,
+    action: e.action
+  }));
+
+  const blob = new Blob([JSON.stringify(output, null, 2) + '\n'], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'citation_repair_candidates.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ── Helpers ──
+function esc(s) { return s.replace(/'/g, "\\'").replace(/\\/g, '\\\\'); }
+function escHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,4881 @@
+{
+  "generated": "2026-03-17",
+  "stats": {
+    "mismatch_with_candidates": 51,
+    "mismatch_no_candidates": 9,
+    "weak_with_candidates": 34,
+    "weak_no_candidates": 17,
+    "total_pmid_candidates": 158,
+    "total_doi_candidates": 12
+  },
+  "edges": [
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->Johns Hopkins Hospital Department of Surgery",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "Johns Hopkins Hospital Department of Surgery",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1889-1922",
+      "current_id": "2446524",
+      "current_id_type": "PMID",
+      "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.043,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "32481787",
+          "title": "Brown Urology: A Historical Perspective.",
+          "journal": "R I Med J (2013)",
+          "year": "2020",
+          "score": 0.565,
+          "matched_tokens": [
+            "johns",
+            "states",
+            "hopkins",
+            "residency",
+            "hospital",
+            "surgery",
+            "first",
+            "program",
+            "united",
+            "halsted",
+            "william",
+            "established",
+            "training"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "31944636",
+          "title": "Necessity is the mother of invention: William Stewart Halsted’s addiction and its influence on the development of residency training in North America.",
+          "journal": "Can J Surg",
+          "year": "2020",
+          "score": 0.478,
+          "matched_tokens": [
+            "stewart",
+            "johns",
+            "william stewart halsted",
+            "hopkins",
+            "residency",
+            "hospital",
+            "surgical",
+            "program",
+            "halsted",
+            "william",
+            "training"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "40609741",
+          "title": "The genesis of Academic Neurosurgery. Part II: The contribution of Johns Hopkins School of Medicine leaders.",
+          "journal": "Neurocirugia (Engl Ed)",
+          "year": "2025",
+          "score": 0.348,
+          "matched_tokens": [
+            "johns",
+            "hopkins",
+            "residency",
+            "surgical",
+            "surgery",
+            "first",
+            "program",
+            "halsted"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->John Finney",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "John Finney",
+      "edge_type": "direct_training",
+      "temporal_range": "1889-1899",
+      "current_id": "26645476",
+      "current_id_type": "PMID",
+      "current_title": "The global burden of major infectious complications following prostate biopsy.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "29189382",
+          "title": "John L. Cameron: A Historical Perspective.",
+          "journal": "Ann Surg",
+          "year": "2018",
+          "score": 0.5,
+          "matched_tokens": [
+            "stewart",
+            "american",
+            "finney",
+            "william stewart halsted",
+            "john",
+            "served",
+            "halsted",
+            "surgeons",
+            "william",
+            "resident"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "20192628",
+          "title": "Surgery for cervical dystonia: the emergence of denervation and myotomy techniques and the contributions of early surgeons at The Johns Hopkins Hospital.",
+          "journal": "J Neurosurg Spine",
+          "year": "2010",
+          "score": 0.2,
+          "matched_tokens": [
+            "finney",
+            "john",
+            "halsted",
+            "surgeons"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->Harvey Cushing",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "Harvey Cushing",
+      "edge_type": "direct_training",
+      "temporal_range": "1896-1912",
+      "current_id": "28489324",
+      "current_id_type": "PMID",
+      "current_title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "29189382",
+          "title": "John L. Cameron: A Historical Perspective.",
+          "journal": "Ann Surg",
+          "year": "2018",
+          "score": 0.571,
+          "matched_tokens": [
+            "halsted",
+            "stewart",
+            "william",
+            "harvey",
+            "resident",
+            "cushing",
+            "william stewart halsted",
+            "served"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "28790487",
+          "title": "Developing Therapies for Brain Tumors: The Impact of the Johns Hopkins Hunterian Neurosurgical Research Laboratory.",
+          "journal": "Trans Am Clin Climatol Assoc",
+          "year": "2017",
+          "score": 0.571,
+          "matched_tokens": [
+            "hunterian",
+            "halsted",
+            "laboratory",
+            "harvey cushing",
+            "william",
+            "harvey",
+            "cushing",
+            "served"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "29099433",
+          "title": "The Anesthesia Records of Harvey Cushing and Ernest Codman.",
+          "journal": "Anesth Analg",
+          "year": "2018",
+          "score": 0.5,
+          "matched_tokens": [
+            "halsted",
+            "stewart",
+            "harvey cushing",
+            "william",
+            "harvey",
+            "cushing",
+            "william stewart halsted"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->George Heuer",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "George Heuer",
+      "edge_type": "direct_training",
+      "temporal_range": "1907-1914",
+      "current_id": "2446524",
+      "current_id_type": "PMID",
+      "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "22365877",
+          "title": "Man is fashioned, not born: the contributions of George J. Heuer to surgical education.",
+          "journal": "J Surg Educ",
+          "year": "2012",
+          "score": 0.471,
+          "matched_tokens": [
+            "halsted",
+            "george heuer",
+            "heuer",
+            "resident",
+            "surgery",
+            "george",
+            "halsted's",
+            "became"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "3276294",
+          "title": "An experiment in surgical education--the first international exchange of residents. The letters of Halsted, Küttner, Heuer, and Landois.",
+          "journal": "Arch Surg",
+          "year": "1988",
+          "score": 0.471,
+          "matched_tokens": [
+            "halsted",
+            "george heuer",
+            "william",
+            "heuer",
+            "resident",
+            "surgery",
+            "george",
+            "hospital"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "2196694",
+          "title": "George J. Heuer: a commemorative review.",
+          "journal": "South Med J",
+          "year": "1990",
+          "score": 0.353,
+          "matched_tokens": [
+            "halsted",
+            "william",
+            "heuer",
+            "resident",
+            "surgery",
+            "george"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->Barney Brooks",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "Barney Brooks",
+      "edge_type": "direct_training",
+      "temporal_range": "1911-1914",
+      "current_id": "13032549",
+      "current_id_type": "PMID",
+      "current_title": "The hazards of pregnancy in women with heart disease.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "10617047",
+          "title": "What's past is prologue.",
+          "journal": "Ann Thorac Surg",
+          "year": "1999",
+          "score": 0.375,
+          "matched_tokens": [
+            "barney brooks",
+            "halsted",
+            "barney",
+            "william",
+            "vanderbilt",
+            "brooks"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "8360750",
+          "title": "The Vanderbilt University neurosurgical heritage.",
+          "journal": "J Neurosurg",
+          "year": "1993",
+          "score": 0.375,
+          "matched_tokens": [
+            "halsted",
+            "hopkins",
+            "william",
+            "vanderbilt",
+            "university",
+            "brooks"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->Mont Reid",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "Mont Reid",
+      "edge_type": "direct_training",
+      "temporal_range": "1914-1918",
+      "current_id": "2446524",
+      "current_id_type": "PMID",
+      "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "27400656",
+          "title": "Arteriovenous Fistula: The Backstory of the Birth of Cardiovascular Surgery.",
+          "journal": "J Surg Educ",
+          "year": "2016",
+          "score": 0.4,
+          "matched_tokens": [
+            "mont",
+            "halsted",
+            "william",
+            "reid",
+            "mont reid",
+            "techniques"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->Emile Holman",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "Emile Holman",
+      "edge_type": "direct_training",
+      "temporal_range": "1919-1923",
+      "current_id": "4885802",
+      "current_id_type": "PMID",
+      "current_title": "Periodic psychoses in the light of biological rhythm research.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "27400656",
+          "title": "Arteriovenous Fistula: The Backstory of the Birth of Cardiovascular Surgery.",
+          "journal": "J Surg Educ",
+          "year": "2016",
+          "score": 0.462,
+          "matched_tokens": [
+            "emile holman",
+            "halsted",
+            "william",
+            "death",
+            "emile",
+            "holman"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Alton Ochsner->Michael DeBakey",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Alton Ochsner",
+      "target_node": "Michael DeBakey",
+      "edge_type": "direct_training",
+      "temporal_range": "1932-1937",
+      "current_id": "18693427",
+      "current_id_type": "PMID",
+      "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "30819286",
+          "title": "The Ochsner Legacy.",
+          "journal": "Am Surg",
+          "year": "2019",
+          "score": 0.615,
+          "matched_tokens": [
+            "michael debakey",
+            "alton",
+            "michael",
+            "tulane",
+            "under",
+            "debakey",
+            "faculty",
+            "ochsner"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "22822308",
+          "title": "A history of the diagnosis and treatment of venous thrombosis and pulmonary embolism.",
+          "journal": "Ochsner J",
+          "year": "2002",
+          "score": 0.231,
+          "matched_tokens": [
+            "under",
+            "debakey",
+            "ochsner"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Alfred Blalock->Denton Cooley",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Alfred Blalock",
+      "target_node": "Denton Cooley",
+      "edge_type": "direct_training",
+      "temporal_range": "1944-1950",
+      "current_id": "19685166",
+      "current_id_type": "PMID",
+      "current_title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "18416031",
+          "title": "[Historical data and some comments on closed techniques in cardiac surgery].",
+          "journal": "An R Acad Nac Med (Madr)",
+          "year": "2007",
+          "score": 0.462,
+          "matched_tokens": [
+            "operations",
+            "cooley",
+            "fallot",
+            "first",
+            "tetralogy",
+            "blalock"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Owen Wangensteen->C. Walton Lillehei",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Owen Wangensteen",
+      "target_node": "C. Walton Lillehei",
+      "edge_type": "direct_training",
+      "temporal_range": "1946-1951",
+      "current_id": "10527140",
+      "current_id_type": "PMID",
+      "current_title": "Because \"it is necessary to affix right ideas to words\". Thomas Paine, The Age of Reason, 1794.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "15919253",
+          "title": "Lillehei, Lewis, and Wangensteen: the right mix for giant achievements in cardiac surgery.",
+          "journal": "Ann Thorac Surg",
+          "year": "2005",
+          "score": 0.615,
+          "matched_tokens": [
+            "open-heart",
+            "surgery",
+            "owen",
+            "owen wangensteen",
+            "c. walton lillehei",
+            "lillehei",
+            "walton",
+            "wangensteen"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "21345003",
+          "title": "Richard Carlton Lillehei: transplant and shock surgical pioneer.",
+          "journal": "J Invest Surg",
+          "year": "2011",
+          "score": 0.538,
+          "matched_tokens": [
+            "surgery",
+            "owen",
+            "under",
+            "c. walton lillehei",
+            "lillehei",
+            "walton",
+            "wangensteen"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "28285678",
+          "title": "Great Institutions in Cardiothoracic Surgery: The University of Minnesota.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2016",
+          "score": 0.462,
+          "matched_tokens": [
+            "surgery",
+            "owen",
+            "under",
+            "cross-circulation",
+            "lillehei",
+            "wangensteen"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Francis D. Moore->Peter Bent Brigham Hospital Department of Surgery",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Francis D. Moore",
+      "target_node": "Peter Bent Brigham Hospital Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1948-1976",
+      "current_id": "11930218",
+      "current_id_type": "PMID",
+      "current_title": "[Modification of membrane lipid of human umbilical vein endothelia cells after direct lipopolysaccharide injury].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "26349933",
+          "title": "Establishment of the Department of Anaesthesia at Harvard Medical School-1969.",
+          "journal": "J Clin Anesth",
+          "year": "2016",
+          "score": 0.5,
+          "matched_tokens": [
+            "documents",
+            "hospital",
+            "moore",
+            "peter",
+            "daniels",
+            "surgery",
+            "department",
+            "francis",
+            "bent",
+            "brigham"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "6700349",
+          "title": "The inverse relationship between cost and prognosis.",
+          "journal": "Laryngoscope",
+          "year": "1984",
+          "score": 0.3,
+          "matched_tokens": [
+            "hospital",
+            "moore",
+            "peter",
+            "francis",
+            "bent",
+            "brigham"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Michael DeBakey->Denton Cooley",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Michael DeBakey",
+      "target_node": "Denton Cooley",
+      "edge_type": "direct_training",
+      "temporal_range": "1951-1954",
+      "current_id": "19685166",
+      "current_id_type": "PMID",
+      "current_title": "Isolation, expression and functional analysis of a putative RNA-dependent RNA polymerase gene from maize (Zea mays L.).",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "34881809",
+          "title": "Nothing like a good feud to spark competition: First use of the total artificial heart.",
+          "journal": "Artif Organs",
+          "year": "2022",
+          "score": 0.4,
+          "matched_tokens": [
+            "cooley",
+            "professional",
+            "michael",
+            "denton",
+            "heart",
+            "famous",
+            "debakey",
+            "texas"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "24837720",
+          "title": "Mechanical circulatory assist device development at the Texas Heart Institute: a personal perspective.",
+          "journal": "J Thorac Cardiovasc Surg",
+          "year": "2014",
+          "score": 0.4,
+          "matched_tokens": [
+            "cooley",
+            "professional",
+            "institute",
+            "michael",
+            "denton",
+            "heart",
+            "debakey",
+            "texas"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "28285665",
+          "title": "History and Highlights of Cardiothoracic Surgery at Baylor College of Medicine.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2016",
+          "score": 0.3,
+          "matched_tokens": [
+            "cooley",
+            "baylor",
+            "michael",
+            "denton",
+            "heart",
+            "debakey"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Johns Hopkins Hospital Department of Surgery->Thomas Starzl",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Johns Hopkins Hospital Department of Surgery",
+      "target_node": "Thomas Starzl",
+      "edge_type": "direct_training",
+      "temporal_range": "1952-1956",
+      "current_id": "23225838",
+      "current_id_type": "PMID",
+      "current_title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "2643221",
+          "title": "Cardiopulmonary bypass with profound hypothermia. An optimal preservation method for multiorgan procurement.",
+          "journal": "Transplantation",
+          "year": "1989",
+          "score": 0.368,
+          "matched_tokens": [
+            "thomas",
+            "starzl",
+            "johns",
+            "hopkins",
+            "hospital",
+            "liver",
+            "thomas starzl"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Thomas Starzl->American Society of Transplant Surgeons",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Thomas Starzl",
+      "target_node": "American Society of Transplant Surgeons",
+      "edge_type": "society_founder",
+      "temporal_range": "1974-1975",
+      "current_id": "10457723",
+      "current_id_type": "PMID",
+      "current_title": "Malpractice claims and the quest for perfection.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "3279623",
+          "title": "Renal transplantation--the Starzl influence.",
+          "journal": "Transplant Proc",
+          "year": "1988",
+          "score": 0.421,
+          "matched_tokens": [
+            "transplant",
+            "organ",
+            "american",
+            "american society of transplant surgeons",
+            "starzl",
+            "society",
+            "surgeons",
+            "transplantation"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "23078057",
+          "title": "Minimalization of immunosuppression in liver transplantation: steps from 'how' to 'now'. Interview by Emily Reeve.",
+          "journal": "Expert Rev Clin Immunol",
+          "year": "2012",
+          "score": 0.368,
+          "matched_tokens": [
+            "transplant",
+            "organ",
+            "starzl",
+            "surgical",
+            "society",
+            "abdominal",
+            "transplantation"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "28118316",
+          "title": "Jan Lerut, MD, PhD: Professor Emeritus of Surgery, Director of the Starzl Abdominal Transplant Unit, University Hospitals Saint Luc and UCL Transplant Centre in Brussels; and Past President, European Society of Organ Transplantation and International Society of Liver Transplantation.",
+          "journal": "Transplantation",
+          "year": "2017",
+          "score": 0.316,
+          "matched_tokens": [
+            "transplant",
+            "organ",
+            "starzl",
+            "society",
+            "abdominal",
+            "transplantation"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Thomas Starzl->University of Pittsburgh Transplant Program",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Thomas Starzl",
+      "target_node": "University of Pittsburgh Transplant Program",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1981-2017",
+      "current_id": "23225838",
+      "current_id_type": "PMID",
+      "current_title": "Efficacy of carbamazepine combined with botulinum toxin a in the treatment of blepharospasm and hemifacial spasm.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "38805779",
+          "title": "New insights in immunomodulation for intestinal transplantation.",
+          "journal": "Hum Immunol",
+          "year": "2024",
+          "score": 0.438,
+          "matched_tokens": [
+            "transplant",
+            "organ",
+            "thomas",
+            "starzl",
+            "university",
+            "thomas starzl",
+            "pittsburgh"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "23078057",
+          "title": "Minimalization of immunosuppression in liver transplantation: steps from 'how' to 'now'. Interview by Emily Reeve.",
+          "journal": "Expert Rev Clin Immunol",
+          "year": "2012",
+          "score": 0.438,
+          "matched_tokens": [
+            "transplant",
+            "organ",
+            "center",
+            "starzl",
+            "university",
+            "program",
+            "pittsburgh"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "22980971",
+          "title": "Liver transplantation: from inception to clinical practice.",
+          "journal": "Cell",
+          "year": "2012",
+          "score": 0.375,
+          "matched_tokens": [
+            "transplant",
+            "thomas",
+            "starzl",
+            "university",
+            "thomas starzl",
+            "pittsburgh"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Thomas Starzl->Andreas Tzakis",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Thomas Starzl",
+      "target_node": "Andreas Tzakis",
+      "edge_type": "direct_training",
+      "temporal_range": "1983-1994",
+      "current_id": "28791702",
+      "current_id_type": "PMID",
+      "current_title": "Developmental neurotoxicity of the organophosphorus insecticide chlorpyrifos: from clinical findings to preclinical models and potential mechanisms.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.045,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "03_neurosurgery::Harvey Cushing->Peter Bent Brigham Hospital Neurosurgical Program",
+      "module": "03_neurosurgery.json",
+      "source_node": "Harvey Cushing",
+      "target_node": "Peter Bent Brigham Hospital Neurosurgical Program",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1912-1932",
+      "current_id": "28489324",
+      "current_id_type": "PMID",
+      "current_title": "Executive summary of the SCAI/HFSA clinical expert consensus document on the use of invasive hemodynamics for the diagnosis and management of cardiovascular disease.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "36280045",
+          "title": "Louise Eisenhardt (1891-1967): World Renowned Neuropathologist, Brain Tumor Registry Director, First Editor-In-Chief of Journal of Neurosurgery, and President of Harvey Cushing Society.",
+          "journal": "World Neurosurg",
+          "year": "2023",
+          "score": 0.571,
+          "matched_tokens": [
+            "harvey cushing",
+            "peter",
+            "harvey",
+            "first",
+            "bent",
+            "brigham",
+            "hospital",
+            "cushing"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "34374339",
+          "title": "Gertrude Mary Gerrard, Chief Anesthetist, Peter Bent Brigham Hospital.",
+          "journal": "AANA J",
+          "year": "2021",
+          "score": 0.571,
+          "matched_tokens": [
+            "harvey cushing",
+            "peter",
+            "harvey",
+            "first",
+            "bent",
+            "brigham",
+            "hospital",
+            "cushing"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "32823265",
+          "title": "Harvey Cushing's international visitors.",
+          "journal": "J Neurosurg",
+          "year": "2021",
+          "score": 0.571,
+          "matched_tokens": [
+            "harvey cushing",
+            "peter",
+            "harvey",
+            "bent",
+            "brigham",
+            "hospital",
+            "cushing",
+            "neurosurgical"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "03_neurosurgery::Harvey Cushing->Percival Bailey",
+      "module": "03_neurosurgery.json",
+      "source_node": "Harvey Cushing",
+      "target_node": "Percival Bailey",
+      "edge_type": "direct_training",
+      "temporal_range": "1919-1928",
+      "current_id": "18344917",
+      "current_id_type": "PMID",
+      "current_title": "[Atherosclerosis inflammation and rheumatic diseases].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "38518283",
+          "title": "A comprehensive review on the development of sporadic cerebral arteriovenous malformations: from Padget to next-generation sequencing.",
+          "journal": "J Neurosurg",
+          "year": "2024",
+          "score": 0.667,
+          "matched_tokens": [
+            "harvey cushing",
+            "percival",
+            "harvey",
+            "under",
+            "bailey",
+            "tumor",
+            "cushing",
+            "percival bailey"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "36280045",
+          "title": "Louise Eisenhardt (1891-1967): World Renowned Neuropathologist, Brain Tumor Registry Director, First Editor-In-Chief of Journal of Neurosurgery, and President of Harvey Cushing Society.",
+          "journal": "World Neurosurg",
+          "year": "2023",
+          "score": 0.667,
+          "matched_tokens": [
+            "classification",
+            "harvey cushing",
+            "percival",
+            "brigham",
+            "harvey",
+            "bailey",
+            "tumor",
+            "cushing"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "36461823",
+          "title": "A utopian idea: Cushing, Bailey, Penfield, and the National Institute of Neurological Diseases and Blindness.",
+          "journal": "J Neurosurg",
+          "year": "2023",
+          "score": 0.333,
+          "matched_tokens": [
+            "harvey cushing",
+            "harvey",
+            "bailey",
+            "cushing"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "03_neurosurgery::Walter Dandy->Johns Hopkins Neurosurgical Intensive Care Unit",
+      "module": "03_neurosurgery.json",
+      "source_node": "Walter Dandy",
+      "target_node": "Johns Hopkins Neurosurgical Intensive Care Unit",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1926-1946",
+      "current_id": "20305736",
+      "current_id_type": "PMID",
+      "current_title": "Biomarkers of Psychological Stress in Health Disparities Research.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "40609741",
+          "title": "The genesis of Academic Neurosurgery. Part II: The contribution of Johns Hopkins School of Medicine leaders.",
+          "journal": "Neurocirugia (Engl Ed)",
+          "year": "2025",
+          "score": 0.538,
+          "matched_tokens": [
+            "dandy",
+            "walter dandy",
+            "hopkins",
+            "first",
+            "johns",
+            "walter",
+            "neurosurgical"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "39732453",
+          "title": "Harvey Cushing: France Military Hospital Surgical Unit Head and World War I U.S. Army Medical Corps Commissioner.",
+          "journal": "World Neurosurg",
+          "year": "2025",
+          "score": 0.462,
+          "matched_tokens": [
+            "dandy",
+            "walter dandy",
+            "hopkins",
+            "unit",
+            "johns",
+            "walter"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "38865729",
+          "title": "Popularizing Surgical Cures: Walter Dandy and the Vestibular Neurectomy for Menière's Disease at the Johns Hopkins Hospital.",
+          "journal": "Otol Neurotol",
+          "year": "2024",
+          "score": 0.385,
+          "matched_tokens": [
+            "dandy",
+            "walter dandy",
+            "hopkins",
+            "johns",
+            "walter"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::John Homans->Peter Bent Brigham Peripheral Vascular Clinic",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "John Homans",
+      "target_node": "Peter Bent Brigham Peripheral Vascular Clinic",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1912-1946",
+      "current_id": "10871146",
+      "current_id_type": "PMID",
+      "current_title": "Effects of ultrasound and stretch on knee ligament extensibility.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "30414452",
+          "title": "Surgical Mentorship of John Homans by Harvey Cushing: The Untold Story.",
+          "journal": "J Am Coll Surg",
+          "year": "2019",
+          "score": 0.2,
+          "matched_tokens": [
+            "john",
+            "surgical",
+            "homans",
+            "john homans"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "1735903",
+          "title": "The seventh John Homans Lecture: heroes in vascular surgery.",
+          "journal": "J Vasc Surg",
+          "year": "1992",
+          "score": 0.2,
+          "matched_tokens": [
+            "vascular",
+            "john",
+            "homans",
+            "john homans"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Willy Meyer->American Association for Thoracic Surgery",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Willy Meyer",
+      "target_node": "American Association for Thoracic Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1917",
+      "current_id": "21173278",
+      "current_id_type": "PMID",
+      "current_title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "32207076",
+          "title": "Mentor of the Month Series: How to Review a Manuscript from an Editor's Perspective?",
+          "journal": "J Gastrointest Surg",
+          "year": "2020",
+          "score": 0.235,
+          "matched_tokens": [
+            "for",
+            "meyer",
+            "surgery",
+            "society"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Evarts A. Graham->Washington University Chest Service",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Evarts A. Graham",
+      "target_node": "Washington University Chest Service",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1931-1951",
+      "current_id": "2446522",
+      "current_id_type": "PMID",
+      "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.048,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "28285680",
+          "title": "History of Cardiothoracic Surgery at Washington University in Saint Louis.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2016",
+          "score": 0.476,
+          "matched_tokens": [
+            "thoracic",
+            "early",
+            "university",
+            "chest",
+            "evarts a. graham",
+            "surgical",
+            "first",
+            "washington",
+            "evarts",
+            "graham"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Alton Ochsner->Society for Vascular Surgery",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Alton Ochsner",
+      "target_node": "Society for Vascular Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1946-1947",
+      "current_id": "15263901",
+      "current_id_type": "PMID",
+      "current_title": "Bdellovibrio as therapeutic agents: a predatory renaissance?",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "30819286",
+          "title": "The Ochsner Legacy.",
+          "journal": "Am Surg",
+          "year": "2019",
+          "score": 0.412,
+          "matched_tokens": [
+            "vascular",
+            "alton",
+            "president",
+            "for",
+            "surgery",
+            "first",
+            "ochsner"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Arthur Blakemore->Arthur Voorhees",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Arthur Blakemore",
+      "target_node": "Arthur Voorhees",
+      "edge_type": "direct_training",
+      "temporal_range": "1947-1952",
+      "current_id": "14905833",
+      "current_id_type": "PMID",
+      "current_title": "[Tumors of the breast and hormone therapy].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "22608048",
+          "title": "Breakthrough: Arthur Blakemore and Arthur Voorhees, Jr.",
+          "journal": "J Vasc Surg",
+          "year": "2012",
+          "score": 0.294,
+          "matched_tokens": [
+            "arthur blakemore",
+            "arthur voorhees",
+            "blakemore",
+            "arthur",
+            "voorhees"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Michael DeBakey->Baylor College of Medicine Cardiovascular Surgery",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Michael DeBakey",
+      "target_node": "Baylor College of Medicine Cardiovascular Surgery",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1948-1993",
+      "current_id": "18693427",
+      "current_id_type": "PMID",
+      "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "33332906",
+          "title": "Personalized Graduate Medical Education and the Global Surgeon: Training for Resource-Limited Settings.",
+          "journal": "Acad Med",
+          "year": "2021",
+          "score": 0.538,
+          "matched_tokens": [
+            "baylor",
+            "medicine",
+            "michael",
+            "surgery",
+            "debakey",
+            "college",
+            "department"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "40976254",
+          "title": "Bone quality response to lifestyle intervention in older adults with obesity (LIMB-Q trial): a randomised controlled trial.",
+          "journal": "Lancet Healthy Longev",
+          "year": "2025",
+          "score": 0.462,
+          "matched_tokens": [
+            "baylor",
+            "medicine",
+            "michael",
+            "debakey",
+            "college",
+            "department"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "41078850",
+          "title": "Pathways.",
+          "journal": "Methodist Debakey Cardiovasc J",
+          "year": "2025",
+          "score": 0.385,
+          "matched_tokens": [
+            "baylor",
+            "medicine",
+            "cardiovascular",
+            "debakey",
+            "college"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Michael DeBakey->E. Stanley Crawford",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Michael DeBakey",
+      "target_node": "E. Stanley Crawford",
+      "edge_type": "direct_training",
+      "temporal_range": "1948-1953",
+      "current_id": "3800732",
+      "current_id_type": "PMID",
+      "current_title": "Internal sclerectomy for glaucoma filtering surgery with an automated trephine.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "31212015",
+          "title": "Thoracoabdominal Aortic Aneurysm Repair: From an Era of Revolution to an Era of Evolution.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2019",
+          "score": 0.556,
+          "matched_tokens": [
+            "e. stanley crawford",
+            "crawford",
+            "michael",
+            "aortic",
+            "aneurysm",
+            "repair",
+            "stanley",
+            "under",
+            "debakey",
+            "thoracoabdominal"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "28285665",
+          "title": "History and Highlights of Cardiothoracic Surgery at Baylor College of Medicine.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2016",
+          "score": 0.444,
+          "matched_tokens": [
+            "e. stanley crawford",
+            "crawford",
+            "baylor",
+            "michael",
+            "aortic",
+            "aneurysm",
+            "stanley",
+            "debakey"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "16106145",
+          "title": "The dawn of open heart surgery: an overview of the symposium that celebrated the 50th anniversary of controlled cross circulation.",
+          "journal": "Am Heart Hosp J",
+          "year": "2005",
+          "score": 0.222,
+          "matched_tokens": [
+            "michael debakey",
+            "crawford",
+            "michael",
+            "debakey"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::American Association for Thoracic Surgery->Society of Thoracic Surgeons",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "American Association for Thoracic Surgery",
+      "target_node": "Society of Thoracic Surgeons",
+      "edge_type": "programmatic_accreditation",
+      "temporal_range": "1964-Present",
+      "current_id": "21173278",
+      "current_id_type": "PMID",
+      "current_title": "Mechanism of inactivation of influenza viruses by immobilized hydrophobic polycations.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [],
+      "queries_tried": 0,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Norman Shumway->Stanford University Department of Surgery",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Norman Shumway",
+      "target_node": "Stanford University Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1974-1993",
+      "current_id": "10456202",
+      "current_id_type": "PMID",
+      "current_title": "Renal tubular acidosis.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "40445149",
+          "title": "A Pioneer of Cardiothoracic Surgery - the Brazilian Northeast Heart Transplant Program.",
+          "journal": "Braz J Cardiovasc Surg",
+          "year": "2025",
+          "score": 0.471,
+          "matched_tokens": [
+            "transplant",
+            "norman",
+            "transplantation",
+            "surgery",
+            "heart",
+            "shumway",
+            "pioneering",
+            "norman shumway"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "21319107",
+          "title": "Cardiac transplantation and mechanical assistance.",
+          "journal": "Surg Technol Int",
+          "year": "1994",
+          "score": 0.471,
+          "matched_tokens": [
+            "stanford",
+            "transplant",
+            "norman",
+            "transplantation",
+            "university",
+            "heart",
+            "shumway",
+            "norman shumway"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "7014403",
+          "title": "[Heart transplantation 1981. A status determination].",
+          "journal": "Fortschr Med",
+          "year": "1981",
+          "score": 0.353,
+          "matched_tokens": [
+            "stanford",
+            "transplant",
+            "transplantation",
+            "university",
+            "heart",
+            "shumway"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "07_oncology_trials::Bernard Fisher->National Surgical Adjuvant Breast and Bowel Project",
+      "module": "07_oncology_trials.json",
+      "source_node": "Bernard Fisher",
+      "target_node": "National Surgical Adjuvant Breast and Bowel Project",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1958-1994",
+      "current_id": "24753609",
+      "current_id_type": "PMID",
+      "current_title": "An outer membrane channel protein of Mycobacterium tuberculosis with exotoxin activity.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.04,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41774047",
+          "title": "Ductal Carcinoma In Situ Active Monitoring Trials: Do Eligibility Criteria Identify Patients at Low Risk for Upgrade to Invasive Carcinoma?",
+          "journal": "J Breast Imaging",
+          "year": "2026",
+          "score": 0.24,
+          "matched_tokens": [
+            "clinical",
+            "national",
+            "trial",
+            "and",
+            "surgical",
+            "fisher"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "41750511",
+          "title": "Etiologic Patterns and Evolution of Healthcare-Associated Infections in the Pandemic and Post-Pandemic Periods: A County-Level Multicenter Study from Southeastern Romania.",
+          "journal": "Antibiotics (Basel)",
+          "year": "2026",
+          "score": 0.24,
+          "matched_tokens": [
+            "clinical",
+            "national",
+            "and",
+            "surgical",
+            "fisher",
+            "therapy"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "41633092",
+          "title": "Recent preoperative opioid prescription is associated with increased complications after microsurgical breast reconstruction.",
+          "journal": "J Plast Reconstr Aesthet Surg",
+          "year": "2026",
+          "score": 0.2,
+          "matched_tokens": [
+            "national",
+            "and",
+            "breast",
+            "surgical",
+            "fisher"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "07_oncology_trials::American College of Surgeons->American College of Surgeons Oncology Group",
+      "module": "07_oncology_trials.json",
+      "source_node": "American College of Surgeons",
+      "target_node": "American College of Surgeons Oncology Group",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1998-2011",
+      "current_id": "10452656",
+      "current_id_type": "PMID",
+      "current_title": "Pneumocystis carinii pneumonia mimicking Wegener's granulomatosis.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41832880",
+          "title": "Management Patterns and Outcomes of Children With Traumatic Occult Pneumothorax.",
+          "journal": "J Surg Res",
+          "year": "2026",
+          "score": 0.35,
+          "matched_tokens": [
+            "clinical",
+            "american",
+            "american college of surgeons",
+            "college",
+            "surgeons",
+            "group",
+            "management"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "41825068",
+          "title": "Disparities and institutional variation in time to surgery for traumatic cervical spinal cord injury: a multicenter cohort study.",
+          "journal": "J Neurosurg Spine",
+          "year": "2026",
+          "score": 0.35,
+          "matched_tokens": [
+            "american",
+            "american college of surgeons",
+            "surgical",
+            "college",
+            "evaluate",
+            "surgeons",
+            "management"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "41828661",
+          "title": "Skipping the Biopsy: Real-World Experience of Whole-Exome Sequencing as First-Tier Testing in Pediatric Muscular Disorders.",
+          "journal": "Int J Mol Sci",
+          "year": "2026",
+          "score": 0.3,
+          "matched_tokens": [
+            "clinical",
+            "american",
+            "prospective",
+            "college",
+            "evaluate",
+            "group"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "07_oncology_trials::Gynecologic Oncology Group->NRG Oncology",
+      "module": "07_oncology_trials.json",
+      "source_node": "Gynecologic Oncology Group",
+      "target_node": "NRG Oncology",
+      "edge_type": "institutional_succession",
+      "temporal_range": "2012-2014",
+      "current_id": "25281376",
+      "current_id_type": "PMID",
+      "current_title": "Positive regulation of botulinum neurotoxin gene expression by CodY in Clostridium botulinum ATCC 3502.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41827699",
+          "title": "The New Era of Intraperitoneal Carboplatin in Ovarian Cancer: From Biological Rationale to Clinical Implementation.",
+          "journal": "Cancers (Basel)",
+          "year": "2026",
+          "score": 0.368,
+          "matched_tokens": [
+            "gynecologic",
+            "adjuvant",
+            "gynecologic oncology group",
+            "merged",
+            "oncology",
+            "group",
+            "therapy"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "07_oncology_trials::National Surgical Adjuvant Breast and Bowel Project->NRG Oncology",
+      "module": "07_oncology_trials.json",
+      "source_node": "National Surgical Adjuvant Breast and Bowel Project",
+      "target_node": "NRG Oncology",
+      "edge_type": "institutional_succession",
+      "temporal_range": "2012-2014",
+      "current_id": "25281376",
+      "current_id_type": "PMID",
+      "current_title": "Positive regulation of botulinum neurotoxin gene expression by CodY in Clostridium botulinum ATCC 3502.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.04,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Joseph McDowell Mathews->Kentucky School of Medicine Department of Proctology",
+      "module": "08_subspecialties.json",
+      "source_node": "Joseph McDowell Mathews",
+      "target_node": "Kentucky School of Medicine Department of Proctology",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1899-1910",
+      "current_id": "10926590",
+      "current_id_type": "PMID",
+      "current_title": "My cuban experience.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "34747915",
+          "title": "American Proctology Before 1899, Part 2: The Rise of the Rectal Specialists.",
+          "journal": "Dis Colon Rectum",
+          "year": "2021",
+          "score": 0.353,
+          "matched_tokens": [
+            "appointed",
+            "mathews",
+            "kentucky",
+            "first",
+            "proctology",
+            "joseph"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Joseph McDowell Mathews->American Proctologic Society",
+      "module": "08_subspecialties.json",
+      "source_node": "Joseph McDowell Mathews",
+      "target_node": "American Proctologic Society",
+      "edge_type": "society_founder",
+      "temporal_range": "1899",
+      "current_id": "10926590",
+      "current_id_type": "PMID",
+      "current_title": "My cuban experience.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Louis A. Buie->Mayo Clinic Section of Proctology",
+      "module": "08_subspecialties.json",
+      "source_node": "Louis A. Buie",
+      "target_node": "Mayo Clinic Section of Proctology",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1924-1952",
+      "current_id": "12150380",
+      "current_id_type": "PMID",
+      "current_title": "Validity and reliability of the reflux symptom index (RSI).",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "38441192",
+          "title": "A Century of Colon and Rectal Surgery at Mayo Clinic (1924-2024): Honoring Our Founder Louis A. Buie Sr., M.D., D.Sc.",
+          "journal": "Dis Colon Rectum",
+          "year": "2024",
+          "score": 0.417,
+          "matched_tokens": [
+            "mayo",
+            "louis",
+            "buie",
+            "louis a. buie",
+            "clinic"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Harold Gillies->Archibald McIndoe",
+      "module": "08_subspecialties.json",
+      "source_node": "Harold Gillies",
+      "target_node": "Archibald McIndoe",
+      "edge_type": "direct_training",
+      "temporal_range": "1930-1932",
+      "current_id": "21856431",
+      "current_id_type": "PMID",
+      "current_title": "The future of fMRI in cognitive neuroscience.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41259295",
+          "title": "The Paradox of Masterpiece in Fine Art and Plastic Surgery.",
+          "journal": "J Craniofac Surg",
+          "year": "2025",
+          "score": 0.538,
+          "matched_tokens": [
+            "mcindoe",
+            "harold",
+            "archibald mcindoe",
+            "harold gillies",
+            "archibald",
+            "gillies",
+            "guinea"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "25858011",
+          "title": "Sir Harold Delf Gillies, the otolaryngologist and father of modern facial plastic surgery: review of his rhinoplasty case notes.",
+          "journal": "J Laryngol Otol",
+          "year": "2015",
+          "score": 0.538,
+          "matched_tokens": [
+            "mcindoe",
+            "harold",
+            "archibald mcindoe",
+            "harold gillies",
+            "archibald",
+            "gillies",
+            "cousin"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "39504428",
+          "title": "Plastic Surgery Contributions to the World Wars: Historical Foundations for Modern Craniofacial Techniques.",
+          "journal": "J Craniofac Surg",
+          "year": "2025",
+          "score": 0.462,
+          "matched_tokens": [
+            "mcindoe",
+            "harold",
+            "archibald mcindoe",
+            "harold gillies",
+            "archibald",
+            "gillies"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Owen Wangensteen->Edward Mason",
+      "module": "08_subspecialties.json",
+      "source_node": "Owen Wangensteen",
+      "target_node": "Edward Mason",
+      "edge_type": "direct_training",
+      "temporal_range": "1945-1953",
+      "current_id": "6013681",
+      "current_id_type": "PMID",
+      "current_title": "[Problems posed by the treatment of offenders in a military environment].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "17972214",
+          "title": "The history of surgery according to Owen Wangensteen.",
+          "journal": "J Invest Surg",
+          "year": "2007",
+          "score": 0.375,
+          "matched_tokens": [
+            "surgical",
+            "owen",
+            "minnesota",
+            "owen wangensteen",
+            "under",
+            "wangensteen"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "25598179",
+          "title": "Amnesia in modern surgery: revisiting Wangensteen's landmark studies of small bowel obstruction.",
+          "journal": "Can J Surg",
+          "year": "2015",
+          "score": 0.312,
+          "matched_tokens": [
+            "surgical",
+            "owen",
+            "owen wangensteen",
+            "under",
+            "wangensteen"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "17275843",
+          "title": "In memoriam: a tribute to dr. Owen H. Wangensteen, the greatest teacher of surgery during the 20th century (1898-1981).",
+          "journal": "J Surg Res",
+          "year": "2007",
+          "score": 0.312,
+          "matched_tokens": [
+            "surgical",
+            "owen",
+            "minnesota",
+            "owen wangensteen",
+            "wangensteen"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Robert E. Gross->C. Everett Koop",
+      "module": "08_subspecialties.json",
+      "source_node": "Robert E. Gross",
+      "target_node": "C. Everett Koop",
+      "edge_type": "direct_training",
+      "temporal_range": "1946-1947",
+      "current_id": "18412001",
+      "current_id_type": "PMID",
+      "current_title": "The ancient art of leadership.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "31759657",
+          "title": "Vignettes from the history of pediatric surgery.",
+          "journal": "J Pediatr Surg",
+          "year": "2020",
+          "score": 0.357,
+          "matched_tokens": [
+            "koop",
+            "gross",
+            "c. everett koop",
+            "robert",
+            "everett"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Harold Gillies->D. Ralph Millard",
+      "module": "08_subspecialties.json",
+      "source_node": "Harold Gillies",
+      "target_node": "D. Ralph Millard",
+      "edge_type": "direct_training",
+      "temporal_range": "1948-1949",
+      "current_id": "11452297",
+      "current_id_type": "PMID",
+      "current_title": "Aerodynamics. Insects can halve wind-turbine power.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "37735028",
+          "title": "[The history of vaginoplasty: Technical and sociological advances].",
+          "journal": "Ann Chir Plast Esthet",
+          "year": "2023",
+          "score": 0.467,
+          "matched_tokens": [
+            "later",
+            "harold",
+            "ralph",
+            "harold gillies",
+            "gillies",
+            "millard",
+            "england"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "24835875",
+          "title": "The ACAPS and SESPRS surveys to identify the most influential innovators and innovations in plastic surgery: no line on the horizon.",
+          "journal": "Ann Plast Surg",
+          "year": "2014",
+          "score": 0.267,
+          "matched_tokens": [
+            "cleft",
+            "innovations",
+            "gillies",
+            "millard"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "11981203",
+          "title": "Sir Harold Gillies and his Icelandic connection: Gillies-Millard-Dingman-Iceland: journey of a painting completed.",
+          "journal": "Ann Plast Surg",
+          "year": "2002",
+          "score": 0.267,
+          "matched_tokens": [
+            "harold",
+            "harold gillies",
+            "gillies",
+            "millard"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Edward Mason->University of Iowa Bariatric Surgery Program",
+      "module": "08_subspecialties.json",
+      "source_node": "Edward Mason",
+      "target_node": "University of Iowa Bariatric Surgery Program",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1966-1990",
+      "current_id": "6013681",
+      "current_id_type": "PMID",
+      "current_title": "[Problems posed by the treatment of offenders in a military environment].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41506759",
+          "title": "Comparison of Surgery and Medicine on the Impact of Diverticulitis (COSMID) trial: a protocol for a pragmatic randomised study of diverticulitis treatment in the USA.",
+          "journal": "BMJ Open",
+          "year": "2026",
+          "score": 0.3,
+          "matched_tokens": [
+            "intestinal",
+            "mason",
+            "iowa",
+            "university",
+            "surgery",
+            "established"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Henri Bismuth->Paul Brousse Hospital Hepatobiliary Center",
+      "module": "08_subspecialties.json",
+      "source_node": "Henri Bismuth",
+      "target_node": "Paul Brousse Hospital Hepatobiliary Center",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1969-1993",
+      "current_id": "11469062",
+      "current_id_type": "PMID",
+      "current_title": "Pediatric neuroanesthesia. Arteriovenous malformations.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "1772528",
+          "title": "[Liver transplantation and the major histocompatibility complex].",
+          "journal": "Rev Fr Transfus Hemobiol",
+          "year": "1991",
+          "score": 0.381,
+          "matched_tokens": [
+            "european",
+            "complex",
+            "bismuth",
+            "hospital",
+            "brousse",
+            "paul",
+            "liver",
+            "center"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "1637419",
+          "title": "[Relapse prevention in liver transplant patients treated for liver involvement due to hepatitis B virus].",
+          "journal": "Rev Fr Transfus Hemobiol",
+          "year": "1992",
+          "score": 0.286,
+          "matched_tokens": [
+            "bismuth",
+            "hospital",
+            "first",
+            "brousse",
+            "paul",
+            "liver"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::University of Michigan Department of Surgery->Norman Thompson",
+      "module": "08_subspecialties.json",
+      "source_node": "University of Michigan Department of Surgery",
+      "target_node": "Norman Thompson",
+      "edge_type": "direct_training",
+      "temporal_range": "c.1956-c.1964",
+      "current_id": "22136854",
+      "current_id_type": "PMID",
+      "current_title": "The founding of the American Association of Endocrine Surgeons: the time was right.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.048,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "09_trauma_acute_infection::C. William Schwab->Penn Trauma and Surgical Critical Care Fellowship",
+      "module": "09_trauma_acute_infection.json",
+      "source_node": "C. William Schwab",
+      "target_node": "Penn Trauma and Surgical Critical Care Fellowship",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1989-2020",
+      "current_id": "14530774",
+      "current_id_type": "PMID",
+      "current_title": "Drotrecogin alfa (activated) administration: too many subgroups.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "10_quality_outcomes::Shukri Khuri->VA National Surgical Quality Improvement Program",
+      "module": "10_quality_outcomes.json",
+      "source_node": "Shukri Khuri",
+      "target_node": "VA National Surgical Quality Improvement Program",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1991-2001",
+      "current_id": "9486580",
+      "current_id_type": "PMID",
+      "current_title": "Pathologic classification of prostate carcinoma: the impact of margin status.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "21717926",
+          "title": "Development of the Veterans Healthcare Administration (VHA) Ophthalmic Surgical Outcome Database (OSOD) project and the role of ophthalmic nurse reviewers.",
+          "journal": "Insight",
+          "year": "2011",
+          "score": 0.476,
+          "matched_tokens": [
+            "national",
+            "khuri",
+            "mortality",
+            "quality",
+            "outcomes",
+            "nsqip",
+            "improvement",
+            "surgical",
+            "program",
+            "development"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "19874939",
+          "title": "Fifteen years of the National Surgical Quality Improvement Program in review.",
+          "journal": "Am J Surg",
+          "year": "2009",
+          "score": 0.476,
+          "matched_tokens": [
+            "national",
+            "khuri",
+            "quality",
+            "outcomes",
+            "nsqip",
+            "improvement",
+            "surgical",
+            "shukri khuri",
+            "program",
+            "shukri"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "19874936",
+          "title": "New approaches to the National Surgical Quality Improvement Program: the American College of Surgeons experience.",
+          "journal": "Am J Surg",
+          "year": "2009",
+          "score": 0.476,
+          "matched_tokens": [
+            "national",
+            "khuri",
+            "quality",
+            "nsqip",
+            "improvement",
+            "surgical",
+            "shukri khuri",
+            "program",
+            "development",
+            "shukri"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "10_quality_outcomes::VA National Surgical Quality Improvement Program->ACS National Surgical Quality Improvement Program",
+      "module": "10_quality_outcomes.json",
+      "source_node": "VA National Surgical Quality Improvement Program",
+      "target_node": "ACS National Surgical Quality Improvement Program",
+      "edge_type": "institutional_succession",
+      "temporal_range": "2004-Present",
+      "current_id": "18650631",
+      "current_id_type": "PMID",
+      "current_title": "Total number of resected lymph nodes predicts survival in esophageal cancer.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.045,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41840077",
+          "title": "National adoption of robotic-assisted surgery in the United Kingdom: a decade of growth, distribution and speciality trends (2014-2024).",
+          "journal": "Surg Endosc",
+          "year": "2026",
+          "score": 0.273,
+          "matched_tokens": [
+            "national",
+            "quality",
+            "system",
+            "within",
+            "surgical",
+            "under"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "41838186",
+          "title": "Surgical preference and outcomes in pilonidal sinus disease: a national multicenter study evaluating complications, recurrence, and quality of life (PISI TURKEY).",
+          "journal": "Tech Coloproctol",
+          "year": "2026",
+          "score": 0.273,
+          "matched_tokens": [
+            "national",
+            "quality",
+            "within",
+            "improvement",
+            "surgical",
+            "under"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "41840038",
+          "title": "Floor and ceiling effects of the international hip outcome tool-12 in patients undergoing hip preservation surgery: A national registry study.",
+          "journal": "Int Orthop",
+          "year": "2026",
+          "score": 0.227,
+          "matched_tokens": [
+            "national",
+            "within",
+            "improvement",
+            "surgical",
+            "under"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "11_mis_robotic::Philippe Mouret->Francois Dubois",
+      "module": "11_mis_robotic.json",
+      "source_node": "Philippe Mouret",
+      "target_node": "Francois Dubois",
+      "edge_type": "observational_study",
+      "temporal_range": "1987-1988",
+      "current_id": "10562635",
+      "current_id_type": "PMID",
+      "current_title": "Role of the spleen in the exaggerated polycythemic response to hypoxia in chronic mountain sickness in rats.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "10444020",
+          "title": "Profiles in laparoscopy: Mouret, Dubois, and Perissat: the laparoscopic breakthrough in Europe (1987-1988).",
+          "journal": "JSLS",
+          "year": "1999",
+          "score": 0.5,
+          "matched_tokens": [
+            "dubois",
+            "laparoscopic",
+            "technique",
+            "cholecystectomy",
+            "francois dubois",
+            "francois",
+            "mouret",
+            "breakthrough"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "8353775",
+          "title": "[Celioscopic cholecystectomy].",
+          "journal": "Bull Acad Natl Med",
+          "year": "1993",
+          "score": 0.438,
+          "matched_tokens": [
+            "philippe",
+            "dubois",
+            "laparoscopic",
+            "cholecystectomy",
+            "philippe mouret",
+            "after",
+            "mouret"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "11304004",
+          "title": "The first laparoscopic cholecystectomy.",
+          "journal": "JSLS",
+          "year": "2001",
+          "score": 0.312,
+          "matched_tokens": [
+            "dubois",
+            "laparoscopic",
+            "cholecystectomy",
+            "after",
+            "mouret"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "11_mis_robotic::Francois Dubois->Eddie Joe Reddick",
+      "module": "11_mis_robotic.json",
+      "source_node": "Francois Dubois",
+      "target_node": "Eddie Joe Reddick",
+      "edge_type": "observational_study",
+      "temporal_range": "1988-1989",
+      "current_id": "2682975",
+      "current_id_type": "PMID",
+      "current_title": "[Amebiasis. Surgical treatment in 1989].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "10444020",
+          "title": "Profiles in laparoscopy: Mouret, Dubois, and Perissat: the laparoscopic breakthrough in Europe (1987-1988).",
+          "journal": "JSLS",
+          "year": "1999",
+          "score": 0.333,
+          "matched_tokens": [
+            "dubois",
+            "laparoscopic",
+            "francois dubois",
+            "francois",
+            "paris"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "11_mis_robotic::Eddie Joe Reddick->Society of American Gastrointestinal and Endoscopic Surgeons",
+      "module": "11_mis_robotic.json",
+      "source_node": "Eddie Joe Reddick",
+      "target_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1989-2000",
+      "current_id": "24002773",
+      "current_id_type": "PMID",
+      "current_title": "Clinical significance of incidental pulmonary nodules in esophageal cancer patients.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.04,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "18945707",
+          "title": "An unsung hero of the laparoscopic revolution: Eddie Joe Reddick, MD.",
+          "journal": "Surg Innov",
+          "year": "2008",
+          "score": 0.24,
+          "matched_tokens": [
+            "eddie",
+            "eddie joe reddick",
+            "joe",
+            "revolution",
+            "laparoscopic",
+            "reddick"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Evarts A. Graham->American Board of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "Evarts A. Graham",
+      "target_node": "American Board of Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1937-1941",
+      "current_id": "2446522",
+      "current_id_type": "PMID",
+      "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Allen O. Whipple->American Board of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "Allen O. Whipple",
+      "target_node": "American Board of Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1937-1941",
+      "current_id": "2446522",
+      "current_id_type": "PMID",
+      "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "37941365",
+          "title": "Dr. Allen Oldfather Whipple (1881-1963): Namesake of the pancreaticoduodenectomy.",
+          "journal": "J Med Biogr",
+          "year": "2025",
+          "score": 0.667,
+          "matched_tokens": [
+            "member",
+            "board",
+            "american",
+            "surgical",
+            "surgery",
+            "whipple",
+            "training",
+            "allen o. whipple",
+            "allen",
+            "american board of surgery"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "40881520",
+          "title": "Allen Oldfather Whipple (1881-1963): A Pioneer of General Surgery.",
+          "journal": "Cureus",
+          "year": "2025",
+          "score": 0.467,
+          "matched_tokens": [
+            "american",
+            "through",
+            "surgical",
+            "surgery",
+            "whipple",
+            "training",
+            "allen"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "32336268",
+          "title": "Moving enhanced recovery after surgery from implementation to sustainability across a health system: a qualitative assessment of leadership perspectives.",
+          "journal": "BMC Health Serv Res",
+          "year": "2020",
+          "score": 0.267,
+          "matched_tokens": [
+            "through",
+            "surgical",
+            "surgery",
+            "whipple"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::American College of Surgeons->American Board of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "American College of Surgeons",
+      "target_node": "American Board of Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1937",
+      "current_id": "2446522",
+      "current_id_type": "PMID",
+      "current_title": "[Normal values of cell distribution and function in the human alveolus. Bronchoalveolar lavage as a diagnostic tool in intensive care medicine].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [],
+      "queries_tried": 0,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Bernard Fisher->American College of Surgeons",
+      "module": "12_governance_societies.json",
+      "source_node": "Bernard Fisher",
+      "target_node": "American College of Surgeons",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1958-2019",
+      "current_id": "24753609",
+      "current_id_type": "PMID",
+      "current_title": "An outer membrane channel protein of Mycobacterium tuberculosis with exotoxin activity.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41665062",
+          "title": "Personality Profiles and Under-Pressure Behavioral Patterns in Surgical Trainees and Faculty: Implications for Leadership Curriculum Design.",
+          "journal": "Am Surg",
+          "year": "2026",
+          "score": 0.227,
+          "matched_tokens": [
+            "structure",
+            "fellow",
+            "surgical",
+            "fisher",
+            "surgeons"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Michael DeBakey->American College of Surgeons",
+      "module": "12_governance_societies.json",
+      "source_node": "Michael DeBakey",
+      "target_node": "American College of Surgeons",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1969-1970",
+      "current_id": "18693427",
+      "current_id_type": "PMID",
+      "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "40767489",
+          "title": "Roy Glenwood Spurling: Unrecognized Contributor to Modern Neurosurgery.",
+          "journal": "Neurosurgery",
+          "year": "2026",
+          "score": 0.471,
+          "matched_tokens": [
+            "american",
+            "president",
+            "surgeons",
+            "michael",
+            "national",
+            "surgical",
+            "debakey",
+            "served"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "30819286",
+          "title": "The Ochsner Legacy.",
+          "journal": "Am Surg",
+          "year": "2019",
+          "score": 0.412,
+          "matched_tokens": [
+            "michael debakey",
+            "american",
+            "president",
+            "michael",
+            "cardiovascular",
+            "surgical",
+            "debakey"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "33332906",
+          "title": "Personalized Graduate Medical Education and the Global Surgeon: Training for Resource-Limited Settings.",
+          "journal": "Acad Med",
+          "year": "2021",
+          "score": 0.353,
+          "matched_tokens": [
+            "surgeons",
+            "michael",
+            "national",
+            "surgical",
+            "debakey",
+            "college"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Olga Jonasson->American College of Surgeons",
+      "module": "12_governance_societies.json",
+      "source_node": "Olga Jonasson",
+      "target_node": "American College of Surgeons",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1976-1993",
+      "current_id": "34462877",
+      "current_id_type": "PMID",
+      "current_title": "Correction to: Elevated ad libitum alcohol consumption following continuous theta burst stimulation to the left-dorsolateral prefrontal cortex is partially mediated by changes in craving.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "8503766",
+          "title": "Jonasson, Braunwald, and Morani. Three firsts in American surgery.",
+          "journal": "Arch Surg",
+          "year": "1993",
+          "score": 0.263,
+          "matched_tokens": [
+            "american",
+            "jonasson",
+            "first",
+            "surgery",
+            "surgeons"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Olga Jonasson->American Board of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "Olga Jonasson",
+      "target_node": "American Board of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1980-1990",
+      "current_id": "17416546",
+      "current_id_type": "PMID",
+      "current_title": "Shopping for plastids.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "8503766",
+          "title": "Jonasson, Braunwald, and Morani. Three firsts in American surgery.",
+          "journal": "Arch Surg",
+          "year": "1993",
+          "score": 0.353,
+          "matched_tokens": [
+            "american",
+            "women",
+            "surgery",
+            "first",
+            "among",
+            "jonasson"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Jeffrey Ponsky->American Board of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "Jeffrey Ponsky",
+      "target_node": "American Board of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "2005-2010",
+      "current_id": "31003229",
+      "current_id_type": "PMID",
+      "current_title": "Optimal Muscle Selection for OnabotulinumtoxinA Injections in Poststroke Lower-Limb Spasticity: A Randomized Trial.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "14_global_military::Bernhard von Langenbeck->Charité Berlin Department of Surgery",
+      "module": "14_global_military.json",
+      "source_node": "Bernhard von Langenbeck",
+      "target_node": "Charité Berlin Department of Surgery",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1847-1882",
+      "current_id": "20436531",
+      "current_id_type": "PMID",
+      "current_title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "25044221",
+          "title": "A historical perspective: Bernhard von Langenbeck German surgeon (1810-1887).",
+          "journal": "Clin Anat",
+          "year": "2014",
+          "score": 0.368,
+          "matched_tokens": [
+            "langenbeck",
+            "bernhard von langenbeck",
+            "surgery",
+            "von",
+            "german",
+            "bernhard",
+            "training"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "24585612",
+          "title": "Nikolay Ivanovich Pirogov (1810-1881) and Bernhard von Langenbeck (1810-1887): similarities on the anniversary of their 200th birthdays.",
+          "journal": "J Med Biogr",
+          "year": "2015",
+          "score": 0.316,
+          "matched_tokens": [
+            "langenbeck",
+            "bernhard von langenbeck",
+            "surgery",
+            "von",
+            "german",
+            "bernhard"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "26452677",
+          "title": "Authorities and foundation of an orthopaedic school in Germany in the nineteenth century: Part I: Conrad Johann Martin Langenbeck; Georg Friedrich Louis Stromeyer; Bernhard Rudolf Conrad von Langenbeck; Johann Friedrich August von Esmarch.",
+          "journal": "Int Orthop",
+          "year": "2016",
+          "score": 0.263,
+          "matched_tokens": [
+            "langenbeck",
+            "surgery",
+            "von",
+            "german",
+            "bernhard"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "14_global_military::Bernhard von Langenbeck->Theodor Billroth",
+      "module": "14_global_military.json",
+      "source_node": "Bernhard von Langenbeck",
+      "target_node": "Theodor Billroth",
+      "edge_type": "direct_training",
+      "temporal_range": "1853-1860",
+      "current_id": "20436531",
+      "current_id_type": "PMID",
+      "current_title": "Parainfectious optic neuropathy in a young patient with group A Streptococcus pyogenes orbital cellulitis.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "20340032",
+          "title": "The editors of Langenbeck's since 1860.",
+          "journal": "Langenbecks Arch Surg",
+          "year": "2010",
+          "score": 0.421,
+          "matched_tokens": [
+            "langenbeck",
+            "billroth",
+            "theodor",
+            "langenbeck's",
+            "bernhard von langenbeck",
+            "theodor billroth",
+            "von",
+            "bernhard"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "20217121",
+          "title": "European endocrine surgery in the 150-year history of Langenbeck's Archives of Surgery.",
+          "journal": "Langenbecks Arch Surg",
+          "year": "2010",
+          "score": 0.316,
+          "matched_tokens": [
+            "langenbeck",
+            "billroth",
+            "langenbeck's",
+            "surgical",
+            "german",
+            "before"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "20221627",
+          "title": "From Archiv für Klinische Chirurgie to Langenbeck's Archives of Surgery: 1860-2010.",
+          "journal": "Langenbecks Arch Surg",
+          "year": "2010",
+          "score": 0.263,
+          "matched_tokens": [
+            "langenbeck",
+            "billroth",
+            "langenbeck's",
+            "surgical",
+            "german"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "14_global_military::Theodor Billroth->William Stewart Halsted",
+      "module": "14_global_military.json",
+      "source_node": "Theodor Billroth",
+      "target_node": "William Stewart Halsted",
+      "edge_type": "observational_study",
+      "temporal_range": "1878-1880",
+      "current_id": "2446524",
+      "current_id_type": "PMID",
+      "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.038,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "23035261",
+          "title": "[The history of prostate cancer from the beginning to DaVinci].",
+          "journal": "Aktuelle Urol",
+          "year": "2012",
+          "score": 0.385,
+          "matched_tokens": [
+            "approach",
+            "stewart",
+            "william stewart halsted",
+            "hopkins",
+            "years",
+            "theodor",
+            "billroth",
+            "theodor billroth",
+            "halsted",
+            "william"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "17555398",
+          "title": "Medullary thyroid carcinoma: surgical treatment advances.",
+          "journal": "Expert Rev Anticancer Ther",
+          "year": "2007",
+          "score": 0.231,
+          "matched_tokens": [
+            "system",
+            "years",
+            "billroth",
+            "surgical",
+            "highly",
+            "halsted"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "14_global_military::Michael DeBakey->Mobile Army Surgical Hospital (MASH) System",
+      "module": "14_global_military.json",
+      "source_node": "Michael DeBakey",
+      "target_node": "Mobile Army Surgical Hospital (MASH) System",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1943-1945",
+      "current_id": "18693427",
+      "current_id_type": "PMID",
+      "current_title": "[Effects of diffusion time and diffusion gradient magnetic field on the apparent diffusion coefficient of water molecules].",
+      "phase1_5_status": "MISMATCH",
+      "phase1_5_score": 0.0,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.1093/ww/9780199540884.013.u13329",
+          "title": "DeBakey, Dr Michael Ellis, (7 Sept. 1908–11 July 2008), Chancellor, Baylor College of Medicine, 1979–96, then Emeritus (Director, DeBakey Heart Center, since 1985; Distinguished Service Professor, since 1968, and Olga Keith Wiess Professor of Surgery, since 1981, Michael E. DeBakey Department of Surgery; Professor and Chairman, Department of Surgery, 1948–93, President, 1969–79, Chief Executive Officer, and Vice-President for Medical Affairs, 1968–69); Surgeon-in-Chief, Ben Taub General Hospital, Houston, Texas, 1963–93; Senior Attending Surgeon, Methodist Hospital, Houston; Director, National Heart and Blood Vessel Research and Demonstration Center, 1976–84; President, DeBakey Medical Foundation, since 1961; Consultant in Surgery to various Hospitals etc., in Texas, and to Walter Reed Army Hospital, Washington, DC",
+          "journal": "Who Was Who",
+          "year": "2007",
+          "score": 0.348,
+          "matched_tokens": [
+            "medical",
+            "office",
+            "surgeon",
+            "michael",
+            "hospital",
+            "debakey",
+            "army",
+            "center"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "DOI",
+          "id": "10.2106/00004623-195941020-00027",
+          "title": "Cold Injury, Ground Type (The Medical Department, United States Army, In World War II). Col. Tom F. Whayne, M.C., U.S.A. (Ret.), and Michael E. DeBakey, M.D. Washington, Office of the Surgeon General, Department of the Army, 1958. $6.25",
+          "journal": "The Journal of Bone &amp; Joint Surgery",
+          "year": "1959",
+          "score": 0.261,
+          "matched_tokens": [
+            "medical",
+            "office",
+            "surgeon",
+            "michael",
+            "debakey",
+            "army"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->Hugh Hampton Young",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "Hugh Hampton Young",
+      "edge_type": "direct_training",
+      "temporal_range": "1895-1898",
+      "current_id": "2446524",
+      "current_id_type": "PMID",
+      "current_title": "Isolation of RNA for dot hybridization by heparin-DNase I treatment of whole cell lysate.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.059,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "32481787",
+          "title": "Brown Urology: A Historical Perspective.",
+          "journal": "R I Med J (2013)",
+          "year": "2020",
+          "score": 0.471,
+          "matched_tokens": [
+            "surgeon",
+            "hugh",
+            "hugh hampton young",
+            "halsted",
+            "young",
+            "william",
+            "genitourinary",
+            "hampton"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "23035261",
+          "title": "[The history of prostate cancer from the beginning to DaVinci].",
+          "journal": "Aktuelle Urol",
+          "year": "2012",
+          "score": 0.471,
+          "matched_tokens": [
+            "hugh",
+            "hugh hampton young",
+            "halsted",
+            "stewart",
+            "young",
+            "william",
+            "hampton",
+            "william stewart halsted"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "17990811",
+          "title": "[William Stewart Halsted--110 years of the use of surgical gloves].",
+          "journal": "Med Pregl",
+          "year": "2007",
+          "score": 0.353,
+          "matched_tokens": [
+            "surgeon",
+            "halsted",
+            "stewart",
+            "young",
+            "william",
+            "william stewart halsted"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "01_halsted_core::William Stewart Halsted->John Homans",
+      "module": "01_halsted_core.json",
+      "source_node": "William Stewart Halsted",
+      "target_node": "John Homans",
+      "edge_type": "direct_training",
+      "temporal_range": "1903-1904",
+      "current_id": "10871146",
+      "current_id_type": "PMID",
+      "current_title": "Effects of ultrasound and stretch on knee ligament extensibility.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.095,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "31944636",
+          "title": "Necessity is the mother of invention: William Stewart Halsted’s addiction and its influence on the development of residency training in North America.",
+          "journal": "Can J Surg",
+          "year": "2020",
+          "score": 0.381,
+          "matched_tokens": [
+            "stewart",
+            "early",
+            "william stewart halsted",
+            "john",
+            "surgical",
+            "halsted",
+            "william",
+            "training"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "36565354",
+          "title": "Rubber gloves in orthopaedic surgery (part II): Cooke and Goodyear; Halsted and Caroline's gloves of love; from cotton to rubber after Perthes' experiments; double glove technique with Urist.",
+          "journal": "Int Orthop",
+          "year": "2023",
+          "score": 0.333,
+          "matched_tokens": [
+            "early",
+            "john",
+            "surgical",
+            "halsted",
+            "under",
+            "halsted's",
+            "before"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Edward P. Richardson->Edward Churchill",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Edward P. Richardson",
+      "target_node": "Edward Churchill",
+      "edge_type": "direct_training",
+      "temporal_range": "1920-1924",
+      "current_id": "15523385",
+      "current_id_type": "PMID",
+      "current_title": "Edward D. Churchill and the \"rectangular\" surgical residency.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.19,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Allen O. Whipple->Charles R. Drew",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Allen O. Whipple",
+      "target_node": "Charles R. Drew",
+      "edge_type": "direct_training",
+      "temporal_range": "1938-1940",
+      "current_id": "16632995",
+      "current_id_type": "PMID",
+      "current_title": "The Southern Surgical Association History of Medicine Scholarship presentation: Dr. Charles Drew, a surgical pioneer.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.19,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Charles R. Drew->Howard University Department of Surgery",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Charles R. Drew",
+      "target_node": "Howard University Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1941-1950",
+      "current_id": "16632995",
+      "current_id_type": "PMID",
+      "current_title": "The Southern Surgical Association History of Medicine Scholarship presentation: Dr. Charles Drew, a surgical pioneer.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.158,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Johns Hopkins Hospital Department of Surgery->Peter Safar",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Johns Hopkins Hospital Department of Surgery",
+      "target_node": "Peter Safar",
+      "edge_type": "direct_training",
+      "temporal_range": "1954-1955",
+      "current_id": "11153604",
+      "current_id_type": "PMID",
+      "current_title": "Lung cancer in young females.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.167,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "35839834",
+          "title": "100 Years of Critical Care in the Pages of Anesthesia & Analgesia.",
+          "journal": "Anesth Analg",
+          "year": "2022",
+          "score": 0.389,
+          "matched_tokens": [
+            "hopkins",
+            "peter",
+            "modern",
+            "johns",
+            "peter safar",
+            "critical",
+            "safar"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::C. Walton Lillehei->Christiaan Barnard",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "C. Walton Lillehei",
+      "target_node": "Christiaan Barnard",
+      "edge_type": "direct_training",
+      "temporal_range": "1956-1958",
+      "current_id": "11845877",
+      "current_id_type": "PMID",
+      "current_title": "Myocardial protection by PJ34, a novel potent poly (ADP-ribose) synthetase inhibitor.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.067,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "20497008",
+          "title": "Christiaan Barnard.",
+          "journal": "J Invest Surg",
+          "year": "2010",
+          "score": 0.533,
+          "matched_tokens": [
+            "christiaan barnard",
+            "barnard",
+            "trained",
+            "christiaan",
+            "minnesota",
+            "c. walton lillehei",
+            "lillehei",
+            "walton"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "28285678",
+          "title": "Great Institutions in Cardiothoracic Surgery: The University of Minnesota.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2016",
+          "score": 0.4,
+          "matched_tokens": [
+            "christiaan barnard",
+            "barnard",
+            "christiaan",
+            "minnesota",
+            "cardiothoracic",
+            "lillehei"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Owen Wangensteen->John Najarian",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Owen Wangensteen",
+      "target_node": "John Najarian",
+      "edge_type": "direct_training",
+      "temporal_range": "1956-1963",
+      "current_id": "2774706",
+      "current_id_type": "PMID",
+      "current_title": "The skill, science, and soul of the surgeon.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.059,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "17275843",
+          "title": "In memoriam: a tribute to dr. Owen H. Wangensteen, the greatest teacher of surgery during the 20th century (1898-1981).",
+          "journal": "J Surg Res",
+          "year": "2007",
+          "score": 0.529,
+          "matched_tokens": [
+            "transplant",
+            "department",
+            "university",
+            "surgery",
+            "owen",
+            "minnesota",
+            "owen wangensteen",
+            "chairman",
+            "wangensteen"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "17972214",
+          "title": "The history of surgery according to Owen Wangensteen.",
+          "journal": "J Invest Surg",
+          "year": "2007",
+          "score": 0.471,
+          "matched_tokens": [
+            "university",
+            "surgery",
+            "owen",
+            "minnesota",
+            "owen wangensteen",
+            "under",
+            "chairman",
+            "wangensteen"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "15919253",
+          "title": "Lillehei, Lewis, and Wangensteen: the right mix for giant achievements in cardiac surgery.",
+          "journal": "Ann Thorac Surg",
+          "year": "2005",
+          "score": 0.412,
+          "matched_tokens": [
+            "john",
+            "university",
+            "surgery",
+            "owen",
+            "minnesota",
+            "owen wangensteen",
+            "wangensteen"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Warren Cole->Olga Jonasson",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Warren Cole",
+      "target_node": "Olga Jonasson",
+      "edge_type": "direct_training",
+      "temporal_range": "1956-1963",
+      "current_id": "17473177",
+      "current_id_type": "PMID",
+      "current_title": "Transmitted Resistance: An Overview and Its Potential Relevance to the Management of HIV-Infected Persons in Resource-Limited Settings.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.059,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Julie Ann Freischlag->Johns Hopkins Hospital Department of Surgery",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Julie Ann Freischlag",
+      "target_node": "Johns Hopkins Hospital Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "2003-2014",
+      "current_id": "19099052",
+      "current_id_type": "PMID",
+      "current_title": "Women surgeons--still in a male-dominated world.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.053,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::David Sabiston->Walter G. Wolfe",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "David Sabiston",
+      "target_node": "Walter G. Wolfe",
+      "edge_type": "direct_training",
+      "temporal_range": "1964-1971",
+      "current_id": "14703738",
+      "current_id_type": "PMID",
+      "current_title": "The Sabiston heritage: excellence in surgical education.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.05,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::David Sabiston->R. Randal Bollinger",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "David Sabiston",
+      "target_node": "R. Randal Bollinger",
+      "edge_type": "direct_training",
+      "temporal_range": "1970-1980",
+      "current_id": "39257568",
+      "current_id_type": "PMID",
+      "current_title": "R. Randal Bollinger, M.D., Ph.D., Master Surgeon.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.167,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::David Sabiston->Robert W. Anderson",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "David Sabiston",
+      "target_node": "Robert W. Anderson",
+      "edge_type": "direct_training",
+      "temporal_range": "c.1968-c.1976",
+      "current_id": "25135240",
+      "current_id_type": "PMID",
+      "current_title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009).",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.167,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::David Sabiston->W. Randolph Chitwood Jr.",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "David Sabiston",
+      "target_node": "W. Randolph Chitwood Jr.",
+      "edge_type": "direct_training",
+      "temporal_range": "c.1974-c.1982",
+      "current_id": "14703738",
+      "current_id_type": "PMID",
+      "current_title": "The Sabiston heritage: excellence in surgical education.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.105,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::David Sabiston->James L. Cox",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "David Sabiston",
+      "target_node": "James L. Cox",
+      "edge_type": "direct_training",
+      "temporal_range": "c.1975-1983",
+      "current_id": "25135240",
+      "current_id_type": "PMID",
+      "current_title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009).",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.15,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::David Sabiston->Thomas L. Spray",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "David Sabiston",
+      "target_node": "Thomas L. Spray",
+      "edge_type": "direct_training",
+      "temporal_range": "c.1976-c.1984",
+      "current_id": "25135240",
+      "current_id_type": "PMID",
+      "current_title": "Historical perspectives of The American Association for Thoracic Surgery: David C. Sabiston, Jr (1924-2009).",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.143,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Owen Wangensteen->Richard L. Varco",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Owen Wangensteen",
+      "target_node": "Richard L. Varco",
+      "edge_type": "direct_training",
+      "temporal_range": "1938-1943",
+      "current_id": "12717368",
+      "current_id_type": "PMID",
+      "current_title": "Richard L. Varco, MD, PhD: the compleat academic surgeon.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.167,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "21345003",
+          "title": "Richard Carlton Lillehei: transplant and shock surgical pioneer.",
+          "journal": "J Invest Surg",
+          "year": "2011",
+          "score": 0.5,
+          "matched_tokens": [
+            "richard",
+            "department",
+            "varco",
+            "surgery",
+            "owen",
+            "minnesota",
+            "research",
+            "richard l. varco",
+            "wangensteen"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::I.S. Ravdin->Jonathan E. Rhoads",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "I.S. Ravdin",
+      "target_node": "Jonathan E. Rhoads",
+      "edge_type": "direct_training",
+      "temporal_range": "1934-1939",
+      "current_id": "14606488",
+      "current_id_type": "PMID",
+      "current_title": "Introduction to the symposium in honor of Jonathan E. Rhoads.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.158,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Jonathan E. Rhoads->University of Pennsylvania Department of Surgery",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Jonathan E. Rhoads",
+      "target_node": "University of Pennsylvania Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1959-1972",
+      "current_id": "14606488",
+      "current_id_type": "PMID",
+      "current_title": "Introduction to the symposium in honor of Jonathan E. Rhoads.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.143,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "15141413",
+          "title": "Nutrition support in Brazil: past, present, and future perspectives.",
+          "journal": "JPEN J Parenter Enteral Nutr",
+          "year": "2004",
+          "score": 0.238,
+          "matched_tokens": [
+            "pennsylvania",
+            "university",
+            "professor",
+            "rhoads",
+            "these"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Peter Bent Brigham Hospital Department of Surgery->Murray F. Brennan",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Peter Bent Brigham Hospital Department of Surgery",
+      "target_node": "Murray F. Brennan",
+      "edge_type": "direct_training",
+      "temporal_range": "1970-1975",
+      "current_id": "31944281",
+      "current_id_type": "PMID",
+      "current_title": "First person profile: Sir Murray Brennan, MD: A legendary surgical oncologist, Dr. Brennan's research on soft tissue sarcomas and his willingness to mentor others have left a mark on the field.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.136,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.1053/j.semtcvs.2015.10.013",
+          "title": "History of Cardiac Surgery at the Peter Bent Brigham and Brigham and Women׳s Hospital, Boston, Massachusetts",
+          "journal": "Seminars in Thoracic and Cardiovascular Surgery",
+          "year": "2015",
+          "score": 0.227,
+          "matched_tokens": [
+            "hospital",
+            "peter",
+            "surgery",
+            "bent",
+            "brigham"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Alfred Blalock->Mark M. Ravitch",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Alfred Blalock",
+      "target_node": "Mark M. Ravitch",
+      "edge_type": "direct_training",
+      "temporal_range": "1934-1943",
+      "current_id": "32106907",
+      "current_id_type": "PMID",
+      "current_title": "Mark M. Ravitch: A Staple in Surgical History and Innovation.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.182,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "26874128",
+          "title": "Crawford Long, Alfred Blalock, Louis Wright, and Georgia's Surgical Heritage.",
+          "journal": "Am Surg",
+          "year": "2016",
+          "score": 0.273,
+          "matched_tokens": [
+            "alfred",
+            "surgical",
+            "blalock",
+            "their",
+            "alfred blalock",
+            "mark"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "25931156",
+          "title": "Why did Alfred Blalock and Helen Taussig not receive the nobel prize?",
+          "journal": "J Card Surg",
+          "year": "2015",
+          "score": 0.227,
+          "matched_tokens": [
+            "alfred",
+            "there",
+            "surgical",
+            "blalock",
+            "alfred blalock"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Alfred Blalock->H. William Scott Jr.",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Alfred Blalock",
+      "target_node": "H. William Scott Jr.",
+      "edge_type": "direct_training",
+      "temporal_range": "1946-1952",
+      "current_id": "37746597",
+      "current_id_type": "PMID",
+      "current_title": "Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD, A Surgeon Nonpareil.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.091,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "26874128",
+          "title": "Crawford Long, Alfred Blalock, Louis Wright, and Georgia's Surgical Heritage.",
+          "journal": "Am Surg",
+          "year": "2016",
+          "score": 0.227,
+          "matched_tokens": [
+            "alfred",
+            "hospital",
+            "surgical",
+            "blalock",
+            "alfred blalock"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::H. William Scott Jr.->Vanderbilt University Department of Surgery",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "H. William Scott Jr.",
+      "target_node": "Vanderbilt University Department of Surgery",
+      "edge_type": "institutional_succession",
+      "temporal_range": "1952-1982",
+      "current_id": "37746597",
+      "current_id_type": "PMID",
+      "current_title": "Genius is Largely a Matter of Making a Continuous Effort: A Reappraisal of the Contributions of H. William Scott, Jr., MD, A Surgeon Nonpareil.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.105,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "17301287",
+          "title": "Comparison of the MChip to viral culture, reverse transcription-PCR, and the QuickVue influenza A+B test for rapid diagnosis of influenza.",
+          "journal": "J Clin Microbiol",
+          "year": "2007",
+          "score": 0.211,
+          "matched_tokens": [
+            "vanderbilt",
+            "university",
+            "scott",
+            "william"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Henry Harkins->Lloyd M. Nyhus",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Henry Harkins",
+      "target_node": "Lloyd M. Nyhus",
+      "edge_type": "direct_training",
+      "temporal_range": "1947-1956",
+      "current_id": "10.1007/s10029-009-0522-1",
+      "current_id_type": "DOI",
+      "current_title": "Lloyd Milton Nyhus, MD",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.15,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "5330123",
+          "title": "We interview Henry Nelson Harkins, professor of surgery, University of Washington School of Medicine, Department of Surgery, in Seattle, Washington, U.S.S.",
+          "journal": "Tidsskr Nor Laegeforen",
+          "year": "1966",
+          "score": 0.2,
+          "matched_tokens": [
+            "henry",
+            "harkins",
+            "university",
+            "washington"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "02_general_surgery_spread::Lloyd M. Nyhus->University of Illinois College of Medicine Department of Surgery",
+      "module": "02_general_surgery_spread.json",
+      "source_node": "Lloyd M. Nyhus",
+      "target_node": "University of Illinois College of Medicine Department of Surgery",
+      "edge_type": "institutional_succession",
+      "temporal_range": "1967-1989",
+      "current_id": "10.1007/s10029-009-0522-1",
+      "current_id_type": "DOI",
+      "current_title": "Lloyd Milton Nyhus, MD",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.1,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.1002/bjs.1800570724",
+          "title": "Manual of surgical therapeutics. Edited by Robert E. Condon, M.D., Illinois, and Lloyd M. Nyhus, M.D., Illinois. 9 × 5 ½ in. Pp. 379 + x. Illustrated. 1969. London: J. &amp; A. Churchill. 50s",
+          "journal": "Journal of British Surgery",
+          "year": "1970",
+          "score": 0.2,
+          "matched_tokens": [
+            "nyhus",
+            "lloyd m. nyhus",
+            "lloyd",
+            "illinois"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "03_neurosurgery::Harvey Cushing->Walter Dandy",
+      "module": "03_neurosurgery.json",
+      "source_node": "Harvey Cushing",
+      "target_node": "Walter Dandy",
+      "edge_type": "direct_training",
+      "temporal_range": "1910-1912",
+      "current_id": "15007469",
+      "current_id_type": "PMID",
+      "current_title": "[Preliminary experience of 16-layer three-dimensional computed tomography in diagnosis and treatment of arteriovenous malformations].",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.077,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "40212222",
+          "title": "The evolution of intracranial aneurysm clipping: a historical perspective.",
+          "journal": "Ann Med Surg (Lond)",
+          "year": "2025",
+          "score": 0.615,
+          "matched_tokens": [
+            "dandy",
+            "walter dandy",
+            "harvey cushing",
+            "cushing's",
+            "harvey",
+            "under",
+            "cushing",
+            "walter"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "39732453",
+          "title": "Harvey Cushing: France Military Hospital Surgical Unit Head and World War I U.S. Army Medical Corps Commissioner.",
+          "journal": "World Neurosurg",
+          "year": "2025",
+          "score": 0.615,
+          "matched_tokens": [
+            "dandy",
+            "worked",
+            "walter dandy",
+            "harvey cushing",
+            "cushing's",
+            "harvey",
+            "cushing",
+            "walter"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "40609741",
+          "title": "The genesis of Academic Neurosurgery. Part II: The contribution of Johns Hopkins School of Medicine leaders.",
+          "journal": "Neurocirugia (Engl Ed)",
+          "year": "2025",
+          "score": 0.538,
+          "matched_tokens": [
+            "dandy",
+            "walter dandy",
+            "harvey cushing",
+            "harvey",
+            "under",
+            "cushing",
+            "walter"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "04_cardiothoracic_vascular::Owen Wangensteen->Norman Shumway",
+      "module": "04_cardiothoracic_vascular.json",
+      "source_node": "Owen Wangensteen",
+      "target_node": "Norman Shumway",
+      "edge_type": "direct_training",
+      "temporal_range": "1953-1958",
+      "current_id": "16730164",
+      "current_id_type": "PMID",
+      "current_title": "Therapeutic options: Addressing the current dilemma.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.077,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "28285678",
+          "title": "Great Institutions in Cardiothoracic Surgery: The University of Minnesota.",
+          "journal": "Semin Thorac Cardiovasc Surg",
+          "year": "2016",
+          "score": 0.538,
+          "matched_tokens": [
+            "cardiac",
+            "norman",
+            "wangensteen",
+            "owen",
+            "shumway",
+            "under",
+            "norman shumway"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "05_urology::Hugh Hampton Young->Brady Urological Institute",
+      "module": "05_urology.json",
+      "source_node": "Hugh Hampton Young",
+      "target_node": "Brady Urological Institute",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1915-1942",
+      "current_id": "25442801",
+      "current_id_type": "PMID",
+      "current_title": "CT density distribution analysis in patients with cystic fibrosis: correlation with pulmonary function and radiologic scores.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.059,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "10992353",
+          "title": "Max Brödel (1870-1941) and medical illustration in urology.",
+          "journal": "J Urol",
+          "year": "2000",
+          "score": 0.706,
+          "matched_tokens": [
+            "brady urological institute",
+            "hugh",
+            "hugh hampton young",
+            "young",
+            "hopkins",
+            "establishing",
+            "institute",
+            "first",
+            "urological",
+            "hampton",
+            "urology",
+            "brady"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "39038727",
+          "title": "The 50-Year Evolution of the William P. Didusch Museum of the American Urological Association.",
+          "journal": "Urology",
+          "year": "2024",
+          "score": 0.647,
+          "matched_tokens": [
+            "brady urological institute",
+            "hugh",
+            "hugh hampton young",
+            "young",
+            "founded",
+            "institute",
+            "first",
+            "urological",
+            "hampton",
+            "urology",
+            "brady"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "8966542",
+          "title": "Dr. T. F. Riggs and the Johns Hopkins connection: an early graduate medical experience in South Dakota.",
+          "journal": "S D J Med",
+          "year": "1996",
+          "score": 0.471,
+          "matched_tokens": [
+            "brady urological institute",
+            "hugh",
+            "young",
+            "hopkins",
+            "residency",
+            "institute",
+            "urological",
+            "brady"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "05_urology::Patrick Walsh->Brady Urological Institute",
+      "module": "05_urology.json",
+      "source_node": "Patrick Walsh",
+      "target_node": "Brady Urological Institute",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1974-2004",
+      "current_id": "17437775",
+      "current_id_type": "PMID",
+      "current_title": "The discovery of the cavernous nerves and development of nerve sparing radical retropubic prostatectomy.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.158,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.53101/ijuh.4.2.092420",
+          "title": "Charles Huggins' Road Not Taken at the Brady Urological Institute",
+          "journal": "International Journal of Urologic History",
+          "year": "2025",
+          "score": 0.263,
+          "matched_tokens": [
+            "institute",
+            "urological",
+            "brady urological institute",
+            "brady",
+            "center"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "DOI",
+          "id": "10.1097/01.ju.0001008760.25751.09.03",
+          "title": "HF02-03 GREAT EXPECTATIONS: A BRIEF HISTORY OF WOMEN RESIDENTS AT THE BRADY UROLOGICAL INSTITUTE AT JOHNS HOPKINS MEDICINE, 1980-2022",
+          "journal": "Journal of Urology",
+          "year": "2024",
+          "score": 0.263,
+          "matched_tokens": [
+            "institute",
+            "urological",
+            "brady urological institute",
+            "brady",
+            "walsh"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "DOI",
+          "id": "10.1007/978-1-4684-1941-2_25",
+          "title": "The Brady Urological Institute Origin, Growth, and Development",
+          "journal": "Urological Research",
+          "year": "1972",
+          "score": 0.211,
+          "matched_tokens": [
+            "institute",
+            "urological",
+            "brady urological institute",
+            "brady"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "06_orthopedics::James Knight->Hospital for the Ruptured and Crippled",
+      "module": "06_orthopedics.json",
+      "source_node": "James Knight",
+      "target_node": "Hospital for the Ruptured and Crippled",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1863-1887",
+      "current_id": "2504092",
+      "current_id_type": "PMID",
+      "current_title": "Long-term mechanical ventilation in pediatric respiratory failure: medical and ethical considerations.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.143,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "16272913",
+          "title": "The evolution of orthopaedic nursing at the Hospital for Special Surgery: the first orthopaedic institution in the United States.",
+          "journal": "Orthop Nurs",
+          "year": "2005",
+          "score": 0.714,
+          "matched_tokens": [
+            "ruptured",
+            "the",
+            "and",
+            "institution",
+            "rehabilitation",
+            "founded",
+            "for",
+            "james",
+            "hospital",
+            "knight",
+            "hospital for the ruptured and crippled",
+            "crippled",
+            "surgery",
+            "james knight",
+            "special"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "18751802",
+          "title": "Hospital for Special Surgery: origin and early history first site 1863-1870.",
+          "journal": "HSS J",
+          "year": "2005",
+          "score": 0.619,
+          "matched_tokens": [
+            "ruptured",
+            "the",
+            "and",
+            "institution",
+            "for",
+            "james",
+            "hospital",
+            "knight",
+            "hospital for the ruptured and crippled",
+            "crippled",
+            "surgery",
+            "james knight",
+            "special"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "13561578",
+          "title": "James Knight (1810-1887) of the Hospital for the Ruptured and Crippled.",
+          "journal": "Clin Orthop",
+          "year": "1958",
+          "score": 0.476,
+          "matched_tokens": [
+            "ruptured",
+            "the",
+            "and",
+            "for",
+            "james",
+            "hospital",
+            "knight",
+            "hospital for the ruptured and crippled",
+            "crippled",
+            "james knight"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "07_oncology_trials::Mayo Clinic Department of Surgery->R. Lee Clark",
+      "module": "07_oncology_trials.json",
+      "source_node": "Mayo Clinic Department of Surgery",
+      "target_node": "R. Lee Clark",
+      "edge_type": "direct_training",
+      "temporal_range": "1935-1939",
+      "current_id": "3524368",
+      "current_id_type": "PMID",
+      "current_title": "Differential structure and distribution of the high molecular weight brain microtubule-associated proteins, MAP-1 and MAP-2.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.067,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "21768478",
+          "title": "Malignant melanoma in solid transplant recipients: collection of database cases and comparison with surveillance, epidemiology, and end results data for outcome analysis.",
+          "journal": "Arch Dermatol",
+          "year": "2011",
+          "score": 0.267,
+          "matched_tokens": [
+            "clark",
+            "mayo",
+            "surgical",
+            "clinic"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "07_oncology_trials::Murray F. Brennan->Memorial Sloan Kettering Cancer Center",
+      "module": "07_oncology_trials.json",
+      "source_node": "Murray F. Brennan",
+      "target_node": "Memorial Sloan Kettering Cancer Center",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1985-2006",
+      "current_id": "31944281",
+      "current_id_type": "PMID",
+      "current_title": "First person profile: Sir Murray Brennan, MD: A legendary surgical oncologist, Dr. Brennan's research on soft tissue sarcomas and his willingness to mentor others have left a mark on the field.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.15,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.1016/s1365-182x(17)30702-5",
+          "title": "5. Hepatobiliary and pancreatic surgery at Memorial Sloan-Kettering Cancer Center, New York, USA",
+          "journal": "HPB",
+          "year": "2000",
+          "score": 0.35,
+          "matched_tokens": [
+            "sloan",
+            "memorial",
+            "brennan",
+            "cancer",
+            "surgery",
+            "kettering",
+            "center"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "DOI",
+          "id": "10.1053/jpsu.2002.32897",
+          "title": "Malignant pancreatic tumors in childhood and adolescence: The Memorial Sloan-Kettering experience, 1967 to present",
+          "journal": "Journal of Pediatric Surgery",
+          "year": "2002",
+          "score": 0.2,
+          "matched_tokens": [
+            "sloan",
+            "memorial",
+            "brennan",
+            "kettering"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::William E. Ladd->Robert E. Gross",
+      "module": "08_subspecialties.json",
+      "source_node": "William E. Ladd",
+      "target_node": "Robert E. Gross",
+      "edge_type": "direct_training",
+      "temporal_range": "1934-1938",
+      "current_id": "10493481",
+      "current_id_type": "PMID",
+      "current_title": "Detrimental effects of standard medical therapy in congenital diaphragmatic hernia.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.077,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "31759657",
+          "title": "Vignettes from the history of pediatric surgery.",
+          "journal": "J Pediatr Surg",
+          "year": "2020",
+          "score": 0.308,
+          "matched_tokens": [
+            "gross",
+            "william",
+            "robert",
+            "ladd"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "27305878",
+          "title": "The History of Multimodal Treatment of Wilms' Tumor.",
+          "journal": "Am Surg",
+          "year": "2016",
+          "score": 0.308,
+          "matched_tokens": [
+            "gross",
+            "william",
+            "robert",
+            "ladd"
+          ]
+        },
+        {
+          "rank": 3,
+          "type": "PMID",
+          "id": "25638637",
+          "title": "Max Wilms and his tumor.",
+          "journal": "J Pediatr Surg",
+          "year": "2015",
+          "score": 0.308,
+          "matched_tokens": [
+            "gross",
+            "william",
+            "robert",
+            "ladd"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::C. Everett Koop->Children's Hospital of Philadelphia Department of Pediatric Surgery",
+      "module": "08_subspecialties.json",
+      "source_node": "C. Everett Koop",
+      "target_node": "Children's Hospital of Philadelphia Department of Pediatric Surgery",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1948-1981",
+      "current_id": "35001182",
+      "current_id_type": "PMID",
+      "current_title": "Lateral chest wall perforator flaps in partial breast reconstruction.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.059,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "31711741",
+          "title": "Remembering Dr. Rowena Spencer (1922-2014).",
+          "journal": "J Pediatr Surg",
+          "year": "2020",
+          "score": 0.471,
+          "matched_tokens": [
+            "koop",
+            "children's",
+            "c. everett koop",
+            "hospital",
+            "surgery",
+            "everett",
+            "pediatric",
+            "philadelphia"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "3478363",
+          "title": "AIDS: children with HIV infection and their families.",
+          "journal": "ASDC J Dent Child",
+          "year": "1987",
+          "score": 0.235,
+          "matched_tokens": [
+            "koop",
+            "children's",
+            "hospital",
+            "philadelphia"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Rupert B. Turnbull->Cleveland Clinic Department of Colorectal Surgery",
+      "module": "08_subspecialties.json",
+      "source_node": "Rupert B. Turnbull",
+      "target_node": "Cleveland Clinic Department of Colorectal Surgery",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1953-1976",
+      "current_id": "10.1007/BF02553389",
+      "current_id_type": "DOI",
+      "current_title": "Ruppert Beach Turnbull, Jr. 1913-1981",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.125,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41568721",
+          "title": "Rupert B. Turnbull, JR., M.D, American Society of Colon and Rectal Surgeons President and Founder of The Cleveland Clinic Department of Colorectal Surgery: Part 1.",
+          "journal": "Dis Colon Rectum",
+          "year": "2026",
+          "score": 0.458,
+          "matched_tokens": [
+            "colorectal",
+            "cleveland clinic department of colorectal surgery",
+            "turnbull",
+            "rupert b. turnbull",
+            "rectal",
+            "surgery",
+            "clinic",
+            "department",
+            "cleveland",
+            "under",
+            "rupert"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "35490348",
+          "title": "Turnbull-Cutait abdominoperineal pull-through operation: The Cleveland Clinic experience in the 21st century.",
+          "journal": "Colorectal Dis",
+          "year": "2022",
+          "score": 0.333,
+          "matched_tokens": [
+            "patients",
+            "colorectal",
+            "turnbull",
+            "after",
+            "rectal",
+            "clinic",
+            "cleveland",
+            "under"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Rupert B. Turnbull->Victor W. Fazio",
+      "module": "08_subspecialties.json",
+      "source_node": "Rupert B. Turnbull",
+      "target_node": "Victor W. Fazio",
+      "edge_type": "direct_training",
+      "temporal_range": "1973-1974",
+      "current_id": "35731977",
+      "current_id_type": "PMID",
+      "current_title": "Legacy of Dr. Victor Fazio, Master of Pouch Surgery.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.143,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.1002/bjs.1800651008",
+          "title": "Pullthrough operation with delayed anastomosis for rectal cancer",
+          "journal": "Journal of British Surgery",
+          "year": "1978",
+          "score": 0.286,
+          "matched_tokens": [
+            "fazio",
+            "turnbull",
+            "rectal",
+            "surgery",
+            "clinic",
+            "cleveland"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "DOI",
+          "id": "10.1002/bjs.6458",
+          "title": "Outcomes following Turnbull–Cutait abdominoperineal pull-through compared with coloanal anastomosis",
+          "journal": "British Journal of Surgery",
+          "year": "2009",
+          "score": 0.286,
+          "matched_tokens": [
+            "fazio",
+            "turnbull",
+            "after",
+            "rectal",
+            "colon",
+            "under"
+          ]
+        }
+      ],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Victor W. Fazio->Cleveland Clinic Department of Colorectal Surgery",
+      "module": "08_subspecialties.json",
+      "source_node": "Victor W. Fazio",
+      "target_node": "Cleveland Clinic Department of Colorectal Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1975-2008",
+      "current_id": "35731977",
+      "current_id_type": "PMID",
+      "current_title": "Legacy of Dr. Victor Fazio, Master of Pouch Surgery.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.167,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "35571414",
+          "title": "The relationship between anal disease and quality of life: a bibliometric study.",
+          "journal": "Ann Transl Med",
+          "year": "2022",
+          "score": 0.278,
+          "matched_tokens": [
+            "victor w. fazio",
+            "cleveland",
+            "victor",
+            "fazio",
+            "clinic"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "14703744",
+          "title": "Ileal pouch-anal anastomosis for ulcerative colitis and familial adenomatous polyposis: historical development and current status.",
+          "journal": "Ann Surg",
+          "year": "2003",
+          "score": 0.222,
+          "matched_tokens": [
+            "cleveland",
+            "history",
+            "fazio",
+            "clinic"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Edward Mason->American Society for Bariatric Surgery",
+      "module": "08_subspecialties.json",
+      "source_node": "Edward Mason",
+      "target_node": "American Society for Bariatric Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1983-1984",
+      "current_id": "31659590",
+      "current_id_type": "PMID",
+      "current_title": "Human Serum Albumin, a Suitable Candidate to Stabilize Freeze-Dried IgG in Combination with Trehalose: Central Composite Design.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.053,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "38919214",
+          "title": "F. Mason Sones Jr.: The Serendipitous Discovery of Coronary Angiography and Its Lasting Impact on Cardiology.",
+          "journal": "Cureus",
+          "year": "2024",
+          "score": 0.368,
+          "matched_tokens": [
+            "american",
+            "mason",
+            "for",
+            "field",
+            "establish",
+            "surgery",
+            "society"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "19932224",
+          "title": "Richard Anderson: cardiothoracic surgeon personified.",
+          "journal": "Ann Thorac Surg",
+          "year": "2009",
+          "score": 0.263,
+          "matched_tokens": [
+            "american",
+            "mason",
+            "for",
+            "surgery",
+            "society"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::St. Mark's Hospital for Fistula and Other Diseases of the Rectum->American Society of Colon and Rectal Surgeons",
+      "module": "08_subspecialties.json",
+      "source_node": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
+      "target_node": "American Society of Colon and Rectal Surgeons",
+      "edge_type": "observational_study",
+      "temporal_range": "1993-Present",
+      "current_id": "10.1007/bf02586849",
+      "current_id_type": "DOI",
+      "current_title": "St. Mark's Hospital surgical training program",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.067,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Robert E. Gross->Judah Folkman",
+      "module": "08_subspecialties.json",
+      "source_node": "Robert E. Gross",
+      "target_node": "Judah Folkman",
+      "edge_type": "direct_training",
+      "temporal_range": "1953-1957",
+      "current_id": "10.1016/j.jpedsurg.2008.01.016",
+      "current_id_type": "DOI",
+      "current_title": "Judah M. Folkman, MD, 1933-2008",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.143,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "31759657",
+          "title": "Vignettes from the history of pediatric surgery.",
+          "journal": "J Pediatr Surg",
+          "year": "2020",
+          "score": 0.286,
+          "matched_tokens": [
+            "judah folkman",
+            "judah",
+            "folkman",
+            "robert",
+            "surgical",
+            "gross"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "08_subspecialties::Judah Folkman->Boston Children's Hospital Department of Surgery",
+      "module": "08_subspecialties.json",
+      "source_node": "Judah Folkman",
+      "target_node": "Boston Children's Hospital Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1967-1981",
+      "current_id": "10.1016/j.jpedsurg.2008.01.016",
+      "current_id_type": "DOI",
+      "current_title": "Judah M. Folkman, MD, 1933-2008",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.091,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "28207107",
+          "title": "Remembering Judah Moses Folkma.",
+          "journal": "Int J Biol Markers",
+          "year": "2008",
+          "score": 0.727,
+          "matched_tokens": [
+            "medical",
+            "judah folkman",
+            "dyckman",
+            "harvard",
+            "judah",
+            "school",
+            "folkman",
+            "julia",
+            "professor",
+            "hospital",
+            "andrus",
+            "boston",
+            "youngest",
+            "surgery",
+            "surgeon-in-chief",
+            "appointed"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "09_trauma_acute_infection::Peter Safar->Baltimore City Hospital Intensive Care Unit",
+      "module": "09_trauma_acute_infection.json",
+      "source_node": "Peter Safar",
+      "target_node": "Baltimore City Hospital Intensive Care Unit",
+      "edge_type": "institutional_founder",
+      "temporal_range": "1958-1961",
+      "current_id": "11153604",
+      "current_id_type": "PMID",
+      "current_title": "Lung cancer in young females.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.05,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "DOI",
+          "id": "10.1111/j.1365-2044.1961.tb13827.x",
+          "title": "The Intensive Care Unit",
+          "journal": "Anaesthesia",
+          "year": "1961",
+          "score": 0.2,
+          "matched_tokens": [
+            "intensive",
+            "safar",
+            "care",
+            "unit"
+          ]
+        }
+      ],
+      "queries_tried": 4,
+      "action": ""
+    },
+    {
+      "edge_id": "10_quality_outcomes::Henrik Kehlet->ERAS Study Group",
+      "module": "10_quality_outcomes.json",
+      "source_node": "Henrik Kehlet",
+      "target_node": "ERAS Study Group",
+      "edge_type": "society_founder",
+      "temporal_range": "2001-2010",
+      "current_id": "9122554",
+      "current_id_type": "PMID",
+      "current_title": "First-night-effects on generalized anxiety disorder (GAD)-based insomnia: laboratory versus home sleep recordings.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.111,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    },
+    {
+      "edge_id": "11_mis_robotic::George Berci->Society of American Gastrointestinal and Endoscopic Surgeons",
+      "module": "11_mis_robotic.json",
+      "source_node": "George Berci",
+      "target_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
+      "edge_type": "society_founder",
+      "temporal_range": "1981",
+      "current_id": "24002773",
+      "current_id_type": "PMID",
+      "current_title": "Clinical significance of incidental pulmonary nodules in esophageal cancer patients.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.05,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "41703039",
+          "title": "Historical perspectives on choledocholithiasis: the pioneering contribution of Dr. George Berci.",
+          "journal": "Surg Endosc",
+          "year": "2026",
+          "score": 0.3,
+          "matched_tokens": [
+            "berci",
+            "and",
+            "george",
+            "techniques",
+            "george berci",
+            "endoscopic"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "16544065",
+          "title": "George Berci: past, present, and future.",
+          "journal": "Surg Endosc",
+          "year": "2006",
+          "score": 0.25,
+          "matched_tokens": [
+            "endoscopy",
+            "berci",
+            "and",
+            "george",
+            "george berci"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Franklin H. Martin->American College of Surgeons",
+      "module": "12_governance_societies.json",
+      "source_node": "Franklin H. Martin",
+      "target_node": "American College of Surgeons",
+      "edge_type": "society_founder",
+      "temporal_range": "1913-1935",
+      "current_id": "24502913",
+      "current_id_type": "PMID",
+      "current_title": "The American College of Surgeons publications: a brief history.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.174,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "28941450",
+          "title": "Drs. William J. Mayo and Franklin H. Martin: Leaders in establishing the College’s unique identity.",
+          "journal": "Bull Am Coll Surg",
+          "year": "2016",
+          "score": 0.348,
+          "matched_tokens": [
+            "american",
+            "martin",
+            "franklin",
+            "establish",
+            "college",
+            "franklin h. martin",
+            "surgeons",
+            "fellowship"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "41386646",
+          "title": "Horst Oertel's Embattled Montreal Years and the Founding of the McGill Pathological Institute: Insights Into Early-20th-Century History of North American Pathology.",
+          "journal": "Arch Pathol Lab Med",
+          "year": "2025",
+          "score": 0.217,
+          "matched_tokens": [
+            "clinical",
+            "american",
+            "martin",
+            "establish",
+            "surgical"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::American Surgical Association->American Board of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "American Surgical Association",
+      "target_node": "American Board of Surgery",
+      "edge_type": "society_founder",
+      "temporal_range": "1935-1937",
+      "current_id": "9742911",
+      "current_id_type": "PMID",
+      "current_title": "The American Surgical Association: past, present, and future.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.19,
+      "candidates": [],
+      "queries_tried": 0,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::George Zuidema->Johns Hopkins Hospital Department of Surgery",
+      "module": "12_governance_societies.json",
+      "source_node": "George Zuidema",
+      "target_node": "Johns Hopkins Hospital Department of Surgery",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1964-1984",
+      "current_id": "29189382",
+      "current_id_type": "PMID",
+      "current_title": "John L. Cameron: A Historical Perspective.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.1,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "29206676",
+          "title": "Hepatobiliary Hands of Hopkins.",
+          "journal": "Ann Surg",
+          "year": "2018",
+          "score": 0.35,
+          "matched_tokens": [
+            "zuidema",
+            "johns",
+            "hopkins",
+            "surgery",
+            "faculty",
+            "department",
+            "resident"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "28918957",
+          "title": "Introduction to the 2017 Founders' Lecture of the Association for Academic Surgery.",
+          "journal": "J Surg Res",
+          "year": "2017",
+          "score": 0.25,
+          "matched_tokens": [
+            "zuidema",
+            "george zuidema",
+            "surgery",
+            "george",
+            "resident"
+          ]
+        }
+      ],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::David Sabiston->American College of Surgeons",
+      "module": "12_governance_societies.json",
+      "source_node": "David Sabiston",
+      "target_node": "American College of Surgeons",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1985-1986",
+      "current_id": "356789",
+      "current_id_type": "PMID",
+      "current_title": "Presidential address. Alfred Blalock.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.095,
+      "candidates": [],
+      "queries_tried": 1,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Henry Bahnson->American Surgical Association",
+      "module": "12_governance_societies.json",
+      "source_node": "Henry Bahnson",
+      "target_node": "American Surgical Association",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1987-1988",
+      "current_id": "3421751",
+      "current_id_type": "PMID",
+      "current_title": "Education of a surgical chairman.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.154,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "23141035",
+          "title": "Historical perspectives of The American Association for Thoracic Surgery: Henry T. Bahnson (1920-2003).",
+          "journal": "J Thorac Cardiovasc Surg",
+          "year": "2013",
+          "score": 0.308,
+          "matched_tokens": [
+            "american",
+            "association",
+            "bahnson",
+            "henry"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::John Najarian->American Surgical Association",
+      "module": "12_governance_societies.json",
+      "source_node": "John Najarian",
+      "target_node": "American Surgical Association",
+      "edge_type": "governance_leadership",
+      "temporal_range": "1988-1989",
+      "current_id": "2774706",
+      "current_id_type": "PMID",
+      "current_title": "The skill, science, and soul of the surgeon.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.067,
+      "candidates": [
+        {
+          "rank": 1,
+          "type": "PMID",
+          "id": "7575112",
+          "title": "The crime of saving lives. The FDA, John Najarian, and Minnesota ALG.",
+          "journal": "Arch Surg",
+          "year": "1995",
+          "score": 0.267,
+          "matched_tokens": [
+            "transplant",
+            "john",
+            "najarian",
+            "john najarian"
+          ]
+        },
+        {
+          "rank": 2,
+          "type": "PMID",
+          "id": "16386478",
+          "title": "Introduction of John Najarian.",
+          "journal": "Transplant Proc",
+          "year": "2005",
+          "score": 0.2,
+          "matched_tokens": [
+            "john",
+            "najarian",
+            "john najarian"
+          ]
+        }
+      ],
+      "queries_tried": 2,
+      "action": ""
+    },
+    {
+      "edge_id": "12_governance_societies::Haile T. Debas->American Surgical Association",
+      "module": "12_governance_societies.json",
+      "source_node": "Haile T. Debas",
+      "target_node": "American Surgical Association",
+      "edge_type": "governance_leadership",
+      "temporal_range": "2001-2002",
+      "current_id": "12192325",
+      "current_id_type": "PMID",
+      "current_title": "Prospective screening for blunt cerebrovascular injuries: analysis of diagnostic modalities and outcomes.",
+      "phase1_5_status": "WEAK_MATCH",
+      "phase1_5_score": 0.053,
+      "candidates": [],
+      "queries_tried": 3,
+      "action": ""
+    }
+  ]
+}
