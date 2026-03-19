@@ -1,0 +1,116 @@
+{
+  "batch": 7,
+  "description": "Batch 7 citation upgrades: module 02_general_surgery_spread (final batch)",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "02_general_surgery_spread.json",
+      "edge_index_hint": "Evarts A. Graham -> Carl Moyer (direct_training, 1935-1940)",
+      "match_fields": {
+        "source_node": "Evarts A. Graham",
+        "target_node": "Carl Moyer",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 4559844",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4559844/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 4559844 on 2026-03-18] [VERIFY_NAMES: confirm Moyer named as Graham trainee] Olch PD. 'Evarts A. Graham, the American College of Surgeons, and the American Board of Surgery.' J Hist Med Allied Sci. 1972 Jul;27(3):247-61. Graham trained 20 surgical department chairs; Moyer is likely named in this enumeration. Secondary: PMC1356224 review states Graham trained '20 surgical department chairs and 26 chiefs of service.'",
+      "verification_required": true
+    },
+    {
+      "module": "02_general_surgery_spread.json",
+      "edge_index_hint": "George Heuer -> Cornell University Department of Surgery (institutional_founder, 1932-1947)",
+      "match_fields": {
+        "source_node": "George Heuer",
+        "target_node": "Cornell University Department of Surgery",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [Verified 2026-03-18 | Surgery 1952 | content_match] Carter BN. 'The fruition of Halsted's concept of surgical training.' Heuer was Halsted's 13th resident. PMC7828946 documents Heuer's recruitment to Cornell in 1932 and establishment of the Halstedian residency there.",
+      "verification_required": false
+    },
+    {
+      "module": "02_general_surgery_spread.json",
+      "edge_index_hint": "Mont Reid -> University of Cincinnati Department of Surgery (institutional_founder, 1922-1943)",
+      "match_fields": {
+        "source_node": "Mont Reid",
+        "target_node": "University of Cincinnati Department of Surgery",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [Verified 2026-03-18 | Surgery 1952 | content_match] Carter BN. 'The fruition of Halsted's concept of surgical training.' Carter was himself a Cincinnati trainee and documents the Halsted->Heuer->Reid lineage at Cincinnati. PMC7828946 confirms Reid accompanied Heuer to Cincinnati in 1922.",
+      "verification_required": false
+    }
+  ],
+  "no_upgrade_available": [
+    {"edge": "William J. Mayo -> Mayo Clinic Department of Surgery (institutional_founder, 1889-1939)", "reason": "Mayo Clinic founding documented institutionally."},
+    {"edge": "Joseph Marshall Flint -> Yale University Department of Surgery (institutional_founder, 1907-1921)", "reason": "No PubMed article found."},
+    {"edge": "Harvey Cushing -> Elliott Cutler (direct_training, 1914-1920)", "reason": "No standalone PubMed article documenting this specific training relationship found via search. Cutler as Cushing trainee is well-established but needs full-text verification against a biographical PMID."},
+    {"edge": "Edward P. Richardson -> Edward Churchill (direct_training, 1920-1924)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "Barney Brooks -> Vanderbilt University Department of Surgery (institutional_founder, 1925-1952)", "reason": "No PubMed article found."},
+    {"edge": "Dallas Phemister -> University of Chicago Department of Surgery (institutional_founder, 1925-1947)", "reason": "No PubMed article focused on institutional founding."},
+    {"edge": "J. Deryl Hart -> Duke University Department of Surgery (institutional_founder, 1930-1960)", "reason": "No PubMed article found."},
+    {"edge": "J. Deryl Hart -> Duke University Department of Surgery (governance_leadership, 1930-1960)", "reason": "Duplicate edge with different type; same lack of PubMed source."},
+    {"edge": "Daniel Elkin -> Emory University Department of Surgery (institutional_founder, 1930-1955)", "reason": "No PubMed article found."},
+    {"edge": "Frederick Coller -> University of Michigan Department of Surgery (institutional_founder, 1930-1957)", "reason": "No PubMed article focused on this founding."},
+    {"edge": "John Homans -> Robert E. Gross (direct_training, 1934-1938)", "reason": "Gross trained under both Homans and Cutler. No PubMed article isolating the Homans->Gross training relationship."},
+    {"edge": "Elliott Cutler -> J. Englebert Dunphy (direct_training, 1937-1942)", "reason": "No PubMed article found."},
+    {"edge": "Arthur Blakemore -> Columbia University Department of Surgery (governance_leadership, 1940-1964)", "reason": "Faculty role at Columbia; institutional record."},
+    {"edge": "Alton Ochsner -> Ochsner Clinic (institutional_founder, 1942-1956)", "reason": "No standalone PubMed article on clinic founding."},
+    {"edge": "Johns Hopkins Hospital Department of Surgery -> Henry Harkins (direct_training, 1943-1947)", "reason": "No PubMed article found documenting this training specifically."},
+    {"edge": "Alfred Blalock -> Denton Cooley (direct_training, 1944-1950)", "reason": "Already downgraded in Phase 2. Cooley's Hopkins training under Blalock extensively documented but no PubMed biographical article found that isolates this relationship."},
+    {"edge": "I.S. Ravdin -> University of Pennsylvania Department of Surgery (institutional_founder, 1945-1960)", "reason": "No PubMed article found."},
+    {"edge": "Owen Wangensteen -> Alvin Merendino (direct_training, 1946-1950)", "reason": "Wangensteen trainees documented on Wikipedia and institutional pages but no PubMed article isolates this training relationship."},
+    {"edge": "Robert E. Gross -> John Kirklin (direct_training, 1946-1950)", "reason": "No standalone PubMed article found for this training pair."},
+    {"edge": "Henry Harkins -> University of Washington Department of Surgery (institutional_founder, 1947-1967)", "reason": "No PubMed article found."},
+    {"edge": "Gustaf Lindskog -> Yale University Department of Surgery (governance_leadership, 1948-1966)", "reason": "No PubMed article found."},
+    {"edge": "Johns Hopkins Hospital Department of Surgery -> Thomas Starzl (direct_training, 1952-1956)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "Owen Wangensteen -> John Najarian (direct_training, 1956-1963)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "Warren Cole -> Olga Jonasson (direct_training, 1956-1963)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "John Kirklin -> Mayo Clinic Department of Surgery (governance_leadership, 1960-1966)", "reason": "Institutional governance record."},
+    {"edge": "David Sabiston -> Duke University Department of Surgery (institutional_founder, 1964-1994)", "reason": "No standalone PubMed article on Sabiston's institutional founding of the Duke program."},
+    {"edge": "Henry Bahnson -> University of Pittsburgh Department of Surgery (institutional_founder, 1964-1982)", "reason": "No PubMed article found."},
+    {"edge": "J. Englebert Dunphy -> UCSF Department of Surgery (governance_leadership, 1964-1975)", "reason": "Institutional governance record."},
+    {"edge": "Alvin Merendino -> University of Washington Department of Surgery (governance_leadership, 1964-1972)", "reason": "Institutional governance record."},
+    {"edge": "Thomas Starzl -> The Transplantation Society (society_founder, 1966)", "reason": "No PubMed article focused on TTS founding specifically."},
+    {"edge": "John Kirklin -> UAB Department of Surgery (institutional_founder, 1966-1982)", "reason": "No PubMed article found."},
+    {"edge": "John Najarian -> University of Minnesota Transplant Program (institutional_founder, 1967-1993)", "reason": "Institutional founding documented in Minnesota archives."},
+    {"edge": "W. Gerald Austen -> Massachusetts General Hospital Department of Surgery (governance_leadership, 1969-1997)", "reason": "No PubMed article focused on governance appointment."},
+    {"edge": "Thomas Starzl -> Andreas Tzakis (direct_training, 1983-1994)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "Duke University Department of Surgery -> Allan Kirk (direct_training, 1987-1995)", "reason": "No PubMed article found."},
+    {"edge": "Carlos A. Pellegrini -> University of Washington Department of Surgery (governance_leadership, 1993-2018)", "reason": "Institutional governance record."},
+    {"edge": "Allan Kirk -> Duke University Department of Surgery (governance_leadership, 2014-2025)", "reason": "Institutional governance record."},
+    {"edge": "Robert W. Anderson -> Duke University Department of Surgery (governance_leadership, 1994-2003)", "reason": "Institutional governance record."},
+    {"edge": "David Sabiston -> Robert H. Jones (direct_training, 1965-1975)", "reason": "No PubMed article found."},
+    {"edge": "Owen Wangensteen -> Richard L. Varco (direct_training, 1938-1943)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "Owen Wangensteen -> Henry Buchwald (direct_training, 1960-1966)", "reason": "Documented in institutional sources and Buchwald's memoir but no PubMed article isolating this training relationship."},
+    {"edge": "UCSF Department of Surgery -> William Silen (direct_training, c. 1949-1955)", "reason": "No PubMed article found."},
+    {"edge": "William Silen -> Beth Israel Hospital Department of Surgery (institutional_founder, 1966-1994)", "reason": "No PubMed article found."},
+    {"edge": "Harvey Cushing -> Daniel Elkin (direct_training, c. 1920-1923)", "reason": "No PubMed article isolating Elkin's training under Cushing."},
+    {"edge": "Massachusetts General Hospital Department of Surgery -> Frederick Coller (direct_training, 1912-c. 1917)", "reason": "No PubMed article found."},
+    {"edge": "John L. Cameron -> Keith D. Lillemoe (direct_training, 1978-1985)", "reason": "No PubMed biographical article isolating this training pair."},
+    {"edge": "Keith D. Lillemoe -> Massachusetts General Hospital Department of Surgery (governance_leadership, 2011-Present)", "reason": "Institutional governance record."},
+    {"edge": "Lloyd M. Nyhus -> University of Illinois College of Medicine Department of Surgery (institutional_succession, 1967-1989)", "reason": "Already downgraded in Phase 2."},
+    {"edge": "Claude H. Organ Jr. -> Creighton University Department of Surgery (governance_leadership, 1971-1982)", "reason": "Institutional governance record."}
+  ],
+  "verification_notes": "Edge 1 (Graham -> Moyer) requires full-text verification that Moyer is named among Graham's trainees in the Olch PMID 4559844 article. The PMC1356224 review confirms Graham trained 20 department chairs and 26 chiefs of service but does not enumerate all names in the available abstract."
+}

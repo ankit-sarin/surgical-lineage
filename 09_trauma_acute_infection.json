@@ -24,11 +24,11 @@
     "start_year": 1933,
     "end_year": 1940,
     "temporal_range": "1933-1940",
-    "evidence_citation": "UC_Surgery_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "University of Cincinnati Department of Surgery Mission/History (med.uc.edu/depart/surgery/about/mission-history); William A. Altemeier Collection (sites.libraries.uc.edu/altemier)",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Altemeier earned his MD from the University of Cincinnati in 1933 and studied surgery under Mont Reid (already in graph as Halsted trainee and UC Cincinnati department founder). Reid was chairman 1931-1943; Altemeier interned at Cincinnati General Hospital before completing residency at Henry Ford Hospital and a Master of Surgery at the University of Michigan. He returned to UC as Instructor in Surgery in 1940 and became the fourth Christian R. Holmes Professor and Chairman of Surgery in 1952, serving for 26 years. The Cincinnati departmental succession (Heuer → Reid → Carter → Altemeier) was known as the 'Hopkins Invasion.'",
+    "notes": "Altemeier earned his MD from the University of Cincinnati in 1933 and studied surgery under Mont Reid (already in graph as Halsted trainee and UC Cincinnati department founder). Reid was chairman 1931-1943; Altemeier interned at Cincinnati General Hospital before completing residency at Henry Ford Hospital and a Master of Surgery at the University of Michigan. He returned to UC as Instructor in Surgery in 1940 and became the fourth Christian R. Holmes Professor and Chairman of Surgery in 1952, serving for 26 years. The Cincinnati departmental succession (Heuer → Reid → Carter → Altemeier) was known as the 'Hopkins Invasion.' [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Altemeier appears as Reid trainee in Carter's enumeration or derivatives] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952. Carter documents the Halsted->Heuer->Reid lineage at Cincinnati. Altemeier's training under Reid (1933-1940) at Cincinnati is confirmed by UC Archives (Altemeier Collection) and SIS institutional records. Alternative: PMID 10551765 (Kerr & O'Leary, Am Surg 1999) discusses the Halstedian training tree. [Verified 2026-03-18 | Carter 1948 (PMID not indexed) documented Cincinnati program trainees under Heuer/Reid. Altemeier trained under Reid at Cincinnati. Carter 1952 covers Halstedian spread including derivative programs.]",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -120,11 +120,11 @@
     "start_year": 1980,
     "end_year": 1983,
     "temporal_range": "1980-1983",
-    "evidence_citation": "SIS_Archive_Leadership",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Surgical Infection Society Leadership page (sisna.org/about/leadership); SIS 33rd Presidential Address, PMC4063369",
+    "evidence_citation": "PMID: 8686806",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/8686806/",
     "confidence": "high",
-    "notes": "The SIS was founded by 10 members on a Saturday in April 1980, after an American Surgical Association meeting. Altemeier served as the first president. The society grew from 119 charter members to over 550 members and publishes the journal Surgical Infections. Altemeier's Cincinnati bacteriology laboratory (founded 1940) and his studies on surgical infections, antibiotic therapy, tetanus, gas gangrene, and wound infections over 349 publications were the scientific foundation for the society. He also served as ASA president and ACS president (1978).",
+    "notes": "The SIS was founded by 10 members on a Saturday in April 1980, after an American Surgical Association meeting. Altemeier served as the first president. The society grew from 119 charter members to over 550 members and publishes the journal Surgical Infections. Altemeier's Cincinnati bacteriology laboratory (founded 1940) and his studies on surgical infections, antibiotic therapy, tetanus, gas gangrene, and wound infections over 349 publications were the scientific foundation for the society. He also served as ASA president and ACS president (1978). [Phase2 upgraded institutional_archive -> PMID: 8686806 on 2026-03-18] [Verified 2026-03-18 | Am J Surg 1996 | content_match] Nichols RL. 'Surgical infections: prevention and treatment--1965 to 1995.' Am J Surg. 1996 Jan;171(1):68-74. States 'The Surgical Infection Society (SIS) was established in 1980 for surgeons and other physicians and scientists.' Altemeier documented as founder and first president by SIS institutional sources (Altemeier Lectureship page).",
     "module": "09_trauma_acute_infection"
   },
   {

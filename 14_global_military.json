@@ -8,11 +8,11 @@
     "start_year": 1777,
     "end_year": 1784,
     "temporal_range": "1777-1784",
-    "evidence_citation": "Hunter_Archive_Cline",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Royal College of Surgeons Historical Archives",
+    "evidence_citation": "PMID: 3545417",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3545417/",
     "confidence": "moderate",
-    "notes": "Cline trained under Hunter, establishing the early British scientific surgical tradition before the German model dominated."
+    "notes": "Cline trained under Hunter, establishing the early British scientific surgical tradition before the German model dominated. [Phase2 upgraded institutional_archive -> PMID: 3545417 on 2026-03-18] [Verified 2026-03-18 | historical review | content_match] Article identifies Cline among Hunter's direct disciples alongside Abernethy and Astley Cooper. Cline attended Hunter's first lecture course in 1774 and became one of the leading Hunterian surgeons."
   },
   {
     "source_node": "Bernhard von Langenbeck",
@@ -83,11 +83,11 @@
     "start_year": 1943,
     "end_year": 1945,
     "temporal_range": "1943-1945",
-    "evidence_citation": "MGH_Archive_Churchill_WWII",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Massachusetts General Hospital Archives",
+    "evidence_citation": "PMID: 20134311",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20134311/",
     "confidence": "high",
-    "notes": "Churchill served as Surgical Consultant for the Mediterranean Theater, standardizing whole blood transfusions and delayed primary closure of war wounds, concepts that fundamentally altered civilian trauma care."
+    "notes": "Churchill served as Surgical Consultant for the Mediterranean Theater, standardizing whole blood transfusions and delayed primary closure of war wounds, concepts that fundamentally altered civilian trauma care. [Phase2 upgraded institutional_archive -> PMID: 20134311 on 2026-03-18] [Verified 2026-03-18 | Ann Surg 2010 | content_match] Cannon JW, Fischer JE. 'Edward D. Churchill as a combat consultant: lessons for the senior visiting surgeons and today's military medical corps.' Ann Surg. 2010 Mar;251(3):566-72. Documents Churchill's role as Surgical Consultant for the Mediterranean Theater, standardizing whole blood transfusions and delayed primary closure."
   },
   {
     "source_node": "Michael DeBakey",
@@ -128,11 +128,11 @@
     "start_year": 1966,
     "end_year": 2026,
     "temporal_range": "1966-Present",
-    "evidence_citation": "WRAIR_Archive_Rich",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Walter Reed Army Institute of Research Archives",
+    "evidence_citation": "PMID: 5762414",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/5762414/",
     "confidence": "high",
-    "notes": "Rich established the registry to meticulously track combat vascular injuries, driving the definitive transition from arterial ligation to immediate primary repair in modern vascular trauma."
+    "notes": "Rich established the registry to meticulously track combat vascular injuries, driving the definitive transition from arterial ligation to immediate primary repair in modern vascular trauma. [Phase2 upgraded institutional_archive -> PMID: 5762414 on 2026-03-18] [Verified 2026-03-18 | Surgery 1969 | content_match] Rich NM, Hughes CW. 'Vietnam vascular registry: a preliminary report.' Surgery. 1969 Jan;65(1):218-226. The original registry publication by Rich himself. Follow-up PMID 1188624 (Surgery 1975) confirms registry established 1966 at Walter Reed Army Medical Center."
   },
   {
     "source_node": "Mobile Army Surgical Hospital (MASH) System",
@@ -143,11 +143,11 @@
     "start_year": 1966,
     "end_year": 1970,
     "temporal_range": "1966-1970",
-    "evidence_citation": "WRAIR_Archive_Rich_Vietnam",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Walter Reed Army Institute of Research Archives",
+    "evidence_citation": "PMID: 5762414",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/5762414/",
     "confidence": "high",
-    "notes": "Rich utilized the forward surgical concepts pioneered by DeBakey's MASH system to build the Vietnam Vascular Registry."
+    "notes": "Rich utilized the forward surgical concepts pioneered by DeBakey's MASH system to build the Vietnam Vascular Registry. [Phase2 upgraded institutional_archive -> PMID: 5762414 on 2026-03-18] [Verified 2026-03-18 | Surgery 1969 | content_match] Rich NM, Hughes CW. 'Vietnam vascular registry: a preliminary report.' Surgery. 1969 Jan;65(1):218-226. Documents Rich's work within the forward surgical system in Vietnam, the operational descendant of DeBakey's MASH concept. Shared PMID with Rich->Registry institutional_founder edge."
   },
   {
     "source_node": "Bernhard von Langenbeck",

@@ -104,11 +104,11 @@
     "start_year": 1958,
     "end_year": 1994,
     "temporal_range": "1958-1994",
-    "evidence_citation": "Surgical_Archive_Fisher",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "National Surgical Adjuvant Breast and Bowel Project Historical Records",
+    "evidence_citation": "PMID: 34991349",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34991349/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 24753609 to institutional_archive on 2026-03-17 — no PubMed source found] Fisher established the NSABP, driving the clinical trial framework that dismantled the Halstedian radical mastectomy in favor of breast conservation and systemic therapy.",
+    "notes": "[Phase2 downgraded from PMID: 24753609 to institutional_archive on 2026-03-17 — no PubMed source found] Fisher established the NSABP, driving the clinical trial framework that dismantled the Halstedian radical mastectomy in favor of breast conservation and systemic therapy. [Phase2 upgraded institutional_archive -> PMID: 34991349 on 2026-03-18] [Verified 2026-03-18 | Surg Oncol Clin N Am 2022 | content_match] Wickerham DL. 'A Short History of Bernard Fisher's Contributions to Randomized Clinical Trials.' Surg Oncol Clin N Am. 2022 Apr;31(2):141-151. Documents Fisher as founding member (1957-1958) and chairman (1967-1994) of the NSABP.",
     "module": "07_oncology_trials"
   },
   {

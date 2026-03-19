@@ -8,11 +8,11 @@
     "start_year": 1902,
     "end_year": 1917,
     "temporal_range": "1902-1917",
-    "evidence_citation": "AUA_Archive_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "AUA Official History (auanet.org/about-us/aua-overview/history-of-the-aua); Crane & Bloom, J Urol 2010;184:1",
+    "evidence_citation": "PMID: 20620396",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20620396/",
     "confidence": "high",
-    "notes": "On February 22, 1902, eight members of the New York Genito-Urinary Society met at Guiteras' home and voted to disband the society and form the American Urological Association. Guiteras was elected first president. Harvard-trained (MD 1883) with postgraduate study in Paris, Vienna, and Berlin, he represented an independent New York surgical lineage with no Halsted connection. The AUA is now the largest urological organization in the world with over 23,000 members.",
+    "notes": "On February 22, 1902, eight members of the New York Genito-Urinary Society met at Guiteras' home and voted to disband the society and form the American Urological Association. Guiteras was elected first president. Harvard-trained (MD 1883) with postgraduate study in Paris, Vienna, and Berlin, he represented an independent New York surgical lineage with no Halsted connection. The AUA is now the largest urological organization in the world with over 23,000 members. [Phase2 upgraded institutional_archive -> PMID: 20620396 on 2026-03-18] [Verified 2026-03-18 | J Urol 2010 | content_match] Crane GM, Bloom DA. 'Ramon Guiteras: Founder of the American Urological Association, Surgeon, Sportsman and Statesman.' J Urol. 2010 Aug;184(1):447-52.",
     "module": "05_urology"
   },
   {
@@ -72,11 +72,11 @@
     "start_year": 1967,
     "end_year": 1971,
     "temporal_range": "1967-1971",
-    "evidence_citation": "Hopkins_Brady_Faculty_Walsh",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "https://www.hopkinsmedicine.org/brady-urology-institute/about-us/past-leadership; https://profiles.hopkinsmedicine.org/provider/patrick-c-walsh/2701077",
+    "evidence_citation": "PMID: 17437775",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17437775/",
     "confidence": "high",
-    "notes": "Walsh completed his urology residency and an endocrinology fellowship at the UCLA School of Medicine under Willard E. Goodwin (1967-1971). Goodwin was one of the pioneers of renal transplantation and reconstructive urology at UCLA. Walsh's training path: Case Western Reserve MD (1964), Peter Bent Brigham Hospital surgery residency (Boston), Children's Hospital Medical Center pediatric surgery (Boston), UCLA urology residency and endocrinology fellowship. He was recruited to Hopkins in 1974 at age 35 to direct the Brady Urological Institute after Ben Gittes (his San Diego mentor) declined the position. This edge uses the existing UCLA Department of Surgery institutional node, as urologic surgery at UCLA was administratively within the Department of Surgery. This is the first direct_training edge in the urology module, filling the most significant structural gap. Walsh was NOT Hopkins-trained — he represents an independent West Coast training lineage arriving at a Hopkins institution, paralleling Starzl's Hopkins-to-Pittsburgh path.",
+    "notes": "Walsh completed his urology residency and an endocrinology fellowship at the UCLA School of Medicine under Willard E. Goodwin (1967-1971). Goodwin was one of the pioneers of renal transplantation and reconstructive urology at UCLA. Walsh's training path: Case Western Reserve MD (1964), Peter Bent Brigham Hospital surgery residency (Boston), Children's Hospital Medical Center pediatric surgery (Boston), UCLA urology residency and endocrinology fellowship. He was recruited to Hopkins in 1974 at age 35 to direct the Brady Urological Institute after Ben Gittes (his San Diego mentor) declined the position. This edge uses the existing UCLA Department of Surgery institutional node, as urologic surgery at UCLA was administratively within the Department of Surgery. This is the first direct_training edge in the urology module, filling the most significant structural gap. Walsh was NOT Hopkins-trained — he represents an independent West Coast training lineage arriving at a Hopkins institution, paralleling Starzl's Hopkins-to-Pittsburgh path. [Phase2 upgraded institutional_archive -> PMID: 17437775 on 2026-03-18] [Verified 2026-03-18 | J Urol 2007 | content_match] Walsh PC. 'The discovery of the cavernous nerves and development of nerve sparing radical retropubic prostatectomy.' J Urol. 2007 May;177(5):1632-5. Walsh's autobiographical account references his UCLA urology training under Willard E. Goodwin. Shared PMID with Walsh->Brady governance edge.",
     "module": "05_urology"
   },
   {

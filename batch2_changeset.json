@@ -1,0 +1,245 @@
+{
+  "batch": 2,
+  "description": "Batch 2 citation upgrades: modules 01_halsted_core, 03_neurosurgery, 06_orthopedics",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "01_halsted_core.json",
+      "edge_index_hint": "Halsted -> Homans (direct_training, 1903-1904)",
+      "match_fields": {
+        "source_node": "William Stewart Halsted",
+        "target_node": "John Homans",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Hopkins_Archive_Homans",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Johns Hopkins Hospital Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Homans appears in Carter's enumeration of Halsted trainees] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Carter catalogued all 17 Halsted residents and 55 assistant residents by name.",
+      "verification_required": true
+    },
+    {
+      "module": "01_halsted_core.json",
+      "edge_index_hint": "Halsted -> Naffziger (direct_training, 1912-1914)",
+      "match_fields": {
+        "source_node": "William Stewart Halsted",
+        "target_node": "Howard Naffziger",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Naffziger_Archive_Hopkins",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Johns Hopkins Hospital Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Naffziger appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Secondary confirmation: PMID 8692401 (Rosegay, Neurosurgery 1996) and PMID 12296669 (Keller, Neurosurgery 2001) both document Naffziger at Hopkins under Halsted/Cushing 1912-1914.",
+      "verification_required": true
+    },
+    {
+      "module": "01_halsted_core.json",
+      "edge_index_hint": "Hopkins -> Firor (direct_training, 1917-1921)",
+      "match_fields": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "Warfield Firor",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Hopkins_Archive_Firor",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Johns Hopkins Hospital Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Firor appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27.",
+      "verification_required": true
+    },
+    {
+      "module": "01_halsted_core.json",
+      "edge_index_hint": "Hopkins -> Hart (direct_training, 1920-1925)",
+      "match_fields": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "J. Deryl Hart",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Hopkins_Archive_Hart",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Johns Hopkins Hospital Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Hart appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Secondary confirmation: PMC7828946 (Wright & Schachar, Can J Surg 2020) cites Hart as 'a former Halsted resident' referencing Carter.",
+      "verification_required": true
+    },
+    {
+      "module": "01_halsted_core.json",
+      "edge_index_hint": "Hopkins -> Blakemore (direct_training, 1922-1926)",
+      "match_fields": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "Arthur Blakemore",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Hopkins_Archive_Blakemore",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Johns Hopkins Hospital Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Blakemore appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27.",
+      "verification_required": true
+    },
+    {
+      "module": "03_neurosurgery.json",
+      "edge_index_hint": "Cushing -> Society of Neurological Surgeons (society_founder, 1920-1932)",
+      "match_fields": {
+        "source_node": "Harvey Cushing",
+        "target_node": "Society of Neurological Surgeons",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_citation": "SNS_Archive_Founding",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Society of Neurological Surgeons Historical Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 33307257",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/33307257/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 33307257 on 2026-03-18] [Verified 2026-03-18 | World Neurosurg 2021 | content_match] Cohen-Gadol AA, et al. 'The Original Cushing Society: A Historical Review of the Senior Society's First 6 Meetings.' World Neurosurg. 2021 Mar;147:e457-e464. States 'The Society of Neurological Surgeons (SNS) was ultimately founded in 1920 by Dr. Harvey Cushing.' Documents founding members, first meeting at Peter Bent Brigham Hospital, Cushing as first president.",
+      "verification_required": false
+    },
+    {
+      "module": "03_neurosurgery.json",
+      "edge_index_hint": "Naffziger -> UCSF Department of Surgery (institutional_founder, 1929-1947)",
+      "match_fields": {
+        "source_node": "Howard Naffziger",
+        "target_node": "UCSF Department of Surgery",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_citation": "UCSF_Archive_Naffziger",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "UCSF Department of Surgery Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 8692401",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/8692401/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 8692401 on 2026-03-18] [Verified 2026-03-18 | Neurosurgery 1996 | content_match] Rosegay H. 'A history of neurological surgery at the University of California, San Francisco.' Neurosurgery. 1996 Apr;38(4):794-805. Documents Naffziger's appointment as Chair of Surgery at UCSF in 1929, development of the first western US surgical residency modeled on Halsted's system, and founding of the Department of Neurosurgery in 1947.",
+      "verification_required": false
+    },
+    {
+      "module": "03_neurosurgery.json",
+      "edge_index_hint": "Semmes -> Congress of Neurological Surgeons (society_founder, 1950-1951)",
+      "match_fields": {
+        "source_node": "R. Eustace Semmes",
+        "target_node": "Congress of Neurological Surgeons",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_citation": "CNS_Archive_Founding",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Congress of Neurological Surgeons Historical Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 10941999",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10941999/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 10941999 on 2026-03-18] [Verified 2026-03-18 | Neurosurgery 2000 | content_match] Barrow DL, Hadley MN. 'Fifty years of the Congress of Neurological Surgeons: foundations, objectives, and legacies.' Neurosurgery. 2000 Aug;47(2):261-7. Documents CNS founding context. Note: Semmes' role was indirect — he co-founded the Harvey Cushing Society (1931) with Spurling, Van Wagenen, and Fay. The CNS (1951) emerged from conversations seeded by Semmes' generation. Edge notes already describe this indirect connection.",
+      "verification_required": false
+    },
+    {
+      "module": "03_neurosurgery.json",
+      "edge_index_hint": "Harvey Cushing Society -> AANS (institutional_succession, 1967)",
+      "match_fields": {
+        "source_node": "Harvey Cushing Society",
+        "target_node": "American Association of Neurological Surgeons",
+        "edge_type": "institutional_succession"
+      },
+      "old_values": {
+        "evidence_citation": "AANS_Archive_History",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "AANS Historical Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 7965131",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/7965131/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 7965131 on 2026-03-18] [Verified 2026-03-18 | J Neurosurg 1994 | content_match] 'Archival correspondence regarding the origin of the Harvey Cushing Society: the American Association of Neurological Surgeons.' J Neurosurg. 1994 Nov;81(5):813-6. Establishes the Cushing Society -> AANS lineage through archival correspondence. The 1967 name change is documented in AANS official history and Wikipedia. Marginal upgrade — article focuses on 1931 origins rather than 1967 succession event.",
+      "verification_required": false
+    },
+    {
+      "module": "06_orthopedics.json",
+      "edge_index_hint": "AOA -> AAOS (society_founder, 1931-1933)",
+      "match_fields": {
+        "source_node": "American Orthopaedic Association",
+        "target_node": "American Academy of Orthopaedic Surgeons",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_citation": "AOA_AAOS_Archive_History",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "AOA and AAOS Official Histories"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 18196367",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18196367/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 18196367 on 2026-03-18] [Verified 2026-03-18 | Clin Orthop Relat Res 2008 | content_match] Brand RA. 'AAOS 75th Anniversary Tribute to Past Presidents: Editorial Comment.' Clin Orthop Relat Res. 2008 Jan;466(1):2-4. Documents AOA committee formation in 1931 leading to AAOS founding at Northwestern University in January 1933. Identifies seven AAOS founders and their AOA connections.",
+      "verification_required": false
+    }
+  ],
+  "no_upgrade_available": [
+    {
+      "module": "03_neurosurgery.json",
+      "edge": "Percival Bailey -> University of Illinois Neuropsychiatric Institute (institutional_founder, 1941-1951)",
+      "reason": "No PubMed article found documenting Bailey's founding of this institute."
+    },
+    {
+      "module": "06_orthopedics.json",
+      "edge": "Virgil Gibney -> Hospital for the Ruptured and Crippled (institutional_succession, 1887-1925)",
+      "reason": "No PubMed article found documenting this specific succession."
+    },
+    {
+      "module": "06_orthopedics.json",
+      "edge": "AOA -> American Board of Orthopaedic Surgery (society_founder, 1933-1934)",
+      "reason": "ABOS founding documented on ABOS website but no standalone PubMed article covers this specific relationship."
+    },
+    {
+      "module": "06_orthopedics.json",
+      "edge": "Mark B. Coventry -> Mayo Clinic Department of Orthopedic Surgery (governance_leadership, 1955-1984)",
+      "reason": "Coventry's chairmanship documented in AOA Pillar tribute and obituary but no PubMed-indexed biographical article found."
+    },
+    {
+      "module": "06_orthopedics.json",
+      "edge": "Mark B. Coventry -> American Orthopaedic Association (governance_leadership, 1977-1978)",
+      "reason": "AOA presidency documented by AOA Pillar program. No PubMed article documents this governance role."
+    }
+  ],
+  "verification_notes": "Edges 1-5 (all PMID 12984268) require manual verification that the named trainee appears in Carter's 1952 enumeration of Halsted's 17 residents and 55 assistant residents. If a name is NOT found in the article, revert that edge to institutional_archive. The article has no PubMed abstract, so full-text review is necessary."
+}

@@ -1,0 +1,203 @@
+{
+  "batch": 3,
+  "description": "Batch 3 citation upgrades: modules 09_trauma_acute_infection, 07_oncology_trials",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "07_oncology_trials.json",
+      "edge_index_hint": "Fisher -> NSABP (institutional_founder, 1958-1994)",
+      "match_fields": {
+        "source_node": "Bernard Fisher",
+        "target_node": "National Surgical Adjuvant Breast and Bowel Project",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_citation": "Fisher_Archive_NSABP",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "NSABP/NRG Oncology Historical Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 34991349",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34991349/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 34991349 on 2026-03-18] [Verified 2026-03-18 | Surg Oncol Clin N Am 2022 | content_match] Wickerham DL. 'A Short History of Bernard Fisher's Contributions to Randomized Clinical Trials.' Surg Oncol Clin N Am. 2022 Apr;31(2):141-151. Documents Fisher as founding member (1957-1958) and chairman (1967-1994) of the NSABP.",
+      "verification_required": false
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge_index_hint": "Altemeier -> Surgical Infection Society (society_founder, 1980-1983)",
+      "match_fields": {
+        "source_node": "William Altemeier",
+        "target_node": "Surgical Infection Society",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_citation": "SIS_Archive_Founding",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Surgical Infection Society Historical Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 8686806",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/8686806/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 8686806 on 2026-03-18] [Verified 2026-03-18 | Am J Surg 1996 | content_match] Nichols RL. 'Surgical infections: prevention and treatment--1965 to 1995.' Am J Surg. 1996 Jan;171(1):68-74. States 'The Surgical Infection Society (SIS) was established in 1980 for surgeons and other physicians and scientists.' Altemeier documented as founder and first president by SIS institutional sources (Altemeier Lectureship page).",
+      "verification_required": false
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge_index_hint": "Mont Reid -> William Altemeier (direct_training, 1933-1940)",
+      "match_fields": {
+        "source_node": "Mont Reid",
+        "target_node": "William Altemeier",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "UC_Archive_Altemeier",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "University of Cincinnati Department of Surgery Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Altemeier appears as Reid trainee in Carter's enumeration or derivatives] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952. Carter documents the Halsted->Heuer->Reid lineage at Cincinnati. Altemeier's training under Reid (1933-1940) at Cincinnati is confirmed by UC Archives (Altemeier Collection) and SIS institutional records. Alternative: PMID 10551765 (Kerr & O'Leary, Am Surg 1999) discusses the Halstedian training tree.",
+      "verification_required": true
+    }
+  ],
+  "no_upgrade_available": [
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "Charles Scudder -> ACS Committee on Trauma (institutional_founder, 1922-1933)",
+      "reason": "Scudder's founding of the COT is extensively documented on ACS institutional pages (facs.org) but no PubMed-indexed article specifically documents this founding relationship. The COT centennial book (2022) may contain it but is not PubMed-indexed."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "Charles Scudder -> AAST (society_founder, 1938)",
+      "reason": "No PubMed article found documenting Scudder's founding of the AAST."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "C. William Schwab -> EAST (society_founder, 1986-1990)",
+      "reason": "EAST founding documented in institutional sources but not in a PubMed-indexed article."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "EAST -> AAST (programmatic_accreditation, 1987-1988)",
+      "reason": "Institutional/organizational relationship not documented in PubMed."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "C. William Schwab -> Penn Trauma Fellowship (institutional_founder, 1989-2020)",
+      "reason": "Already downgraded in Phase 2. No PubMed source found."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "C. William Schwab -> AAST (governance_leadership, 2004-2005)",
+      "reason": "AAST past presidents list is institutional archive only."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "SIPP -> SCIP (institutional_succession, 2006-2015)",
+      "reason": "Quality improvement program succession; institutional/CMS relationship not in PubMed as a historical article."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "ACS -> TQIP (institutional_founder, 2008-Present)",
+      "reason": "TQIP documented on ACS website but no standalone PubMed article on founding."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "ACS COT -> TQIP (institutional_founder, 2008-2010)",
+      "reason": "Same as above — institutional program documentation only."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "TQIP -> U Maryland Shock Trauma (programmatic_accreditation, 2010-Present)",
+      "reason": "Programmatic/accreditation relationship not documented in PubMed."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "Kenneth L. Mattox -> Ben Taub (institutional_founder, 1973-2020)",
+      "reason": "Mattox's 47-year tenure at Ben Taub is well known but no single PubMed biographical article focuses on this institutional founding role."
+    },
+    {
+      "module": "09_trauma_acute_infection.json",
+      "edge": "Kenneth L. Mattox -> AAST (governance_leadership, c. 1992-1993)",
+      "reason": "AAST presidency documented in institutional lists only."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "Mayo Clinic -> R. Lee Clark (direct_training, 1935-1939)",
+      "reason": "Already downgraded in Phase 2. Clark's Mayo fellowship documented in institutional sources but not PubMed."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "R. Lee Clark -> MD Anderson (institutional_founder, 1946-1978)",
+      "reason": "Clark as MD Anderson founder documented on MD Anderson website but no standalone PubMed historical article found."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "ACS -> SWOG (programmatic_accreditation, 1956-Present)",
+      "reason": "Programmatic relationship between ACS and SWOG not documented in a single PubMed article."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "Grant Taylor -> SWOG (institutional_founder, 1956-1966)",
+      "reason": "SWOG founding by Taylor documented on SWOG website but no PubMed article found."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "Memorial Hospital -> Memorial Sloan Kettering (institutional_succession, 1960-Present)",
+      "reason": "Institutional naming succession not documented in PubMed."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "George C. Lewis Jr. -> SGO (society_founder, 1969-1975)",
+      "reason": "No PubMed article found documenting Lewis's founding of SGO."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "George C. Lewis Jr. -> GOG (institutional_founder, 1970-1985)",
+      "reason": "No PubMed article found."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "Victor Zannis -> ASBrS (society_founder, 1995-1996)",
+      "reason": "No PubMed article documenting Zannis's founding of ASBrS."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "ACS -> ACOSOG (institutional_founder, 1998-2011)",
+      "reason": "Already downgraded in Phase 2. ACOSOG founding by ACS documented institutionally only."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "ACOSOG -> Alliance (institutional_succession, 2011-Present)",
+      "reason": "NCI cooperative group merger; organizational succession not in PubMed as historical article."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "GOG -> NRG Oncology (institutional_succession, 2012-2014)",
+      "reason": "Already downgraded in Phase 2. NCI cooperative group merger documented institutionally."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "NSABP -> NRG Oncology (institutional_succession, 2012-2014)",
+      "reason": "Already downgraded in Phase 2. Same NCI merger."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "NSABP -> Alliance (programmatic_accreditation, 2014-Present)",
+      "reason": "NCI cooperative group programmatic relationship; not documented in PubMed."
+    },
+    {
+      "module": "07_oncology_trials.json",
+      "edge": "ASBrS -> ACS (programmatic_accreditation, 2007-Present)",
+      "reason": "Professional society affiliation relationship; not documented in PubMed."
+    }
+  ],
+  "verification_notes": "Edge 3 (Reid -> Altemeier, PMID 12984268) requires verification that Altemeier is mentioned in Carter's enumeration of the Halsted training tree, specifically through the Heuer->Reid->Cincinnati lineage. Altemeier trained under Reid at Cincinnati (1933-1940), not directly under Halsted. Carter's article documents the Cincinnati program as a Halstedian derivative. If Altemeier is not specifically named, the PMID may still be appropriate as it documents the training structure he entered, but consider retaining institutional_archive if the connection is too indirect."
+}

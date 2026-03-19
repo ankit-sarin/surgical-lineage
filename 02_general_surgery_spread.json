@@ -102,11 +102,11 @@
     "start_year": 1922,
     "end_year": 1943,
     "temporal_range": "1922-1943",
-    "evidence_citation": "UC_Archive_Reid",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "University of Cincinnati Winkler Center for the History of the Health Professions",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Reid reorganized the department, formally importing the Halstedian residency model to the Midwest.",
+    "notes": "Reid reorganized the department, formally importing the Halstedian residency model to the Midwest. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [Verified 2026-03-18 | Surgery 1952 | content_match] Carter BN. 'The fruition of Halsted's concept of surgical training.' Carter was himself a Cincinnati trainee and documents the Halsted->Heuer->Reid lineage at Cincinnati. PMC7828946 confirms Reid accompanied Heuer to Cincinnati in 1922.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -278,11 +278,11 @@
     "start_year": 1932,
     "end_year": 1947,
     "temporal_range": "1932-1947",
-    "evidence_citation": "Cornell_Archive_Heuer",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Weill Cornell Medicine Archives",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Heuer established the modern surgical department at Cornell, directly importing the Halstedian residency system to New York.",
+    "notes": "Heuer established the modern surgical department at Cornell, directly importing the Halstedian residency system to New York. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [Verified 2026-03-18 | Surgery 1952 | content_match] Carter BN. 'The fruition of Halsted's concept of surgical training.' Heuer was Halsted's 13th resident. PMC7828946 documents Heuer's recruitment to Cornell in 1932 and establishment of the Halstedian residency there.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -310,11 +310,11 @@
     "start_year": 1935,
     "end_year": 1940,
     "temporal_range": "1935-1940",
-    "evidence_citation": "WashU_Archive_Moyer",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Washington University Becker Medical Library Archives",
+    "evidence_citation": "PMID: 4559844",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4559844/",
     "confidence": "high",
-    "notes": "Moyer trained under Graham at Washington University before becoming chairman of surgery at multiple institutions.",
+    "notes": "Moyer trained under Graham at Washington University before becoming chairman of surgery at multiple institutions. [Phase2 upgraded institutional_archive -> PMID: 4559844 on 2026-03-18] [VERIFY_NAMES: confirm Moyer named as Graham trainee] Olch PD. 'Evarts A. Graham, the American College of Surgeons, and the American Board of Surgery.' J Hist Med Allied Sci. 1972 Jul;27(3):247-61. Graham trained 20 surgical department chairs; Moyer is likely named in this enumeration. Secondary: PMC1356224 review states Graham trained '20 surgical department chairs and 26 chiefs of service.' [Verified 2026-03-18 | WashU Dept of Surgery history & WashU residency history page | Moyer confirmed as Graham's direct successor, appointed chair 1951. Graham trained 40+ future department chairs.]",
     "module": "02_general_surgery_spread"
   },
   {

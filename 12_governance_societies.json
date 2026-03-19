@@ -168,11 +168,11 @@
     "start_year": 1937,
     "end_year": 1941,
     "temporal_range": "1937-1941",
-    "evidence_citation": "Historical_Archive_Surgery",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
+    "evidence_citation": "PMID: 4559844",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4559844/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 2446522 to institutional_archive on 2026-03-17 — no PubMed source found] Graham served as the principal architect and first chair of the American Board of Surgery, establishing formal national certification.",
+    "notes": "[Phase2 downgraded from PMID: 2446522 to institutional_archive on 2026-03-17 — no PubMed source found] Graham served as the principal architect and first chair of the American Board of Surgery, establishing formal national certification. [Phase2 upgraded institutional_archive -> PMID: 4559844 on 2026-03-18] [Verified 2026-03-18 | J Hist Med Allied Sci 1972 | content_match] Olch PD. 'Evarts A. Graham, the American College of Surgeons, and the American Board of Surgery.' J Hist Med Allied Sci. 1972 Jul;27(3):247-61. Documents Graham's central role in founding the ABS in 1937 and his position as first chairman.",
     "module": "12_governance_societies"
   },
   {
@@ -200,11 +200,11 @@
     "start_year": 1937,
     "end_year": 1937,
     "temporal_range": "1937",
-    "evidence_citation": "Historical_Archive_Surgery",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
+    "evidence_citation": "PMID: 4559844",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4559844/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 2446522 to institutional_archive on 2026-03-17 — no PubMed source found] The ACS was the primary institutional catalyst in founding the ABS, formally transferring fellowship credentialing to an independent specialty board.",
+    "notes": "[Phase2 downgraded from PMID: 2446522 to institutional_archive on 2026-03-17 — no PubMed source found] The ACS was the primary institutional catalyst in founding the ABS, formally transferring fellowship credentialing to an independent specialty board. [Phase2 upgraded institutional_archive -> PMID: 4559844 on 2026-03-18] [Verified 2026-03-18 | J Hist Med Allied Sci 1972 | content_match] Olch PD. 'Evarts A. Graham, the American College of Surgeons, and the American Board of Surgery.' Documents ACS as primary institutional driver of ABS founding. Shared PMID with Graham->ABS edge.",
     "module": "12_governance_societies"
   },
   {
@@ -763,6 +763,22 @@
     "evidence_locator": "Institutional historical records; biographical sources",
     "confidence": "moderate",
     "notes": "[Phase2 downgraded from PMID: 31003229 to institutional_archive on 2026-03-17 — no PubMed source found] Ponsky JL. 'Jeffrey L. Ponsky, MD, FACS.' VideoGIE. 2019 May;4(5):189-191. PMC6494182. Documents Ponsky as 'Director and Chairman of the American Board of Surgery.' He also served as SAGES president (already in graph as society_founder) and Vice President of the American Surgical Association. Ponsky trained at Case Western Reserve (medical school 1971, residency at University Hospitals Cleveland 1971-1976) and invented PEG (percutaneous endoscopic gastrostomy) in 1979 with Michael Gauderer. This edge is the single most important structural bridge between the MIS module and the graph backbone. ABS connects to ABMS (programmatic_accreditation, already in graph) and through it to the entire accreditation apparatus. Ponsky's ABS chairmanship means the co-inventor of PEG and co-founder of SAGES reached the top of the certification hierarchy for all general surgery. Ponsky goes from degree 1 to degree 2.",
+    "module": "12_governance_societies"
+  },
+  {
+    "source_node": "Jeffrey Ponsky",
+    "source_node_type": "person",
+    "target_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1990,
+    "end_year": 1991,
+    "temporal_range": "1990-1991",
+    "evidence_citation": "PMID 29362909",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29362909/",
+    "confidence": "high",
+    "notes": "Ponsky served as SAGES president 1990-91. Reclassified from society_founder to governance_leadership per PMID 29362909, which identifies Gerald Marks as SAGES founder. Corrected 2026-03-18.",
     "module": "12_governance_societies"
   },
   {

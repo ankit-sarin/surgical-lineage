@@ -1,0 +1,258 @@
+{
+  "batch": 4,
+  "description": "Batch 4 citation upgrades: modules 10_quality_outcomes, 04_cardiothoracic_vascular",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge_index_hint": "DeBakey -> Baylor CV Surgery (institutional_founder, 1948-1993)",
+      "match_fields": {
+        "source_node": "Michael DeBakey",
+        "target_node": "Baylor College of Medicine Cardiovascular Surgery",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 26635916",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Winters WL. 'Houston Hearts: A History of Cardiovascular Surgery and Medicine.' Documents DeBakey's arrival at Baylor in 1948, recruitment of Cooley (1951), Crawford (1954), and creation of the cardiovascular surgery program.",
+      "verification_required": false
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge_index_hint": "DeBakey -> George P. Noon (direct_training, 1960-1965)",
+      "match_fields": {
+        "source_node": "Michael DeBakey",
+        "target_node": "George P. Noon",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 26635916",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] States that 'Edward B. Dietrich and George P. Noon finished their cardiovascular surgical training and joined DeBakey' in 1965.",
+      "verification_required": false
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge_index_hint": "DeBakey -> Kenneth L. Mattox (direct_training, 1964-c.1970)",
+      "match_fields": {
+        "source_node": "Michael DeBakey",
+        "target_node": "Kenneth L. Mattox",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 26635916",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Winters article names DeBakey's team including Mattox. BCM History of Leadership page confirms Mattox trained under DeBakey. Mattox also authored PMID 20073164 (Methodist Debakey Cardiovasc J 2009) as a DeBakey tribute.",
+      "verification_required": false
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge_index_hint": "DeBakey -> George C. Morris Jr. (direct_training, 1950-c.1956)",
+      "match_fields": {
+        "source_node": "Michael DeBakey",
+        "target_node": "George C. Morris Jr.",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 26635916",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Names Morris among DeBakey's legendary surgical associates. BCM History of Leadership confirms Morris as DeBakey trainee.",
+      "verification_required": false
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge_index_hint": "DeBakey -> H. Edward Garrett Sr. (direct_training, c.1958-1964)",
+      "match_fields": {
+        "source_node": "Michael DeBakey",
+        "target_node": "H. Edward Garrett Sr.",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 26635916",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] States 'Dr. Ed Garrett completed his cardiovascular surgical training at Baylor and joined the DeBakey staff' and 'in 1964 performed the first aorta-to-coronary artery bypass.' BCM History of Leadership confirms training under DeBakey.",
+      "verification_required": false
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge_index_hint": "DeBakey -> Oscar Creech Jr. (direct_training, 1949-1956)",
+      "match_fields": {
+        "source_node": "Michael DeBakey",
+        "target_node": "Oscar Creech Jr.",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 26635916",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Names 'Oscar Creech Jr. (1949)' as one of DeBakey's first associates at Baylor. BCM History of Leadership confirms Creech joined DeBakey in 1949.",
+      "verification_required": false
+    }
+  ],
+  "no_upgrade_available": [
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "John Homans -> Peter Bent Brigham Peripheral Vascular Clinic (institutional_founder, 1912-1946)",
+      "reason": "Already downgraded in Phase 2. No PubMed article found."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Willy Meyer -> AATS (society_founder, 1917)",
+      "reason": "Already downgraded in Phase 2. AATS founding documented institutionally only."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Edward Churchill -> MGH Thoracic Surgical Service (institutional_founder, 1931-1962)",
+      "reason": "Churchill's MGH thoracic service documented in institutional histories. PMID 20134311 (already used for Med Theater edge) covers his wartime role, not the MGH founding."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Helen Taussig -> Alfred Blalock (observational_study, 1943-1964)",
+      "reason": "The Taussig-Blalock blue baby collaboration is one of the most documented events in surgical history, but the existing graph edge is typed as observational_study (Taussig approaching Blalock with the concept). Multiple PMIDs exist for the Blalock-Taussig shunt itself but verifying which specifically documents the Taussig→Blalock conceptual transfer would require full-text review. Mark for future deep-dive."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Emile Holman -> Society for Vascular Surgery (society_founder, 1946)",
+      "reason": "No PubMed article found documenting Holman's specific founding role in SVS."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Denton Cooley -> Texas Heart Institute (institutional_founder, 1962-2016)",
+      "reason": "THI founding documented on institutional website. No standalone PubMed historical article focused on this founding."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Paul Samson -> Society of Thoracic Surgeons (society_founder, 1964-1965)",
+      "reason": "No PubMed article found documenting Samson's STS founding role."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "AATS -> STS (programmatic_accreditation, 1964-Present)",
+      "reason": "Already downgraded in Phase 2. Institutional relationship."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Norman Shumway -> Stanford Heart Transplant Program (institutional_founder, 1968-1993)",
+      "reason": "Shumway's Stanford program extensively documented but no single PubMed article focused on the institutional founding as distinct from his many transplant publications."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Denton Cooley -> O.H. Frazier (direct_training, 1970-1974)",
+      "reason": "No PubMed biographical article found specifically documenting Frazier's training under Cooley."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "Norman Shumway -> Bruce Reitz (direct_training, 1975-1981)",
+      "reason": "No PubMed article found specifically documenting Reitz's training under Shumway."
+    },
+    {
+      "module": "04_cardiothoracic_vascular.json",
+      "edge": "E. Stanley Crawford -> Hazim Safi (direct_training, 1982-1983)",
+      "reason": "No PubMed article found specifically documenting Safi's training under Crawford."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "David Flum -> Dartmouth Institute (observational_study, 2000-2010)",
+      "reason": "Intellectual influence relationship not documented in PubMed."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "Henrik Kehlet -> ERAS Study Group (society_founder, 2001-2010)",
+      "reason": "Already downgraded in Phase 2. Kehlet's ERAS founding documented in ERAS institutional sources."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "VA NSQIP -> ACS NSQIP (institutional_succession, 2004-Present)",
+      "reason": "Already downgraded in Phase 2. Programmatic succession."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "ACS -> ACS NSQIP (institutional_founder, 2004-Present)",
+      "reason": "Institutional program founding; documented on ACS website only."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "Clifford Ko -> ACS NSQIP (governance_leadership, 2004-Present)",
+      "reason": "Individual governance role; no PubMed biographical article found."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "SAGES -> FLS (institutional_founder, 2004-present)",
+      "reason": "Program founding documented in SAGES sources only."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "David Flum -> Surgical Outcomes Club (society_founder, 2005-2015)",
+      "reason": "No PubMed article found."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "David Flum -> ACS NSQIP (governance_leadership, 2005-2015)",
+      "reason": "Individual governance role."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "ACS NSQIP -> Johns Hopkins (programmatic_accreditation, 2006-Present)",
+      "reason": "Institutional accreditation relationship."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "ACS NSQIP -> Mayo Clinic (programmatic_accreditation, 2006-Present)",
+      "reason": "Institutional accreditation relationship."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "ACS -> SCIP (governance_leadership, 2006-2015)",
+      "reason": "Multi-stakeholder program governance."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "FLS -> ABS (programmatic_accreditation, 2009-present)",
+      "reason": "Credentialing requirement; documented in ABS policies."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "ERAS Society -> MD Anderson (programmatic_accreditation, 2015-Present)",
+      "reason": "Institutional accreditation relationship."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "FES -> ABS (programmatic_accreditation, 2018-Present)",
+      "reason": "Credentialing requirement."
+    },
+    {
+      "module": "10_quality_outcomes.json",
+      "edge": "ACS -> Geriatric Surgery Verification Program (institutional_founder, 2019-present)",
+      "reason": "ACS program founding; documented on ACS website only."
+    }
+  ]
+}

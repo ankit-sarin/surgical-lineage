@@ -1,0 +1,210 @@
+{
+  "batch": 5,
+  "description": "Batch 5 citation upgrades: module 08_subspecialties",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "08_subspecialties.json",
+      "edge_index_hint": "William E. Ladd -> Boston Children's Hospital Department of Surgery (institutional_founder, 1927-1945)",
+      "match_fields": {
+        "source_node": "William E. Ladd",
+        "target_node": "Boston Children's Hospital Department of Surgery",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 3095882",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3095882/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 3095882 on 2026-03-18] [Verified 2026-03-18 | Prog Pediatr Surg 1986 | content_match] Bill H. 'William E. Ladd, M.D.: great pioneer of North American pediatric surgery.' Documents Ladd's appointment as Surgeon-in-Chief at Boston Children's Hospital and establishment of the first pediatric surgical training program.",
+      "verification_required": false
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge_index_hint": "Harold Gillies -> Queen's Hospital Facial Reconstruction Unit (institutional_founder, 1917-1925)",
+      "match_fields": {
+        "source_node": "Harold Gillies",
+        "target_node": "Queen's Hospital Facial Reconstruction Unit",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 25858011",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25858011/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 25858011 on 2026-03-18] [Verified 2026-03-18 | J Laryngol Otol 2015 | content_match] 'Sir Harold Delf Gillies, the otolaryngologist and father of modern facial plastic surgery: review of his rhinoplasty case notes.' Documents Gillies establishing the facial injury ward at Queen's Hospital, Sidcup, founding modern plastic surgery.",
+      "verification_required": false
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge_index_hint": "Robert E. Gross -> W. Hardy Hendren III (direct_training, 1955-1960)",
+      "match_fields": {
+        "source_node": "Robert E. Gross",
+        "target_node": "W. Hardy Hendren III",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 3095885",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3095885/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 3095885 on 2026-03-18] [VERIFY_NAMES: confirm Hendren named as Gross trainee] Clatworthy HW. 'Robert E. Gross.' Prog Pediatr Surg. 1986;20:76-84. Documents Gross's career at Boston Children's and his training lineage. Hendren succeeded Gross as Chief of Surgery at Boston Children's (1982), establishing the mentor-trainee relationship.",
+      "verification_required": true
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge_index_hint": "Robert E. Gross -> C. Everett Koop (direct_training, 1946-1947)",
+      "match_fields": {
+        "source_node": "Robert E. Gross",
+        "target_node": "C. Everett Koop",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 3095885",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3095885/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 3095885 on 2026-03-18] [VERIFY_NAMES: confirm Koop named as Gross trainee] Clatworthy HW. 'Robert E. Gross.' Prog Pediatr Surg. 1986;20:76-84. Koop's brief fellowship under Gross at Boston Children's (1946-1947) is documented in biographical sources. Previously downgraded in Phase 2.",
+      "verification_required": true
+    }
+  ],
+  "no_upgrade_available": [
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Edward Delafield -> New York Eye Infirmary (institutional_founder, 1820-1875)",
+      "reason": "Pre-modern era founding. No PubMed article found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Frederick Salmon -> St. Mark's Hospital (institutional_founder, 1835-1859)",
+      "reason": "Pre-modern era founding. No PubMed article found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Joseph McDowell Mathews -> American Proctologic Society (society_founder, 1899)",
+      "reason": "Already downgraded in Phase 2. No PubMed source found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "William J. Mayo -> Louis A. Buie (direct_training, 1915-1919)",
+      "reason": "No PubMed article documenting Buie's training under Mayo."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Triological Society -> ABOto (society_founder, 1924-1933)",
+      "reason": "Founding of early specialty board documented in institutional sources only."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "ACS -> ASCRS (programmatic_accreditation, 1935-Present)",
+      "reason": "Institutional accreditation relationship."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Vilray Blair -> ABPS (society_founder, 1937-1941)",
+      "reason": "No PubMed article specifically documenting Blair's ABPS founding role. PMID 20395812 (Fraser & Hultman, Ann Plast Surg 2010) discusses American plastic surgery interwar development but does not focus on the ABPS founding."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Alfred Blalock -> William Longmire (direct_training, 1938-1945)",
+      "reason": "No standalone PubMed biographical article found for this training relationship."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Owen Wangensteen -> Edward Mason (direct_training, 1945-1953)",
+      "reason": "Already downgraded in Phase 2. No PubMed source found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "William Longmire -> UCLA Department of Surgery (institutional_founder, 1948-1976)",
+      "reason": "Longmire's UCLA founding documented on UCLA website. No standalone PubMed historical article found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "D. Ralph Millard -> University of Miami Division of Plastic Surgery (institutional_founder, 1958-1995)",
+      "reason": "No PubMed article found documenting this specific founding."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "William Longmire -> Eric W. Fonkalsrud (direct_training, 1958-1963)",
+      "reason": "No PubMed article documenting Fonkalsrud's training under Longmire."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Edward Mason -> University of Iowa Bariatric Surgery Program (institutional_founder, 1966-1990)",
+      "reason": "Already downgraded in Phase 2. No PubMed source found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "William Longmire -> ACS (governance_leadership, 1971-1973)",
+      "reason": "ACS presidential term documented in institutional lists only."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "American Proctologic Society -> ASCRS (institutional_succession, 1973-Present)",
+      "reason": "Society name change documented institutionally."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Norman Thompson -> AAES (society_founder, 1980-1981)",
+      "reason": "No PubMed article documenting Thompson's AAES founding role."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Edward Mason -> ASBS (society_founder, 1983-1984)",
+      "reason": "Already downgraded in Phase 2. No PubMed source found."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Leslie Blumgart -> MSK HPB Service (institutional_founder, 1989-2001)",
+      "reason": "No PubMed article documenting Blumgart's MSK HPB service founding."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Henri Bismuth -> IHPBA (society_founder, 1994-1995)",
+      "reason": "No PubMed article found documenting Bismuth's IHPBA founding role."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Victor W. Fazio -> ASCRS (governance_leadership, 1995-1996)",
+      "reason": "ASCRS presidential term documented in institutional records."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "Society of Head and Neck Surgeons -> AHNS (institutional_succession, 1998-Present)",
+      "reason": "Society merger documented institutionally."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "ASBS -> ASMBS (institutional_succession, 2007-Present)",
+      "reason": "Society rebranding documented institutionally."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "ASMBS -> ACS (programmatic_accreditation, 2012-Present)",
+      "reason": "MBSAQIP joint program; institutional relationship."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "ABPS -> ABMS (programmatic_accreditation, 1941-Present)",
+      "reason": "Board accreditation relationship documented institutionally."
+    },
+    {
+      "module": "08_subspecialties.json",
+      "edge": "W. Hardy Hendren III -> Boston Children's Hospital Department of Surgery (governance_leadership, 1982-1998)",
+      "reason": "Hendren's chief of surgery appointment documented in Boston Children's institutional history but no standalone PubMed article found."
+    }
+  ]
+}

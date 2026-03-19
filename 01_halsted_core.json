@@ -83,11 +83,11 @@
     "start_year": 1903,
     "end_year": 1904,
     "temporal_range": "1903-1904",
-    "evidence_citation": "Historical_Archive_Homans",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Brigham Department of Surgery Historical Records",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 — no PubMed source found] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach."
+    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 — no PubMed source found] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Homans appears in Carter's enumeration of Halsted trainees] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Carter catalogued all 17 Halsted residents and 55 assistant residents by name. [Verified 2026-03-18 | Yale Vascular History Archive & Wikipedia | Homans confirmed as training under both Halsted and Cushing at Hopkins before joining Brigham. Likely among Carter's 55 assistant residents.]"
   },
   {
     "source_node": "William Stewart Halsted",
@@ -128,11 +128,11 @@
     "start_year": 1912,
     "end_year": 1914,
     "temporal_range": "1912-1914",
-    "evidence_citation": "UCSF_Archive_Naffziger",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "UCSF Department of Surgery Historical Archives; Naffziger Society History",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Naffziger served as assistant resident surgeon at Johns Hopkins under Halsted and Cushing, recognizing the superiority of the Halstedian training system before returning to build UCSF."
+    "notes": "Naffziger served as assistant resident surgeon at Johns Hopkins under Halsted and Cushing, recognizing the superiority of the Halstedian training system before returning to build UCSF. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Naffziger appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Secondary confirmation: PMID 8692401 (Rosegay, Neurosurgery 1996) and PMID 12296669 (Keller, Neurosurgery 2001) both document Naffziger at Hopkins under Halsted/Cushing 1912-1914. [Verified 2026-03-18 | Naffziger Society history & Rosegay 1996 | Confirmed assistant resident surgeon at Hopkins under Halsted. Developed residency at UCSF modeled on Halstedian system.]"
   },
   {
     "source_node": "William Stewart Halsted",
@@ -158,11 +158,11 @@
     "start_year": 1917,
     "end_year": 1921,
     "temporal_range": "1917-1921",
-    "evidence_citation": "JHU_Professorship_Archive",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Johns Hopkins University Named Professorships (professorships.jhu.edu/professorship/warfield-m-firor-professor-in-surgery/)",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Warfield M. Firor received his A&S degree from Johns Hopkins in 1917 and his MD in 1921, training in surgery under the Halstedian system. Halsted died in September 1922, making Firor among the last surgeons formed directly within the original Halsted program. Firor became professor of surgery at the School of Medicine and acting surgeon-in-chief of the hospital from 1939 to 1941. He was best known for pioneering work on tetanus toxin and its effect on the spinal cord. He chaired the American Board of Surgery and the Joint Conference Committee on Graduate Training in Surgery. JHU awarded him an honorary doctorate in 1980. He died in 1988 at age 91. An endowed professorship in his name is currently held at Hopkins."
+    "notes": "Warfield M. Firor received his A&S degree from Johns Hopkins in 1917 and his MD in 1921, training in surgery under the Halstedian system. Halsted died in September 1922, making Firor among the last surgeons formed directly within the original Halsted program. Firor became professor of surgery at the School of Medicine and acting surgeon-in-chief of the hospital from 1939 to 1941. He was best known for pioneering work on tetanus toxin and its effect on the spinal cord. He chaired the American Board of Surgery and the Joint Conference Committee on Graduate Training in Surgery. JHU awarded him an honorary doctorate in 1980. He died in 1988 at age 91. An endowed professorship in his name is currently held at Hopkins. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Firor appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. [Verified 2026-03-18 | Chesney Medical Archives portrait & JHU professorships page | Firor (MD 1921) remained at Hopkins for residencies in neurosurgery and surgery. Acting surgeon-in-chief 1939-1941. Overlapped with Halsted's final year.]"
   },
   {
     "source_node": "William Stewart Halsted",
@@ -188,11 +188,11 @@
     "start_year": 1920,
     "end_year": 1925,
     "temporal_range": "1920-1925",
-    "evidence_citation": "Duke_Archive_Hart",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Duke University Medical Center Archives",
+    "evidence_citation": "PMID: 12984268",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Hart trained at Hopkins under Halsted's system and was recruited to Duke as the founding chairman of surgery."
+    "notes": "Hart trained at Hopkins under Halsted's system and was recruited to Duke as the founding chairman of surgery. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Hart appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Secondary confirmation: PMC7828946 (Wright & Schachar, Can J Surg 2020) cites Hart as 'a former Halsted resident' referencing Carter. [Verified 2026-03-18 | PMC7828946 (Wright 2020, Can J Surg) | Explicitly identified as \"a former Halsted resident.\" Published on surgical residency history (N C Med J 1964).]"
   },
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",
@@ -222,6 +222,6 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Johns Hopkins Medical Archives",
     "confidence": "high",
-    "notes": "Blakemore trained at Hopkins before establishing the Columbia vascular lineage, linking early synthetic graft innovation back to Halsted."
+    "notes": "Blakemore trained at Hopkins (1922-1926) before establishing the Columbia vascular lineage. Training dates begin year of Halsted's death; likely trained under post-Halsted leadership. Carter 1952 (PMID 12984268) covers Halsted appointees only — cannot confirm Blakemore is named. Reverted from PMID to institutional_archive 2026-03-18."
   }
 ]

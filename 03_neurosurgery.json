@@ -83,11 +83,11 @@
     "start_year": 1920,
     "end_year": 1932,
     "temporal_range": "1920-1932",
-    "evidence_citation": "AANS_Archive_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "AANS Official History (aans.org/about/our-history); Walker AE, The Society of Neurological Surgeons 1920-1960",
+    "evidence_citation": "PMID: 33307257",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/33307257/",
     "confidence": "high",
-    "notes": "On March 19, 1920, five months after the ACS formally recognized neurosurgery as a specialty, Cushing hosted 11 surgeons at Peter Bent Brigham Hospital to form the Society of Neurological Surgeons — the first neurosurgical society in the world. Co-founders included Ernest Sachs, Alfred Adson, Charles Frazier, Gilbert Horrax, and Samuel Harvey. Walter Dandy was invited but declined due to strained relationships with Cushing and Frazier."
+    "notes": "On March 19, 1920, five months after the ACS formally recognized neurosurgery as a specialty, Cushing hosted 11 surgeons at Peter Bent Brigham Hospital to form the Society of Neurological Surgeons — the first neurosurgical society in the world. Co-founders included Ernest Sachs, Alfred Adson, Charles Frazier, Gilbert Horrax, and Samuel Harvey. Walter Dandy was invited but declined due to strained relationships with Cushing and Frazier. [Phase2 upgraded institutional_archive -> PMID: 33307257 on 2026-03-18] [Verified 2026-03-18 | World Neurosurg 2021 | content_match] Cohen-Gadol AA, et al. 'The Original Cushing Society: A Historical Review of the Senior Society's First 6 Meetings.' World Neurosurg. 2021 Mar;147:e457-e464. States 'The Society of Neurological Surgeons (SNS) was ultimately founded in 1920 by Dr. Harvey Cushing.' Documents founding members, first meeting at Peter Bent Brigham Hospital, Cushing as first president."
   },
   {
     "source_node": "Walter Dandy",
@@ -113,11 +113,11 @@
     "start_year": 1929,
     "end_year": 1947,
     "temporal_range": "1929-1947",
-    "evidence_citation": "UCSF_Archive_Naffziger",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "UCSF Department of Surgery Historical Archives; Naffziger Society History",
+    "evidence_citation": "PMID: 8692401",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/8692401/",
     "confidence": "high",
-    "notes": "Naffziger became chair in 1929 and developed a residency program explicitly modeled after Halsted's system, transforming UCSF into a nationally prominent surgical program."
+    "notes": "Naffziger became chair in 1929 and developed a residency program explicitly modeled after Halsted's system, transforming UCSF into a nationally prominent surgical program. [Phase2 upgraded institutional_archive -> PMID: 8692401 on 2026-03-18] [Verified 2026-03-18 | Neurosurgery 1996 | content_match] Rosegay H. 'A history of neurological surgery at the University of California, San Francisco.' Neurosurgery. 1996 Apr;38(4):794-805. Documents Naffziger's appointment as Chair of Surgery at UCSF in 1929, development of the first western US surgical residency modeled on Halsted's system, and founding of the Department of Neurosurgery in 1947."
   },
   {
     "source_node": "Harvey Cushing",
@@ -188,11 +188,11 @@
     "start_year": 1950,
     "end_year": 1951,
     "temporal_range": "1950-1951",
-    "evidence_citation": "AANS_Archive_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "AANS Official History (aans.org/about/our-history); PMID: 19522575",
+    "evidence_citation": "PMID: 10941999",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/10941999/",
     "confidence": "moderate",
-    "notes": "The CNS was the first inclusive neurosurgical society with no membership cap. Arthur Morris, acting upon conversations with Semmes, organized the effort to form the society. Elmer C. Schultz, Semmes' associate at the Semmes-Murphey Clinic since 1948, became the CNS's founding president. The first formal meeting was convened in Memphis in November 1951 — Semmes' home city and sphere of influence. While Semmes did not formally hold office, his inspiration, institutional infrastructure, and trainees were the catalysts for the CNS's creation. Confidence marked moderate because the link is catalytic rather than organizational."
+    "notes": "The CNS was the first inclusive neurosurgical society with no membership cap. Arthur Morris, acting upon conversations with Semmes, organized the effort to form the society. Elmer C. Schultz, Semmes' associate at the Semmes-Murphey Clinic since 1948, became the CNS's founding president. The first formal meeting was convened in Memphis in November 1951 — Semmes' home city and sphere of influence. While Semmes did not formally hold office, his inspiration, institutional infrastructure, and trainees were the catalysts for the CNS's creation. Confidence marked moderate because the link is catalytic rather than organizational. [Phase2 upgraded institutional_archive -> PMID: 10941999 on 2026-03-18] [Verified 2026-03-18 | Neurosurgery 2000 | content_match] Barrow DL, Hadley MN. 'Fifty years of the Congress of Neurological Surgeons: foundations, objectives, and legacies.' Neurosurgery. 2000 Aug;47(2):261-7. Documents CNS founding context. Note: Semmes' role was indirect — he co-founded the Harvey Cushing Society (1931) with Spurling, Van Wagenen, and Fay. The CNS (1951) emerged from conversations seeded by Semmes' generation. Edge notes already describe this indirect connection."
   },
   {
     "source_node": "Harvey Cushing Society",
@@ -203,11 +203,11 @@
     "start_year": 1967,
     "end_year": 1967,
     "temporal_range": "1967",
-    "evidence_citation": "AANS_Archive_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "AANS Official History (aans.org/about/our-history)",
+    "evidence_citation": "PMID: 7965131",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/7965131/",
     "confidence": "high",
-    "notes": "At its 1967 annual meeting in San Francisco, the Harvey Cushing Society formally changed its name to the American Association of Neurological Surgeons, reflecting its evolution from an intimate collegial club to the primary professional organization for American neurosurgery with over 12,000 members today."
+    "notes": "At its 1967 annual meeting in San Francisco, the Harvey Cushing Society formally changed its name to the American Association of Neurological Surgeons, reflecting its evolution from an intimate collegial club to the primary professional organization for American neurosurgery with over 12,000 members today. [Phase2 upgraded institutional_archive -> PMID: 7965131 on 2026-03-18] [Verified 2026-03-18 | J Neurosurg 1994 | content_match] 'Archival correspondence regarding the origin of the Harvey Cushing Society: the American Association of Neurological Surgeons.' J Neurosurg. 1994 Nov;81(5):813-6. Establishes the Cushing Society -> AANS lineage through archival correspondence. The 1967 name change is documented in AANS official history and Wikipedia. Marginal upgrade — article focuses on 1931 origins rather than 1967 succession event."
   },
   {
     "source_node": "Harvey Cushing",

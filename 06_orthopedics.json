@@ -72,11 +72,11 @@
     "start_year": 1931,
     "end_year": 1933,
     "temporal_range": "1931-1933",
-    "evidence_citation": "ABOS_Archive_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "American Board of Orthopaedic Surgery Official History (abos.org/about/history)",
+    "evidence_citation": "PMID: 18196367",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18196367/",
     "confidence": "high",
-    "notes": "In 1931, the AOA formed a committee to establish a more broadly representative national orthopaedic organization without the AOA's membership restrictions. This committee directly catalyzed the founding of the AAOS in 1933.",
+    "notes": "In 1931, the AOA formed a committee to establish a more broadly representative national orthopaedic organization without the AOA's membership restrictions. This committee directly catalyzed the founding of the AAOS in 1933. [Phase2 upgraded institutional_archive -> PMID: 18196367 on 2026-03-18] [Verified 2026-03-18 | Clin Orthop Relat Res 2008 | content_match] Brand RA. 'AAOS 75th Anniversary Tribute to Past Presidents: Editorial Comment.' Clin Orthop Relat Res. 2008 Jan;466(1):2-4. Documents AOA committee formation in 1931 leading to AAOS founding at Northwestern University in January 1933. Identifies seven AAOS founders and their AOA connections.",
     "module": "06_orthopedics"
   },
   {

@@ -1,0 +1,207 @@
+{
+  "batch": 6,
+  "description": "Batch 6 citation upgrades: module 12_governance_societies",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "12_governance_societies.json",
+      "edge_index_hint": "Evarts A. Graham -> American Board of Surgery (society_founder, 1937-1941)",
+      "match_fields": {
+        "source_node": "Evarts A. Graham",
+        "target_node": "American Board of Surgery",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 4559844",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4559844/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 4559844 on 2026-03-18] [Verified 2026-03-18 | J Hist Med Allied Sci 1972 | content_match] Olch PD. 'Evarts A. Graham, the American College of Surgeons, and the American Board of Surgery.' J Hist Med Allied Sci. 1972 Jul;27(3):247-61. Documents Graham's central role in founding the ABS in 1937 and his position as first chairman.",
+      "verification_required": false
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge_index_hint": "ACS -> American Board of Surgery (society_founder, 1937)",
+      "match_fields": {
+        "source_node": "American College of Surgeons",
+        "target_node": "American Board of Surgery",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_type": "institutional_archive"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 4559844",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/4559844/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 4559844 on 2026-03-18] [Verified 2026-03-18 | J Hist Med Allied Sci 1972 | content_match] Olch PD. 'Evarts A. Graham, the American College of Surgeons, and the American Board of Surgery.' Documents ACS as primary institutional driver of ABS founding. Shared PMID with Graham->ABS edge.",
+      "verification_required": false
+    }
+  ],
+  "no_upgrade_available": [
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Mayo Clinic -> Louis B. Wilson (governance_leadership, 1905-1930)",
+      "reason": "No PubMed article documenting Wilson's governance role at Mayo."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Charles Scudder -> ACS (governance_leadership, 1913-1930)",
+      "reason": "Scudder's ACS governance documented institutionally only."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Frank Lahey -> ACS (governance_leadership, 1913-1940)",
+      "reason": "No PubMed article."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Frank Lahey -> Lahey Clinic (institutional_founder, 1923-1953)",
+      "reason": "Lahey Clinic founding documented institutionally."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Louis B. Wilson -> ABMS (society_founder, 1933-1937)",
+      "reason": "No PubMed article documenting Wilson's ABMS founding role."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "ABO -> ABMS (society_founder, 1933-Present)",
+      "reason": "ABMS founding documented on ABMS website only."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "ABOS -> ABMS (programmatic_accreditation, 1934-Present)",
+      "reason": "Board membership in ABMS is institutional."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "ABS -> ABMS (programmatic_accreditation, 1937-Present)",
+      "reason": "Board membership in ABMS is institutional."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Dallas Phemister -> ASA (governance_leadership, 1938-1939)",
+      "reason": "ASA presidential term documented in institutional records."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Warfield Firor -> SUS (society_founder, 1938-1941)",
+      "reason": "SUS founding documented in SUS institutional history. No PubMed article found."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "ABNS -> ABMS (programmatic_accreditation, 1940-Present)",
+      "reason": "Board membership in ABMS is institutional."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Allen O. Whipple -> Memorial Hospital (governance_leadership, 1946-1950)",
+      "reason": "Whipple's Memorial appointment documented in institutional histories."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Alton Ochsner -> ACS (governance_leadership, 1953-1954)",
+      "reason": "ACS presidential term documented in ACS archives."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Bernard Fisher -> ACS (governance_leadership, 1958-2019)",
+      "reason": "Already downgraded in Phase 2. Fisher's ACS fellowship documented broadly."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Denton Cooley -> ACS (governance_leadership, 1960-2016)",
+      "reason": "ACS fellowship documented in institutional records."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Michael DeBakey -> ACS (governance_leadership, 1969-1970)",
+      "reason": "Already downgraded in Phase 2. ACS presidential term."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "LCGME -> ACGME (institutional_succession, 1981-Present)",
+      "reason": "ACGME founding documented on ACGME website."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "ABMS -> ACGME (programmatic_accreditation, 1981-Present)",
+      "reason": "Institutional governance coupling."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Patricia Numann -> AWS (society_founder, 1981-Present)",
+      "reason": "AWS founding documented on AWS website. No PubMed article found."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Joseph E. Murray -> ACS (governance_leadership, 1990-2012)",
+      "reason": "ACS fellowship documented in Starzl tribute (Bull Am Coll Surg 2013) but not PubMed-indexed."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "W. Gerald Austen -> ACS (governance_leadership, 1992-1993)",
+      "reason": "ACS presidential term documented in ACS archives."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Patricia Numann -> ABS (governance_leadership, 1994-2002)",
+      "reason": "First female ABS chair documented in institutional records."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "LaSalle D. Leffall Jr. -> ACS (governance_leadership, 1995-1996)",
+      "reason": "First African American ACS president extensively documented in ASCO Post, ACS Archives, and NLM. No PubMed-indexed article focused on the governance role specifically."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Haile T. Debas -> ASA (governance_leadership, 2001-2002)",
+      "reason": "Already downgraded in Phase 2. ASA presidential term."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Carlos A. Pellegrini -> ASA (governance_leadership, 2005-2006)",
+      "reason": "ASA presidential term documented in ASA past presidents registry."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Jeffrey Ponsky -> ABS (governance_leadership, 2005-2010)",
+      "reason": "Already downgraded in Phase 2. ABS chairmanship."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Julie Ann Freischlag -> ACS (governance_leadership, 2018-2019)",
+      "reason": "ACS presidential term documented in ACS archives."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "C. Rollins Hanlon -> ACS (governance_leadership, 1969-1988)",
+      "reason": "ACS executive directorship documented in ACS archives."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "ABOto -> ABMS (programmatic_accreditation, 1924-Present)",
+      "reason": "Board membership in ABMS is institutional."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Jonathan E. Rhoads -> ASA (governance_leadership, 1972-1973)",
+      "reason": "ASA presidential term documented in institutional records."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Murray F. Brennan -> ASA (governance_leadership, c.2000-c.2001)",
+      "reason": "ASA presidential term documented in institutional records."
+    },
+    {
+      "module": "12_governance_societies.json",
+      "edge": "Claude H. Organ Jr. -> ACS (governance_leadership, 2003-2004)",
+      "reason": "Second African American ACS president documented in ACS archives."
+    }
+  ]
+}

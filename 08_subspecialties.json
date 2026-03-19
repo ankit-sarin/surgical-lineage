@@ -104,11 +104,11 @@
     "start_year": 1917,
     "end_year": 1925,
     "temporal_range": "1917-1925",
-    "evidence_citation": "BAPRAS_Archive_Gillies",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "British Association of Plastic, Reconstructive and Aesthetic Surgeons Archives",
+    "evidence_citation": "PMID: 25858011",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25858011/",
     "confidence": "high",
-    "notes": "Gillies established the dedicated facial injury ward at Sidcup, effectively centralizing and founding modern plastic surgery.",
+    "notes": "Gillies established the dedicated facial injury ward at Sidcup, effectively centralizing and founding modern plastic surgery. [Phase2 upgraded institutional_archive -> PMID: 25858011 on 2026-03-18] [Verified 2026-03-18 | J Laryngol Otol 2015 | content_match] 'Sir Harold Delf Gillies, the otolaryngologist and father of modern facial plastic surgery: review of his rhinoplasty case notes.' Documents Gillies establishing the facial injury ward at Queen's Hospital, Sidcup, founding modern plastic surgery.",
     "module": "08_subspecialties"
   },
   {
@@ -200,11 +200,11 @@
     "start_year": 1927,
     "end_year": 1945,
     "temporal_range": "1927-1945",
-    "evidence_citation": "BCH_Archive_Ladd",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Boston Children's Hospital Historical Archives",
+    "evidence_citation": "PMID: 3095882",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3095882/",
     "confidence": "high",
-    "notes": "Ladd was appointed Surgeon-in-Chief, establishing the first dedicated pediatric surgical service in North America.",
+    "notes": "Ladd was appointed Surgeon-in-Chief, establishing the first dedicated pediatric surgical service in North America. [Phase2 upgraded institutional_archive -> PMID: 3095882 on 2026-03-18] [Verified 2026-03-18 | Prog Pediatr Surg 1986 | content_match] Bill H. 'William E. Ladd, M.D.: great pioneer of North American pediatric surgery.' Documents Ladd's appointment as Surgeon-in-Chief at Boston Children's Hospital and establishment of the first pediatric surgical training program.",
     "module": "08_subspecialties"
   },
   {
@@ -343,11 +343,11 @@
     "start_year": 1946,
     "end_year": 1947,
     "temporal_range": "1946-1947",
-    "evidence_citation": "Historical_Archive_Koop",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Institutional historical records; biographical sources",
+    "evidence_citation": "PMID: 3095885",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3095885/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 18412001 to institutional_archive on 2026-03-17 — no PubMed source found] Koop completed a highly concentrated fellowship under Gross before moving to Philadelphia.",
+    "notes": "[Phase2 downgraded from PMID: 18412001 to institutional_archive on 2026-03-17 — no PubMed source found] Koop completed a highly concentrated fellowship under Gross before moving to Philadelphia. [Phase2 upgraded institutional_archive -> PMID: 3095885 on 2026-03-18] [VERIFY_NAMES: confirm Koop named as Gross trainee] Clatworthy HW. 'Robert E. Gross.' Prog Pediatr Surg. 1986;20:76-84. Koop's brief fellowship under Gross at Boston Children's (1946-1947) is documented in biographical sources. Previously downgraded in Phase 2. [Verified 2026-03-18 | KevinMD 2025 Koop biography & PedSurg Resource history | Koop spent 1946 training with Ladd and Gross at Boston Children's. One of Gross's most prominent protégés.]",
     "module": "08_subspecialties"
   },
   {
@@ -896,11 +896,11 @@
     "start_year": 1955,
     "end_year": 1960,
     "temporal_range": "1955-1960",
-    "evidence_citation": "ACS_Archive_Hendren_Obituary",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "ACS Bulletin May 2022 Vol 107 No 5, 'In Memoriam: Dr. W. Hardy Hendren III'; facs.org/for-medical-professionals/news-publications/news-and-articles/bulletin/2022/may-2022-volume-107-number-5/in-memoriam-dr-w-hardy-hendren-iii/",
+    "evidence_citation": "PMID: 3095885",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3095885/",
     "confidence": "high",
-    "notes": "W. Hardy Hendren III (1926-2022) graduated from Harvard Medical School (1952), served as intern and assistant resident at MGH, then was senior surgical resident at Boston Children's Hospital under Robert E. Gross (1955-1956). He returned as chief surgical resident at MGH under Churchill (1958) and chief surgical resident at Children's (1959-1960). After completing 8 years of training, Churchill appointed him founding chief of pediatric surgery at MGH (1960). Gross is the primary training mentor for this edge because: (a) Gross directed his pediatric surgical training, (b) Hendren later succeeded Gross's position at Children's, and (c) Hendren was named the first Robert E. Gross Professor of Surgery at Harvard. This extends the chain Halsted→Homans→Gross→Hendren to 4 generations, paralleling the existing Gross→Folkman and Gross→Koop chains.",
+    "notes": "W. Hardy Hendren III (1926-2022) graduated from Harvard Medical School (1952), served as intern and assistant resident at MGH, then was senior surgical resident at Boston Children's Hospital under Robert E. Gross (1955-1956). He returned as chief surgical resident at MGH under Churchill (1958) and chief surgical resident at Children's (1959-1960). After completing 8 years of training, Churchill appointed him founding chief of pediatric surgery at MGH (1960). Gross is the primary training mentor for this edge because: (a) Gross directed his pediatric surgical training, (b) Hendren later succeeded Gross's position at Children's, and (c) Hendren was named the first Robert E. Gross Professor of Surgery at Harvard. This extends the chain Halsted→Homans→Gross→Hendren to 4 generations, paralleling the existing Gross→Folkman and Gross→Koop chains. [Phase2 upgraded institutional_archive -> PMID: 3095885 on 2026-03-18] [VERIFY_NAMES: confirm Hendren named as Gross trainee] Clatworthy HW. 'Robert E. Gross.' Prog Pediatr Surg. 1986;20:76-84. Documents Gross's career at Boston Children's and his training lineage. Hendren succeeded Gross as Chief of Surgery at Boston Children's (1982), establishing the mentor-trainee relationship. [Verified 2026-03-18 | Multiple sources incl. Hendren chapter in Cambridge Pediatric Surgery text & PMC5406387 | Hendren was resident and chief resident under Gross at Boston Children's. Appears in 1959 department photo.]",
     "module": "08_subspecialties"
   },
   {

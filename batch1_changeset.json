@@ -1,0 +1,178 @@
+{
+  "batch": 1,
+  "description": "Batch 1 citation upgrades: modules 05_urology, 11_mis_robotic, 14_global_military",
+  "generated": "2026-03-18",
+  "upgrades": [
+    {
+      "module": "05_urology.json",
+      "edge_index_hint": "Guiteras -> AUA (society_founder, 1902-1917)",
+      "match_fields": {
+        "source_node": "Ramon Guiteras",
+        "target_node": "American Urological Association",
+        "edge_type": "society_founder"
+      },
+      "old_values": {
+        "evidence_citation": "AUA_Archive_History",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "AUA Official History (auanet.org/about-us/aua-overview/history-of-the-aua); Crane & Bloom, J Urol 2010;184:1"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 20620396",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20620396/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 20620396 on 2026-03-18] [Verified 2026-03-18 | J Urol 2010 | content_match] Crane GM, Bloom DA. 'Ramon Guiteras: Founder of the American Urological Association, Surgeon, Sportsman and Statesman.' J Urol. 2010 Aug;184(1):447-52."
+    },
+    {
+      "module": "05_urology.json",
+      "edge_index_hint": "UCLA -> Walsh (direct_training, 1967-1971)",
+      "match_fields": {
+        "source_node": "UCLA Department of Surgery",
+        "target_node": "Patrick Walsh",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Hopkins_Brady_Faculty_Walsh",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "https://www.hopkinsmedicine.org/brady-urology-institute/about-us/past-leadership; https://profiles.hopkinsmedicine.org/provider/patrick-c-walsh/2701077"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 17437775",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17437775/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 17437775 on 2026-03-18] [Verified 2026-03-18 | J Urol 2007 | content_match] Walsh PC. 'The discovery of the cavernous nerves and development of nerve sparing radical retropubic prostatectomy.' J Urol. 2007 May;177(5):1632-5. Walsh's autobiographical account references his UCLA urology training under Willard E. Goodwin. Shared PMID with Walsh->Brady governance edge."
+    },
+    {
+      "module": "11_mis_robotic.json",
+      "edge_index_hint": "Marescaux -> IRCAD (institutional_founder, 1994-2026)",
+      "match_fields": {
+        "source_node": "Jacques Marescaux",
+        "target_node": "IRCAD",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_citation": "IRCAD_Archive_History",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "IRCAD Historical Archives, Strasbourg"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 11923603",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11923603/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 11923603 on 2026-03-18] [Verified 2026-03-18 | Ann Surg 2002 | content_match] Marescaux J, et al. 'Transcontinental robot-assisted remote telesurgery: feasibility and potential applications.' Ann Surg. 2002 Apr;235(4):487-92. Marescaux's affiliation listed as IRCAD-EITS, Louis Pasteur University, Strasbourg. Confirms IRCAD as a research institute for MIS/robotic surgery founded and directed by Marescaux. Founding year (1994) documented in institutional sources."
+    },
+    {
+      "module": "14_global_military.json",
+      "edge_index_hint": "Hunter -> Cline (direct_training, 1777-1784)",
+      "match_fields": {
+        "source_node": "John Hunter",
+        "target_node": "Henry Cline",
+        "edge_type": "direct_training"
+      },
+      "old_values": {
+        "evidence_citation": "Hunter_Archive_Cline",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Royal College of Surgeons Historical Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 3545417",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/3545417/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 3545417 on 2026-03-18] [Verified 2026-03-18 | historical review | content_match] Article identifies Cline among Hunter's direct disciples alongside Abernethy and Astley Cooper. Cline attended Hunter's first lecture course in 1774 and became one of the leading Hunterian surgeons."
+    },
+    {
+      "module": "14_global_military.json",
+      "edge_index_hint": "Churchill -> Med Theater (institutional_founder, 1943-1945)",
+      "match_fields": {
+        "source_node": "Edward Churchill",
+        "target_node": "Mediterranean Theater Surgical Service",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_citation": "MGH_Archive_Churchill_WWII",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Massachusetts General Hospital Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 20134311",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20134311/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 20134311 on 2026-03-18] [Verified 2026-03-18 | Ann Surg 2010 | content_match] Cannon JW, Fischer JE. 'Edward D. Churchill as a combat consultant: lessons for the senior visiting surgeons and today's military medical corps.' Ann Surg. 2010 Mar;251(3):566-72. Documents Churchill's role as Surgical Consultant for the Mediterranean Theater, standardizing whole blood transfusions and delayed primary closure."
+    },
+    {
+      "module": "14_global_military.json",
+      "edge_index_hint": "Rich -> Vietnam Vascular Registry (institutional_founder, 1966-2026)",
+      "match_fields": {
+        "source_node": "Norman Rich",
+        "target_node": "Vietnam Vascular Registry",
+        "edge_type": "institutional_founder"
+      },
+      "old_values": {
+        "evidence_citation": "WRAIR_Archive_Rich",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Walter Reed Army Institute of Research Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 5762414",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/5762414/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 5762414 on 2026-03-18] [Verified 2026-03-18 | Surgery 1969 | content_match] Rich NM, Hughes CW. 'Vietnam vascular registry: a preliminary report.' Surgery. 1969 Jan;65(1):218-226. The original registry publication by Rich himself. Follow-up PMID 1188624 (Surgery 1975) confirms registry established 1966 at Walter Reed Army Medical Center."
+    },
+    {
+      "module": "14_global_military.json",
+      "edge_index_hint": "MASH -> Rich (observational_study, 1966-1970)",
+      "match_fields": {
+        "source_node": "Mobile Army Surgical Hospital (MASH) System",
+        "target_node": "Norman Rich",
+        "edge_type": "observational_study"
+      },
+      "old_values": {
+        "evidence_citation": "WRAIR_Archive_Rich_Vietnam",
+        "evidence_type": "institutional_archive",
+        "evidence_locator": "Walter Reed Army Institute of Research Archives"
+      },
+      "new_values": {
+        "evidence_citation": "PMID: 5762414",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/5762414/"
+      },
+      "notes_append": "[Phase2 upgraded institutional_archive -> PMID: 5762414 on 2026-03-18] [Verified 2026-03-18 | Surgery 1969 | content_match] Rich NM, Hughes CW. 'Vietnam vascular registry: a preliminary report.' Surgery. 1969 Jan;65(1):218-226. Documents Rich's work within the forward surgical system in Vietnam, the operational descendant of DeBakey's MASH concept. Shared PMID with Rich->Registry institutional_founder edge."
+    }
+  ],
+  "no_upgrade_available": [
+    {
+      "module": "05_urology.json",
+      "edge": "AUA -> American Board of Urology (society_founder, 1934-1935)",
+      "reason": "ABU founding documented only on abu.org website and in passing historical references. No PubMed-indexed article specifically documents the AUA's role in founding the ABU."
+    },
+    {
+      "module": "05_urology.json",
+      "edge": "Walsh -> AUA (governance_leadership, 1982-2012)",
+      "reason": "Walsh's AUA governance (Campbell's editor, society presidencies) documented across many sources but no single PubMed article focuses on his AUA governance role."
+    },
+    {
+      "module": "11_mis_robotic.json",
+      "edge": "ACS -> SAGES (programmatic_accreditation, 1981-2026)",
+      "reason": "ACS-SAGES MIS fellowship accreditation relationship is institutional/programmatic, not documented in a single PubMed article."
+    },
+    {
+      "module": "11_mis_robotic.json",
+      "edge": "Marescaux -> SAGES (governance_leadership, 1994-2026)",
+      "reason": "Marescaux's SAGES involvement is through IRCAD's training hub integration, not a formal SAGES officer role. No PubMed source documents this relationship."
+    }
+  ],
+  "flagged_for_correction": [
+    {
+      "module": "11_mis_robotic.json",
+      "edge": "Ponsky -> SAGES (society_founder, 1981)",
+      "issue": "PMID 29362909 (Yeo et al., Surg Endosc 2018) identifies Gerald J. Marks as the SAGES founder, not Ponsky. Ponsky was SAGES President 1990-1991 and a key early leader, but not the founder.",
+      "recommended_action": "Reclassify Ponsky edge to governance_leadership. Create new Marks->SAGES society_founder edge citing PMID 29362909.",
+      "awaiting_decision": true
+    }
+  ]
+}

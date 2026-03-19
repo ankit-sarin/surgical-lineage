@@ -32,7 +32,7 @@
     "module": "11_mis_robotic"
   },
   {
-    "source_node": "Jeffrey Ponsky",
+    "source_node": "Gerald Marks",
     "source_node_type": "person",
     "target_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
     "target_node_type": "society",
@@ -40,12 +40,12 @@
     "start_year": 1981,
     "end_year": 1981,
     "temporal_range": "1981",
-    "evidence_citation": "SAGES_Archive_Founders",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "SAGES Historical Archives",
+    "evidence_citation": "PMID 29362909",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29362909/",
     "confidence": "high",
-    "notes": "Ponsky served as a founding force, ensuring surgical endoscopy remained a core competency.",
-    "module": "11_mis_robotic"
+    "module": "11_mis_robotic",
+    "notes": "Gerald Marks identified as founder of SAGES per PMID 29362909. SAGES founded 1981. Added 2026-03-18."
   },
   {
     "source_node": "American College of Surgeons",
@@ -120,11 +120,11 @@
     "start_year": 1994,
     "end_year": 2026,
     "temporal_range": "1994-Present",
-    "evidence_citation": "IRCAD_Archive_History",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "IRCAD Historical Archives, Strasbourg",
+    "evidence_citation": "PMID: 11923603",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11923603/",
     "confidence": "high",
-    "notes": "Marescaux founded IRCAD as a dedicated research and training institute for minimally invasive and robotic surgery.",
+    "notes": "Marescaux founded IRCAD as a dedicated research and training institute for minimally invasive and robotic surgery. [Phase2 upgraded institutional_archive -> PMID: 11923603 on 2026-03-18] [Verified 2026-03-18 | Ann Surg 2002 | content_match] Marescaux J, et al. 'Transcontinental robot-assisted remote telesurgery: feasibility and potential applications.' Ann Surg. 2002 Apr;235(4):487-92. Marescaux's affiliation listed as IRCAD-EITS, Louis Pasteur University, Strasbourg. Confirms IRCAD as a research institute for MIS/robotic surgery founded and directed by Marescaux. Founding year (1994) documented in institutional sources.",
     "module": "11_mis_robotic"
   },
   {
