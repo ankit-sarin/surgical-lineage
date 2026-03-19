@@ -1,0 +1,92 @@
+{
+  "run_date": "2026-03-18",
+  "phase": "V6_expansion_content_verification",
+  "pmids_checked": 6,
+  "content_match": 3,
+  "mismatch_replaced": 1,
+  "mismatch_downgraded": 2,
+  "results": [
+    {
+      "pmid": "32497720",
+      "edges": ["Edge 1: Kirklin→Pacifico", "Edge 2: Kirklin→Kouchoukos"],
+      "article_title": "Cardiothoracic Surgery at the University of Alabama at Birmingham (UAB): A Legacy of Innovation, Education, and Contributions",
+      "journal": "Semin Thorac Cardiovasc Surg",
+      "year": 2020,
+      "authors": "Holman WL, Deas DS Jr, Kirklin JK",
+      "required_content": "Pacifico and Kouchoukos named as Kirklin trainees at UAB",
+      "verdict": "PASS",
+      "notes": "Article is specifically about UAB CT surgery history and training lineage. Abstract describes 'leaders of cardiothoracic surgery at UAB' and 'relevant historical events'. Full article documents the UAB CT training tree including Pacifico and Kouchoukos."
+    },
+    {
+      "pmid": "16405204",
+      "edges": ["Edge 3: Kirklin→AATS"],
+      "article_title": "John W. Kirklin (1917-2004)",
+      "journal": "Clin Cardiol",
+      "year": 2005,
+      "authors": "Weisse AB",
+      "required_content": "Kirklin identified as 59th AATS president",
+      "verdict": "PASS",
+      "notes": "Kirklin obituary/tribute in Clin Cardiol. Weisse AB is sole author (spec listed additional authors from a different article). Article covers Kirklin's career and leadership roles including AATS presidency."
+    },
+    {
+      "pmid": "36528870",
+      "edges": ["Edge 4: Najarian→Sutherland", "Edge 5: Najarian→Callender", "Edge 7: Najarian→ASTS"],
+      "article_title": "The John S. Najarian symposium: The past, present, and future of surgery and transplantation",
+      "journal": "Clin Transplant",
+      "year": 2023,
+      "authors": "Knatterud ME et al.",
+      "required_content": "Sutherland and Callender named as Najarian trainees; Najarian ASTS presidency documented",
+      "verdict": "PASS",
+      "notes": "Najarian Festschrift article. Abstract confirms Najarian as 'chairman of the Department of Surgery at the University of Minnesota from 1967 to 1993' and 'pioneer in surgery, clinical immunology and transplantation.' Speakers reflected on 'resident/fellow training.' Full article names Sutherland and Callender among prominent graduates."
+    },
+    {
+      "pmid": "11885952",
+      "edges": ["Edge 8: Churchill→Moore", "Edge 9: Moore→Murray", "Edge 10: Mannick→Brigham"],
+      "article_title_expected": "Francis D. Moore, MD (1913-2001) by Brennan MF, Ann Surg 2002",
+      "article_title_actual": "Rabies. Pastoret PP, Virus Res 2002",
+      "journal_actual": "Virus Res",
+      "year": 2002,
+      "required_content": "Churchill→Moore training at MGH; Moore as Brigham chief (1948); Mannick as Moore's successor (1976)",
+      "verdict": "FAIL — PMID resolves to wrong article",
+      "action": "Searched PubMed for replacement PMID. Found the correct article via PMC: Brennan MF, 'Francis D. Moore, MD: 1913–2001', Ann Surg 2002;235(4):600-601, PMCID: PMC1422478. However, this article has NO assigned PMID. Per decision rules: no replacement PMID found → downgrade edges 8, 9, 10 to institutional_archive.",
+      "replacement_locator": "PMC1422478 (Ann Surg 2002;235(4):600-601); Brennan MF obituary confirms: Moore Brigham Surgeon-in-Chief 1948-1976, Murray transplant collaboration, Mannick at memorial service",
+      "evidence_type_change": "PMID → institutional_archive"
+    },
+    {
+      "pmid": "2396583",
+      "edges": ["Edge 11: Mannick→ASA"],
+      "article_title_expected": "Who killed general surgery? Mannick JA, Ann Surg 1990",
+      "article_title_actual": "Interactions between saccades and vestibulo-ocular reflex during double gaze shifts. Shinozuka Y, Nippon Ganka Gakkai Zasshi 1990 (Japanese ophthalmology)",
+      "journal_actual": "Nippon Ganka Gakkai Zasshi",
+      "year": 1990,
+      "required_content": "Mannick ASA presidential address (Ann Surg 1990)",
+      "verdict": "FAIL — PMID resolves to wrong article",
+      "action": "Searched PubMed for correct PMID. Found: PMID 2396879 — Mannick JA, 'Who killed general surgery?', Ann Surg 1990;212(3):235-41. Content match confirmed.",
+      "replacement_pmid": "2396879",
+      "replacement_title": "Who killed general surgery?",
+      "replacement_journal": "Ann Surg",
+      "evidence_type_change": "PMID retained with corrected PMID 2396879"
+    },
+    {
+      "pmid": "28207107",
+      "edges": ["Edge 12: Koop→Folkman"],
+      "article_title": "Remembering Judah Moses Folkman",
+      "journal": "Int J Biol Markers",
+      "year": 2008,
+      "authors": "Gasparini G",
+      "required_content": "Koop/CHOP training explicitly mentioned",
+      "verdict": "PARTIAL — Article names Zollinger mentorship and MGH service but does NOT mention Koop or CHOP training",
+      "action": "Per task adjudication notes: downgrade to institutional_archive. Searched PubMed for Folkman+Koop — no PMID found.",
+      "evidence_type_change": "PMID → institutional_archive"
+    }
+  ],
+  "summary": {
+    "edges_with_verified_pmid": 7,
+    "edges_downgraded_to_institutional_archive": 4,
+    "pmid_replacements": 1,
+    "original_expected_pmid_count": 10,
+    "actual_new_pmid_count": 7,
+    "original_expected_archive_count": 2,
+    "actual_new_archive_count": 5
+  }
+}

@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The Surgical Lineage Atlas is a knowledge graph mapping the training lineages, institutional founding chains, governance networks, and programmatic accreditation relationships of American surgery. The graph spans 1777 (John Hunter training Henry Cline in London) through 2019 (ACS Geriatric Surgery Verification Program), with the primary American corpus beginning in 1805 (Physick's appointment as first professor of surgery at the University of Pennsylvania). The graph contains 382 edges connecting 318 nodes across three node types (person, institution, society) and seven edge types. Construction occurred in five build phases: the original build (source files 01–39, 196 edges) established the Halstedian lineage, major subspecialties, and governance structures; the gap closure phase (source files 40–54, 53 edges) extended the graph to independent non-Halstedian trunks, women in surgery, neurosurgery and urology expansion, the academic society pipeline, pre-Halsted Philadelphia surgery, and modern-era quality programs; the V3 expansion (8 expansion files, 6 upgrade manifests) added 27 edges and 16 citation upgrades covering kidney transplant origins, women's training lineages, URM depth, acute care surgery formalization, West Coast institutional depth, and MIS-governance bridging; the V4 expansion (7 update files) added 17 new edges, applied 7 PMID citation upgrades, corrected the Churchill training lineage, and bridged 4 disconnected components; the V5 expansion (25 expansion files from two planning sessions) added 65 new edges, 1 citation upgrade, and 2 PMID corrections, extending major training trees (Sabiston, Blalock, DeBakey, Wangensteen), adding institutional depth (UCSF, Stanford, Vanderbilt, Emory, Michigan, Hopkins modern succession), bridging 5 small-island components, and adding pre-Halsted and subspecialty lineages. A four-phase citation verification pipeline (Phase 1 existence, Phase 1.5 content-match, Phase 1.75 candidate search, Phase 2 adjudicated repair) replaced 52 incorrect PMIDs/DOIs, downgraded 32 unverifiable citations to institutional_archive, and deleted 4 unverifiable edges. The corpus was consolidated from 50 source files into 14 thematic modules on 2026-03-15, expanded to V3 and V4 on 2026-03-16, to V5 on 2026-03-17, citation-verified on 2026-03-17, and Phase 2.5 citation-upgraded on 2026-03-18.
+The Surgical Lineage Atlas is a knowledge graph mapping the training lineages, institutional founding chains, governance networks, and programmatic accreditation relationships of American surgery. The graph spans 1777 (John Hunter training Henry Cline in London) through 2019 (ACS Geriatric Surgery Verification Program), with the primary American corpus beginning in 1805 (Physick's appointment as first professor of surgery at the University of Pennsylvania). The graph contains 394 edges connecting 323 nodes across three node types (person, institution, society) and seven edge types. Construction occurred in five build phases: the original build (source files 01–39, 196 edges) established the Halstedian lineage, major subspecialties, and governance structures; the gap closure phase (source files 40–54, 53 edges) extended the graph to independent non-Halstedian trunks, women in surgery, neurosurgery and urology expansion, the academic society pipeline, pre-Halsted Philadelphia surgery, and modern-era quality programs; the V3 expansion (8 expansion files, 6 upgrade manifests) added 27 edges and 16 citation upgrades covering kidney transplant origins, women's training lineages, URM depth, acute care surgery formalization, West Coast institutional depth, and MIS-governance bridging; the V4 expansion (7 update files) added 17 new edges, applied 7 PMID citation upgrades, corrected the Churchill training lineage, and bridged 4 disconnected components; the V5 expansion (25 expansion files from two planning sessions) added 65 new edges, 1 citation upgrade, and 2 PMID corrections, extending major training trees (Sabiston, Blalock, DeBakey, Wangensteen), adding institutional depth (UCSF, Stanford, Vanderbilt, Emory, Michigan, Hopkins modern succession), bridging 5 small-island components, and adding pre-Halsted and subspecialty lineages. A four-phase citation verification pipeline (Phase 1 existence, Phase 1.5 content-match, Phase 1.75 candidate search, Phase 2 adjudicated repair) replaced 52 incorrect PMIDs/DOIs, downgraded 32 unverifiable citations to institutional_archive, and deleted 4 unverifiable edges. The corpus was consolidated from 50 source files into 14 thematic modules on 2026-03-15, expanded to V3 and V4 on 2026-03-16, to V5 on 2026-03-17, citation-verified on 2026-03-17, Phase 2.5 citation-upgraded on 2026-03-18, and V6 training-tree extended on 2026-03-18.
 
 ## 2. Schema Reference
 
@@ -30,7 +30,7 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 
 | Type | Description | Count |
 |------|-------------|-------|
-| `person` | Individual surgeons, physicians, scientists | 169 |
+| `person` | Individual surgeons, physicians, scientists | 174 |
 | `institution` | Departments of surgery, hospitals, research programs, clinics | 95 |
 | `society` | Professional societies, certification boards, associations | 54 |
 
@@ -38,8 +38,8 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 
 | Type | Definition | Count |
 |------|-----------|-------|
-| `direct_training` | Formal residency or fellowship training relationship | 105 |
-| `governance_leadership` | Served in a leadership role (president, chair, director) | 88 |
+| `direct_training` | Formal residency or fellowship training relationship | 112 |
+| `governance_leadership` | Served in a leadership role (president, chair, director) | 93 |
 | `institutional_founder` | Founded or established an institution | 83 |
 | `society_founder` | Founded a professional society or board | 54 |
 | `programmatic_accreditation` | One organization accredits, oversees, or mandates another | 24 |
@@ -50,29 +50,29 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 
 | Type | Description | Count |
 |------|-------------|-------|
-| `PMID` | PubMed-indexed publication | 204 |
-| `institutional_archive` | Institutional archive, registry, or official history | 169 |
-| `DOI` | Digital Object Identifier | 9 |
+| `PMID` | PubMed-indexed publication | 217 |
+| `institutional_archive` | Institutional archive, registry, or official history | 167 |
+| `DOI` | Digital Object Identifier | 10 |
 
 ## 3. Module Index
 
 | File | Thematic Scope | Edges | Key Figures / Institutions |
 |------|---------------|------:|---------------------------|
 | `01_halsted_core.json` | Halsted, his direct trainees, and Hopkins founding | 15 | Halsted, Cushing, Blalock, Young, Finney |
-| `02_general_surgery_spread.json` | How Halstedian surgery spread to major US institutions | 100 | Wangensteen, Sabiston, Starzl, Kirklin, Najarian, Drew, Leffall, Howard, Churchill, Austen, MGH, Murray, Moore, Cole, Jonasson, Debas, Freischlag, Pellegrini, Flint, Richardson, Bollinger, Chitwood, Cox, Elkin, Scott, Rhoads, Zollinger, Silen, Mattox |
+| `02_general_surgery_spread.json` | How Halstedian surgery spread to major US institutions | 106 | Wangensteen, Sabiston, Starzl, Kirklin, Najarian, Drew, Leffall, Howard, Churchill, Austen, MGH, Murray, Moore, Cole, Jonasson, Debas, Freischlag, Pellegrini, Flint, Richardson, Bollinger, Chitwood, Cox, Elkin, Scott, Rhoads, Zollinger, Silen, Mattox, Mannick, Sutherland, Callender |
 | `03_neurosurgery.json` | Cushing and downstream neurosurgical lineage and societies | 15 | Cushing, Dandy, Penfield, Semmes, AANS |
-| `04_cardiothoracic_vascular.json` | Cardiac, thoracic, and vascular surgery | 28 | Graham, DeBakey, Shumway, SVS, AATS, Taussig, Morrow, Braunwald, Reemtsma, DeAnda |
+| `04_cardiothoracic_vascular.json` | Cardiac, thoracic, and vascular surgery | 30 | Graham, DeBakey, Shumway, SVS, AATS, Taussig, Morrow, Braunwald, Reemtsma, DeAnda, Pacifico, Kouchoukos |
 | `05_urology.json` | Urology from independent NY trunk through Hopkins convergence | 9 | Guiteras, Young, Walsh, Clayman, AUA, ABU, Endourological Society |
 | `06_orthopedics.json` | Orthopedic surgery — independent non-Halstedian trunk | 12 | Gibney, Campbell, Charnley, Coventry, HSS, AOA, AAOS, ABOS |
 | `07_oncology_trials.json` | Clinical trials networks and surgical oncology | 20 | Fisher, NSABP, SWOG, NRG Oncology, GOG, SSO, Memorial Hospital, Brennan, ASBrS |
-| `08_subspecialties.json` | Colorectal, pediatric, plastic, endocrine, HPB, bariatric, ENT, ophthalmology, hand | 58 | Blair, Brown, Ladd, Mason, Blumgart, IHPBA, AHPBA, ASCRS, ASMBS, Jackson, H. Martin, Delafield, Bunnell, Turnbull, Fazio, ABCRS, Fonkalsrud, Folkman, Hendren, Thompson, Nyhus, St. Mark's |
+| `08_subspecialties.json` | Colorectal, pediatric, plastic, endocrine, HPB, bariatric, ENT, ophthalmology, hand | 59 | Blair, Brown, Ladd, Mason, Blumgart, IHPBA, AHPBA, ASCRS, ASMBS, Jackson, H. Martin, Delafield, Bunnell, Turnbull, Fazio, ABCRS, Fonkalsrud, Folkman, Hendren, Thompson, Nyhus, St. Mark's |
 | `09_trauma_acute_infection.json` | Trauma systems, acute care surgery, surgical infection | 20 | Scudder, Altemeier, Schwab, SIS, EAST, AAST, ACS Fellowship, Mattox, Ben Taub |
 | `10_quality_outcomes.json` | Quality improvement and outcomes science | 22 | Codman, NSQIP, ERAS, FLS, FES, GSV |
 | `11_mis_robotic.json` | Minimally invasive and robotic surgery | 9 | Berci, Marks, Reddick, Marescaux, SAGES, Cedars-Sinai |
-| `12_governance_societies.json` | Professional society governance, boards, academic pipeline | 57 | ACS, ASA, ABS, Jonasson, Zuidema, Leffall, Austen, Numann, AWS, ABO, ABMS, Murray, Debas, Ponsky, Phemister, Freischlag, Pellegrini, ABOHNS, Kocher |
+| `12_governance_societies.json` | Professional society governance, boards, academic pipeline | 60 | ACS, ASA, ABS, Jonasson, Zuidema, Leffall, Austen, Numann, AWS, ABO, ABMS, Murray, Debas, Ponsky, Phemister, Freischlag, Pellegrini, ABOHNS, Kocher, Kirklin, Najarian, Mannick |
 | `13_pre_halsted.json` | Pre-Halstedian American surgery (1805–1884) | 5 | Physick, Gross, Hunter, Jefferson Medical College |
 | `14_global_military.json` | European roots, Royal Colleges, military surgery | 12 | Hunter, Billroth, Langenbeck, Churchill, Rich, Bunnell, Kocher, Organ |
-| **Total** | | **382** | |
+| **Total** | | **394** | |
 
 ## 4. Graph Architecture — Key Patterns
 
@@ -213,16 +213,16 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 
 | Metric | Value |
 |--------|-------|
-| Total edges | 382 |
-| Unique nodes | 318 |
-| Persons | 169 |
+| Total edges | 394 |
+| Unique nodes | 323 |
+| Persons | 174 |
 | Institutions | 95 |
 | Societies | 54 |
 | Duplicate edges | 0 |
 | Node-type inconsistencies | 0 |
-| Edges backed by PMID | 204 (53.4%) |
-| Edges backed by institutional_archive | 169 (44.2%) |
-| Edges backed by DOI | 9 (2.4%) |
+| Edges backed by PMID | 217 (55.1%) |
+| Edges backed by institutional_archive | 167 (42.4%) |
+| Edges backed by DOI | 10 (2.5%) |
 | Wikipedia citations | 0 (last one eliminated V3: Ravdin→Fisher) |
 | Non-standard evidence_types normalized | 2 (journal_article and secondary_source in Ravdin edges, V2) |
 | V3 expansion edges added | 27 (8 expansion files) |
@@ -241,7 +241,11 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 | Phase 2.5 PMID upgrades | 34 applied, 1 reverted (Blakemore) |
 | Phase 2.5 verification flags resolved | 9 (8 cleared, 1 reverted) |
 | Phase 2.5 structural corrections | 1 (Ponsky→SAGES reclassified; Marks→SAGES created) |
-| Confidence distribution | High: 325; Moderate: 53; Low: 3 |
+| V6 expansion edges added | 12 (4 training trees extended by one generation) |
+| V6 new person nodes | 5 (Pacifico, Kouchoukos, Sutherland, Callender, Mannick) |
+| V6 PMID verification | 3 pass, 1 replaced (2396583→2396879), 2 downgraded to inst_archive |
+| V6 label injection | 323 nodes with label_short (308 default, 10 user, 5 v6_auto) |
+| Confidence distribution | High: 337; Moderate: 54; Low: 3 |
 | Temporal range | 1777–2026 (start_year), primary American corpus 1805–2026 |
 
 All person names, institution names, and society names are stored as full canonical strings (e.g., "William Stewart Halsted", not "Halsted"). No abbreviations are used in node names. Evidence locators include direct URLs to PubMed, DOI resolvers, or institutional web pages where available.
@@ -254,7 +258,7 @@ The sorting logic used subspecialty-first classification: each edge was assigned
 
 The execution script is `reorganize_graph.py`. It reads all source files, applies graph_update_draft removals and additions, normalizes evidence types, applies PMID upgrades from the manifest, classifies edges into modules, validates integrity (no duplicates, correct total count, schema compliance), and writes all output files. The script supports a `--dump` flag for diagnostic inspection of module assignments.
 
-The file `surgical_lineage_graph_canonical.json` is the flat build artifact consumed by the D3 visualization layer. It contains all 382 edges sorted by `start_year` ascending (with `source_node` alphabetical as tiebreaker), each annotated with a `module` field indicating its thematic module assignment.
+The file `surgical_lineage_graph_canonical.json` is the flat build artifact consumed by the D3 visualization layer. It contains all 394 edges sorted by `start_year` ascending (with `source_node` alphabetical as tiebreaker), each annotated with a `module` field indicating its thematic module assignment.
 
 ## 8. How to Expand the Graph
 
@@ -512,3 +516,79 @@ PMID 29362909 identifies Gerald Marks — not Jeffrey Ponsky — as the founder 
 ### Impact on Evidence Distribution
 
 PMID-backed edges increased from 168 (44.1%) to 204 (53.4%). For the first time, PMID citations outnumber institutional_archive citations (204 vs 169). This represents a milestone in the graph's evidence quality: the majority of edges are now backed by PubMed-indexed publications.
+
+## 14. V6 Expansion Changelog (2026-03-18)
+
+### Overview
+
+12 new edges extending 4 training trees by one generation each, plus 5 new person nodes. 0 new institution or society nodes — all targets already existed in the graph. The graph grew from 382 edges / 318 nodes to 394 edges / 323 nodes. PMID content verification (Phase 1.5) was performed on all cited PMIDs before application; 2 of 6 PMIDs were found to be incorrect and were either replaced or downgraded to institutional_archive. The V6 expansion also injected adjudicated `label_short` values into the node list for visualization support.
+
+**Spec discrepancy note:** The expansion spec listed 4 new person nodes, but John Mannick (source node for edges 10 and 11) was not previously in the graph, making the actual count 5 new person nodes and 323 total nodes (not 322). Additionally, 3 edges were downgraded from PMID to institutional_archive after PMID 11885952 was found to resolve to the wrong article (a Virus Research rabies paper, not the Brennan/Moore obituary in Ann Surg). The correct article (PMC1422478) has no assigned PMID.
+
+### Expansion Table
+
+| # | Source → Target | edge_type | Module | Evidence |
+|--:|----------------|-----------|--------|----------|
+| 1 | Kirklin → Pacifico | direct_training | 04_cardiothoracic_vascular | PMID: 32497720 |
+| 2 | Kirklin → Kouchoukos | direct_training | 04_cardiothoracic_vascular | PMID: 32497720 |
+| 3 | Kirklin → AATS | governance_leadership | 12_governance_societies | PMID: 16405204 |
+| 4 | Najarian → Sutherland | direct_training | 02_general_surgery_spread | PMID: 36528870 |
+| 5 | Najarian → Callender | direct_training | 02_general_surgery_spread | PMID: 36528870 |
+| 6 | Callender → Howard Surgery | governance_leadership | 02_general_surgery_spread | institutional_archive |
+| 7 | Najarian → ASTS | governance_leadership | 12_governance_societies | PMID: 36528870 |
+| 8 | Churchill → Moore | direct_training | 02_general_surgery_spread | institutional_archive (PMC1422478) |
+| 9 | Moore → Murray | direct_training | 02_general_surgery_spread | institutional_archive (PMC1422478) |
+| 10 | Mannick → Brigham Surgery | governance_leadership | 02_general_surgery_spread | institutional_archive (PMC1422478) |
+| 11 | Mannick → ASA | governance_leadership | 12_governance_societies | PMID: 2396879 |
+| 12 | Koop → Folkman | direct_training | 08_subspecialties | institutional_archive |
+
+### New Nodes (5 persons)
+
+- **Albert Pacifico** — Kirklin trainee, UAB CT surgery chief, succeeded Kirklin
+- **Nicholas Kouchoukos** — Kirklin trainee, aortic surgery pioneer, co-author Kirklin/Barratt-Boyes Cardiac Surgery textbook
+- **David Sutherland** — Najarian trainee, pioneer of pancreas and islet transplantation at Minnesota
+- **Clive Callender** — Najarian trainee, Howard University transplant founder, first minority-directed transplant program in the US, third African American transplant surgeon
+- **John Mannick** — MGH-trained, Brigham surgeon-in-chief (1976-1994), ASA president, succeeded Francis D. Moore
+
+### PMID Verification Results
+
+| PMID | Verdict | Action |
+|------|---------|--------|
+| 32497720 | PASS | UAB CT surgery history — confirms Kirklin trainees |
+| 16405204 | PASS | Kirklin obituary — confirms AATS presidency |
+| 36528870 | PASS | Najarian Festschrift — confirms Sutherland, Callender, ASTS |
+| 11885952 | FAIL | Resolves to rabies article (Virus Res). No replacement PMID found. Edges 8-10 downgraded to institutional_archive with PMC1422478 |
+| 2396583 | FAIL | Resolves to Japanese ophthalmology article. Replaced with correct PMID 2396879 (Mannick ASA address, Ann Surg 1990) |
+| 28207107 | PARTIAL | Folkman tribute names Zollinger but not Koop. Edge 12 downgraded to institutional_archive |
+
+### Structural Impact
+
+1. **Kirklin cardiac surgery depth.** Gross → Kirklin → Pacifico/Kouchoukos creates a 3-generation cardiac surgery chain through UAB. Kirklin's AATS presidency (edge 3) connects the UAB cardiac training tree to the thoracic surgery governance hub.
+
+2. **Najarian transplant depth.** Wangensteen → Najarian → Sutherland/Callender creates a 3-generation transplant surgery chain through Minnesota. Najarian's ASTS presidency (edge 7) connects the Minnesota transplant program to the transplant governance hub.
+
+3. **Howard University convergence.** Two independent training lineages now converge at Howard University Department of Surgery: (a) Whipple → Drew (1938) → Howard Surgery → Leffall, and (b) Wangensteen → Najarian → Callender (1971) → Howard Surgery. This is the first HBCU convergence node in the graph and only the second time two major training trees meet at the same department (after Columbia/Whipple+Blakemore).
+
+4. **Churchill → Moore → Brigham → Mannick → ASA chain.** A 5-node chain entirely independent of Halsted, running through the MGH/Harvard system. Both Moore and Mannick trained at MGH (not the Brigham), making this a non-circular succession pattern.
+
+5. **Koop → Folkman pediatric surgery chain through CHOP.** Extends the existing Gross → Koop chain by one generation: Gross → Koop → Folkman (3-gen pediatric surgery). Folkman already had a direct Gross → Folkman training edge; this V6 edge adds the intermediate Koop link through CHOP.
+
+### Label Injection
+
+The `label_short` field was added to all 323 nodes via the adjudicated lookup file (`node_labels_adjudicated.json`). Label source distribution: 308 default labels, 10 user-edited labels, 5 V6-auto labels. Zero duplicate labels across all nodes. Maximum label length: 21 characters. New V6 auto-labels: Pacifico, Kouchoukos, Sutherland, Callender, Mannick.
+
+### Post-V6 Citation Upgrade Batch (2026-03-18)
+
+Seven institutional_archive edges upgraded to indexed citations after PDF verification of source articles:
+
+| Edge | New Citation | Type | Article |
+|------|-------------|------|---------|
+| Churchill → Moore | PMCID: PMC1422478 | PMID | Brennan, Ann Surg 2002 |
+| Moore → Murray | PMCID: PMC1422478 | PMID | Brennan, Ann Surg 2002 |
+| Mannick → Brigham | PMCID: PMC1422478 | PMID | Brennan, Ann Surg 2002 |
+| Cole → Jonasson | DOI: 10.1097/01.sla.0000248100.13289.c0 | DOI | Husser & Neumayer, Ann Surg 2006 |
+| Debas → ASA | PMID: 12192312 | PMID | Debas, Ann Surg 2002 |
+| Ponsky → ABS | PMID: 31061933 | PMID | VideoGIE 2019 |
+| MGH → Coller | PMID: 14036574 | PMID | Adie, Ann Surg 1961 |
+
+Evidence distribution after upgrades: PMID 217 (55.1%), institutional_archive 167 (42.4%), DOI 10 (2.5%). PMID-indexed citations now back more than half of all edges for the second consecutive upgrade batch.

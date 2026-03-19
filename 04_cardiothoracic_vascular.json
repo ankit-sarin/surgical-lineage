@@ -446,5 +446,37 @@
     "confidence": "high",
     "notes": "Oscar Creech Jr. (MD Jefferson Medical College 1941, residency Tulane) joined DeBakey at Baylor University College of Medicine in 1949, one of DeBakey's earliest recruits along with Cooley and Morris. Cooley's memorial for DeBakey (Tex Heart Inst J 2008) names Creech among the founding Baylor surgery staff: 'His early staff included me and Drs. Oscar Creech, B.W. Haynes, and John Howard.' Creech served at Baylor until 1956, then returned to Tulane University as professor and chair of the Department of Surgery, thereby extending the DeBakey lineage back to the Ochsner/Tulane trunk from which DeBakey himself originated — creating a Hopkins-like bidirectional circuit (Ochsner trained DeBakey at Tulane; DeBakey trained Creech at Baylor; Creech returned to lead Tulane). [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Names 'Oscar Creech Jr. (1949)' as one of DeBakey's first associates at Baylor. BCM History of Leadership confirms Creech joined DeBakey in 1949.",
     "module": "04_cardiothoracic_vascular"
+  },
+  {
+    "source_node": "John Kirklin",
+    "source_node_type": "person",
+    "target_node": "Albert Pacifico",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1966,
+    "end_year": 1972,
+    "temporal_range": "1966-1972",
+    "evidence_citation": "PMID: 32497720",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32497720/",
+    "confidence": "high",
+    "notes": "Pacifico trained in CT surgery under Kirklin at UAB. Holman et al. (Semin Thorac Cardiovasc Surg 2020) documents the UAB CT training lineage. Stephenson (JTCVS 2007) Figure 2 photographs Pacifico with Kirklin at UAB (~1970). Pacifico succeeded Kirklin as chief of CT surgery at UAB.",
+    "module": "04_cardiothoracic_vascular"
+  },
+  {
+    "source_node": "John Kirklin",
+    "source_node_type": "person",
+    "target_node": "Nicholas Kouchoukos",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1967,
+    "end_year": 1973,
+    "temporal_range": "1967-1973",
+    "evidence_citation": "PMID: 32497720",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32497720/",
+    "confidence": "high",
+    "notes": "Kouchoukos trained in CT surgery under Kirklin at UAB. Holman et al. (Semin Thorac Cardiovasc Surg 2020) names him among Kirklin's UAB trainees. Kouchoukos became co-author of the 3rd edition of Kirklin/Barratt-Boyes Cardiac Surgery (2003) and a leading aortic surgeon at Washington University.",
+    "module": "04_cardiothoracic_vascular"
   }
 ]

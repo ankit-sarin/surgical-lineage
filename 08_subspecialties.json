@@ -918,5 +918,21 @@
     "confidence": "high",
     "notes": "In 1982, Hendren was named to the post once held by his mentor Robert Gross: Chief of Surgery at Boston Children's Hospital. He held this position for 16 years, continuing to train surgeons who became chiefs at other institutions. He was the first Robert E. Gross Professor of Surgery at Harvard Medical School. This creates a bidirectional circuit with the existing Ladd→Boston Children's (institutional_founder) edge: Ladd founded the department, trained Gross, who trained Hendren, who returned as chief. The Children's Hospital node goes from degree 1 to degree 2. Hendren also founded the Department of Pediatric Surgery at MGH (1960-1982, under Churchill's appointment) but this is not included as a separate edge to avoid creating an MGH pediatric surgery node distinct from the existing MGH Department of Surgery node.",
     "module": "08_subspecialties"
+  },
+  {
+    "source_node": "C. Everett Koop",
+    "source_node_type": "person",
+    "target_node": "Judah Folkman",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1962,
+    "end_year": 1964,
+    "temporal_range": "1962-1964",
+    "evidence_citation": "institutional_archive",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Folkman biographies (Wikipedia, Harvard Gazette obituary); Gasparini (Int J Biol Markers 2008, PMID 28207107) confirms Folkman's surgical career timeline but does not explicitly name Koop. CHOP institutional records confirm pediatric surgery fellowship.",
+    "confidence": "high",
+    "notes": "Folkman completed a pediatric surgery fellowship at CHOP under Koop after his MGH residency. PMID 28207107 (Gasparini 2008) mentions Zollinger mentorship and MGH service but does not explicitly name Koop or CHOP. Per V6 adjudication: downgraded to institutional_archive. Creates the chain Gross->Koop->Folkman (3-gen pediatric surgery). [V6 verification: PMID 28207107 partial match — Koop not named — downgraded to institutional_archive per adjudication]",
+    "module": "08_subspecialties"
   }
 ]

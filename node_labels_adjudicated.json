@@ -1,0 +1,2586 @@
+[
+  {
+    "id": "American College of Surgeons",
+    "type": "society",
+    "degree": 30,
+    "label_short": "ACS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Surgical Association",
+    "type": "society",
+    "degree": 16,
+    "label_short": "ASA",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Johns Hopkins Hospital Department of Surgery",
+    "type": "institution",
+    "degree": 14,
+    "label_short": "Hopkins Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Alfred Blalock",
+    "type": "person",
+    "degree": 12,
+    "label_short": "Blalock",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Harvey Cushing",
+    "type": "person",
+    "degree": 12,
+    "label_short": "Cushing",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William Stewart Halsted",
+    "type": "person",
+    "degree": 12,
+    "label_short": "Halsted",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Surgery",
+    "type": "society",
+    "degree": 11,
+    "label_short": "ABS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Michael DeBakey",
+    "type": "person",
+    "degree": 11,
+    "label_short": "DeBakey",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Owen Wangensteen",
+    "type": "person",
+    "degree": 10,
+    "label_short": "Wangensteen",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Medical Specialties",
+    "type": "society",
+    "degree": 9,
+    "label_short": "ABMS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "David Sabiston",
+    "type": "person",
+    "degree": 9,
+    "label_short": "Sabiston",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of American Gastrointestinal and Endoscopic Surgeons",
+    "type": "society",
+    "degree": 8,
+    "label_short": "SAGES",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "ACS National Surgical Quality Improvement Program",
+    "type": "institution",
+    "degree": 6,
+    "label_short": "NSQIP",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Duke University Department of Surgery",
+    "type": "institution",
+    "degree": 6,
+    "label_short": "Duke Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mayo Clinic Department of Surgery",
+    "type": "institution",
+    "degree": 6,
+    "label_short": "Mayo Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Robert E. Gross",
+    "type": "person",
+    "degree": 6,
+    "label_short": "R.E. Gross",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Association for Thoracic Surgery",
+    "type": "society",
+    "degree": 6,
+    "label_short": "AATS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Kirklin",
+    "type": "person",
+    "degree": 6,
+    "label_short": "Kirklin",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Allen O. Whipple",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Whipple",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Association for the Surgery of Trauma",
+    "type": "society",
+    "degree": 5,
+    "label_short": "AAST",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Denton Cooley",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Cooley",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Evarts A. Graham",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Graham",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John L. Cameron",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Cameron",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "LaSalle D. Leffall Jr.",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Leffall",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Memorial Hospital for Cancer and Allied Diseases",
+    "type": "institution",
+    "degree": 5,
+    "label_short": "Memorial Hospital",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Thomas Starzl",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Starzl",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Edward Churchill",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Churchill",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Najarian",
+    "type": "person",
+    "degree": 5,
+    "label_short": "Najarian",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Alton Ochsner",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Ochsner",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Orthopaedic Association",
+    "type": "society",
+    "degree": 4,
+    "label_short": "AOA",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Society of Colon and Rectal Surgeons",
+    "type": "society",
+    "degree": 4,
+    "label_short": "ASCRS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Urological Association",
+    "type": "society",
+    "degree": 4,
+    "label_short": "AUA",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Columbia University Department of Surgery",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "Columbia Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Harold Gillies",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Gillies",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Howard Naffziger",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Naffziger",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Jonathan E. Rhoads",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Rhoads",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Massachusetts General Hospital Department of Surgery",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "MGH Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Memorial Sloan Kettering Cancer Center",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "MSKCC",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "Murray F. Brennan",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Brennan",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Norman Shumway",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Shumway",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Olga Jonasson",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Jonasson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of Surgical Oncology",
+    "type": "society",
+    "degree": 4,
+    "label_short": "SSO",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "UCSF Department of Surgery",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "UCSF Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Vilray Blair",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Blair",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William Longmire",
+    "type": "person",
+    "degree": 4,
+    "label_short": "Longmire",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Howard University Department of Surgery",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "Howard Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Peter Bent Brigham Hospital Department of Surgery",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "Brigham Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Proctologic Society",
+    "type": "society",
+    "degree": 3,
+    "label_short": "APS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Arthur Blakemore",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Blakemore",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Bernard Fisher",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Fisher",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Bernhard von Langenbeck",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Langenbeck",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Boston Children's Hospital Department of Surgery",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "BCH Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "C. William Schwab",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Schwab",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Charles R. Drew",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Drew",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Charles Scudder",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Scudder",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "David Flum",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Flum",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "ERAS Society",
+    "type": "society",
+    "degree": 3,
+    "label_short": "ERAS",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "Edward Mason",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Mason",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Elliott Cutler",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Cutler",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Emile Holman",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Holman",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Frederick Coller",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Coller",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Henry Bahnson",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Bahnson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Henry Harkins",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Harkins",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Hospital for the Ruptured and Crippled",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "Hosp. R&C",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Hugh Hampton Young",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Young",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "I.S. Ravdin",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Ravdin",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "International Hepato-Pancreato-Biliary Association",
+    "type": "society",
+    "degree": 3,
+    "label_short": "IHPBA",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "J. Deryl Hart",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Hart",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Jefferson Medical College Department of Surgery",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "Jefferson Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Homans",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Homans",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Kenneth L. Mattox",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Mattox",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Leslie Blumgart",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Blumgart",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mark B. Coventry",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Coventry",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mont Reid",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Reid",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "National Surgical Adjuvant Breast and Bowel Project",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "NSABP",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Patrick Walsh",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Walsh",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Peter Safar",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Safar",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Robert M. Zollinger",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Zollinger",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Samuel D. Gross",
+    "type": "person",
+    "degree": 3,
+    "label_short": "S.D. Gross",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Theodor Billroth",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Billroth",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Trauma Quality Improvement Program",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "TQIP",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Pennsylvania Department of Surgery",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "UPenn Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Washington Department of Surgery",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "UW Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Victor W. Fazio",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Fazio",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "C. Everett Koop",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Koop",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Joseph E. Murray",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Murray",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Judah Folkman",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Folkman",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Francis D. Moore",
+    "type": "person",
+    "degree": 3,
+    "label_short": "Moore",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "ACS Committee on Trauma",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "ACS COT",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Accreditation Council for Graduate Medical Education",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ACGME",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Allan Kirk",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Kirk",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Alliance for Clinical Trials in Oncology",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Alliance",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Alvin Merendino",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Merendino",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Academy of Orthopaedic Surgeons",
+    "type": "society",
+    "degree": 2,
+    "label_short": "AAOS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Colon and Rectal Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ABCRS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Neurological Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ABNS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Ophthalmology",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ABO",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Orthopaedic Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ABOS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Otolaryngology-Head and Neck Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ABOto-HNS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Plastic Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ABPS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American College of Surgeons Oncology Group",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "ACOSOG",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Ophthalmological Society",
+    "type": "society",
+    "degree": 2,
+    "label_short": "AOS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Society for Bariatric Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ASBS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Society for Metabolic and Bariatric Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ASMBS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Society of Breast Surgeons",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ASBrS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Barney Brooks",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Brooks",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Brady Urological Institute",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Brady Urology",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "C. Rollins Hanlon",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Hanlon",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "C. Walton Lillehei",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Lillehei",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Carlos A. Pellegrini",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Pellegrini",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Chevalier Jackson",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Jackson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Claude H. Organ Jr.",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Organ",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Cleveland Clinic Department of Colorectal Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Cleveland Clinic CRS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "D. Ralph Millard",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Millard",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Dallas Phemister",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Phemister",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Daniel Elkin",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Elkin",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "E. Stanley Crawford",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Crawford",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "ERAS Study Group",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ESG",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Eastern Association for the Surgery of Trauma",
+    "type": "society",
+    "degree": 2,
+    "label_short": "EAST",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Eddie Joe Reddick",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Reddick",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Edward Delafield",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Delafield",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Ernest Codman",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Codman",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "F. John Lewis",
+    "type": "person",
+    "degree": 2,
+    "label_short": "F.J. Lewis",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Francois Dubois",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Dubois",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Frank Lahey",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Lahey",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Fundamentals of Endoscopic Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "FES",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Fundamentals of Laparoscopic Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "FLS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "George Berci",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Berci",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "George C. Lewis Jr.",
+    "type": "person",
+    "degree": 2,
+    "label_short": "G.C. Lewis",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "George Heuer",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Heuer",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "George Zuidema",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Zuidema",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Gynecologic Oncology Group",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "GOG",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "H. William Scott Jr.",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Scott",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Haile T. Debas",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Debas",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Harvey Cushing Society",
+    "type": "society",
+    "degree": 2,
+    "label_short": "HCS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Hayes Martin",
+    "type": "person",
+    "degree": 2,
+    "label_short": "H. Martin",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Henri Bismuth",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Bismuth",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "J. Englebert Dunphy",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Dunphy",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Jacques Marescaux",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Marescaux",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "James Barrett Brown",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Brown",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "James Ewing Society",
+    "type": "society",
+    "degree": 2,
+    "label_short": "JES",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Jeffrey Ponsky",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Ponsky",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Charnley",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Charnley",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Hunter",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Hunter",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Joseph Marshall Flint",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Flint",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Joseph McDowell Mathews",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Mathews",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Julie Ann Freischlag",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Freischlag",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Keith D. Lillemoe",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Lillemoe",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Keith Reemtsma",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Reemtsma",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Lloyd M. Nyhus",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Nyhus",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Louis A. Buie",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Buie",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Louis B. Wilson",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Wilson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "MD Anderson Cancer Center",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "MD Anderson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mark M. Ravitch",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Ravitch",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mobile Army Surgical Hospital (MASH) System",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "MASH",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "NRG Oncology",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "NRG Oncology",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Nina Starr Braunwald",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Braunwald",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Norman Rich",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Rich",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Norman Thompson",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Thompson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Ohio State University Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Ohio State Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Patricia Numann",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Numann",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Percival Bailey",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Bailey",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Peter Bent Brigham Hospital Renal Transplant Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Brigham Transplant",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Philip Syng Physick",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Physick",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "R. Eustace Semmes",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Semmes",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "R. Lee Clark",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Clark",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Ralph V. Clayman",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Clayman",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Rupert B. Turnbull",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Turnbull",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "SWOG Cancer Research Network",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "SWOG",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society for Vascular Surgery",
+    "type": "society",
+    "degree": 2,
+    "label_short": "SVS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of Critical Care Medicine",
+    "type": "society",
+    "degree": 2,
+    "label_short": "SCCM",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of Head and Neck Surgeons",
+    "type": "society",
+    "degree": 2,
+    "label_short": "SHNS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of Thoracic Surgeons",
+    "type": "society",
+    "degree": 2,
+    "label_short": "STS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "St. Mark's",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Stanford University Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Stanford Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Sterling Bunnell",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Bunnell",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Surgical Care Improvement Project",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "SCIP",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Surgical Infection Prevention Project",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "SIP",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Surgical Infection Society",
+    "type": "society",
+    "degree": 2,
+    "label_short": "SIS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "The Dartmouth Institute for Health Policy and Clinical Practice",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Dartmouth Institute",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Theodor Kocher",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Kocher",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "UCLA Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "UCLA Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Maryland Shock Trauma Center",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Maryland Shock Trauma",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Michigan Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Michigan Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "VA National Surgical Quality Improvement Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "VA NSQIP",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Vanderbilt University Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Vanderbilt Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Virgil Gibney",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Gibney",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "W. Gerald Austen",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Austen",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "W. Hardy Hendren III",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Hendren",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Walter Dandy",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Dandy",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Warfield Firor",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Firor",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Washington University Division of Plastic Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "WashU Plastics",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Wilder Penfield",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Penfield",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William Altemeier",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Altemeier",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William E. Ladd",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Ladd",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William J. Mayo",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Mayo",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William Silen",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Silen",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Willis Campbell",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Campbell",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Yale University Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "Yale Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Society of Transplant Surgeons",
+    "type": "society",
+    "degree": 2,
+    "label_short": "ASTS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Clive Callender",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Callender",
+    "label_short_source": "v6_auto",
+    "reviewed": true
+  },
+  {
+    "id": "John Mannick",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Mannick",
+    "label_short_source": "v6_auto",
+    "reviewed": true
+  },
+  {
+    "id": "Acute Care Surgery Fellowship Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "ACS Fellowship",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Association of Endocrine Surgeons",
+    "type": "society",
+    "degree": 1,
+    "label_short": "AAES",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Association of Neurological Surgeons",
+    "type": "society",
+    "degree": 1,
+    "label_short": "AANS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Board of Urology",
+    "type": "society",
+    "degree": 1,
+    "label_short": "ABU",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Broncho-Esophagological Association",
+    "type": "society",
+    "degree": 1,
+    "label_short": "ABEA",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Head and Neck Society",
+    "type": "society",
+    "degree": 1,
+    "label_short": "AHNS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "American Society for Surgery of the Hand",
+    "type": "society",
+    "degree": 1,
+    "label_short": "ASSH",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Americas Hepato-Pancreato-Biliary Association",
+    "type": "society",
+    "degree": 1,
+    "label_short": "AHPBA",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Andreas Tzakis",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Tzakis",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Andrew Morrow",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Morrow",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Archibald McIndoe",
+    "type": "person",
+    "degree": 1,
+    "label_short": "McIndoe",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Arthur Voorhees",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Voorhees",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Association for Academic Surgery",
+    "type": "society",
+    "degree": 1,
+    "label_short": "AAS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Association of Women Surgeons",
+    "type": "society",
+    "degree": 1,
+    "label_short": "AWS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Baltimore City Hospital Intensive Care Unit",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Baltimore City ICU",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Baylor College of Medicine Cardiovascular Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Baylor CV Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Ben Taub General Hospital Trauma Center",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Ben Taub Trauma",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Beth Israel Hospital Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Beth Israel Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Bruce Reitz",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Reitz",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Campbell Clinic",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Campbell Clinic",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Carl Moyer",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Moyer",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Cedars-Sinai Surgical Endoscopy Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Cedars-Sinai Endo",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Charité Berlin Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Charité Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Children's Hospital of Philadelphia Department of Pediatric Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "CHOP Ped Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Christiaan Barnard",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Barnard",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Clifford Ko",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Ko",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Clyde F. Barker",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Barker",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Congress of Neurological Surgeons",
+    "type": "society",
+    "degree": 1,
+    "label_short": "CNS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Cornell University Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Cornell Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Creighton University Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Creighton Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Edward P. Richardson",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Richardson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Emory University Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Emory Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Endourological Society",
+    "type": "society",
+    "degree": 1,
+    "label_short": "Endo Uro Soc",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "Eric W. Fonkalsrud",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Fonkalsrud",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Franklin H. Martin",
+    "type": "person",
+    "degree": 1,
+    "label_short": "F.H. Martin",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Frederick Salmon",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Salmon",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "George C. Morris Jr.",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Morris",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "George P. Noon",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Noon",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Gerald Marks",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Marks",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Geriatric Surgery Verification Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "GSV",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Grant Taylor",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Taylor",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Gustaf Lindskog",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Lindskog",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "H. Edward Garrett Sr.",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Garrett",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Hazim Safi",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Safi",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Helen Taussig",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Taussig",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Henrik Kehlet",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Kehlet",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Henry Buchwald",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Buchwald",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Henry Cline",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Cline",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Hospital for Special Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "HSS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "IRCAD",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "IRCAD",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "J. Alex Haller Jr.",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Haller",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "James Jude",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Jude",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "James Knight",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Knight",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "James L. Cox",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Cox",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Finney",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Finney",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "John Wennberg",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Wennberg",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Johns Hopkins Neurosurgical Intensive Care Unit",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Hopkins Neuro ICU",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Joseph Bloodgood",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Bloodgood",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Kentucky School of Medicine Department of Proctology",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Kentucky Proctology",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Lahey Clinic",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Lahey Clinic",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Liaison Committee on Graduate Medical Education",
+    "type": "society",
+    "degree": 1,
+    "label_short": "LCGME",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Massachusetts General Hospital End Result System",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "MGH End Result",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Massachusetts General Hospital Thoracic Surgical Service",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "MGH Thoracic",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mayo Clinic Department of Orthopedic Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Mayo Ortho",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mayo Clinic Section of Proctology",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Mayo Proctology",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Mediterranean Theater Surgical Service",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Mediterranean Theater",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Memorial Sloan Kettering HPB Service",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "MSKCC HPB",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "Montreal Neurological Institute",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Montreal Neuro",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "New York Eye Infirmary",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "NY Eye Infirmary",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "O.H. Frazier",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Frazier",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Ochsner Clinic",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Ochsner Clinic",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Olle Ljungqvist",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Ljungqvist",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Oscar Creech Jr.",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Creech",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Paul Brousse Hospital Hepatobiliary Center",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Paul Brousse HPB",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Paul Samson",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Samson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Penn Trauma and Surgical Critical Care Fellowship",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Penn Trauma",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Peter Bent Brigham Hospital Neurosurgical Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Brigham Neuro",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Peter Bent Brigham Peripheral Vascular Clinic",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Brigham Vascular",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Philippe Mouret",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Mouret",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Queen's Hospital Facial Reconstruction Unit",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Queen's Facial Recon",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "R Adams Cowley",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Cowley",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "R. Randal Bollinger",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Bollinger",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Ramon Guiteras",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Guiteras",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Richard L. Varco",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Varco",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Robert H. Jones",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Jones",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Robert W. Anderson",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Anderson",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Shukri Khuri",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Khuri",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of Gynecologic Oncology",
+    "type": "society",
+    "degree": 1,
+    "label_short": "SGO",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of Neurological Surgeons",
+    "type": "society",
+    "degree": 1,
+    "label_short": "SNS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Society of University Surgeons",
+    "type": "society",
+    "degree": 1,
+    "label_short": "SUS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Stanford University Heart Transplant Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Stanford Heart Tx",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Surgical Outcomes Club",
+    "type": "society",
+    "degree": 1,
+    "label_short": "SOC",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Texas Heart Institute",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Texas Heart Institute",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "The Transplantation Society",
+    "type": "society",
+    "degree": 1,
+    "label_short": "TS",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Triological Society",
+    "type": "society",
+    "degree": 1,
+    "label_short": "Triological",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "UAB Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UAB Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "United States Army Hand Surgery Centers",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Army Hand Centers",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Chicago Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UChicago Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Cincinnati Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UCincinnati Surgery",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "University of Illinois College of Medicine Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UIllinois Surgery",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Illinois Neuropsychiatric Institute",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UIllinois Neuropsych",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "University of Iowa Bariatric Surgery Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Iowa Bariatrics",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Miami Division of Plastic Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Miami Plastics",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Minnesota Open Heart Surgery Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UMN Open Heart",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Minnesota Transplant Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UMN Transplant",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "University of Pittsburgh Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UPitt Surgery",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "University of Pittsburgh Transplant Program",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "UPitt Transplant",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "Victor Zannis",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Zannis",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Vienna General Hospital Second Surgical Clinic",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Vienna 2nd Clinic",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Vietnam Vascular Registry",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Vietnam Vasc Registry",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "W. Randolph Chitwood Jr.",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Chitwood",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Warren Cole",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Cole",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Washington University Chest Service",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "WashU Chest",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Washington University Division of Urologic Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "WashU Urology",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William Muller",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Muller",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "William Shoemaker",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Shoemaker",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Willy Meyer",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Meyer",
+    "label_short_source": "default",
+    "reviewed": true
+  },
+  {
+    "id": "Wrightington Centre for Hip Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "Wrightington Hip",
+    "label_short_source": "user",
+    "reviewed": true
+  },
+  {
+    "id": "Albert Pacifico",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Pacifico",
+    "label_short_source": "v6_auto",
+    "reviewed": true
+  },
+  {
+    "id": "Nicholas Kouchoukos",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Kouchoukos",
+    "label_short_source": "v6_auto",
+    "reviewed": true
+  },
+  {
+    "id": "David Sutherland",
+    "type": "person",
+    "degree": 1,
+    "label_short": "Sutherland",
+    "label_short_source": "v6_auto",
+    "reviewed": true
+  }
+]
