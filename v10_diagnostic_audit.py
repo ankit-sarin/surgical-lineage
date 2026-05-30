@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 V10 Pre-Retrofit Diagnostic Audit
-Read-only audit of the 14 module files. Produces V10_diagnostic_audit_report.md.
+Read-only audit of the 14 module files. Produces V11_diagnostic_audit_report.md.
 """
 
 import json
@@ -32,15 +32,15 @@ EXPECTED_MODULES = [
     "14_global_military.json",
     "15_institutional_hierarchy.json",
 ]
-BASELINE_EDGES = 491
-BASELINE_NODES = 378
+BASELINE_EDGES = 509
+BASELINE_NODES = 394
 
 PERSON_SIM_THRESHOLD = 0.88
 INSTITUTION_SIM_THRESHOLD = 0.85
 SOCIETY_SIM_THRESHOLD = 0.88
 MIDDLE_INITIAL_RE = re.compile(r"\b[A-Z]\.?\b")
 
-REPORT_PATH = ROOT / "V10_diagnostic_audit_report.md"
+REPORT_PATH = ROOT / "V11_diagnostic_audit_report.md"
 
 
 def load_modules():
@@ -408,7 +408,7 @@ def main():
     # Build summary header
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     header = [
-        "# V10 Pre-Retrofit Diagnostic Audit",
+        "# V11 Pre-Retrofit Diagnostic Audit",
         f"Generated: {ts}",
         f"Graph state: {total_edges} edges across {len(modules)} module files, "
         f"{unique_nodes} unique nodes, {n_components} connected component(s)",

@@ -1,9 +1,9 @@
 [
   {
-    "source_node": "Mayo Clinic Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Louis B. Wilson",
-    "target_node_type": "person",
+    "source_node": "Louis B. Wilson",
+    "source_node_type": "person",
+    "target_node": "Mayo Clinic",
+    "target_node_type": "institution",
     "edge_type": "governance_leadership",
     "start_year": 1905,
     "end_year": 1930,
@@ -12,7 +12,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Mayo Clinic Historical Archives",
     "confidence": "high",
-    "notes": "Wilson built the pathology laboratories at the Mayo Clinic and directed the Mayo Foundation, using this base to launch the ABMS.",
+    "notes": "[V11 directionality fix] Reversed from institution->person to the codified person->institution convention and retargeted to the Mayo Clinic root: Wilson directed the Mayo Foundation and built the pathology laboratories; he was never the Department of Surgery chair. Span (1905-1930) and evidence preserved. Mayo Clinic root node already exists.",
     "module": "12_governance_societies"
   },
   {
@@ -1123,5 +1123,20 @@
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11685200/",
     "confidence": "high",
     "notes": "[V10 Illinois | route: 12_governance_societies] Warren H. Cole was recruited in 1936 as the University of Illinois's first full-time professor of surgery and headed the Department of Surgery for 30 years (to 1966). Cance WG, 'Warren H. Cole, MD: Visionary surgeon-scientist and mentor,' Surgery 2001;130(5):891-892 (PMID 11685200, content-match verified): held the chair of surgery at the University of Illinois for 30 years. FIXES the previously bare department node and raises the existing Warren Cole node from degree 1 to degree 2. Optional Evarts Graham->Cole training edge DEFERRED (sources document cholecystography collaboration, not a content-matched training relationship)."
+  },
+  {
+    "source_node": "Goran Klintmalm",
+    "source_node_type": "person",
+    "target_node": "American Society of Transplant Surgeons",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 2005,
+    "end_year": 2005,
+    "temporal_range": "2005",
+    "evidence_citation": "ASTS_Archive_Klintmalm_President",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "ASTS Past Presidents roster (asts.org); Proc (Bayl Univ Med Cent) tribute (PMC1906579)",
+    "confidence": "moderate",
+    "notes": "[V11 Pittsburgh | route: 12_governance_societies] Klintmalm served as President of the American Society of Transplant Surgeons (established the Business Practice Committee, expanded the Board from six to eight councilors). ASTS node already exists (Starzl founded it in 1974). EXACT TERM YEAR APPROXIMATE (~2005, from '20th Baylor reunion' anchor) \u2014 FLAG for exact-year confirmation."
   }
 ]

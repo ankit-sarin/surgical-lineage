@@ -3022,5 +3022,133 @@
     "label_short": "",
     "label_short_source": "stub_pending_adjudication",
     "reviewed": false
+  },
+  {
+    "id": "Baylor University Medical Center",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Baylor University Medical Center Transplant Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Byers W. Shaw Jr.",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Goran Klintmalm",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Hokkaido University",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Jorge Reyes",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Kareem Abu-Elmagd",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Mount Sinai Recanati/Miller Transplantation Institute",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Ron Shapiro",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Satoru Todo",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Nebraska Medical Center",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Nebraska Medical Center Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Nebraska Medical Center Transplant Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Pittsburgh Intestinal Transplant Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of South Alabama",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Velma Scantlebury",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
   }
 ]

@@ -70,8 +70,9 @@ def main():
     print(f"Nodes: {stats['nodes']}")
     print(f"Components: {stats['components']}")
 
-    expected_edges = 480
-    expected_nodes = 371
+    expected_edges = 509
+    expected_nodes = 394
+    expected_ip = 37
     ip_edges = sum(1 for e in all_edges if e["edge_type"] == "institutional_parent")
 
     gate_pass = True
@@ -86,9 +87,9 @@ def main():
         print(f"FAIL: components {stats['components']} != 1  — ABORTING, restoring from backup")
         restore_from_backup()
         sys.exit(2)
-    if ip_edges != 28:
+    if ip_edges != expected_ip:
         gate_pass = False
-        print(f"FAIL: institutional_parent edge count {ip_edges} != 28")
+        print(f"FAIL: institutional_parent edge count {ip_edges} != {expected_ip}")
 
     if not gate_pass:
         sys.exit(1)

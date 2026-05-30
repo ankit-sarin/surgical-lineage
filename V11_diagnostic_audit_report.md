@@ -1,10 +1,10 @@
-# V10 Pre-Retrofit Diagnostic Audit
-Generated: 2026-05-30T08:18:43Z
-Graph state: 491 edges across 15 module files, 378 unique nodes, 1 connected component(s)
+# V11 Pre-Retrofit Diagnostic Audit
+Generated: 2026-05-30T13:15:33Z
+Graph state: 509 edges across 15 module files, 394 unique nodes, 1 connected component(s)
 
 ## Summary of findings
-- **Audit 1 (Canonical Names):** 0 person pair(s), 65 institution pair(s), 3 society pair(s) flagged (institution pairs ≥ 0.95: 1)
-- **Audit 2 (Temporal):** 0 sentinel/out-of-range, 0 logical inversion(s), 2 same-year ranged edge(s), 0 round-year cluster(s) flagged
+- **Audit 1 (Canonical Names):** 0 person pair(s), 66 institution pair(s), 3 society pair(s) flagged (institution pairs ≥ 0.95: 1)
+- **Audit 2 (Temporal):** 0 sentinel/out-of-range, 0 logical inversion(s), 11 same-year ranged edge(s), 0 round-year cluster(s) flagged
 - **Audit 3 (Dedup):** 0 literal duplicate group(s), 3 multi-type pair(s), 0 multi-governance case(s) (overlapping: 0)
 
 ## Recommended next steps
@@ -18,7 +18,7 @@ Graph state: 491 edges across 15 module files, 378 unique nodes, 1 connected com
 
 _None flagged._
 
-### Institutions (65 pairs flagged)
+### Institutions (66 pairs flagged)
 
 | Name A | Name B | Ratio | Modules A | Modules B | Note | Verdict |
 |---|---|---|---|---|---|---|
@@ -43,6 +43,7 @@ _None flagged._
 | Howard University Department of Surgery | Yale University Department of Surgery | 0.89 | 02 | 02 |  | MANUAL REVIEW |
 | Columbia University Department of Surgery | Cornell University Department of Surgery | 0.89 | 02 | 02 |  | MANUAL REVIEW |
 | University of Michigan Department of Surgery | University of Washington Department of Surgery | 0.89 | 02, 08 | 02 |  | MANUAL REVIEW |
+| University of Pittsburgh Intestinal Transplant Program | University of Pittsburgh Transplant Program | 0.89 | 02, 15 | 02, 15 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Howard University Department of Surgery | 0.89 | 02 | 02 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Tulane University Department of Surgery | 0.89 | 02 | 04 |  | MANUAL REVIEW |
 | Emory University Department of Surgery | Stanford University Department of Surgery | 0.89 | 02 | 02, 04 |  | MANUAL REVIEW |
@@ -73,7 +74,7 @@ _None flagged._
 | Creighton University Department of Surgery | Yale University Department of Surgery | 0.86 | 02 | 02 |  | MANUAL REVIEW |
 | University of Minnesota Department of Surgery | University of Pennsylvania Department of Surgery | 0.86 | 12, 15 | 02, 13, 15 |  | MANUAL REVIEW |
 | Emory University Department of Surgery | Tulane University Department of Surgery | 0.86 | 02 | 04 |  | MANUAL REVIEW |
-| Mayo Clinic Department of Orthopedic Surgery | Mayo Clinic Department of Surgery | 0.86 | 06, 15 | 02, 07, 10, 12, 15 |  | MANUAL REVIEW |
+| Mayo Clinic Department of Orthopedic Surgery | Mayo Clinic Department of Surgery | 0.86 | 06, 15 | 02, 07, 10, 15 |  | MANUAL REVIEW |
 | Ohio State University Department of Surgery | Stanford University Department of Surgery | 0.86 | 02 | 02, 04 |  | MANUAL REVIEW |
 | Stanford University Department of Surgery | Vanderbilt University Department of Surgery | 0.86 | 02, 04 | 02 |  | MANUAL REVIEW |
 | UC Davis Department of Surgery | UCLA Department of Surgery | 0.86 | 12, 15 | 05, 08 |  | MANUAL REVIEW |
@@ -108,12 +109,21 @@ _None flagged._
 
 _None flagged._
 
-### Same-year edges on ranged types (2 edges — verify brief tenure vs data error)
+### Same-year edges on ranged types (11 edges — verify brief tenure vs data error)
 
 | Module | Source | Target | Edge Type | Year |
 |---|---|---|---|---|
-| 02 | Henry Bahnson | Thomas Starzl | governance_leadership | 1981 |
+| 02 | Thomas Starzl | Satoru Todo | direct_training | 1984 |
+| 02 | Thomas Starzl | Kareem Abu-Elmagd | direct_training | 1989 |
+| 02 | Thomas Starzl | Jorge Reyes | direct_training | 1988 |
+| 02 | Thomas Starzl | Ron Shapiro | direct_training | 1988 |
+| 02 | Satoru Todo | Hokkaido University | governance_leadership | 1997 |
+| 02 | Kareem Abu-Elmagd | Cleveland Clinic | governance_leadership | 2015 |
+| 02 | Velma Scantlebury | University of South Alabama | governance_leadership | 2002 |
+| 02 | Jorge Reyes | University of Washington Department of Surgery | governance_leadership | 2004 |
+| 02 | Ron Shapiro | Mount Sinai Recanati/Miller Transplantation Institute | governance_leadership | 2014 |
 | 12 | Rudolph Matas | American Surgical Association | governance_leadership | 1909 |
+| 12 | Goran Klintmalm | American Society of Transplant Surgeons | governance_leadership | 2005 |
 
 ### Round-year clusters (flag if >3% of total edges)
 

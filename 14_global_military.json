@@ -17,7 +17,7 @@
   {
     "source_node": "Bernhard von Langenbeck",
     "source_node_type": "person",
-    "target_node": "Charité Berlin Department of Surgery",
+    "target_node": "Charit\u00e9 Berlin Department of Surgery",
     "target_node_type": "institution",
     "edge_type": "institutional_founder",
     "start_year": 1847,
@@ -27,7 +27,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25044221/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 20436531 -> PMID: 25044221 on 2026-03-17] [Verified 2026-03-17 | Clin Anat 2014 | content_match] Langenbeck developed the German system of residency training at Charité, heavily influencing the later Halstedian model."
+    "notes": "[Phase2 replaced PMID: 20436531 -> PMID: 25044221 on 2026-03-17] [Verified 2026-03-17 | Clin Anat 2014 | content_match] Langenbeck developed the German system of residency training at Charit\u00e9, heavily influencing the later Halstedian model."
   },
   {
     "source_node": "Bernhard von Langenbeck",
@@ -42,7 +42,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/20340032/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 20436531 -> PMID: 20340032 on 2026-03-17] [Verified 2026-03-17 | Langenbecks Arch Surg 2010 | content_match] Billroth served as Langenbeck's assistant at Charité, internalizing the German academic surgical system before his move to Zurich and Vienna."
+    "notes": "[Phase2 replaced PMID: 20436531 -> PMID: 20340032 on 2026-03-17] [Verified 2026-03-17 | Langenbecks Arch Surg 2010 | content_match] Billroth served as Langenbeck's assistant at Charit\u00e9, internalizing the German academic surgical system before his move to Zurich and Vienna."
   },
   {
     "source_node": "Theodor Billroth",
@@ -57,7 +57,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/15354259/",
     "confidence": "low",
-    "notes": "[VERIFY_FAILED 2026-03-17 — No PubmedArticle returned; was confidence:high] Billroth established the Vienna School of Surgery, pioneering gastrointestinal resections and early modern surgical morbidity tracking."
+    "notes": "[VERIFY_FAILED 2026-03-17 \u2014 No PubmedArticle returned; was confidence:high] Billroth established the Vienna School of Surgery, pioneering gastrointestinal resections and early modern surgical morbidity tracking."
   },
   {
     "source_node": "Theodor Billroth",
@@ -117,7 +117,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12563656/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Hand Surg Am 2003 | content_match] Sterling Bunnell (1882-1957), a San Francisco general surgeon, was designated a special civilian consultant to the US Secretary of War at the request of Surgeon General Norman T. Kirk, an orthopedic surgeon. Between November 1944 and February 1947, Bunnell established and visited nine regional hand surgery centers at US Army general hospitals across the United States, organizing surgical treatment protocols and teaching standardized hand injury care. He shut down his private practice for two years to accomplish this. Simultaneously, he completed his seminal textbook 'Surgery of the Hand' (JB Lippincott, 1944), which became the authoritative reference for nearly 30 years. Bunnell's key insight was that hand surgery required a multidisciplinary approach — correlating orthopedics, plastic surgery, and neurosurgery — rather than fragmented care by separate specialists. The army hand centers institutionalized this principle. This military-to-civilian specialty creation pattern parallels the trauma lineage (Scudder→ACS COT, already in graph) and the MASH system (already in graph). The surgeons who directed these centers became the founding nucleus of the ASSH."
+    "notes": "[Verified 2026-03-17 | J Hand Surg Am 2003 | content_match] Sterling Bunnell (1882-1957), a San Francisco general surgeon, was designated a special civilian consultant to the US Secretary of War at the request of Surgeon General Norman T. Kirk, an orthopedic surgeon. Between November 1944 and February 1947, Bunnell established and visited nine regional hand surgery centers at US Army general hospitals across the United States, organizing surgical treatment protocols and teaching standardized hand injury care. He shut down his private practice for two years to accomplish this. Simultaneously, he completed his seminal textbook 'Surgery of the Hand' (JB Lippincott, 1944), which became the authoritative reference for nearly 30 years. Bunnell's key insight was that hand surgery required a multidisciplinary approach \u2014 correlating orthopedics, plastic surgery, and neurosurgery \u2014 rather than fragmented care by separate specialists. The army hand centers institutionalized this principle. This military-to-civilian specialty creation pattern parallels the trauma lineage (Scudder\u2192ACS COT, already in graph) and the MASH system (already in graph). The surgeons who directed these centers became the founding nucleus of the ASSH."
   },
   {
     "source_node": "Norman Rich",
@@ -162,7 +162,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9465770/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Emil Theodor Kocher (1841-1917) studied under Langenbeck in Berlin during his post-doctoral study trip (1865-1866), along with visits to Billroth in Vienna and surgeons in London and Paris. Langenbeck and Billroth both recommended Kocher for the chair at Bern, which he assumed in 1872. He held this position for 45 years until his death. Kocher won the 1909 Nobel Prize in Physiology or Medicine for his work on the thyroid gland — the first surgeon to receive the Nobel Prize. He performed over 7,000 thyroidectomies, reducing mortality from 13% to 0.18%. This edge extends the European depth layer: Langenbeck→Kocher creates a parallel to the existing Langenbeck→Billroth→Halsted chain. Citation is Liebermann-Meffert D, 'Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted,' World J Surg 2000;24(1):2-9.",
+    "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Emil Theodor Kocher (1841-1917) studied under Langenbeck in Berlin during his post-doctoral study trip (1865-1866), along with visits to Billroth in Vienna and surgeons in London and Paris. Langenbeck and Billroth both recommended Kocher for the chair at Bern, which he assumed in 1872. He held this position for 45 years until his death. Kocher won the 1909 Nobel Prize in Physiology or Medicine for his work on the thyroid gland \u2014 the first surgeon to receive the Nobel Prize. He performed over 7,000 thyroidectomies, reducing mortality from 13% to 0.18%. This edge extends the European depth layer: Langenbeck\u2192Kocher creates a parallel to the existing Langenbeck\u2192Billroth\u2192Halsted chain. Citation is Liebermann-Meffert D, 'Surgical triumvirate of Theodor Kocher, Harvey Cushing, and William Halsted,' World J Surg 2000;24(1):2-9.",
     "module": "14_global_military"
   },
   {
@@ -178,23 +178,8 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/9465770/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Harvey Cushing visited Kocher's clinic in Bern during his European Wanderjahr (1900-1901), conducting experimental research on intracranial pressure that led to the Cushing-Kocher theory. This is one of the most documented observational visits in surgical history. Cushing was already a Halsted trainee at Hopkins (existing edge in graph). This creates a second pathway to Cushing: Langenbeck→Kocher→Cushing (observational) alongside the existing Halsted→Cushing (direct_training), forming a triangulated European-American bridge. Citation same as training edge.",
+    "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Harvey Cushing visited Kocher's clinic in Bern during his European Wanderjahr (1900-1901), conducting experimental research on intracranial pressure that led to the Cushing-Kocher theory. This is one of the most documented observational visits in surgical history. Cushing was already a Halsted trainee at Hopkins (existing edge in graph). This creates a second pathway to Cushing: Langenbeck\u2192Kocher\u2192Cushing (observational) alongside the existing Halsted\u2192Cushing (direct_training), forming a triangulated European-American bridge. Citation same as training edge.",
     "module": "14_global_military"
-  },
-  {
-    "source_node": "Norman T. Kirk",
-    "source_node_type": "person",
-    "target_node": "Sterling Bunnell",
-    "target_node_type": "person",
-    "edge_type": "governance_leadership",
-    "start_year": 1944,
-    "end_year": 1947,
-    "evidence_type": "PMID",
-    "evidence_citation": "PMID: 31813587",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31813587/",
-    "confidence": "high",
-    "notes": "Kirk, as Army Surgeon General, appointed Bunnell as civilian consultant to the Secretary of War to establish 9 Army hand surgery centers. Source: Rizzo M. How the US Army Forged Hand Surgery. J Hand Surg Am. 2020;45(6):556-561. TARGET MODULE: 14_global_military.json",
-    "temporal_range": "1944-1947"
   },
   {
     "source_node": "Norman T. Kirk",
