@@ -524,5 +524,20 @@
     "evidence_locator": "https://findingaids.nlm.nih.gov/repositories/ammp/resources/aats",
     "confidence": "high",
     "notes": "TARGET MODULE: 04_cardiothoracic_vascular. Matas was one of 50 founding members of AATS at AMA Annual Meeting June 7 1917, served as 3rd President in 1919. NLM Archives confirm founding membership. Joins Willy Meyer as second AATS co-founder edge. PMID upgrade candidate: JTCVS 1996 Matas biography. V9 expansion Apr 2026."
+  },
+  {
+    "source_node": "Michael DeBakey",
+    "source_node_type": "person",
+    "target_node": "F. William Blaisdell",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1959,
+    "end_year": 1960,
+    "temporal_range": "1959-1960",
+    "evidence_citation": "PMID: 32649610",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32649610/",
+    "confidence": "high",
+    "notes": "[V10 UC Davis | route: 04_cardiothoracic_vascular] F. William Blaisdell completed a postresidency fellowship in cardiovascular surgery under Michael DeBakey in Houston. Knudson et al., J Trauma Acute Care Surg 2020;89(4):603-606 (PMID 32649610, full-text content-match verified): 'His postresidency training included a fellowship in cardiovascular surgery under Michael DeBakey in Houston.' THIS EDGE IS THE CONNECTIVITY BRIDGE anchoring the UC Davis cluster to the main component (DeBakey is an existing high-degree node). Exact fellowship years not stated in source; estimated 1959-1960 from his 1960 appointment as Chief of Surgical Service, SF VA. A Francis Moore->Blaisdell (Peter Bent Brigham) edge asserted by web obituaries was DROPPED - not corroborated by the peer-reviewed source."
   }
 ]

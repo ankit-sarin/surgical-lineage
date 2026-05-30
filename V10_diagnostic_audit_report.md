@@ -1,9 +1,9 @@
 # V10 Pre-Retrofit Diagnostic Audit
-Generated: 2026-04-19T10:02:34Z
-Graph state: 452 edges across 14 module files, 361 unique nodes
+Generated: 2026-05-30T08:18:43Z
+Graph state: 491 edges across 15 module files, 378 unique nodes, 1 connected component(s)
 
 ## Summary of findings
-- **Audit 1 (Canonical Names):** 0 person pair(s), 56 institution pair(s), 3 society pair(s) flagged (institution pairs ≥ 0.95: 1)
+- **Audit 1 (Canonical Names):** 0 person pair(s), 65 institution pair(s), 3 society pair(s) flagged (institution pairs ≥ 0.95: 1)
 - **Audit 2 (Temporal):** 0 sentinel/out-of-range, 0 logical inversion(s), 2 same-year ranged edge(s), 0 round-year cluster(s) flagged
 - **Audit 3 (Dedup):** 0 literal duplicate group(s), 3 multi-type pair(s), 0 multi-governance case(s) (overlapping: 0)
 
@@ -18,22 +18,23 @@ Graph state: 452 edges across 14 module files, 361 unique nodes
 
 _None flagged._
 
-### Institutions (56 pairs flagged)
+### Institutions (65 pairs flagged)
 
 | Name A | Name B | Ratio | Modules A | Modules B | Note | Verdict |
 |---|---|---|---|---|---|---|
 | ACS National Surgical Quality Improvement Program | VA National Surgical Quality Improvement Program | 0.97 | 10 | 10 |  | MANUAL REVIEW |
 | UAB Department of Surgery | UCLA Department of Surgery | 0.94 | 02 | 05, 08 |  | MANUAL REVIEW |
-| University of Pennsylvania Department of Neurosurgery | University of Pennsylvania Department of Surgery | 0.93 | 03 | 02, 13 |  | MANUAL REVIEW |
+| University of Pennsylvania Department of Neurosurgery | University of Pennsylvania Department of Surgery | 0.93 | 03, 15 | 02, 13, 15 |  | MANUAL REVIEW |
+| Johns Hopkins Hospital Department of Neurosurgery | Johns Hopkins Hospital Department of Surgery | 0.92 | 03, 15 | 01, 02, 10, 12, 15 |  | MANUAL REVIEW |
 | UCLA Department of Surgery | UCSF Department of Surgery | 0.92 | 05, 08 | 02, 03 |  | MANUAL REVIEW |
 | Duke University Department of Surgery | Tulane University Department of Surgery | 0.92 | 02 | 04 |  | MANUAL REVIEW |
 | Tulane University Department of Surgery | Yale University Department of Surgery | 0.92 | 04 | 02 |  | MANUAL REVIEW |
 | Duke University Department of Surgery | Yale University Department of Surgery | 0.92 | 02 | 02 |  | MANUAL REVIEW |
 | Emory University Department of Surgery | Howard University Department of Surgery | 0.91 | 02 | 02 |  | MANUAL REVIEW |
-| Washington University Division of Plastic Surgery | Washington University Division of Urologic Surgery | 0.91 | 08 | 05 |  | MANUAL REVIEW |
+| Washington University Division of Plastic Surgery | Washington University Division of Urologic Surgery | 0.91 | 08, 15 | 05, 15 |  | MANUAL REVIEW |
 | UAB Department of Surgery | UCSF Department of Surgery | 0.90 | 02 | 02, 03 |  | MANUAL REVIEW |
 | Howard University Department of Surgery | Stanford University Department of Surgery | 0.90 | 02 | 02, 04 |  | MANUAL REVIEW |
-| University of Miami Transplant Program | University of Minnesota Transplant Program | 0.90 | 02 | 02 |  | MANUAL REVIEW |
+| University of Miami Transplant Program | University of Minnesota Transplant Program | 0.90 | 02, 15 | 02, 15 |  | MANUAL REVIEW |
 | University of Chicago Department of Surgery | University of Cincinnati Department of Surgery | 0.90 | 02 | 02 |  | MANUAL REVIEW |
 | University of Chicago Department of Surgery | University of Washington Department of Surgery | 0.90 | 02 | 02 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Emory University Department of Surgery | 0.90 | 02 | 02 |  | MANUAL REVIEW |
@@ -46,13 +47,15 @@ _None flagged._
 | Cornell University Department of Surgery | Tulane University Department of Surgery | 0.89 | 02 | 04 |  | MANUAL REVIEW |
 | Emory University Department of Surgery | Stanford University Department of Surgery | 0.89 | 02 | 02, 04 |  | MANUAL REVIEW |
 | Fundamentals of Endoscopic Surgery | Fundamentals of Laparoscopic Surgery | 0.89 | 10 | 10 |  | MANUAL REVIEW |
-| Cleveland Clinic Department of Colorectal Surgery | Cleveland Clinic Department of General Surgery | 0.88 | 08 | 02 |  | MANUAL REVIEW |
+| Cleveland Clinic Department of Colorectal Surgery | Cleveland Clinic Department of General Surgery | 0.88 | 08, 15 | 02, 15 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Duke University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Yale University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
 | Duke University Department of Surgery | Emory University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
 | Emory University Department of Surgery | Yale University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
+| University of Cincinnati Department of Surgery | University of Minnesota Department of Surgery | 0.88 | 02 | 12, 15 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Creighton University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
 | Tulane University Department of Surgery | Vanderbilt University Department of Surgery | 0.88 | 04 | 02 |  | MANUAL REVIEW |
+| University of Michigan Department of Surgery | University of Minnesota Department of Surgery | 0.88 | 02, 08 | 12, 15 |  | MANUAL REVIEW |
 | Columbia University Department of Surgery | Howard University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
 | Columbia University Department of Surgery | Tulane University Department of Surgery | 0.88 | 02 | 04 |  | MANUAL REVIEW |
 | Ohio State University Department of Surgery | Yale University Department of Surgery | 0.88 | 02 | 02 |  | MANUAL REVIEW |
@@ -64,17 +67,23 @@ _None flagged._
 | Stanford University Department of Surgery | Yale University Department of Surgery | 0.87 | 02, 04 | 02 |  | MANUAL REVIEW |
 | Duke University Department of Surgery | Howard University Department of Surgery | 0.87 | 02 | 02 |  | MANUAL REVIEW |
 | Cornell University Department of Surgery | Stanford University Department of Surgery | 0.86 | 02 | 02, 04 |  | MANUAL REVIEW |
+| University of Chicago Department of Surgery | University of Minnesota Department of Surgery | 0.86 | 02 | 12, 15 |  | MANUAL REVIEW |
 | Columbia University Department of Surgery | Emory University Department of Surgery | 0.86 | 02 | 02 |  | MANUAL REVIEW |
 | Creighton University Department of Surgery | Duke University Department of Surgery | 0.86 | 02 | 02 |  | MANUAL REVIEW |
 | Creighton University Department of Surgery | Yale University Department of Surgery | 0.86 | 02 | 02 |  | MANUAL REVIEW |
+| University of Minnesota Department of Surgery | University of Pennsylvania Department of Surgery | 0.86 | 12, 15 | 02, 13, 15 |  | MANUAL REVIEW |
 | Emory University Department of Surgery | Tulane University Department of Surgery | 0.86 | 02 | 04 |  | MANUAL REVIEW |
-| Mayo Clinic Department of Orthopedic Surgery | Mayo Clinic Department of Surgery | 0.86 | 06 | 02, 07, 10, 12 |  | MANUAL REVIEW |
+| Mayo Clinic Department of Orthopedic Surgery | Mayo Clinic Department of Surgery | 0.86 | 06, 15 | 02, 07, 10, 12, 15 |  | MANUAL REVIEW |
 | Ohio State University Department of Surgery | Stanford University Department of Surgery | 0.86 | 02 | 02, 04 |  | MANUAL REVIEW |
 | Stanford University Department of Surgery | Vanderbilt University Department of Surgery | 0.86 | 02, 04 | 02 |  | MANUAL REVIEW |
+| UC Davis Department of Surgery | UCLA Department of Surgery | 0.86 | 12, 15 | 05, 08 |  | MANUAL REVIEW |
+| UC Davis Department of Surgery | UCSF Department of Surgery | 0.86 | 12, 15 | 02, 03 |  | MANUAL REVIEW |
+| University of Minnesota Department of Surgery | University of Washington Department of Surgery | 0.86 | 12, 15 | 02 |  | MANUAL REVIEW |
+| University of Colorado Department of Surgery | University of Minnesota Department of Surgery | 0.85 | 02 | 12, 15 |  | MANUAL REVIEW |
 | Howard University Department of Surgery | Ohio State University Department of Surgery | 0.85 | 02 | 02 |  | MANUAL REVIEW |
 | Howard University Department of Surgery | Vanderbilt University Department of Surgery | 0.85 | 02 | 02 |  | MANUAL REVIEW |
 | Ohio State University Department of Surgery | Tulane University Department of Surgery | 0.85 | 02 | 04 |  | MANUAL REVIEW |
-| University of Cincinnati Department of Surgery | University of Pennsylvania Department of Surgery | 0.85 | 02 | 02, 13 |  | MANUAL REVIEW |
+| University of Cincinnati Department of Surgery | University of Pennsylvania Department of Surgery | 0.85 | 02 | 02, 13, 15 |  | MANUAL REVIEW |
 | Creighton University Department of Surgery | Emory University Department of Surgery | 0.85 | 02 | 02 |  | MANUAL REVIEW |
 | Duke University Department of Surgery | Ohio State University Department of Surgery | 0.85 | 02 | 02 |  | MANUAL REVIEW |
 | Duke University Department of Surgery | Vanderbilt University Department of Surgery | 0.85 | 02 | 02 |  | MANUAL REVIEW |
@@ -113,8 +122,8 @@ _None flagged._
 | 1800 | 0 | 0 | 0.0% | 0.0% |  |
 | 1850 | 0 | 0 | 0.0% | 0.0% |  |
 | 1900 | 1 | 1 | 0.2% | 0.2% |  |
-| 1950 | 3 | 7 | 0.7% | 1.5% |  |
-| 2000 | 4 | 1 | 0.9% | 0.2% |  |
+| 1950 | 3 | 7 | 0.6% | 1.4% |  |
+| 2000 | 4 | 1 | 0.8% | 0.2% |  |
 
 ---
 

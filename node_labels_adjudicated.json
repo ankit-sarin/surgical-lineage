@@ -2966,5 +2966,61 @@
     "label_short": "",
     "label_short_source": "stub_pending_adjudication",
     "reviewed": false
+  },
+  {
+    "id": "Baylor College of Medicine",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Baylor College of Medicine Department of Surgery",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "F. William Blaisdell",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "UC Davis",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "UC Davis Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Illinois College of Medicine",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Minnesota Department of Surgery",
+    "type": "institution",
+    "degree": 5,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
   }
 ]

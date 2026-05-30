@@ -12,6 +12,8 @@ from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 
+import networkx as nx
+
 ROOT = Path(__file__).parent
 EXPECTED_MODULES = [
     "01_halsted_core.json",
@@ -28,9 +30,10 @@ EXPECTED_MODULES = [
     "12_governance_societies.json",
     "13_pre_halsted.json",
     "14_global_military.json",
+    "15_institutional_hierarchy.json",
 ]
-BASELINE_EDGES = 452
-BASELINE_NODES = 361
+BASELINE_EDGES = 491
+BASELINE_NODES = 378
 
 PERSON_SIM_THRESHOLD = 0.88
 INSTITUTION_SIM_THRESHOLD = 0.85
@@ -352,11 +355,20 @@ def main():
     node_modules = collect_nodes(modules)
     unique_nodes = len(node_modules)
 
+    # Connectivity (phase_h pattern): simple undirected graph over all edges.
+    G = nx.Graph()
+    for _, edges, _ in modules:
+        for e in edges:
+            G.add_edge(e["source_node"], e["target_node"])
+    n_components = nx.number_connected_components(G)
+
     baseline_note = ""
     if total_edges != BASELINE_EDGES:
         baseline_note += f"⚠️  Edge count {total_edges} differs from baseline {BASELINE_EDGES}.\n"
     if unique_nodes != BASELINE_NODES:
         baseline_note += f"⚠️  Unique node count {unique_nodes} differs from baseline {BASELINE_NODES}.\n"
+    if n_components != 1:
+        baseline_note += f"⚠️  Connected components {n_components} != 1 (graph is fragmented).\n"
     if missing:
         baseline_note += f"⚠️  Missing module files: {missing}\n"
 
@@ -398,7 +410,8 @@ def main():
     header = [
         "# V10 Pre-Retrofit Diagnostic Audit",
         f"Generated: {ts}",
-        f"Graph state: {total_edges} edges across {len(modules)} module files, {unique_nodes} unique nodes",
+        f"Graph state: {total_edges} edges across {len(modules)} module files, "
+        f"{unique_nodes} unique nodes, {n_components} connected component(s)",
         "",
     ]
     if baseline_note:
@@ -433,7 +446,8 @@ def main():
     out = "\n".join(header + a1_lines + ["---", ""] + a2_lines + ["---", ""] + a3_lines)
     REPORT_PATH.write_text(out)
     print(f"Wrote {REPORT_PATH}")
-    print(f"  Edges: {total_edges}  Nodes: {unique_nodes}  Modules loaded: {len(modules)}")
+    print(f"  Edges: {total_edges}  Nodes: {unique_nodes}  "
+          f"Components: {n_components}  Modules loaded: {len(modules)}")
 
 
 if __name__ == "__main__":

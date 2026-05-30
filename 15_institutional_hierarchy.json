@@ -317,7 +317,7 @@
   {
     "source_node": "University of Minnesota Open Heart Surgery Program",
     "source_node_type": "institution",
-    "target_node": "University of Minnesota",
+    "target_node": "University of Minnesota Department of Surgery",
     "target_node_type": "institution",
     "edge_type": "institutional_parent",
     "start_year": 1952,
@@ -327,12 +327,12 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17275843/",
     "confidence": "high",
-    "notes": "Structural parent-child relationship; child sub-unit operates within parent institution. Ongoing as of 2026. Evidence inherited from institutional_founder edge: PMID: 17275843."
+    "notes": "Structural parent-child relationship; child sub-unit operates within the University of Minnesota Department of Surgery. Ongoing as of 2026. [V10 re-parent 2026: target changed from 'University of Minnesota' (root) to 'University of Minnesota Department of Surgery' for correct 3-tier hierarchy Program->Department->University.] Evidence inherited from institutional_founder edge: PMID: 17275843."
   },
   {
     "source_node": "University of Minnesota Transplant Program",
     "source_node_type": "institution",
-    "target_node": "University of Minnesota",
+    "target_node": "University of Minnesota Department of Surgery",
     "target_node_type": "institution",
     "edge_type": "institutional_parent",
     "start_year": 1967,
@@ -342,7 +342,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "University of Minnesota Medical Archives",
     "confidence": "high",
-    "notes": "Structural parent-child relationship; child sub-unit operates within parent institution. Ongoing as of 2026. Evidence inherited from institutional_founder edge: UMN_Archive_Najarian_Transplant."
+    "notes": "Structural parent-child relationship; child sub-unit operates within the University of Minnesota Department of Surgery. Ongoing as of 2026. [V10 re-parent 2026: target changed from 'University of Minnesota' (root) to 'University of Minnesota Department of Surgery' for correct 3-tier hierarchy Program->Department->University.] Evidence inherited from institutional_founder edge: UMN_Archive_Najarian_Transplant."
   },
   {
     "source_node": "University of Pennsylvania Department of Surgery",
@@ -418,5 +418,80 @@
     "evidence_locator": "MSKCC Institutional Archives",
     "confidence": "high",
     "notes": "Structural parent-child relationship; child sub-unit operates within parent institution. Ongoing as of 2026. Evidence inherited from institutional_founder edge: MSK_Archive_Blumgart."
+  },
+  {
+    "source_node": "University of Minnesota Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "University of Minnesota",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1930,
+    "end_year": 2026,
+    "temporal_range": "1930-ongoing",
+    "evidence_citation": "PMID: 17972214",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17972214/",
+    "confidence": "high",
+    "notes": "[V10 Minnesota | route: 15_institutional_hierarchy] Structural parent-child relationship; the Department of Surgery operates within the University of Minnesota. Ongoing as of 2026. Department established 1906 per UMN archives; start_year anchored to earliest citable PMID (Wangensteen chairmanship, 1930). Evidence inherited from governance_leadership edge: PMID: 17972214."
+  },
+  {
+    "source_node": "Baylor College of Medicine Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "Baylor College of Medicine",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1948,
+    "end_year": 2026,
+    "temporal_range": "1948-ongoing",
+    "evidence_citation": "PMID: 28285665",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28285665/",
+    "confidence": "high",
+    "notes": "[V10 Baylor | route: 15_institutional_hierarchy] Structural parent-child relationship; the Department of Surgery operates within Baylor College of Medicine. Ongoing as of 2026. start_year anchored to DeBakey chairmanship (earliest citable PMID). CREATES NODE: Baylor College of Medicine (root institution). Evidence inherited from governance_leadership edge: PMID: 28285665."
+  },
+  {
+    "source_node": "Baylor College of Medicine Cardiovascular Surgery",
+    "source_node_type": "institution",
+    "target_node": "Baylor College of Medicine Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1948,
+    "end_year": 2026,
+    "temporal_range": "1948-ongoing",
+    "evidence_citation": "PMID: 28285665",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28285665/",
+    "confidence": "high",
+    "notes": "[V10 Baylor | route: 15_institutional_hierarchy] Structural parent-child relationship; cardiovascular surgery operates within the Baylor College of Medicine Department of Surgery. Ongoing as of 2026. ANCHORS a previously unparented sub-unit (it had no institutional_parent edge). Coselli JS (PMID 28285665) documents Baylor CT surgery within the Department of Surgery from 1948. The node 'Baylor College of Medicine Cardiovascular Surgery' is flagged for canonical descriptor rename ('...Division of Cardiovascular Surgery') in deferred cleanup. Evidence inherited from institutional_founder edge."
+  },
+  {
+    "source_node": "UC Davis Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "UC Davis",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1978,
+    "end_year": 2026,
+    "temporal_range": "1978-ongoing",
+    "evidence_citation": "PMID: 32649610",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32649610/",
+    "confidence": "high",
+    "notes": "[V10 UC Davis | route: 15_institutional_hierarchy] Structural parent-child relationship; the Department of Surgery operates within UC Davis. Ongoing as of 2026. CREATES NODE: UC Davis (root institution; canonical UC-system abbreviation matching existing UCSF/UCLA department nodes). UC Davis School of Medicine founded 1966; start_year anchored to earliest citable PMID (Blaisdell chairmanship, 1978, 'including its formative years'). Evidence inherited from governance_leadership edge: PMID: 32649610."
+  },
+  {
+    "source_node": "University of Illinois College of Medicine Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "University of Illinois College of Medicine",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1936,
+    "end_year": 2026,
+    "temporal_range": "1936-ongoing",
+    "evidence_citation": "PMID: 11685200",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/11685200/",
+    "confidence": "high",
+    "notes": "[V10 Illinois | route: 15_institutional_hierarchy] Structural parent-child relationship; the Department of Surgery operates within the University of Illinois College of Medicine. Ongoing as of 2026. start_year anchored to Cole's full-time chairmanship (earliest citable PMID, 1936); department existed earlier under part-time leadership. CREATES NODE: University of Illinois College of Medicine (root institution). Evidence inherited from governance_leadership edge: PMID: 11685200."
   }
 ]
