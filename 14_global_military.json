@@ -180,5 +180,50 @@
     "confidence": "high",
     "notes": "[Verified 2026-03-17 | World J Surg 1998 | content_match] Harvey Cushing visited Kocher's clinic in Bern during his European Wanderjahr (1900-1901), conducting experimental research on intracranial pressure that led to the Cushing-Kocher theory. This is one of the most documented observational visits in surgical history. Cushing was already a Halsted trainee at Hopkins (existing edge in graph). This creates a second pathway to Cushing: Langenbeck→Kocher→Cushing (observational) alongside the existing Halsted→Cushing (direct_training), forming a triangulated European-American bridge. Citation same as training edge.",
     "module": "14_global_military"
+  },
+  {
+    "source_node": "Norman T. Kirk",
+    "source_node_type": "person",
+    "target_node": "Sterling Bunnell",
+    "target_node_type": "person",
+    "edge_type": "governance_leadership",
+    "start_year": 1944,
+    "end_year": 1947,
+    "evidence_type": "PMID",
+    "evidence_citation": "PMID: 31813587",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31813587/",
+    "confidence": "high",
+    "notes": "Kirk, as Army Surgeon General, appointed Bunnell as civilian consultant to the Secretary of War to establish 9 Army hand surgery centers. Source: Rizzo M. How the US Army Forged Hand Surgery. J Hand Surg Am. 2020;45(6):556-561. TARGET MODULE: 14_global_military.json",
+    "temporal_range": "1944-1947"
+  },
+  {
+    "source_node": "Norman T. Kirk",
+    "source_node_type": "person",
+    "target_node": "Mobile Army Surgical Hospital (MASH) System",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1943,
+    "end_year": 1947,
+    "evidence_type": "PMID",
+    "evidence_citation": "PMID: 31813587",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31813587/",
+    "confidence": "moderate",
+    "notes": "Kirk served as U.S. Army Surgeon General 1943-1947, overseeing all military surgical operations including the MASH system established by DeBakey. Kirk was the first (and only) orthopaedic surgeon to serve as Army Surgeon General. Source: Rizzo M. How the US Army Forged Hand Surgery. J Hand Surg Am. 2020. Also: PMC Giants in Orthopaedic Surgery article (PMCID: PMC3825913). TARGET MODULE: 14_global_military.json",
+    "temporal_range": "1943-1947"
+  },
+  {
+    "source_node": "Norman T. Kirk",
+    "source_node_type": "person",
+    "target_node": "United States Army Hand Surgery Centers",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1944,
+    "end_year": 1947,
+    "evidence_type": "PMID",
+    "evidence_citation": "PMID: 31813587",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31813587/",
+    "confidence": "high",
+    "notes": "Kirk as Army Surgeon General established the 9 Army hand surgery centers, then appointed Bunnell to run the training programs. Source: Rizzo M. How the US Army Forged Hand Surgery. J Hand Surg Am. 2020;45(6):556-561. TARGET MODULE: 14_global_military.json",
+    "temporal_range": "1944-1947"
   }
 ]

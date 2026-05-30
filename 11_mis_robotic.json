@@ -12,7 +12,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16544065/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2006 | content_match] Morgenstern L. 'George Berci: past, present, and future.' Surg Endosc. 2006 May;20 Suppl 2:S493-4. Written by Leon Morgenstern, the Chair of Surgery at Cedars-Sinai who recruited Berci in 1967. Documents Berci's 'contributions to the art and science of endoscopy and laparoscopy' over 'nearly half a century.' Berci (1921-2024) was born in Szeged, Hungary, graduated University of Szeged 1950, fled during Hungarian Revolution 1956 on a Rockefeller Fellowship to Melbourne. In Australia he developed the first miniature endoscopic camera (1962). Recruited to Cedars-Sinai 1967 as visiting scholar, became director of the multidisciplinary surgical endoscopy unit ~1970, and remained active until his death at age 103. The program he founded was the first multidisciplinary surgical endoscopy division in the US. Berci goes from degree 1 (SAGES founder) to degree 2. This creates a West Coast institutional anchor for the MIS module — previously all US MIS nodes were Midwest/South (Ponsky/Cleveland, Reddick/Nashville).",
+    "notes": "[Verified 2026-03-17 | Surg Endosc 2006 | content_match] Morgenstern L. 'George Berci: past, present, and future.' Surg Endosc. 2006 May;20 Suppl 2:S493-4. Written by Leon Morgenstern, the Chair of Surgery at Cedars-Sinai who recruited Berci in 1967. Documents Berci's 'contributions to the art and science of endoscopy and laparoscopy' over 'nearly half a century.' Berci (1921-2024) was born in Szeged, Hungary, graduated University of Szeged 1950, fled during Hungarian Revolution 1956 on a Rockefeller Fellowship to Melbourne. In Australia he developed the first miniature endoscopic camera (1962). Recruited to Cedars-Sinai 1967 as visiting scholar, became director of the multidisciplinary surgical endoscopy unit ~1970, and remained active until his death at age 103. The program he founded was the first multidisciplinary surgical endoscopy division in the US. Berci goes from degree 1 (SAGES founder) to degree 2. This creates a West Coast institutional anchor for the MIS module \u2014 previously all US MIS nodes were Midwest/South (Ponsky/Cleveland, Reddick/Nashville).",
     "module": "11_mis_robotic"
   },
   {
@@ -142,5 +142,65 @@
     "confidence": "moderate",
     "notes": "Marescaux and IRCAD served as a primary international training hub integrated into SAGES educational programming, bridging European MIS innovation to the American governance framework.",
     "module": "11_mis_robotic"
+  },
+  {
+    "source_node": "Nathaniel J. Soper",
+    "source_node_type": "person",
+    "target_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 2000,
+    "end_year": 2001,
+    "temporal_range": "2000-2001",
+    "evidence_citation": "DOI: 10.1007/s00464-015-4524-z",
+    "evidence_type": "DOI",
+    "evidence_locator": "https://doi.org/10.1007/s00464-015-4524-z",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 11_mis_robotic. Soper served as SAGES President 2000-2001. Iowa MD, Utah residency (mentor Layton Rikkers), Mayo Clinic NIH fellowship (mentors Kelly and Sarr). One of the first academic surgeons performing laparoscopic surgery. Later Northwestern Surgery Chair 2007-2019, then Arizona Chair. Also past president SSAT. Corroborated by DOI: 10.1007/s00464-015-4524-z (Brunt 2015 SAGES presidential address). PMID upgrade candidate. V9 expansion Apr 2026. Upgraded from institutional_archive to DOI. Brunt LM. Surg Endosc. 2015;29:3423-3431 names Soper as SAGES past president and laparoscopic cholecystectomy course faculty. Apr 2026."
+  },
+  {
+    "source_node": "Lee L. Swanstrom",
+    "source_node_type": "person",
+    "target_node": "Society of American Gastrointestinal and Endoscopic Surgeons",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 2003,
+    "end_year": 2004,
+    "temporal_range": "2003-2004",
+    "evidence_citation": "DOI: 10.1007/s00464-015-4524-z",
+    "evidence_type": "DOI",
+    "evidence_locator": "https://doi.org/10.1007/s00464-015-4524-z",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 11_mis_robotic. Swanstrom served as SAGES President 2003-2004. Creighton MD 1983, Emanuel Hospital/OHSU residency, University of Western Ontario fellowship in surgical endoscopy. Co-created FLS program. Awarded George Berci Lifetime Achievement Award by SAGES. Also Chief Innovations Officer at IHU Strasbourg. Corroborated by DOI: 10.1007/s00464-015-4524-z (Brunt 2015). PMID upgrade candidate. V9 expansion Apr 2026. Upgraded from institutional_archive to DOI. Brunt LM. Surg Endosc. 2015;29:3423-3431 names Swanstrom as SAGES past president and laparoscopic cholecystectomy course faculty. Apr 2026."
+  },
+  {
+    "source_node": "Lee L. Swanstrom",
+    "source_node_type": "person",
+    "target_node": "Legacy Minimally Invasive Surgery Fellowship",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1993,
+    "end_year": 2019,
+    "temporal_range": "1993-2019",
+    "evidence_citation": "PMID: 16552191",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16552191/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 11_mis_robotic. Swanstrom established one of the first MIS fellowships in the US in 1993 at Legacy Health System, Portland OR. Program grew into the 'Swanstrom Fellowship,' now Providence Complex GI-Foregut Fellowship. Fellowship Council accredited. Swanstrom LL et al. Ann Surg. 2006;243(4):431-435 documents the fellowship landscape; Fellowship Council listing confirms founding. V9 expansion Apr 2026."
+  },
+  {
+    "source_node": "Philip R. Schauer",
+    "source_node_type": "person",
+    "target_node": "American Society for Metabolic and Bariatric Surgery",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 2006,
+    "end_year": 2007,
+    "temporal_range": "2006-2007",
+    "evidence_citation": "ASMBS_Past_Presidents",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://asmbs.org/about/asmbs-presidents/philip-r-schauer/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 11_mis_robotic. Schauer served as ASBS/ASMBS President 2006-2007; during his tenure ASBS was renamed ASMBS. Baylor MD 1986, UT San Antonio residency, Duke laparoscopic fellowship 1995 (one of the first). PI of STAMPEDE trial (NEJM 2012/2014/2017). Has trained over 200 postgraduate surgeons and 100 fellows (3 became ASMBS presidents). PMID upgrade candidate. V9 expansion Apr 2026."
   }
 ]

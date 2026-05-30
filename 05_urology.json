@@ -142,5 +142,52 @@
     "confidence": "high",
     "notes": "[Verified 2026-03-17 | Curr Top Microbiol Immunol 1986] Tran MGB, Bhatt NR. 'Profile of Ralph Victor Clayman, MD: Professor and Chair, Department of Urology University of California Irvine.' J Endourol. 2010 Dec;24(12):1873-5. PMC3015495. Clayman co-founded the Endourological Society (exact founding year 1984) with Arthur D. Smith of Long Island Jewish Medical Center. The society publishes the Journal of Endourology (co-edited by Clayman and Smith) and is the global professional body for minimally invasive urologic surgery. The society now has chapters on every continent. This follows the established graph pattern of surgeon-innovators founding professional societies to disseminate their techniques (paralleling SAGES, SIS, EAST). The Endourological Society is the urologic equivalent of SAGES in general surgery.",
     "module": "05_urology"
+  },
+  {
+    "source_node": "John Najarian",
+    "source_node_type": "person",
+    "target_node": "Ralph V. Clayman",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1973,
+    "end_year": 1979,
+    "evidence_type": "PMID",
+    "evidence_citation": "PMCID: PMC3015495",
+    "evidence_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3015495/",
+    "confidence": "high",
+    "notes": "Clayman completed general surgery and urology residency at University of Minnesota, 1973-1979. Najarian was Chair of Surgery at UMN (1967-1993). Clayman's general surgery preliminary training was under Najarian's department. Source: Profile of Ralph Victor Clayman, MD. J Endourol. 2010. PMCID: PMC3015495. TARGET MODULE: 05_urology.json",
+    "temporal_range": "1973-1979"
+  },
+  {
+    "source_node": "Patrick Walsh",
+    "source_node_type": "person",
+    "target_node": "Alan W. Partin",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1989,
+    "end_year": 1995,
+    "temporal_range": "1989-1995",
+    "evidence_citation": "PMCID: PMC11316887",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11316887/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 05_urology. Obituary: 'ALAN PARTIN, MD, PhD: 1961-2023.' PMC11316887. Partin earned his MD (1989) and PhD in pharmacology (1988) at Johns Hopkins. As a graduate student 'under the guidance of Patrick Walsh,' Partin published landmark prostate staging work. Completed urology residency at Hopkins (1989-1995), joined Brady faculty 1995. Walsh trained 62 residents total; 87% pursued academic urology; 23 became department directors. The Walsh→Partin chain extends the Hopkins urology lineage: Young→Brady→Walsh→Partin, creating a 4-generation institutional succession at a single department.",
+    "module": "05_urology"
+  },
+  {
+    "source_node": "Alan W. Partin",
+    "source_node_type": "person",
+    "target_node": "Brady Urological Institute",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 2004,
+    "end_year": 2022,
+    "temporal_range": "2004-2022",
+    "evidence_citation": "PMCID: PMC11316887",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11316887/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 05_urology. Partin was the 4th Brady director (after Young, Scott, Walsh), serving 2004-2022. Under his leadership the Brady doubled its research space and established the Greenberg Bladder Cancer Institute. Developed the Partin Tables — the first validated nomogram for prostate cancer staging. Published >600 papers, editor-in-chief of Urology journal, co-editor of Campbell-Walsh-Wein Urology textbook. Died March 2023 from glioblastoma at age 62. Succeeded by Mohamad Allaf (2022-present), also a Walsh trainee. Creates a closed loop: Hopkins trains → Brady director → trains next director, paralleling the Halsted→Hopkins pattern.",
+    "module": "05_urology"
   }
 ]

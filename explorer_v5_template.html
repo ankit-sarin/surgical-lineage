@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surgical Lineage Atlas</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+:root {
+  --ds-primary: #0A5E56;
+  --ds-primary-mid: #3D8B82;
+  --ds-primary-light: #DFF0ED;
+  --ds-dark: #2C2C2C;
+  --ds-accent: #B85D3A;
+  --ds-accent-light: #F2E0D6;
+  --ds-surface: #DFEBE9;
+  --ds-bg: #EEF5F4;
+  --ds-text: #2C2C2C;
+  --ds-text-muted: #6B6B6B;
+  --ds-border: #C5CDD6;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body {
+  font-family: 'IBM Plex Sans', Calibri, sans-serif;
+  background: var(--ds-bg);
+  color: var(--ds-text);
+}
+#app { display: flex; flex-direction: column; height: 100vh; }
+header {
+  background: var(--ds-primary);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  z-index: 10;
+}
+header .brand h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+header .stats {
+  display: flex;
+  gap: 18px;
+  font-family: 'IBM Plex Mono', Consolas, monospace;
+  font-size: 12px;
+  opacity: 0.85;
+}
+header .stats .stat-val { font-weight: 600; color: #fff; }
+.toolbar {
+  background: #fff;
+  border-bottom: 1px solid var(--ds-border);
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  font-size: 13px;
+}
+.toolbar label { font-weight: 500; color: var(--ds-text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+.toolbar select, .toolbar input[type="text"] {
+  border: 1px solid var(--ds-border);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: inherit;
+  font-size: 13px;
+  background: #fff;
+  color: var(--ds-text);
+}
+.toolbar input[type="text"] { width: 160px; }
+.toolbar .sep { width: 1px; height: 24px; background: var(--ds-border); }
+.toolbar button {
+  background: var(--ds-surface);
+  border: 1px solid var(--ds-border);
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--ds-text);
+}
+.toolbar button:hover { background: var(--ds-primary-light); }
+.toolbar button.toggle-active {
+  background: var(--ds-primary);
+  color: #fff;
+  border-color: var(--ds-primary);
+}
+.node-toggles { display: flex; gap: 6px; }
+.node-toggle {
+  display: flex; align-items: center; gap: 4px;
+  padding: 3px 8px; border-radius: 4px;
+  cursor: pointer; font-size: 12px; font-weight: 500;
+  border: 2px solid transparent;
+  user-select: none;
+}
+.node-toggle.active { border-color: currentColor; }
+.node-toggle .dot { width: 10px; height: 10px; border-radius: 50%; }
+.main { display: flex; flex: 1; overflow: hidden; position: relative; }
+#graph-container { flex: 1; position: relative; overflow: hidden; background: var(--ds-bg); }
+svg { width: 100%; height: 100%; }
+.panel {
+  width: 360px;
+  background: #fff;
+  border-left: 1px solid var(--ds-border);
+  overflow-y: auto;
+  flex-shrink: 0;
+  transition: margin-right 0.25s ease;
+  padding: 0;
+}
+.panel.hidden { margin-right: -360px; }
+.panel-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--ds-border);
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+}
+.panel-header h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ds-dark);
+  line-height: 1.3;
+  margin-bottom: 6px;
+  padding-right: 30px;
+}
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.badge-person { background: var(--ds-primary); color: #fff; }
+.badge-institution { background: var(--ds-accent); color: #fff; }
+.badge-society { background: var(--ds-dark); color: #fff; }
+.panel-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--ds-text-muted);
+  line-height: 1;
+}
+.panel-body { padding: 16px; }
+.conn-group { margin-bottom: 14px; }
+.conn-group h3 {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ds-primary);
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--ds-primary-light);
+}
+.conn-item {
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.conn-item:last-child { border-bottom: none; }
+.conn-link {
+  color: var(--ds-primary);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+.conn-link:hover { text-decoration: underline; }
+.conn-meta { font-size: 11px; color: var(--ds-text-muted); margin-top: 2px; }
+.conn-notes { font-size: 11px; color: var(--ds-text-muted); font-style: italic; margin-top: 2px; }
+.ev-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.ev-badge-pmid { background: var(--ds-primary); color: #fff; }
+.ev-badge-doi { background: var(--ds-primary-mid); color: #fff; }
+.ev-badge-archive { background: #d0d0d0; color: #666; }
+.legend {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: rgba(255,255,255,0.95);
+  border: 1px solid var(--ds-border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 11px;
+  z-index: 5;
+  max-width: 240px;
+}
+.legend h4 {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--ds-dark);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(44,44,44,0.92);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 20;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.tooltip.show { opacity: 1; }
+.edge-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(44,44,44,0.95);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 20;
+  max-width: 360px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  line-height: 1.5;
+}
+.edge-tooltip.show { opacity: 1; }
+.edge-tooltip .et-label { font-weight: 600; color: var(--ds-primary-light); }
+.edge-tooltip .et-ev { font-size: 10px; opacity: 0.75; margin-top: 2px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand"><h1>Surgical Lineage Atlas</h1></div>
+    <div class="stats">
+      <span><span class="stat-val">394</span> edges</span>
+      <span><span class="stat-val">323</span> nodes</span>
+      <span><span class="stat-val">174</span> persons</span>
+      <span><span class="stat-val">95</span> institutions</span>
+      <span><span class="stat-val">54</span> societies</span>
+    </div>
+  </header>
+  <div class="toolbar">
+    <div class="node-toggles">
+      <div class="node-toggle active" data-type="person" style="color: var(--ds-primary);">
+        <span class="dot" style="background: var(--ds-primary);"></span> Person
+      </div>
+      <div class="node-toggle active" data-type="institution" style="color: var(--ds-accent);">
+        <span class="dot" style="background: var(--ds-accent);"></span> Institution
+      </div>
+      <div class="node-toggle active" data-type="society" style="color: var(--ds-dark);">
+        <span class="dot" style="background: var(--ds-dark);"></span> Society
+      </div>
+    </div>
+    <div class="sep"></div>
+    <label>Edge</label>
+    <select id="edgeFilter">
+      <option value="all">All Types</option>
+      <option value="direct_training">Training</option>
+      <option value="institutional_founder">Inst. Founding</option>
+      <option value="society_founder">Society Founding</option>
+      <option value="governance_leadership">Governance</option>
+      <option value="programmatic_accreditation">Accreditation</option>
+      <option value="institutional_succession">Succession</option>
+      <option value="observational_study">Observational</option>
+    </select>
+    <div class="sep"></div>
+    <label>Era</label>
+    <select id="eraFilter">
+      <option value="all">All Eras</option>
+      <option value="pre1900">Pre-1900</option>
+      <option value="1900-1950">1900–1950</option>
+      <option value="1950-2000">1950–2000</option>
+      <option value="2000+">2000+</option>
+    </select>
+    <div class="sep"></div>
+    <label>Module</label>
+    <select id="moduleFilter">
+      <option value="all">All Modules</option>
+    </select>
+    <div class="sep"></div>
+    <input type="text" id="searchBox" placeholder="Search nodes…">
+    <div class="sep"></div>
+    <button id="evidenceBtn">Evidence</button>
+    <div class="sep"></div>
+    <button id="resetBtn">Reset</button>
+    <button id="fitBtn">Fit View</button>
+  </div>
+  <div class="main">
+    <div id="graph-container">
+      <div class="tooltip" id="tooltip"></div>
+      <div class="edge-tooltip" id="edgeTooltip"></div>
+      <div class="legend">
+        <h4>Nodes</h4>
+        <div class="legend-item"><span class="legend-dot" style="background:#0A5E56;"></span> Person</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#B85D3A;"></span> Institution</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#2C2C2C;"></span> Society</div>
+        <h4 style="margin-top:10px;">Edges</h4>
+        <div class="legend-item"><svg width="24" height="8"><line x1="0" y1="4" x2="24" y2="4" stroke="#0A5E56" stroke-width="2"/></svg> Training / Observational</div>
+        <div class="legend-item"><svg width="24" height="8"><line x1="0" y1="4" x2="24" y2="4" stroke="#B85D3A" stroke-width="2" stroke-dasharray="6,3"/></svg> Founding</div>
+        <div class="legend-item"><svg width="24" height="8"><line x1="0" y1="4" x2="24" y2="4" stroke="#6B6B6B" stroke-width="2" stroke-dasharray="2,3"/></svg> Governance</div>
+        <div class="legend-item"><svg width="24" height="8"><line x1="0" y1="4" x2="24" y2="4" stroke="#3D8B82" stroke-width="2" stroke-dasharray="8,3,2,3"/></svg> Accreditation / Succession</div>
+      </div>
+    </div>
+    <div class="panel hidden" id="panel">
+      <div class="panel-header">
+        <button class="panel-close" id="panelClose">&times;</button>
+        <h2 id="panelName"></h2>
+        <span class="badge" id="panelBadge"></span>
+      </div>
+      <div class="panel-body" id="panelBody"></div>
+    </div>
+  </div>
+</div>
+
+<script type="application/json" id="graph-data">PLACEHOLDER</script>
+<script>
+(function() {
+  "use strict";
+
+  var graphData = JSON.parse(document.getElementById("graph-data").textContent);
+
+  var EDGE_LABELS = {
+    direct_training:           { forward: "Trained",        reverse: "Trained by" },
+    institutional_founder:     { forward: "Founded",        reverse: "Founded by" },
+    society_founder:           { forward: "Founded",        reverse: "Founded by" },
+    governance_leadership:     { forward: "Led / governed", reverse: "Governed by" },
+    programmatic_accreditation:{ forward: "Accredits",      reverse: "Accredited by" },
+    institutional_succession:  { forward: "Succeeded by",   reverse: "Succeeded" },
+    observational_study:       { forward: "Studied under",  reverse: "Influenced" }
+  };
+
+  var MODULE_LABELS = {
+    "01_halsted_core": "Halsted Core",
+    "02_general_surgery_spread": "General Surgery Spread",
+    "03_neurosurgery": "Neurosurgery",
+    "04_cardiothoracic_vascular": "Cardiothoracic / Vascular",
+    "05_urology": "Urology",
+    "06_orthopedics": "Orthopedics",
+    "07_oncology_trials": "Oncology & Trials",
+    "08_subspecialties": "Subspecialties",
+    "09_trauma_acute_infection": "Trauma & Acute Care",
+    "10_quality_outcomes": "Quality & Outcomes",
+    "11_mis_robotic": "MIS & Robotic",
+    "12_governance_societies": "Governance & Societies",
+    "13_pre_halsted": "Pre-Halsted",
+    "14_global_military": "Global & Military"
+  };
+
+  var modSel = document.getElementById("moduleFilter");
+  Object.keys(MODULE_LABELS).sort().forEach(function(k) {
+    var o = document.createElement("option");
+    o.value = k; o.textContent = MODULE_LABELS[k];
+    modSel.appendChild(o);
+  });
+
+  var NODE_COLORS = { person: "#0A5E56", institution: "#B85D3A", society: "#2C2C2C" };
+
+  function edgeColor(t) {
+    if (t === "direct_training" || t === "observational_study") return "#0A5E56";
+    if (t === "institutional_founder" || t === "society_founder") return "#B85D3A";
+    if (t === "governance_leadership") return "#6B6B6B";
+    return "#3D8B82";
+  }
+  function edgeDash(t) {
+    if (t === "direct_training" || t === "observational_study") return "";
+    if (t === "institutional_founder" || t === "society_founder") return "6,3";
+    if (t === "governance_leadership") return "2,3";
+    return "8,3,2,3";
+  }
+
+  // ── Degree + radius ──
+  var degree = [];
+  graphData.nodes.forEach(function(n, i) { degree[i] = n.degree || 0; });
+
+  function nodeRadius(i) { return Math.max(4, Math.sqrt(degree[i] || 1) * 3.2); }
+
+  // ── Label font size: logarithmic with degree ──
+  function labelFontSize(i) {
+    var d = degree[i] || 1;
+    return Math.min(12, Math.max(8, 6 + Math.log2(d + 1) * 1.4));
+  }
+
+  // ── STATE ──
+  var activeTypes = { person: true, institution: true, society: true };
+  var selectedNode = null;
+  var evidenceMode = false;
+  var currentScale = 1;
+
+  // ── Two-tier label thresholds ──
+  function labelConfig() {
+    if (currentScale < 0.3) return { minDeg: 8, useShort: true };
+    if (currentScale < 0.6) return { minDeg: 5, useShort: true };
+    if (currentScale < 1.0) return { minDeg: 3, useShort: true };
+    if (currentScale < 1.8) return { minDeg: 2, useShort: true };
+    return { minDeg: 1, useShort: currentScale < 3.0 ? false : false };
+  }
+
+  // ── Visibility helpers ──
+  function getVal(id) { return document.getElementById(id).value; }
+
+  function isNodeVisible(d) { return activeTypes[d.type]; }
+
+  function isLinkVisible(l) {
+    var sn = graphData.nodes[getIdx(l.source)];
+    var tn = graphData.nodes[getIdx(l.target)];
+    if (!isNodeVisible(sn) || !isNodeVisible(tn)) return false;
+    var ef = getVal("edgeFilter");
+    if (ef !== "all" && l.edge_type !== ef) return false;
+    var era = getVal("eraFilter");
+    if (era !== "all") {
+      var sy = l.start_year;
+      if (era === "pre1900" && sy >= 1900) return false;
+      if (era === "1900-1950" && (sy < 1900 || sy >= 1950)) return false;
+      if (era === "1950-2000" && (sy < 1950 || sy >= 2000)) return false;
+      if (era === "2000+" && sy < 2000) return false;
+    }
+    var mf = getVal("moduleFilter");
+    if (mf !== "all" && l.module !== mf) return false;
+    return true;
+  }
+
+  // ── D3 SETUP ──
+  var container = document.getElementById("graph-container");
+  var W = container.clientWidth, H = container.clientHeight;
+  var svg = d3.select("#graph-container").append("svg").attr("width", W).attr("height", H);
+
+  var defs = svg.append("defs");
+  ["#0A5E56","#B85D3A","#6B6B6B","#3D8B82"].forEach(function(c) {
+    defs.append("marker")
+      .attr("id", "arrow-" + c.replace("#",""))
+      .attr("viewBox", "0 0 10 6")
+      .attr("refX", 10).attr("refY", 3)
+      .attr("markerWidth", 8).attr("markerHeight", 6)
+      .attr("orient", "auto")
+      .append("path").attr("d", "M0,0 L10,3 L0,6 Z").attr("fill", c).attr("opacity", 0.7);
+  });
+
+  var gMain = svg.append("g");
+  var zoomBehavior = d3.zoom().scaleExtent([0.05, 8]).on("zoom", function(e) {
+    gMain.attr("transform", e.transform);
+    currentScale = e.transform.k;
+    updateLabels();
+  });
+  svg.call(zoomBehavior);
+
+  var hitG = gMain.append("g");
+  var linkG = gMain.append("g");
+  var nodeG = gMain.append("g");
+  var labelG = gMain.append("g");
+
+  var link = linkG.selectAll("line")
+    .data(graphData.links).join("line")
+    .attr("stroke", function(d) { return edgeColor(d.edge_type); })
+    .attr("stroke-width", 1.5)
+    .attr("stroke-dasharray", function(d) { return edgeDash(d.edge_type); })
+    .attr("stroke-opacity", 0.5)
+    .attr("marker-end", function(d) { return "url(#arrow-" + edgeColor(d.edge_type).replace("#","") + ")"; });
+
+  var hitLine = hitG.selectAll("line")
+    .data(graphData.links).join("line")
+    .attr("stroke", "transparent")
+    .attr("stroke-width", 12)
+    .style("cursor", "pointer");
+
+  var nodeCircle = nodeG.selectAll("circle")
+    .data(graphData.nodes).join("circle")
+    .attr("r", function(d, i) { return nodeRadius(i); })
+    .attr("fill", function(d) { return NODE_COLORS[d.type]; })
+    .attr("stroke", "#fff")
+    .attr("stroke-width", 1.2)
+    .attr("cursor", "pointer");
+
+  var labelText = labelG.selectAll("text")
+    .data(graphData.nodes).join("text")
+    .attr("font-family", "'IBM Plex Sans', sans-serif")
+    .attr("fill", "#2C2C2C")
+    .attr("text-anchor", "middle")
+    .attr("pointer-events", "none")
+    .each(function(d, i) {
+      var el = d3.select(this);
+      el.attr("font-size", labelFontSize(i));
+      if (d.type === "institution") el.attr("font-style", "italic");
+      if (d.type === "society") {
+        el.style("font-variant", "small-caps");
+        el.attr("font-weight", "500");
+      }
+    });
+
+  // ── Label text + collision avoidance ──
+  var neighborSets = [];
+  graphData.nodes.forEach(function() { neighborSets.push(new Set()); });
+  graphData.links.forEach(function(l) {
+    var si = typeof l.source === "object" ? l.source.index : l.source;
+    var ti = typeof l.target === "object" ? l.target.index : l.target;
+    neighborSets[si].add(ti);
+    neighborSets[ti].add(si);
+  });
+
+  function updateLabels() {
+    var cfg = labelConfig();
+    var q = getVal("searchBox").toLowerCase().trim();
+
+    // Determine which labels should be visible
+    var visible = [];
+    graphData.nodes.forEach(function(d, i) {
+      if (!isNodeVisible(d)) { visible[i] = false; return; }
+      if (q && d.id.toLowerCase().includes(q)) { visible[i] = true; return; }
+      if (selectedNode !== null && (i === selectedNode || neighborSets[selectedNode].has(i))) {
+        visible[i] = true; return;
+      }
+      visible[i] = degree[i] >= cfg.minDeg;
+    });
+
+    // Set label text
+    labelText.each(function(d, i) {
+      if (!visible[i]) { d3.select(this).attr("opacity", 0); return; }
+      var txt;
+      if (cfg.useShort) {
+        txt = d.label_short || d.id;
+      } else {
+        txt = d.id.length > 36 ? d.id.substring(0, 34) + "\u2026" : d.id;
+      }
+      d3.select(this).text(txt);
+    });
+
+    // Simple collision avoidance: project to screen, hide lower-degree overlaps
+    if (currentScale > 0.15) {
+      var bboxes = [];
+      labelText.each(function(d, i) {
+        if (!visible[i]) return;
+        var nd = graphData.nodes[i];
+        if (!nd.x) return;
+        var sx = nd.x * currentScale;
+        var sy = nd.y * currentScale;
+        var fs = labelFontSize(i);
+        var txtLen = (d3.select(this).text() || "").length;
+        var approxW = txtLen * fs * 0.55;
+        var approxH = fs * 1.3;
+        bboxes.push({
+          idx: i,
+          x: sx - approxW / 2,
+          y: sy - nodeRadius(i) * currentScale - approxH - 2,
+          w: approxW,
+          h: approxH,
+          deg: degree[i]
+        });
+      });
+
+      // Sort by degree descending
+      bboxes.sort(function(a, b) { return b.deg - a.deg; });
+
+      var placed = [];
+      var hidden = new Set();
+      bboxes.forEach(function(bb) {
+        var overlap = false;
+        for (var j = 0; j < placed.length; j++) {
+          var p = placed[j];
+          if (bb.x < p.x + p.w && bb.x + bb.w > p.x &&
+              bb.y < p.y + p.h && bb.y + bb.h > p.y) {
+            overlap = true;
+            break;
+          }
+        }
+        if (overlap) {
+          hidden.add(bb.idx);
+        } else {
+          placed.push(bb);
+        }
+      });
+
+      labelText.each(function(d, i) {
+        if (!visible[i]) return;
+        if (hidden.has(i)) {
+          d3.select(this).attr("opacity", 0);
+        } else {
+          d3.select(this).attr("opacity", 1);
+        }
+      });
+    } else {
+      labelText.each(function(d, i) {
+        d3.select(this).attr("opacity", visible[i] ? 1 : 0);
+      });
+    }
+  }
+
+  // ── SIMULATION ──
+  var simulation = d3.forceSimulation(graphData.nodes)
+    .force("link", d3.forceLink(graphData.links).id(function(d, i) { return i; }).distance(60))
+    .force("charge", d3.forceManyBody().strength(-120).distanceMax(500))
+    .force("center", d3.forceCenter(W / 2, H / 2))
+    .force("collision", d3.forceCollide().radius(function(d, i) { return nodeRadius(i) + 4; }))
+    .force("x", d3.forceX(W / 2).strength(0.04))
+    .force("y", d3.forceY(H / 2).strength(0.04))
+    .alphaDecay(0.02)
+    .on("tick", ticked);
+
+  function getIdx(ref) { return typeof ref === "object" ? ref.index : ref; }
+
+  function ticked() {
+    link.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) {
+        var dx = d.target.x - d.source.x, dy = d.target.y - d.source.y;
+        var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        var r = nodeRadius(getIdx(d.target));
+        return d.target.x - (dx / dist) * (r + 4);
+      })
+      .attr("y2", function(d) {
+        var dx = d.target.x - d.source.x, dy = d.target.y - d.source.y;
+        var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+        var r = nodeRadius(getIdx(d.target));
+        return d.target.y - (dy / dist) * (r + 4);
+      });
+    hitLine.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+    nodeCircle.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+
+    labelText.attr("x", function(d) { return d.x; })
+      .attr("y", function(d, i) { return d.y - nodeRadius(i) - 4; });
+  }
+
+  // ── DRAG ──
+  nodeCircle.call(d3.drag()
+    .on("start", function(e, d) {
+      if (!e.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x; d.fy = d.y;
+    })
+    .on("drag", function(e, d) { d.fx = e.x; d.fy = e.y; })
+    .on("end", function(e, d) {
+      if (!e.active) simulation.alphaTarget(0);
+      d.fx = null; d.fy = null;
+    })
+  );
+
+  // ── TOOLTIPS ──
+  var tooltip = document.getElementById("tooltip");
+  var edgeTooltip = document.getElementById("edgeTooltip");
+
+  nodeCircle.on("mouseover", function(e, d) {
+    tooltip.textContent = d.id;
+    tooltip.className = "tooltip show";
+    tooltip.style.left = (e.offsetX + 14) + "px";
+    tooltip.style.top = (e.offsetY - 10) + "px";
+  }).on("mousemove", function(e) {
+    tooltip.style.left = (e.offsetX + 14) + "px";
+    tooltip.style.top = (e.offsetY - 10) + "px";
+  }).on("mouseout", function() {
+    tooltip.className = "tooltip";
+  });
+
+  hitLine.on("mouseover", function(e, d) {
+    var lbl = EDGE_LABELS[d.edge_type] || { forward: d.edge_type };
+    var evBadge = d.evidence_type === "PMID" ? "PMID" : d.evidence_type === "DOI" ? "DOI" : "Archive";
+    edgeTooltip.innerHTML =
+      '<span class="et-label">' + d.source_name + ' → ' + d.target_name + '</span><br>' +
+      lbl.forward + ' · ' + d.temporal_range +
+      (d.confidence ? ' · ' + d.confidence : '') +
+      '<div class="et-ev">' + evBadge + ': ' + d.evidence_citation + '</div>' +
+      (d.notes ? '<div style="margin-top:4px;font-size:11px;opacity:0.8;max-width:340px;white-space:normal;">' +
+        (d.notes.length > 200 ? d.notes.substring(0, 200) + '…' : d.notes) + '</div>' : '');
+    edgeTooltip.className = "edge-tooltip show";
+    edgeTooltip.style.left = (e.offsetX + 14) + "px";
+    edgeTooltip.style.top = (e.offsetY - 10) + "px";
+  }).on("mousemove", function(e) {
+    edgeTooltip.style.left = (e.offsetX + 14) + "px";
+    edgeTooltip.style.top = (e.offsetY - 10) + "px";
+  }).on("mouseout", function() {
+    edgeTooltip.className = "edge-tooltip";
+  });
+
+  // ── NODE CLICK → DETAIL PANEL ──
+  nodeCircle.on("click", function(e, d) {
+    e.stopPropagation();
+    var idx = graphData.nodes.indexOf(d);
+    selectNode(idx);
+  });
+
+  svg.on("click", function() { deselectNode(); });
+
+  function selectNode(idx) {
+    selectedNode = idx;
+    var d = graphData.nodes[idx];
+    var panelEl = document.getElementById("panel");
+    panelEl.classList.remove("hidden");
+    document.getElementById("panelName").textContent = d.id;
+    var badge = document.getElementById("panelBadge");
+    badge.textContent = d.type;
+    badge.className = "badge badge-" + d.type;
+
+    // Group connections
+    var conns = {};
+    graphData.links.forEach(function(l) {
+      var si = getIdx(l.source), ti = getIdx(l.target);
+      if (si !== idx && ti !== idx) return;
+      var lbl = EDGE_LABELS[l.edge_type] || { forward: l.edge_type, reverse: l.edge_type };
+      var isSource = si === idx;
+      var label = isSource ? lbl.forward : lbl.reverse;
+      var otherIdx = isSource ? ti : si;
+      var otherNode = graphData.nodes[otherIdx];
+      if (!conns[label]) conns[label] = [];
+      conns[label].push({
+        name: otherNode.id,
+        idx: otherIdx,
+        type: otherNode.type,
+        range: l.temporal_range,
+        notes: l.notes || "",
+        evidence_type: l.evidence_type,
+        evidence_citation: l.evidence_citation
+      });
+    });
+
+    var body = document.getElementById("panelBody");
+    body.innerHTML = "";
+    Object.keys(conns).forEach(function(label) {
+      var grp = document.createElement("div");
+      grp.className = "conn-group";
+      grp.innerHTML = '<h3>' + label + '</h3>';
+      conns[label].forEach(function(c) {
+        var evClass = (c.evidence_type === "PMID" || c.evidence_type === "DOI") ? "ev-badge-pmid" : "ev-badge-archive";
+        var evLabel = c.evidence_type === "PMID" ? "PMID" : c.evidence_type === "DOI" ? "DOI" : "Archive";
+        var item = document.createElement("div");
+        item.className = "conn-item";
+        item.innerHTML =
+          '<span class="conn-link" data-idx="' + c.idx + '">' + c.name + '</span>' +
+          '<span class="ev-badge ' + evClass + '">' + evLabel + '</span>' +
+          '<div class="conn-meta">' + c.range + ' · ' + c.evidence_citation + '</div>' +
+          (c.notes ? '<div class="conn-notes">' +
+            (c.notes.length > 180 ? c.notes.substring(0, 180) + '…' : c.notes) + '</div>' : '');
+        grp.appendChild(item);
+      });
+      body.appendChild(grp);
+    });
+
+    // Clickable links in panel
+    body.querySelectorAll(".conn-link").forEach(function(el) {
+      el.addEventListener("click", function() {
+        var target = parseInt(this.getAttribute("data-idx"));
+        selectNode(target);
+        var nd = graphData.nodes[target];
+        if (nd.x && nd.y) {
+          svg.transition().duration(500).call(
+            zoomBehavior.transform,
+            d3.zoomIdentity.translate(W / 2 - nd.x * currentScale, H / 2 - nd.y * currentScale).scale(currentScale)
+          );
+        }
+      });
+    });
+
+    // Highlight selected node
+    nodeCircle.attr("stroke", function(nd, i) {
+      if (i === idx) return "#B85D3A";
+      if (neighborSets[idx].has(i)) return "#0A5E56";
+      return "#fff";
+    }).attr("stroke-width", function(nd, i) {
+      if (i === idx) return 3;
+      if (neighborSets[idx].has(i)) return 2;
+      return 1.2;
+    });
+
+    link.attr("stroke-opacity", function(l) {
+      var si = getIdx(l.source), ti = getIdx(l.target);
+      if (si === idx || ti === idx) return 0.85;
+      return 0.12;
+    }).attr("stroke-width", function(l) {
+      var si = getIdx(l.source), ti = getIdx(l.target);
+      if (si === idx || ti === idx) return 2.5;
+      return 1.5;
+    });
+
+    updateLabels();
+  }
+
+  function deselectNode() {
+    selectedNode = null;
+    document.getElementById("panel").classList.add("hidden");
+    nodeCircle.attr("stroke", "#fff").attr("stroke-width", 1.2);
+    link.attr("stroke-opacity", 0.5).attr("stroke-width", 1.5);
+    applyEvidence();
+    updateLabels();
+  }
+
+  document.getElementById("panelClose").addEventListener("click", deselectNode);
+
+  // ── EVIDENCE TOGGLE ──
+  document.getElementById("evidenceBtn").addEventListener("click", function() {
+    evidenceMode = !evidenceMode;
+    this.classList.toggle("toggle-active", evidenceMode);
+    applyEvidence();
+  });
+
+  function applyEvidence() {
+    if (selectedNode !== null) return; // don't override selection highlighting
+    if (evidenceMode) {
+      link.attr("stroke-opacity", function(d) {
+        return (d.evidence_type === "PMID" || d.evidence_type === "DOI") ? 0.7 : 0.18;
+      }).attr("stroke-dasharray", function(d) {
+        if (d.evidence_type === "institutional_archive") return "3,4";
+        return edgeDash(d.edge_type);
+      });
+    } else {
+      link.attr("stroke-opacity", 0.5)
+        .attr("stroke-dasharray", function(d) { return edgeDash(d.edge_type); });
+    }
+  }
+
+  // ── FILTERS ──
+  function applyFilters() {
+    if (selectedNode !== null) deselectNode();
+
+    nodeCircle.attr("opacity", function(d) { return isNodeVisible(d) ? 1 : 0; })
+      .attr("pointer-events", function(d) { return isNodeVisible(d) ? "all" : "none"; });
+
+    link.attr("display", function(d) { return isLinkVisible(d) ? null : "none"; });
+    hitLine.attr("display", function(d) { return isLinkVisible(d) ? null : "none"; });
+
+    // Search highlighting
+    var q = getVal("searchBox").toLowerCase().trim();
+    if (q) {
+      nodeCircle.attr("opacity", function(d) {
+        if (!isNodeVisible(d)) return 0;
+        return d.id.toLowerCase().includes(q) ? 1 : 0.15;
+      });
+    }
+
+    updateLabels();
+    applyEvidence();
+  }
+
+  // Node toggles
+  document.querySelectorAll(".node-toggle").forEach(function(el) {
+    el.addEventListener("click", function() {
+      var type = this.getAttribute("data-type");
+      activeTypes[type] = !activeTypes[type];
+      this.classList.toggle("active", activeTypes[type]);
+      applyFilters();
+    });
+  });
+
+  document.getElementById("edgeFilter").addEventListener("change", applyFilters);
+  document.getElementById("eraFilter").addEventListener("change", applyFilters);
+  document.getElementById("moduleFilter").addEventListener("change", applyFilters);
+  document.getElementById("searchBox").addEventListener("input", applyFilters);
+
+  // ── RESET & FIT ──
+  document.getElementById("resetBtn").addEventListener("click", function() {
+    document.getElementById("edgeFilter").value = "all";
+    document.getElementById("eraFilter").value = "all";
+    document.getElementById("moduleFilter").value = "all";
+    document.getElementById("searchBox").value = "";
+    activeTypes = { person: true, institution: true, society: true };
+    document.querySelectorAll(".node-toggle").forEach(function(el) { el.classList.add("active"); });
+    evidenceMode = false;
+    document.getElementById("evidenceBtn").classList.remove("toggle-active");
+    deselectNode();
+    applyFilters();
+    svg.transition().duration(500).call(zoomBehavior.transform, d3.zoomIdentity.translate(0, 0).scale(1));
+  });
+
+  document.getElementById("fitBtn").addEventListener("click", function() {
+    var xMin = Infinity, xMax = -Infinity, yMin = Infinity, yMax = -Infinity;
+    graphData.nodes.forEach(function(d) {
+      if (!isNodeVisible(d) || !d.x) return;
+      if (d.x < xMin) xMin = d.x;
+      if (d.x > xMax) xMax = d.x;
+      if (d.y < yMin) yMin = d.y;
+      if (d.y > yMax) yMax = d.y;
+    });
+    if (xMin === Infinity) return;
+    var pad = 60;
+    var dx = xMax - xMin + pad * 2;
+    var dy = yMax - yMin + pad * 2;
+    var scale = Math.min(W / dx, H / dy, 2);
+    var cx = (xMin + xMax) / 2;
+    var cy = (yMin + yMax) / 2;
+    svg.transition().duration(600).call(
+      zoomBehavior.transform,
+      d3.zoomIdentity.translate(W / 2 - cx * scale, H / 2 - cy * scale).scale(scale)
+    );
+  });
+
+  // Initial label update
+  updateLabels();
+
+})();
+</script>
+</body>
+</html>

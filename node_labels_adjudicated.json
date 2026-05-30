@@ -1792,10 +1792,10 @@
     "reviewed": true
   },
   {
-    "id": "Charité Berlin Department of Surgery",
+    "id": "Charit\u00e9 Berlin Department of Surgery",
     "type": "institution",
     "degree": 1,
-    "label_short": "Charité Surgery",
+    "label_short": "Charit\u00e9 Surgery",
     "label_short_source": "default",
     "reviewed": true
   },
@@ -2064,7 +2064,7 @@
     "reviewed": true
   },
   {
-    "id": "Johns Hopkins Neurosurgical Intensive Care Unit",
+    "id": "Johns Hopkins Hospital Department of Neurosurgery",
     "type": "institution",
     "degree": 1,
     "label_short": "Hopkins Neuro ICU",
@@ -2582,5 +2582,389 @@
     "label_short": "Sutherland",
     "label_short_source": "v6_auto",
     "reviewed": true
+  },
+  {
+    "id": "Joseph S. Coselli",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Coselli",
+    "label_short_source": "v8_manual",
+    "reviewed": true
+  },
+  {
+    "id": "Alan W. Partin",
+    "type": "person",
+    "degree": 2,
+    "label_short": "Partin",
+    "label_short_source": "v8_manual",
+    "reviewed": true
+  },
+  {
+    "id": "Kathryn D. Anderson",
+    "type": "person",
+    "degree": 3,
+    "label_short": "K. Anderson",
+    "label_short_source": "v8_manual",
+    "reviewed": true
+  },
+  {
+    "id": "Children's Hospital Los Angeles Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "CHLA Surgery",
+    "label_short_source": "v8_manual",
+    "reviewed": true
+  },
+  {
+    "id": "A. Earl Walker",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "American Pediatric Surgical Association",
+    "type": "society",
+    "degree": 4,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Byron Stookey",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Charles Elsberg",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Charles Frazier",
+    "type": "person",
+    "degree": 4,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Cleveland Clinic",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Cleveland Clinic Department of General Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Curtice Rosser",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Donlin M. Long",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Ernest Sachs",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Feza H. Remzi",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Francis Grant",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Henry Schwartz",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "John J. Fung",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Johns Hopkins Hospital",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Johns Hopkins Hospital Neurosurgery Residency Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Joint Commission on Accreditation of Hospitals",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Joseph M. Mathews",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Lee L. Swanstrom",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Legacy Minimally Invasive Surgery Fellowship",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Lucien L. Leape",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Massachusetts General Hospital",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Max Peet",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Mayo Clinic",
+    "type": "institution",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "NYU Langone Inflammatory Bowel Disease Center",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Nathaniel J. Soper",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Neurological Institute of New York",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Norman T. Kirk",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Peter Bent Brigham Hospital",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Philip R. Schauer",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Rudolph Matas",
+    "type": "person",
+    "degree": 5,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Scott R. Steele",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Theodore Rasmussen",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Tulane University Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Chicago Medicine Transplant Institute",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Colorado Department of Surgery",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Miami",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Miami Transplant Program",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Minnesota",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Pennsylvania",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Pennsylvania Department of Neurosurgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Pittsburgh",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Washington University",
+    "type": "institution",
+    "degree": 4,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Washington University Department of Neurosurgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
   }
 ]

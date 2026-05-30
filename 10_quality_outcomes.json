@@ -87,7 +87,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Institutional historical records; biographical sources",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 9122554 to institutional_archive on 2026-03-17 — no PubMed source found] Kehlet founded the study group based on his pioneering research into multimodal surgical rehabilitation, challenging traditional perioperative dogma."
+    "notes": "[Phase2 downgraded from PMID: 9122554 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] Kehlet founded the study group based on his pioneering research into multimodal surgical rehabilitation, challenging traditional perioperative dogma."
   },
   {
     "source_node": "VA National Surgical Quality Improvement Program",
@@ -102,7 +102,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "ACS National Surgical Quality Improvement Program Historical Records",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 18650631 to institutional_archive on 2026-03-17 — no PubMed source found] The methodology developed within the VA system was successfully transitioned and scaled into the private sector under the governance of the American College of Surgeons."
+    "notes": "[Phase2 downgraded from PMID: 18650631 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] The methodology developed within the VA system was successfully transitioned and scaled into the private sector under the governance of the American College of Surgeons."
   },
   {
     "source_node": "American College of Surgeons",
@@ -147,7 +147,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "SAGES FLS Program (flsprogram.org); SAGES Wiki (sages.org/wiki/fundamentals-laparoscopic-surgery/); PMC5732857",
     "confidence": "high",
-    "notes": "SAGES developed and launched the Fundamentals of Laparoscopic Surgery (FLS) program in 2004 as a comprehensive educational and assessment tool for basic laparoscopic skills. The FLS committee was originally formed by SAGES in 1990 to develop educational materials. The program incorporated the McGill Inanimate System for Training and Evaluation of Laparoscopic Skills (MISTELS) as its manual skills component. ACS joined SAGES in 2005 as a joint educational partner. FLS is designed to be non-procedure-specific and applicable across all surgical specialties using laparoscopy. Since 2004, over 13,000 surgeons have successfully completed the FLS examination. FLS became the first simulation-based assessment tool mandated for board certification in any surgical specialty — a paradigm shift in surgical education from time-based to competency-based training."
+    "notes": "SAGES developed and launched the Fundamentals of Laparoscopic Surgery (FLS) program in 2004 as a comprehensive educational and assessment tool for basic laparoscopic skills. The FLS committee was originally formed by SAGES in 1990 to develop educational materials. The program incorporated the McGill Inanimate System for Training and Evaluation of Laparoscopic Skills (MISTELS) as its manual skills component. ACS joined SAGES in 2005 as a joint educational partner. FLS is designed to be non-procedure-specific and applicable across all surgical specialties using laparoscopy. Since 2004, over 13,000 surgeons have successfully completed the FLS examination. FLS became the first simulation-based assessment tool mandated for board certification in any surgical specialty \u2014 a paradigm shift in surgical education from time-based to competency-based training."
   },
   {
     "source_node": "David Flum",
@@ -282,7 +282,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/24317546/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2014 | content_match] The Fundamentals of Endoscopic Surgery (FES) program was created by SAGES as the flexible endoscopy equivalent of the Fundamentals of Laparoscopic Surgery (FLS) program. FES is a comprehensive educational and assessment tool designed to teach and evaluate the fundamental knowledge, clinical judgment, and technical skills required in the performance of basic gastrointestinal flexible endoscopy. FES uses a virtual reality simulator (GI Bronch Mentor or GI Express) for the manual skills assessment, unlike FLS which uses a physical box trainer. The FES program was developed in collaboration with the ABS, ASCRS, ASMBS, and SSAT. SAGES launched FES publicly in 2014 and it was subsequently mandated by the ABS as part of the ABS Flexible Endoscopy Curriculum. Source: Marks JM et al. Why fundamentals of endoscopic surgery (FES)? Surg Endosc. 2014;28(3):701-703. This edge parallels the SAGES→FLS (2004) edge already in the graph."
+    "notes": "[Verified 2026-03-17 | Surg Endosc 2014 | content_match] The Fundamentals of Endoscopic Surgery (FES) program was created by SAGES as the flexible endoscopy equivalent of the Fundamentals of Laparoscopic Surgery (FLS) program. FES is a comprehensive educational and assessment tool designed to teach and evaluate the fundamental knowledge, clinical judgment, and technical skills required in the performance of basic gastrointestinal flexible endoscopy. FES uses a virtual reality simulator (GI Bronch Mentor or GI Express) for the manual skills assessment, unlike FLS which uses a physical box trainer. The FES program was developed in collaboration with the ABS, ASCRS, ASMBS, and SSAT. SAGES launched FES publicly in 2014 and it was subsequently mandated by the ABS as part of the ABS Flexible Endoscopy Curriculum. Source: Marks JM et al. Why fundamentals of endoscopic surgery (FES)? Surg Endosc. 2014;28(3):701-703. This edge parallels the SAGES\u2192FLS (2004) edge already in the graph."
   },
   {
     "source_node": "ERAS Society",
@@ -312,7 +312,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "https://www.absurgery.org/get-certified/general-surgery/flexible-endoscopy-curriculum/; https://www.fesprogram.org/fes-required-american-board-surgery/",
     "confidence": "high",
-    "notes": "Beginning with the 2017-2018 academic year, the American Board of Surgery required all general surgery certification candidates to have completed the ABS Flexible Endoscopy Curriculum, which includes successful completion of the FES program as its Level V milestone. The ABS Flexible Endoscopy Curriculum was developed by the ABS in collaboration with SAGES, ASCRS, ASMBS, and SSAT. This is the second simulation-based assessment mandated by the ABS for board certification, following FLS (mandated 2009, already in graph as FLS→ABS edge). Together, the FLS→ABS (2009) and FES→ABS (2018) edges document the ABS's progressive incorporation of simulation-based competency assessment into board certification — a fundamental shift in how surgical competence is evaluated. Source: ABS Flexible Endoscopy Curriculum official page and SAGES press release, March 2014."
+    "notes": "Beginning with the 2017-2018 academic year, the American Board of Surgery required all general surgery certification candidates to have completed the ABS Flexible Endoscopy Curriculum, which includes successful completion of the FES program as its Level V milestone. The ABS Flexible Endoscopy Curriculum was developed by the ABS in collaboration with SAGES, ASCRS, ASMBS, and SSAT. This is the second simulation-based assessment mandated by the ABS for board certification, following FLS (mandated 2009, already in graph as FLS\u2192ABS edge). Together, the FLS\u2192ABS (2009) and FES\u2192ABS (2018) edges document the ABS's progressive incorporation of simulation-based competency assessment into board certification \u2014 a fundamental shift in how surgical competence is evaluated. Source: ABS Flexible Endoscopy Curriculum official page and SAGES press release, March 2014."
   },
   {
     "source_node": "American College of Surgeons",
@@ -327,6 +327,21 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "ACS Geriatric Surgery Verification Program (facs.org/quality-programs/accreditation-and-verification/geriatric-surgery-verification/); Optimal Resources for Geriatric Surgery 2019 Standards",
     "confidence": "high",
-    "notes": "The ACS Geriatric Surgery Verification (GSV) Program launched in July 2019 with 30 evidence-based standards for optimizing surgical care of older adults. Developed by the ACS Geriatric Surgery Task Force in collaboration with over 50 stakeholder organizations and supported by the John A. Hartford Foundation. The ACS GSV Pilot Project (2014-2019) used ACS NSQIP infrastructure to collect geriatric-specific variables across 23 hospitals. In January 2025, CMS mandated reporting on the Age-Friendly Hospital Measure, and GSV created a new 'Age-Friendly Level' to align with this requirement. The GSV represents the newest evolution of the ACS quality verification model: COT Verification (trauma, 1987) → NSQIP (outcomes, 2004) → TQIP (trauma quality, 2008) → MBSAQIP (bariatric, 2012) → GSV (geriatric, 2019). This edge is the most recent in the entire graph (2019) and brings the temporal range into the 2020s via the CMS alignment."
+    "notes": "The ACS Geriatric Surgery Verification (GSV) Program launched in July 2019 with 30 evidence-based standards for optimizing surgical care of older adults. Developed by the ACS Geriatric Surgery Task Force in collaboration with over 50 stakeholder organizations and supported by the John A. Hartford Foundation. The ACS GSV Pilot Project (2014-2019) used ACS NSQIP infrastructure to collect geriatric-specific variables across 23 hospitals. In January 2025, CMS mandated reporting on the Age-Friendly Hospital Measure, and GSV created a new 'Age-Friendly Level' to align with this requirement. The GSV represents the newest evolution of the ACS quality verification model: COT Verification (trauma, 1987) \u2192 NSQIP (outcomes, 2004) \u2192 TQIP (trauma quality, 2008) \u2192 MBSAQIP (bariatric, 2012) \u2192 GSV (geriatric, 2019). This edge is the most recent in the entire graph (2019) and brings the temporal range into the 2020s via the CMS alignment."
+  },
+  {
+    "source_node": "American College of Surgeons",
+    "source_node_type": "society",
+    "target_node": "Joint Commission on Accreditation of Hospitals",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1951,
+    "end_year": 1951,
+    "temporal_range": "1951",
+    "evidence_citation": "PMID: 28447899",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/28447899/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 10_quality_outcomes. ACS Hospital Standardization Program (est. 1913 by Codman) evolved into the Joint Commission on Accreditation of Hospitals in 1951, co-founded with ACP, AHA, AMA, and CMA. JCAH renamed JCAHO 1987, then The Joint Commission 2007. Codman already in graph with governance_leadership\u2192ACS edge \u2014 this edge completes the quality-improvement lineage from Codman\u2192ACS\u2192JCAH. Gruver AL et al. Arch Pathol Lab Med. 2017. V9 expansion Apr 2026."
   }
 ]

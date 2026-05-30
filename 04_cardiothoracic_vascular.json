@@ -12,7 +12,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Peter Bent Brigham Peripheral Vascular Clinic Historical Records",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 — no PubMed source found] Homans established one of the first dedicated clinics for peripheral vascular disease, formally separating it from general surgical wards.",
+    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] Homans established one of the first dedicated clinics for peripheral vascular disease, formally separating it from general surgical wards.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -28,7 +28,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Institutional historical records; biographical sources",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 21173278 to institutional_archive on 2026-03-17 — no PubMed source found] Meyer organized the founding meeting of the AATS, establishing the oldest cardiothoracic society in the world.",
+    "notes": "[Phase2 downgraded from PMID: 21173278 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] Meyer organized the founding meeting of the AATS, establishing the oldest cardiothoracic society in the world.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -92,7 +92,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Johns Hopkins Sheridan Libraries Exhibits (exhibits.library.jhu.edu/exhibits/show/the-blue-baby-operation/helen-taussig); Blalock A, Taussig HB. JAMA. 1945;128(3):189-202",
     "confidence": "high",
-    "notes": "Helen Brooke Taussig (1898-1986), founder of pediatric cardiology, approached surgeon Alfred Blalock in 1943 with the conceptual insight that children with tetralogy of Fallot ('blue babies') could be helped by surgically increasing blood flow to the lungs. In a conversation with Blalock and pediatrician-in-chief Edwards Park, Taussig proposed connecting a systemic artery to the pulmonary artery — the conceptual foundation for the Blalock-Thomas-Taussig shunt. Blalock and his laboratory technician Vivien Thomas then developed and perfected the procedure in approximately 200 experimental animal operations before performing the first human operation on November 29, 1944. Taussig was responsible for diagnosis and pre/postoperative care of these patients. She and Blalock co-published the landmark 1945 JAMA paper. By 1951, the team had operated on over 1,000 children with a 5% mortality rate. Taussig is modeled as an observational_study edge rather than direct_training because her contribution was diagnostic and conceptual collaboration, not a formal training relationship. She was a pediatric cardiologist (not a surgeon), but the graph already includes non-surgeons in analogous collaborative roles (Henrik Kehlet as anesthesiologist, Bernard Fisher as trialist). Taussig also later led the campaign to ban thalidomide in the United States. She received the Medal of Freedom, the Lasker Award, and the French Chevalier Legion d'Honneur. End_year of 1964 reflects Blalock's death.",
+    "notes": "Helen Brooke Taussig (1898-1986), founder of pediatric cardiology, approached surgeon Alfred Blalock in 1943 with the conceptual insight that children with tetralogy of Fallot ('blue babies') could be helped by surgically increasing blood flow to the lungs. In a conversation with Blalock and pediatrician-in-chief Edwards Park, Taussig proposed connecting a systemic artery to the pulmonary artery \u2014 the conceptual foundation for the Blalock-Thomas-Taussig shunt. Blalock and his laboratory technician Vivien Thomas then developed and perfected the procedure in approximately 200 experimental animal operations before performing the first human operation on November 29, 1944. Taussig was responsible for diagnosis and pre/postoperative care of these patients. She and Blalock co-published the landmark 1945 JAMA paper. By 1951, the team had operated on over 1,000 children with a 5% mortality rate. Taussig is modeled as an observational_study edge rather than direct_training because her contribution was diagnostic and conceptual collaboration, not a formal training relationship. She was a pediatric cardiologist (not a surgeon), but the graph already includes non-surgeons in analogous collaborative roles (Henrik Kehlet as anesthesiologist, Bernard Fisher as trialist). Taussig also later led the campaign to ban thalidomide in the United States. She received the Medal of Freedom, the Lasker Award, and the French Chevalier Legion d'Honneur. End_year of 1964 reflects Blalock's death.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -156,7 +156,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 18693427 to institutional_archive on 2026-03-17 — no PubMed source found] DeBakey established and scaled the modern cardiovascular department at Baylor. [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Winters WL. 'Houston Hearts: A History of Cardiovascular Surgery and Medicine.' Documents DeBakey's arrival at Baylor in 1948, recruitment of Cooley (1951), Crawford (1954), and creation of the cardiovascular surgery program.",
+    "notes": "[Phase2 downgraded from PMID: 18693427 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] DeBakey established and scaled the modern cardiovascular department at Baylor. [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Winters WL. 'Houston Hearts: A History of Cardiovascular Surgery and Medicine.' Documents DeBakey's arrival at Baylor in 1948, recruitment of Cooley (1951), Crawford (1954), and creation of the cardiovascular surgery program.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -216,11 +216,11 @@
     "start_year": 1962,
     "end_year": 2016,
     "temporal_range": "1962-2016",
-    "evidence_citation": "THI_Archive_Founder",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Texas Heart Institute Historical Archives",
+    "evidence_citation": "PMID: 18941593",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18941593/",
     "confidence": "high",
-    "notes": "Following the professional split at Baylor, Cooley founded THI as a parallel institutional powerhouse.",
+    "notes": "[V8 upgraded institutional_archive -> PMID: PMID: 18941593 on 2026-03-31] Cooley DA. 'A brief history of the Texas Heart Institute.' Tex Heart Inst J. 2008;35(3):235-9. PMC2565532. First-person account by Cooley documenting THI founding on August 3, 1962, charter filed in Austin, affiliation with St. Luke's Episcopal Hospital and Texas Children's Hospital. Describes fundraising, Ray C. Fish Foundation $5M gift, building completion in 1972. Following the professional split at Baylor, Cooley founded THI as a parallel institutional powerhouse.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -268,7 +268,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Institutional historical records; biographical sources",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 21173278 to institutional_archive on 2026-03-17 — no PubMed source found] The STS was founded in part as a complement to the AATS, and the two societies maintain shared governance of cardiothoracic training standards and journal publications.",
+    "notes": "[Phase2 downgraded from PMID: 21173278 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] The STS was founded in part as a complement to the AATS, and the two societies maintain shared governance of cardiothoracic training standards and journal publications.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -316,7 +316,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/7014403/",
     "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 10456202 -> PMID: 7014403 on 2026-03-17] [Verified 2026-03-17 | Fortschr Med 1981 | content_match] Stinson EB. 'Pioneering heart transplantation: Norman E. Shumway.' Transplant Proc. 1999 Feb-Mar;31(1-2):51-3. Documents Shumway as chairman of the Department of Cardiovascular Surgery at Stanford University (1974-1993). Shumway (1923-2006) trained under Wangensteen at Minnesota (already in graph), pioneered hypothermic cardiac arrest, performed the first adult heart transplant in the US (1968), and directed the Stanford heart transplant program (already in graph as institutional_founder). This edge connects the existing Stanford Heart Transplant Program node to the Stanford Department of Surgery node — two currently isolated Stanford institutional nodes are now bridged through Shumway's governance of both. Stanford Department of Surgery goes from degree 1 (Holman, 1925) to degree 2, gaining its first post-1925 edge.",
+    "notes": "[Phase2 replaced PMID: 10456202 -> PMID: 7014403 on 2026-03-17] [Verified 2026-03-17 | Fortschr Med 1981 | content_match] Stinson EB. 'Pioneering heart transplantation: Norman E. Shumway.' Transplant Proc. 1999 Feb-Mar;31(1-2):51-3. Documents Shumway as chairman of the Department of Cardiovascular Surgery at Stanford University (1974-1993). Shumway (1923-2006) trained under Wangensteen at Minnesota (already in graph), pioneered hypothermic cardiac arrest, performed the first adult heart transplant in the US (1968), and directed the Stanford heart transplant program (already in graph as institutional_founder). This edge connects the existing Stanford Heart Transplant Program node to the Stanford Department of Surgery node \u2014 two currently isolated Stanford institutional nodes are now bridged through Shumway's governance of both. Stanford Department of Surgery goes from degree 1 (Holman, 1925) to degree 2, gaining its first post-1925 edge.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -360,11 +360,11 @@
     "start_year": 1982,
     "end_year": 1983,
     "temporal_range": "1982-1983",
-    "evidence_citation": "UTHealth_Archive_Safi",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "UTHealth Houston McGovern Medical School Archives",
+    "evidence_citation": "PMID: 27751576",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/27751576/",
     "confidence": "high",
-    "notes": "Safi trained under Crawford at Baylor, later succeeding his lineage by establishing the dedicated comprehensive aortic center at UTHealth.",
+    "notes": "[V8 upgraded institutional_archive -> PMID: PMID: 27751576 on 2026-03-31] Hittinger SA, Theruvath TP, Ikonomidis JS. 'Historical perspectives of The American Association for Thoracic Surgery: Joseph S. Coselli, MD.' J Thorac Cardiovasc Surg. 2017;153(1):2-5. States 'Safi changed institutions, leaving Coselli to run Crawford's service on his own' \u2014 confirming Safi as Crawford associate at Baylor before departing to found UTHealth CT department in 1999. Additionally, multiple biographical sources (HCA Houston, Audible Bleeding podcast) confirm 'studying under Dr. Michael DeBakey and Dr. Stanley Crawford' at Baylor CT residency 1977-1983. Safi trained under Crawford at Baylor, later succeeding his lineage by establishing the dedicated comprehensive aortic center at UTHealth.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -428,7 +428,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/",
     "confidence": "high",
-    "notes": "H. Edward Garrett Sr. 'joined the Department of Surgery faculty after completing his training in general and thoracic surgery at Baylor College of Medicine under the direction of Dr. Michael E. DeBakey' per the Baylor History of Leadership page. In 1964, Garrett performed the first successful coronary artery bypass graft and subsequently published the first series of bypass operations for lower leg arteries. This operation — arguably the most consequential procedure in modern cardiovascular surgery — was performed by a DeBakey trainee using techniques developed under DeBakey's mentorship. Exact residency start date approximated from career timeline. [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] States 'Dr. Ed Garrett completed his cardiovascular surgical training at Baylor and joined the DeBakey staff' and 'in 1964 performed the first aorta-to-coronary artery bypass.' BCM History of Leadership confirms training under DeBakey.",
+    "notes": "H. Edward Garrett Sr. 'joined the Department of Surgery faculty after completing his training in general and thoracic surgery at Baylor College of Medicine under the direction of Dr. Michael E. DeBakey' per the Baylor History of Leadership page. In 1964, Garrett performed the first successful coronary artery bypass graft and subsequently published the first series of bypass operations for lower leg arteries. This operation \u2014 arguably the most consequential procedure in modern cardiovascular surgery \u2014 was performed by a DeBakey trainee using techniques developed under DeBakey's mentorship. Exact residency start date approximated from career timeline. [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] States 'Dr. Ed Garrett completed his cardiovascular surgical training at Baylor and joined the DeBakey staff' and 'in 1964 performed the first aorta-to-coronary artery bypass.' BCM History of Leadership confirms training under DeBakey.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -444,7 +444,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/26635916/",
     "confidence": "high",
-    "notes": "Oscar Creech Jr. (MD Jefferson Medical College 1941, residency Tulane) joined DeBakey at Baylor University College of Medicine in 1949, one of DeBakey's earliest recruits along with Cooley and Morris. Cooley's memorial for DeBakey (Tex Heart Inst J 2008) names Creech among the founding Baylor surgery staff: 'His early staff included me and Drs. Oscar Creech, B.W. Haynes, and John Howard.' Creech served at Baylor until 1956, then returned to Tulane University as professor and chair of the Department of Surgery, thereby extending the DeBakey lineage back to the Ochsner/Tulane trunk from which DeBakey himself originated — creating a Hopkins-like bidirectional circuit (Ochsner trained DeBakey at Tulane; DeBakey trained Creech at Baylor; Creech returned to lead Tulane). [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Names 'Oscar Creech Jr. (1949)' as one of DeBakey's first associates at Baylor. BCM History of Leadership confirms Creech joined DeBakey in 1949.",
+    "notes": "Oscar Creech Jr. (MD Jefferson Medical College 1941, residency Tulane) joined DeBakey at Baylor University College of Medicine in 1949, one of DeBakey's earliest recruits along with Cooley and Morris. Cooley's memorial for DeBakey (Tex Heart Inst J 2008) names Creech among the founding Baylor surgery staff: 'His early staff included me and Drs. Oscar Creech, B.W. Haynes, and John Howard.' Creech served at Baylor until 1956, then returned to Tulane University as professor and chair of the Department of Surgery, thereby extending the DeBakey lineage back to the Ochsner/Tulane trunk from which DeBakey himself originated \u2014 creating a Hopkins-like bidirectional circuit (Ochsner trained DeBakey at Tulane; DeBakey trained Creech at Baylor; Creech returned to lead Tulane). [Phase2 upgraded institutional_archive -> PMID: 26635916 on 2026-03-18] [Verified 2026-03-18 | Methodist Debakey Cardiovasc J 2015 | content_match] Names 'Oscar Creech Jr. (1949)' as one of DeBakey's first associates at Baylor. BCM History of Leadership confirms Creech joined DeBakey in 1949.",
     "module": "04_cardiothoracic_vascular"
   },
   {
@@ -478,5 +478,51 @@
     "confidence": "high",
     "notes": "Kouchoukos trained in CT surgery under Kirklin at UAB. Holman et al. (Semin Thorac Cardiovasc Surg 2020) names him among Kirklin's UAB trainees. Kouchoukos became co-author of the 3rd edition of Kirklin/Barratt-Boyes Cardiac Surgery (2003) and a leading aortic surgeon at Washington University.",
     "module": "04_cardiothoracic_vascular"
+  },
+  {
+    "source_node": "E. Stanley Crawford",
+    "source_node_type": "person",
+    "target_node": "Joseph S. Coselli",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1984,
+    "end_year": 1991,
+    "temporal_range": "1984-1991",
+    "evidence_citation": "PMID: 27751576",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/27751576/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 04_cardiothoracic_vascular. Hittinger SA, Theruvath TP, Ikonomidis JS. 'Historical perspectives of The American Association for Thoracic Surgery: Joseph S. Coselli, MD.' J Thorac Cardiovasc Surg. 2017;153(1):2-5. Coselli completed general surgery residency (1977-82) and CT surgery fellowship (1982-84) at Baylor under DeBakey, then became Crawford's junior associate. Crawford personally recruited him: 'When you finish, if you elect to, come on board.' After Crawford's death in January 1991, Coselli continued Crawford's aortic surgery legacy as chief of CT surgery at Baylor. Has performed >10,000 aortic repairs including >3,600 thoracoabdominal. This extends the DeBakey\u2192Crawford\u2192Coselli chain to three generations and adds the Baylor aortic surgery succession.",
+    "module": "04_cardiothoracic_vascular"
+  },
+  {
+    "source_node": "Rudolph Matas",
+    "source_node_type": "person",
+    "target_node": "Tulane University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1895,
+    "end_year": 1927,
+    "temporal_range": "1895-1927",
+    "evidence_citation": "PMID: 35412399",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35412399/",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 04_cardiothoracic_vascular. Matas appointed Chair of Surgery at Tulane at age 35 (1895), held position 32 years until emeritus 1927. Called 'Father of Vascular Surgery' by William Osler. Pioneer of endoaneurysmorrhaphy. First Tulane and New Orleans node in graph. Field RJ. Am Surg. 2022;88(5):823-827. V9 expansion Apr 2026."
+  },
+  {
+    "source_node": "Rudolph Matas",
+    "source_node_type": "person",
+    "target_node": "American Association for Thoracic Surgery",
+    "target_node_type": "society",
+    "edge_type": "society_founder",
+    "start_year": 1917,
+    "end_year": 1919,
+    "temporal_range": "1917-1919",
+    "evidence_citation": "NLM_AATS_Finding_Aid",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://findingaids.nlm.nih.gov/repositories/ammp/resources/aats",
+    "confidence": "high",
+    "notes": "TARGET MODULE: 04_cardiothoracic_vascular. Matas was one of 50 founding members of AATS at AMA Annual Meeting June 7 1917, served as 3rd President in 1919. NLM Archives confirm founding membership. Joins Willy Meyer as second AATS co-founder edge. PMID upgrade candidate: JTCVS 1996 Matas biography. V9 expansion Apr 2026."
   }
 ]

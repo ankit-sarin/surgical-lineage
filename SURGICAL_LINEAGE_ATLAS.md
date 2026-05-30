@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The Surgical Lineage Atlas is a knowledge graph mapping the training lineages, institutional founding chains, governance networks, and programmatic accreditation relationships of American surgery. The graph spans 1777 (John Hunter training Henry Cline in London) through 2019 (ACS Geriatric Surgery Verification Program), with the primary American corpus beginning in 1805 (Physick's appointment as first professor of surgery at the University of Pennsylvania). The graph contains 394 edges connecting 323 nodes across three node types (person, institution, society) and seven edge types. Construction occurred in five build phases: the original build (source files 01–39, 196 edges) established the Halstedian lineage, major subspecialties, and governance structures; the gap closure phase (source files 40–54, 53 edges) extended the graph to independent non-Halstedian trunks, women in surgery, neurosurgery and urology expansion, the academic society pipeline, pre-Halsted Philadelphia surgery, and modern-era quality programs; the V3 expansion (8 expansion files, 6 upgrade manifests) added 27 edges and 16 citation upgrades covering kidney transplant origins, women's training lineages, URM depth, acute care surgery formalization, West Coast institutional depth, and MIS-governance bridging; the V4 expansion (7 update files) added 17 new edges, applied 7 PMID citation upgrades, corrected the Churchill training lineage, and bridged 4 disconnected components; the V5 expansion (25 expansion files from two planning sessions) added 65 new edges, 1 citation upgrade, and 2 PMID corrections, extending major training trees (Sabiston, Blalock, DeBakey, Wangensteen), adding institutional depth (UCSF, Stanford, Vanderbilt, Emory, Michigan, Hopkins modern succession), bridging 5 small-island components, and adding pre-Halsted and subspecialty lineages. A four-phase citation verification pipeline (Phase 1 existence, Phase 1.5 content-match, Phase 1.75 candidate search, Phase 2 adjudicated repair) replaced 52 incorrect PMIDs/DOIs, downgraded 32 unverifiable citations to institutional_archive, and deleted 4 unverifiable edges. The corpus was consolidated from 50 source files into 14 thematic modules on 2026-03-15, expanded to V3 and V4 on 2026-03-16, to V5 on 2026-03-17, citation-verified on 2026-03-17, Phase 2.5 citation-upgraded on 2026-03-18, and V6 training-tree extended on 2026-03-18.
+The Surgical Lineage Atlas is a knowledge graph mapping the training lineages, institutional founding chains, governance networks, and programmatic accreditation relationships of American surgery. The graph spans 1777 (John Hunter training Henry Cline in London) through 2019 (ACS Geriatric Surgery Verification Program), with the primary American corpus beginning in 1805 (Physick's appointment as first professor of surgery at the University of Pennsylvania). The graph contains 452 edges connecting 361 nodes across three node types (person, institution, society) and seven edge types. Construction occurred in five build phases: the original build (source files 01–39, 196 edges) established the Halstedian lineage, major subspecialties, and governance structures; the gap closure phase (source files 40–54, 53 edges) extended the graph to independent non-Halstedian trunks, women in surgery, neurosurgery and urology expansion, the academic society pipeline, pre-Halsted Philadelphia surgery, and modern-era quality programs; the V3 expansion (8 expansion files, 6 upgrade manifests) added 27 edges and 16 citation upgrades covering kidney transplant origins, women's training lineages, URM depth, acute care surgery formalization, West Coast institutional depth, and MIS-governance bridging; the V4 expansion (7 update files) added 17 new edges, applied 7 PMID citation upgrades, corrected the Churchill training lineage, and bridged 4 disconnected components; the V5 expansion (25 expansion files from two planning sessions) added 65 new edges, 1 citation upgrade, and 2 PMID corrections, extending major training trees (Sabiston, Blalock, DeBakey, Wangensteen), adding institutional depth (UCSF, Stanford, Vanderbilt, Emory, Michigan, Hopkins modern succession), bridging 5 small-island components, and adding pre-Halsted and subspecialty lineages. A four-phase citation verification pipeline (Phase 1 existence, Phase 1.5 content-match, Phase 1.75 candidate search, Phase 2 adjudicated repair) replaced 52 incorrect PMIDs/DOIs, downgraded 32 unverifiable citations to institutional_archive, and deleted 4 unverifiable edges. The corpus was consolidated from 50 source files into 14 thematic modules on 2026-03-15, expanded to V3 and V4 on 2026-03-16, to V5 on 2026-03-17, citation-verified on 2026-03-17, Phase 2.5 citation-upgraded on 2026-03-18, V6 training-tree extended on 2026-03-18, and V9 expansion (Matas, MIS leaders, APSA, JCAH, neurosurgery founders, ASCRS chain) on 2026-04-05.
 
 ## 2. Schema Reference
 
@@ -30,49 +30,49 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 
 | Type | Description | Count |
 |------|-------------|-------|
-| `person` | Individual surgeons, physicians, scientists | 174 |
-| `institution` | Departments of surgery, hospitals, research programs, clinics | 95 |
-| `society` | Professional societies, certification boards, associations | 54 |
+| `person` | Individual surgeons, physicians, scientists | 198 |
+| `institution` | Departments of surgery, hospitals, research programs, clinics | 108 |
+| `society` | Professional societies, certification boards, associations | 55 |
 
 ### Edge Types
 
 | Type | Definition | Count |
 |------|-----------|-------|
-| `direct_training` | Formal residency or fellowship training relationship | 112 |
-| `governance_leadership` | Served in a leadership role (president, chair, director) | 93 |
-| `institutional_founder` | Founded or established an institution | 83 |
-| `society_founder` | Founded a professional society or board | 54 |
+| `direct_training` | Formal residency or fellowship training relationship | 126 |
+| `governance_leadership` | Served in a leadership role (president, chair, director) | 121 |
+| `institutional_founder` | Founded or established an institution | 91 |
+| `society_founder` | Founded a professional society or board | 61 |
 | `programmatic_accreditation` | One organization accredits, oversees, or mandates another | 24 |
 | `institutional_succession` | One institution evolved into or was replaced by another | 18 |
-| `observational_study` | Observership, visiting scholar, or peer-to-peer knowledge exchange | 10 |
+| `observational_study` | Observership, visiting scholar, or peer-to-peer knowledge exchange | 11 |
 
 ### Evidence Types
 
 | Type | Description | Count |
 |------|-------------|-------|
-| `PMID` | PubMed-indexed publication | 217 |
-| `institutional_archive` | Institutional archive, registry, or official history | 167 |
-| `DOI` | Digital Object Identifier | 10 |
+| `PMID` | PubMed-indexed publication | 270 |
+| `institutional_archive` | Institutional archive, registry, or official history | 170 |
+| `DOI` | Digital Object Identifier | 12 |
 
 ## 3. Module Index
 
 | File | Thematic Scope | Edges | Key Figures / Institutions |
 |------|---------------|------:|---------------------------|
 | `01_halsted_core.json` | Halsted, his direct trainees, and Hopkins founding | 15 | Halsted, Cushing, Blalock, Young, Finney |
-| `02_general_surgery_spread.json` | How Halstedian surgery spread to major US institutions | 106 | Wangensteen, Sabiston, Starzl, Kirklin, Najarian, Drew, Leffall, Howard, Churchill, Austen, MGH, Murray, Moore, Cole, Jonasson, Debas, Freischlag, Pellegrini, Flint, Richardson, Bollinger, Chitwood, Cox, Elkin, Scott, Rhoads, Zollinger, Silen, Mattox, Mannick, Sutherland, Callender |
-| `03_neurosurgery.json` | Cushing and downstream neurosurgical lineage and societies | 15 | Cushing, Dandy, Penfield, Semmes, AANS |
-| `04_cardiothoracic_vascular.json` | Cardiac, thoracic, and vascular surgery | 30 | Graham, DeBakey, Shumway, SVS, AATS, Taussig, Morrow, Braunwald, Reemtsma, DeAnda, Pacifico, Kouchoukos |
-| `05_urology.json` | Urology from independent NY trunk through Hopkins convergence | 9 | Guiteras, Young, Walsh, Clayman, AUA, ABU, Endourological Society |
+| `02_general_surgery_spread.json` | How Halstedian surgery spread to major US institutions | 112 | Wangensteen, Sabiston, Starzl, Kirklin, Najarian, Drew, Leffall, Howard, Churchill, Austen, MGH, Murray, Moore, Cole, Jonasson, Debas, Freischlag, Pellegrini, Flint, Richardson, Bollinger, Chitwood, Cox, Elkin, Scott, Rhoads, Zollinger, Silen, Mattox, Mannick, Sutherland, Callender |
+| `03_neurosurgery.json` | Cushing and downstream neurosurgical lineage and societies | 32 | Cushing, Dandy, Penfield, Semmes, Frazier, Elsberg, Sachs, AANS |
+| `04_cardiothoracic_vascular.json` | Cardiac, thoracic, and vascular surgery | 33 | Graham, DeBakey, Shumway, SVS, AATS, Taussig, Morrow, Braunwald, Reemtsma, DeAnda, Pacifico, Kouchoukos, Matas |
+| `05_urology.json` | Urology from independent NY trunk through Hopkins convergence | 12 | Guiteras, Young, Walsh, Clayman, AUA, ABU, Endourological Society |
 | `06_orthopedics.json` | Orthopedic surgery — independent non-Halstedian trunk | 12 | Gibney, Campbell, Charnley, Coventry, HSS, AOA, AAOS, ABOS |
 | `07_oncology_trials.json` | Clinical trials networks and surgical oncology | 20 | Fisher, NSABP, SWOG, NRG Oncology, GOG, SSO, Memorial Hospital, Brennan, ASBrS |
-| `08_subspecialties.json` | Colorectal, pediatric, plastic, endocrine, HPB, bariatric, ENT, ophthalmology, hand | 59 | Blair, Brown, Ladd, Mason, Blumgart, IHPBA, AHPBA, ASCRS, ASMBS, Jackson, H. Martin, Delafield, Bunnell, Turnbull, Fazio, ABCRS, Fonkalsrud, Folkman, Hendren, Thompson, Nyhus, St. Mark's |
+| `08_subspecialties.json` | Colorectal, pediatric, plastic, endocrine, HPB, bariatric, ENT, ophthalmology, hand | 74 | Blair, Brown, Ladd, Mason, Blumgart, IHPBA, AHPBA, ASCRS, ASMBS, Jackson, H. Martin, Delafield, Bunnell, Turnbull, Fazio, ABCRS, Fonkalsrud, Folkman, Hendren, Thompson, Nyhus, St. Mark's, Mathews, APSA, Leape |
 | `09_trauma_acute_infection.json` | Trauma systems, acute care surgery, surgical infection | 20 | Scudder, Altemeier, Schwab, SIS, EAST, AAST, ACS Fellowship, Mattox, Ben Taub |
-| `10_quality_outcomes.json` | Quality improvement and outcomes science | 22 | Codman, NSQIP, ERAS, FLS, FES, GSV |
-| `11_mis_robotic.json` | Minimally invasive and robotic surgery | 9 | Berci, Marks, Reddick, Marescaux, SAGES, Cedars-Sinai |
-| `12_governance_societies.json` | Professional society governance, boards, academic pipeline | 60 | ACS, ASA, ABS, Jonasson, Zuidema, Leffall, Austen, Numann, AWS, ABO, ABMS, Murray, Debas, Ponsky, Phemister, Freischlag, Pellegrini, ABOHNS, Kocher, Kirklin, Najarian, Mannick |
+| `10_quality_outcomes.json` | Quality improvement and outcomes science | 23 | Codman, NSQIP, ERAS, FLS, FES, GSV, JCAH |
+| `11_mis_robotic.json` | Minimally invasive and robotic surgery | 13 | Berci, Marks, Reddick, Marescaux, SAGES, Cedars-Sinai, Soper, Swanstrom, Schauer |
+| `12_governance_societies.json` | Professional society governance, boards, academic pipeline | 66 | ACS, ASA, ABS, Jonasson, Zuidema, Leffall, Austen, Numann, AWS, ABO, ABMS, Murray, Debas, Ponsky, Phemister, Freischlag, Pellegrini, ABOHNS, Kocher, Kirklin, Najarian, Mannick, Matas |
 | `13_pre_halsted.json` | Pre-Halstedian American surgery (1805–1884) | 5 | Physick, Gross, Hunter, Jefferson Medical College |
-| `14_global_military.json` | European roots, Royal Colleges, military surgery | 12 | Hunter, Billroth, Langenbeck, Churchill, Rich, Bunnell, Kocher, Organ |
-| **Total** | | **394** | |
+| `14_global_military.json` | European roots, Royal Colleges, military surgery | 15 | Hunter, Billroth, Langenbeck, Churchill, Rich, Bunnell, Kocher, Organ |
+| **Total** | | **452** | |
 
 ## 4. Graph Architecture — Key Patterns
 
@@ -592,3 +592,56 @@ Seven institutional_archive edges upgraded to indexed citations after PDF verifi
 | MGH → Coller | PMID: 14036574 | PMID | Adie, Ann Surg 1961 |
 
 Evidence distribution after upgrades: PMID 217 (55.1%), institutional_archive 167 (42.4%), DOI 10 (2.5%). PMID-indexed citations now back more than half of all edges for the second consecutive upgrade batch.
+
+## 15. V9 Expansion Changelog (2026-04-05)
+
+### Overview
+
+27 new edges, 2 bridge edges, and 2 evidence upgrades across 6 expansion files, merged into 6 module files. The graph grew from 423 edges / 340 nodes / 1 component to **452 edges / 361 nodes / 1 component**. Two bridge edges (Elsberg→SNS, Sachs→SNS) were added to connect the Elsberg/Columbia and Sachs/Wash U clusters to the main graph through the Society of Neurological Surgeons, supported by PMID 30218804 (founders defined by attendance at the first SNS meeting).
+
+### Thematic Summary
+
+1. **Rudolph Matas vascular/governance hub** (5 edges → modules 04, 12). Matas becomes the first node connecting four major societies: ACS (founder + president), ASA (president), and AATS (co-founder). First Tulane/New Orleans node in graph.
+2. **MIS training lineages** (4 edges → module 11). Soper and Swanstrom SAGES presidencies, Swanstrom's Legacy MIS Fellowship (one of first in US), Schauer ASMBS presidency + STAMPEDE trial.
+3. **APSA founding + Joint Commission** (4 edges → modules 08, 10). Gross as first APSA president, Leape as APSA organizer, Anderson as APSA president, ACS→JCAH institutional_founder completing the Codman quality-improvement lineage.
+4. **Neurosurgery extended founders** (8 edges → module 03). Three independent founder lineages: Frazier/Penn (41 chairs), Elsberg/Columbia (36 chairs), Sachs/Wash U (29 chairs). Frazier connects to main graph via SNS co-founding with Cushing.
+5. **ASCRS institutional chain** (5 edges → module 08). St. Mark's London → Mathews → American Proctologic Society → ABCRS → ASCRS. Creates full colon/rectal surgery founding chain from 1877 to 1970.
+6. **Koop→APSA addendum** (1 edge → module 08). Completes the Gross→Koop training-to-governance circuit: Gross trained Koop, Gross was first APSA president, Koop succeeded him as second president.
+
+### Evidence Upgrades (2)
+
+| Edge | Old Evidence | New Evidence | Article |
+|------|-------------|-------------|---------|
+| Soper → SAGES | institutional_archive | DOI: 10.1007/s00464-015-4524-z | Brunt, Surg Endosc 2015 |
+| Swanstrom → SAGES | institutional_archive | DOI: 10.1007/s00464-015-4524-z | Brunt, Surg Endosc 2015 |
+
+### New Nodes (21)
+
+**Persons (14):** Rudolph Matas, Nathaniel J. Soper, Lee L. Swanstrom, Philip R. Schauer, Lucien L. Leape, Charles Frazier, Francis Grant, Max Peet, Charles Elsberg, Byron Stookey, Ernest Sachs, Henry Schwartz, Joseph M. Mathews, Curtice Rosser
+
+**Institutions (4):** Tulane University Department of Surgery, Legacy Minimally Invasive Surgery Fellowship, University of Pennsylvania Department of Neurosurgery, Neurological Institute of New York, Washington University Department of Neurosurgery
+
+**Societies (3):** Joint Commission on Accreditation of Hospitals, American Proctologic Society, American Board of Colon and Rectal Surgery
+
+### Module Edge Counts (post-V9)
+
+| Module | Pre-V9 | Post-V9 | Delta |
+|--------|-------:|--------:|------:|
+| 03_neurosurgery | 22 | 32 | +10 |
+| 04_cardiothoracic_vascular | 31 | 33 | +2 |
+| 08_subspecialties | 65 | 74 | +9 |
+| 10_quality_outcomes | 22 | 23 | +1 |
+| 11_mis_robotic | 9 | 13 | +4 |
+| 12_governance_societies | 63 | 66 | +3 |
+
+### Evidence Distribution (post-V9)
+
+| Type | Count | Pct |
+|------|------:|----:|
+| PMID | 270 | 59.7% |
+| institutional_archive | 170 | 37.6% |
+| DOI | 12 | 2.7% |
+
+### Connected Components: 1
+
+All 361 nodes in a single connected component. The Elsberg/Columbia and Sachs/Wash U clusters connect to the main graph through their SNS society_founder edges (Elsberg→SNS, Sachs→SNS), bridging through the existing Cushing→SNS and Frazier→SNS edges.
