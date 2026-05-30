@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The Surgical Lineage Atlas is a knowledge graph mapping the training lineages, institutional founding chains, governance networks, and programmatic accreditation relationships of American surgery. The graph spans 1777 (John Hunter training Henry Cline in London) through 2019 (ACS Geriatric Surgery Verification Program), with the primary American corpus beginning in 1805 (Physick's appointment as first professor of surgery at the University of Pennsylvania). The graph contains 452 edges connecting 361 nodes across three node types (person, institution, society) and seven edge types. Construction occurred in five build phases: the original build (source files 01–39, 196 edges) established the Halstedian lineage, major subspecialties, and governance structures; the gap closure phase (source files 40–54, 53 edges) extended the graph to independent non-Halstedian trunks, women in surgery, neurosurgery and urology expansion, the academic society pipeline, pre-Halsted Philadelphia surgery, and modern-era quality programs; the V3 expansion (8 expansion files, 6 upgrade manifests) added 27 edges and 16 citation upgrades covering kidney transplant origins, women's training lineages, URM depth, acute care surgery formalization, West Coast institutional depth, and MIS-governance bridging; the V4 expansion (7 update files) added 17 new edges, applied 7 PMID citation upgrades, corrected the Churchill training lineage, and bridged 4 disconnected components; the V5 expansion (25 expansion files from two planning sessions) added 65 new edges, 1 citation upgrade, and 2 PMID corrections, extending major training trees (Sabiston, Blalock, DeBakey, Wangensteen), adding institutional depth (UCSF, Stanford, Vanderbilt, Emory, Michigan, Hopkins modern succession), bridging 5 small-island components, and adding pre-Halsted and subspecialty lineages. A four-phase citation verification pipeline (Phase 1 existence, Phase 1.5 content-match, Phase 1.75 candidate search, Phase 2 adjudicated repair) replaced 52 incorrect PMIDs/DOIs, downgraded 32 unverifiable citations to institutional_archive, and deleted 4 unverifiable edges. The corpus was consolidated from 50 source files into 14 thematic modules on 2026-03-15, expanded to V3 and V4 on 2026-03-16, to V5 on 2026-03-17, citation-verified on 2026-03-17, Phase 2.5 citation-upgraded on 2026-03-18, V6 training-tree extended on 2026-03-18, and V9 expansion (Matas, MIS leaders, APSA, JCAH, neurosurgery founders, ASCRS chain) on 2026-04-05.
+The Surgical Lineage Atlas is a knowledge graph mapping the training lineages, institutional founding chains, governance networks, and programmatic accreditation relationships of American surgery. The graph spans 1777 (John Hunter training Henry Cline in London) through 2026 (the current institutional hierarchy layer), with the primary American corpus beginning in 1805 (Physick's appointment as first professor of surgery at the University of Pennsylvania). The graph contains **480 edges connecting 371 nodes across three node types (person, institution, society) and eight edge types**, organized into 15 module files. Construction occurred in seven build phases: the original build (source files 01–39, 196 edges) established the Halstedian lineage, major subspecialties, and governance structures; the gap closure phase (source files 40–54, 53 edges) extended the graph to independent non-Halstedian trunks, women in surgery, neurosurgery and urology expansion, the academic society pipeline, pre-Halsted Philadelphia surgery, and modern-era quality programs; the V3 expansion (8 expansion files, 6 upgrade manifests) added 27 edges and 16 citation upgrades covering kidney transplant origins, women's training lineages, URM depth, acute care surgery formalization, West Coast institutional depth, and MIS-governance bridging; the V4 expansion (7 update files) added 17 new edges, applied 7 PMID citation upgrades, corrected the Churchill training lineage, and bridged 4 disconnected components; the V5 expansion (25 expansion files from two planning sessions) added 65 new edges, 1 citation upgrade, and 2 PMID corrections, extending major training trees (Sabiston, Blalock, DeBakey, Wangensteen), adding institutional depth (UCSF, Stanford, Vanderbilt, Emory, Michigan, Hopkins modern succession), bridging 5 small-island components, and adding pre-Halsted and subspecialty lineages; the V9 expansion added 29 edges establishing the Matas vascular/governance hub, MIS governance lineages, APSA founding chain, neurosurgery extended founders, and the ASCRS institutional chain; and the V10 pre-retrofit (Task 2B, 2026-04-19) introduced schema v3 (`institutional_parent` edge type), canonicalized institutional naming with 10 new bare root nodes, and authored 28 institutional_parent edges in a dedicated architectural module (`15_institutional_hierarchy.json`). A four-phase citation verification pipeline (Phase 1 existence, Phase 1.5 content-match, Phase 1.75 candidate search, Phase 2 adjudicated repair) replaced 52 incorrect PMIDs/DOIs, downgraded 32 unverifiable citations to institutional_archive, and deleted 4 unverifiable edges. The corpus was consolidated from 50 source files into 14 thematic modules on 2026-03-15, expanded to V3 and V4 on 2026-03-16, to V5 on 2026-03-17, citation-verified on 2026-03-17, Phase 2.5 citation-upgraded on 2026-03-18, V6 training-tree extended on 2026-03-18, V9 expansion (Matas, MIS leaders, APSA, JCAH, neurosurgery founders, ASCRS chain) on 2026-04-05, and Task 2B schema v3 retrofit on 2026-04-19.
 
 ## 2. Schema Reference
 
@@ -18,7 +18,7 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 | `target_node_type` | enum | yes | `person`, `institution`, or `society` |
 | `edge_type` | enum | yes | Relationship type (see below) |
 | `start_year` | integer | yes | Year the relationship began |
-| `end_year` | integer | yes | Year the relationship ended (null if ongoing) |
+| `end_year` | integer | yes | Year the relationship ended. For currently-active structural relationships (institutional_parent edges), use `2026` with a notes-field annotation "ongoing as of 2026"; refresh annually. |
 | `temporal_range` | string | yes | Human-readable date range (e.g., "1889-1922") |
 | `evidence_citation` | string | yes | Citation identifier (PMID number, DOI, or archive name) |
 | `evidence_type` | enum | yes | `PMID`, `DOI`, or `institutional_archive` |
@@ -31,10 +31,10 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 | Type | Description | Count |
 |------|-------------|-------|
 | `person` | Individual surgeons, physicians, scientists | 198 |
-| `institution` | Departments of surgery, hospitals, research programs, clinics | 108 |
+| `institution` | Root institutions, departments, hospitals, divisions, services, programs, clinics | 118 |
 | `society` | Professional societies, certification boards, associations | 55 |
 
-### Edge Types
+### Edge Types (Schema v3)
 
 | Type | Definition | Count |
 |------|-----------|-------|
@@ -42,6 +42,7 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 | `governance_leadership` | Served in a leadership role (president, chair, director) | 121 |
 | `institutional_founder` | Founded or established an institution | 91 |
 | `society_founder` | Founded a professional society or board | 61 |
+| `institutional_parent` | Structural hierarchy: sub-unit is part of parent institution | 28 |
 | `programmatic_accreditation` | One organization accredits, oversees, or mandates another | 24 |
 | `institutional_succession` | One institution evolved into or was replaced by another | 18 |
 | `observational_study` | Observership, visiting scholar, or peer-to-peer knowledge exchange | 11 |
@@ -50,9 +51,15 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 
 | Type | Description | Count |
 |------|-------------|-------|
-| `PMID` | PubMed-indexed publication | 270 |
-| `institutional_archive` | Institutional archive, registry, or official history | 170 |
+| `PMID` | PubMed-indexed publication | ~290 |
+| `institutional_archive` | Institutional archive, registry, or official history | ~178 |
 | `DOI` | Digital Object Identifier | 12 |
+
+Evidence counts after Task 2B are approximate pending a full recount; the 28 new `institutional_parent` edges inherited evidence from existing founder edges on each child sub-unit (preserving the same evidence_type mix).
+
+### Schema v3 Notes
+
+`institutional_parent` was added to the edge_type enum in Task 2B (2026-04-19) to represent structural hierarchy between a sub-unit (division, service, section, program, department-within-a-parent) and its parent institution. Semantics: child → parent direction; reads as "is a sub-unit of." Explicit non-semantics: not temporal (use `institutional_succession` for mergers), not governance (use `governance_leadership` for leadership roles). The convention of `end_year: 2026` with `temporal_range: "<start>-ongoing"` was introduced for currently-active structural relationships; the 2026 figure is refreshed on demand and the "ongoing" status is carried in the notes field.
 
 ## 3. Module Index
 
@@ -72,7 +79,8 @@ Based on JSON Schema draft-07 (`00_schema.json`).
 | `12_governance_societies.json` | Professional society governance, boards, academic pipeline | 66 | ACS, ASA, ABS, Jonasson, Zuidema, Leffall, Austen, Numann, AWS, ABO, ABMS, Murray, Debas, Ponsky, Phemister, Freischlag, Pellegrini, ABOHNS, Kocher, Kirklin, Najarian, Mannick, Matas |
 | `13_pre_halsted.json` | Pre-Halstedian American surgery (1805–1884) | 5 | Physick, Gross, Hunter, Jefferson Medical College |
 | `14_global_military.json` | European roots, Royal Colleges, military surgery | 15 | Hunter, Billroth, Langenbeck, Churchill, Rich, Bunnell, Kocher, Organ |
-| **Total** | | **452** | |
+| `15_institutional_hierarchy.json` | **Architectural layer** — `institutional_parent` edges linking sub-units (divisions, services, sections, programs, sub-departments) to their parent institutions. Added in Task 2B (2026-04-19). | 28 | Johns Hopkins Hospital, Mayo Clinic, Massachusetts General Hospital, Peter Bent Brigham Hospital, Washington University, Cleveland Clinic, University of Miami, University of Minnesota, University of Pennsylvania, University of Pittsburgh, MSK Cancer Center |
+| **Total** | | **480** | |
 
 ## 4. Graph Architecture — Key Patterns
 
@@ -645,3 +653,111 @@ Evidence distribution after upgrades: PMID 217 (55.1%), institutional_archive 16
 ### Connected Components: 1
 
 All 361 nodes in a single connected component. The Elsberg/Columbia and Sachs/Wash U clusters connect to the main graph through their SNS society_founder edges (Elsberg→SNS, Sachs→SNS), bridging through the existing Cushing→SNS and Frazier→SNS edges.
+
+## 16. Schema v3 and Institutional Hierarchy Retrofit — Task 2B (2026-04-19)
+
+### Overview
+
+Task 2B introduced Schema v3 to the atlas, codified the canonical naming rule for institutional nodes, authored 10 missing bare root nodes for previously-unconnected hierarchies, and added 28 `institutional_parent` edges in a dedicated architectural module (`15_institutional_hierarchy.json`). The graph grew from **452 edges / 361 nodes / 1 component to 480 edges / 371 nodes / 1 component**. The single-component invariant held. No training, founding, or governance edges were altered.
+
+Task 2B was preceded by a read-only diagnostic audit (Task 1) that cleared with no blocking issues: zero literal duplicates, zero temporal sentinels, zero logical inversions, and only one canonical-name pair above the 0.95 similarity threshold (ACS NSQIP vs VA NSQIP, retained as legitimately distinct).
+
+### Schema v3
+
+The `edge_type` enum was extended from 7 values to 8. The new value:
+
+| Type | Semantics | Direction |
+|------|-----------|-----------|
+| `institutional_parent` | Structural hierarchy: sub-unit is part of parent institution | child → parent |
+
+Explicit non-semantics: `institutional_parent` is not temporal succession (use `institutional_succession`) and not governance (use `governance_leadership`). The schema file title was bumped from "V2 Governance Expansion" to "V3 Institutional Hierarchy". Backup preserved at `00_schema.v2.bak.json`.
+
+### Canonical Naming Rule (codified in Task 2B)
+
+**Root institution naming.** One canonical node per real-world institution. Name evolution across eras is captured in notes and, where a distinct corporate entity existed, via `institutional_succession` edges (Peter Bent Brigham Hospital → Brigham and Women's Hospital is the model). For academic medical centers, the clinically-anchoring hospital name is used when Halsted-era or mid-20th-century residencies attached to a specific hospital within a larger academic complex; otherwise the university name is used. Standalone clinics (Mayo Clinic, Cleveland Clinic) and cancer centers (Memorial Sloan Kettering Cancer Center, MD Anderson Cancer Center) use their own names.
+
+**Sub-unit naming.** Format: `<Root Name> <Sub-unit Descriptor>`, where the root name exactly matches the root node's ID. Descriptors are standardized: "Department of [Specialty]", "Division of [Specialty]", "Section of [Specialty]", "[Specialty] Service", "[Specialty] Residency Program", "[Specialty] Fellowship". No prefix inconsistency is permitted within a single cluster (e.g., a root of "Johns Hopkins Hospital" must be the prefix of every child ID in that cluster).
+
+**Johns Hopkins adjudication.** Resolved to "Johns Hopkins Hospital" as the root. Historically anchored — Halsted's First School of Surgery was at the hospital specifically. Two existing nodes were renamed accordingly in Phase E:
+
+| Old ID | New ID |
+|--------|--------|
+| Johns Hopkins Department of Neurosurgery | Johns Hopkins Hospital Department of Neurosurgery |
+| Johns Hopkins Neurosurgery Residency Program | Johns Hopkins Hospital Neurosurgery Residency Program |
+
+**Zoom-in architecture.** Canonical IDs remain the long form. Short labels continue to live in `node_labels_adjudicated.json` under the `label_short` field, rendered at low zoom in the D3 explorer. This architecture is preserved unchanged — Task 2B enforced ID discipline but did not alter the two-tier label system.
+
+### End-Year Convention: "Ongoing as of 2026"
+
+For `institutional_parent` edges representing currently-active structural relationships, `end_year: 2026` is paired with `temporal_range: "<start>-ongoing"` and a notes-field annotation "ongoing as of 2026". This avoids the `9999` sentinel that would pollute era-based betweenness and temporal analysis, while making the ongoing status human-readable. The 2026 figure is refreshed on demand (annually or when the atlas is next touched).
+
+This convention is specific to structural-hierarchy edges in V3. Training, founding, governance, and succession edges retain their existing temporal discipline (documented end years for concluded relationships).
+
+### New Module: `15_institutional_hierarchy.json`
+
+Dedicated architectural module for all `institutional_parent` edges. Precedent: `99_pmid_upgrade_manifest.json` as a separate architectural file. Future institutional_parent edges (authored during V10 departmental expansion and beyond) route to this module rather than being distributed across thematic modules, keeping architectural metadata structurally distinct from substantive lineage.
+
+### New Bare Root Nodes (10)
+
+Authored implicitly via first `institutional_parent` edge reference. These nodes anchored the 10 existing institutional clusters that previously had no canonical parent:
+
+| Parent Root | Children Count |
+|-------------|---------------:|
+| Washington University | 4 |
+| Peter Bent Brigham Hospital | 4 |
+| Mayo Clinic | 3 |
+| Massachusetts General Hospital | 3 |
+| Johns Hopkins Hospital | 3 |
+| Cleveland Clinic | 2 |
+| University of Miami | 2 |
+| University of Minnesota | 2 |
+| University of Pennsylvania | 2 |
+| University of Pittsburgh | 2 |
+
+An eleventh parent, Memorial Sloan Kettering Cancer Center, was already present in the graph; its HPB Service child was linked via a single institutional_parent edge, giving a total of 28 parent edges across 11 parents.
+
+### Evidence Provenance
+
+All 28 institutional_parent edges inherit their evidence citation from the existing `institutional_founder` (or earliest `governance_leadership`) edge on each child sub-unit. Rationale: the source that documents the founding of the sub-unit inherently documents its institutional home. Evidence types on the retrofit edges match the source edges' types (PMID, DOI, or institutional_archive accordingly). Notes annotate the inheritance: `"Evidence inherited from founder edge"`.
+
+### Label File Update
+
+`node_labels_adjudicated.json` grew from 327 to 371 entries. 44 stubs were appended: 10 for the new bare root nodes and 34 for pre-existing nodes that had drifted out of label coverage during prior expansions. All new entries carry `reviewed: false` and `label_short_source: "stub_pending_adjudication"` for easy discovery in a future full-label-regeneration task. No pre-existing entry was modified (first 327 entries hash-verified identical post-task).
+
+### Structural Impact
+
+1. **Hierarchy layer now exists.** Before Task 2B, the 8 sub-institutional nodes in the graph (Chest Service, HPB Service, Section of Proctology, etc.) were structurally disconnected from any parent organization — their connectivity to the main component happened incidentally through shared person nodes. Post-Task 2B, 28 parent edges formally encode this hierarchy, making it queryable and traversable in downstream network analysis.
+2. **V10 pattern established.** V10 and later departmental expansions will author new institutional nodes following the canonical naming rule and will route parent edges to `15_institutional_hierarchy.json`. The retrofit pays down the structural debt that would otherwise compound as the graph scales toward 1000+ edges.
+3. **No substantive lineage altered.** All 452 pre-task edges are preserved. The two Johns Hopkins renames are pure identifier substitutions — source_node/target_node/evidence unchanged.
+4. **Evidence integrity preserved.** The inheritance rule avoids fabricating new evidence or reusing evidence outside the context in which it was originally cited.
+
+### Validation Checks Passed
+
+- Schema v3 file parses as valid JSON with 8 enum values ✓
+- Every `institutional_parent` edge contains all 12 required fields ✓
+- Zero `start_year > end_year` violations ✓
+- Zero temporal sentinels (0, 9999) ✓
+- Every target_node matches a known or newly-authored institution node (no fabricated parents) ✓
+- Single connected component preserved (NetworkX verified) ✓
+- Node count exactly 361 + 10 = 371 ✓
+- Edge count exactly 452 + 28 = 480 ✓
+
+### Deferred Items (carried forward)
+
+1. **Full label regeneration** with programmatic short-label derivation — the 44 stubs added in Phase G are placeholders pending adjudication.
+2. **Peter Bent Brigham Peripheral Vascular Clinic rename** — the canonical "Peter Bent Brigham Hospital" prefix was not applied to this node during Task 2B; low-priority cleanup for a future naming audit.
+3. **Bahnson → Starzl 1981 edge** — a `governance_leadership` edge between two person nodes, which violates the semantic model (governance_leadership should be person → institution/society). Recommended fix is to delete the person-to-person edge and replace with a `Starzl → University of Pittsburgh Transplant Program` institutional_founder edge (parent node already exists), with Bahnson's recruitment role captured in notes on the existing Bahnson → Pittsburgh governance edge. Scoped as a near-term cleanup task paired with V11 Pittsburgh work.
+4. **Systematic audit for person-to-person governance_leadership edges** — Bahnson → Starzl is unlikely to be unique; a filter pass would probably surface a handful of similar miscategorizations. Scoped as a read-only Claude Code audit before V11.
+5. **V10 departmental institutional_parent edges** — authored during V10 departmental work, routed into `15_institutional_hierarchy.json`.
+
+### Task 2B Execution Scripts (retained)
+
+| Script | Purpose |
+|--------|---------|
+| `v10_diagnostic_audit.py` | Task 1 pre-retrofit read-only audit (canonical names, temporal, dedup) |
+| `v10_phase_e_rename.py` | Johns Hopkins node rename across modules and label file |
+| `v10_phase_f_hierarchy.py` | institutional_parent edge authorship and evidence inheritance |
+| `v10_phase_g_labels.py` | Label file stub generation for new and missing nodes |
+| `v10_phase_h_apply.py` | Canonical regeneration and NetworkX invariant validation |
+
+All scripts are re-runnable. Backups at `backups/task2b_20260419_160000/`.
