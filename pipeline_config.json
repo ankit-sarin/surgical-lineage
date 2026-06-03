@@ -38,9 +38,12 @@
     "label_node_parity": true
   },
   "name_pair_whitelist": [
-    [
-      "ACS National Surgical Quality Improvement Program",
-      "VA National Surgical Quality Improvement Program"
-    ]
+    {
+      "pair": [
+        "ACS National Surgical Quality Improvement Program",
+        "VA National Surgical Quality Improvement Program"
+      ],
+      "reason": "distinct entities: VA NSQIP 1991–2001 (Khuri) vs ACS NSQIP 2004– (Ko/Flum); linked by an explicit institutional_succession edge"
+    }
   ]
 }

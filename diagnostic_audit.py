@@ -96,7 +96,7 @@ def audit_1_canonical_names(node_modules, whitelist):
                 ratio = SequenceMatcher(None, a, b).ratio()
                 if ratio >= threshold and ratio < 1.0:
                     if frozenset({a, b}) in whitelist:
-                        suppressed.append((a, b, ratio))
+                        suppressed.append((a, b, ratio, whitelist[frozenset({a, b})]))
                         continue
                     note = ""
                     if downweight_middle_initial and differs_only_by_middle_initial(a, b):
@@ -113,8 +113,11 @@ def audit_1_canonical_names(node_modules, whitelist):
 
     lines = ["## Audit 1 — Canonical Name Similarity", ""]
     if suppressed:
-        lines.append(f"_Whitelisted (known-distinct, suppressed): {len(suppressed)} pair(s) — "
-                     + "; ".join(f"{a} ≈ {b} ({r:.2f})" for a, b, r in suppressed) + "._")
+        lines.append(f"**Whitelisted (known-distinct, suppressed): {len(suppressed)} pair(s).**")
+        lines.append("")
+        for a, b, r, reason in suppressed:
+            lines.append(f"- `{a}` ≈ `{b}` ({r:.2f})"
+                         + (f" — {reason}" if reason else ""))
         lines.append("")
     for title, pairs, ntype in [
         ("Persons", person_pairs, "person"),
@@ -375,7 +378,15 @@ def main():
 
     cfg = load_config(args.config)
     route_map = cfg["modules"]["route_map"]
-    whitelist = {frozenset(pair) for pair in cfg.get("name_pair_whitelist", [])}
+    # Report file/title follow the historical V<number> convention; accept either "v12" or "12".
+    report_version = args.version.lstrip("vV")
+    # Whitelist entries may be a bare [A, B] pair (legacy) or {"pair": [A, B], "reason": "..."}.
+    whitelist = {}
+    for entry in cfg.get("name_pair_whitelist", []):
+        if isinstance(entry, dict):
+            whitelist[frozenset(entry["pair"])] = entry.get("reason", "")
+        else:
+            whitelist[frozenset(entry)] = ""
 
     modules, missing = load_modules(cfg["_modules_dir"], route_map)
     total_edges = sum(len(edges) for _, edges, _ in modules)
@@ -417,7 +428,7 @@ def main():
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     header = [
-        f"# V{args.version} Diagnostic Audit",
+        f"# V{report_version} Diagnostic Audit",
         f"Generated: {ts}",
         f"Graph state: {total_edges} edges across {len(modules)} module files, "
         f"{unique_nodes} unique nodes, {n_components} connected component(s)",
@@ -452,7 +463,7 @@ def main():
         + a2_lines + ["---", ""]
         + a3_lines
     )
-    report_path = cfg["_reports_dir"] / f"V{args.version}_diagnostic_audit_report.md"
+    report_path = cfg["_reports_dir"] / f"V{report_version}_diagnostic_audit_report.md"
     report_path.write_text(out)
     print(f"Wrote {report_path}")
     print(f"  Edges: {total_edges}  Nodes: {unique_nodes}  "

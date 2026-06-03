@@ -20,6 +20,7 @@ Schema derived from the fields the template JS actually reads:
 (source, target, edge_type) triple back to the numbered module file it lives in
 (the merge pipeline guarantees these triples are unique).
 """
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -115,6 +116,13 @@ def build_graph():
 
 
 def main():
+    ap = argparse.ArgumentParser(description="Build the Surgical Lineage Atlas explorer.")
+    ap.add_argument("--version", default=None,
+                    help="Version tag; output is surgical_lineage_atlas_<version>.html. "
+                         "Omit to keep the legacy default output name.")
+    args = ap.parse_args()
+    output = ROOT / f"surgical_lineage_atlas_{args.version}.html" if args.version else OUTPUT
+
     template = TEMPLATE.read_text()
     if PLACEHOLDER_TAG not in template:
         sys.exit("ABORT: template is missing the single-encoded PLACEHOLDER embed; "
@@ -129,7 +137,7 @@ def main():
         + '</script>'
     )
     html = template.replace(PLACEHOLDER_TAG, injected)
-    OUTPUT.write_text(html)
+    output.write_text(html)
 
     type_counts = {}
     for n in graph["nodes"]:
@@ -139,7 +147,7 @@ def main():
 
     print("=== build_explorer.py ===")
     print(f"Template : {TEMPLATE.name}")
-    print(f"Output   : {OUTPUT.name}")
+    print(f"Output   : {output.name}")
     print(f"Nodes    : {len(graph['nodes'])} "
           f"({', '.join(f'{k}={v}' for k, v in sorted(type_counts.items()))})")
     print(f"Links    : {len(graph['links'])} (institutional_parent={ip})")

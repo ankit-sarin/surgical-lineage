@@ -1,28 +1,67 @@
-# V12 Pre-Retrofit Diagnostic Audit
-Generated: 2026-06-03T05:34:19Z
+# V12 Diagnostic Audit
+Generated: 2026-06-03T07:46:49Z
 Graph state: 525 edges across 15 module files, 403 unique nodes, 1 connected component(s)
 
 ## Summary of findings
-- **Audit 1 (Canonical Names):** 0 person pair(s), 73 institution pair(s), 3 society pair(s) flagged (institution pairs ≥ 0.95: 1)
+- **Audit 1 (Canonical Names):** 0 person pair(s), 72 institution pair(s), 3 society pair(s) flagged (institution pairs ≥ 0.95: 0; whitelisted: 1)
 - **Audit 2 (Temporal):** 0 sentinel/out-of-range, 0 logical inversion(s), 11 same-year ranged edge(s), 0 round-year cluster(s) flagged
 - **Audit 3 (Dedup):** 0 literal duplicate group(s), 3 multi-type pair(s), 0 multi-governance case(s) (overlapping: 0)
 
 ## Recommended next steps
-- Recommend canonical-name adjudication for 1 institution pair(s) with similarity ≥ 0.95 before retrofit — institutional_parent naming depends on canonical choice.
+- Zero blocking issues surfaced.
+
+---
+
+## Graph composition
+
+### Module inventory
+- `01_halsted_core.json`: 15 edges
+- `02_general_surgery_spread.json`: 127 edges
+- `03_neurosurgery.json`: 32 edges
+- `04_cardiothoracic_vascular.json`: 35 edges
+- `05_urology.json`: 12 edges
+- `06_orthopedics.json`: 12 edges
+- `07_oncology_trials.json`: 20 edges
+- `08_subspecialties.json`: 74 edges
+- `09_trauma_acute_infection.json`: 20 edges
+- `10_quality_outcomes.json`: 23 edges
+- `11_mis_robotic.json`: 15 edges
+- `12_governance_societies.json`: 78 edges
+- `13_pre_halsted.json`: 5 edges
+- `14_global_military.json`: 14 edges
+- `15_institutional_hierarchy.json`: 43 edges
+
+### Edge-type distribution
+- `governance_leadership`: 138
+- `direct_training`: 134
+- `institutional_founder`: 96
+- `society_founder`: 61
+- `institutional_parent`: 43
+- `programmatic_accreditation`: 24
+- `institutional_succession`: 18
+- `observational_study`: 11
+
+### Label file
+- Total label entries: 403
+- Stub entries pending adjudication: 76
+- Reviewed / adjudicated entries: 327
 
 ---
 
 ## Audit 1 — Canonical Name Similarity
 
+**Whitelisted (known-distinct, suppressed): 1 pair(s).**
+
+- `ACS National Surgical Quality Improvement Program` ≈ `VA National Surgical Quality Improvement Program` (0.97) — distinct entities: VA NSQIP 1991–2001 (Khuri) vs ACS NSQIP 2004– (Ko/Flum); linked by an explicit institutional_succession edge
+
 ### Persons (0 pairs flagged)
 
 _None flagged._
 
-### Institutions (73 pairs flagged)
+### Institutions (72 pairs flagged)
 
 | Name A | Name B | Ratio | Modules A | Modules B | Note | Verdict |
 |---|---|---|---|---|---|---|
-| ACS National Surgical Quality Improvement Program | VA National Surgical Quality Improvement Program | 0.97 | 10 | 10 |  | MANUAL REVIEW |
 | UAB Department of Surgery | UCLA Department of Surgery | 0.94 | 02 | 05, 08 |  | MANUAL REVIEW |
 | University of Pennsylvania Department of Neurosurgery | University of Pennsylvania Department of Surgery | 0.93 | 03, 15 | 02, 13, 15 |  | MANUAL REVIEW |
 | Johns Hopkins Hospital Department of Neurosurgery | Johns Hopkins Hospital Department of Surgery | 0.92 | 03, 15 | 01, 02, 10, 12, 15 |  | MANUAL REVIEW |
@@ -163,14 +202,3 @@ _No literal duplicates found._
 ### Check C — multi-governance_leadership to same institution (0 person↔institution pairs)
 
 _None found._
-
----
-
-## Manual adjudications (V12)
-
-_Appended after the automated audit run. The audit script has no whitelist mechanism, so confirmed-distinct name pairs are documented here rather than suppressed._
-
-### Audit 1 — name pair ≥ 0.95: ACS vs VA NSQIP — DISTINCT ENTITIES (not a duplicate)
-- `VA National Surgical Quality Improvement Program` (institution) — founded by Shukri Khuri, 1991–2001; the original Veterans Affairs program.
-- `ACS National Surgical Quality Improvement Program` (institution) — founded by the American College of Surgeons, 2004–present; governed by Clifford Ko & David Flum; accredits Johns Hopkins/Mayo departments.
-- **Rationale:** Distinct founders, eras, and governance; the graph already models their relationship with an explicit `institutional_succession` edge (VA NSQIP → ACS NSQIP, 2004 — the VA methodology transitioned and scaled into the private-sector ACS program). Lexical similarity (0.97) is a false positive. No merge; no data change.
