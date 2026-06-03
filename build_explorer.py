@@ -3,7 +3,7 @@
 build_explorer.py — repeatable builder for the Surgical Lineage Atlas explorer.
 
 Reads the current canonical graph + adjudicated node labels, derives the exact
-node/link JSON schema that explorer_v11_template.html's JavaScript consumes, and
+node/link JSON schema that explorer_template.html's JavaScript consumes, and
 injects it into a copy of that template to produce a self-contained HTML atlas.
 
 Re-runnable for any future graph version against the same template: the template
@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 CANONICAL = ROOT / "surgical_lineage_graph_canonical.json"
 LABELS = ROOT / "node_labels_adjudicated.json"
-TEMPLATE = ROOT / "explorer_v11_template.html"
+TEMPLATE = ROOT / "explorer_template.html"
 OUTPUT = ROOT / "surgical_lineage_atlas_v11.html"
 PLACEHOLDER_TAG = '<script type="application/json" id="graph-data">PLACEHOLDER</script>'
 
@@ -126,7 +126,7 @@ def main():
     template = TEMPLATE.read_text()
     if PLACEHOLDER_TAG not in template:
         sys.exit("ABORT: template is missing the single-encoded PLACEHOLDER embed; "
-                 "explorer_v11_template.html must retain it verbatim.")
+                 "explorer_template.html must retain it verbatim.")
 
     graph = build_graph()
     # Single-encoded JSON embed (template reads it via JSON.parse of textContent).
