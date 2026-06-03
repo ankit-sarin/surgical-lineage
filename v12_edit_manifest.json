@@ -1,0 +1,21 @@
+{
+  "manifest_version": "v12",
+  "edge_modify_fields": [
+    {
+      "op": "modify_fields",
+      "expected_existing": {
+        "source_node": "Washington University Chest Service",
+        "source_node_type": "institution",
+        "target_node": "Washington University",
+        "target_node_type": "institution",
+        "edge_type": "institutional_parent",
+        "start_year": 1931
+      },
+      "set_fields": {
+        "target_node": "Washington University Department of Surgery"
+      },
+      "notes": "route: 15_institutional_hierarchy.json | Reparent the Chest Service (Graham-founded thoracic sub-unit, 1931) from the Washington University root to the new Washington University Department of Surgery, which the expansion file creates. Structurally correct: Chest Service is a sub-unit of the department, not a direct child of the university. start_year (1931) and all other fields unchanged."
+    }
+  ],
+  "edge_semantic_ops": []
+}

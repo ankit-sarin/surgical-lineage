@@ -202,5 +202,35 @@
     "evidence_locator": "https://asmbs.org/about/asmbs-presidents/philip-r-schauer/",
     "confidence": "high",
     "notes": "TARGET MODULE: 11_mis_robotic. Schauer served as ASBS/ASMBS President 2006-2007; during his tenure ASBS was renamed ASMBS. Baylor MD 1986, UT San Antonio residency, Duke laparoscopic fellowship 1995 (one of the first). PI of STAMPEDE trial (NEJM 2012/2014/2017). Has trained over 200 postgraduate surgeons and 100 fellows (3 became ASMBS presidents). PMID upgrade candidate. V9 expansion Apr 2026."
+  },
+  {
+    "source_node": "Richard L. Varco",
+    "source_node_type": "person",
+    "target_node": "Henry Buchwald",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1960,
+    "end_year": 1966,
+    "temporal_range": "1960-1966",
+    "evidence_citation": "Shikora SA. In Celebration of Professor Henry Buchwald's 90th Birthday. Obes Surg 2022 (Buchwald trained under Varco during Minnesota chief residency; co-developed partial ileal bypass)",
+    "evidence_type": "PMID",
+    "evidence_locator": "PMID: 35969292",
+    "confidence": "high",
+    "notes": "route: 11_mis_robotic.json | Bariatric lineage. Resolves TWO floaters (Varco, Buchwald) with zero new nodes; both already hang off hub Wangensteen (Wangensteen->Varco 1938; Wangensteen->Buchwald 1960). Verified citation-mcp (DOI 10.1007/s11695-022-06219-1)."
+  },
+  {
+    "source_node": "Philip R. Schauer",
+    "source_node_type": "person",
+    "target_node": "Cleveland Clinic Bariatric & Metabolic Institute",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 2004,
+    "end_year": 2020,
+    "temporal_range": "2004-2020",
+    "evidence_citation": "Cleveland Clinic: Schauer joined 2004 as founding director of the Cleveland Clinic Bariatric & Metabolic Institute; chief of MIS general surgery",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://my.clevelandclinic.org/departments/bariatric/about",
+    "confidence": "high",
+    "notes": "route: 11_mis_robotic.json | Anchors floater Schauer to existing Cleveland Clinic hub. Led until departing for Pennington/LSU ~2020."
   }
 ]

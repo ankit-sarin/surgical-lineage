@@ -1,0 +1,27 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v12_A_chest_service_reparent",
+  "target_module": "15_institutional_hierarchy.json",
+  "operations": [
+    {
+      "op": "modify_fields",
+      "match": {
+        "source_node": "Washington University Chest Service",
+        "target_node": "Washington University",
+        "edge_type": "institutional_parent"
+      },
+      "expected_existing": {
+        "source_node": "Washington University Chest Service",
+        "source_node_type": "institution",
+        "target_node": "Washington University",
+        "target_node_type": "institution",
+        "edge_type": "institutional_parent",
+        "start_year": 1931
+      },
+      "set": {
+        "target_node": "Washington University Department of Surgery"
+      },
+      "notes": "Conformed from v12_edit_manifest.json edge_modify_fields[0] (set_fields->set; match derived from expected_existing). Reparent Chest Service (Graham-founded thoracic sub-unit, 1931) from WashU root to the new WashU Department of Surgery created by the batch. start_year and all other fields unchanged."
+    }
+  ]
+}

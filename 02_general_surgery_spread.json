@@ -1988,5 +1988,20 @@
     "evidence_locator": "Mount Sinai Health System Newsroom (December 2014)",
     "confidence": "high",
     "notes": "[V11 Pittsburgh | route: 02_general_surgery_spread] Shapiro became Surgical Director of the Kidney and Pancreas Transplant Program at Mount Sinai's Recanati/Miller Transplantation Institute in December 2014. CREATES NODE: Mount Sinai Recanati/Miller Transplantation Institute (LEAF; canonical naming to be refined in the label pass)."
+  },
+  {
+    "source_node": "Evarts A. Graham",
+    "source_node_type": "person",
+    "target_node": "Washington University Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 1919,
+    "end_year": 1951,
+    "temporal_range": "1919-1951",
+    "evidence_citation": "WUSTL Dept of Surgery history/timeline: Graham appointed first full-time chair and first Bixby Professor 1919, serving to 1951",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://surgery.wustl.edu/about-us/history/",
+    "confidence": "high",
+    "notes": "route: 02_general_surgery_spread.json | Graham already in graph (Graham->Moyer training; Graham->WashU Chest Service founder). Creates the general-surgery department node."
   }
 ]

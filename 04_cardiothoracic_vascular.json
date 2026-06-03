@@ -539,5 +539,20 @@
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/32649610/",
     "confidence": "high",
     "notes": "[V10 UC Davis | route: 04_cardiothoracic_vascular] F. William Blaisdell completed a postresidency fellowship in cardiovascular surgery under Michael DeBakey in Houston. Knudson et al., J Trauma Acute Care Surg 2020;89(4):603-606 (PMID 32649610, full-text content-match verified): 'His postresidency training included a fellowship in cardiovascular surgery under Michael DeBakey in Houston.' THIS EDGE IS THE CONNECTIVITY BRIDGE anchoring the UC Davis cluster to the main component (DeBakey is an existing high-degree node). Exact fellowship years not stated in source; estimated 1959-1960 from his 1960 appointment as Chief of Surgical Service, SF VA. A Francis Moore->Blaisdell (Peter Bent Brigham) edge asserted by web obituaries was DROPPED - not corroborated by the peer-reviewed source."
+  },
+  {
+    "source_node": "W. Randolph Chitwood Jr.",
+    "source_node_type": "person",
+    "target_node": "East Carolina University Heart Institute",
+    "target_node_type": "institution",
+    "edge_type": "institutional_founder",
+    "start_year": 2007,
+    "end_year": 2015,
+    "temporal_range": "2007-2015",
+    "evidence_citation": "Gao S. Living legend in surgery: professor Walter Randolph Chitwood Jr. J Vis Surg 2015 (founder and director, East Carolina Heart Institute, 2007)",
+    "evidence_type": "PMID",
+    "evidence_locator": "PMID: 29075612",
+    "confidence": "high",
+    "notes": "route: 04_cardiothoracic_vascular.json | Canonical node ID uses root prefix; real-world name is 'East Carolina Heart Institute (ECHI)'. Chitwood led until retiring from OR ~2015."
   }
 ]

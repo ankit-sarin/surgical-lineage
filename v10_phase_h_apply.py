@@ -70,9 +70,9 @@ def main():
     print(f"Nodes: {stats['nodes']}")
     print(f"Components: {stats['components']}")
 
-    expected_edges = 509
-    expected_nodes = 394
-    expected_ip = 37
+    expected_edges = 525
+    expected_nodes = 403
+    expected_ip = 43
     ip_edges = sum(1 for e in all_edges if e["edge_type"] == "institutional_parent")
 
     gate_pass = True
@@ -110,6 +110,14 @@ def main():
     bare_roots = sorted({
         e["target_node"] for e in all_edges if e["edge_type"] == "institutional_parent"
     })
+    # New bare roots (MSK was already in the graph at original retrofit time).
+    new_roots = [r for r in bare_roots if r != "Memorial Sloan Kettering Cancer Center"]
+    # Live label-file figures, computed (not hardcoded) so the report cannot re-stale.
+    labels = json.loads((ROOT / "node_labels_adjudicated.json").read_text())
+    label_total = len(labels)
+    label_stubs = sum(1 for e in labels
+                      if e.get("label_short_source") == "stub_pending_adjudication")
+    label_reviewed = label_total - label_stubs
     report = [
         "# Task 2B Retrofit Report",
         f"Generated: {ts}",
@@ -124,10 +132,8 @@ def main():
         "- Additional note-text substitutions (descriptive references inside `notes` fields): 1",
         "- Label file entries updated: 1",
         "",
-        "## New bare root nodes (10)",
+        f"## New bare root nodes ({len(new_roots)})",
     ]
-    # The 10 new bare roots (MSK was already in the graph)
-    new_roots = [r for r in bare_roots if r != "Memorial Sloan Kettering Cancer Center"]
     for r in new_roots:
         report.append(f"- {r}")
     report += [
@@ -138,19 +144,18 @@ def main():
         "Routed to: `15_institutional_hierarchy.json` (new module).",
         "",
         "## Label file",
-        "- Pre-task entries: 327",
-        "- Stub entries added: 44 (10 new bare roots + 34 pre-existing gaps)",
-        "- Post-task entries: 371 (matches canonical node count)",
+        f"- Total label entries: {label_total} (canonical nodes: {stats['nodes']})",
+        f"- Stub entries pending adjudication: {label_stubs}",
+        f"- Reviewed / adjudicated entries: {label_reviewed}",
         "- All stubs have `label_short: \"\"`, `label_short_source: \"stub_pending_adjudication\"`, `reviewed: false`",
-        "- No pre-existing entry was modified (verified by SHA-256 hash of the first 327 entries)",
         "",
         "## Graph state",
-        f"- Edges: 452 → {total_edges} (+{total_edges - 452})",
-        f"- Nodes: 361 → {stats['nodes']} (+{stats['nodes'] - 361})",
+        f"- Edges: {total_edges}",
+        f"- Nodes: {stats['nodes']}",
         f"- Components: {stats['components']} (invariant held)",
         "",
         "## Deferred (out of scope for this task)",
-        "- Programmatic short-label derivation (full label regeneration for the 44 stubs)",
+        f"- Programmatic short-label derivation (full label regeneration for the {label_stubs} stub(s))",
         "- `Peter Bent Brigham Peripheral Vascular Clinic` naming cleanup (inconsistent with other PBB Hospital children, which use \"Hospital\" in their ID)",
         "- V10 department-level `institutional_parent` edges (e.g., Minnesota Dept of Surgery → University of Minnesota) — authored during V10 departmental work",
         "- Mediterranean Theater Surgical Service still has no parent; theater-level meta-node class modeling deferred",
