@@ -1,0 +1,46 @@
+{
+  "config_version": "1.0",
+  "description": "Static, version-agnostic config for the unified surgical-lineage merge pipeline. Per-run inputs (expansion, manifests, version) are passed as args; this file holds only stable structure. Adding a new merge destination = one data edit to modules.route_map, never a code copy.",
+  "modules": {
+    "route_map": {
+      "01_halsted_core": "01_halsted_core.json",
+      "02_general_surgery_spread": "02_general_surgery_spread.json",
+      "03_neurosurgery": "03_neurosurgery.json",
+      "04_cardiothoracic_vascular": "04_cardiothoracic_vascular.json",
+      "05_urology": "05_urology.json",
+      "06_orthopedics": "06_orthopedics.json",
+      "07_oncology_trials": "07_oncology_trials.json",
+      "08_subspecialties": "08_subspecialties.json",
+      "09_trauma_acute_infection": "09_trauma_acute_infection.json",
+      "10_quality_outcomes": "10_quality_outcomes.json",
+      "11_mis_robotic": "11_mis_robotic.json",
+      "12_governance_societies": "12_governance_societies.json",
+      "13_pre_halsted": "13_pre_halsted.json",
+      "14_global_military": "14_global_military.json",
+      "15_institutional_hierarchy": "15_institutional_hierarchy.json"
+    },
+    "edge_type_contract": {
+      "15_institutional_hierarchy.json": "institutional_parent"
+    }
+  },
+  "paths": {
+    "canonical": "surgical_lineage_graph_canonical.json",
+    "node_labels": "node_labels_adjudicated.json",
+    "schema": "00_schema.json",
+    "modules_dir": ".",
+    "backups_dir": "backups",
+    "reports_dir": "."
+  },
+  "invariants": {
+    "single_component": true,
+    "zero_duplicate_triples": true,
+    "zero_node_type_conflicts": true,
+    "label_node_parity": true
+  },
+  "name_pair_whitelist": [
+    [
+      "ACS National Surgical Quality Improvement Program",
+      "VA National Surgical Quality Improvement Program"
+    ]
+  ]
+}

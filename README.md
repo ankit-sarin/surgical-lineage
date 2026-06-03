@@ -51,6 +51,47 @@ A knowledge graph tracing the lineage of American surgery from its pre-Halstedia
 | `99_pmid_upgrade_manifest.json` | Archive of PMID/DOI citation upgrades applied during build |
 | `surgical_lineage_graph_canonical.json` | Flat file of all 382 edges sorted by start_year, with module field — consumed by D3 visualization |
 
+## Pipeline
+
+The atlas is built and validated by a single config-driven pipeline — four stable scripts plus one config — that replaces the former per-version script copies (`v10_*`, `v11_*`, `v12_phase_i_merge.py`). Adding a new merge destination or whitelisting a name pair is now a one-line edit to `pipeline_config.json`, never a code copy or a baseline bump.
+
+### Scripts
+
+| Script | Role |
+|--------|------|
+| `phase_i_merge.py` | Merge an expansion batch + manifests into the module files. Routes each edge to its module by the `route:` tag, runs a pre-insert duplicate-triple check, applies Manifest A (`edge_modify_fields`) and Manifest B (`edge_semantic_ops`) under `expected_existing` guards, and emits `merge_run_<version>.json` (pre-counts + derived delta + new-node list + manifest ops). |
+| `phase_g_labels.py` | Append `reviewed: false` label stubs to `node_labels_adjudicated.json` for any new nodes; never modifies existing entries (SHA-256 guarded). |
+| `phase_h_apply.py` | Regenerate `surgical_lineage_graph_canonical.json` from the modules and run the derived-delta + invariants gate. |
+| `diagnostic_audit.py` | Read-only audit (name similarity, temporal anomalies, dedup discipline); writes `V<version>_diagnostic_audit_report.md`. |
+| `pipeline_config.json` | Static config: the complete 15-module route map + edge-type contract, file paths, structural invariants, and `name_pair_whitelist`. |
+
+### Per-run arguments
+
+Inputs and version are passed at run time, so the scripts are version-agnostic:
+
+```
+python3 phase_i_merge.py --expansion <batch.json> --manifest-a <A.json> --manifest-b <B.json> --version <vN> --config pipeline_config.json
+python3 phase_g_labels.py --config pipeline_config.json
+python3 phase_h_apply.py --version <vN> --config pipeline_config.json --run-record merge_run_<vN>.json
+python3 diagnostic_audit.py --version <vN> --config pipeline_config.json
+```
+
+### Derived-delta gate (no hardcoded baselines)
+
+`phase_h_apply.py` no longer hardcodes per-version counts. It computes `expected_post = pre + batch_delta` from the merge run-record and asserts the regenerated canonical matches on total edges, total nodes, per-edge-type counts, and `institutional_parent` count — then enforces the four structural invariants declared in `pipeline_config.json`:
+
+- `single_component` — the graph is one connected component
+- `zero_duplicate_triples` — no repeated (source, target, edge_type)
+- `zero_node_type_conflicts` — every node carries a single node_type
+- `label_node_parity` — the label file and the canonical node set match exactly
+
+### Config-driven routing & whitelist
+
+- **Route map** — `modules.route_map` lists all 15 modules as valid merge destinations; the `route:` tag in each edge's notes selects one. `modules.edge_type_contract` keeps `15_institutional_hierarchy.json` restricted to `institutional_parent`.
+- **Name-pair whitelist** — `name_pair_whitelist` suppresses confirmed-distinct near-duplicate names from Audit 1 (seeded with ACS NSQIP vs VA NSQIP).
+
+The superseded per-version scripts (`v10_phase_g_labels.py`, `v10_phase_h_apply.py`, `v10_diagnostic_audit.py`, `v11_phase_i_merge.py`, `v12_phase_i_merge.py`) and the retired `v10_retrofit_report.md` emission now live in `archive/`. The unified pipeline was proven V12-equivalent (canonical sha `d20763f8…`, all modules byte-identical) before cutover.
+
 ## Provenance
 
 Consolidated from 50 source files (01–54) created across two build phases. V3 expansion integrated 8 expansion files (27 new edges) and 6 citation upgrade manifests (16 upgrades). V4 expansion integrated 5 expansion files (17 new edges), 1 upgrade manifest (7 PMID upgrades), and 1 audit file (3 corrections including the Churchill training lineage correction). Phase 2.5 citation upgrade campaign (2026-03-18) upgraded 34 edges from institutional_archive to PMID, reverted 1 edge (Blakemore) back to institutional_archive, resolved 9 verification flags, and corrected 1 structural error (Ponsky→SAGES reclassified from society_founder to governance_leadership; Gerald Marks identified as true SAGES founder).
