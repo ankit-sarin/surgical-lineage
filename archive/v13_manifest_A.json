@@ -1,0 +1,6 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v13_A_empty",
+  "target_module": "15_institutional_hierarchy.json",
+  "operations": []
+}

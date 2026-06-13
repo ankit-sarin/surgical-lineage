@@ -643,5 +643,50 @@
     "evidence_locator": "https://my.clevelandclinic.org/health/transcripts/3833_weight-loss-treatment-options-ask-the-expert",
     "confidence": "low",
     "notes": "route: 15_institutional_hierarchy.json | University of Pittsburgh root already exists. Center founding year NOT verified (1998 placeholder) -- VERIFY or drop this Pittsburgh pair if a defensible year cannot be found."
+  },
+  {
+    "source_node": "University of Texas Health Science Center at Houston Department of Cardiothoracic and Vascular Surgery",
+    "source_node_type": "institution",
+    "target_node": "University of Texas Health Science Center at Houston",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1999,
+    "end_year": 2026,
+    "temporal_range": "1999-ongoing",
+    "evidence_citation": "UTHealth_Archive_CTVS_Dept",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://med.uth.edu/cvs/education/",
+    "confidence": "high",
+    "notes": "route: 15_institutional_hierarchy | Structural parent-child: the Department of Cardiothoracic and Vascular Surgery (est. 1999) operates within UTHealth Houston (McGovern Medical School). New root node. Ongoing as of 2026."
+  },
+  {
+    "source_node": "Houston Methodist Hospital Department of Surgery",
+    "source_node_type": "institution",
+    "target_node": "Houston Methodist Hospital",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 2004,
+    "end_year": 2026,
+    "temporal_range": "2004-ongoing",
+    "evidence_citation": "HoustonMethodist_Archive_DeptSurgery",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://www.houstonmethodist.org/newsroom/houston-methodist-surgeon-installed-as-acs-president/",
+    "confidence": "low",
+    "notes": "route: 15_institutional_hierarchy | Structural parent-child: Department of Surgery within Houston Methodist Hospital. [Founding year LOW confidence \u2014 placeholder ~2004 reflecting Houston Methodist's separation from Baylor and build-out of its own academic surgical enterprise; not a documented founding date. VERIFY or revise before manuscript use.] New root node."
+  },
+  {
+    "source_node": "University of California San Diego Division of Cardiothoracic Surgery",
+    "source_node_type": "institution",
+    "target_node": "University of California San Diego",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1968,
+    "end_year": 2026,
+    "temporal_range": "1968-ongoing",
+    "evidence_citation": "HVT_Archive_UCSD_CTSurgery",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "http://www.hvt-journal.com/articles/art267",
+    "confidence": "moderate",
+    "notes": "route: 15_institutional_hierarchy | Structural parent-child: the cardiothoracic surgery program (founded 1968 by Braunwald) within UC San Diego. New root node. [Founding year moderate; verify.]"
   }
 ]

@@ -3222,5 +3222,101 @@
     "label_short": "",
     "label_short_source": "stub_pending_adjudication",
     "reviewed": false
+  },
+  {
+    "id": "Association for Surgical Education",
+    "type": "society",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Barbara Lee Bass",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Diana Farmer",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Eileen Bulger",
+    "type": "person",
+    "degree": 3,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Houston Methodist Hospital",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Houston Methodist Hospital Department of Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Patricia K. Donahoe",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of California San Diego",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of California San Diego Division of Cardiothoracic Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Texas Health Science Center at Houston",
+    "type": "institution",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "University of Texas Health Science Center at Houston Department of Cardiothoracic and Vascular Surgery",
+    "type": "institution",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Yolonda Colson",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
   }
 ]

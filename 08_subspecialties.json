@@ -1161,5 +1161,20 @@
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/8632263/",
     "confidence": "high",
     "notes": "TARGET MODULE: 08_subspecialties. Koop elected president-elect at APSA founding meeting April 17 1970, became second president. Already in graph as Gross trainee \u2014 creates training-to-governance circuit: Gross trained Koop, Gross was first APSA president, Koop succeeded him. Leape LL. J Pediatr Surg. 1996;33(1):12-18. V9 expansion Apr 2026."
+  },
+  {
+    "source_node": "Patricia K. Donahoe",
+    "source_node_type": "person",
+    "target_node": "Massachusetts General Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1973,
+    "end_year": 2026,
+    "temporal_range": "1973-ongoing",
+    "evidence_citation": "MGH_Archive_Donahoe_PedSurgChief",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://www.massgeneral.org/children/research/pediatric-surgical-research-laboratories",
+    "confidence": "moderate",
+    "notes": "route: 08_subspecialties | Patricia K. Donahoe directs the MGH Pediatric Surgical Research Laboratories (since 1973) and is Chief Emerita of Pediatric Surgical Services; first woman surgeon on the MGH staff (1973); Marshall K. Bartlett Professor of Surgery, Harvard. New person node. [Chief-of-service tenure dates approximate \u2014 1973 reflects start of lab directorship; verify the chief-of-service span.]"
   }
 ]

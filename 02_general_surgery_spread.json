@@ -2003,5 +2003,35 @@
     "evidence_locator": "https://surgery.wustl.edu/about-us/history/",
     "confidence": "high",
     "notes": "route: 02_general_surgery_spread.json | Graham already in graph (Graham->Moyer training; Graham->WashU Chest Service founder). Creates the general-surgery department node."
+  },
+  {
+    "source_node": "Diana Farmer",
+    "source_node_type": "person",
+    "target_node": "UC Davis Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 2011,
+    "end_year": 2026,
+    "temporal_range": "2011-ongoing",
+    "evidence_citation": "UCDavis_Archive_Farmer_Chair",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://health.ucdavis.edu/surgery/farmer.html",
+    "confidence": "high",
+    "notes": "route: 02_general_surgery_spread | Diana L. Farmer has been Chair of the UC Davis Department of Surgery since 2011 (Pearl Stamps Stewart Endowed Chair; Surgeon-in-Chief, UC Davis Children's Hospital); first woman fetal surgeon. New person node. Recruited from UCSF, where she was Chief of Children's Surgery."
+  },
+  {
+    "source_node": "Barbara Lee Bass",
+    "source_node_type": "person",
+    "target_node": "Houston Methodist Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 2005,
+    "end_year": 2019,
+    "temporal_range": "2005-2019",
+    "evidence_citation": "FACS_Bulletin_Bass_MethodistChair",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://bulletin.facs.org/2017/11/barbara-lee-bass-md-facs-frcshon-installed-as-98th-acs-president/",
+    "confidence": "high",
+    "notes": "route: 02_general_surgery_spread | Barbara Lee Bass was Chair of the Department of Surgery at Houston Methodist Hospital (John F. and Carolyn Bookout Distinguished Presidential Endowed Chair) from 2005 until ~2019, before becoming Dean of GW SMHS in 2020. New person node; new institution. Founder/executive director of MITIE (2007). The hinge node connecting the women-leadership thread to the Houston cluster."
   }
 ]

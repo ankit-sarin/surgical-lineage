@@ -1,0 +1,75 @@
+{
+  "version": "v13",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v13_houston_women_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v13_manifest_A.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v13_manifest_B.json"
+  },
+  "pre": {
+    "edges": 525,
+    "nodes": 403,
+    "institutional_parent": 43,
+    "by_edge_type": {
+      "institutional_founder": 96,
+      "direct_training": 134,
+      "governance_leadership": 138,
+      "institutional_succession": 18,
+      "society_founder": 61,
+      "observational_study": 11,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 43
+    }
+  },
+  "delta": {
+    "edges": 27,
+    "nodes": 12,
+    "institutional_parent": 3,
+    "by_edge_type": {
+      "institutional_founder": 2,
+      "governance_leadership": 20,
+      "programmatic_accreditation": 0,
+      "institutional_succession": 0,
+      "direct_training": 1,
+      "observational_study": 0,
+      "institutional_parent": 3,
+      "society_founder": 1
+    }
+  },
+  "inserted_by_type": {
+    "governance_leadership": 20,
+    "direct_training": 1,
+    "institutional_founder": 2,
+    "institutional_parent": 3,
+    "society_founder": 1
+  },
+  "inserted_by_module": {
+    "04_cardiothoracic_vascular.json": 9,
+    "15_institutional_hierarchy.json": 3,
+    "12_governance_societies.json": 11,
+    "02_general_surgery_spread.json": 2,
+    "09_trauma_acute_infection.json": 1,
+    "08_subspecialties.json": 1
+  },
+  "new_nodes": [
+    "Association for Surgical Education",
+    "Barbara Lee Bass",
+    "Diana Farmer",
+    "Eileen Bulger",
+    "Houston Methodist Hospital",
+    "Houston Methodist Hospital Department of Surgery",
+    "Patricia K. Donahoe",
+    "University of California San Diego",
+    "University of California San Diego Division of Cardiothoracic Surgery",
+    "University of Texas Health Science Center at Houston",
+    "University of Texas Health Science Center at Houston Department of Cardiothoracic and Vascular Surgery",
+    "Yolonda Colson"
+  ],
+  "new_node_count": 12,
+  "manifest_ops": {
+    "a_modify_fields": 0,
+    "b_delete": 0,
+    "b_reverse_retarget": 0,
+    "b_reclassify": 0
+  }
+}

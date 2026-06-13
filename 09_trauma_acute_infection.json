@@ -12,7 +12,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "ACS Committee on Trauma 100th Anniversary (facs.org); ACS Scudder biography (facs.org/quality-programs/trauma/committee-on-trauma/scudder-oration-on-trauma/honoring-charles-locke-scudder)",
     "confidence": "high",
-    "notes": "In 1922, Scudder organized a conference of 26 prominent surgeons at MGH to standardize fracture treatment. The ACS Board of Regents then established the Committee on Fractures with Scudder as first chair (1922-1933). The committee expanded to the Committee on Fractures and Other Trauma (1939), then was renamed the Committee on Trauma (1949). Today the ACS COT oversees 3,500+ Fellows, runs the trauma center verification program, ATLS, and TQIP (already in graph). Scudder also initiated the annual Oration on Fractures (1929), now the Scudder Oration on Trauma — one of the highest honors in trauma surgery.",
+    "notes": "In 1922, Scudder organized a conference of 26 prominent surgeons at MGH to standardize fracture treatment. The ACS Board of Regents then established the Committee on Fractures with Scudder as first chair (1922-1933). The committee expanded to the Committee on Fractures and Other Trauma (1939), then was renamed the Committee on Trauma (1949). Today the ACS COT oversees 3,500+ Fellows, runs the trauma center verification program, ATLS, and TQIP (already in graph). Scudder also initiated the annual Oration on Fractures (1929), now the Scudder Oration on Trauma \u2014 one of the highest honors in trauma surgery.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -28,7 +28,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "high",
-    "notes": "Altemeier earned his MD from the University of Cincinnati in 1933 and studied surgery under Mont Reid (already in graph as Halsted trainee and UC Cincinnati department founder). Reid was chairman 1931-1943; Altemeier interned at Cincinnati General Hospital before completing residency at Henry Ford Hospital and a Master of Surgery at the University of Michigan. He returned to UC as Instructor in Surgery in 1940 and became the fourth Christian R. Holmes Professor and Chairman of Surgery in 1952, serving for 26 years. The Cincinnati departmental succession (Heuer → Reid → Carter → Altemeier) was known as the 'Hopkins Invasion.' [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Altemeier appears as Reid trainee in Carter's enumeration or derivatives] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952. Carter documents the Halsted->Heuer->Reid lineage at Cincinnati. Altemeier's training under Reid (1933-1940) at Cincinnati is confirmed by UC Archives (Altemeier Collection) and SIS institutional records. Alternative: PMID 10551765 (Kerr & O'Leary, Am Surg 1999) discusses the Halstedian training tree. [Verified 2026-03-18 | Carter 1948 (PMID not indexed) documented Cincinnati program trainees under Heuer/Reid. Altemeier trained under Reid at Cincinnati. Carter 1952 covers Halstedian spread including derivative programs.]",
+    "notes": "Altemeier earned his MD from the University of Cincinnati in 1933 and studied surgery under Mont Reid (already in graph as Halsted trainee and UC Cincinnati department founder). Reid was chairman 1931-1943; Altemeier interned at Cincinnati General Hospital before completing residency at Henry Ford Hospital and a Master of Surgery at the University of Michigan. He returned to UC as Instructor in Surgery in 1940 and became the fourth Christian R. Holmes Professor and Chairman of Surgery in 1952, serving for 26 years. The Cincinnati departmental succession (Heuer \u2192 Reid \u2192 Carter \u2192 Altemeier) was known as the 'Hopkins Invasion.' [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Altemeier appears as Reid trainee in Carter's enumeration or derivatives] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952. Carter documents the Halsted->Heuer->Reid lineage at Cincinnati. Altemeier's training under Reid (1933-1940) at Cincinnati is confirmed by UC Archives (Altemeier Collection) and SIS institutional records. Alternative: PMID 10551765 (Kerr & O'Leary, Am Surg 1999) discusses the Halstedian training tree. [Verified 2026-03-18 | Carter 1948 (PMID not indexed) documented Cincinnati program trainees under Heuer/Reid. Altemeier trained under Reid at Cincinnati. Carter 1952 covers Halstedian spread including derivative programs.]",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -140,7 +140,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "EAST Official History (east.org/about-east/history); Champion et al, EAST Memories document",
     "confidence": "high",
-    "notes": "Schwab was one of 10 founding board members of EAST at the kickoff meeting on October 19, 1986 at the New Orleans Hilton. He was Professor of Surgery at the University of Pennsylvania and chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn — connecting EAST to the Penn institutional trunk (I.S. Ravdin's department, Priority 5). EAST was founded because established trauma societies (AAST, Western Trauma Association) were perceived as too exclusive for younger surgeons. The founding document explicitly notes Cowley (already in graph) as 'no longer in active practice' by the mid-1980s — EAST was the next generation.",
+    "notes": "Schwab was one of 10 founding board members of EAST at the kickoff meeting on October 19, 1986 at the New Orleans Hilton. He was Professor of Surgery at the University of Pennsylvania and chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn \u2014 connecting EAST to the Penn institutional trunk (I.S. Ravdin's department, Priority 5). EAST was founded because established trauma societies (AAST, Western Trauma Association) were perceived as too exclusive for younger surgeons. The founding document explicitly notes Cowley (already in graph) as 'no longer in active practice' by the mid-1980s \u2014 EAST was the next generation.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -172,7 +172,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Penn Trauma and Surgical Critical Care Fellowship Historical Records",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 14530774 to institutional_archive on 2026-03-17 — no PubMed source found] Schwab CW, Reilly PM, Haut E, Gracias VH, Kauder DR. 'Training in trauma surgery: quantitative and qualitative aspects of a new paradigm for fellowship.' Ann Surg. 2003 Oct;238(4):596-604. Schwab's own article documenting the design and outcomes of the Penn trauma fellowship he founded in 1989. By 2003, the program had trained dozens of fellows. As of 2024, over 100 fellows have completed the program and 'are now practicing around the world,' including 'Deans, Chief Executive Officers, Chairs of Surgery' per Penn's current fellowship website. Schwab (b. ~1944) was a Navy surgeon during Vietnam, completed residency at National Naval Medical Center, then became the founding Chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn (1987). He is also co-author of the landmark 'Damage Control' paper (J Trauma 1993, with Rotondo). Schwab goes from degree 1 (EAST founder only) to degree 2, gaining an institutional anchor at Penn that connects the trauma module to the University of Pennsylvania — an existing graph institution (Ravdin→Penn already in graph).",
+    "notes": "[Phase2 downgraded from PMID: 14530774 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] Schwab CW, Reilly PM, Haut E, Gracias VH, Kauder DR. 'Training in trauma surgery: quantitative and qualitative aspects of a new paradigm for fellowship.' Ann Surg. 2003 Oct;238(4):596-604. Schwab's own article documenting the design and outcomes of the Penn trauma fellowship he founded in 1989. By 2003, the program had trained dozens of fellows. As of 2024, over 100 fellows have completed the program and 'are now practicing around the world,' including 'Deans, Chief Executive Officers, Chairs of Surgery' per Penn's current fellowship website. Schwab (b. ~1944) was a Navy surgeon during Vietnam, completed residency at National Naval Medical Center, then became the founding Chief of the Division of Traumatology, Surgical Critical Care, and Emergency Surgery at Penn (1987). He is also co-author of the landmark 'Damage Control' paper (J Trauma 1993, with Rotondo). Schwab goes from degree 1 (EAST founder only) to degree 2, gaining an institutional anchor at Penn that connects the trauma module to the University of Pennsylvania \u2014 an existing graph institution (Ravdin\u2192Penn already in graph).",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -204,7 +204,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "https://www.aast.org/about-aast/past-presidents",
     "confidence": "high",
-    "notes": "AAST Past Presidents list documents Schwab as AAST president (2004-2005). He served as president during the critical period when the AAST was developing the Acute Care Surgery fellowship paradigm (2003 joint committee formation → 2005 ACS Committee creation → 2008 first fellowship approval). This edge connects Schwab's EAST founding role (1986, already in graph) to the AAST governance hub, bridging the two major US trauma societies through a single person. Schwab is also past president of EAST (already in graph as society_founder) and past president of the International Association for Trauma Surgery and Intensive Care. Penn Trauma website and ACS 2024 award confirm his AAST presidency. No PMID found for a published AAST presidential address — AAST addresses are published in J Trauma and Acute Care Surgery but Schwab's specific address PMID could not be confirmed.",
+    "notes": "AAST Past Presidents list documents Schwab as AAST president (2004-2005). He served as president during the critical period when the AAST was developing the Acute Care Surgery fellowship paradigm (2003 joint committee formation \u2192 2005 ACS Committee creation \u2192 2008 first fellowship approval). This edge connects Schwab's EAST founding role (1986, already in graph) to the AAST governance hub, bridging the two major US trauma societies through a single person. Schwab is also past president of EAST (already in graph as society_founder) and past president of the International Association for Trauma Surgery and Intensive Care. Penn Trauma website and ACS 2024 award confirm his AAST presidency. No PMID found for a published AAST presidential address \u2014 AAST addresses are published in J Trauma and Acute Care Surgery but Schwab's specific address PMID could not be confirmed.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -252,7 +252,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "ACS Committee on Trauma 100th Anniversary (cot100.facs.org)",
     "confidence": "high",
-    "notes": "The ACS COT developed TQIP as the trauma-specific quality improvement program paralleling ACS-NSQIP (already in graph). TQIP uses the National Trauma Data Bank for benchmarking and risk-adjusted outcomes. This edge clarifies that TQIP was a COT initiative, not a direct ACS general creation — the graph previously had ACS → TQIP (institutional_founder) which remains valid as the parent, but the COT was the operational creator.",
+    "notes": "The ACS COT developed TQIP as the trauma-specific quality improvement program paralleling ACS-NSQIP (already in graph). TQIP uses the National Trauma Data Bank for benchmarking and risk-adjusted outcomes. This edge clarifies that TQIP was a COT initiative, not a direct ACS general creation \u2014 the graph previously had ACS \u2192 TQIP (institutional_founder) which remains valid as the parent, but the COT was the operational creator.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -268,7 +268,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29766096/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Trauma Surg Acute Care Open 2017 | content_match] Davis KA, Jurkovich GJ. 'Fellowship training in Acute Care Surgery: from inception to current state.' Trauma Surg Acute Care Open. 2017 May 22;2(1):e000095. PMC5891699. In 2005, the AAST created the Acute Care Surgery Committee to develop a training paradigm combining trauma surgery, surgical critical care, and emergency general surgery. In 2008, the first ACS Fellowship was approved by the AAST Board of Managers. By 2017, 20 programs had been approved and 82 fellows trained. The fellowship is AAST-accredited (not ACGME) with a verification process modeled on trauma center verification. This edge captures the most significant fellowship formalization event in the trauma module — it transforms the AAST from a society with only founding/accreditation edges into a programmatic accreditor for post-residency training, paralleling the ABS→ABMS and ACGME accreditation pathways already in the graph. The Acute Care Surgery Fellowship Program is a new institutional node representing the national program collectively, not a single site.",
+    "notes": "[Verified 2026-03-17 | Trauma Surg Acute Care Open 2017 | content_match] Davis KA, Jurkovich GJ. 'Fellowship training in Acute Care Surgery: from inception to current state.' Trauma Surg Acute Care Open. 2017 May 22;2(1):e000095. PMC5891699. In 2005, the AAST created the Acute Care Surgery Committee to develop a training paradigm combining trauma surgery, surgical critical care, and emergency general surgery. In 2008, the first ACS Fellowship was approved by the AAST Board of Managers. By 2017, 20 programs had been approved and 82 fellows trained. The fellowship is AAST-accredited (not ACGME) with a verification process modeled on trauma center verification. This edge captures the most significant fellowship formalization event in the trauma module \u2014 it transforms the AAST from a society with only founding/accreditation edges into a programmatic accreditor for post-residency training, paralleling the ABS\u2192ABMS and ACGME accreditation pathways already in the graph. The Acute Care Surgery Fellowship Program is a new institutional node representing the national program collectively, not a single site.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -300,7 +300,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Baylor College of Medicine Department of Surgery Faculty Profile; bcm.edu/people-search/kenneth-mattox-26215",
     "confidence": "high",
-    "notes": "Kenneth L. Mattox (b. 1938) served as chief of staff and surgeon-in-chief at Ben Taub General Hospital from 1973 to 2020, a 47-year tenure. He developed the internationally renowned Ben Taub Hospital Emergency Center and Trauma Center, building it into one of the busiest and highest-performing Level I trauma centers in the United States. He is Distinguished Service Professor in the Michael E. DeBakey Department of Surgery at Baylor College of Medicine. He authored over 600 articles and is co-editor of both the Mattox Trauma textbook (8th edition) and Sabiston's Textbook of Surgery. The DeBakey→Mattox training edge exists in Session 1 file (T2-01). This edge adds his institutional founding contribution. Ben Taub is a new institutional node representing the Houston public hospital trauma system. PMID upgrade candidate: search for Mattox tribute or profile in J Trauma or Am Surg.",
+    "notes": "Kenneth L. Mattox (b. 1938) served as chief of staff and surgeon-in-chief at Ben Taub General Hospital from 1973 to 2020, a 47-year tenure. He developed the internationally renowned Ben Taub Hospital Emergency Center and Trauma Center, building it into one of the busiest and highest-performing Level I trauma centers in the United States. He is Distinguished Service Professor in the Michael E. DeBakey Department of Surgery at Baylor College of Medicine. He authored over 600 articles and is co-editor of both the Mattox Trauma textbook (8th edition) and Sabiston's Textbook of Surgery. The DeBakey\u2192Mattox training edge exists in Session 1 file (T2-01). This edge adds his institutional founding contribution. Ben Taub is a new institutional node representing the Houston public hospital trauma system. PMID upgrade candidate: search for Mattox tribute or profile in J Trauma or Am Surg.",
     "module": "09_trauma_acute_infection"
   },
   {
@@ -316,7 +316,22 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Baylor College of Medicine Department of Surgery Faculty Profile; bcm.edu/people-search/kenneth-mattox-26215; multiple corroborating sources including ACS, AMA records",
     "confidence": "high",
-    "notes": "Mattox is past president of the American Association for the Surgery of Trauma (AAST). Exact presidential term approximated as c. 1992-1993 based on career timeline; to be verified. He also served on the ACS Board of Governors, was ACS Second Vice-President-Elect, and received the 2013 AMA Benjamin Rush Award for Citizenship. This edge connects the DeBakey→Mattox→AAST chain, linking the Baylor cardiothoracic trunk to the trauma governance backbone. AAST is already in the graph with 4 edges.",
+    "notes": "Mattox is past president of the American Association for the Surgery of Trauma (AAST). Exact presidential term approximated as c. 1992-1993 based on career timeline; to be verified. He also served on the ACS Board of Governors, was ACS Second Vice-President-Elect, and received the 2013 AMA Benjamin Rush Award for Citizenship. This edge connects the DeBakey\u2192Mattox\u2192AAST chain, linking the Baylor cardiothoracic trunk to the trauma governance backbone. AAST is already in the graph with 4 edges.",
     "module": "09_trauma_acute_infection"
+  },
+  {
+    "source_node": "Eileen Bulger",
+    "source_node_type": "person",
+    "target_node": "University of Washington Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 2013,
+    "end_year": 2026,
+    "temporal_range": "2013-ongoing",
+    "evidence_citation": "UW_Archive_Bulger_TraumaChief",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://www.uwmedicine.org/bios/eileen-bulger",
+    "confidence": "moderate",
+    "notes": "route: 09_trauma_acute_infection | Eileen Bulger is Chief of the Division of Trauma, Burns, and Critical Care, Department of Surgery, University of Washington, and Surgeon-in-Chief at Harborview Medical Center. New person node. [Division-chief start year approximate \u2014 verify.]"
   }
 ]
