@@ -688,5 +688,50 @@
     "evidence_locator": "http://www.hvt-journal.com/articles/art267",
     "confidence": "moderate",
     "notes": "route: 15_institutional_hierarchy | Structural parent-child: the cardiothoracic surgery program (founded 1968 by Braunwald) within UC San Diego. New root node. [Founding year moderate; verify.]"
+  },
+  {
+    "source_node": "Mount Sinai Hospital",
+    "source_node_type": "institution",
+    "target_node": "Mount Sinai Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1852,
+    "end_year": 2026,
+    "temporal_range": "1852-ongoing",
+    "evidence_citation": "Icahn_SoM_DeptSurgery_History",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Icahn School of Medicine, Department of Surgery History; The Mount Sinai Hospital incorporated 1852 (as the Jews' Hospital), surgical service coeval with the hospital. (Founding also at Baron JH, Mt Sinai J Med 2000, PMID 10677772.)",
+    "confidence": "high",
+    "notes": "[V14 Mount Sinai | route: 15_institutional_hierarchy] Structural parent-child. start_year = sub-unit founding (surgical service coeval with the 1852 hospital) per convention; NOTE the full-time chaired Department of Surgery dates to 1944 ('full-time chiefs of clinical services, 1944'). Root ID 'Mount Sinai Hospital' exactly prefixes this child."
+  },
+  {
+    "source_node": "Mount Sinai Hospital",
+    "source_node_type": "institution",
+    "target_node": "Mount Sinai Hospital Recanati/Miller Transplantation Institute",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1998,
+    "end_year": 2026,
+    "temporal_range": "1998-ongoing",
+    "evidence_citation": "MountSinai_RMTI_Director_Message",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Mount Sinai RMTI Director's Message: 'The Recanati/Miller Transplantation Institute (RMTI) was inaugurated in 1998 with an endowment by a former liver transplant recipient.'",
+    "confidence": "high",
+    "notes": "[V14 Mount Sinai | route: 15_institutional_hierarchy] Structural parent-child. TARGET is the RENAMED RMTI node (manifest A). start_year 1998 = Institute inauguration (distinct from the 1988 liver program)."
+  },
+  {
+    "source_node": "Mount Sinai Hospital",
+    "source_node_type": "institution",
+    "target_node": "Mount Sinai Hospital Liver Transplant Program",
+    "target_node_type": "institution",
+    "edge_type": "institutional_parent",
+    "start_year": 1988,
+    "end_year": 2026,
+    "temporal_range": "1988-ongoing",
+    "evidence_citation": "MountSinai_RMTI_Director_Message",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Mount Sinai RMTI Director's Message: liver transplantation program established 1988.",
+    "confidence": "high",
+    "notes": "[V14 Mount Sinai | route: 15_institutional_hierarchy] DEFAULT = Option Y: Liver Transplant Program parented directly under Mount Sinai Hospital (start 1988, no temporal anachronism). ALTERNATIVE Option X (if approved): re-source this edge to 'Mount Sinai Hospital Recanati/Miller Transplantation Institute' to nest LiverProgram under RMTI, reflecting current org (RMTI absorbed the program) - convention-compliant but produces a benign temporal-audit note (child start 1988 < parent RMTI 1998)."
   }
 ]

@@ -1,0 +1,67 @@
+{
+  "version": "v14",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v14_mount_sinai_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v14_manifest_A.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v14_manifest_B.json"
+  },
+  "pre": {
+    "edges": 552,
+    "nodes": 415,
+    "institutional_parent": 46,
+    "by_edge_type": {
+      "institutional_founder": 98,
+      "direct_training": 135,
+      "governance_leadership": 158,
+      "institutional_succession": 18,
+      "society_founder": 62,
+      "observational_study": 11,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 46
+    }
+  },
+  "delta": {
+    "edges": 10,
+    "nodes": 9,
+    "institutional_parent": 3,
+    "by_edge_type": {
+      "institutional_founder": 1,
+      "governance_leadership": 6,
+      "society_founder": 0,
+      "programmatic_accreditation": 0,
+      "institutional_succession": 0,
+      "observational_study": 0,
+      "direct_training": 0,
+      "institutional_parent": 3
+    }
+  },
+  "inserted_by_type": {
+    "governance_leadership": 6,
+    "institutional_founder": 1,
+    "institutional_parent": 3
+  },
+  "inserted_by_module": {
+    "02_general_surgery_spread.json": 7,
+    "15_institutional_hierarchy.json": 3
+  },
+  "new_nodes": [
+    "Arpad G. Gerster",
+    "Arthur H. Aufses Jr.",
+    "Charles Miller",
+    "Larry H. Hollier",
+    "Michael L. Marin",
+    "Mount Sinai Hospital",
+    "Mount Sinai Hospital Department of Surgery",
+    "Mount Sinai Hospital Liver Transplant Program",
+    "Mount Sinai Hospital Recanati/Miller Transplantation Institute",
+    "Sander Florman"
+  ],
+  "new_node_count": 10,
+  "manifest_ops": {
+    "a_modify_fields": 1,
+    "b_delete": 0,
+    "b_reverse_retarget": 0,
+    "b_reclassify": 0
+  }
+}

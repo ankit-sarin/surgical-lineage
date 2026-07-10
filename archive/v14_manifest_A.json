@@ -1,0 +1,30 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v14_A_rmti_rename",
+  "target_module": "02_general_surgery_spread.json",
+  "operations": [
+    {
+      "op": "modify_fields",
+      "match": {
+        "source_node": "Ron Shapiro",
+        "target_node": "Mount Sinai Recanati/Miller Transplantation Institute",
+        "edge_type": "governance_leadership"
+      },
+      "expected_existing": {
+        "target_node": "Mount Sinai Recanati/Miller Transplantation Institute",
+        "target_node_type": "institution",
+        "start_year": 2014
+      },
+      "set": {
+        "target_node": "Mount Sinai Hospital Recanati/Miller Transplantation Institute"
+      },
+      "preserve": [
+        "source_node",
+        "source_node_type",
+        "edge_type",
+        "start_year",
+        "end_year"
+      ]
+    }
+  ]
+}
