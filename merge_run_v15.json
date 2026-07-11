@@ -1,0 +1,62 @@
+{
+  "version": "v15",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v15_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v15_manifest_A.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v15_manifest_B.json"
+  },
+  "pre": {
+    "edges": 562,
+    "nodes": 424,
+    "institutional_parent": 49,
+    "by_edge_type": {
+      "institutional_founder": 99,
+      "direct_training": 135,
+      "governance_leadership": 164,
+      "institutional_succession": 18,
+      "society_founder": 62,
+      "observational_study": 11,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 49
+    }
+  },
+  "delta": {
+    "edges": 3,
+    "nodes": 6,
+    "institutional_parent": 0,
+    "by_edge_type": {
+      "observational_study": 1,
+      "institutional_succession": 0,
+      "direct_training": 2,
+      "institutional_parent": 0,
+      "programmatic_accreditation": 0,
+      "institutional_founder": 0,
+      "society_founder": 0,
+      "governance_leadership": 0
+    }
+  },
+  "inserted_by_type": {
+    "direct_training": 4
+  },
+  "inserted_by_module": {
+    "01_halsted_core.json": 2,
+    "02_general_surgery_spread.json": 1,
+    "08_subspecialties.json": 1
+  },
+  "new_nodes": [
+    "Burke Syphax",
+    "C. Gardner Child III",
+    "George Humphreys",
+    "George McClellan",
+    "H. Glenn Bell",
+    "Willard E. Goodwin"
+  ],
+  "new_node_count": 6,
+  "manifest_ops": {
+    "a_modify_fields": 0,
+    "b_delete": 1,
+    "b_reverse_retarget": 10,
+    "b_reclassify": 1
+  }
+}

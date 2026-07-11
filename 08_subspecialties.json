@@ -824,19 +824,19 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "University of Michigan Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "C. Gardner Child III",
+    "source_node_type": "person",
     "target_node": "Norman Thompson",
     "target_node_type": "person",
     "edge_type": "direct_training",
-    "start_year": 1956,
+    "start_year": 1959,
     "end_year": 1964,
-    "temporal_range": "c.1956-c.1964",
+    "temporal_range": "1959-1964",
     "evidence_citation": "PMID: 22136854",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22136854/",
     "confidence": "high",
-    "notes": "[Phase2 reviewed \u2014 citation retained on 2026-03-17] Norman Winslow Thompson spent his entire academic career at the University of Michigan, where he trained and rose to become the Henry King Ransom Professor of Surgery. He established the Division of Endocrine Surgery in 1979 (the first of its kind in the US), created the first comprehensive endocrine surgery fellowship in 1984, and co-founded the AAES in 1979 (serving as inaugural president, 1980). Thompson (Surgery 2011, PMID 22136854) authored the account of the AAES founding. The ASA memorial confirms his entire career was at Michigan. Exact residency dates approximated. Confidence moderate due to estimated training dates; the institutional relationship itself is unambiguous. BRIDGE EDGE: Merges the AAES/Thompson island (Component 8, 2 nodes) into the main component via the University of Michigan node (Coller's department in 02_general_surgery_spread).",
+    "notes": "[V15 re-attribution + year trim: Univ Michigan Dept -> C. Gardner Child III; 1956-1964 -> 1959-1964] Thompson split (part 2 of 2). Child became Michigan chair in 1959 (after Coller's 1958 retirement) and led through 1974; Thompson's residency ran mostly under him. PMID 22136854 documents Thompson's Michigan training. Companion edge: Frederick Coller->Thompson (1956-1958).",
     "module": "08_subspecialties"
   },
   {
@@ -1176,5 +1176,20 @@
     "evidence_locator": "https://www.massgeneral.org/children/research/pediatric-surgical-research-laboratories",
     "confidence": "moderate",
     "notes": "route: 08_subspecialties | Patricia K. Donahoe directs the MGH Pediatric Surgical Research Laboratories (since 1973) and is Chief Emerita of Pediatric Surgical Services; first woman surgeon on the MGH staff (1973); Marshall K. Bartlett Professor of Surgery, Harvard. New person node. [Chief-of-service tenure dates approximate \u2014 1973 reflects start of lab directorship; verify the chief-of-service span.]"
+  },
+  {
+    "source_node": "Frederick Coller",
+    "source_node_type": "person",
+    "target_node": "Norman Thompson",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1956,
+    "end_year": 1958,
+    "temporal_range": "1956-1958",
+    "evidence_citation": "PMID: 22136854",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22136854/",
+    "confidence": "high",
+    "notes": "route: 08_subspecialties [V15] Thompson split (part 1 of 2). Thompson trained at Michigan 1956-1964; Frederick Coller chaired to his 1958 retirement. Coller-era attribution (1956-58) by documented chair tenure. Companion edge: C. Gardner Child III->Thompson (1959-1964, Child chair from 1959)."
   }
 ]

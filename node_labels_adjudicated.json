@@ -3390,5 +3390,53 @@
     "label_short": "",
     "label_short_source": "stub_pending_adjudication",
     "reviewed": false
+  },
+  {
+    "id": "Burke Syphax",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "C. Gardner Child III",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "George Humphreys",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "George McClellan",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "H. Glenn Bell",
+    "type": "person",
+    "degree": 2,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
+  },
+  {
+    "id": "Willard E. Goodwin",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
   }
 ]

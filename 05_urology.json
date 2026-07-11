@@ -60,12 +60,12 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "American Board of Urology Official History (abu.org/who-we-are)",
     "confidence": "high",
-    "notes": "The ABU was organized in Chicago on September 24, 1934 and incorporated in Delaware on May 6, 1935. It was established through the combined efforts of the AUA, the American Association of Genito-Urinary Surgeons, and the AMA Section on Urology. The ABU is one of 24 ABMS member boards and certifies all urologists in the United States. This follows the established graph pattern of professional societies spawning certification boards (AOA → ABOS, ACS/ASA → ABS).",
+    "notes": "The ABU was organized in Chicago on September 24, 1934 and incorporated in Delaware on May 6, 1935. It was established through the combined efforts of the AUA, the American Association of Genito-Urinary Surgeons, and the AMA Section on Urology. The ABU is one of 24 ABMS member boards and certifies all urologists in the United States. This follows the established graph pattern of professional societies spawning certification boards (AOA \u2192 ABOS, ACS/ASA \u2192 ABS).",
     "module": "05_urology"
   },
   {
-    "source_node": "UCLA Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "Willard E. Goodwin",
+    "source_node_type": "person",
     "target_node": "Patrick Walsh",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -76,7 +76,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17437775/",
     "confidence": "high",
-    "notes": "Walsh completed his urology residency and an endocrinology fellowship at the UCLA School of Medicine under Willard E. Goodwin (1967-1971). Goodwin was one of the pioneers of renal transplantation and reconstructive urology at UCLA. Walsh's training path: Case Western Reserve MD (1964), Peter Bent Brigham Hospital surgery residency (Boston), Children's Hospital Medical Center pediatric surgery (Boston), UCLA urology residency and endocrinology fellowship. He was recruited to Hopkins in 1974 at age 35 to direct the Brady Urological Institute after Ben Gittes (his San Diego mentor) declined the position. This edge uses the existing UCLA Department of Surgery institutional node, as urologic surgery at UCLA was administratively within the Department of Surgery. This is the first direct_training edge in the urology module, filling the most significant structural gap. Walsh was NOT Hopkins-trained — he represents an independent West Coast training lineage arriving at a Hopkins institution, paralleling Starzl's Hopkins-to-Pittsburgh path. [Phase2 upgraded institutional_archive -> PMID: 17437775 on 2026-03-18] [Verified 2026-03-18 | J Urol 2007 | content_match] Walsh PC. 'The discovery of the cavernous nerves and development of nerve sparing radical retropubic prostatectomy.' J Urol. 2007 May;177(5):1632-5. Walsh's autobiographical account references his UCLA urology training under Willard E. Goodwin. Shared PMID with Walsh->Brady governance edge.",
+    "notes": "[V15 re-attribution: UCLA Dept of Surgery -> Willard E. Goodwin] Walsh completed his urology residency + endocrinology fellowship at UCLA 1967-1971 under Willard E. Goodwin (pioneer of renal transplantation/reconstructive urology). PMID 17437775 documents the training; Goodwin named as PD.",
     "module": "05_urology"
   },
   {
@@ -92,7 +92,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17437775/",
     "confidence": "high",
-    "notes": "[Phase2 reviewed — citation retained on 2026-03-17] Walsh served as Chairman of the Brady Urological Institute from 1974 to 2004, transforming it from a declining program into the world's leading prostate cancer center. Case Western Reserve MD 1964, Peter Bent Brigham general surgery residency, UCLA urology residency — NOT Hopkins-trained; recruited externally. On April 26, 1982, he performed the first purposeful nerve-sparing radical prostatectomy, revolutionizing prostate cancer treatment. By 2002, prostate cancer deaths had declined 33%. He trained 62 residents who carried the technique worldwide and edited Campbell's Urology for 25 years (renamed Campbell-Walsh Urology in 2012). His directorship bridges the Hugh Hampton Young founding era (1915) to the modern era of the Brady.",
+    "notes": "[Phase2 reviewed \u2014 citation retained on 2026-03-17] Walsh served as Chairman of the Brady Urological Institute from 1974 to 2004, transforming it from a declining program into the world's leading prostate cancer center. Case Western Reserve MD 1964, Peter Bent Brigham general surgery residency, UCLA urology residency \u2014 NOT Hopkins-trained; recruited externally. On April 26, 1982, he performed the first purposeful nerve-sparing radical prostatectomy, revolutionizing prostate cancer treatment. By 2002, prostate cancer deaths had declined 33%. He trained 62 residents who carried the technique worldwide and edited Campbell's Urology for 25 years (renamed Campbell-Walsh Urology in 2012). His directorship bridges the Hugh Hampton Young founding era (1915) to the modern era of the Brady.",
     "module": "05_urology"
   },
   {
@@ -124,7 +124,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/1830346/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Urol 1991 | content_match] Clayman RV, Kavoussi LR, Soper NJ, et al. 'Laparoscopic nephrectomy: initial case report.' J Urol. 1991 Aug;146(2):278-82. Clayman joined Washington University in 1984 as faculty in the Division of Urologic Surgery, rising to Professor of Urology and Radiology and Director of the Midwest Stone Institute. On June 25, 1990, he and his team performed the world's first laparoscopic nephrectomy on an 85-year-old woman with a 3cm renal mass — the most transformative single procedure in urologic surgery since Walsh's nerve-sparing prostatectomy. He trained at UC San Diego (MD) and University of Minnesota (urology residency), where he was exposed to endourology by Arthur Smith. His WashU program became the global training epicenter for minimally invasive urologic surgery. This creates a completely independent endourology trunk parallel to the Brady/Hopkins lineage, based at WashU (which already has nodes for the Graham/cardiothoracic and Blair/plastic surgery lineages).",
+    "notes": "[Verified 2026-03-17 | J Urol 1991 | content_match] Clayman RV, Kavoussi LR, Soper NJ, et al. 'Laparoscopic nephrectomy: initial case report.' J Urol. 1991 Aug;146(2):278-82. Clayman joined Washington University in 1984 as faculty in the Division of Urologic Surgery, rising to Professor of Urology and Radiology and Director of the Midwest Stone Institute. On June 25, 1990, he and his team performed the world's first laparoscopic nephrectomy on an 85-year-old woman with a 3cm renal mass \u2014 the most transformative single procedure in urologic surgery since Walsh's nerve-sparing prostatectomy. He trained at UC San Diego (MD) and University of Minnesota (urology residency), where he was exposed to endourology by Arthur Smith. His WashU program became the global training epicenter for minimally invasive urologic surgery. This creates a completely independent endourology trunk parallel to the Brady/Hopkins lineage, based at WashU (which already has nodes for the Graham/cardiothoracic and Blair/plastic surgery lineages).",
     "module": "05_urology"
   },
   {
@@ -171,7 +171,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11316887/",
     "confidence": "high",
-    "notes": "TARGET MODULE: 05_urology. Obituary: 'ALAN PARTIN, MD, PhD: 1961-2023.' PMC11316887. Partin earned his MD (1989) and PhD in pharmacology (1988) at Johns Hopkins. As a graduate student 'under the guidance of Patrick Walsh,' Partin published landmark prostate staging work. Completed urology residency at Hopkins (1989-1995), joined Brady faculty 1995. Walsh trained 62 residents total; 87% pursued academic urology; 23 became department directors. The Walsh→Partin chain extends the Hopkins urology lineage: Young→Brady→Walsh→Partin, creating a 4-generation institutional succession at a single department.",
+    "notes": "TARGET MODULE: 05_urology. Obituary: 'ALAN PARTIN, MD, PhD: 1961-2023.' PMC11316887. Partin earned his MD (1989) and PhD in pharmacology (1988) at Johns Hopkins. As a graduate student 'under the guidance of Patrick Walsh,' Partin published landmark prostate staging work. Completed urology residency at Hopkins (1989-1995), joined Brady faculty 1995. Walsh trained 62 residents total; 87% pursued academic urology; 23 became department directors. The Walsh\u2192Partin chain extends the Hopkins urology lineage: Young\u2192Brady\u2192Walsh\u2192Partin, creating a 4-generation institutional succession at a single department.",
     "module": "05_urology"
   },
   {
@@ -187,7 +187,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11316887/",
     "confidence": "high",
-    "notes": "TARGET MODULE: 05_urology. Partin was the 4th Brady director (after Young, Scott, Walsh), serving 2004-2022. Under his leadership the Brady doubled its research space and established the Greenberg Bladder Cancer Institute. Developed the Partin Tables — the first validated nomogram for prostate cancer staging. Published >600 papers, editor-in-chief of Urology journal, co-editor of Campbell-Walsh-Wein Urology textbook. Died March 2023 from glioblastoma at age 62. Succeeded by Mohamad Allaf (2022-present), also a Walsh trainee. Creates a closed loop: Hopkins trains → Brady director → trains next director, paralleling the Halsted→Hopkins pattern.",
+    "notes": "TARGET MODULE: 05_urology. Partin was the 4th Brady director (after Young, Scott, Walsh), serving 2004-2022. Under his leadership the Brady doubled its research space and established the Greenberg Bladder Cancer Institute. Developed the Partin Tables \u2014 the first validated nomogram for prostate cancer staging. Published >600 papers, editor-in-chief of Urology journal, co-editor of Campbell-Walsh-Wein Urology textbook. Died March 2023 from glioblastoma at age 62. Succeeded by Mohamad Allaf (2022-present), also a Walsh trainee. Creates a closed loop: Hopkins trains \u2192 Brady director \u2192 trains next director, paralleling the Halsted\u2192Hopkins pattern.",
     "module": "05_urology"
   }
 ]

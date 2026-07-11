@@ -12,14 +12,14 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22770963/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2012 | content_match] Philip Syng Physick (1768-1837), called the 'Father of American Surgery,' was elected the first professor of surgery at the University of Pennsylvania in 1805 — the first such chair in the United States. He held it until 1819 when he transferred to the anatomy chair (retiring 1831). Trained in London under John Hunter at St. George's Hospital (1788-1790), he was Hunter's first American house surgeon. He pioneered catgut sutures, the stomach pump, and tonsillectomy instruments. He was surgeon to Pennsylvania Hospital from 1794 to 1816 and treated Chief Justice John Marshall and First Lady Dolley Madison. His lectures prepared an entire generation of American surgeons. This edge extends the UPenn surgery lineage 140 years before Ravdin (1945), establishing an independent pre-Halsted Philadelphia surgical trunk. Physick and Halsted represent two distinct origin points for American academic surgery: Philadelphia (1805) and Baltimore (1889)."
+    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2012 | content_match] Philip Syng Physick (1768-1837), called the 'Father of American Surgery,' was elected the first professor of surgery at the University of Pennsylvania in 1805 \u2014 the first such chair in the United States. He held it until 1819 when he transferred to the anatomy chair (retiring 1831). Trained in London under John Hunter at St. George's Hospital (1788-1790), he was Hunter's first American house surgeon. He pioneered catgut sutures, the stomach pump, and tonsillectomy instruments. He was surgeon to Pennsylvania Hospital from 1794 to 1816 and treated Chief Justice John Marshall and First Lady Dolley Madison. His lectures prepared an entire generation of American surgeons. This edge extends the UPenn surgery lineage 140 years before Ravdin (1945), establishing an independent pre-Halsted Philadelphia surgical trunk. Physick and Halsted represent two distinct origin points for American academic surgery: Philadelphia (1805) and Baltimore (1889)."
   },
   {
-    "source_node": "Jefferson Medical College Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "George McClellan",
+    "source_node_type": "person",
     "target_node": "Samuel D. Gross",
     "target_node_type": "person",
-    "edge_type": "direct_training",
+    "edge_type": "observational_study",
     "start_year": 1826,
     "end_year": 1828,
     "temporal_range": "1826-1828",
@@ -27,7 +27,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/16809223/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Invest Surg 2006 | content_match] Samuel D. Gross (1805-1884) entered Jefferson Medical College in 1826 and graduated in 1828 in a class of 27 students. Jefferson was founded in 1824 by George McClellan, whom Gross greatly admired. Gross was the first alumnus to be appointed to a professorship there. After stints in Easton, Cincinnati (Medical College of Ohio, 1833-1840), and Louisville (1840-1856), he returned to Jefferson as professor of surgery in 1856 — completing a 30-year circuit. Thomas Eakins immortalized him in 'The Gross Clinic' (1875), one of the greatest American paintings. Jefferson Medical College is among the oldest medical schools in the United States and an independent institutional trunk parallel to the UPenn/Hopkins lineages."
+    "notes": "[V15 reclassify: Jefferson Med College Dept -> George McClellan; direct_training -> observational_study] MD-degree edge reclassified per pre-1950 named-teacher ruling. Gross entered Jefferson 1826, graduated 1828, as a private student of George McClellan (founder/first surgery chair), whom he specifically admired. PMID 16809223 (Toledo-Pereyra, J Invest Surg 2006) abstract names McClellan as his Philadelphia preceptor (content-match confirmed)."
   },
   {
     "source_node": "Samuel D. Gross",
@@ -72,7 +72,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22770963/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2012 | content_match] Philip Syng Physick (1768-1837) traveled to London in 1788 to study under John Hunter at St. George's Hospital, where he learned anatomy from cadaver dissection. On January 1, 1790, Hunter appointed Physick house surgeon — the first American to hold that position at St. George's. Physick received the diploma of the Royal College of Surgeons in 1790 and dedicated his Edinburgh MD thesis on apoplexy to Hunter (1792). Hunter offered Physick a partnership, but Physick returned to Philadelphia in 1792 and was appointed first professor of surgery at the University of Pennsylvania in 1805. Sheldon (JACS 2012) titles Physick explicitly as Hunter's favorite American trainee. This bridge edge merges the Hunter/Cline island (Component 9, 2 nodes in 14_global_military) into the main component via Physick's existing edges in 13_pre_halsted, extending the graph's temporal depth from 1777 (Hunter-Cline) through the entire pre-Halsted American trunk (Physick 1805, Gross 1828, ASA 1880) to the Halstedian era.",
+    "notes": "[Verified 2026-03-17 | J Am Coll Surg 2012 | content_match] Philip Syng Physick (1768-1837) traveled to London in 1788 to study under John Hunter at St. George's Hospital, where he learned anatomy from cadaver dissection. On January 1, 1790, Hunter appointed Physick house surgeon \u2014 the first American to hold that position at St. George's. Physick received the diploma of the Royal College of Surgeons in 1790 and dedicated his Edinburgh MD thesis on apoplexy to Hunter (1792). Hunter offered Physick a partnership, but Physick returned to Philadelphia in 1792 and was appointed first professor of surgery at the University of Pennsylvania in 1805. Sheldon (JACS 2012) titles Physick explicitly as Hunter's favorite American trainee. This bridge edge merges the Hunter/Cline island (Component 9, 2 nodes in 14_global_military) into the main component via Physick's existing edges in 13_pre_halsted, extending the graph's temporal depth from 1777 (Hunter-Cline) through the entire pre-Halsted American trunk (Physick 1805, Gross 1828, ASA 1880) to the Halstedian era.",
     "module": "13_pre_halsted"
   }
 ]

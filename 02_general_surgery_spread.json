@@ -110,19 +110,19 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Mayo Clinic Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "William J. Mayo",
+    "source_node_type": "person",
     "target_node": "Owen Wangensteen",
     "target_node_type": "person",
     "edge_type": "direct_training",
     "start_year": 1924,
-    "end_year": 1927,
-    "temporal_range": "1924-1927",
+    "end_year": 1925,
+    "temporal_range": "1924-1925",
     "evidence_citation": "PMID: 17275843",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/17275843/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Surg Res 2007 | content_match] Wangensteen completed a crucial fellowship at the Mayo Clinic, importing their systematic approach back to Minnesota to build his own dynasty.",
+    "notes": "[V15 re-attribution + year fix: Mayo Clinic Dept of Surgery -> William J. Mayo; 1924-1927 -> 1924-1925] Wangensteen completed a ~13-month Mayo fellowship 1924-1925 under the Mayo/Plummer clinical school (W.J. Mayo), importing its systematic approach to Minnesota. PMID 17275843 (Edlich, J Surg Res 2007). Merges W.J. Mayo's mini-component with the Wangensteen trunk. NB Wangensteen's formal surgical residency was at Minnesota; this edge is the Mayo fellowship specifically.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -574,19 +574,19 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Howard University Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "Burke Syphax",
+    "source_node_type": "person",
     "target_node": "LaSalle D. Leffall Jr.",
     "target_node_type": "person",
     "edge_type": "direct_training",
-    "start_year": 1948,
+    "start_year": 1953,
     "end_year": 1957,
-    "temporal_range": "1948-1957",
-    "evidence_citation": "PMID: 18481473",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18481473/",
+    "temporal_range": "1953-1957",
+    "evidence_citation": "Howard_Archive_Syphax_Leffall",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Howard University Dept of Surgery / Freedmen's Hospital residency history; Washington Post obituary of Burke Syphax (2010-07-25); The HistoryMakers Leffall biography \u2014 Syphax directed the Freedmen's/Howard general-surgery residency 1950-1970",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008 | content_match] LaSalle Doheny Leffall Jr. (1930-2019) entered Howard University College of Medicine in 1948 at age 18 and graduated first in his class in 1952. His mentors included Charles R. Drew, Burke Syphax (Drew's successor as surgery program director), W. Montague Cobb (professor of anatomy), and Jack White (who would direct Leffall toward surgical oncology training). Leffall completed his internship at Homer G. Phillips Hospital in St. Louis (1952-1953), then returned to the Howard system for surgical residency: assistant resident at D.C. General Hospital and Freedmen's Hospital (1953-1956), followed by chief residency at Freedmen's Hospital (1956-1957). The start_year of 1948 reflects medical school entry; the end_year of 1957 reflects completion of the chief residency. This training period spans the Drew era (Drew died during Leffall's second year of medical school) and its immediate succession under Syphax and White.",
+    "notes": "[V15 re-attribution + citation fix + year trim: Howard Univ Dept -> Burke Syphax; 1948-1957 -> 1953-1957; PMID 18481473 dropped] The prior PMID resolved (content-match) to a JNMA tribute documenting Leffall's CHAIR (1970-1995), not his training \u2014 a citation defect. Leffall's residency ran through Freedmen's Hospital (Howard's teaching hospital): assistant resident 1953-54, chief resident 1956-57, under Burke Syphax (general-surgery PD 1950-1970). Med-school years (1948 = FAMU undergrad) trimmed. Now institutional_archive tier.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -653,8 +653,8 @@
     "notes": "[Verified 2026-03-17 | Am Surg 2023 | content_match] The renal transplant program at the Peter Bent Brigham Hospital was established within Francis D. Moore's Department of Surgery. Moore (surgeon-in-chief 1948-1976) committed departmental resources to Joseph Murray's transplant research, which Murray himself described as essential: 'He highlighted the benefit he derived from Dr Moore, who provided a departmental environment that was enriching and conducive to scientific investigation' (Delmonico, Am J Transplant 2002). Murray returned to Brigham in 1951 after military service and plastic surgery training in New York, and performed the first successful kidney transplant in 1954 under Moore's departmental leadership. Murray served as chief of transplant surgery within the department from 1951 to 1971. The Brigham team \u2014 Moore (surgery), Thorn (medicine), Murray (transplant surgery), Merrill (nephrology), Harrison (urology) \u2014 functioned as an interdisciplinary unit within the department. Source: Niumsawatt V et al. Joseph Murray: Pioneering Plastic Surgeon and Father of the First Organ Transplant. Ann Plast Surg. 2021;87(5):e74-e80. BRIDGE EDGE: Connects the Moore/Brigham Dept 2-node island to the main component via the Brigham Transplant Program (which links to Murray, already in the main component)."
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "Alfred Blalock",
+    "source_node_type": "person",
     "target_node": "Thomas Starzl",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -665,7 +665,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Johns Hopkins Hospital Department of Surgery Historical Records",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 23225838 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] Starzl completed his surgical residency at Hopkins, bridging the classical general surgery trunk to the genesis of liver transplantation.",
+    "notes": "[V15 re-attribution: JHH Dept of Surgery -> Alfred Blalock] Starzl interned and completed surgical residency at Hopkins 1952-1956 under Blalock, surgeon-in-chief 1941-1964. Attribution by documented chief tenure; Hopkins archival records support the training. Stitches the former Starzl trunk into the main Halstedian tree.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -781,19 +781,19 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "George Zuidema",
+    "source_node_type": "person",
     "target_node": "John L. Cameron",
     "target_node_type": "person",
     "edge_type": "direct_training",
-    "start_year": 1962,
+    "start_year": 1964,
     "end_year": 1971,
-    "temporal_range": "1962-1971",
+    "temporal_range": "1964-1971",
     "evidence_citation": "PMID: 29189382",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Ann Surg 2018 | content_match] Cameron received his MD from Hopkins in 1962 and completed all general and thoracic surgical training there, later serving as Alfred Blalock Professor and Chairman of Surgery for 19 years (1984-2003).",
+    "notes": "[V15 re-attribution + year trim: JHH Dept -> George Zuidema; 1962-1971 -> 1964-1971] Cameron split (part 2 of 2). Cameron completed the bulk of his Hopkins residency under George Zuidema (chair 1964-1984). PMID 29189382 documents the Hopkins training. Companion edge: Alfred Blalock->Cameron (1962-1964, Blalock-era internship/early residency).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -989,8 +989,8 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Duke University Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "David Sabiston",
+    "source_node_type": "person",
     "target_node": "Allan Kirk",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -1001,7 +1001,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Duke University Department of Surgery Chair History",
     "confidence": "high",
-    "notes": "Kirk received his MD (1987), PhD in immunology (1992), and completed his general surgery residency (1995) all at Duke, later returning as chair in 2014 extending the Sabiston lineage into the modern era.",
+    "notes": "[V15 re-attribution: Duke Univ Dept of Surgery -> David Sabiston] Kirk earned his MD (1987), PhD (1992) and completed general surgery residency (1995) at Duke under Sabiston, chair 1964-1994. Extends the Sabiston lineage.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1339,8 +1339,8 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Peter Bent Brigham Hospital Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "Francis D. Moore",
+    "source_node_type": "person",
     "target_node": "Murray F. Brennan",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -1351,7 +1351,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944281/",
     "confidence": "high",
-    "notes": "[Phase2 reviewed \u2014 citation retained on 2026-03-17] Murray Frederick Brennan (b. 1940, New Zealand) received his MB ChB from the University of Otago (1964), then won a Fulbright Scholarship as a clinical research fellow in surgery at Harvard Medical School and completed a second surgical residency at the Peter Bent Brigham Hospital (c.1970-1975). Printz (Cancer 2020, PMID 31944281) confirms the Brigham training. During this period Francis D. Moore was surgeon-in-chief at the Brigham (until 1976), and Steven Rosenberg was a fellow resident who later recruited Brennan to the NCI. This edge connects Brennan to the Moore/Brigham trunk already in the graph (Moore->Brigham Department, Murray->Brigham Transplant), creating a pathway from the Harvard/Brigham institutional lineage to MSK surgical oncology.",
+    "notes": "[V15 re-attribution: Peter Bent Brigham Dept of Surgery -> Francis D. Moore] Brennan completed a surgical residency at the Peter Bent Brigham c.1970-1975 under Francis D. Moore (Moseley Professor / Surgeon-in-Chief 1948-1976). PMID 31944281 documents the Brigham training; Moore named as chief-of-record.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1371,8 +1371,8 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Columbia University Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "George Humphreys",
+    "source_node_type": "person",
     "target_node": "Keith Reemtsma",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -1383,7 +1383,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25135241/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Thorac Cardiovasc Surg 2015 | content_match] Keith Reemtsma (1925-2000) earned his MD from the University of Pennsylvania (1949), then completed his surgical internship and residency at Columbia-Presbyterian Medical Center (1949-1957) under George Humphreys, with an interruption for Korean War service as a Navy surgeon (1951-1954). He was chief resident at Columbia and earned a doctorate in medical science there (1958). He then moved to Tulane University (1958-1966), recruited by Oscar Creech Jr. (a DeBakey trainee, already in graph from Session 1 T2-01), where he performed the pioneering chimpanzee-to-human kidney xenotransplants (1963-1964). Citation is DeAnda A, Balsam LB, 'Historical perspectives of The American Association for Thoracic Surgery: Keith Reemtsma (1925-2000),' J Thorac Cardiovasc Surg 2015;149(3):762-4.",
+    "notes": "[V15 re-attribution: Columbia Univ Dept of Surgery -> George Humphreys] Reemtsma (MD Penn 1949) completed his surgical internship/residency and chief residency at Columbia-Presbyterian 1949-1957 under George Humphreys (chair of surgery). PMID 25135241 (DeAnda & Balsam, J Thorac Cardiovasc Surg 2015) documents the training; Humphreys named as PD-of-record.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1403,8 +1403,8 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "UCSF Department of Surgery",
-    "source_node_type": "institution",
+    "source_node": "H. Glenn Bell",
+    "source_node_type": "person",
     "target_node": "William Silen",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -1415,7 +1415,7 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Harvard Medical School DICP Faculty Profile; dicp.hms.harvard.edu/awards-and-recognitions/excellence-mentoring-awards/william-silen; Boston Globe obituary Sept 25 2022",
     "confidence": "high",
-    "notes": "William Silen (1927-2022) graduated from UCSF Medical School (1949) and trained in surgery at UCSF. CORRECTION: The expansion target T2-09 incorrectly stated Silen trained at Hopkins under Blalock. All verified sources (Harvard DICP profile, BIDMC history, obituaries) confirm he trained at UCSF. Exact residency years approximated as c. 1949-1955. This creates a second outgoing training edge for the UCSF Department of Surgery (alongside the existing Dunphy node), extending the West Coast academic surgery network. PMID upgrade candidate: search for Silen tribute in Annals of Surgery or JACS post-2022.",
+    "notes": "[V15 re-attribution: UCSF Dept of Surgery -> H. Glenn Bell] Silen trained in surgery at UCSF c.1949-1955 under H. Glenn Bell (chair 1947-1956). Re-anchored to the main component via the companion Mont Reid->Bell edge (Bell was Reid's chief resident). Prior CORRECTION note retained: Silen trained at UCSF, not Hopkins/Blalock.",
     "module": "02_general_surgery_spread"
   },
   {
@@ -2138,5 +2138,20 @@
     "evidence_locator": "Mount Sinai RMTI Director's Message (mountsinai.org/locations/recanati-miller-transplant/about/director-message): 'Our liver transplantation program was established in 1988 ... Dr. Arthur Aufses ... chose Dr. Charles Miller to lead and develop the program.'",
     "confidence": "high",
     "notes": "[V14 Mount Sinai | route: 02_general_surgery_spread] Founding director of the Mount Sinai liver transplant program (first liver transplant in NY State, Sep 1988). CREATES NODES: Charles Miller (person); Mount Sinai Hospital Liver Transplant Program (institution). NAME-COLLISION RISK: 'Charles Miller' is generic and he later moved to Cleveland Clinic - pin/whitelist to avoid a future collision."
+  },
+  {
+    "source_node": "Alfred Blalock",
+    "source_node_type": "person",
+    "target_node": "John L. Cameron",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1962,
+    "end_year": 1964,
+    "temporal_range": "1962-1964",
+    "evidence_citation": "PMID: 29189382",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
+    "confidence": "high",
+    "notes": "route: 02_general_surgery_spread [V15] Cameron split (part 1 of 2). Cameron (MD Hopkins 1962) began general/thoracic training at Hopkins under Blalock, surgeon-in-chief 1941-1964. Javed & Weiss (Ann Surg 2018, PMID 29189382) document his complete Hopkins training; the Blalock-era attribution (1962-64) is by documented chief tenure. Companion edge: George Zuidema->Cameron (1964-1971)."
   }
 ]

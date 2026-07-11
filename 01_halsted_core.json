@@ -87,7 +87,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
     "confidence": "moderate",
-    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 — no PubMed source found] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Homans appears in Carter's enumeration of Halsted trainees] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Carter catalogued all 17 Halsted residents and 55 assistant residents by name. [Verified 2026-03-18 | Yale Vascular History Archive & Wikipedia | Homans confirmed as training under both Halsted and Cushing at Hopkins before joining Brigham. Likely among Carter's 55 assistant residents.]"
+    "notes": "[Phase2 downgraded from PMID: 10871146 to institutional_archive on 2026-03-17 \u2014 no PubMed source found] Homans completed early surgical training under Halsted before joining Cushing at Brigham, heavily influenced by Halsted's physiological approach. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Homans appears in Carter's enumeration of Halsted trainees] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Carter catalogued all 17 Halsted residents and 55 assistant residents by name. [Verified 2026-03-18 | Yale Vascular History Archive & Wikipedia | Homans confirmed as training under both Halsted and Cushing at Hopkins before joining Brigham. Likely among Carter's 55 assistant residents.]"
   },
   {
     "source_node": "William Stewart Halsted",
@@ -197,21 +197,6 @@
   {
     "source_node": "Johns Hopkins Hospital Department of Surgery",
     "source_node_type": "institution",
-    "target_node": "Alfred Blalock",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1922,
-    "end_year": 1925,
-    "temporal_range": "1922-1925",
-    "evidence_citation": "PMID: 31944636",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/31944636/",
-    "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Can J Surg 2020 | content_match] Blalock trained directly under the Halstedian system at Hopkins before returning as Chief of Surgery to perform the first blue baby operation."
-  },
-  {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
     "target_node": "Arthur Blakemore",
     "target_node_type": "person",
     "edge_type": "direct_training",
@@ -222,6 +207,36 @@
     "evidence_type": "institutional_archive",
     "evidence_locator": "Johns Hopkins Medical Archives",
     "confidence": "high",
-    "notes": "Blakemore trained at Hopkins (1922-1926) before establishing the Columbia vascular lineage. Training dates begin year of Halsted's death; likely trained under post-Halsted leadership. Carter 1952 (PMID 12984268) covers Halsted appointees only — cannot confirm Blakemore is named. Reverted from PMID to institutional_archive 2026-03-18."
+    "notes": "Blakemore trained at Hopkins (1922-1926) before establishing the Columbia vascular lineage. Training dates begin year of Halsted's death; likely trained under post-Halsted leadership. Carter 1952 (PMID 12984268) covers Halsted appointees only \u2014 cannot confirm Blakemore is named. Reverted from PMID to institutional_archive 2026-03-18."
+  },
+  {
+    "source_node": "Barney Brooks",
+    "source_node_type": "person",
+    "target_node": "Alfred Blalock",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1925,
+    "end_year": 1927,
+    "temporal_range": "1925-1927",
+    "evidence_citation": "Vanderbilt_Archive_Brooks_Blalock",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Scott HW, History of Surgery at Vanderbilt University (VUMC, 1996); Alan Mason Chesney Medical Archives (JHM) Blalock biography; VUMC Dept of Thoracic Surgery Blalock profile",
+    "confidence": "high",
+    "notes": "route: 01_halsted_core [V15] TRUE incoming lineage for Blalock, replacing the retired false JHH-as-Halsted edge. Blalock was DENIED the Halsted residency (average record); after a Hopkins urology internship + a non-renewed assistant residency, he completed formative training under Barney Brooks (Vanderbilt's first Professor/Chief of Surgery) from Sept 1925, becoming Vanderbilt's first chief resident. Brooks himself was a Halsted pupil, so this correctly seats Blalock as Halsted's GRAND-pupil (Halsted->Brooks->Blalock), not a direct Halstedian."
+  },
+  {
+    "source_node": "Mont Reid",
+    "source_node_type": "person",
+    "target_node": "H. Glenn Bell",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1922,
+    "end_year": 1926,
+    "temporal_range": "c.1922-c.1926",
+    "evidence_citation": "UCSF_Archive_Bell_Reid",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "UCSF Department of Surgery history (Naffziger Society): 'H. Glenn Bell had been chief resident under another Halsted resident, Mont Reid, in Cincinnati'",
+    "confidence": "moderate",
+    "notes": "route: 01_halsted_core [V15] Seats the UCSF line in the Halstedian trunk and (critically) re-anchors Bell->Silen to the main component. Bell was chief resident under Mont Reid (a Halsted pupil) at Cincinnati General. Years approximate (mid-1920s Cincinnati chief-residency window); moderate confidence pending a firmer archival date."
   }
 ]

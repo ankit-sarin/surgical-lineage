@@ -1,0 +1,62 @@
+[
+  {
+    "source_node": "Barney Brooks",
+    "source_node_type": "person",
+    "target_node": "Alfred Blalock",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1925,
+    "end_year": 1927,
+    "temporal_range": "1925-1927",
+    "evidence_citation": "Vanderbilt_Archive_Brooks_Blalock",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "Scott HW, History of Surgery at Vanderbilt University (VUMC, 1996); Alan Mason Chesney Medical Archives (JHM) Blalock biography; VUMC Dept of Thoracic Surgery Blalock profile",
+    "confidence": "high",
+    "notes": "route: 01_halsted_core [V15] TRUE incoming lineage for Blalock, replacing the retired false JHH-as-Halsted edge. Blalock was DENIED the Halsted residency (average record); after a Hopkins urology internship + a non-renewed assistant residency, he completed formative training under Barney Brooks (Vanderbilt's first Professor/Chief of Surgery) from Sept 1925, becoming Vanderbilt's first chief resident. Brooks himself was a Halsted pupil, so this correctly seats Blalock as Halsted's GRAND-pupil (Halsted->Brooks->Blalock), not a direct Halstedian."
+  },
+  {
+    "source_node": "Alfred Blalock",
+    "source_node_type": "person",
+    "target_node": "John L. Cameron",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1962,
+    "end_year": 1964,
+    "temporal_range": "1962-1964",
+    "evidence_citation": "PMID: 29189382",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/29189382/",
+    "confidence": "high",
+    "notes": "route: 02_general_surgery_spread [V15] Cameron split (part 1 of 2). Cameron (MD Hopkins 1962) began general/thoracic training at Hopkins under Blalock, surgeon-in-chief 1941-1964. Javed & Weiss (Ann Surg 2018, PMID 29189382) document his complete Hopkins training; the Blalock-era attribution (1962-64) is by documented chief tenure. Companion edge: George Zuidema->Cameron (1964-1971)."
+  },
+  {
+    "source_node": "Frederick Coller",
+    "source_node_type": "person",
+    "target_node": "Norman Thompson",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1956,
+    "end_year": 1958,
+    "temporal_range": "1956-1958",
+    "evidence_citation": "PMID: 22136854",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/22136854/",
+    "confidence": "high",
+    "notes": "route: 08_subspecialties [V15] Thompson split (part 1 of 2). Thompson trained at Michigan 1956-1964; Frederick Coller chaired to his 1958 retirement. Coller-era attribution (1956-58) by documented chair tenure. Companion edge: C. Gardner Child III->Thompson (1959-1964, Child chair from 1959)."
+  },
+  {
+    "source_node": "Mont Reid",
+    "source_node_type": "person",
+    "target_node": "H. Glenn Bell",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1922,
+    "end_year": 1926,
+    "temporal_range": "c.1922-c.1926",
+    "evidence_citation": "UCSF_Archive_Bell_Reid",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "UCSF Department of Surgery history (Naffziger Society): 'H. Glenn Bell had been chief resident under another Halsted resident, Mont Reid, in Cincinnati'",
+    "confidence": "moderate",
+    "notes": "route: 01_halsted_core [V15] Seats the UCSF line in the Halstedian trunk and (critically) re-anchors Bell->Silen to the main component. Bell was chief resident under Mont Reid (a Halsted pupil) at Cincinnati General. Years approximate (mid-1920s Cincinnati chief-residency window); moderate confidence pending a firmer archival date."
+  }
+]
