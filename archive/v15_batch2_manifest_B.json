@@ -1,0 +1,69 @@
+{
+  "manifest_type": "edge_semantic_ops",
+  "manifest_id": "v15_b2_bucketC_deletes",
+  "operations": [
+    {
+      "op": "delete",
+      "module": "02_general_surgery_spread.json",
+      "match": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "Henry Harkins",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "start_year": 1943,
+        "evidence_type": "institutional_archive"
+      },
+      "reason": "Faculty appointment (Assoc Prof of Surgery 1943-47) miscoded as direct_training; no training relationship. Harkins remains anchored to the main tree via Harkins->UW Dept (held by UW chair governance edges) and Harkins->Nyhus."
+    },
+    {
+      "op": "delete",
+      "module": "08_subspecialties.json",
+      "match": {
+        "source_node": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
+        "target_node": "American Society of Colon and Rectal Surgeons",
+        "edge_type": "observational_study"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "society",
+        "start_year": 1993,
+        "evidence_type": "DOI"
+      },
+      "reason": "Institution->society 'observational_study' (1993-2026 Tripartite Meeting relationship) \u2014 no valid edge type; both endpoints richly connected elsewhere, safe delete."
+    },
+    {
+      "op": "delete",
+      "module": "10_quality_outcomes.json",
+      "match": {
+        "source_node": "David Flum",
+        "target_node": "The Dartmouth Institute for Health Policy and Clinical Practice",
+        "edge_type": "observational_study"
+      },
+      "expected_existing": {
+        "source_node_type": "person",
+        "target_node_type": "institution",
+        "start_year": 2000,
+        "evidence_type": "institutional_archive"
+      },
+      "reason": "Post-1950 observational_study scope violation (intellectual influence, not lineage). Companion orphan-cleanup delete removes the now-isolated out-of-scope health-policy subgraph."
+    },
+    {
+      "op": "delete",
+      "module": "10_quality_outcomes.json",
+      "match": {
+        "source_node": "John Wennberg",
+        "target_node": "The Dartmouth Institute for Health Policy and Clinical Practice",
+        "edge_type": "institutional_founder"
+      },
+      "expected_existing": {
+        "source_node_type": "person",
+        "target_node_type": "institution",
+        "start_year": 1988,
+        "evidence_type": "PMID"
+      },
+      "reason": "Orphan-cleanup companion to the Flum->Dartmouth delete: Wennberg (health-services researcher) and the Dartmouth Institute are non-surgical entities present only to support the out-of-scope influence edge. Removing this founder edge drops both now-edgeless nodes, restoring single-component."
+    }
+  ]
+}

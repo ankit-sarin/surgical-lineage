@@ -30,21 +30,6 @@
     "notes": "[Verified 2026-03-17 | Am Surg 2023 | content_match] Codman instituted the End Result System to systematically track patient outcomes, serving as the intellectual genesis for all modern surgical quality improvement."
   },
   {
-    "source_node": "John Wennberg",
-    "source_node_type": "person",
-    "target_node": "The Dartmouth Institute for Health Policy and Clinical Practice",
-    "target_node_type": "institution",
-    "edge_type": "institutional_founder",
-    "start_year": 1988,
-    "end_year": 2026,
-    "temporal_range": "1988-Present",
-    "evidence_citation": "PMID: 39177806",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/39177806/",
-    "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Res Health Serv Reg 2022 | content_match] Wennberg established the institute to formalize the study of surgical practice variation, fundamentally shifting outcomes science toward population-level epidemiology."
-  },
-  {
     "source_node": "Shukri Khuri",
     "source_node_type": "person",
     "target_node": "VA National Surgical Quality Improvement Program",
@@ -58,21 +43,6 @@
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19874939/",
     "confidence": "high",
     "notes": "[Phase2 replaced PMID: 9486580 -> PMID: 19874939 on 2026-03-17] [Verified 2026-03-17 | Am J Surg 2009 | content_match] Khuri led the development and validation of the VA NSQIP, demonstrating that systematic risk-adjusted outcomes measurement could tangibly reduce surgical mortality."
-  },
-  {
-    "source_node": "David Flum",
-    "source_node_type": "person",
-    "target_node": "The Dartmouth Institute for Health Policy and Clinical Practice",
-    "target_node_type": "institution",
-    "edge_type": "observational_study",
-    "start_year": 2000,
-    "end_year": 2010,
-    "temporal_range": "2000-2010",
-    "evidence_citation": "SOC_Archive_Dartmouth",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Surgical Outcomes Club Historical Archives",
-    "confidence": "moderate",
-    "notes": "Flum's surgical outcomes research methodology was heavily influenced by Wennberg's practice variation framework at Dartmouth, creating the intellectual bridge between epidemiologic outcomes science and clinical surgical quality programs."
   },
   {
     "source_node": "Henrik Kehlet",

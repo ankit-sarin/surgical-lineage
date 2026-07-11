@@ -1432,14 +1432,6 @@
     "reviewed": true
   },
   {
-    "id": "The Dartmouth Institute for Health Policy and Clinical Practice",
-    "type": "institution",
-    "degree": 2,
-    "label_short": "Dartmouth Institute",
-    "label_short_source": "default",
-    "reviewed": true
-  },
-  {
     "id": "Theodor Kocher",
     "type": "person",
     "degree": 2,
@@ -2052,14 +2044,6 @@
     "type": "person",
     "degree": 1,
     "label_short": "Finney",
-    "label_short_source": "default",
-    "reviewed": true
-  },
-  {
-    "id": "John Wennberg",
-    "type": "person",
-    "degree": 1,
-    "label_short": "Wennberg",
     "label_short_source": "default",
     "reviewed": true
   },

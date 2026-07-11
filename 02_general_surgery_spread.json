@@ -398,22 +398,6 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Henry Harkins",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1943,
-    "end_year": 1947,
-    "temporal_range": "1943-1947",
-    "evidence_citation": "NLM_Archive_Harkins",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "National Library of Medicine, History of Medicine Division, Harkins Papers",
-    "confidence": "high",
-    "notes": "Harkins served as Associate Professor of Surgery at Johns Hopkins from 1943-1947 before being recruited to found the UW Department of Surgery.",
-    "module": "02_general_surgery_spread"
-  },
-  {
     "source_node": "Alfred Blalock",
     "source_node_type": "person",
     "target_node": "Denton Cooley",

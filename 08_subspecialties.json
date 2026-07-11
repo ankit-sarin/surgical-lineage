@@ -840,22 +840,6 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
-    "source_node_type": "institution",
-    "target_node": "American Society of Colon and Rectal Surgeons",
-    "target_node_type": "society",
-    "edge_type": "observational_study",
-    "start_year": 1993,
-    "end_year": 2026,
-    "temporal_range": "1993-Present",
-    "evidence_citation": "DOI: 10.1007/bf02586849",
-    "evidence_type": "DOI",
-    "evidence_locator": "https://doi.org/10.1007/bf02586849",
-    "confidence": "moderate",
-    "notes": "[Phase2 reviewed \u2014 citation retained on 2026-03-17] St. Mark's Hospital and the ASCRS have maintained a formal institutional relationship through the Tripartite Colorectal Meeting, a rotating international conference jointly organized by the ASCRS, St. Mark's (via the Association of Coloproctology of Great Britain and Ireland, ACPGBI), and the Colorectal Surgical Society of Australia and New Zealand. The first Tripartite meeting was held in 1993. The St. Mark's Hospital Surgical Training Program (Dis Colon Rectum 1980, DOI 10.1007/bf02586849) documents the institutional training relationship. PMID 33421312 was incorrect (ophthalmology article); corrected to DOI during V5 PMID verification. St. Mark's surgeons have been regular visiting professors at ASCRS and vice versa, and the institutions share fellowship exchange programs. This is an observational_study edge representing sustained institutional knowledge exchange rather than a formal accreditation or governance relationship. Confidence moderate because the relationship is bilateral and collegial rather than hierarchical. BRIDGE EDGE: Merges the Salmon/St. Mark's island (Component 5, 2 nodes) into the main component via the ASCRS node in 08_subspecialties.",
-    "module": "08_subspecialties"
-  },
-  {
     "source_node": "Robert E. Gross",
     "source_node_type": "person",
     "target_node": "Judah Folkman",

@@ -1,0 +1,6 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v15_b2_A_noop",
+  "target_module": "02_general_surgery_spread.json",
+  "operations": []
+}

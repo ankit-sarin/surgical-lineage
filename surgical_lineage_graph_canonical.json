@@ -638,22 +638,6 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Henry Harkins",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1943,
-    "end_year": 1947,
-    "temporal_range": "1943-1947",
-    "evidence_citation": "NLM_Archive_Harkins",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "National Library of Medicine, History of Medicine Division, Harkins Papers",
-    "confidence": "high",
-    "notes": "Harkins served as Associate Professor of Surgery at Johns Hopkins from 1943-1947 before being recruited to found the UW Department of Surgery.",
-    "module": "02_general_surgery_spread"
-  },
-  {
     "source_node": "Alfred Blalock",
     "source_node_type": "person",
     "target_node": "Denton Cooley",
@@ -5110,22 +5094,6 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
-    "source_node_type": "institution",
-    "target_node": "American Society of Colon and Rectal Surgeons",
-    "target_node_type": "society",
-    "edge_type": "observational_study",
-    "start_year": 1993,
-    "end_year": 2026,
-    "temporal_range": "1993-Present",
-    "evidence_citation": "DOI: 10.1007/bf02586849",
-    "evidence_type": "DOI",
-    "evidence_locator": "https://doi.org/10.1007/bf02586849",
-    "confidence": "moderate",
-    "notes": "[Phase2 reviewed \u2014 citation retained on 2026-03-17] St. Mark's Hospital and the ASCRS have maintained a formal institutional relationship through the Tripartite Colorectal Meeting, a rotating international conference jointly organized by the ASCRS, St. Mark's (via the Association of Coloproctology of Great Britain and Ireland, ACPGBI), and the Colorectal Surgical Society of Australia and New Zealand. The first Tripartite meeting was held in 1993. The St. Mark's Hospital Surgical Training Program (Dis Colon Rectum 1980, DOI 10.1007/bf02586849) documents the institutional training relationship. PMID 33421312 was incorrect (ophthalmology article); corrected to DOI during V5 PMID verification. St. Mark's surgeons have been regular visiting professors at ASCRS and vice versa, and the institutions share fellowship exchange programs. This is an observational_study edge representing sustained institutional knowledge exchange rather than a formal accreditation or governance relationship. Confidence moderate because the relationship is bilateral and collegial rather than hierarchical. BRIDGE EDGE: Merges the Salmon/St. Mark's island (Component 5, 2 nodes) into the main component via the ASCRS node in 08_subspecialties.",
-    "module": "08_subspecialties"
-  },
-  {
     "source_node": "Robert E. Gross",
     "source_node_type": "person",
     "target_node": "Judah Folkman",
@@ -5828,21 +5796,6 @@
     "notes": "[Verified 2026-03-17 | Am Surg 2023 | content_match] Codman instituted the End Result System to systematically track patient outcomes, serving as the intellectual genesis for all modern surgical quality improvement."
   },
   {
-    "source_node": "John Wennberg",
-    "source_node_type": "person",
-    "target_node": "The Dartmouth Institute for Health Policy and Clinical Practice",
-    "target_node_type": "institution",
-    "edge_type": "institutional_founder",
-    "start_year": 1988,
-    "end_year": 2026,
-    "temporal_range": "1988-Present",
-    "evidence_citation": "PMID: 39177806",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/39177806/",
-    "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Res Health Serv Reg 2022 | content_match] Wennberg established the institute to formalize the study of surgical practice variation, fundamentally shifting outcomes science toward population-level epidemiology."
-  },
-  {
     "source_node": "Shukri Khuri",
     "source_node_type": "person",
     "target_node": "VA National Surgical Quality Improvement Program",
@@ -5856,21 +5809,6 @@
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/19874939/",
     "confidence": "high",
     "notes": "[Phase2 replaced PMID: 9486580 -> PMID: 19874939 on 2026-03-17] [Verified 2026-03-17 | Am J Surg 2009 | content_match] Khuri led the development and validation of the VA NSQIP, demonstrating that systematic risk-adjusted outcomes measurement could tangibly reduce surgical mortality."
-  },
-  {
-    "source_node": "David Flum",
-    "source_node_type": "person",
-    "target_node": "The Dartmouth Institute for Health Policy and Clinical Practice",
-    "target_node_type": "institution",
-    "edge_type": "observational_study",
-    "start_year": 2000,
-    "end_year": 2010,
-    "temporal_range": "2000-2010",
-    "evidence_citation": "SOC_Archive_Dartmouth",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Surgical Outcomes Club Historical Archives",
-    "confidence": "moderate",
-    "notes": "Flum's surgical outcomes research methodology was heavily influenced by Wennberg's practice variation framework at Dartmouth, creating the intellectual bridge between epidemiologic outcomes science and clinical surgical quality programs."
   },
   {
     "source_node": "Henrik Kehlet",

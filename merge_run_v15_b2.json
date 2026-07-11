@@ -1,0 +1,49 @@
+{
+  "version": "v15_b2",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v15_batch2_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v15_batch2_manifest_A.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v15_batch2_manifest_B.json"
+  },
+  "pre": {
+    "edges": 565,
+    "nodes": 430,
+    "institutional_parent": 49,
+    "by_edge_type": {
+      "institutional_founder": 99,
+      "direct_training": 137,
+      "governance_leadership": 164,
+      "institutional_succession": 18,
+      "society_founder": 62,
+      "observational_study": 12,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 49
+    }
+  },
+  "delta": {
+    "edges": -4,
+    "nodes": -2,
+    "institutional_parent": 0,
+    "by_edge_type": {
+      "direct_training": -1,
+      "institutional_founder": -1,
+      "governance_leadership": 0,
+      "institutional_succession": 0,
+      "observational_study": -2,
+      "institutional_parent": 0,
+      "programmatic_accreditation": 0,
+      "society_founder": 0
+    }
+  },
+  "inserted_by_type": {},
+  "inserted_by_module": {},
+  "new_nodes": [],
+  "new_node_count": 0,
+  "manifest_ops": {
+    "a_modify_fields": 0,
+    "b_delete": 4,
+    "b_reverse_retarget": 0,
+    "b_reclassify": 0
+  }
+}
