@@ -1,0 +1,6 @@
+# Surgical-lineage pipeline dependencies.
+# System python3 on macOS is PEP-668 externally-managed; use a venv:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+networkx>=3.0      # phase_h_apply.py, diagnostic_audit.py, networkx_diagnostic.py
+jsonschema>=4.0    # schema validation (00_schema.json) + tests
+pytest>=7.0        # test_phase_g_labels.py, test_v16_pr.py
