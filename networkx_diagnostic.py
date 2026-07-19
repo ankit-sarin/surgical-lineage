@@ -41,10 +41,13 @@ import networkx as nx
 # non-person (institution) endpoint. No logic change is needed when residency_at edges appear.
 TRAINING_TYPES = {"direct_training", "observational_study"}
 
-# Reference sets for regression tests (person<->person lineage projection, post-V13).
+# Reference sets for regression tests (person<->person lineage projection, refreshed V16-B2).
+# Wangensteen/Starzl left the root set at V15 (reverse_retargeted under W.J. Mayo/Blalock);
+# Richardson/Zuidema/W.J. Mayo are the current major trunk roots.
 EXPECTED_TRUNK_ROOTS = {
-    "Bernhard von Langenbeck", "William E. Ladd", "Alton Ochsner", "Helen Taussig",
-    "Owen Wangensteen", "Thomas Starzl", "Vilray Blair",
+    "Alton Ochsner", "Bernhard von Langenbeck", "Edward P. Richardson",
+    "George Zuidema", "Helen Taussig", "Vilray Blair", "William E. Ladd",
+    "William J. Mayo",
 }
 # G_full betweenness top-5 is independent of the lineage-projection fix; this guards that it
 # did not move when G_train was corrected (test 5).
@@ -53,7 +56,7 @@ EXPECTED_GFULL_TOP5 = [
     "ACS National Surgical Quality Improvement Program",
     "Johns Hopkins Hospital Department of Surgery",
     "Alfred Blalock",
-    "Thomas Starzl",
+    "William Stewart Halsted",
 ]
 
 
@@ -268,12 +271,12 @@ def run_tests(edges, nt, graphs, census, major_roots, geo_pairs, floaters,
     add("1.G_train_all_persons", not nonperson_nodes,
         "every G_train node is a person" if not nonperson_nodes
         else f"non-person nodes present: {nonperson_nodes}")
-    # 2 — G_train == 138 / 24 wcc / 5 big
+    # 2 — G_train == 154 / 24 wcc / 4 big
     tn = G_train.number_of_nodes()
     wcc = len(census)
     big = sum(1 for c in census if c["size"] >= threshold)
-    add("2.G_train_138n_24wcc_5big", tn == 138 and wcc == 24 and big == 5,
-        f"nodes={tn} (exp 138); weak_components={wcc} (exp 24); comps>={threshold}: {big} (exp 5)")
+    add("2.G_train_154n_24wcc_4big", tn == 154 and wcc == 24 and big == 4,
+        f"nodes={tn} (exp 154); weak_components={wcc} (exp 24); comps>={threshold}: {big} (exp 4)")
     # 3 — all trunk roots persons AND root set matches reference
     root_names = {m["root"] for m in major_roots}
     all_person_roots = all(nt.get(m["root"]) == "person" for m in major_roots)
@@ -284,29 +287,29 @@ def run_tests(edges, nt, graphs, census, major_roots, geo_pairs, floaters,
                 f"extra={sorted(root_names - EXPECTED_TRUNK_ROOTS)}")
     add("3.trunk_roots_persons_and_match_reference", all_person_roots and matches_ref,
         f"major roots ({len(root_names)}): {sorted(root_names)}; all persons={all_person_roots}; "
-        f"matches reference 7-root set={matches_ref}{diff}")
+        f"matches reference 8-root set={matches_ref}{diff}")
     # 4 — structural sanity
     jh_in = G_train.in_degree("John Hunter") if "John Hunter" in G_train else 0
     hal_in = G_train.in_degree("William Stewart Halsted") if "William Stewart Halsted" in G_train else 0
     add("4.JohnHunter_indeg0_Halsted_indeg_ge1", jh_in == 0 and hal_in >= 1,
         f"John Hunter training in-degree={jh_in} (exp 0); Halsted in-degree={hal_in} (exp ≥1)")
-    # 5 — full_degree1 still 53 AND G_full top-5 unchanged
+    # 5 — full_degree1 == 61 AND G_full top-5 unchanged
     fd1 = len(floaters["full_degree1"])
     gfull_top5 = [r["node"] for r in bc_tables["G_full"][:5]]
-    add("5.full_degree1_53_and_Gfull_top5_unchanged",
-        fd1 == 53 and gfull_top5 == EXPECTED_GFULL_TOP5,
-        f"full_degree1={fd1} (exp 53); G_full top-5={gfull_top5}; "
+    add("5.full_degree1_61_and_Gfull_top5_unchanged",
+        fd1 == 61 and gfull_top5 == EXPECTED_GFULL_TOP5,
+        f"full_degree1={fd1} (exp 61); G_full top-5={gfull_top5}; "
         f"unchanged={gfull_top5 == EXPECTED_GFULL_TOP5}")
-    # 6 — excluded enumeration non-empty and equals diagnosis count (27)
-    add("6.excluded_nonperson_training_eq_27",
-        len(excluded_edges) == 27 and len(excluded_edges) > 0,
-        f"excluded non-person training edges={len(excluded_edges)} (exp 27)")
+    # 6 — excluded enumeration non-empty and equals diagnosis count (8)
+    add("6.excluded_nonperson_training_eq_8",
+        len(excluded_edges) == 8 and len(excluded_edges) > 0,
+        f"excluded non-person training edges={len(excluded_edges)} (exp 8)")
     # 7 — read-only sha unchanged
     add("7.canonical_sha_unchanged", sha_before == sha_after,
         f"before={sha_before[:12]}… after={sha_after[:12]}…")
 
     # supplementary invariants (retained from prior version; hard)
-    add("S1.canonical_node_count_415", G_full.number_of_nodes() == 415,
+    add("S1.canonical_node_count_428", G_full.number_of_nodes() == 428,
         f"nodes={G_full.number_of_nodes()}; raw_edges={len(edges)}; "
         f"simple_edges={G_full.number_of_edges()} (collapsed {len(edges)-G_full.number_of_edges()})")
     ncc = nx.number_connected_components(G_full_u)
@@ -382,7 +385,7 @@ def write_markdown(path, version, sha_before, sha_after, edges, graphs, bc_table
              f"pulling {len(excluded_edges)} non-person training edges into the projection "
              f"(chiefly institution→person `direct_training`) and seating institutions "
              f"(Mayo/JHH/Howard/MSK departments) as trunk roots. Restricting to person↔person "
-             f"yields the correct **138 nodes / 24 weak components / 5 components ≥ {threshold}**, "
+             f"yields the correct **154 nodes / 24 weak components / 4 components ≥ {threshold}**, "
              f"with all trunk roots persons. Excluded edges enumerated in the REVIEW section.")
     L.append("")
     L.append("### Major trunk roots (components size ≥ threshold)")
@@ -454,7 +457,7 @@ def write_markdown(path, version, sha_before, sha_after, edges, graphs, bc_table
     L.append("| Cut | Definition | Count |")
     L.append("|---|---|---|")
     L.append(f"| (a) full_degree1 | degree==1 in G_full_u | {len(floaters['full_degree1'])} "
-             f"(prior V11/V12 ~53) |")
+             f"(baseline 61 at V16-B2; was ~53 through V11–V16-B1) |")
     L.append(f"| (b) training_leaves | (in+out)≤1 in G_train | {len(floaters['training_leaves'])} |")
     L.append(f"|     ↳ training-isolated (deg 0) | no training edge at all | "
              f"{len(floaters['training_isolated_deg0'])} |")
