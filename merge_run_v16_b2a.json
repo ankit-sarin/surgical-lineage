@@ -1,0 +1,55 @@
+{
+  "version": "v16_b2a",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v16_b2a_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v16_b2a_manifest_A.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v16_b2a_manifest_B.json"
+  },
+  "pre": {
+    "edges": 561,
+    "nodes": 428,
+    "institutional_parent": 49,
+    "by_edge_type": {
+      "institutional_founder": 98,
+      "direct_training": 136,
+      "governance_leadership": 165,
+      "institutional_succession": 18,
+      "society_founder": 62,
+      "observational_study": 9,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 49
+    }
+  },
+  "delta": {
+    "edges": 1,
+    "nodes": 1,
+    "institutional_parent": 0,
+    "by_edge_type": {
+      "governance_leadership": 0,
+      "direct_training": 1,
+      "society_founder": 0,
+      "observational_study": 0,
+      "programmatic_accreditation": 0,
+      "institutional_parent": 0,
+      "institutional_founder": 0,
+      "institutional_succession": 0
+    }
+  },
+  "inserted_by_type": {
+    "direct_training": 1
+  },
+  "inserted_by_module": {
+    "14_global_military.json": 1
+  },
+  "new_nodes": [
+    "Carl W. Hughes"
+  ],
+  "new_node_count": 1,
+  "manifest_ops": {
+    "a_modify_fields": 0,
+    "b_delete": 0,
+    "b_reverse_retarget": 0,
+    "b_reclassify": 0
+  }
+}

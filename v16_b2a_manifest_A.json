@@ -1,0 +1,6 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v16_b2a_A_noop",
+  "target_module": "14_global_military.json",
+  "operations": []
+}

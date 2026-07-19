@@ -210,5 +210,20 @@
     "confidence": "high",
     "notes": "Kirk as Army Surgeon General established the 9 Army hand surgery centers, then appointed Bunnell to run the training programs. Source: Rizzo M. How the US Army Forged Hand Surgery. J Hand Surg Am. 2020;45(6):556-561. TARGET MODULE: 14_global_military.json",
     "temporal_range": "1944-1947"
+  },
+  {
+    "source_node": "Carl W. Hughes",
+    "source_node_type": "person",
+    "target_node": "Norman Rich",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1960,
+    "end_year": 1965,
+    "temporal_range": "1960-1965",
+    "evidence_citation": "PMID: 12075829",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12075829/",
+    "confidence": "high",
+    "notes": "route: 14_global_military [V16-B2a] Rich trained under Carl W. Hughes during his surgical internship at Tripler General Hospital, Honolulu (1960-1961) and his general surgery residency at Letterman General Hospital, San Francisco (1961-1965). Hughes held a documented Chief, General Surgical Service / Assistant Chief of Surgery title at Tripler during Rich's internship, satisfying the structural-role bar. [Verified 2026-07-18 | Scand J Surg 2002;91:109-126, Rich autobiographical review | content_match] Rich names Hughes as his teacher across the internship and residency years in the first person. Hughes was himself the Korean-War vascular-repair pioneer (Walter Reed peripheral vascular center) and later supported Rich's Vietnam Vascular Registry. Upstream Holman->Hughes mentorship (Halsted-Holman legacy, PMID 20670783) is documented as encouragement/legacy, not a formal PD/APD relationship, and is HELD pending structural-title sourcing per scope bar; thus this edge does not by itself place Rich on the Halsted trunk."
   }
 ]
