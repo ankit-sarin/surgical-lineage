@@ -1,0 +1,74 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v16_b1_A_retarget_fields",
+  "target_module": "14_global_military.json",
+  "operations": [
+    {
+      "op": "modify_fields",
+      "match": {
+        "source_node": "Mobile Army Surgical Hospital (MASH) System",
+        "target_node": "Norman Rich",
+        "edge_type": "observational_study"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1966,
+        "end_year": 1970,
+        "temporal_range": "1966-1970",
+        "evidence_type": "PMID",
+        "confidence": "high"
+      },
+      "set": {
+        "start_year": 1965,
+        "end_year": 1966,
+        "temporal_range": "1965-1966",
+        "evidence_type": "institutional_archive",
+        "evidence_citation": "USU News (Uniformed Services University), 'Dr. Norman Rich named Icon in Surgery,' 2 Nov 2017 (institutional record of 2nd MASH chief-of-surgery role)",
+        "evidence_locator": "https://news.usuhs.edu/2017/11/dr-norman-rich-named-icon-in-surgery.html",
+        "notes": "Rich served as Chief of Surgery, 2nd Surgical Hospital (Mobile Army), 1st Cavalry Division — Fort Bragg 1965, then An Khe, Republic of Vietnam — before returning to Walter Reed General Hospital in 1966 as its first vascular surgery fellow. Unit-level command mapped to the MASH System node (same granularity as the Kirk→MASH governance edge). [V16-B1 2026-07-18: retargeted from observational_study MASH→Rich (post-1950 scope violation; institution-sourced training-class edge). Appointment fact per USU institutional archive. PMIDs 5762414 and 15815826 citation-mcp-verified bibliographically (confidence 1.0) but not content-matched for the command title, so not used as evidence_type per content-match rule.]"
+      },
+      "preserve": [
+        "source_node",
+        "target_node",
+        "source_node_type",
+        "target_node_type",
+        "edge_type",
+        "confidence"
+      ]
+    },
+    {
+      "op": "modify_fields",
+      "match": {
+        "source_node": "Norman Rich",
+        "target_node": "Vietnam Vascular Registry",
+        "edge_type": "institutional_founder"
+      },
+      "expected_existing": {
+        "source_node_type": "person",
+        "target_node_type": "institution",
+        "start_year": 1966,
+        "end_year": 2026,
+        "temporal_range": "1966-Present",
+        "evidence_type": "PMID"
+      },
+      "set": {
+        "notes": "Rich established the registry to meticulously track combat vascular injuries, driving the definitive transition from arterial ligation to immediate primary repair in modern vascular trauma. [Phase2 upgraded institutional_archive -> PMID: 5762414 on 2026-03-18] [Verified 2026-03-18 | Surgery 1969 | content_match] Rich NM, Hughes CW. 'Vietnam vascular registry: a preliminary report.' Surgery. 1969 Jan;65(1):218-226. The original registry publication by Rich himself. Follow-up PMID 1188624 (Surgery 1975) confirms registry established 1966 at Walter Reed Army Medical Center. [Norman Rich died 2026-06-18 (USU News obituary); 'Present' end-of-range semantics to be revisited at next temporal audit.]"
+      },
+      "preserve": [
+        "source_node",
+        "target_node",
+        "source_node_type",
+        "target_node_type",
+        "edge_type",
+        "start_year",
+        "end_year",
+        "temporal_range",
+        "evidence_type",
+        "evidence_citation",
+        "evidence_locator",
+        "confidence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "manifest_type": "edge_semantic_ops",
+  "manifest_id": "v16_b1_B_retarget",
+  "operations": [
+    {
+      "op": "reverse_retarget",
+      "module": "14_global_military.json",
+      "match": {
+        "source_node": "Mobile Army Surgical Hospital (MASH) System",
+        "target_node": "Norman Rich",
+        "edge_type": "observational_study"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1965,
+        "end_year": 1966,
+        "temporal_range": "1965-1966",
+        "evidence_type": "institutional_archive"
+      },
+      "set": {
+        "source_node": "Norman Rich",
+        "source_node_type": "person",
+        "target_node": "Mobile Army Surgical Hospital (MASH) System",
+        "target_node_type": "institution"
+      },
+      "preserve": [
+        "edge_type",
+        "start_year",
+        "end_year",
+        "temporal_range",
+        "evidence_type",
+        "evidence_citation",
+        "evidence_locator",
+        "confidence",
+        "notes"
+      ],
+      "reason": "Retarget the institution-sourced observational_study edge into its documented direction (person -> institution). Endpoints (and their node_types) are swapped explicitly; edge_type is left observational_study for the companion reclassify op to change. Guards match the post-Manifest-A field state (years/evidence already corrected)."
+    },
+    {
+      "op": "reclassify",
+      "module": "14_global_military.json",
+      "match": {
+        "source_node": "Norman Rich",
+        "target_node": "Mobile Army Surgical Hospital (MASH) System",
+        "edge_type": "observational_study"
+      },
+      "expected_existing": {
+        "source_node_type": "person",
+        "target_node_type": "institution",
+        "start_year": 1965,
+        "end_year": 1966,
+        "temporal_range": "1965-1966",
+        "evidence_type": "institutional_archive"
+      },
+      "set": {
+        "edge_type": "governance_leadership"
+      },
+      "preserve": [
+        "source_node",
+        "target_node",
+        "source_node_type",
+        "target_node_type",
+        "start_year",
+        "end_year",
+        "temporal_range",
+        "evidence_type",
+        "evidence_citation",
+        "evidence_locator",
+        "confidence",
+        "notes"
+      ],
+      "reason": "Post-reverse_retarget the edge is Rich -> MASH still typed observational_study (a post-1950 scope-restricted type on a training-class relationship). Reclassify to governance_leadership, the documented Chief-of-Surgery command relationship, matching the Kirk -> MASH governance precedent. Guards match the post-op-1 field state."
+    }
+  ]
+}
