@@ -27,6 +27,102 @@ INSTITUTION_SIM_THRESHOLD = 0.85
 SOCIETY_SIM_THRESHOLD = 0.88
 MIDDLE_INITIAL_RE = re.compile(r"\b[A-Z]\.?\b")
 
+# --- residency_at gating (schema v3.1) ------------------------------------------------------
+# Every residency_at edge must carry exactly one [residency_at_reason: X] token whose X names
+# why no qualifying person endpoint exists. Zero tokens, two-or-more tokens, or an off-list X
+# is a BLOCKING finding. Non-residency_at edges are never checked.
+RESIDENCY_REASONS = {"mentorless-by-committee", "pre-PD-era", "director-unidentified"}
+RESIDENCY_TOKEN_RE = re.compile(r"\[residency_at_reason:\s*([^\]]*?)\s*\]")
+
+# Name-suffix tokens (period-stripped, lowercased) that must MATCH for a person-variant flag.
+NAME_SUFFIXES = {"jr", "sr", "ii", "iii", "iv"}
+
+
+def residency_token_finding(edge):
+    """Return a blocking-reason string for a residency_at edge that violates the token rule,
+    else None. Edges of any other edge_type return None (never checked)."""
+    if edge.get("edge_type") != "residency_at":
+        return None
+    tokens = RESIDENCY_TOKEN_RE.findall(edge.get("notes", "") or "")
+    if len(tokens) == 0:
+        return "missing [residency_at_reason: X] token"
+    if len(tokens) > 1:
+        return f"{len(tokens)} [residency_at_reason: X] tokens found (expected exactly 1)"
+    x = tokens[0]
+    if x not in RESIDENCY_REASONS:
+        return (f"off-list residency_at_reason {x!r} "
+                f"(allowed: {', '.join(sorted(RESIDENCY_REASONS))})")
+    return None
+
+
+def _parse_person_name(name):
+    """Split a person name into (first, middle_tokens, last, suffix). first/last/suffix are
+    lowercased; suffix is period-stripped or None. Middle tokens keep original case."""
+    toks = name.split()
+    suffix = None
+    if toks and toks[-1].lower().rstrip(".") in NAME_SUFFIXES:
+        suffix = toks[-1].lower().rstrip(".")
+        toks = toks[:-1]
+    if not toks:
+        return "", [], "", suffix
+    first = toks[0].lower()
+    last = toks[-1].lower()
+    middle = toks[1:-1] if len(toks) > 2 else []
+    return first, middle, last, suffix
+
+
+def _middle_compatible(ma, mb):
+    """True iff two (differing) middle-token lists are the same underlying middle in different
+    representation: one side absent (present-vs-absent), or an aligned initial-vs-full
+    abbreviation (e.g. ['M.'] vs ['McDowell']). Two distinct middle initials/names (A. vs B.,
+    McDowell vs Aloysius) are different people → False."""
+    if not ma or not mb:
+        return True  # present vs absent
+    if len(ma) != len(mb):
+        return False
+    for x, y in zip(ma, mb):
+        x0, y0 = x.rstrip(".").lower(), y.rstrip(".").lower()
+        if x0 == y0:
+            continue
+        if len(x0) == 1 and y0[:1] == x0:  # x is the initial of full-name y
+            continue
+        if len(y0) == 1 and x0[:1] == y0:  # y is the initial of full-name x
+            continue
+        return False
+    return True
+
+
+def person_name_variant(a, b):
+    """True iff a and b are a same-person name-representation variant: identical first and last
+    name tokens, matching suffix (present-vs-absent or differing suffix never flags), and a
+    middle representation that DIFFERS but is compatible (initial vs full, or present vs absent).
+    Differing surnames, differing first names, or genuinely different middles never flag.
+    Identical strings are not a pair."""
+    if a == b:
+        return False
+    fa, ma, la, sa = _parse_person_name(a)
+    fb, mb, lb, sb = _parse_person_name(b)
+    if not fa or not la:
+        return False
+    if fa != fb or la != lb:
+        return False
+    if sa != sb:
+        return False
+    if [m.lower() for m in ma] == [m.lower() for m in mb]:
+        return False  # middle representation identical → not a variant
+    return _middle_compatible(ma, mb)
+
+
+def structural_person_variants(names):
+    """Return sorted list of (a, b) person-name variant pairs per person_name_variant()."""
+    names = sorted(names)
+    pairs = []
+    for i, a in enumerate(names):
+        for b in names[i + 1:]:
+            if person_name_variant(a, b):
+                pairs.append((a, b))
+    return pairs
+
 
 def load_config(config_path):
     cfg = json.loads(Path(config_path).read_text())
@@ -107,6 +203,20 @@ def audit_1_canonical_names(node_modules, whitelist):
     person_pairs = pairwise(persons, PERSON_SIM_THRESHOLD, downweight_middle_initial=True)
     institution_pairs = pairwise(institutions, INSTITUTION_SIM_THRESHOLD)
     society_pairs = pairwise(societies, SOCIETY_SIM_THRESHOLD)
+
+    # Hardened person-name heuristic: structural same-first/last, suffix-matched, middle-differs
+    # variants that the SequenceMatcher ratio gate misses (e.g. "Joseph M. Mathews" vs
+    # "Joseph McDowell Mathews", ratio 0.80). Merge in any not already flagged/whitelisted.
+    existing_person_keys = {frozenset({a, b}) for a, b, _, _ in person_pairs}
+    for a, b in structural_person_variants(persons):
+        key = frozenset({a, b})
+        if key in existing_person_keys or key in whitelist:
+            continue
+        ratio = SequenceMatcher(None, a, b).ratio()
+        person_pairs.append((a, b, ratio,
+                             "middle-name variant (same first/last token, suffix-matched) — "
+                             "likely same person; verify vs distinct individual"))
+        existing_person_keys.add(key)
 
     def mod_list(name, ntype):
         return ", ".join(sorted(node_modules[(name, ntype)]))
@@ -344,6 +454,41 @@ def audit_3_dedup(modules):
     }
 
 
+def audit_4_residency(modules):
+    """Audit 4 — residency_at token gate (schema v3.1). Every residency_at edge must carry
+    exactly one valid [residency_at_reason: X] token; violations are BLOCKING."""
+    residency_edges = 0
+    findings = []  # (label, source, target, reason)
+    for label, edges, _ in modules:
+        for e in edges:
+            if e.get("edge_type") != "residency_at":
+                continue
+            residency_edges += 1
+            reason = residency_token_finding(e)
+            if reason:
+                findings.append((label, e["source_node"], e["target_node"], reason))
+
+    lines = ["## Audit 4 — residency_at Token Gate", ""]
+    lines.append(f"residency_at edges checked: {residency_edges} "
+                 f"(allowed reasons: {', '.join(sorted(RESIDENCY_REASONS))})")
+    lines.append("")
+    lines.append(f"### Blocking token violations ({len(findings)} edges)")
+    lines.append("")
+    if findings:
+        lines.append("| Module | Source | Target | Violation |")
+        lines.append("|---|---|---|---|")
+        for r in findings:
+            lines.append(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} |")
+    else:
+        lines.append("_No violations._")
+    lines.append("")
+
+    return lines, {
+        "residency_edges": residency_edges,
+        "residency_findings": len(findings),
+    }
+
+
 def composition_section(modules, node_labels_path):
     """Folded-in figures from the retired v10_retrofit_report.md."""
     module_counts = {fname: len(edges) for _, edges, fname in modules}
@@ -402,6 +547,7 @@ def main():
     a1_lines, a1_stats = audit_1_canonical_names(node_modules, whitelist)
     a2_lines, a2_stats = audit_2_temporal(modules)
     a3_lines, a3_stats = audit_3_dedup(modules)
+    a4_lines, a4_stats = audit_4_residency(modules)
     comp_lines = composition_section(modules, cfg["_node_labels"])
 
     next_steps = []
@@ -409,6 +555,10 @@ def main():
         next_steps.append(
             f"**BLOCKING**: {a3_stats['literal_dups']} literal-duplicate edge group(s) in Audit 3 Check A "
             "must be resolved (merge pipeline failure).")
+    if a4_stats["residency_findings"] > 0:
+        next_steps.append(
+            f"**BLOCKING**: {a4_stats['residency_findings']} residency_at edge(s) in Audit 4 fail the "
+            "[residency_at_reason: X] token gate (missing/duplicate/off-list reason).")
     if a1_stats["institution_high_ratio"] > 0:
         next_steps.append(
             f"Adjudicate {a1_stats['institution_high_ratio']} institution pair(s) with similarity ≥ 0.95 "
@@ -447,6 +597,8 @@ def main():
         f"{a3_stats['multi_type_pairs']} multi-type pair(s), "
         f"{a3_stats['multi_gov']} multi-governance case(s) "
         f"(overlapping: {a3_stats['multi_gov_overlap']})",
+        f"- **Audit 4 (residency_at tokens):** {a4_stats['residency_edges']} residency_at edge(s) "
+        f"checked, {a4_stats['residency_findings']} blocking token violation(s)",
         "",
         "## Recommended next steps",
     ]
@@ -461,7 +613,8 @@ def main():
         + comp_lines + ["---", ""]
         + a1_lines + ["---", ""]
         + a2_lines + ["---", ""]
-        + a3_lines
+        + a3_lines + ["---", ""]
+        + a4_lines
     )
     report_path = cfg["_reports_dir"] / f"V{report_version}_diagnostic_audit_report.md"
     report_path.write_text(out)
@@ -469,6 +622,9 @@ def main():
     print(f"  Edges: {total_edges}  Nodes: {unique_nodes}  "
           f"Components: {n_components}  Modules loaded: {len(modules)}  "
           f"Whitelisted name pairs: {a1_stats['suppressed']}")
+    print(f"  Person name pairs flagged: {a1_stats['person_pairs']}  "
+          f"| residency_at edges: {a4_stats['residency_edges']}  "
+          f"blocking token violations: {a4_stats['residency_findings']}")
 
 
 if __name__ == "__main__":

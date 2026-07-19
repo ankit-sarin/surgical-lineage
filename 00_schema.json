@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Surgical Lineage Edge - V3 Institutional Hierarchy",
+  "title": "Surgical Lineage Edge - V3.1 Institutional Hierarchy",
   "type": "array",
   "items": {
     "type": "object",
@@ -34,7 +34,8 @@
           "institutional_parent",
           "society_founder",
           "governance_leadership",
-          "programmatic_accreditation"
+          "programmatic_accreditation",
+          "residency_at"
         ]
       },
       "start_year": {

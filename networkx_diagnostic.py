@@ -18,6 +18,9 @@ Graph variants:
                edge_types carried as a list attribute).
   G_full_u   : G_full undirected.
   G_train    : DiGraph induced by edge_type in {direct_training, observational_study}.
+               The person->institution training fallback `residency_at` (schema v3.1) is
+               deliberately EXCLUDED from this projection — it is outside TRAINING_TYPES and
+               its institution endpoint is non-person, so it is double-excluded by design.
   G_train_u  : G_train undirected.
 
 CLI:
@@ -33,6 +36,9 @@ from pathlib import Path
 
 import networkx as nx
 
+# `residency_at` (schema v3.1, person->institution training fallback) is intentionally NOT in
+# this set: the person<->person lineage projection excludes it both by edge_type and by its
+# non-person (institution) endpoint. No logic change is needed when residency_at edges appear.
 TRAINING_TYPES = {"direct_training", "observational_study"}
 
 # Reference sets for regression tests (person<->person lineage projection, post-V13).
