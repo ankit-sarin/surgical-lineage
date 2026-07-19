@@ -1,0 +1,28 @@
+{
+  "manifest_type": "edge_modify_fields",
+  "manifest_id": "v16_b2_manifest_A",
+  "target_module": "08_subspecialties.json",
+  "operations": [
+    {
+      "op": "modify_fields",
+      "match": {
+        "source_node": "Joseph McDowell Mathews",
+        "target_node": "American Proctologic Society",
+        "edge_type": "society_founder"
+      },
+      "expected_existing": {
+        "evidence_citation": "Historical_Archive_Society",
+        "evidence_type": "institutional_archive",
+        "source_node_type": "person"
+      },
+      "preserve": ["source_node", "target_node", "edge_type", "start_year", "end_year", "temporal_range"],
+      "set": {
+        "evidence_citation": "PMID: 23997672",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23997672/",
+        "confidence": "high",
+        "notes": "[V16-B2 citation upgrade institutional_archive -> PMID: 23997672 as part of Mathews node consolidation] Mathews served as the first president and primary founder of the American Proctologic Society. Content-match confirmed: Schoetz DJ. 'The American Board of Colon and Rectal Surgery: past, present, future.' Clin Colon Rectal Surg. 2012;25:166-170 (PMID 23997672) states the APS was founded by 13 surgeons led by Mathews at Columbus Ohio in 1899. This is the surviving society_founder edge after the duplicate Joseph M. Mathews -> APS society_founder edge (also PMID 23997672) was deleted in the same batch."
+      }
+    }
+  ]
+}

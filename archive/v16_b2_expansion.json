@@ -1,0 +1,32 @@
+[
+  {
+    "source_node": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
+    "source_node_type": "institution",
+    "target_node": "Joseph McDowell Mathews",
+    "target_node_type": "person",
+    "edge_type": "observational_study",
+    "start_year": 1877,
+    "end_year": 1878,
+    "temporal_range": "1877-1878",
+    "evidence_citation": "PMID: 34747915",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/34747915/",
+    "confidence": "high",
+    "notes": "route: 08_subspecialties [V16-B2 re-add after Mathews node consolidation; citation corrected 23997672 -> 34747915] Joseph M. Mathews studied at St. Mark's Hospital London during the winter of 1877-1878, then returned to Kentucky and limited his practice to diseases of the colon and rectum. Pre-1950 observational_study. Content-match confirmed: Janssen DF. 'American Proctology Before 1899, Part 2: The Rise of the Rectal Specialists.' Dis Colon Rectum. 2021;64(12):1454-1462. PMID 34747915 abstract explicitly documents Mathews' St. Mark's study in the 1877-1878 winter, followed by his heading of a Special Commission on Rectal Diseases at the Kentucky State Medical Society (April 1878). The prior citation (PMID 23997672, Schoetz, a board-certification history) did not content-match the St. Mark's training fact. 34747915 already backs the Kentucky founder edge in-graph. Re-added onto the consolidated canonical node Joseph McDowell Mathews (was Joseph M. Mathews)."
+  },
+  {
+    "source_node": "Joseph McDowell Mathews",
+    "source_node_type": "person",
+    "target_node": "American Proctologic Society",
+    "target_node_type": "society",
+    "edge_type": "governance_leadership",
+    "start_year": 1899,
+    "end_year": 1901,
+    "temporal_range": "1899-1901",
+    "evidence_citation": "PMID: 23997672",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/23997672/",
+    "confidence": "high",
+    "notes": "route: 08_subspecialties [V16-B2 re-add after Mathews node consolidation; endpoint migrated Joseph M. Mathews -> Joseph McDowell Mathews] Mathews served as the first president of the American Proctologic Society, founded June 7 1899 in Columbus Ohio by 13 physicians. Like Matas with ACS, Mathews holds both society_founder and governance_leadership edges to the same target. Schoetz DJ. 'The American Board of Colon and Rectal Surgery: past, present, future.' Clin Colon Rectal Surg. 2012;25:166-170 (PMID 23997672) documents the APS founded by 13 surgeons led by Mathews; first-president appointment corroborated by ASCRS records (Gathright & Bragaw, From Mathews to the Millennium, 1999). Citation unchanged from the pre-consolidation edge (audit-passed)."
+  }
+]

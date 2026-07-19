@@ -1,0 +1,130 @@
+{
+  "manifest_type": "edge_semantic_ops",
+  "manifest_id": "v16_b2_manifest_B",
+  "operations": [
+    {
+      "op": "delete",
+      "module": "08_subspecialties.json",
+      "match": {
+        "source_node": "St. Mark's Hospital for Fistula and Other Diseases of the Rectum",
+        "target_node": "Joseph M. Mathews",
+        "edge_type": "observational_study"
+      },
+      "expected_existing": {
+        "evidence_citation": "PMID: 23997672",
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1877
+      }
+    },
+    {
+      "op": "delete",
+      "module": "08_subspecialties.json",
+      "match": {
+        "source_node": "Joseph M. Mathews",
+        "target_node": "American Proctologic Society",
+        "edge_type": "society_founder"
+      },
+      "expected_existing": {
+        "evidence_citation": "PMID: 23997672",
+        "source_node_type": "person",
+        "start_year": 1899
+      }
+    },
+    {
+      "op": "delete",
+      "module": "08_subspecialties.json",
+      "match": {
+        "source_node": "Joseph M. Mathews",
+        "target_node": "American Proctologic Society",
+        "edge_type": "governance_leadership"
+      },
+      "expected_existing": {
+        "evidence_citation": "PMID: 23997672",
+        "source_node_type": "person",
+        "start_year": 1899,
+        "end_year": 1901
+      }
+    },
+    {
+      "op": "reclassify",
+      "module": "02_general_surgery_spread.json",
+      "match": {
+        "source_node": "Memorial Sloan Kettering Cancer Center",
+        "target_node": "LaSalle D. Leffall Jr.",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "evidence_citation": "PMID: 18481473",
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1957,
+        "end_year": 1959
+      },
+      "preserve": ["start_year", "end_year", "temporal_range", "evidence_citation", "evidence_type", "evidence_locator"],
+      "set": {
+        "source_node": "LaSalle D. Leffall Jr.",
+        "source_node_type": "person",
+        "target_node": "Memorial Sloan Kettering Cancer Center",
+        "target_node_type": "institution",
+        "edge_type": "residency_at",
+        "confidence": "high",
+        "notes": "[residency_at_reason: director-unidentified] [V16-B2 reclassify direct_training -> residency_at; endpoints flipped to person->institution per residency_at semantics] Leffall completed a senior fellowship in surgical oncology at Memorial Sloan Kettering Cancer Center (1957-1959), the first African American to hold such a fellowship there. He was directed toward MSK by his Howard mentor Jack White (referral, not preceptor). No individual MSK fellowship PD/APD with a documented structural title is identifiable in the public record for this fellowship slot, so this is a residency_at fallback rather than direct_training. The fellowship bridges the independent Howard training trunk into the established oncology cluster (MSK already connected to the James Ewing Society and Memorial Hospital for Cancer and Allied Diseases). Evidence: PMID 18481473 (J Natl Med Assoc 2008), content-matched for the fellowship. Excluded from the person-person lineage projection by construction (residency_at + institution endpoint)."
+      }
+    },
+    {
+      "op": "reclassify",
+      "module": "02_general_surgery_spread.json",
+      "match": {
+        "source_node": "Massachusetts General Hospital Department of Surgery",
+        "target_node": "Frederick Coller",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "evidence_citation": "PMID: 14036574",
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1912,
+        "end_year": 1917
+      },
+      "preserve": ["start_year", "end_year", "evidence_citation", "evidence_type", "evidence_locator"],
+      "set": {
+        "source_node": "Frederick Coller",
+        "source_node_type": "person",
+        "target_node": "Massachusetts General Hospital Department of Surgery",
+        "target_node_type": "institution",
+        "edge_type": "residency_at",
+        "temporal_range": "1912-1917",
+        "confidence": "high",
+        "notes": "[residency_at_reason: mentorless-by-committee] [V16-B2 reclassify direct_training -> residency_at; endpoints flipped to person->institution; temporal_range normalized '1912-c. 1917' -> '1912-1917'] Frederick Amasa Coller (1887-1964) graduated from Harvard Medical School (1912) and was appointed the first surgical resident at Massachusetts General Hospital, chosen by unanimous vote of all attending surgeons (i.e. mentorless-by-committee: no single named PD/APD directed the appointment). He served in WWI in France with the Harvard Medical Unit under Harvey Cushing, then joined the University of Michigan in 1920. Evidence: PMID 14036574 (Adie, Ann Surg 1961;154(Suppl):18-24), content-matched: Coller first appointed intern on the West Surgical Service at MGH July 1912, then surgical residency. Excluded from the person-person lineage projection by construction (residency_at + institution endpoint)."
+      }
+    },
+    {
+      "op": "reclassify",
+      "module": "07_oncology_trials.json",
+      "match": {
+        "source_node": "Mayo Clinic Department of Surgery",
+        "target_node": "R. Lee Clark",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "evidence_citation": "Mayo_Archive_Clark",
+        "evidence_type": "institutional_archive",
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1935,
+        "end_year": 1939
+      },
+      "preserve": ["start_year", "end_year", "temporal_range", "evidence_citation", "evidence_type", "evidence_locator"],
+      "set": {
+        "source_node": "R. Lee Clark",
+        "source_node_type": "person",
+        "target_node": "Mayo Clinic Department of Surgery",
+        "target_node_type": "institution",
+        "edge_type": "residency_at",
+        "confidence": "moderate",
+        "notes": "[residency_at_reason: pre-PD-era] [V16-B2 reclassify direct_training -> residency_at; endpoints flipped to person->institution] Clark completed his surgical fellowship at the Mayo Clinic (1935-1939), representing the era of institutional fellowship training that predates the formal program-director structure. No individual PD/APD is identified; the Mayo fellowship of this era operated on a rotating-staff model. Evidence: Mayo Clinic Department of Surgery Historical Records (institutional_archive tier; PMID 3524368 was dropped in Phase2 as non-matching). Excluded from the person-person lineage projection by construction (residency_at + institution endpoint)."
+      }
+    }
+  ]
+}

@@ -733,11 +733,11 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Memorial Sloan Kettering Cancer Center",
-    "source_node_type": "institution",
-    "target_node": "LaSalle D. Leffall Jr.",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
+    "source_node": "LaSalle D. Leffall Jr.",
+    "source_node_type": "person",
+    "target_node": "Memorial Sloan Kettering Cancer Center",
+    "target_node_type": "institution",
+    "edge_type": "residency_at",
     "start_year": 1957,
     "end_year": 1959,
     "temporal_range": "1957-1959",
@@ -745,7 +745,7 @@
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/18481473/",
     "confidence": "high",
-    "notes": "[Verified 2026-03-17 | J Natl Med Assoc 2008 | content_match] Leffall completed a senior fellowship in surgical oncology at Memorial Sloan Kettering Cancer Center (1957-1959), the first African American to hold such a fellowship there. He was directed toward MSK by his mentor Jack White at Howard. Leffall specialized in colon and rectal, breast, and head and neck cancers. This edge connects the Howard/Drew lineage to the existing Memorial Sloan Kettering node (already connected to the James Ewing Society and the Memorial Hospital for Cancer and Allied Diseases in the graph). The MSK fellowship bridges the independent Howard training trunk into the established oncology cluster, creating a cross-lineage pathway analogous to how Patrick Walsh's UCLA-to-Hopkins recruitment bridges the urology trunk.",
+    "notes": "[residency_at_reason: director-unidentified] [V16-B2 reclassify direct_training -> residency_at; endpoints flipped to person->institution per residency_at semantics] Leffall completed a senior fellowship in surgical oncology at Memorial Sloan Kettering Cancer Center (1957-1959), the first African American to hold such a fellowship there. He was directed toward MSK by his Howard mentor Jack White (referral, not preceptor). No individual MSK fellowship PD/APD with a documented structural title is identifiable in the public record for this fellowship slot, so this is a residency_at fallback rather than direct_training. The fellowship bridges the independent Howard training trunk into the established oncology cluster (MSK already connected to the James Ewing Society and Memorial Hospital for Cancer and Allied Diseases). Evidence: PMID 18481473 (J Natl Med Assoc 2008), content-matched for the fellowship. Excluded from the person-person lineage projection by construction (residency_at + institution endpoint).",
     "module": "02_general_surgery_spread"
   },
   {
@@ -1467,19 +1467,19 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Massachusetts General Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Frederick Coller",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
+    "source_node": "Frederick Coller",
+    "source_node_type": "person",
+    "target_node": "Massachusetts General Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "residency_at",
     "start_year": 1912,
     "end_year": 1917,
-    "temporal_range": "1912-c. 1917",
+    "temporal_range": "1912-1917",
     "evidence_citation": "PMID: 14036574",
     "evidence_type": "PMID",
     "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/14036574/",
     "confidence": "high",
-    "notes": "Frederick Amasa Coller (1887-1964) graduated from Harvard Medical School (1912) and was appointed intern on the west surgical service at Massachusetts General Hospital. He was the first surgical resident appointed at MGH, chosen by unanimous vote of all attending surgeons. He served in WWI in France as a member of the Harvard Medical Unit led by Harvey Cushing, taking over one of the surgical services of the American Ambulance Service. After the war he joined the University of Michigan in 1920. Coller was already in the graph with two outgoing edges (\u2192Michigan Dept of Surgery as institutional_founder, \u2192Jonasson via Warren Cole) but had NO incoming training edge, making him an orphaned source node. This edge connects Michigan to the Harvard/MGH cluster through the chain MGH\u2192Coller\u2192Michigan\u2192Jonasson\u2192Ohio State, creating a 4-node institutional corridor from Boston to the Midwest. PMID upgrade candidate: PMID 14257360 (Ann R Coll Surg Engl 1965 obituary) or full text of Ann Surg 1961 supplement (PMC1466805) should confirm MGH training. [Citation upgraded from institutional_archive to PMID: 14036574 on 2026-03-18 \u2014 Adie, Ann Surg 1961;154(Suppl):18-24. Content-match confirmed: Coller first appointed intern on West Surgical Service at MGH July 1912, then surgical residency.]",
+    "notes": "[residency_at_reason: mentorless-by-committee] [V16-B2 reclassify direct_training -> residency_at; endpoints flipped to person->institution; temporal_range normalized '1912-c. 1917' -> '1912-1917'] Frederick Amasa Coller (1887-1964) graduated from Harvard Medical School (1912) and was appointed the first surgical resident at Massachusetts General Hospital, chosen by unanimous vote of all attending surgeons (i.e. mentorless-by-committee: no single named PD/APD directed the appointment). He served in WWI in France with the Harvard Medical Unit under Harvey Cushing, then joined the University of Michigan in 1920. Evidence: PMID 14036574 (Adie, Ann Surg 1961;154(Suppl):18-24), content-matched: Coller first appointed intern on the West Surgical Service at MGH July 1912, then surgical residency. Excluded from the person-person lineage projection by construction (residency_at + institution endpoint).",
     "module": "02_general_surgery_spread"
   },
   {
