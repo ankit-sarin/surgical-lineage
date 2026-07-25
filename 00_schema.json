@@ -54,10 +54,10 @@
         "type": "string"
       },
       "evidence_type": {
+        "$comment": "society_verified was removed pending real society-sourced data. It was added speculatively in commit 1ed22d1 (V17 schema hardening) for a Fellowship Council data-sharing workstream that is now unsequenced, and zero edges ever used it; leaving an unused tier invites mis-tagging that would degrade its credentialing-body meaning. Re-add it in the same commit as the first genuine society-sourced edge, when the data shape is known. Tier order: PMID > DOI > institutional_archive.",
         "enum": [
           "PMID",
           "DOI",
-          "society_verified",
           "institutional_archive"
         ]
       },
