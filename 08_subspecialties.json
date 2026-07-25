@@ -808,22 +808,6 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "Jefferson Medical College Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Chevalier Jackson",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1884,
-    "end_year": 1886,
-    "temporal_range": "1884-1886",
-    "evidence_citation": "PMID: 37439820",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37439820/",
-    "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2023 | content_match] Chevalier Quixote Jackson (1865-1958) enrolled at Jefferson Medical College in 1884 and received his MD in 1886. He later returned to Jefferson as Professor of Laryngology (1916-1924) and Professor of Bronchoesophagology and department head (1924-1930). Eriksson et al (Surg Endosc 2023, PMID 37439820) and the Jefferson Libraries archives confirm his MD and professorial appointments. Jackson was a founding member and inaugural governor of the American College of Surgeons, the father of endoscopic surgery, and a pioneer in public health advocacy (Federal Caustic Poison Act of 1927). BRIDGE EDGE: Merges the Jackson/ABEA island (Component 6, 2 nodes) into the main component via the Jefferson Medical College node in 13_pre_halsted. Components: 8 to 7 (accounting for T1-03 bridge already reducing to 8).",
-    "module": "08_subspecialties"
-  },
-  {
     "source_node": "C. Gardner Child III",
     "source_node_type": "person",
     "target_node": "Norman Thompson",
@@ -920,18 +904,18 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "Lahey Clinic",
-    "source_node_type": "institution",
-    "target_node": "Victor W. Fazio",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
+    "source_node": "Victor W. Fazio",
+    "source_node_type": "person",
+    "target_node": "Lahey Clinic",
+    "target_node_type": "institution",
+    "edge_type": "residency_at",
     "start_year": 1972,
     "end_year": 1973,
     "evidence_type": "institutional_archive",
     "evidence_citation": "CCF_Encyclopedia_Fazio",
     "evidence_locator": "https://case.edu/ech/articles/f/fazio-victor-warren-iii",
     "confidence": "high",
-    "notes": "Fazio spent 1972-1973 as hepatobiliary fellow at Lahey Clinic in Boston under Dr. Ken Warren before moving to Cleveland Clinic to work with Turnbull. Source: Encyclopedia of Cleveland History, Case Western Reserve University. Also: Fazio Wikipedia article. Creates structural cross-link: Frank Lahey\u2192Lahey Clinic\u2192Fazio\u2192CCF Colorectal. TARGET MODULE: 08_subspecialties.json",
+    "notes": "Structured program completion. [residency_at_reason: preceptor-untitled] Fazio spent 1972-1973 as a hepatobiliary fellow at the Lahey Clinic under Dr Kenneth W. Warren before moving to the Cleveland Clinic in 1973 to work with Rupert Turnbull. The Encyclopedia of Cleveland History record, corroborated independently by the RACS and RCS England obituaries, names Warren as the preceptor but documents no chair, chief or program-director title for him; the contemporaneous Lahey Clinic byline convention lists Warren as Surgeon while Richard B. Cattell holds the Director title, and no Warren chairmanship is confirmed for 1972. Named preceptor, no documented structural title: preceptor-untitled, not director-unidentified. Fazio's lineage attribution is unaffected because the person-to-person edge Rupert B. Turnbull -> Victor W. Fazio (1973, PMID 35731977) already exists and is the load-bearing training edge.",
     "temporal_range": "1972-1973"
   },
   {

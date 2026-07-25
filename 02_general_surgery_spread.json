@@ -16,21 +16,6 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Joseph Marshall Flint",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1896,
-    "end_year": 1900,
-    "temporal_range": "1896-1900",
-    "evidence_citation": "PMID: 373268",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/373268/",
-    "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Yale J Biol Med 1978 | content_match] Joseph Marshall Flint (1872-1944) received his BS from the University of Chicago (1895) and his MD from Johns Hopkins University in 1900 during the Halsted era. He then became professor of anatomy at UC Berkeley (1901-1907) before being appointed the first full-time professor of surgery at Yale Medical School in 1907. At Yale, Flint began a formal surgical residency based on the model developed by Halsted at Hopkins. Confidence moderate because Flint received his Hopkins MD during the Halsted era but was primarily trained as an anatomist rather than as a Halsted surgical resident. His surgical training came later through self-directed study and European sabbatical (1906). Source: Baue AE. Joseph Marshall Flint and the whole-time system at Yale. Yale J Biol Med. 1978;51(5):549-563. BRIDGE EDGE: Connects the Yale 3-node island (Flint + Lindskog + Yale Dept) to the main component via Hopkins."
-  },
-  {
     "source_node": "Joseph Marshall Flint",
     "source_node_type": "person",
     "target_node": "Yale University Department of Surgery",

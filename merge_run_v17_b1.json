@@ -1,0 +1,57 @@
+{
+  "version": "v17_b1",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b1_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b1_manifest_a.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b1_manifest_b.json"
+  },
+  "pre": {
+    "edges": 561,
+    "nodes": 428,
+    "institutional_parent": 49,
+    "by_edge_type": {
+      "institutional_founder": 98,
+      "direct_training": 134,
+      "governance_leadership": 165,
+      "institutional_succession": 18,
+      "residency_at": 3,
+      "society_founder": 61,
+      "observational_study": 9,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 49
+    }
+  },
+  "delta": {
+    "edges": -2,
+    "nodes": 1,
+    "institutional_parent": 0,
+    "by_edge_type": {
+      "direct_training": -5,
+      "residency_at": 2,
+      "institutional_parent": 0,
+      "institutional_founder": 0,
+      "society_founder": 0,
+      "programmatic_accreditation": 0,
+      "governance_leadership": 1,
+      "observational_study": 0,
+      "institutional_succession": 0
+    }
+  },
+  "inserted_by_type": {
+    "governance_leadership": 1
+  },
+  "inserted_by_module": {
+    "12_governance_societies.json": 1
+  },
+  "new_nodes": [
+    "Dean DeWitt Lewis"
+  ],
+  "new_node_count": 1,
+  "manifest_ops": {
+    "a_modify_fields": 0,
+    "b_delete": 3,
+    "b_reverse_retarget": 2,
+    "b_reclassify": 0
+  }
+}

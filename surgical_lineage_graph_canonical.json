@@ -150,21 +150,6 @@
     "notes": "[Phase2 replaced PMID: 2446524 -> PMID: 27400656 on 2026-03-17] [Verified 2026-03-17 | J Surg Educ 2016 | content_match] Reid served as Halsted's resident and was a key adopter of his meticulous tissue handling techniques."
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Warfield Firor",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1917,
-    "end_year": 1921,
-    "temporal_range": "1917-1921",
-    "evidence_citation": "PMID: 12984268",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12984268/",
-    "confidence": "high",
-    "notes": "Warfield M. Firor received his A&S degree from Johns Hopkins in 1917 and his MD in 1921, training in surgery under the Halstedian system. Halsted died in September 1922, making Firor among the last surgeons formed directly within the original Halsted program. Firor became professor of surgery at the School of Medicine and acting surgeon-in-chief of the hospital from 1939 to 1941. He was best known for pioneering work on tetanus toxin and its effect on the spinal cord. He chaired the American Board of Surgery and the Joint Conference Committee on Graduate Training in Surgery. JHU awarded him an honorary doctorate in 1980. He died in 1988 at age 91. An endowed professorship in his name is currently held at Hopkins. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Firor appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. [Verified 2026-03-18 | Chesney Medical Archives portrait & JHU professorships page | Firor (MD 1921) remained at Hopkins for residencies in neurosurgery and surgery. Acting surgeon-in-chief 1939-1941. Overlapped with Halsted's final year.]"
-  },
-  {
     "source_node": "William Stewart Halsted",
     "source_node_type": "person",
     "target_node": "Emile Holman",
@@ -195,19 +180,19 @@
     "notes": "Hart trained at Hopkins under Halsted's system and was recruited to Duke as the founding chairman of surgery. [Phase2 upgraded institutional_archive -> PMID: 12984268 on 2026-03-18] [VERIFY_NAMES: confirm Hart appears in Carter's enumeration] Carter BN. 'The fruition of Halsted's concept of surgical training.' Surgery. 1952 Sep;32(3):518-27. Secondary confirmation: PMC7828946 (Wright & Schachar, Can J Surg 2020) cites Hart as 'a former Halsted resident' referencing Carter. [Verified 2026-03-18 | PMC7828946 (Wright 2020, Can J Surg) | Explicitly identified as \"a former Halsted resident.\" Published on surgical residency history (N C Med J 1964).]"
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Arthur Blakemore",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
+    "source_node": "Arthur Blakemore",
+    "source_node_type": "person",
+    "target_node": "Johns Hopkins Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "residency_at",
     "start_year": 1922,
     "end_year": 1926,
     "temporal_range": "1922-1926",
-    "evidence_citation": "JHM_Archive_Blakemore",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "Johns Hopkins Medical Archives",
+    "evidence_citation": "PMID: 25449007",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25449007/",
     "confidence": "high",
-    "notes": "Blakemore trained at Hopkins (1922-1926) before establishing the Columbia vascular lineage. Training dates begin year of Halsted's death; likely trained under post-Halsted leadership. Carter 1952 (PMID 12984268) covers Halsted appointees only \u2014 cannot confirm Blakemore is named. Reverted from PMID to institutional_archive 2026-03-18."
+    "notes": "Structured program completion. [residency_at_reason: preceptor-untitled] Blakemore's residency began at Johns Hopkins in 1922, the year of Halsted's death, and continued at Henry Ford Hospital (Detroit) and Roosevelt Hospital (New York). Vaughan A, Nagendran M, Cohen S. 'Arthur Hendley Blakemore's life and contributions to vascular surgery.' J Vasc Surg. 2014 (PMID 25449007) records that in New York he trained under Dr Richard H. Derby, described only as a notable surgeon; no chair, chief, program-director or associate-program-director title is documented for Derby in that source or in the Roosevelt Hospital surgical leadership record for the period, which names McBurney and subsequently Weir and Bull. The preceptor is therefore identified by name but structurally untitled, which is the preceptor-untitled case and not director-unidentified. No person-to-person direct_training edge is authored: Carter 1952 covers Halsted appointees only and cannot name Blakemore, and the prior edge's own notes conceded he likely trained under post-Halsted leadership. Citation upgraded institutional_archive -> PMID as part of this conversion."
   },
   {
     "source_node": "Barney Brooks",
@@ -254,21 +239,6 @@
     "confidence": "high",
     "notes": "William J. Mayo co-founded and built the surgical dynasty at the Mayo Clinic, establishing one of the two primary institutional hubs of early American surgery.",
     "module": "02_general_surgery_spread"
-  },
-  {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Joseph Marshall Flint",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1896,
-    "end_year": 1900,
-    "temporal_range": "1896-1900",
-    "evidence_citation": "PMID: 373268",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/373268/",
-    "confidence": "moderate",
-    "notes": "[Verified 2026-03-17 | Yale J Biol Med 1978 | content_match] Joseph Marshall Flint (1872-1944) received his BS from the University of Chicago (1895) and his MD from Johns Hopkins University in 1900 during the Halsted era. He then became professor of anatomy at UC Berkeley (1901-1907) before being appointed the first full-time professor of surgery at Yale Medical School in 1907. At Yale, Flint began a formal surgical residency based on the model developed by Halsted at Hopkins. Confidence moderate because Flint received his Hopkins MD during the Halsted era but was primarily trained as an anatomist rather than as a Halsted surgical resident. His surgical training came later through self-directed study and European sabbatical (1906). Source: Baue AE. Joseph Marshall Flint and the whole-time system at Yale. Yale J Biol Med. 1978;51(5):549-563. BRIDGE EDGE: Connects the Yale 3-node island (Flint + Lindskog + Yale Dept) to the main component via Hopkins."
   },
   {
     "source_node": "Joseph Marshall Flint",
@@ -5062,22 +5032,6 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "Jefferson Medical College Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Chevalier Jackson",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1884,
-    "end_year": 1886,
-    "temporal_range": "1884-1886",
-    "evidence_citation": "PMID: 37439820",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/37439820/",
-    "confidence": "high",
-    "notes": "[Verified 2026-03-17 | Surg Endosc 2023 | content_match] Chevalier Quixote Jackson (1865-1958) enrolled at Jefferson Medical College in 1884 and received his MD in 1886. He later returned to Jefferson as Professor of Laryngology (1916-1924) and Professor of Bronchoesophagology and department head (1924-1930). Eriksson et al (Surg Endosc 2023, PMID 37439820) and the Jefferson Libraries archives confirm his MD and professorial appointments. Jackson was a founding member and inaugural governor of the American College of Surgeons, the father of endoscopic surgery, and a pioneer in public health advocacy (Federal Caustic Poison Act of 1927). BRIDGE EDGE: Merges the Jackson/ABEA island (Component 6, 2 nodes) into the main component via the Jefferson Medical College node in 13_pre_halsted. Components: 8 to 7 (accounting for T1-03 bridge already reducing to 8).",
-    "module": "08_subspecialties"
-  },
-  {
     "source_node": "C. Gardner Child III",
     "source_node_type": "person",
     "target_node": "Norman Thompson",
@@ -5174,18 +5128,18 @@
     "module": "08_subspecialties"
   },
   {
-    "source_node": "Lahey Clinic",
-    "source_node_type": "institution",
-    "target_node": "Victor W. Fazio",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
+    "source_node": "Victor W. Fazio",
+    "source_node_type": "person",
+    "target_node": "Lahey Clinic",
+    "target_node_type": "institution",
+    "edge_type": "residency_at",
     "start_year": 1972,
     "end_year": 1973,
     "evidence_type": "institutional_archive",
     "evidence_citation": "CCF_Encyclopedia_Fazio",
     "evidence_locator": "https://case.edu/ech/articles/f/fazio-victor-warren-iii",
     "confidence": "high",
-    "notes": "Fazio spent 1972-1973 as hepatobiliary fellow at Lahey Clinic in Boston under Dr. Ken Warren before moving to Cleveland Clinic to work with Turnbull. Source: Encyclopedia of Cleveland History, Case Western Reserve University. Also: Fazio Wikipedia article. Creates structural cross-link: Frank Lahey\u2192Lahey Clinic\u2192Fazio\u2192CCF Colorectal. TARGET MODULE: 08_subspecialties.json",
+    "notes": "Structured program completion. [residency_at_reason: preceptor-untitled] Fazio spent 1972-1973 as a hepatobiliary fellow at the Lahey Clinic under Dr Kenneth W. Warren before moving to the Cleveland Clinic in 1973 to work with Rupert Turnbull. The Encyclopedia of Cleveland History record, corroborated independently by the RACS and RCS England obituaries, names Warren as the preceptor but documents no chair, chief or program-director title for him; the contemporaneous Lahey Clinic byline convention lists Warren as Surgeon while Richard B. Cattell holds the Director title, and no Warren chairmanship is confirmed for 1972. Named preceptor, no documented structural title: preceptor-untitled, not director-unidentified. Fazio's lineage attribution is unaffected because the person-to-person edge Rupert B. Turnbull -> Victor W. Fazio (1973, PMID 35731977) already exists and is the load-bearing training edge.",
     "temporal_range": "1972-1973"
   },
   {
@@ -7693,6 +7647,21 @@
     "evidence_locator": "https://en.wikipedia.org/wiki/Yolonda_L._Colson",
     "confidence": "moderate",
     "notes": "route: 12_governance_societies | Colson was the 103rd President and first woman President of the American Association for Thoracic Surgery. [Presidency year approximate \u2014 verify.]"
+  },
+  {
+    "source_node": "Dean DeWitt Lewis",
+    "source_node_type": "person",
+    "target_node": "Johns Hopkins Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1925,
+    "end_year": 1939,
+    "temporal_range": "1925-1939",
+    "evidence_citation": "JHM_Dept_Surgery_History_Lewis",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://medicalarchives.jhmi.edu/portrait/lewis-dean-dewitt/",
+    "confidence": "high",
+    "notes": "route: 12_governance_societies Dean DeWitt Lewis succeeded William Stewart Halsted as professor of surgery and surgeon-in-chief at Johns Hopkins, serving until his retirement in 1939. He is the second of the department's chairs and closes the post-Halsted leadership gap between Halsted (d. September 1922) and Alfred Blalock (from 1941). Governance bar satisfied: documented surgeon-in-chief / professor-of-surgery appointment, not an administrative dean/VC title. Corroborating locator: the Johns Hopkins Department of Surgery history page, which names the post-Halsted chair succession as Lewis, Blalock, Zuidema, Cameron, Freischlag, Higgins. Independent corroboration: Hoopes JE, 'Letter from America: Hopkins reunion,' J Plast Reconstr Aesthet Surg (S1748-6815(09)00803-1), which names the first three chairmen of surgery at Hopkins as Halsted, Dean Lewis and Alfred Blalock. Tenure dates verified 2026-07-25 against the Alan Mason Chesney Medical Archives portrait record for Dean DeWitt Lewis (the evidence_locator), which states that Johns Hopkins recruited Lewis to succeed William S. Halsted as professor of surgery and surgeon-in-chief and that he held the post until his retirement in 1939; the 1925 start is consistent with the record's account of his 1925 departure from Rush. No upstream training edge is authored: Lewis took his MD at Rush (1899) and studied anatomy at Leipzig under Spalteholz, an anatomist rather than a surgical program director, so no endpoint satisfies the direct_training bar. Lewis therefore enters the person-to-person lineage projection as a trunk root."
   },
   {
     "source_node": "Philip Syng Physick",
