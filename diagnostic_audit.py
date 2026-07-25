@@ -548,6 +548,11 @@ def main():
         for e in edges:
             G.add_edge(e["source_node"], e["target_node"])
     n_components = nx.number_connected_components(G)
+    # Connectivity is a REPORTED metric (V17-INVARIANT), never a blocking gate here. Enumerate
+    # islands (non-giant components) and list their members so fragmentation is visible rather
+    # than a silent count.
+    _components = sorted((sorted(c) for c in nx.connected_components(G)), key=len, reverse=True)
+    islands = _components[1:]
 
     a1_lines, a1_stats = audit_1_canonical_names(node_modules, whitelist)
     a2_lines, a2_stats = audit_2_temporal(modules)
@@ -586,7 +591,10 @@ def main():
         f"# V{report_version} Diagnostic Audit",
         f"Generated: {ts}",
         f"Graph state: {total_edges} edges across {len(modules)} module files, "
-        f"{unique_nodes} unique nodes, {n_components} connected component(s)",
+        f"{unique_nodes} unique nodes, {n_components} connected component(s)"
+        + ("" if not islands else
+           " — islands (non-giant components): "
+           + "; ".join(f"{len(i)} node(s) {i}" for i in islands)),
         "",
         "## Summary of findings",
         f"- **Audit 1 (Canonical Names):** {a1_stats['person_pairs']} person pair(s), "
@@ -627,6 +635,10 @@ def main():
     print(f"  Edges: {total_edges}  Nodes: {unique_nodes}  "
           f"Components: {n_components}  Modules loaded: {len(modules)}  "
           f"Whitelisted name pairs: {a1_stats['suppressed']}")
+    if islands:
+        print(f"  Islands (non-giant components, {len(islands)}) — members listed:")
+        for i, isl in enumerate(islands, 1):
+            print(f"    island {i} ({len(isl)} node(s)): {isl}")
     print(f"  Person name pairs flagged: {a1_stats['person_pairs']}  "
           f"| residency_at edges: {a4_stats['residency_edges']}  "
           f"blocking token violations: {a4_stats['residency_findings']}")

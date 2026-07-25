@@ -303,8 +303,16 @@ def run_tests(edges, nt, graphs, census, major_roots, geo_pairs, floaters,
         f"nodes={G_full.number_of_nodes()}; raw_edges={len(edges)}; "
         f"simple_edges={G_full.number_of_edges()} (collapsed {len(edges)-G_full.number_of_edges()})",
         hard=False)
+    # S2 — SNAPSHOT (info): full-graph connectivity. Demoted from a hard invariant in
+    # V17-INVARIANT — connectivity is a reported metric (the V17-B1 merge may intentionally
+    # fragment the graph), so islands are listed rather than asserted away.
     ncc = nx.number_connected_components(G_full_u)
-    add("S2.G_full_u_single_component", ncc == 1, f"components={ncc}")
+    s2_comps = sorted((sorted(c) for c in nx.connected_components(G_full_u)), key=len, reverse=True)
+    s2_islands = s2_comps[1:]
+    s2_detail = (f"components={ncc}; sizes={[len(c) for c in s2_comps]}"
+                 + ("" if not s2_islands else
+                    "; islands: " + " | ".join(f"{len(i)}n {i}" for i in s2_islands)))
+    add("S2.G_full_u_component_count", True, s2_detail, hard=False)
     all_finite = all(math.isfinite(v) and set(bc.keys()) == set(graphs[g].nodes())
                      for g, bc in bc_all.items() for v in bc.values())
     add("S3.betweenness_finite_all_4_graphs", all_finite, "all four graphs finite & full coverage")

@@ -32,10 +32,14 @@
     "reports_dir": "."
   },
   "invariants": {
-    "single_component": true,
     "zero_duplicate_triples": true,
     "zero_node_type_conflicts": true,
     "label_node_parity": true
+  },
+  "component_report": {
+    "_comment": "single_component was DEMOTED from a blocking invariant to a reported metric (V17-INVARIANT). It was being satisfied only by three miscoded institution->person direct_training edges acting as sole bridges for small islands (Yale 3-node, the ABEA pair, a Society of University Surgeons pair) — edges that actually encode degree attainment, not training — so enforcing connectivity created standing pressure to author false edges. Connectivity is now REPORTED with a threshold alert, never blocking. Values below reflect the CURRENT graph (1 component, no islands); the V17-B1 merge task updates them to expected_components=4, max_island_size=3.",
+    "expected_components": 1,
+    "max_island_size": 0
   },
   "name_pair_whitelist": [
     {

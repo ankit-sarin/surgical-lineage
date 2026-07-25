@@ -9,8 +9,10 @@ The hardcoded per-version baseline gate is REPLACED by a derived gate:
   expected_post = run_record.pre + run_record.delta
 and the regenerated canonical must match expected_post on total edges, total nodes,
 per-edge-type counts, and institutional_parent count — PLUS every structural invariant
-declared true in the config (single_component, zero_duplicate_triples,
-zero_node_type_conflicts, label_node_parity).
+declared true in the config (zero_duplicate_triples, zero_node_type_conflicts,
+label_node_parity). Connectivity (single_component) was DEMOTED to a reported metric in
+V17-INVARIANT — see component_report(); it prints an island report + threshold warning but
+never changes the exit code.
 
 There are NO hardcoded version constants in this file. The legacy v10_retrofit_report.md
 emission is retired (its still-useful figures are folded into the diagnostic audit report).
@@ -77,6 +79,48 @@ def node_type_conflicts(all_edges):
         types[e["source_node"]].add(e["source_node_type"])
         types[e["target_node"]].add(e["target_node_type"])
     return {n: sorted(ts) for n, ts in types.items() if len(ts) > 1}
+
+
+def component_report(all_edges, comp_cfg):
+    """REPORTED connectivity metric (demoted from a blocking invariant in V17-INVARIANT).
+
+    Returns (lines, warn). Builds the undirected graph, enumerates connected components, and
+    ALWAYS lists the full member set of every non-giant component (island) so fragmentation is
+    visible in merge output rather than fatal. `warn` is True when the observed component count
+    exceeds comp_cfg['expected_components'] or the largest island exceeds
+    comp_cfg['max_island_size']. Neither the report nor `warn` ever affects the exit code —
+    connectivity is a measured property of the current graph, not a per-version invariant.
+    """
+    G = nx.Graph()
+    for e in all_edges:
+        G.add_edge(e["source_node"], e["target_node"])
+    comps = sorted((sorted(c) for c in nx.connected_components(G)), key=len, reverse=True)
+    sizes = [len(c) for c in comps]
+    islands = comps[1:]  # every component other than the largest (giant)
+    largest_island = max((len(i) for i in islands), default=0)
+    expected = comp_cfg.get("expected_components", 1)
+    max_island = comp_cfg.get("max_island_size", 0)
+    warn = (len(comps) > expected) or (largest_island > max_island)
+
+    lines = ["=== Phase H — connectivity report (REPORTED METRIC; does not affect exit code) ==="]
+    lines.append(f"connected components: {len(comps)} (expected {expected}); component sizes: "
+                 f"{sizes}; largest island: {largest_island} node(s) (max tolerated {max_island})")
+    if islands:
+        lines.append(f"islands — every non-giant component ({len(islands)}), members listed:")
+        for i, isl in enumerate(islands, 1):
+            lines.append(f"  island {i} ({len(isl)} node(s)): {isl}")
+    else:
+        lines.append(f"islands: none — single giant component of {sizes[0] if sizes else 0} node(s).")
+    if warn:
+        reasons = []
+        if len(comps) > expected:
+            reasons.append(f"components {len(comps)} > expected {expected}")
+        if largest_island > max_island:
+            reasons.append(f"largest island {largest_island} > max tolerated {max_island}")
+        lines.append(f"  *** WARNING: connectivity exceeds configured threshold "
+                     f"({'; '.join(reasons)}) — possible NEW fragmentation; REPORTED, not "
+                     f"blocking — review required. ***")
+    return lines, warn
 
 
 def schema_validate_warn(all_edges, schema_path):
@@ -164,9 +208,9 @@ def main():
         failures.append(f"per-edge-type mismatch (expected, actual): {diffs}")
 
     # --- structural invariants (config-declared) ---
-    if inv.get("single_component"):
-        if stats["components"] != 1:
-            failures.append(f"single_component violated: {stats['components']} components")
+    # NOTE: single_component was DEMOTED to a reported metric in V17-INVARIANT (see
+    # component_report() below) — it no longer contributes to `failures`. The invariants that
+    # remain BLOCKING are duplicate triples, node-type conflicts, and label/node parity.
     if inv.get("zero_duplicate_triples"):
         dups = duplicate_triples(all_edges)
         if dups:
@@ -196,6 +240,12 @@ def main():
 
     # Warn-only schema validation — informational; deliberately does NOT touch `failures`.
     schema_validate_warn(all_edges, cfg["_schema"])
+
+    # Reported connectivity metric — informational; deliberately does NOT touch `failures`.
+    comp_lines, _comp_warn = component_report(all_edges, cfg.get("component_report", {}))
+    print()
+    for line in comp_lines:
+        print(line)
 
     if failures:
         print("\nPhase H DERIVED GATE: FAIL")

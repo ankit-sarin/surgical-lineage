@@ -19,6 +19,7 @@ import jsonschema
 import pytest
 
 import diagnostic_audit as da
+import phase_h_apply as ph
 
 BASE = Path(__file__).resolve().parent
 SCHEMA = json.loads((BASE / "00_schema.json").read_text())
@@ -154,3 +155,60 @@ def test_schema_enum_contains_residency_at():
     enum = SCHEMA["items"]["properties"]["edge_type"]["enum"]
     assert "residency_at" in enum
     print(f"[snapshot] schema edge_type enum length = {len(enum)} (informational; not asserted)")
+
+
+# ------------------------------------------------ V17-INVARIANT: connectivity reported metric
+# Connectivity was demoted from a blocking invariant to a reported metric with a threshold
+# alert (single_component was satisfied only by three miscoded institution->person bridge
+# edges, so enforcing it pressured authoring false data). These tests pin the reporting/alert
+# behaviour and confirm the check never affects the exit code (it returns a warn flag, never a
+# failure).
+_CONNECTED_EDGES = [
+    {"source_node": "A", "target_node": "B"},
+    {"source_node": "B", "target_node": "C"},
+    {"source_node": "C", "target_node": "D"},
+]
+# Giant component {A,B,C} (size 3) + one island {X,Y} (size 2) — deterministic giant/island.
+_FRAGMENTED_EDGES = [
+    {"source_node": "A", "target_node": "B"},
+    {"source_node": "B", "target_node": "C"},
+    {"source_node": "X", "target_node": "Y"},
+]
+
+
+def test_component_report_unfragmented_reports_and_does_not_warn():
+    lines, warn = ph.component_report(_CONNECTED_EDGES, {"expected_components": 1,
+                                                         "max_island_size": 0})
+    assert warn is False
+    text = "\n".join(lines)
+    assert "connected components: 1" in text
+    assert "islands: none" in text
+    assert "WARNING" not in text
+
+
+def test_component_report_fragmented_warns_and_lists_island_members():
+    lines, warn = ph.component_report(_FRAGMENTED_EDGES, {"expected_components": 1,
+                                                          "max_island_size": 0})
+    assert warn is True
+    text = "\n".join(lines)
+    assert "connected components: 2" in text
+    assert "WARNING" in text
+    # Every island member must be listed explicitly — a silent count is not acceptable output.
+    assert "island 1 (2 node(s))" in text
+    assert "'X'" in text and "'Y'" in text
+
+
+def test_component_report_within_threshold_does_not_warn():
+    # Known intentional fragmentation (2 components, island size 2) is tolerated by the
+    # configured threshold and does NOT warn — the merge task raises these values deliberately.
+    _lines, warn = ph.component_report(_FRAGMENTED_EDGES, {"expected_components": 2,
+                                                           "max_island_size": 2})
+    assert warn is False
+
+
+def test_phase_h_duplicate_triples_still_detected():
+    # Negative control (Gate 3): a duplicate (source,target,edge_type) triple is still caught by
+    # the BLOCKING zero_duplicate_triples invariant — demoting connectivity did not weaken it.
+    dup = {"source_node": "A", "target_node": "B", "edge_type": "direct_training"}
+    assert ph.duplicate_triples([dict(dup), dict(dup)]) == [("A", "B", "direct_training")]
+    assert ph.duplicate_triples([dict(dup)]) == []
