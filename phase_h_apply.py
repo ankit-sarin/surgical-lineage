@@ -31,6 +31,7 @@ def load_config(config_path):
     cfg["_modules_dir"] = (base / cfg["paths"]["modules_dir"]).resolve()
     cfg["_canonical"] = (base / cfg["paths"]["canonical"]).resolve()
     cfg["_node_labels"] = (base / cfg["paths"]["node_labels"]).resolve()
+    cfg["_schema"] = (base / cfg["paths"].get("schema", "00_schema.json")).resolve()
     return cfg
 
 
@@ -76,6 +77,42 @@ def node_type_conflicts(all_edges):
         types[e["source_node"]].add(e["source_node_type"])
         types[e["target_node"]].add(e["target_node_type"])
     return {n: sorted(ts) for n, ts in types.items() if len(ts) > 1}
+
+
+def schema_validate_warn(all_edges, schema_path):
+    """WARN-ONLY validation of the regenerated canonical against 00_schema.json.
+
+    Emits a clearly-labelled warning block naming every violating edge (index +
+    source/target/edge_type + the failing constraint). This function NEVER raises and NEVER
+    affects the caller's exit code — it is deliberately warn-only for one merge cycle so latent
+    typing defects surface without halting a batch mid-run. If jsonschema is unavailable, it
+    emits a single warning and returns rather than hard-failing.
+    """
+    print("\n=== Phase H — schema validation (WARN-ONLY; does not affect exit code) ===")
+    try:
+        import jsonschema
+    except ImportError:
+        print("  WARN: jsonschema not installed — schema validation skipped "
+              "(pip install -r requirements.txt to enable). Exit code unaffected.")
+        return
+    if not schema_path.exists():
+        print(f"  WARN: schema not found at {schema_path} — validation skipped. "
+              f"Exit code unaffected.")
+        return
+    schema = json.loads(schema_path.read_text())
+    validator = jsonschema.Draft7Validator(schema["items"])
+    violations = 0
+    for i, e in enumerate(all_edges):
+        for err in sorted(validator.iter_errors(e), key=lambda x: list(x.path)):
+            violations += 1
+            loc = ".".join(str(p) for p in err.path) or "(edge root)"
+            print(f"  WARN edge[{i}] {e.get('source_node', '?')} -> {e.get('target_node', '?')} "
+                  f"[{e.get('edge_type', '?')}]: {loc}: {err.message}")
+    if violations == 0:
+        print(f"  OK: all {len(all_edges)} edges validate against {schema_path.name}.")
+    else:
+        print(f"  {violations} schema violation(s) across {len(all_edges)} edges "
+              f"(WARN-ONLY — merge not blocked).")
 
 
 def main():
@@ -156,6 +193,9 @@ def main():
     print("\nEdge-type distribution:")
     for t, c in sorted(stats["by_edge_type"].items(), key=lambda x: -x[1]):
         print(f"  {t}: {c}")
+
+    # Warn-only schema validation — informational; deliberately does NOT touch `failures`.
+    schema_validate_warn(all_edges, cfg["_schema"])
 
     if failures:
         print("\nPhase H DERIVED GATE: FAIL")

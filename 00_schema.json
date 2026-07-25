@@ -42,7 +42,10 @@
         "type": "integer"
       },
       "end_year": {
-        "type": "integer"
+        "type": [
+          "integer",
+          "null"
+        ]
       },
       "temporal_range": {
         "type": "string"
@@ -54,6 +57,7 @@
         "enum": [
           "PMID",
           "DOI",
+          "society_verified",
           "institutional_archive"
         ]
       },

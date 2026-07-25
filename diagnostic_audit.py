@@ -31,7 +31,12 @@ MIDDLE_INITIAL_RE = re.compile(r"\b[A-Z]\.?\b")
 # Every residency_at edge must carry exactly one [residency_at_reason: X] token whose X names
 # why no qualifying person endpoint exists. Zero tokens, two-or-more tokens, or an off-list X
 # is a BLOCKING finding. Non-residency_at edges are never checked.
-RESIDENCY_REASONS = {"mentorless-by-committee", "pre-PD-era", "director-unidentified"}
+# director-unidentified vs preceptor-untitled: director-unidentified means the preceptor is
+# UNKNOWN (a direct_training-first search found no identifiable PD/APD); preceptor-untitled means
+# the preceptor IS identified by name but holds NO documented structural title (chair / chief /
+# program director / associate program director), so no direct_training edge is warranted.
+RESIDENCY_REASONS = {"mentorless-by-committee", "pre-PD-era", "director-unidentified",
+                     "preceptor-untitled"}
 RESIDENCY_TOKEN_RE = re.compile(r"\[residency_at_reason:\s*([^\]]*?)\s*\]")
 
 # Name-suffix tokens (period-stripped, lowercased) that must MATCH for a person-variant flag.
