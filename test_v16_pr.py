@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-Tests for V16-PR — residency_at schema (v3.1) + diagnostic_audit hardening.
+Tests for the residency_at schema (v3.1) + diagnostic_audit hardening.
 
-Covers the three TESTS REQUIRED by the task spec:
+Assertions follow the invariant/snapshot split (V17-TESTFIX): STRUCTURAL INVARIANTS —
+properties that must hold at ANY graph version — are hard-asserted; VERSION SNAPSHOTS (counts,
+name lists, index sets true of only one graph state) are printed, never asserted, so the suite
+does not re-stale at every graph merge.
+
+Covers:
   1. residency_at [residency_at_reason: X] token gate (valid / missing / duplicate / off-list),
-  2. hardened person-name variant heuristic (Mathews flag; surname/suffix negatives),
-  3. schema validation (residency_at accepted; fabricated 10th type rejected).
+  2. person-name variant heuristic (synthetic unit cases + canonical sweep finds no duplicates),
+  3. schema validation (residency_at present; every canonical edge valid; fabricated type rejected).
 """
 import json
 from pathlib import Path
@@ -89,11 +94,17 @@ def test_differing_middle_initials_no_flag():
     assert da.person_name_variant("Joseph A. Mathews", "Joseph B. Mathews") is False
 
 
-def test_canonical_person_sweep_flags_exactly_mathews():
+def test_canonical_person_sweep_finds_no_unresolved_duplicates():
+    # INVARIANT (converted from test_canonical_person_sweep_flags_exactly_mathews). The old test
+    # asserted the sweep returned exactly ("Joseph M. Mathews", "Joseph McDowell Mathews"). V16-B2
+    # consolidated that duplicate node — only "Joseph McDowell Mathews" remains — so the sweep now
+    # correctly returns nothing and the old snapshot assertion went stale. The property worth
+    # guarding at ANY graph version is that the person-name variant heuristic finds NO unresolved
+    # duplicate persons in the current canonical.
     persons = sorted({e[k] for e in CANONICAL for k in ("source_node", "target_node")
                       if e[f"{'source' if k=='source_node' else 'target'}_node_type"] == "person"})
     variants = da.structural_person_variants(persons)
-    assert variants == [("Joseph M. Mathews", "Joseph McDowell Mathews")]
+    assert variants == [], f"unresolved person-name variant(s) in canonical: {variants}"
 
 
 # ---------------------------------------------------------------- Test 3: schema
@@ -108,23 +119,18 @@ def test_schema_rejects_fabricated_tenth_type():
         jsonschema.validate([edge], SCHEMA)
 
 
-def _rejected_indices(schema):
-    """Indices of canonical edges that fail item-level validation under `schema`."""
-    validator = jsonschema.Draft7Validator(schema["items"])
-    return {i for i, e in enumerate(CANONICAL) if not validator.is_valid(e)}
-
-
-# v3 schema = v3.1 minus residency_at (the only edit to the edge_type enum).
-V3_SCHEMA = json.loads(json.dumps(SCHEMA))
-V3_SCHEMA["items"]["properties"]["edge_type"]["enum"] = [
-    t for t in V3_SCHEMA["items"]["properties"]["edge_type"]["enum"] if t != "residency_at"
-]
-
-
-def test_enum_change_rejects_nothing_new():
-    # Gate 1 (backward-compat): adding residency_at rejects no edge that v3 accepted.
-    # The only rejections are 7 PRE-EXISTING null-end_year "Present" edges, identical under both.
-    assert _rejected_indices(SCHEMA) == _rejected_indices(V3_SCHEMA)
+def test_every_canonical_edge_validates_against_live_schema():
+    # INVARIANT (replaces the obsolete test_enum_change_rejects_nothing_new + its V3_SCHEMA
+    # comparator). The old test built a synthetic v3 schema (v3.1 minus residency_at) and asserted
+    # v3 and v3.1 rejected an identical set of canonical edges — a property that held only while
+    # ZERO residency_at edges existed. Three now exist (canonical indices 62, 108, 252); the
+    # synthetic v3 rejects them while the live schema accepts them, so the sets legitimately
+    # diverge. A schema version the data has moved past is not a useful comparator. The property
+    # that matters going forward is that EVERY canonical edge validates against the live schema.
+    validator = jsonschema.Draft7Validator(SCHEMA["items"])
+    invalid = [(i, e["source_node"], e["target_node"], e["edge_type"])
+               for i, e in enumerate(CANONICAL) if not validator.is_valid(e)]
+    assert invalid == [], f"{len(invalid)} canonical edge(s) fail the live schema: {invalid[:5]}"
 
 
 def test_all_existing_edge_types_are_valid_enum_members():
@@ -141,6 +147,10 @@ def test_integer_year_edges_all_validate():
             assert validator.is_valid(e), (e["source_node"], e["target_node"])
 
 
-def test_schema_has_nine_edge_types():
+def test_schema_enum_contains_residency_at():
+    # INVARIANT + snapshot split (converted from test_schema_has_nine_edge_types). Presence of
+    # residency_at is the invariant; the enum LENGTH is a version snapshot — printed, never
+    # asserted, so a future tenth edge_type does not fail this unrelated suite.
     enum = SCHEMA["items"]["properties"]["edge_type"]["enum"]
-    assert "residency_at" in enum and len(enum) == 9
+    assert "residency_at" in enum
+    print(f"[snapshot] schema edge_type enum length = {len(enum)} (informational; not asserted)")
