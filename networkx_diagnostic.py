@@ -46,8 +46,9 @@ TRAINING_TYPES = {"direct_training", "observational_study"}
 # informational output (see run_tests), never hard-asserted, so this self-test does not re-stale
 # at every graph merge. The prior EXPECTED_TRUNK_ROOTS / EXPECTED_GFULL_TOP5 hand-edited
 # constants were removed for exactly this reason. The hard asserts that remain are pure
-# structural invariants (all lineage nodes are persons, all major roots are persons, single
-# connected component, betweenness finite & fully covered, root pairs reachable, read-only sha).
+# structural invariants (all lineage nodes are persons, all major roots are persons, betweenness
+# finite & fully covered, root pairs reachable, read-only sha). Full-graph connectivity is NOT
+# among them — it was demoted to a reported snapshot (S2) in V17-INVARIANT.
 
 
 # --------------------------------------------------------------------------- IO (read-only)
@@ -384,8 +385,10 @@ def write_markdown(path, version, sha_before, sha_after, edges, graphs, bc_table
              f"pulling {len(excluded_edges)} non-person training edges into the projection "
              f"(chiefly institution→person `direct_training`) and seating institutions "
              f"(Mayo/JHH/Howard/MSK departments) as trunk roots. Restricting to person↔person "
-             f"yields the correct **154 nodes / 24 weak components / 4 components ≥ {threshold}**, "
-             f"with all trunk roots persons. Excluded edges enumerated in the REVIEW section.")
+             f"yields the corrected projection reported directly above, with all trunk roots "
+             f"persons. (This note is deliberately count-free: it records a definitional fix, "
+             f"not a graph state, and its former hardcoded V13 counts went stale at every merge.) "
+             f"Excluded edges enumerated in the REVIEW section.")
     L.append("")
     L.append("### Major trunk roots (components size ≥ threshold)")
     L.append("")
@@ -409,7 +412,9 @@ def write_markdown(path, version, sha_before, sha_after, edges, graphs, bc_table
     L.append("")
     cross = [p for p in geo_pairs]
     L.append(f"{len(cross)} cross-trunk major-root pair(s). "
-             f"Unreachable: {len(unreachable)} (expected 0 given single component).")
+             f"Unreachable: {len(unreachable)} (expected 0: all major roots lie in the giant "
+             f"component; the full graph has "
+             f"{nx.number_connected_components(graphs['G_full_u'])} component(s)).")
     L.append("")
     L.append("### Distance matrix")
     L.append("")
