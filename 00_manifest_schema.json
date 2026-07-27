@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Surgical-lineage merge manifest (Manifest A / Manifest B) — phase_i pre-flight contract",
+  "description": "Every required key here is derived from the phase_i_merge.py code path that consumes it, NOT from prose: apply_manifest_a (manifest_type/target_module/operations; per-op op=modify_fields, match, expected_existing, set), apply_manifest_b (manifest_type/operations; per-op op in the SEMANTIC_DISPATCH table, module, match, expected_existing), find_unique (match.source_node/target_node/edge_type) and the op_* handlers (op_reverse_retarget and op_reclassify read op['set']; op_delete does not). manifest_id is OPTIONAL — it is a log label only (T1.2). `preserve` is optional everywhere; when present phase_i verifies those fields are unchanged after the write.",
+  "type": "object",
+  "required": ["manifest_type", "operations"],
+  "properties": {
+    "manifest_id": {
+      "type": "string",
+      "description": "Optional log label. phase_i reads it via .get() and falls back to '<unnamed>'."
+    },
+    "manifest_type": {
+      "enum": ["edge_modify_fields", "edge_semantic_ops"],
+      "description": "Asserted by apply_manifest_a / apply_manifest_b before any work."
+    },
+    "target_module": {"type": "string"},
+    "description": {"type": "string"},
+    "operations": {"type": "array"}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"manifest_type": {"const": "edge_modify_fields"}},
+        "required": ["manifest_type"]
+      },
+      "then": {
+        "required": ["target_module", "operations"],
+        "properties": {
+          "operations": {"type": "array", "items": {"$ref": "#/definitions/modify_op"}}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {"manifest_type": {"const": "edge_semantic_ops"}},
+        "required": ["manifest_type"]
+      },
+      "then": {
+        "properties": {
+          "operations": {"type": "array", "items": {"$ref": "#/definitions/semantic_op"}}
+        }
+      }
+    }
+  ],
+  "definitions": {
+    "match": {
+      "type": "object",
+      "description": "find_unique() matches on exactly these three fields and aborts unless exactly one live edge matches.",
+      "required": ["source_node", "target_node", "edge_type"],
+      "properties": {
+        "source_node": {"type": "string"},
+        "target_node": {"type": "string"},
+        "edge_type": {"type": "string"}
+      }
+    },
+    "modify_op": {
+      "type": "object",
+      "description": "Manifest A operation. apply_manifest_a asserts op == 'modify_fields'.",
+      "required": ["op", "match", "expected_existing", "set"],
+      "properties": {
+        "op": {"const": "modify_fields"},
+        "match": {"$ref": "#/definitions/match"},
+        "expected_existing": {"type": "object", "minProperties": 1},
+        "set": {"type": "object", "minProperties": 1},
+        "preserve": {"type": "array", "items": {"type": "string"}},
+        "module": {"type": "string"},
+        "reason": {"type": "string"}
+      }
+    },
+    "semantic_op": {
+      "type": "object",
+      "description": "Manifest B operation. Manifest B is module-scoped PER OP: apply_manifest_b reads op['module'] and ignores any top-level target_module.",
+      "required": ["op", "module", "match", "expected_existing"],
+      "properties": {
+        "op": {
+          "enum": ["delete", "reverse_retarget", "reclassify"],
+          "description": "Enumerated from the SEMANTIC_DISPATCH table in phase_i_merge.py."
+        },
+        "module": {"type": "string"},
+        "match": {"$ref": "#/definitions/match"},
+        "expected_existing": {"type": "object", "minProperties": 1},
+        "set": {"type": "object", "minProperties": 1},
+        "preserve": {"type": "array", "items": {"type": "string"}},
+        "reason": {"type": "string"}
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"op": {"enum": ["reverse_retarget", "reclassify"]}},
+            "required": ["op"]
+          },
+          "then": {
+            "required": ["set"],
+            "description": "op_reverse_retarget and op_reclassify both read op['set']; op_delete does not."
+          }
+        }
+      ]
+    }
+  }
+}

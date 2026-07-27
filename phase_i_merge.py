@@ -27,6 +27,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+import jsonschema
+
 ROUTE_RE = re.compile(r"route:\s*([0-9A-Za-z_]+)")
 
 
@@ -46,6 +48,45 @@ def sha256_file(path):
     if not p.exists():
         return None
     return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+# --------------------------------------------------------------------------- manifest pre-flight
+MANIFEST_SCHEMA_NAME = "00_manifest_schema.json"
+
+
+def validate_manifests(base, manifest_paths):
+    """T1.3 — validate every manifest against 00_manifest_schema.json BEFORE any module is
+    read or mutated, and exit non-zero listing every violation found.
+
+    V17-B2 lost two runs to dispatch-key defects (a missing op, a missing module) that were
+    only discovered mid-merge, one abort at a time, after the batch had already been written
+    to disk. Failing here means the modules are never touched.
+    """
+    schema_path = Path(base) / MANIFEST_SCHEMA_NAME
+    if not schema_path.exists():
+        sys.exit(f"ABORT: manifest schema not found: {schema_path}")
+    schema = json.loads(schema_path.read_text())
+    validator = jsonschema.Draft7Validator(schema)
+
+    violations = []
+    for label, path in manifest_paths:
+        try:
+            manifest = json.loads(Path(path).read_text())
+        except (OSError, json.JSONDecodeError) as exc:
+            violations.append(f"  {label} ({path}): unreadable / invalid JSON — {exc}")
+            continue
+        for err in sorted(validator.iter_errors(manifest), key=lambda e: list(e.absolute_path)):
+            loc = "/".join(str(p) for p in err.absolute_path) or "<root>"
+            violations.append(f"  {label} at {loc}: {err.message}")
+
+    print("=== Phase I.0 — manifest pre-flight ===")
+    if violations:
+        print(f"FAILED: {len(violations)} violation(s); no module was read or modified.")
+        for v in violations:
+            print(v)
+        sys.exit(1)
+    for label, path in manifest_paths:
+        print(f"  OK: {label} validates against {MANIFEST_SCHEMA_NAME} ({Path(path).name})")
 
 
 def module_files(modules_dir):
@@ -281,6 +322,11 @@ def main():
     modules_dir = cfg["_modules_dir"]
     route_map = cfg["modules"]["route_map"]
     hard_type = cfg["modules"]["edge_type_contract"]
+
+    # T1.3 — manifest pre-flight FIRST: nothing below this line may run against a manifest
+    # that cannot be applied. Reads only the manifests and the schema; no module is opened.
+    validate_manifests(cfg["_base"], [("Manifest A", args.manifest_a),
+                                      ("Manifest B", args.manifest_b)])
 
     # T1.1 — hash the canonical BEFORE any mutation. phase_i only touches module files, so the
     # canonical still holds the pre-merge state at this point; phase_h fills in the post hash

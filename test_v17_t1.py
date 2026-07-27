@@ -145,3 +145,89 @@ def test_t1_2_present_manifest_id_still_labels_the_phase(tmp_path):
     assert r.returncode == 0, r.stderr
     assert "test_a" in r.stdout and "test_b" in r.stdout
     assert "<unnamed>" not in r.stdout
+
+
+# --------------------------------------------------------------------------- T1.3
+SCHEMA_MANIFEST = json.loads((BASE / "00_manifest_schema.json").read_text())
+
+
+def _match(**kw):
+    m = {"source_node": "A", "target_node": "B", "edge_type": "direct_training"}
+    m.update(kw)
+    return m
+
+
+def _bad_manifests():
+    """Each fixture violates exactly one requirement derived from the phase_i code path."""
+    return {
+        "missing_op": {
+            "manifest_type": "edge_modify_fields", "target_module": "13_pre_halsted.json",
+            "operations": [{"match": _match(), "expected_existing": {"start_year": 1}, "set": {"end_year": 2}}]},
+        "missing_module": {
+            "manifest_type": "edge_semantic_ops",
+            "operations": [{"op": "reclassify", "match": _match(),
+                            "expected_existing": {"start_year": 1}, "set": {"edge_type": "x"}}]},
+        "unknown_manifest_type": {"manifest_type": "edge_teleport", "operations": []},
+    }
+
+
+@pytest.mark.parametrize("name,doc", sorted(_bad_manifests().items()))
+def test_t1_3_negative_fixtures_fail_schema(name, doc):
+    import jsonschema
+    errs = list(jsonschema.Draft7Validator(SCHEMA_MANIFEST).iter_errors(doc))
+    assert errs, f"{name} should have failed validation"
+
+
+def test_t1_3_live_v17_b2_manifests_validate_clean():
+    """GATE 3 — the manifests actually merged in V17-B2 must pass the new pre-flight."""
+    import jsonschema
+    v = jsonschema.Draft7Validator(SCHEMA_MANIFEST)
+    for f in ("v17_b2_manifest_a.json", "v17_b2_manifest_b.json"):
+        assert list(v.iter_errors(json.loads((BASE / f).read_text()))) == [], f
+
+
+def test_t1_3_delete_needs_no_set_but_reclassify_does():
+    """op_delete never reads op['set']; op_reverse_retarget and op_reclassify both do."""
+    import jsonschema
+    v = jsonschema.Draft7Validator(SCHEMA_MANIFEST)
+    base_op = {"module": "m.json", "match": _match(), "expected_existing": {"start_year": 1}}
+    ok = {"manifest_type": "edge_semantic_ops", "operations": [{"op": "delete", **base_op}]}
+    bad = {"manifest_type": "edge_semantic_ops", "operations": [{"op": "reclassify", **base_op}]}
+    assert list(v.iter_errors(ok)) == []
+    assert [e.message for e in v.iter_errors(bad)]
+
+
+@pytest.mark.parametrize("name", sorted(_bad_manifests()))
+def test_t1_3_phase_i_aborts_before_touching_any_module(tmp_path, name):
+    """GATE 2 — a bad manifest must fail pre-flight with a clear message, provably BEFORE
+    any module is mutated. The expansion here is non-empty, so a run that got as far as the
+    batch insert would rewrite module 13 and emit a run record."""
+    d = _sandbox(tmp_path)
+    exp, a, b = _write_noop_inputs(d)
+    exp.write_text(json.dumps([{
+        "source_node": "T1.3 Probe", "source_node_type": "person",
+        "target_node": "T1.3 Target", "target_node_type": "person",
+        "edge_type": "direct_training", "start_year": 1900, "end_year": 1901,
+        "temporal_range": "1900-1901", "evidence_citation": "none", "evidence_type": "PMID",
+        "evidence_locator": "none", "confidence": "high", "notes": "route: 13_pre_halsted"}]))
+    doc = _bad_manifests()[name]
+    # Break Manifest B for the semantic fixture, Manifest A otherwise.
+    (b if doc["manifest_type"] == "edge_semantic_ops" else a).write_text(json.dumps(doc, indent=2))
+
+    before = (d / "13_pre_halsted.json").read_bytes()
+    r = _phase_i(d, exp, a, b)
+
+    assert r.returncode != 0, "bad manifest must abort"
+    assert "FAILED" in r.stdout and "no module was read or modified" in r.stdout
+    assert (d / "13_pre_halsted.json").read_bytes() == before, "module was mutated despite abort"
+    assert not (d / "merge_run_test.json").exists(), "run record emitted despite abort"
+    assert "Phase I.1" not in r.stdout, "batch insert ran despite a failed pre-flight"
+
+
+def test_t1_3_valid_manifests_pass_preflight_and_run(tmp_path):
+    d = _sandbox(tmp_path)
+    exp, a, b = _write_noop_inputs(d)
+    r = _phase_i(d, exp, a, b)
+    assert r.returncode == 0, r.stdout + r.stderr
+    assert "Phase I.0 — manifest pre-flight" in r.stdout
+    assert r.stdout.count("validates against") == 2
