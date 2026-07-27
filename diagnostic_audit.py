@@ -188,7 +188,22 @@ def audit_1_canonical_names(node_modules, whitelist):
         elif ntype == "society":
             societies.append(name)
 
-    suppressed = []
+    # T1.4 — suppression accounting. `suppressed` records EVERY whitelist-suppressed pair,
+    # keyed by frozenset so a pair found by both detectors is one entry carrying both tags.
+    # Before T1.4 only the fuzzy-ratio detector recorded its suppressions here; the token
+    # detector dropped whitelisted pairs silently (so "Whitelisted name pairs: N" under-reported
+    # — at V17-B2 it read 1, hiding the whitelisted Warren pair the token rule had caught).
+    # "Whitelisted name pairs: N" now means actively-suppressed pairs, full stop.
+    suppressed = {}
+
+    def record_suppressed(a, b, ratio, detector):
+        key = frozenset({a, b})
+        entry = suppressed.get(key)
+        if entry is None:
+            suppressed[key] = {"a": a, "b": b, "ratio": ratio,
+                               "reason": whitelist[key], "detectors": [detector]}
+        elif detector not in entry["detectors"]:
+            entry["detectors"].append(detector)
 
     def pairwise(names, threshold, downweight_middle_initial=False):
         flagged = []
@@ -197,12 +212,12 @@ def audit_1_canonical_names(node_modules, whitelist):
                 ratio = SequenceMatcher(None, a, b).ratio()
                 if ratio >= threshold and ratio < 1.0:
                     if frozenset({a, b}) in whitelist:
-                        suppressed.append((a, b, ratio, whitelist[frozenset({a, b})]))
+                        record_suppressed(a, b, ratio, "fuzzy")
                         continue
                     note = ""
                     if downweight_middle_initial and differs_only_by_middle_initial(a, b):
                         note = "differs only by middle initial — likely variant or distinct person"
-                    flagged.append((a, b, ratio, note))
+                    flagged.append((a, b, ratio, note, ["fuzzy"]))
         return flagged
 
     person_pairs = pairwise(persons, PERSON_SIM_THRESHOLD, downweight_middle_initial=True)
@@ -211,28 +226,49 @@ def audit_1_canonical_names(node_modules, whitelist):
 
     # Hardened person-name heuristic: structural same-first/last, suffix-matched, middle-differs
     # variants that the SequenceMatcher ratio gate misses (e.g. "Joseph M. Mathews" vs
-    # "Joseph McDowell Mathews", ratio 0.80). Merge in any not already flagged/whitelisted.
-    existing_person_keys = {frozenset({a, b}) for a, b, _, _ in person_pairs}
+    # "Joseph McDowell Mathews", ratio 0.80). The reported person set is the whitelist-filtered
+    # UNION of this token detector and the fuzzy-ratio detector above.
+    #
+    # structural_person_variants() is the single source of truth for the token rule —
+    # test_v16_pr.py::test_canonical_person_sweep_finds_no_unresolved_duplicates imports this
+    # same function and applies the same whitelist filter (keep the two in step).
+    person_index = {frozenset({a, b}): i for i, (a, b, _, _, _) in enumerate(person_pairs)}
     for a, b in structural_person_variants(persons):
         key = frozenset({a, b})
-        if key in existing_person_keys or key in whitelist:
+        if key in whitelist:
+            # T1.4: whitelisted, so still suppressed — but now COUNTED and tagged, not dropped.
+            record_suppressed(a, b, SequenceMatcher(None, a, b).ratio(), "token")
             continue
-        ratio = SequenceMatcher(None, a, b).ratio()
-        person_pairs.append((a, b, ratio,
+        if key in person_index:
+            # Found by both detectors: tag the existing row rather than duplicating it.
+            i = person_index[key]
+            a0, b0, r0, note0, dets = person_pairs[i]
+            if "token" not in dets:
+                person_pairs[i] = (a0, b0, r0, note0, dets + ["token"])
+            continue
+        person_pairs.append((a, b, SequenceMatcher(None, a, b).ratio(),
                              "middle-name variant (same first/last token, suffix-matched) — "
-                             "likely same person; verify vs distinct individual"))
-        existing_person_keys.add(key)
+                             "likely same person; verify vs distinct individual", ["token"]))
+        person_index[key] = len(person_pairs) - 1
 
     def mod_list(name, ntype):
         return ", ".join(sorted(node_modules[(name, ntype)]))
 
     lines = ["## Audit 1 — Canonical Name Similarity", ""]
+    lines.append("Person pairs are the whitelist-filtered UNION of two detectors: `fuzzy` "
+                 "(SequenceMatcher ratio ≥ threshold) and `token` (same first/last token, "
+                 "suffix-matched, middle differs). Every reported and every suppressed pair is "
+                 "tagged with the detector(s) that found it. A pair no detector fires on cannot "
+                 "appear here at all, whitelisted or not.")
+    lines.append("")
     if suppressed:
-        lines.append(f"**Whitelisted (known-distinct, suppressed): {len(suppressed)} pair(s).**")
+        lines.append(f"**Whitelisted (known-distinct, suppressed): {len(suppressed)} pair(s).** "
+                     "Suppressed pairs are warn-level context, never blocking.")
         lines.append("")
-        for a, b, r, reason in suppressed:
-            lines.append(f"- `{a}` ≈ `{b}` ({r:.2f})"
-                         + (f" — {reason}" if reason else ""))
+        for s in sorted(suppressed.values(), key=lambda s: -s["ratio"]):
+            lines.append(f"- `{s['a']}` ≈ `{s['b']}` ({s['ratio']:.2f}) "
+                         f"[detector: {'+'.join(s['detectors'])}; whitelisted]"
+                         + (f" — {s['reason']}" if s["reason"] else ""))
         lines.append("")
     for title, pairs, ntype in [
         ("Persons", person_pairs, "person"),
@@ -245,11 +281,12 @@ def audit_1_canonical_names(node_modules, whitelist):
             lines.append("_None flagged._")
             lines.append("")
             continue
-        lines.append("| Name A | Name B | Ratio | Modules A | Modules B | Note | Verdict |")
-        lines.append("|---|---|---|---|---|---|---|")
-        for a, b, r, note in sorted(pairs, key=lambda x: -x[2]):
+        lines.append("| Name A | Name B | Ratio | Detector | Modules A | Modules B | Note | Verdict |")
+        lines.append("|---|---|---|---|---|---|---|---|")
+        for a, b, r, note, dets in sorted(pairs, key=lambda x: -x[2]):
             lines.append(
-                f"| {a} | {b} | {r:.2f} | {mod_list(a, ntype)} | {mod_list(b, ntype)} | {note} | MANUAL REVIEW |"
+                f"| {a} | {b} | {r:.2f} | {'+'.join(dets)} | {mod_list(a, ntype)} | "
+                f"{mod_list(b, ntype)} | {note} | MANUAL REVIEW |"
             )
         lines.append("")
 
@@ -257,8 +294,13 @@ def audit_1_canonical_names(node_modules, whitelist):
         "person_pairs": len(person_pairs),
         "institution_pairs": len(institution_pairs),
         "society_pairs": len(society_pairs),
-        "institution_high_ratio": sum(1 for _, _, r, _ in institution_pairs if r >= 0.95),
+        "institution_high_ratio": sum(1 for _, _, r, _, _ in institution_pairs if r >= 0.95),
         "suppressed": len(suppressed),
+        # Detector attribution, so a future run can tell WHICH heuristic is carrying the load.
+        "person_pairs_by_detector": dict(Counter(
+            "+".join(dets) for _, _, _, _, dets in person_pairs)),
+        "suppressed_by_detector": dict(Counter(
+            "+".join(s["detectors"]) for s in suppressed.values())),
     }
 
 

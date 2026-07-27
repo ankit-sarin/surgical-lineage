@@ -231,3 +231,89 @@ def test_t1_3_valid_manifests_pass_preflight_and_run(tmp_path):
     assert r.returncode == 0, r.stdout + r.stderr
     assert "Phase I.0 — manifest pre-flight" in r.stdout
     assert r.stdout.count("validates against") == 2
+
+
+# --------------------------------------------------------------------------- T1.4
+import diagnostic_audit as da
+
+CANONICAL = json.loads((BASE / "surgical_lineage_graph_canonical.json").read_text())
+TOKEN_PAIR = ("Joseph M. Mathews", "Joseph McDowell Mathews")   # token-only: ratio 0.80 < 0.88
+
+
+def _nodes(*names, ntype="person"):
+    return {(n, ntype): {"01"} for n in names}
+
+
+def test_t1_4_token_only_pair_is_reported_and_tagged():
+    """The token detector must reach Audit 1's output — the fuzzy gate alone misses this pair."""
+    a, b = TOKEN_PAIR
+    from difflib import SequenceMatcher
+    assert SequenceMatcher(None, a, b).ratio() < da.PERSON_SIM_THRESHOLD    # fuzzy cannot see it
+    assert da.person_name_variant(a, b)                                     # token can
+
+    lines, stats = da.audit_1_canonical_names(_nodes(a, b), {})
+    assert stats["person_pairs"] == 1
+    assert stats["person_pairs_by_detector"] == {"token": 1}
+    assert any("token" in ln and a in ln for ln in lines)
+
+
+def test_t1_4_whitelisted_token_pair_is_suppressed_but_counted():
+    """The T1.4 defect: a whitelisted token hit used to be dropped silently, so the
+    'Whitelisted name pairs' counter under-reported it."""
+    a, b = TOKEN_PAIR
+    lines, stats = da.audit_1_canonical_names(_nodes(a, b), {frozenset({a, b}): "distinct people"})
+    assert stats["person_pairs"] == 0, "whitelisted pair must not be flagged"
+    assert stats["suppressed"] == 1, "whitelisted pair must still be COUNTED"
+    assert stats["suppressed_by_detector"] == {"token": 1}
+    assert any("[detector: token; whitelisted]" in ln for ln in lines)
+
+
+def test_t1_4_whitelisted_fuzzy_pair_still_suppressed_and_tagged():
+    a, b = "ACS National Surgical Quality Improvement Program", \
+           "VA National Surgical Quality Improvement Program"
+    lines, stats = da.audit_1_canonical_names(_nodes(a, b, ntype="institution"),
+                                              {frozenset({a, b}): "distinct programs"})
+    assert stats["suppressed"] == 1
+    assert stats["suppressed_by_detector"] == {"fuzzy": 1}
+    assert any("[detector: fuzzy; whitelisted]" in ln for ln in lines)
+
+
+def test_t1_4_pair_seen_by_both_detectors_is_one_row_with_both_tags():
+    # Present-vs-absent middle initial: high ratio AND a token variant. (Two DIFFERING middle
+    # initials would not qualify — the token rule deliberately treats those as distinct people,
+    # per test_v16_pr.py::test_differing_middle_initials_no_flag.)
+    a, b = "William Halsted", "William S. Halsted"
+    from difflib import SequenceMatcher
+    assert SequenceMatcher(None, a, b).ratio() >= da.PERSON_SIM_THRESHOLD
+    assert da.person_name_variant(a, b)
+    _, stats = da.audit_1_canonical_names(_nodes(a, b), {})
+    assert stats["person_pairs"] == 1, "must not be double-counted"
+    assert list(stats["person_pairs_by_detector"]) == ["fuzzy+token"]
+
+
+def test_t1_4_token_path_is_exercised_on_the_live_canonical():
+    """End-to-end through the audit on real data: the whitelisted Warren pair is the
+    token detector's only live hit, and it must now appear tagged and counted."""
+    node_modules = {}
+    for e in CANONICAL:
+        for k in ("source_node", "target_node"):
+            node_modules.setdefault((e[k], e[f"{'source' if k == 'source_node' else 'target'}_node_type"]),
+                                    set()).add("canonical")
+    whitelist = {frozenset(entry["pair"]): entry.get("reason", "")
+                 for entry in json.loads((BASE / "pipeline_config.json").read_text())["name_pair_whitelist"]}
+
+    lines, stats = da.audit_1_canonical_names(node_modules, whitelist)
+    assert stats["person_pairs"] == 0, "no UNSUPPRESSED person flags expected at this graph state"
+    assert stats["suppressed_by_detector"].get("token", 0) >= 1, "token suppression must be counted"
+    assert any("John Warren" in ln and "[detector: token; whitelisted]" in ln for ln in lines)
+
+
+def test_t1_4_is_warn_level_and_creates_no_blocking_class():
+    """Audit 1 must not gain a blocking gate: flagged and suppressed pairs are context only."""
+    a, b = TOKEN_PAIR
+    lines, stats = da.audit_1_canonical_names(_nodes(a, b), {})
+    assert stats["person_pairs"] == 1
+    assert not any("BLOCKING" in ln for ln in lines)
+    assert all(k in ("person_pairs", "institution_pairs", "society_pairs",
+                     "institution_high_ratio", "suppressed",
+                     "person_pairs_by_detector", "suppressed_by_detector") for k in stats)
