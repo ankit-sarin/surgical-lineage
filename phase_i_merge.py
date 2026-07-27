@@ -155,7 +155,9 @@ def apply_manifest_a(modules_dir, manifest_a_path):
     target_file = modules_dir / manifest["target_module"]
     edges = json.loads(target_file.read_text())
 
-    print(f"\n=== Phase I.2 — Manifest A ({manifest['manifest_id']}) ===")
+    # manifest_id is a log label only — it plays no part in matching or application, so a
+    # manifest that omits it must not abort the run (T1.2; it did, mid-merge, in V17-B2).
+    print(f"\n=== Phase I.2 — Manifest A ({manifest.get('manifest_id', '<unnamed>')}) ===")
     applied = 0
     for op in manifest["operations"]:
         assert op["op"] == "modify_fields", f"unexpected op {op['op']!r} in Manifest A"
@@ -238,7 +240,8 @@ def apply_manifest_b(modules_dir, route_map, manifest_b_path):
     assert manifest["manifest_type"] == "edge_semantic_ops", \
         f"unexpected manifest_type {manifest['manifest_type']!r}"
 
-    print(f"\n=== Phase I.3 — Manifest B ({manifest['manifest_id']}) ===")
+    # Log label only — see the note in apply_manifest_a (T1.2).
+    print(f"\n=== Phase I.3 — Manifest B ({manifest.get('manifest_id', '<unnamed>')}) ===")
     loaded = {}          # fname -> edges list
     net_delta = 0
     counts = {"delete": 0, "reverse_retarget": 0, "reclassify": 0}

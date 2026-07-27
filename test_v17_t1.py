@@ -121,3 +121,27 @@ def test_t1_1_phase_h_preserves_the_rest_of_the_record(tmp_path):
     assert after["canonical_sha256_pre"] == before["canonical_sha256_pre"]
     for k in ("version", "pre", "delta", "inputs", "new_nodes", "manifest_ops"):
         assert after[k] == before[k], f"phase_h mutated {k!r}"
+
+
+# --------------------------------------------------------------------------- T1.2
+def test_t1_2_missing_manifest_id_does_not_abort(tmp_path):
+    """manifest_id is a log label. Omitting it must not KeyError (V17-B2 aborted mid-merge)."""
+    d = _sandbox(tmp_path)
+    exp, a, b = _write_noop_inputs(d, manifest_id=False)
+    assert "manifest_id" not in json.loads(a.read_text())
+    assert "manifest_id" not in json.loads(b.read_text())
+
+    r = _phase_i(d, exp, a, b)
+    assert r.returncode == 0, r.stdout + r.stderr
+    assert "KeyError" not in r.stderr
+    assert "<unnamed>" in r.stdout, r.stdout
+    assert (d / "merge_run_test.json").exists()
+
+
+def test_t1_2_present_manifest_id_still_labels_the_phase(tmp_path):
+    d = _sandbox(tmp_path)
+    exp, a, b = _write_noop_inputs(d, manifest_id=True)
+    r = _phase_i(d, exp, a, b)
+    assert r.returncode == 0, r.stderr
+    assert "test_a" in r.stdout and "test_b" in r.stdout
+    assert "<unnamed>" not in r.stdout
