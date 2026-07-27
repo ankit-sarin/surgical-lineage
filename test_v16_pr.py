@@ -102,9 +102,24 @@ def test_canonical_person_sweep_finds_no_unresolved_duplicates():
     # correctly returns nothing and the old snapshot assertion went stale. The property worth
     # guarding at ANY graph version is that the person-name variant heuristic finds NO unresolved
     # duplicate persons in the current canonical.
+    #
+    # WHITELIST-AWARE (V17-B2). structural_person_variants() is the RAW same-first/last-token
+    # heuristic; audit_1_canonical_names suppresses any pair present in the config
+    # name_pair_whitelist (diagnostic_audit.py, "if key in existing_person_keys or key in
+    # whitelist") before reporting. This test predated the first person-pair whitelist entries and
+    # called the raw heuristic directly, so it had diverged from the audit's filtered path: V17-B2
+    # added the confirmed-distinct father/son pair John Warren / John Collins Warren, which the raw
+    # heuristic flags by construction and the whitelist is exactly what resolves. Mirror the audit's
+    # frozenset-keyed lookup (pair-order independent) so the assertion keeps its intended meaning —
+    # no UNRESOLVED variants — instead of the stronger, now-false "no variants at all".
+    whitelist = set()
+    for entry in json.loads((BASE / "pipeline_config.json").read_text()).get("name_pair_whitelist", []):
+        whitelist.add(frozenset(entry["pair"] if isinstance(entry, dict) else entry))
+
     persons = sorted({e[k] for e in CANONICAL for k in ("source_node", "target_node")
                       if e[f"{'source' if k=='source_node' else 'target'}_node_type"] == "person"})
-    variants = da.structural_person_variants(persons)
+    variants = [(a, b) for a, b in da.structural_person_variants(persons)
+                if frozenset({a, b}) not in whitelist]
     assert variants == [], f"unresolved person-name variant(s) in canonical: {variants}"
 
 
