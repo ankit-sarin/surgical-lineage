@@ -1,0 +1,59 @@
+{
+  "version": "v17_b3",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "canonical_sha256_pre": "fb96a550dbab3e6aebb47f9e18f6568b0b355cc35f5b8bced7fbf5670b1f0c97",
+  "canonical_sha256_post": "a186f2837478562803bf9a355b25b1a0f457bbf857bcaa05a3a83d75e0707310",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b3_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b3_manifest_a.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b3_manifest_b.json"
+  },
+  "pre": {
+    "edges": 583,
+    "nodes": 450,
+    "institutional_parent": 49,
+    "by_edge_type": {
+      "institutional_founder": 101,
+      "direct_training": 140,
+      "residency_at": 5,
+      "governance_leadership": 175,
+      "institutional_succession": 19,
+      "society_founder": 61,
+      "observational_study": 9,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 49
+    }
+  },
+  "delta": {
+    "edges": 0,
+    "nodes": 1,
+    "institutional_parent": 0,
+    "by_edge_type": {
+      "institutional_succession": 0,
+      "institutional_founder": 0,
+      "observational_study": 0,
+      "governance_leadership": 0,
+      "institutional_parent": 0,
+      "direct_training": 0,
+      "society_founder": 0,
+      "programmatic_accreditation": 0,
+      "residency_at": 0
+    }
+  },
+  "inserted_by_type": {
+    "direct_training": 1
+  },
+  "inserted_by_module": {
+    "13_pre_halsted.json": 1
+  },
+  "new_nodes": [
+    "John B. Owen"
+  ],
+  "new_node_count": 1,
+  "manifest_ops": {
+    "a_modify_fields": 1,
+    "b_delete": 1,
+    "b_reverse_retarget": 0,
+    "b_reclassify": 0
+  }
+}

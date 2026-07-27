@@ -84,11 +84,11 @@
     "start_year": 1798,
     "end_year": 1802,
     "temporal_range": "1798-1802",
-    "evidence_citation": "Penn_Archives_Dorsey_Physick",
-    "evidence_type": "institutional_archive",
-    "evidence_locator": "University of Pennsylvania Archives, Penn People biography: Philip Syng Physick (archives.upenn.edu/exhibits/penn-people/biography/philip-syng-physick); NLM Circulating Now, 'Dr. Philip Syng Physick, Father of American Surgery' (2023)",
-    "confidence": "moderate",
-    "notes": "route: 13_pre_halsted [VERIFY_DATES] John Syng Dorsey (1783-1818), Physick's nephew, was his close student and assistant; Penn Archives records Physick's case histories and lectures as the core of Dorsey's Elements of Surgery (1813), the first American surgical textbook. Dorsey served as adjunct professor of surgery from 1807 to assist Physick, and was elected professor of anatomy in 1818, dying weeks later. Apprenticeship span 1798-1802 (before Dorsey's Penn MD) is approximate; exact pupillage years to be confirmed against the Penn Archives Dorsey page pre-merge. Classified direct_training per the v17_b2 apprenticeship rule: named private pupillage with a personal preceptor."
+    "evidence_citation": "PMID: 12677156",
+    "evidence_type": "PMID",
+    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/12677156/",
+    "confidence": "high",
+    "notes": "route: 13_pre_halsted [Verified 2026-07-26 | Ann Surg 2003 | content_match] John Syng Dorsey (1783-1818), Physick's nephew, began the study of medicine under him at age fifteen (1798), assisting in his practice, and took his Penn MD in 1802 before sailing for Europe in November 1803. Smythe (Ann Surg 2003;237:580-590, PMID 12677156) documents the pupillage and Physick's first-chair status directly; concordant: Kelly & Burrage, American Medical Biographies (1920), Dorsey entry, which supplies the age-fifteen start. Dorsey served as adjunct professor of surgery from 1807 to assist Physick, compiled Physick's teachings into Elements of Surgery (1813, the first American surgical textbook), was elected to the anatomy chair in 1818 and died weeks later. Classified direct_training per the v17_b2 apprenticeship rule. [V17-B3: evidence upgraded institutional_archive -> PMID and dates confirmed; VERIFY_DATES debt cleared.]"
   },
   {
     "source_node": "John Bell",
@@ -434,5 +434,20 @@
     "evidence_locator": "Kelly HA, Burrage WL. American Medical Biographies (Norman, Remington, 1920), entry: Bigelow, Henry Jacob; via Wikisource. Concordant: Harvard University Portrait Collection record ('Professor of Surgery 1849-1882')",
     "confidence": "high",
     "notes": "route: 13_pre_halsted Henry Jacob Bigelow (1818-1890) became professor of surgery at Harvard in 1849 and held the chair until 1882 (emeritus), resigning as MGH visiting surgeon in 1886; author of the 1846 ether report and the first American hip-joint excision (1852). Two concordant archival sources state the 1849-1882 chair directly. A 2022 biographical article on Bigelow failed citation-mcp bibliographic verification (title-match below floor across four databases) and is NOT cited; per the never-fabricate rule the edge rests on institutional_archive. His pupillage (medical study begun under his father Jacob Bigelow, a physician not surgeon, plus Paris study) does not meet the surgical-preceptor bar; Bigelow enters without an in-edge."
+  },
+  {
+    "source_node": "John B. Owen",
+    "source_node_type": "person",
+    "target_node": "William Gibson",
+    "target_node_type": "person",
+    "edge_type": "direct_training",
+    "start_year": 1805,
+    "end_year": 1806,
+    "temporal_range": "1805-1806",
+    "evidence_citation": "Penn_Archives_Gibson",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "University of Pennsylvania Archives, Penn People biography: William Gibson (archives.upenn.edu/exhibits/penn-people/biography/william-gibson)",
+    "confidence": "high",
+    "notes": "route: 13_pre_halsted Per the Penn Archives Gibson biography (verbatim, confirmed at the V17-B2 Step 0 read): 'In 1805 Gibson began his study of medicine in the office of John B. Owen in Baltimore. During the following year, he attended a course of lectures at the University of Pennsylvania Medical School.' Documented office pupillage under a named preceptor = direct_training per the v17_b2 apprenticeship rule. Logged as a v17_b3 candidate in the V17-B2 final report and authored here. Seats Gibson's earliest preceptorship upstream of his Physick lecture attendance (1806) and John Bell pupillage (1806-1809), both already in this module."
   }
 ]

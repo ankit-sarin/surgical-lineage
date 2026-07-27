@@ -3598,5 +3598,13 @@
     "label_short": "",
     "label_short_source": "stub_pending_adjudication",
     "reviewed": false
+  },
+  {
+    "id": "John B. Owen",
+    "type": "person",
+    "degree": 1,
+    "label_short": "",
+    "label_short_source": "stub_pending_adjudication",
+    "reviewed": false
   }
 ]

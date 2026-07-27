@@ -654,22 +654,6 @@
     "module": "02_general_surgery_spread"
   },
   {
-    "source_node": "Johns Hopkins Hospital Department of Surgery",
-    "source_node_type": "institution",
-    "target_node": "Peter Safar",
-    "target_node_type": "person",
-    "edge_type": "direct_training",
-    "start_year": 1954,
-    "end_year": 1955,
-    "temporal_range": "1954-1955",
-    "evidence_citation": "PMID: 35839834",
-    "evidence_type": "PMID",
-    "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/35839834/",
-    "confidence": "high",
-    "notes": "[Phase2 replaced PMID: 11153604 -> PMID: 35839834 on 2026-03-17] [Verified 2026-03-17 | Anesth Analg 2022 | content_match] Safar completed anesthesiology training and clinical work at Hopkins, connecting the genesis of modern critical care to the Halstedian root.",
-    "module": "02_general_surgery_spread"
-  },
-  {
     "source_node": "Joseph E. Murray",
     "source_node_type": "person",
     "target_node": "Peter Bent Brigham Hospital Renal Transplant Program",
