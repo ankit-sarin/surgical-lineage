@@ -1,0 +1,81 @@
+{
+  "version": "v17_b2",
+  "config": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/pipeline_config.json",
+  "inputs": {
+    "expansion": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b2_expansion.json",
+    "manifest_a": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b2_manifest_a.json",
+    "manifest_b": "/Users/asarin/Library/CloudStorage/Dropbox/PROJECTS/@ STRIVE/2026 Surgical lineage/v17_b2_manifest_b.json"
+  },
+  "pre": {
+    "edges": 559,
+    "nodes": 429,
+    "institutional_parent": 49,
+    "by_edge_type": {
+      "institutional_founder": 98,
+      "direct_training": 129,
+      "residency_at": 5,
+      "governance_leadership": 166,
+      "institutional_succession": 18,
+      "society_founder": 61,
+      "observational_study": 9,
+      "programmatic_accreditation": 24,
+      "institutional_parent": 49
+    }
+  },
+  "delta": {
+    "edges": 24,
+    "nodes": 21,
+    "institutional_parent": 0,
+    "by_edge_type": {
+      "institutional_succession": 1,
+      "observational_study": 0,
+      "society_founder": 0,
+      "programmatic_accreditation": 0,
+      "residency_at": 0,
+      "direct_training": 11,
+      "governance_leadership": 9,
+      "institutional_founder": 3,
+      "institutional_parent": 0
+    }
+  },
+  "inserted_by_type": {
+    "direct_training": 10,
+    "observational_study": 1,
+    "institutional_founder": 3,
+    "governance_leadership": 9,
+    "institutional_succession": 1
+  },
+  "inserted_by_module": {
+    "13_pre_halsted.json": 24
+  },
+  "new_nodes": [
+    "Astley Cooper",
+    "College of Physicians and Surgeons",
+    "D. Hayes Agnew",
+    "Harvard Medical School",
+    "Henry Hollingsworth Smith",
+    "Henry Jacob Bigelow",
+    "John Bell",
+    "John Collins Warren",
+    "John Sheldon",
+    "John Syng Dorsey",
+    "John Warren",
+    "Jonathan Mason Warren",
+    "Joseph K. Swift",
+    "Joseph Pancoast",
+    "Richard Bayley",
+    "Thomas Dent Mutter",
+    "Valentine Mott",
+    "Valentine Seaman",
+    "Willard Parker",
+    "William Gibson",
+    "Wright Post"
+  ],
+  "new_node_count": 21,
+  "manifest_ops": {
+    "a_modify_fields": 1,
+    "b_delete": 0,
+    "b_reverse_retarget": 0,
+    "b_reclassify": 1
+  }
+}
