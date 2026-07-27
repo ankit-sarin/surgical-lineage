@@ -37,9 +37,9 @@
     "label_node_parity": true
   },
   "component_report": {
-    "_comment": "single_component was DEMOTED from a blocking invariant to a reported metric (V17-INVARIANT). It was being satisfied only by three miscoded institution->person direct_training edges acting as sole bridges for small islands (Yale 3-node, the ABEA pair, a Society of University Surgeons pair) — edges that actually encode degree attainment, not training — so enforcing connectivity created standing pressure to author false edges. Connectivity is now REPORTED with a threshold alert, never blocking. Values updated by the V17-B1 merge to the post-merge steady state: 4 components (giant 422 + three intentional islands: Yale 3, ABEA 2, Society of University Surgeons 2), largest island 3.",
-    "expected_components": 4,
-    "max_island_size": 3
+    "_comment": "single_component was DEMOTED from a blocking invariant to a reported metric (V17-INVARIANT). It was being satisfied only by miscoded institution->person direct_training edges acting as sole bridges for small islands — edges that actually encode degree attainment or, in the Safar case, training in another specialty — so enforcing connectivity created standing pressure to keep or author false edges. Connectivity is now REPORTED with a threshold alert, never blocking. Retuned by V17-B3, whose deletion of the JHH Dept of Surgery -> Peter Safar direct_training edge (anesthesiology, failed content-match, retired institution-endpoint class) intentionally stranded the critical-care island — the demotion working as designed. Post-V17-B3 steady state: 6 components (giant 437 + five honest islands: critical care 4 [Peter Safar, Baltimore City Hospital Intensive Care Unit, Society of Critical Care Medicine, William Shoemaker], Yale 3, pre-Halsted New York 3 [John Sheldon, Richard Bayley, Wright Post], ABEA 2, Society of University Surgeons 2), largest island 4.",
+    "expected_components": 6,
+    "max_island_size": 4
   },
   "name_pair_whitelist": [
     {
