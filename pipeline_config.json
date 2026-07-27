@@ -48,6 +48,41 @@
         "VA National Surgical Quality Improvement Program"
       ],
       "reason": "distinct entities: VA NSQIP 1991–2001 (Khuri) vs ACS NSQIP 2004– (Ko/Flum); linked by an explicit institutional_succession edge"
+    },
+    {
+      "pair": [
+        "John Bell",
+        "H. Glenn Bell"
+      ],
+      "reason": "distinct persons: John Bell (1763–1820), Edinburgh surgeon-anatomist and preceptor of William Gibson, vs H. Glenn Bell, 20th-century American surgeon; shared surname only"
+    },
+    {
+      "pair": [
+        "John Warren",
+        "John Collins Warren"
+      ],
+      "reason": "distinct persons: John Warren (1753–1815), founder of Harvard Medical School, and his son John Collins Warren (1778–1856); father and son, linked by an explicit direct_training edge"
+    },
+    {
+      "pair": [
+        "John Collins Warren",
+        "Jonathan Mason Warren"
+      ],
+      "reason": "distinct persons: John Collins Warren (1778–1856) and his son Jonathan Mason Warren (1811–1867); father and son, linked by an explicit direct_training edge"
+    },
+    {
+      "pair": [
+        "John Warren",
+        "Jonathan Mason Warren"
+      ],
+      "reason": "distinct persons: John Warren (1753–1815) and his grandson Jonathan Mason Warren (1811–1867); first and third generations of the Warren line"
+    },
+    {
+      "pair": [
+        "Valentine Mott",
+        "Valentine Seaman"
+      ],
+      "reason": "distinct persons: Valentine Mott (1785–1865) and his kinsman-preceptor Valentine Seaman (1770–1817); shared given name only, linked by an explicit direct_training edge"
     }
   ]
 }
