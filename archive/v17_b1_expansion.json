@@ -1,0 +1,17 @@
+[
+  {
+    "source_node": "Dean DeWitt Lewis",
+    "source_node_type": "person",
+    "target_node": "Johns Hopkins Hospital Department of Surgery",
+    "target_node_type": "institution",
+    "edge_type": "governance_leadership",
+    "start_year": 1925,
+    "end_year": 1939,
+    "temporal_range": "1925-1939",
+    "evidence_citation": "JHM_Dept_Surgery_History_Lewis",
+    "evidence_type": "institutional_archive",
+    "evidence_locator": "https://medicalarchives.jhmi.edu/portrait/lewis-dean-dewitt/",
+    "confidence": "high",
+    "notes": "route: 12_governance_societies Dean DeWitt Lewis succeeded William Stewart Halsted as professor of surgery and surgeon-in-chief at Johns Hopkins, serving until his retirement in 1939. He is the second of the department's chairs and closes the post-Halsted leadership gap between Halsted (d. September 1922) and Alfred Blalock (from 1941). Governance bar satisfied: documented surgeon-in-chief / professor-of-surgery appointment, not an administrative dean/VC title. Corroborating locator: the Johns Hopkins Department of Surgery history page, which names the post-Halsted chair succession as Lewis, Blalock, Zuidema, Cameron, Freischlag, Higgins. Independent corroboration: Hoopes JE, 'Letter from America: Hopkins reunion,' J Plast Reconstr Aesthet Surg (S1748-6815(09)00803-1), which names the first three chairmen of surgery at Hopkins as Halsted, Dean Lewis and Alfred Blalock. Tenure dates verified 2026-07-25 against the Alan Mason Chesney Medical Archives portrait record for Dean DeWitt Lewis (the evidence_locator), which states that Johns Hopkins recruited Lewis to succeed William S. Halsted as professor of surgery and surgeon-in-chief and that he held the post until his retirement in 1939; the 1925 start is consistent with the record's account of his 1925 departure from Rush. No upstream training edge is authored: Lewis took his MD at Rush (1899) and studied anatomy at Leipzig under Spalteholz, an anatomist rather than a surgical program director, so no endpoint satisfies the direct_training bar. Lewis therefore enters the person-to-person lineage projection as a trunk root."
+  }
+]

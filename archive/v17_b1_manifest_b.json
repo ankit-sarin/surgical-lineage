@@ -1,0 +1,128 @@
+{
+  "manifest_id": "v17_b1_manifest_b_institution_sourced_training",
+  "manifest_type": "edge_semantic_ops",
+  "description": "Resolves the institution-endpoint direct_training class. Three edges encode degree attainment (matriculation to MD) rather than a training relationship and are deleted; two encode genuine post-graduate training under a named but structurally untitled preceptor and are flipped to person-to-institution residency_at with the preceptor-untitled reason token. Deleting the three degree edges disconnects three small islands (Yale 3 nodes, ABEA 2 nodes, Society of University Surgeons 2 nodes); this is intended and the single_component invariant is demoted to a reported metric in the preceding tooling commit. Safar and Hart are deliberately NOT touched by this manifest and remain held.",
+  "operations": [
+    {
+      "op": "delete",
+      "module": "01_halsted_core.json",
+      "match": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "Warfield Firor",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1917,
+        "end_year": 1921,
+        "temporal_range": "1917-1921",
+        "evidence_citation": "PMID: 12984268",
+        "evidence_type": "PMID",
+        "confidence": "high"
+      },
+      "reason": "Degree span, not a training relationship: 1917 is Firor's A&S degree and 1921 his MD. His surgical residency began after the 1921 MD, i.e. after Halsted's death in September 1922, so the edge cannot be re-attributed to Halsted either. The edge also carries an unresolved [VERIFY_NAMES] flag: the Carter 1952 citation (PMID 12984268) was applied in Phase 2 without confirming Firor appears in Carter's enumeration, and Firor is absent from Halsted's ten documented in-graph trainees. Firor's own governance and society edges are unaffected."
+    },
+    {
+      "op": "delete",
+      "module": "02_general_surgery_spread.json",
+      "match": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "Joseph Marshall Flint",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1896,
+        "end_year": 1900,
+        "temporal_range": "1896-1900",
+        "evidence_citation": "PMID: 373268",
+        "evidence_type": "PMID",
+        "confidence": "moderate"
+      },
+      "reason": "Degree span, not a training relationship: 1896-1900 is Flint's medical school ending in a Hopkins MD. The edge's own notes disclaim the training reading, recording that Flint was primarily trained as an anatomist rather than a Halsted surgical resident and that his surgical formation came later through self-directed study and a 1906 European sabbatical; confidence was already 'moderate' for this reason. The edge was authored as a BRIDGE EDGE to attach the Yale island, which is a connectivity motive rather than an evidentiary one."
+    },
+    {
+      "op": "delete",
+      "module": "08_subspecialties.json",
+      "match": {
+        "source_node": "Jefferson Medical College Department of Surgery",
+        "target_node": "Chevalier Jackson",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1884,
+        "end_year": 1886,
+        "temporal_range": "1884-1886",
+        "evidence_citation": "PMID: 37439820",
+        "evidence_type": "PMID",
+        "confidence": "high"
+      },
+      "reason": "Degree span, not a training relationship: Jackson enrolled at Jefferson in 1884 and received his MD in 1886. Also authored as a BRIDGE EDGE to merge the Jackson/ABEA island. Jackson sits in the era when medical school was the formal training, so the era-appropriate representation is a documented person-to-person preceptor edge; that is a research task for the pre-Halsted batch, not a reason to retain an institution-sourced direct_training edge now."
+    },
+    {
+      "op": "reverse_retarget",
+      "module": "01_halsted_core.json",
+      "match": {
+        "source_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node": "Arthur Blakemore",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1922,
+        "end_year": 1926,
+        "temporal_range": "1922-1926",
+        "evidence_citation": "JHM_Archive_Blakemore",
+        "evidence_type": "institutional_archive"
+      },
+      "set": {
+        "source_node": "Arthur Blakemore",
+        "source_node_type": "person",
+        "target_node": "Johns Hopkins Hospital Department of Surgery",
+        "target_node_type": "institution",
+        "edge_type": "residency_at",
+        "evidence_citation": "PMID: 25449007",
+        "evidence_type": "PMID",
+        "evidence_locator": "https://pubmed.ncbi.nlm.nih.gov/25449007/",
+        "confidence": "high",
+        "notes": "Structured program completion. [residency_at_reason: preceptor-untitled] Blakemore's residency began at Johns Hopkins in 1922, the year of Halsted's death, and continued at Henry Ford Hospital (Detroit) and Roosevelt Hospital (New York). Vaughan A, Nagendran M, Cohen S. 'Arthur Hendley Blakemore's life and contributions to vascular surgery.' J Vasc Surg. 2014 (PMID 25449007) records that in New York he trained under Dr Richard H. Derby, described only as a notable surgeon; no chair, chief, program-director or associate-program-director title is documented for Derby in that source or in the Roosevelt Hospital surgical leadership record for the period, which names McBurney and subsequently Weir and Bull. The preceptor is therefore identified by name but structurally untitled, which is the preceptor-untitled case and not director-unidentified. No person-to-person direct_training edge is authored: Carter 1952 covers Halsted appointees only and cannot name Blakemore, and the prior edge's own notes conceded he likely trained under post-Halsted leadership. Citation upgraded institutional_archive -> PMID as part of this conversion."
+      },
+      "preserve": ["start_year", "end_year", "temporal_range"],
+      "reason": "Genuine post-graduate training at an institution with a named but untitled preceptor. Direction flipped to person-to-institution and type changed to residency_at, which excludes it from the lineage projection predicate without discarding the documented fact."
+    },
+    {
+      "op": "reverse_retarget",
+      "module": "08_subspecialties.json",
+      "match": {
+        "source_node": "Lahey Clinic",
+        "target_node": "Victor W. Fazio",
+        "edge_type": "direct_training"
+      },
+      "expected_existing": {
+        "source_node_type": "institution",
+        "target_node_type": "person",
+        "start_year": 1972,
+        "end_year": 1973,
+        "temporal_range": "1972-1973",
+        "evidence_citation": "CCF_Encyclopedia_Fazio",
+        "evidence_type": "institutional_archive"
+      },
+      "set": {
+        "source_node": "Victor W. Fazio",
+        "source_node_type": "person",
+        "target_node": "Lahey Clinic",
+        "target_node_type": "institution",
+        "edge_type": "residency_at",
+        "confidence": "high",
+        "notes": "Structured program completion. [residency_at_reason: preceptor-untitled] Fazio spent 1972-1973 as a hepatobiliary fellow at the Lahey Clinic under Dr Kenneth W. Warren before moving to the Cleveland Clinic in 1973 to work with Rupert Turnbull. The Encyclopedia of Cleveland History record, corroborated independently by the RACS and RCS England obituaries, names Warren as the preceptor but documents no chair, chief or program-director title for him; the contemporaneous Lahey Clinic byline convention lists Warren as Surgeon while Richard B. Cattell holds the Director title, and no Warren chairmanship is confirmed for 1972. Named preceptor, no documented structural title: preceptor-untitled, not director-unidentified. Fazio's lineage attribution is unaffected because the person-to-person edge Rupert B. Turnbull -> Victor W. Fazio (1973, PMID 35731977) already exists and is the load-bearing training edge."
+      },
+      "preserve": ["start_year", "end_year", "temporal_range", "evidence_citation"],
+      "reason": "Genuine post-graduate fellowship with a named but untitled preceptor. Institutional_archive citation retained and preserved; only direction, node types, edge_type and notes change."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "manifest_id": "v17_b1_manifest_a_noop",
+  "manifest_type": "edge_modify_fields",
+  "target_module": "01_halsted_core.json",
+  "description": "No-op. V17-B1 contains no field-only modifications; all mutations are semantic (delete / reverse_retarget) and live in Manifest B. phase_i requires both --manifest-a and --manifest-b, so this empty manifest is supplied per standing convention.",
+  "operations": []
+}
