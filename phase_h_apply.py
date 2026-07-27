@@ -18,6 +18,7 @@ There are NO hardcoded version constants in this file. The legacy v10_retrofit_r
 emission is retired (its still-useful figures are folded into the diagnostic audit report).
 """
 import argparse
+import hashlib
 import json
 import sys
 from collections import Counter, defaultdict
@@ -173,6 +174,13 @@ def main():
 
     all_edges, module_counts = regen_canonical(cfg["_modules_dir"], cfg["_canonical"])
     stats = graph_stats(all_edges)
+
+    # T1.1 — fill in the post hash phase_i could not know. phase_i writes canonical_sha256_pre
+    # and leaves canonical_sha256_post null (a record still holding null post = a pipeline that
+    # aborted between phases); the canonical has just been regenerated, so hash it and write the
+    # record back, preserving pre and every other field.
+    rec["canonical_sha256_post"] = hashlib.sha256(cfg["_canonical"].read_bytes()).hexdigest()
+    Path(args.run_record).write_text(json.dumps(rec, indent=2))
 
     # Derived expectations: expected_post = pre + delta (NO hardcoded baseline).
     exp_edges = pre["edges"] + delta["edges"]

@@ -20,6 +20,7 @@ The ONLY behavioural differences from v12_phase_i_merge.py:
 Run order (unchanged): batch insert -> Manifest A -> Manifest B.
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -35,7 +36,16 @@ def load_config(config_path):
     base = Path(config_path).resolve().parent
     cfg["_base"] = base
     cfg["_modules_dir"] = (base / cfg["paths"]["modules_dir"]).resolve()
+    cfg["_canonical"] = (base / cfg["paths"]["canonical"]).resolve()
     return cfg
+
+
+def sha256_file(path):
+    """Full 64-char hex digest of a file, or None if it does not exist."""
+    p = Path(path)
+    if not p.exists():
+        return None
+    return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
 def module_files(modules_dir):
@@ -269,6 +279,11 @@ def main():
     route_map = cfg["modules"]["route_map"]
     hard_type = cfg["modules"]["edge_type_contract"]
 
+    # T1.1 — hash the canonical BEFORE any mutation. phase_i only touches module files, so the
+    # canonical still holds the pre-merge state at this point; phase_h fills in the post hash
+    # after it regenerates the canonical (see the run-record note below).
+    canonical_sha_pre = sha256_file(cfg["_canonical"])
+
     files = module_files(modules_dir)
     pre_types = type_counts(files)
     pre_nodes = node_set(files)
@@ -301,6 +316,12 @@ def main():
     run_record = {
         "version": args.version,
         "config": str(Path(args.config).resolve()),
+        # T1.1 — canonical provenance. `_pre` is the canonical as it stood before this merge;
+        # `_post` is deliberately left null here and filled by phase_h once it has regenerated
+        # the canonical. A committed record with `_pre` populated and `_post` still null is
+        # therefore legible evidence of a pipeline that aborted between phase_i and phase_h.
+        "canonical_sha256_pre": canonical_sha_pre,
+        "canonical_sha256_post": None,
         "inputs": {
             "expansion": str(Path(args.expansion).resolve()),
             "manifest_a": str(Path(args.manifest_a).resolve()),
