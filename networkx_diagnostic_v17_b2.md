@@ -135,7 +135,7 @@ Full-graph tables annotate `node_type`: institution/society dominance is *why* m
 `G_train` = training edges (`direct_training`, `observational_study`) with **both endpoints person**: 168 nodes / 146 edges.
 Weakly-connected components: 27 total; 5 major (size ≥ 5, 5 components); 10 major trunk root(s) — all persons.
 
-> **Definitional fix (V13-DIAG-FIX).** The prior run filtered on edge_type alone, pulling 3 non-person training edges into the projection (chiefly institution→person `direct_training`) and seating institutions (Mayo/JHH/Howard/MSK departments) as trunk roots. Restricting to person↔person yields the correct **154 nodes / 24 weak components / 4 components ≥ 5**, with all trunk roots persons. Excluded edges enumerated in the REVIEW section.
+> **Definitional fix (V13-DIAG-FIX).** The prior run filtered on edge_type alone, pulling 3 non-person training edges into the projection (chiefly institution→person `direct_training`) and seating institutions (Mayo/JHH/Howard/MSK departments) as trunk roots. Restricting to person↔person yields the corrected projection reported directly above, with all trunk roots persons. (This note is deliberately count-free: it records a definitional fix, not a graph state, and its former hardcoded V13 counts went stale at every merge.) Excluded edges enumerated in the REVIEW section.
 
 ### Major trunk roots (components size ≥ threshold)
 
@@ -181,7 +181,7 @@ Weakly-connected components: 27 total; 5 major (size ≥ 5, 5 components); 10 ma
 
 ## 3 — Root-to-root geodesics (undirected, full graph)
 
-34 cross-trunk major-root pair(s). Unreachable: 0 (expected 0 given single component).
+34 cross-trunk major-root pair(s). Unreachable: 0 (expected 0: all major roots lie in the giant component; the full graph has 5 component(s)).
 
 ### Distance matrix
 
